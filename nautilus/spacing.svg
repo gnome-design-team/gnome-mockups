@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -642,8 +642,8 @@
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:zoom="1"
-     inkscape:cx="1115.9155"
-     inkscape:cy="451.23216"
+     inkscape:cx="657.18459"
+     inkscape:cy="449.32805"
      inkscape:window-x="-10"
      inkscape:window-y="18"
      inkscape:window-maximized="1"
@@ -707,7 +707,7 @@
        style="stroke:#ffffff;stroke-width:0.98029;stroke-opacity:1;display:inline">
       <path
          transform="matrix(1.0883884,0,0,1.0883884,-206.56739,-73.018261)"
-         d="m 1245.5686,238.5016 a 6.3639612,6.3639612 0 1 1 -12.728,0 6.3639612,6.3639612 0 1 1 12.728,0 z"
+         d="m 1245.5686,238.5016 c 0,3.51472 -2.8493,6.36396 -6.364,6.36396 -3.5147,0 -6.364,-2.84924 -6.364,-6.36396 0,-3.51472 2.8493,-6.36396 6.364,-6.36396 3.5147,0 6.364,2.84924 6.364,6.36396 z"
          sodipodi:ry="6.3639612"
          sodipodi:rx="6.3639612"
          sodipodi:cy="238.5016"
@@ -728,7 +728,7 @@
        style="stroke:#2d2d2d;stroke-width:0.98029;stroke-opacity:1;display:inline">
       <path
          transform="matrix(1.0883884,0,0,1.0883884,-206.56739,-73.018261)"
-         d="m 1245.5686,238.5016 a 6.3639612,6.3639612 0 1 1 -12.728,0 6.3639612,6.3639612 0 1 1 12.728,0 z"
+         d="m 1245.5686,238.5016 c 0,3.51472 -2.8493,6.36396 -6.364,6.36396 -3.5147,0 -6.364,-2.84924 -6.364,-6.36396 0,-3.51472 2.8493,-6.36396 6.364,-6.36396 3.5147,0 6.364,2.84924 6.364,6.36396 z"
          sodipodi:ry="6.3639612"
          sodipodi:rx="6.3639612"
          sodipodi:cy="238.5016"
@@ -854,7 +854,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="matrix(1.0883884,0,0,1.0883884,-206.56739,-73.018261)"
-         d="m 1245.5686,238.5016 a 6.3639612,6.3639612 0 1 1 -12.728,0 6.3639612,6.3639612 0 1 1 12.728,0 z"
+         d="m 1245.5686,238.5016 c 0,3.51472 -2.8493,6.36396 -6.364,6.36396 -3.5147,0 -6.364,-2.84924 -6.364,-6.36396 0,-3.51472 2.8493,-6.36396 6.364,-6.36396 3.5147,0 6.364,2.84924 6.364,6.36396 z"
          sodipodi:ry="6.3639612"
          sodipodi:rx="6.3639612"
          sodipodi:cy="238.5016"
@@ -878,7 +878,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="matrix(1.0883884,0,0,1.0883884,-206.56739,-73.018261)"
-         d="m 1245.5686,238.5016 a 6.3639612,6.3639612 0 1 1 -12.728,0 6.3639612,6.3639612 0 1 1 12.728,0 z"
+         d="m 1245.5686,238.5016 c 0,3.51472 -2.8493,6.36396 -6.364,6.36396 -3.5147,0 -6.364,-2.84924 -6.364,-6.36396 0,-3.51472 2.8493,-6.36396 6.364,-6.36396 3.5147,0 6.364,2.84924 6.364,6.36396 z"
          sodipodi:ry="6.3639612"
          sodipodi:rx="6.3639612"
          sodipodi:cy="238.5016"
@@ -970,15 +970,6 @@
        width="340.00003"
        id="rect5042-1-7"
        style="color:#bebebe;fill:none;stroke:url(#linearGradient3295-4);stroke-width:0.99999982;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       inkscape:export-filename="/home/lapo/SparkleShare/gnome-mockups/nautilus/pathbar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:nodetypes="ccc"
-       inkscape:connector-curvature="0"
-       id="path5054-9"
-       d="m 410.8127,453 -3,-3 3,-3"
-       style="fill:none;stroke:#555753;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        inkscape:export-filename="/home/lapo/SparkleShare/gnome-mockups/nautilus/pathbar.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
@@ -1337,6 +1328,20 @@
          x="457"
          id="tspan5058-0-3-4"
          sodipodi:role="line">lapo</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5056-2-5-9"
+       y="386"
+       x="403.73279"
+       style="font-size:14.39999962px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"
+       inkscape:export-filename="/home/lapo/SparkleShare/gnome-mockups/nautilus/pathbar.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="386"
+         x="403.73279"
+         id="tspan5058-0-5-8"
+         sodipodi:role="line">… </tspan></text>
     <rect
        ry="1.4685364"
        rx="1.4685365"
@@ -1346,15 +1351,6 @@
        width="340.00003"
        id="rect5042-1-7-0"
        style="color:#bebebe;fill:none;stroke:url(#linearGradient3295-4-4);stroke-width:0.99999982;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       inkscape:export-filename="/home/lapo/SparkleShare/gnome-mockups/nautilus/pathbar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:nodetypes="ccc"
-       inkscape:connector-curvature="0"
-       id="path5054-9-8"
-       d="m 410.8127,383 -3,-3 3,-3"
-       style="fill:none;stroke:#555753;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        inkscape:export-filename="/home/lapo/SparkleShare/gnome-mockups/nautilus/pathbar.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
@@ -1387,16 +1383,16 @@
        sodipodi:linespacing="125%"
        id="text5056-2-5"
        y="385"
-       x="457"
+       x="403.73279"
        style="font-size:14.39999962px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        xml:space="preserve"
        inkscape:export-filename="/home/lapo/SparkleShare/gnome-mockups/nautilus/pathbar.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          y="385"
-         x="457"
+         x="403.73279"
          id="tspan5058-0-5"
-         sodipodi:role="line">lapo</tspan></text>
+         sodipodi:role="line">… </tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5060-2-4-5"
@@ -1536,6 +1532,48 @@
        inkscape:export-filename="/home/lapo/SparkleShare/gnome-mockups/nautilus/pathbar.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5056-2-7-0-7"
+       y="385"
+       x="457"
+       style="font-size:14.39999961999999911px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"
+       inkscape:export-filename="/home/lapo/SparkleShare/gnome-mockups/nautilus/pathbar.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="385"
+         x="457"
+         id="tspan5058-0-3-4-2"
+         sodipodi:role="line">lapo</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5056-2-5-9-0"
+       y="456"
+       x="403.73279"
+       style="font-size:14.39999962px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"
+       inkscape:export-filename="/home/lapo/SparkleShare/gnome-mockups/nautilus/pathbar.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="456"
+         x="403.73279"
+         id="tspan5058-0-5-8-3"
+         sodipodi:role="line">… </tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5056-2-5-0"
+       y="455"
+       x="403.73279"
+       style="font-size:14.39999962px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"
+       inkscape:export-filename="/home/lapo/SparkleShare/gnome-mockups/nautilus/pathbar.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="455"
+         x="403.73279"
+         id="tspan5058-0-5-4"
+         sodipodi:role="line">… </tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
