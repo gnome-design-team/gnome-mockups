@@ -604,6 +604,14 @@ GtkComboBox.combobox-entry .button:hover:active:nth-child(last) {
     box-shadow: 1 0 inset shade(@frame_color, 1.50);
 }
 
+.primary-toolbar GtkComboBox.combobox-entry .button:insensitive,
+GtkComboBox.combobox-entry .button:insensitive,
+.primary-toolbar GtkComboBox.combobox-entry .button:insensitive:nth-child(last),
+GtkComboBox.combobox-entry .button:insensitive:nth-child(last),
+    background-image: none;
+    box-shadow: 1 0 inset shade(@frame_color, 1.50);
+}
+
 .primary-toolbar GtkComboBox.combobox-entry .button:active:nth-child(first),
 .primary-toolbar GtkComboBox.combobox-entry .button:hover:active:nth-child(first),
 GtkComboBox.combobox-entry .button:active:nth-child(first),
