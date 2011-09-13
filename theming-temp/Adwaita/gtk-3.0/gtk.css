@@ -64,8 +64,8 @@
 @define-color button_hover_gradient_color_a @theme_base_color;
 @define-color button_hover_gradient_color_b shade (@button_gradient_color_a, 0.94);
 
-@define-color button_insensitive_gradient_color_a #cdd7cd;
-@define-color button_insensitive_gradient_color_b #d8e0d8;
+@define-color button_insensitive_gradient_color_a #d8e0d8;
+@define-color button_insensitive_gradient_color_b #cdd7cd;
 
 @define-color button_raised_gradient_color_a @button_gradient_color_a;
 @define-color button_raised_gradient_color_b @button_gradient_color_b;
