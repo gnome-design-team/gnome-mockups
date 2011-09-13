@@ -643,7 +643,8 @@ GtkComboBox.combobox-entry .button:hover:active:nth-child(first) {
 }
 
 .scrollbar.slider,
-.scrollbar.button {
+.scrollbar.button,
+.scrollbar.button:insensitive {
     background-image: none;
     background-color: @theme_base_color;
     border-color: @button_border;
