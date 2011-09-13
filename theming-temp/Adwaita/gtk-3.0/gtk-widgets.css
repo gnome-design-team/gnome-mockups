@@ -441,7 +441,7 @@ GtkScrolledWindow.frame {
     background-image: -gtk-gradient (linear,
     				     left top, left bottom,
                                      from (@button_insensitive_gradient_color_a),
-				     to (@button_insensitive_gradient_color_b);
+				     to (@button_insensitive_gradient_color_b));
 /*    background-image: none;
     background-color: @insensitive_bg_color;
     color: @insensitive_fg_color;
