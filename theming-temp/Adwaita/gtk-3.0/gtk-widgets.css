@@ -438,12 +438,12 @@ GtkScrolledWindow.frame {
 }
 
 .button:insensitive {
-    background-image: none;
+/*    background-image: none;
     background-color: @insensitive_bg_color;
     color: @insensitive_fg_color;
 
     border-image: none;
-    border-style: solid;
+    border-style: solid; */
 }
 
 .button.default {
