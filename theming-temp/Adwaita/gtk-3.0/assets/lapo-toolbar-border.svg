@@ -104,6 +104,36 @@
        id="linearGradient3808"
        xlink:href="#linearGradient3845-7"
        inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3837"
+       id="linearGradient3843"
+       x1="7.999999"
+       y1="1.92503"
+       x2="7.999999"
+       y2="14.003025"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient3837">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3839" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3841" />
+    </linearGradient>
+    <linearGradient
+       y2="14.003025"
+       x2="7.999999"
+       y1="1.92503"
+       x1="7.999999"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3009"
+       xlink:href="#linearGradient3837"
+       inkscape:collect="always"
+       gradientTransform="matrix(0.84615377,0,0,0.91666667,1.2307699,1.125)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -112,11 +142,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.313708"
-     inkscape:cx="14.161741"
-     inkscape:cy="15.871635"
+     inkscape:zoom="45.254832"
+     inkscape:cx="13.872504"
+     inkscape:cy="12.928611"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:window-width="1920"
@@ -127,7 +157,8 @@
      inkscape:snap-nodes="false"
      inkscape:snap-bbox="true"
      inkscape:showpageshadow="false"
-     showborder="false">
+     showborder="false"
+     inkscape:bbox-paths="false">
     <inkscape:grid
        type="xygrid"
        id="grid2992"
@@ -170,5 +201,14 @@
        width="13"
        id="rect17861"
        style="color:#000000;fill:none;stroke:url(#linearGradient3851);stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       ry="1.5"
+       rx="1.5"
+       y="2.5"
+       x="2.5000005"
+       height="11"
+       width="11"
+       id="rect17861-6"
+       style="opacity:0.8;color:#000000;fill:none;stroke:url(#linearGradient3009);stroke-width:0.99999994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   </g>
 </svg>
