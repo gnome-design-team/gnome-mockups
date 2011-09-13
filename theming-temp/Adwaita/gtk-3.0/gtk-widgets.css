@@ -1179,16 +1179,16 @@ GtkPathBar .button:active:nth-child(last) {
 
 /* setup shadows */
 .inline-toolbar.toolbar .button {
-    /* padding: 1; */
+    padding: 1;
     icon-shadow: 0 1 @theme_base_color;
 
-    /* border-image: none; I wand these buttons to be treated like raised buttons*/
+    /* border-image: none; I want these buttons to be treated like raised buttons*/
     border-color: shade(@button_border, 0.95);
     border-radius: 0;
     border-width: 1 0 1 1;
     border-style: solid;
 
-    box-shadow: inset 1 1 alpha(@theme_base_color, 0.50);
+    /* box-shadow: inset 1 1 alpha(@theme_base_color, 0.50); I don't want this one*/
 }
 
 .inline-toolbar.toolbar .button:insensitive {
