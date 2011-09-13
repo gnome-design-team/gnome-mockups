@@ -269,7 +269,7 @@ GtkScale.scale-has-marks-below.slider.vertical:insensitive {
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button,
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button:insensitive,
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button:active,
-.inline-toolbar.toolbar GtkToolButton:nth-child(first) .button:active:hover, {
+.inline-toolbar.toolbar GtkToolButton:nth-child(first) .button:active:hover {
     border-image-slice: 4;
     border-image-width: 4 0 4 4;
     border-image-repeat: streatch;
