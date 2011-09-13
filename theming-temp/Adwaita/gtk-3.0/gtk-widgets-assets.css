@@ -252,12 +252,15 @@ GtkScale.scale-has-marks-below.slider.vertical:insensitive {
 
 /* FIXME - inline toolbar buttons - these need to be aggregated to linked buttons */
 
-.inline-toolbar.toolbar .button {
+.inline-toolbar.toolbar .button,
+.inline-toolbar.toolbar GtkToolButton .button {
     border-image: url("assets/lapo-toolbar-border-hilight.svg") 4 / 4 stretch;
 }
 
 .inline-toolbar.toolbar .button:active,
-.inline-toolbar.toolbar .button:insensitive {
+.inline-toolbar.toolbar GtkToolButton .button:active,
+.inline-toolbar.toolbar .button:insensitive,
+.inline-toolbar.toolbar GtkToolButton .button:insensitive {
     border-image: url("assets/lapo-toolbar-border.svg") 4 / 4 stretch;
 }
 
