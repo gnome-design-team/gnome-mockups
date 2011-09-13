@@ -1182,7 +1182,7 @@ GtkPathBar .button:active:nth-child(last) {
     padding: 1;
     icon-shadow: 0 1 @theme_base_color;
 
-    border-image: none;
+    /* border-image: none; */
     border-color: shade(@button_border, 0.95);
     border-radius: 0;
     border-width: 1 0 1 1;
