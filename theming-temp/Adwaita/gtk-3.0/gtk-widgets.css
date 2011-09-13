@@ -1173,7 +1173,7 @@ GtkPathBar .button:active:nth-child(last) {
 }
 
 .inline-toolbar.toolbar:nth-child(last) {
-    border-width: 0 1 1 1;
+    border-width: 0;
     border-radius: 0 0 3 3;
 }
 
