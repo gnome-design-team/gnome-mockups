@@ -255,13 +255,17 @@ GtkScale.scale-has-marks-below.slider.vertical:insensitive {
 .inline-toolbar.toolbar .button:nth-child(first),
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button,
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button:insensitive {
-    border-image: url("assets/lapo-toolbar-border-hilight.svg") 4 / 4 0 4 4 stretch;
+    border-image-slice: 4;
+    border-image-width: 4 4 4 0;
+    border-image-repeat: streatch;
 }
 
 .inline-toolbar.toolbar .button:nth-child(last),
 .inline-toolbar.toolbar GtkToolButton:nth-child(last) .button,
 .inline-toolbar.toolbar GtkToolButton:nth-child(last) .button:insensitive {
-    border-image: url("assets/lapo-toolbar-border-hilight.svg") 4 / 4 4 4 0 stretch;
+    border-image-slice: 4;
+    border-image-width: 4 4 4 0;
+    border-image-repeat: streatch;
 }
 
 
