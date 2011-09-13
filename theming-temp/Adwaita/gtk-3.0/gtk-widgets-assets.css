@@ -139,7 +139,8 @@ GtkScale.trough.vertical {
 
 GtkSwitch.trough:active,
 GtkScale.progressbar.horizontal {
-    border-image: url("assets/trough-active-border-horizontal.svg") 3 / 3 stretch;
+    /* border-image: url("assets/trough-active-border-horizontal.svg") 3 / 3 stretch; */
+    border-image: url("assets/lapo-border.svg") 3 / 3 stretch;
 }
 
 GtkScale.progressbar.vertical {
