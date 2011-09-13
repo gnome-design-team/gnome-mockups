@@ -244,7 +244,7 @@ GtkComboBox.combobox-entry .button:prelight,
                                      to (@progressbar_background_b));
 
     border-radius: 3;
-    border-width: 2;
+    border-width: 1 1 2 1;
     border-style: none;
     /* border-image defined in the -assets variant */
 
