@@ -1192,8 +1192,8 @@ GtkPathBar .button:active:nth-child(last) {
 }
 
 .inline-toolbar.toolbar .button:insensitive {
-    border-color: shade(@button_border, 0.95);
-    box-shadow: none;
+/*    border-color: shade(@button_border, 0.95);
+    box-shadow: none; */
 
     background-color: alpha(@theme_base_color, 0.0);
     background-image: none;
