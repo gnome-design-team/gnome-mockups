@@ -64,9 +64,6 @@
 @define-color button_hover_gradient_color_a @theme_base_color;
 @define-color button_hover_gradient_color_b shade (@button_gradient_color_a, 0.94);
 
-@define-color button_insensitive_gradient_color_a #d8e0d8;
-@define-color button_insensitive_gradient_color_b #cdd7cd;
-
 @define-color button_raised_gradient_color_a @button_gradient_color_a;
 @define-color button_raised_gradient_color_b @button_gradient_color_b;
 @define-color button_raised_linked_shadow alpha(@theme_base_color, 0.70);
@@ -74,7 +71,8 @@
 @define-color button_raised_active_gradient_color_a @button_active_gradient_color_a;
 @define-color button_raised_active_gradient_color_b alpha(@button_active_gradient_color_b, 0.13);
 
-@define-color insensitive_bg_color #f4f4f2;
+/* @define-color insensitive_bg_color #f4f4f2; */
+@define-color insensitive_bg_color #cdd7cd;
 @define-color insensitive_fg_color #a7aba7;
 @define-color insensitive_border_color shade (@internal_element_color, 1.37);
 
