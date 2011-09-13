@@ -256,6 +256,10 @@ GtkScale.scale-has-marks-below.slider.vertical:insensitive {
     border-image: url("assets/lapo-toolbar-border-hilight.svg") 4 / 4 stretch;
 }
 
+.inline-toolbar.toolbar .button:active {
+    border-image: url("assets/lapo-toolbar-border.svg") 4 / 4 stretch;
+}
+
 .inline-toolbar.toolbar .button:nth-child(first),
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button,
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button:insensitive,
