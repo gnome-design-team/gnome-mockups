@@ -252,6 +252,10 @@ GtkScale.scale-has-marks-below.slider.vertical:insensitive {
 
 /* FIXME - inline toolbar buttons - these need to be aggregated to linked buttons */
 
+.inline-toolbar.toolbar .button {
+	border-image-source: url("assets/lapo-toolbar-border-hilight.svg");
+}
+
 .inline-toolbar.toolbar .button:nth-child(first),
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button,
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button:insensitive,
