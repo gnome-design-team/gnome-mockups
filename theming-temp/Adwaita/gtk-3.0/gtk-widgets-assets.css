@@ -276,13 +276,14 @@ GtkScale.scale-has-marks-below.slider.vertical:insensitive {
 }
 
 .inline-toolbar.toolbar .button:nth-child(last),
-.inline-toolbar.toolbar GtkToolButton:nth-child(last) .button,
+.inline-toolbar.toolbar GtkToolButton:nth-child(last) .button {
+    border-image: url("assets/lapo-toolbar-border-hilight-last.svg") 4 4 4 1 / 4 4 4 1 stretch;
+}
+
 .inline-toolbar.toolbar GtkToolButton:nth-child(last) .button:insensitive,
 .inline-toolbar.toolbar GtkToolButton:nth-child(last) .button:active,
 .inline-toolbar.toolbar GtkToolButton:nth-child(last) .button:active:hover {
-    border-image-slice: 4;
-    border-image-width: 4 4 4 0;
-    border-image-repeat: streatch;
+    border-image: url("assets/lapo-toolbar-border-last.svg") 4 4 4 1 / 4 4 4 1 stretch;
 }
 
 
