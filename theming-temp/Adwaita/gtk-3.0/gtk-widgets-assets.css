@@ -258,6 +258,7 @@ GtkScale.scale-has-marks-below.slider.vertical:insensitive {
 }
 
 .inline-toolbar.toolbar .button:active,
+.inline-toolbar.toolbar .button:active:hover,
 .inline-toolbar.toolbar GtkToolButton .button:active,
 .inline-toolbar.toolbar .button:insensitive,
 .inline-toolbar.toolbar GtkToolButton .button:insensitive {
