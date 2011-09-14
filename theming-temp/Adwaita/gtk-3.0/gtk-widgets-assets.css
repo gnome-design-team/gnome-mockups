@@ -147,6 +147,7 @@ GtkScale.progressbar.vertical {
     border-image: url("assets/trough-active-border-vertical.svg") 3 / 3 stretch;
 }
 
+/* we don't really need border-images here
 GtkSwitch.slider {
     border-image: url("assets/switch-slider-border.svg") 3 / 3 stretch;
 }
@@ -154,6 +155,7 @@ GtkSwitch.slider {
 GtkSwitch.slider:active {
     border-image: url("assets/switch-slider-active-border.svg") 3 / 3 stretch;
 }
+*/
 
 .progressbar,
 .entry.progressbar,
