@@ -1293,7 +1293,6 @@ GtkSwitch.trough {
                                      left top, left bottom,
                                      from (@trough_bg_color_a),
                                      to (@trough_bg_color_b));
-    padding: 0 0 10 0;
 }
 
 GtkSwitch.trough:active {
@@ -1318,7 +1317,7 @@ GtkSwitch.slider {
     border-style: none;
     /* border-image defined in -assets variant */
 
-    padding: 2;
+    padding: 2 2 3 2;
 
     background-image: -gtk-gradient (linear,
                                      left top, left bottom,
