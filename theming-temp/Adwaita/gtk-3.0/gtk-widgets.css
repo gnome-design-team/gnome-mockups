@@ -273,7 +273,7 @@ GtkComboBox.combobox-entry .button:prelight,
 /* through component */
 GtkProgressBar,
 .trough row {
-    padding: 0;
+    padding: 0 0 1 0;
     -GtkProgressBar-xspacing: 22;
     -GtkProgressBar-yspacing: 22;
 }
