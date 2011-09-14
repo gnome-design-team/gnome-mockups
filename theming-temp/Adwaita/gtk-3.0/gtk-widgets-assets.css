@@ -130,7 +130,7 @@ GtkComboBox.combobox-entry .button:hover:active:nth-child(first) {
 GtkScale.trough,
 GtkSwitch.trough,
 GtkScale.trough.horizontal {
-    border-image: url("assets/trough-border-horizontal.svg") 3 / 3 stretch;
+/*    border-image: url("assets/trough-border-horizontal.svg") 3 / 3 stretch; */
 }
 
 GtkScale.trough.vertical {
