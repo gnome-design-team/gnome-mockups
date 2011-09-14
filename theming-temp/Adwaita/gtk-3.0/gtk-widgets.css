@@ -240,7 +240,7 @@ GtkComboBox.combobox-entry .button:prelight,
 .progressbar row:selected:focused {
     background-image: -gtk-gradient (linear,
                                      left top, left bottom,
-                                     from (@progressbar_background_a),
+                                     from (shade(@progressbar_background_a, 1.2)),
                                      color-stop (0.1, @progressbar_background_a),
                                      to (@progressbar_background_b));
 
