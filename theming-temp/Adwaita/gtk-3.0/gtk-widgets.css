@@ -1307,7 +1307,7 @@ GtkSwitch.trough:insensitive {
     background-image: none;
     background-color: shade (@theme_bg_color, 0.9);
 
-    border-image: none;
+    /* border-image: none; */
     border-style: solid;
 }
 
