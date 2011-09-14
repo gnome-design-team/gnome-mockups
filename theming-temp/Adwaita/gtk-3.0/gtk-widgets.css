@@ -959,6 +959,7 @@ GtkTreeMenu .menuitem * {
     background-image: none;
     background-color: alpha (@theme_base_color, 0.0);
     -GtkWidget-focus-line-width: 0;
+    border-image: none;
 }
 
 .primary-toolbar .toolbar .button *:insensitive,
@@ -1211,8 +1212,8 @@ GtkPathBar .button:active:nth-child(last) {
 /*    border-color: shade(@button_border, 0.95);
     box-shadow: none; */
 
-/*    background-color: alpha(@theme_base_color, 0.0); */
-    background-image: none;
+/*    background-color: alpha(@theme_base_color, 0.0);
+    background-image: none; */
 }
 
 .inline-toolbar.toolbar .button *:active,
