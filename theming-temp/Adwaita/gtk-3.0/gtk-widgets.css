@@ -1327,8 +1327,10 @@ GtkSwitch.slider {
 
     background-image: -gtk-gradient (linear,
                                      left top, left bottom,
-                                     from (@theme_base_color),
-                                     to (@switch_slider_color));
+                                     from (darker(@theme_base_color)),
+                                     color-stop (@theme_base_color),
+                                     color-stop (@switch_slider_color)),
+                                     to (lighter(@switch_slider_color)));
 
     -adwaita-switch-grip-color: shade (@switch_slider_color, 0.97);
 }
