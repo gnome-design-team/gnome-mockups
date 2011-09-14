@@ -245,7 +245,7 @@ GtkComboBox.combobox-entry .button:prelight,
 
     border-radius: 3;
     border-width: 1;
-    border-style: none;
+    border-style: solid;
     /* border-image defined in the -assets variant */
 
     -adwaita-progressbar-pattern: -gtk-gradient (linear,
@@ -355,8 +355,7 @@ GtkScale.progressbar {
 
     border-width: 1;
     border-radius: 2;
-    border-style: solid;
-    border-color: #000000;
+    border-style: none;
     /* border-image defined in the -assets variants */
 
     -adwaita-progressbar-pattern: none;
