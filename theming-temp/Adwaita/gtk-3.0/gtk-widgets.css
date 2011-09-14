@@ -241,13 +241,13 @@ GtkComboBox.combobox-entry .button:prelight,
     background-image: -gtk-gradient (linear,
                                      left top, left bottom,
                                      from (@progressbar_background_a),
+                                     color-stop (0.1, @progressbar_background_a),
                                      to (@progressbar_background_b));
 
     border-radius: 3;
     border-width: 1;
     border-style: solid;
     border-color: red;
-    padding: 1;
     /* border-image defined in the -assets variant */
 
     -adwaita-progressbar-pattern: -gtk-gradient (linear,
