@@ -645,7 +645,7 @@ GtkComboBox.combobox-entry .button:hover:active:nth-child(first) {
     background-color: shade (@theme_bg_color, 0.882);
     border-width: 0;
     border-radius: 0;
-    border-image: none:
+    border-image: none;
 }
 
 .scrollbar.slider,
