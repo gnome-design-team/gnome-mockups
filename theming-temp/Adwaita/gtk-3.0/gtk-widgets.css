@@ -1320,9 +1320,8 @@ GtkSwitch.trough:insensitive {
 GtkSwitch.slider {
     border-width: 1;
     border-radius: 1;
-    border-style: none;
+    border-style: solid;
     /* border-image defined in -assets variant */
-    border-image: none;
 
     padding: 2 2 3 2;
 
