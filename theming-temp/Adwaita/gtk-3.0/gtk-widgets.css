@@ -1279,14 +1279,13 @@ GtkAssistant .sidebar {
 
 GtkSwitch {
     font: bold condensed 10;
-    padding: 0 0 1 0;
 }
 
 GtkSwitch.trough {
     color: shade (@internal_element_color, 0.60);
 
     border-radius: 1;
-    border-width: 1;
+    border-width: 1 1 2 1;
     border-style: none;
     /* border-image defined in the -assets variant */
 
