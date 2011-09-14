@@ -287,7 +287,7 @@ GtkProgressBar,
                                      to (@trough_bg_color_b));
 
     border-width: 1;
-    border-style: solid;
+    border-style: none;
     border-radius: 3;
     border-color: shade (@inactive_frame_color, 0.8);
 }
