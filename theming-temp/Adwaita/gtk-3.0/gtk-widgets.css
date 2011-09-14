@@ -1293,6 +1293,7 @@ GtkSwitch.trough {
     border-radius: 1;
     border-width: 1 1 2 1;
     border-style: none;
+    border-image: none;
     /* border-image defined in the -assets variant */
 
     background-image: -gtk-gradient (linear,
