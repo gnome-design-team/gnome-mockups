@@ -290,6 +290,7 @@ GtkProgressBar,
     border-style: none;
     border-radius: 3;
     border-color: shade (@inactive_frame_color, 0.8);
+    /* FIXME */
     border-image: url("assets/lapo-border.svg") 3 / 3 stretch;
 }
 
