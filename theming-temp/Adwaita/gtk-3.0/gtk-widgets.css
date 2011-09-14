@@ -243,7 +243,7 @@ GtkComboBox.combobox-entry .button:prelight,
                                      from (shade(@progressbar_background_a, 1.3)),
                                      color-stop (0.11, @progressbar_background_a),
                                      color-stop (0.7, @progressbar_background_b),
-                                     to (shade(@progressbar_background_b), 1.05));
+                                     to (shade(@progressbar_background_b, 1.05)));
 
     border-radius: 2.5;
     border-width: 1;
