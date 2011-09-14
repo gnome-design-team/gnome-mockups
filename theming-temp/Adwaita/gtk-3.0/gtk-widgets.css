@@ -247,6 +247,7 @@ GtkComboBox.combobox-entry .button:prelight,
     border-width: 1;
     border-style: solid;
     border-color: red;
+    padding: 1;
     /* border-image defined in the -assets variant */
 
     -adwaita-progressbar-pattern: -gtk-gradient (linear,
