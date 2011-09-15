@@ -137,7 +137,10 @@ GtkScale.trough.vertical {
 /*    border-image: url("assets/trough-border-vertical.svg") 3 / 3 stretch; */
 }
 
-GtkSwitch.trough:active,
+GtkSwitch.trough:active {
+    border-image: url("assets/lapo-border-focused.svg") 3 / 3 stretch;
+}
+
 GtkScale.progressbar.horizontal {
     /* border-image: url("assets/trough-active-border-horizontal.svg") 3 / 3 stretch; */
     border-image: url("assets/lapo-border.svg") 3 / 3 stretch;
@@ -246,7 +249,7 @@ GtkScale.scale-has-marks-below.slider.vertical:insensitive {
 }
 
 .primary-toolbar .entry:focused {
-	    border-image: url("assets/lapo-toolbar-border-focused.svg") 4 / 4 stretch;
+    border-image: url("assets/lapo-toolbar-border-focused.svg") 4 / 4 stretch;
 }
 
 .toolbar .raised .button,
