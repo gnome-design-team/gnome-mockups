@@ -944,7 +944,7 @@ GtkTreeMenu .menuitem * {
 .primary-toolbar.toolbar .button {
     border-style: none;
     border-image: none;
-    border-radius: 2.5;
+    border-radius: 4;
 
     background-image: none;
     background-color: alpha (@theme_base_color, 0.0);
@@ -984,7 +984,7 @@ GtkTreeMenu .menuitem * {
 .primary-toolbar .toolbar .button:active,
 .primary-toolbar.toolbar .button:active {
     border-style: none;
-    border-width: 1;
+    border-width: 2;
     /* border-image defined in the -assets variant */
 
     background-image: -gtk-gradient (linear,
