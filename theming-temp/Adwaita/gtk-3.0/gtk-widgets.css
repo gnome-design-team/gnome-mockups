@@ -1214,7 +1214,7 @@ GtkPathBar .button:active:nth-child(last) {
 /* why?
     border-width: 1 0 1 1; */
     border-width: 1 1 2 1;
-    border-style: none;
+    border-style: solid;
 
     /* box-shadow: inset 1 1 alpha(@theme_base_color, 0.50); I don't want this one*/
 }
@@ -1236,7 +1236,7 @@ GtkPathBar .button:active:nth-child(last) {
 /* nth-child for inline toolbar button groups */
 .inline-toolbar.toolbar .button:nth-child(first),
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button {
-    border-radius: 3;
+    border-radius: 2.5 0 0 2.5;
     box-shadow: none;
     padding-right: 1;
 }
@@ -1246,7 +1246,6 @@ GtkPathBar .button:active:nth-child(last) {
     border-radius: 0 2.5 2.5 0;
     box-shadow: none;
     padding-left: 1;
-    border-left: 1 solid black;
 }
 
 /***********
