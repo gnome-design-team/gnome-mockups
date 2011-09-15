@@ -1213,8 +1213,7 @@ GtkPathBar .button:active:nth-child(last) {
     border-radius: 3;
 /* why?
     border-width: 1 0 1 1; */
-    /* border-width: 1 1 2 1; */
-    border-width: 3;
+    border-width: 1 1 2 1;
     border-style: solid;
 
     /* box-shadow: inset 1 1 alpha(@theme_base_color, 0.50); I don't want this one*/
