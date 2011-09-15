@@ -1209,7 +1209,7 @@ GtkPathBar .button:active:nth-child(last) {
     icon-shadow: 0 1 @theme_base_color;
 
     /* border-image: none; I want these buttons to be treated like raised buttons*/
-    border-color: shade(@button_border, 0.95);
+    /* border-color: shade(@button_border, 0.95); */
     border-radius: 2.5;
 /* why?
     border-width: 1 0 1 1; */
