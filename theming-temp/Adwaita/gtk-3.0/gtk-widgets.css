@@ -1175,12 +1175,8 @@ GtkPathBar .button:active:nth-child(last) {
  *******************/
 
 .inline-toolbar.toolbar {
-/* Why this?
     border-width: 0;
     border-radius: 0;
-*/
-    border-width: 0 1 1 1;
-    border-radius: 0 0 3 3;
     border-style: solid;
 
     -GtkToolbar-button-relief: normal;
