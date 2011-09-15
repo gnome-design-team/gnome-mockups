@@ -944,7 +944,7 @@ GtkTreeMenu .menuitem * {
 .primary-toolbar.toolbar .button {
     border-style: none;
     border-image: none;
-    border-radius: 4;
+    border-radius: 2.5;
 
     background-image: none;
     background-color: alpha (@theme_base_color, 0.0);
