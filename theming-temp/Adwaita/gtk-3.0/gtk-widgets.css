@@ -1231,6 +1231,8 @@ GtkPathBar .button:active:nth-child(last) {
 
 /* nth-child for inline toolbar button groups */
 .inline-toolbar.toolbar .button:nth-child(first),
+.inline-toolbar.toolbar .button:nth-child(first):active,
+.inline-toolbar.toolbar .button:nth-child(first):insensitive,
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button {
     border-radius: 3 0 0 3;
     border-right: 0;
