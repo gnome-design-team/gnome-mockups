@@ -1341,6 +1341,7 @@ GtkSwitch.slider:active {
 }
 
 GtkSwitch.slider:insensitive {
+/* FIXME I need to set a border-color here */
     border-image: none;
 
     background-image: none;
