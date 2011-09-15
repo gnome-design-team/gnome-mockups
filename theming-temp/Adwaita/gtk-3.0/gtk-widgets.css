@@ -920,7 +920,7 @@ GtkTreeMenu .menuitem * {
 				     to (@toolbar_gradient_final));
 
     border-width: 1 0 1 0;
-    border-radius: 0;
+    border-radius: 3;
     border-style: solid;
     border-top-color: @toolbar_border_top;
     border-bottom-color: @toolbar_border_bottom;
