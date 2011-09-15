@@ -1237,12 +1237,14 @@ GtkPathBar .button:active:nth-child(last) {
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button {
     border-radius: 2.5 0 0 2.5;
     box-shadow: none;
+    padding-right: 1;
 }
 
 .inline-toolbar.toolbar .button:nth-child(last),
 .inline-toolbar.toolbar GtkToolButton:nth-child(last) .button {
     border-radius: 0 2.5 2.5 0;
-    border-width: 1;
+    box-shadow: none;
+    padding-left: 1;
 }
 
 /***********
