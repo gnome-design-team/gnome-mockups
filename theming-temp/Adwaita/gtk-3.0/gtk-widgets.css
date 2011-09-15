@@ -1210,7 +1210,7 @@ GtkPathBar .button:active:nth-child(last) {
 
     /* border-image: none; I want these buttons to be treated like raised buttons*/
     /* border-color: shade(@button_border, 0.95); */
-    border-radius: 2.5;
+    border-radius: 3;
 /* why?
     border-width: 1 0 1 1; */
     border-width: 1 1 2 1;
@@ -1236,14 +1236,14 @@ GtkPathBar .button:active:nth-child(last) {
 /* nth-child for inline toolbar button groups */
 .inline-toolbar.toolbar .button:nth-child(first),
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button {
-    border-radius: 2.5 0 0 2.5;
+    border-radius: 3 0 0 3;
     box-shadow: none;
     padding-right: 1;
 }
 
 .inline-toolbar.toolbar .button:nth-child(last),
 .inline-toolbar.toolbar GtkToolButton:nth-child(last) .button {
-    border-radius: 0 2.5 2.5 0;
+    border-radius: 0 3 3 0;
     box-shadow: none;
     padding-left: 1;
 }
