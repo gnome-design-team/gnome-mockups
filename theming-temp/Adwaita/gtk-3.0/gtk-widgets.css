@@ -1318,7 +1318,7 @@ GtkSwitch.trough:insensitive {
 }
 
 GtkSwitch.slider {
-    border-color: @switch_slider_border;
+    border-color: shade (@internal_element_color, 0.60);
     border-width: 1;
     border-radius: 2;
     border-style: solid;
