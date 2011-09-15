@@ -304,7 +304,7 @@ GtkScale.scale-has-marks-below.slider.vertical:insensitive {
     border-image: url("assets/lapo-toolbar-border-linked.svg") 4 1 / 4 1 stretch;
 }
 
-/*.toolbar .raised.linked.button,
+.toolbar .raised.linked.button,
 .toolbar .raised.linked.button:active,
 .toolbar .raised.linked.button:active:hover,
 .toolbar .raised.linked .button,
@@ -330,4 +330,4 @@ GtkScale.scale-has-marks-below.slider.vertical:insensitive {
 .toolbar .raised.linked:nth-child(last) .button:active:hover {
     border-image: url("assets/lapo-toolbar-border-hilight.svg") 4 / 4 4 4 0 stretch;
 }
-*/
+
