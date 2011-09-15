@@ -1243,6 +1243,8 @@ GtkPathBar .button:active:nth-child(last) {
 }
 
 .inline-toolbar.toolbar .button:nth-child(last),
+.inline-toolbar.toolbar .button:active:nth-child(last),
+.inline-toolbar.toolbar .button:insensitive:nth-child(last),
 .inline-toolbar.toolbar GtkToolButton:nth-child(last) .button {
     border-radius: 0 3 3 0;
     border-left-width: 0;
