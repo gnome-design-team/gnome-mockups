@@ -1229,6 +1229,7 @@ GtkPathBar .button:active:nth-child(last) {
 
 .inline-toolbar.toolbar .button *:active,
 .inline-toolbar.toolbar .button *:insensitive {
+    /* FIXME - I want a dimmed icon and text shadow here as well*/
     icon-shadow: none;
 }
 
