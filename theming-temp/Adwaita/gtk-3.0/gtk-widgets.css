@@ -1245,6 +1245,7 @@ GtkPathBar .button:active:nth-child(last) {
     border-radius: 0 2.5 2.5 0;
     box-shadow: none;
     padding-left: 1;
+    border-left: 1 solid black;
 }
 
 /***********
