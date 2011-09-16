@@ -293,8 +293,6 @@ GtkScale.scale-has-marks-below.slider.vertical:insensitive {
     border-image: url("assets/lapo-toolbar-border.svg") 4 / 4 0 stretch;
 }
 
-/* FIXME - inline toolbar buttons - these need to be aggregated to linked buttons */
-
 .toolbar .raised.linked.button:nth-child(first),
 .toolbar .raised.linked:nth-child(first) .button,
 .inline-toolbar.toolbar .button:nth-child(first),
