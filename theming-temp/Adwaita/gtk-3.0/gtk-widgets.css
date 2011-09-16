@@ -1108,49 +1108,13 @@ GtkTreeMenu .menuitem * {
     text-shadow: none;
 }
 
-/* nth-child for linked regions */
-/*
-.toolbar .raised.linked .button,
-.toolbar .raised.linked .button:active,
-.toolbar .raised.linked.button,
-.toolbar .raised.linked.button:active {
-    border-width: 1 0;
-    border-radius: 0;
-
-
-}
-
-.toolbar .raised.linked .button *:active,
-.toolbar .raised.linked.button *:active {
-    icon-shadow: none;
-}
-
-.toolbar .raised.linked.button:nth-child(first),
-.toolbar .raised.linked.button:active:nth-child(first),
-.toolbar .raised.linked:nth-child(first) .button,
-.toolbar .raised.linked:nth-child(first) .button:active {
-    border-width: 1 0 1 1;
-
-    box-shadow: none;
-}
-
-.toolbar .raised.linked.button:nth-child(last),
-.toolbar .raised.linked.button:active:nth-child(last),
-.toolbar .raised.linked:nth-child(last) .button,
-.toolbar .raised.linked:nth-child(last) .button:active {
-    border-width: 1 1 1 0;
-}
-*/
 GtkPathBar .button,
 GtkPathBar .button:active,
 GtkPathBar .button:active:hover {
     /* border-image: none; */
     border-style: none;
-    border-width: 1 0 1 1;
+    border-width: 1 0 2 0;
     border-radius: 0;
-
-    border-color: @button_border;
-    box-shadow: 1 0 inset shade(@button_border, 1.40);
 }
 
 GtkPathBar .button:active,
@@ -1223,8 +1187,8 @@ GtkPathBar .button:active:nth-child(last) {
 }
 
 /* setup shadows */
-.toolbar .raised.linked.button:nth-child(first),
-.toolbar .raised.linked:nth-child(first) .button,
+.toolbar .raised.linked.button,
+.toolbar .raised.linked .button,
 .inline-toolbar.toolbar .button {
     padding: 2 3 2 3;
     icon-shadow: 0 1 @theme_base_color;
