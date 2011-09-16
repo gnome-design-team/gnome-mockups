@@ -1139,7 +1139,7 @@ GtkPathBar .button:nth-child(last) {
 }
 
 GtkPathBar .button:active:nth-child(last),
-GtkPathBar .button:active:hovernth-child(last) {
+GtkPathBar .button:active:hover:nth-child(last) {
     /* box-shadow: @button_raised_linked_shadow 1 0 inset; */
     box-shadow: none;
 }

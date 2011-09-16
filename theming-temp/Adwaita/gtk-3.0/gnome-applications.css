@@ -73,6 +73,8 @@ NautilusSearchBar .entry.image {
 #nautilus-search-button *:active,
 #nautilus-search-button *:active:prelight {
     color: darker (@nautilus_cluebar_color);
+    text-shadow: 0 1 alpha(@theme_base_color, 0.5);
+    icon-shadow: 0 1 alpha(@theme_base_color, 0.5);
 }
 
 NautilusFloatingBar {
@@ -84,8 +86,8 @@ NautilusFloatingBar {
     border-color: shade (@notebook_tab_gradient_b, 0.80);
 */
 
-background-color: @info_bg_color;
-border-color: darker(@info_bg_color);
+    background-color: @info_bg_color;
+    border-color: darker(@info_bg_color);
 
     border-radius: 0;
     border-width: 1;
