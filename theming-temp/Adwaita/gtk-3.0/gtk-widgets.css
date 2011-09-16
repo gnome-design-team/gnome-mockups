@@ -249,6 +249,7 @@ GtkComboBox.combobox-entry .button:prelight,
     border-color: @progressbar_border;
     /* border-color: red; */
     /* border-image defined in the -assets variant */
+    box-shadow: alpha(white, 0.2) 1 1 inset;
 
     -adwaita-progressbar-pattern: -gtk-gradient (linear,
                                                  left top, right bottom,
@@ -261,8 +262,7 @@ GtkComboBox.combobox-entry .button:prelight,
 .progressbar.vertical {
     background-image: -gtk-gradient (linear,
                                      left top, right top,
-                                     from (shade(@progressbar_background_a, 1.3)),
-                                     color-stop (0.11, @progressbar_background_a),
+                                     from (@progressbar_background_a),
                                      to (@progressbar_background_b));
 
     -adwaita-progressbar-pattern: -gtk-gradient (linear,
@@ -395,41 +395,56 @@ GtkScrolledWindow.frame {
 }
 
 .button {
-    -adwaita-focus-fill-color: alpha (@theme_base_color, 0.35);
-    -adwaita-focus-border-gradient: -gtk-gradient (linear,
+    padding: 2 4;
+    /* -adwaita-focus-fill-color: alpha (@theme_base_color, 0.35); */
+    /* -adwaita-focus-border-gradient: -gtk-gradient (linear,
                                                    left top, left bottom,
                                                    from (alpha (@keyboard_focus_border_a, 0.62)),
-                                                   to (alpha (@keyboard_focus_border_b, 0.62)));
+                                                   to (alpha (@keyboard_focus_border_b, 0.62))); */
     -adwaita-focus-border-radius: 1;
-    -adwaita-focus-border-dashes: 0;
-    -GtkWidget-focus-line-width: 2;
+    -adwaita-focus-border-dashes: 1;
+    -GtkWidget-focus-line-width: 1;
 
     -GtkButton-child-displacement-x: 0;
     -GtkButton-child-displacement-y: 1;
     -GtkButton-image-spacing: 4;
-    -GtkButton-interior-focus: true;
+    -GtkButton-interior-focus: false;
     -GtkButton-default-border: 0;
     -GtkButton-inner-border: 0;
 
     color: @theme_text_color;
+    text-shadow: 0 1 alpha(@theme_base_color, 0.5);
 
-    border-radius: 3;
-    border-width: 1;
+    border-radius: 2.5;
+    border-width: 1 1 2 1;
     border-style: none;
     /* border-image in -assets variant */
 
     background-image: -gtk-gradient (linear,
 				     left top, left bottom,
                                      from (@button_gradient_color_a),
+                                     color-stop (0.15, @button_gradient_color_a),
+                                     color-stop (0.85, @button_gradient_color_b),
                                      to (@button_gradient_color_b));
+}
+
+.toolbar .button {
+    text-shadow: none;
 }
 
 .button:hover,
 .toolbar .button:hover {
-    background-image: -gtk-gradient (linear,
+/*    background-image: -gtk-gradient (linear,
 				     left top, left bottom,
 				     from (@button_hover_gradient_color_a),
-				     to (@button_hover_gradient_color_b));
+				     to (@button_hover_gradient_color_b)); */
+/* FIXME - do proper color definitions */
+    background-image: -gtk-gradient (linear,
+				     left top, left bottom,
+                                     from (@button_hover_gradient_color_a),
+                                     color-stop (0.15, @button_hover_gradient_color_a),
+                                     color-stop (0.85, @button_hover_gradient_color_b),
+                                     to (@button_hover_gradient_color_b));
 }
 
 .button:active,
@@ -458,7 +473,15 @@ GtkScrolledWindow.frame {
 }
 
 .button.default {
-    border-width: 2;
+    color: @selected_fg_color;
+    border-width: 1 1 2 1;
+/* FIXME - do proper color definitions */
+    background-image: -gtk-gradient (linear,
+				     left top, left bottom,
+                                     from (@progressbar_background_a),
+                                     /*color-stop (0.2, @progressbar_background_a),
+                                     color-stop (0.7, @progressbar_background_b), */
+                                     to (@progressbar_background_b));
 }
 
 /*****************
@@ -1093,7 +1116,7 @@ GtkTreeMenu .menuitem * {
     border-width: 1 0;
     border-radius: 0;
 
-    box-shadow: inset 1 0 @button_raised_linked_shadow;
+/*    box-shadow: inset 1 0 @button_raised_linked_shadow; */
 }
 
 .toolbar .raised.linked .button *:active,
@@ -1205,28 +1228,39 @@ GtkPathBar .button:active:nth-child(last) {
 
     /* border-image: none; I want these buttons to be treated like raised buttons*/
     /* border-color: shade(@button_border, 0.95); */
-    border-radius: 3;
+    border-radius: 0;
 /* why?
     border-width: 1 0 1 1; */
-    border-width: 2;
-    border-style: solid;
-
-    /* box-shadow: inset 1 1 alpha(@theme_base_color, 0.50); I don't want this one*/
+    /* FIXE - I need this for keyboard layout panel to look nice, 
+    but it's bad since it selects single buttons as well */
+    border-width: 2 0;
+    border-style: none;
+    box-shadow: @button_raised_linked_shadow -1 0 inset, @button_raised_linked_hilight 1 0 inset
 }
 
-.inline-toolbar.toolbar .button:insensitive {
-/*    border-color: shade(@button_border, 0.95);
-    box-shadow: none; */
-
-/*    background-color: alpha(@theme_base_color, 0.0);
-    background-image: none; */
+.inline-toolbar.toolbar .button:insensitive,
+.inline-toolbar.toolbar .button *:insensitive,
+.inline-toolbar.toolbar GtkToolButton .button:insensitive {
+    box-shadow: @button_raised_insensitive_shadow -1 0 inset, @button_raised_insensitive_hilight 1 0 inset;
+    /* FIXME - like this it doesn't work */
+    icon-shadow: 0 1 @button_raised_insensitive_text_hilight;
+    text-shadow: 0 1 @button_raised_insensitive_text_hilight;
 }
 
+.inline-toolbar.toolbar .button:active,
 .inline-toolbar.toolbar .button *:active,
-.inline-toolbar.toolbar .button *:insensitive {
-    /* FIXME - I want a dimmed icon and text shadow here as well*/
-    icon-shadow: none;
+.inline-toolbar.toolbar GtkToolButton .button:active {
+    box-shadow: @button_raised_linked_shadow -1 0 inset, @button_raised_linked_shadow 1 0 inset;
+    /* FIXME - like this it doesn't work */
+    icon-shadow: 0 1 @button_raised_active_text_hilight;
+    text-shadow: 0 1 @button_raised_active_text_hilight;
 }
+
+/* .inline-toolbar.toolbar .button *:active,
+.inline-toolbar.toolbar .button *:insensitive { */
+    /* FIXME - I want a dimmed icon and text shadow here as well*/
+/*    icon-shadow: none;
+} */
 
 /* nth-child for inline toolbar button groups */
 .inline-toolbar.toolbar .button:nth-child(first),
@@ -1234,9 +1268,24 @@ GtkPathBar .button:active:nth-child(last) {
 .inline-toolbar.toolbar .button:insensitive:nth-child(first),
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button {
     border-radius: 3 0 0 3;
+    border-left-width: 2;
     border-right-width: 0;
-    box-shadow: none;
     padding-right: 1;
+}
+
+.inline-toolbar.toolbar .button:nth-child(first),
+.inline-toolbar.toolbar GtkToolButton:nth-child(first) .button {
+    box-shadow: @button_raised_linked_shadow -1 0 inset;
+}
+
+.inline-toolbar.toolbar GtkToolButton:nth-child(first) .button:active,
+.inline-toolbar.toolbar .button:active:nth-child(first) {
+    box-shadow: @button_raised_linked_shadow -1 0 inset;
+}
+
+.inline-toolbar.toolbar GtkToolButton:nth-child(last) .button:insensitive,
+.inline-toolbar.toolbar .button:insensitive:nth-child(last) {
+    box-shadow: @button_raised_insensitive_shadow -1 0 inset;
 }
 
 .inline-toolbar.toolbar .button:nth-child(last),
@@ -1245,9 +1294,25 @@ GtkPathBar .button:active:nth-child(last) {
 .inline-toolbar.toolbar GtkToolButton:nth-child(last) .button {
     border-radius: 0 3 3 0;
     border-left-width: 0;
-    box-shadow: none;
+    border-right-width: 2;
     padding-left: 1;
 }
+
+.inline-toolbar.toolbar .button:nth-child(last),
+.inline-toolbar.toolbar GtkToolButton:nth-child(last) .button {
+    box-shadow: @button_raised_linked_hilight 1 0 inset;
+}
+
+.inline-toolbar.toolbar GtkToolButton:nth-child(last) .button:active,
+.inline-toolbar.toolbar .button:active:nth-child(last) {
+    box-shadow: @button_raised_linked_shadow 1 0 inset;
+}
+
+.inline-toolbar.toolbar GtkToolButton:nth-child(last) .button:insensitive,
+.inline-toolbar.toolbar .button:insensitive:nth-child(last) {
+    box-shadow: @button_raised_insensitive_hilight 1 0 inset;
+}
+
 
 /***********
  * Sidebar *
@@ -1338,12 +1403,11 @@ GtkSwitch.slider {
 
     background-image: -gtk-gradient (linear,
                                      left top, left bottom,
-                                     from (shade(@theme_base_color, 0.7)),
-                                     color-stop (0.1, @theme_base_color),
-                                     color-stop (0.9, @switch_slider_color),
-                                     to (shade(@switch_slider_color, 1.2)));
+                                     from (@theme_base_color),
+                                     to (@switch_slider_color));
 
     -adwaita-switch-grip-color: shade (@switch_slider_color, 0.97);
+    box-shadow: shade(@theme_base_color, 0.9) 0 1 inset, shade(@switch_slider_color, 1.1) 0 -1 inset;
 }
 
 GtkSwitch.slider:active {

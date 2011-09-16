@@ -58,15 +58,26 @@
 @define-color button_gradient_color_b #d7dad7;
 @define-color button_border #a7aba7;
 
+/*
 @define-color button_active_gradient_color_a #a2a9a2;
 @define-color button_active_gradient_color_b shade (@button_active_gradient_color_a, 0.83);
+*/
+@define-color button_active_gradient_color_a #919b91;
+@define-color button_active_gradient_color_b shade (@button_active_gradient_color_a, 0.8);
+
 
 @define-color button_hover_gradient_color_a @theme_base_color;
 @define-color button_hover_gradient_color_b shade (@button_gradient_color_a, 0.94);
 
 @define-color button_raised_gradient_color_a @button_gradient_color_a;
 @define-color button_raised_gradient_color_b @button_gradient_color_b;
-@define-color button_raised_linked_shadow alpha(@theme_base_color, 0.70);
+@define-color button_raised_active_text_hilight alpha (white, 0.4);
+@define-color button_raised_insensitive_hilight alpha (white, 0.2);
+@define-color button_raised_insensitive_text_hilight alpha (white, 0.4);
+@define-color button_raised_insensitive_shadow alpha (black, 0.05);
+/* @define-color button_raised_linked_shadow alpha(@theme_base_color, 0.70); */
+@define-color button_raised_linked_hilight alpha (white, 0.3);
+@define-color button_raised_linked_shadow alpha (black, 0.15);
 
 @define-color button_raised_active_gradient_color_a @button_active_gradient_color_a;
 @define-color button_raised_active_gradient_color_b alpha(@button_active_gradient_color_b, 0.13);

@@ -15,7 +15,7 @@
    version="1.1"
    id="svg2"
    inkscape:version="0.48.1 r9760"
-   sodipodi:docname="lapo-border-focused-hilight.svg">
+   sodipodi:docname="lapo-border-focused-test.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -29,9 +29,9 @@
      inkscape:window-height="480"
      id="namedview19"
      showgrid="false"
-     inkscape:zoom="17.625"
-     inkscape:cx="8"
-     inkscape:cy="8"
+     inkscape:zoom="1"
+     inkscape:cx="15.152805"
+     inkscape:cy="3.6842668"
      inkscape:window-x="0"
      inkscape:window-y="26"
      inkscape:window-maximized="0"
@@ -48,12 +48,14 @@
       <stop
          stop-color="#FFF"
          offset="0"
-         id="stop7" />
+         id="stop7"
+         style="stop-color:#729fcf;stop-opacity:1" />
       <stop
          stop-color="#FFF"
          stop-opacity="0"
          offset="1"
-         id="stop9" />
+         id="stop9"
+         style="stop-color:#729fcf;stop-opacity:0.5" />
     </linearGradient>
     <linearGradient
        y2="13.462841"
@@ -98,7 +100,7 @@
      id="path13" />
   <rect
      opacity="0.8"
-     style="enable-background:accumulate;color:#000000;"
+     style="enable-background:accumulate;color:#000000;opacity:0.5"
      stroke-dasharray="none"
      rx="1.5"
      ry="1.5"
