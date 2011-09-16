@@ -279,9 +279,9 @@ GtkScale.scale-has-marks-below.slider.vertical:insensitive {
 .toolbar .raised.linked.button:active,
 .toolbar .raised.linked.button:active:hover,
 .toolbar .raised.linked.button:insensitive,
-
 .toolbar .raised.linked .button:active,
-.toolbar .raised.linked .button:active:hover
+.toolbar .raised.linked .button:active:hover,
+.toolbar .raised.linked .button:active:insensitive,
 .inline-toolbar.toolbar .button:active,
 .inline-toolbar.toolbar .button:insensitive,
 .inline-toolbar.toolbar GtkToolButton .button:active,
@@ -294,22 +294,38 @@ GtkScale.scale-has-marks-below.slider.vertical:insensitive {
 
 /* FIXME - inline toolbar buttons - these need to be aggregated to linked buttons */
 
+.toolbar .raised.linked.button:nth-child(first),
+.toolbar .raised.linked:nth-child(first) .button,
 .inline-toolbar.toolbar .button:nth-child(first),
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button {
     border-image: url("assets/lapo-toolbar-border-hilight.svg") 4 / 4 0 4 4 stretch;
 }
 
+.toolbar .raised.linked.button:active:nth-child(first),
+.toolbar .raised.linked.button:active:hover:nth-child(first),
+.toolbar .raised.linked.button:insensitive:nth-child(first),
+.toolbar .raised.linked:nth-child(first) .button:active,
+.toolbar .raised.linked:nth-child(first) .button:active:hover,
+.toolbar .raised.linked:nth-child(first) .button:insensitive,
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button:active,
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button:active:hover,
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button:insensitive {
     border-image: url("assets/lapo-toolbar-border.svg") 4 / 4 0 4 4 stretch;
 }
 
+.toolbar .raised.linked.button:nth-child(last),
+.toolbar .raised.linked:nth-child(last) .button,
 .inline-toolbar.toolbar .button:nth-child(last),
 .inline-toolbar.toolbar GtkToolButton:nth-child(last) .button {
     border-image: url("assets/lapo-toolbar-border-hilight.svg") 4 / 4 4 4 0 stretch;
 }
 
+.toolbar .raised.linked.button:active:nth-child(last),
+.toolbar .raised.linked.button:active:hover:nth-child(last),
+.toolbar .raised.linked.button:insensitive:nth-child(last),
+.toolbar .raised.linked:nth-child(last) .button:active,
+.toolbar .raised.linked:nth-child(last) .button:active:hover,
+.toolbar .raised.linked:nth-child(last) .button:insensitive,
 .inline-toolbar.toolbar GtkToolButton:nth-child(last) .button:active,
 .inline-toolbar.toolbar GtkToolButton:nth-child(last) .button:active:hover,
 .inline-toolbar.toolbar GtkToolButton:nth-child(last) .button:insensitive {
@@ -324,7 +340,7 @@ GtkScale.scale-has-marks-below.slider.vertical:insensitive {
 .toolbar .raised.linked .button,
 .toolbar .raised.linked .button:active,
 .toolbar .raised.linked .button:active:hover {
-    border-image: url("assets/lapo-toolbar-border-linked.svg") 4 1 / 4 1 stretch;
+    border-image: url("assets/lapo-toolbar-border.svg") 4 / 4 0 stretch;
 }
 
 .toolbar .raised.linked.button,
@@ -333,7 +349,7 @@ GtkScale.scale-has-marks-below.slider.vertical:insensitive {
 .toolbar .raised.linked .button,
 .toolbar .raised.linked .button:active,
 .toolbar .raised.linked .button:active:hover {
-    border-image: url("assets/lapo-toolbar-border-hilight.svg") 4 / 4 0 stretch;
+    border-image: url("assets/lapo-toolbar-border.svg") 4 / 4 0 stretch;
 }
 
 .toolbar .raised.linked.button:nth-child(first) ,
@@ -342,7 +358,7 @@ GtkScale.scale-has-marks-below.slider.vertical:insensitive {
 .toolbar .raised.linked:nth-child(first) .button,
 .toolbar .raised.linked:nth-child(first) .button:active,
 .toolbar .raised.linked:nth-child(first) .button:active:hover {
-    border-image: url("assets/lapo-toolbar-border-hilight.svg") 4 / 4 0 4 4 stretch;
+    border-image: url("assets/lapo-toolbar-border.svg") 4 / 4 0 4 4 stretch;
 }
 
 .toolbar .raised.linked.button:nth-child(last),
@@ -351,6 +367,7 @@ GtkScale.scale-has-marks-below.slider.vertical:insensitive {
 .toolbar .raised.linked:nth-child(last) .button,
 .toolbar .raised.linked:nth-child(last) .button:active,
 .toolbar .raised.linked:nth-child(last) .button:active:hover {
-    border-image: url("assets/lapo-toolbar-border-hilight.svg") 4 / 4 4 4 0 stretch;
+    border-image: url("assets/lapo-toolbar-border.svg") 4 / 4 4 4 0 stretch;
 }
 */
+
