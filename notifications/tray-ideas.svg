@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.48.1 r9760"
    sodipodi:docname="tray-ideas.svg"
-   inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShell/message-tray/chrome-style-tray.png"
+   inkscape:export-filename="/home/allan/SparkleShare/gnome-mockups/notifications/tray-idea.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -28,11 +28,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="328.25285"
-     inkscape:cy="572.84502"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="329.1954"
+     inkscape:cy="866.38956"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -63,7 +63,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -733,7 +733,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="disaggregate"
-     style="display:none">
+     style="display:inline">
     <rect
        style="fill:#eeeeec;fill-opacity:1;stroke:none"
        id="rect3508"
@@ -826,7 +826,7 @@
          sodipodi:cy="321.86218"
          sodipodi:rx="8.5"
          sodipodi:ry="8.5"
-         d="m 368,321.86218 c 0,4.69442 -3.80558,8.5 -8.5,8.5 -4.69442,0 -8.5,-3.80558 -8.5,-8.5 0,-4.69442 3.80558,-8.5 8.5,-8.5 4.69442,0 8.5,3.80558 8.5,8.5 z"
+         d="m 368,321.86218 a 8.5,8.5 0 1 1 -17,0 8.5,8.5 0 1 1 17,0 z"
          transform="matrix(0.70588253,0,0,0.70588253,-1133.7648,95.165293)" />
       <text
          xml:space="preserve"
@@ -1063,7 +1063,7 @@
          style="fill:#2e3436;fill-opacity:1;stroke:none" />
       <path
          transform="matrix(0.70588253,0,0,0.70588253,-1133.7648,95.165293)"
-         d="m 368,321.86218 c 0,4.69442 -3.80558,8.5 -8.5,8.5 -4.69442,0 -8.5,-3.80558 -8.5,-8.5 0,-4.69442 3.80558,-8.5 8.5,-8.5 4.69442,0 8.5,3.80558 8.5,8.5 z"
+         d="m 368,321.86218 a 8.5,8.5 0 1 1 -17,0 8.5,8.5 0 1 1 17,0 z"
          sodipodi:ry="8.5"
          sodipodi:rx="8.5"
          sodipodi:cy="321.86218"
@@ -1250,12 +1250,24 @@
          x="883.36206"
          id="tspan4941"
          sodipodi:role="line">Open</tspan></text>
-  </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3229-6"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Sans"
+       transform="translate(4,-33.999996)"><flowRegion
+         id="flowRegion3231-5"><rect
+           id="rect3233-9"
+           width="313"
+           height="127"
+           x="60"
+           y="81"
+           style="fill:#555753" /></flowRegion><flowPara
+         id="flowPara3235-7">This is primarily an attempt to simplify the current message tray design</flowPara></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="notification types"
-     style="display:inline">
+     style="display:none">
     <rect
        y="22.336491"
        x="38.41888"
@@ -1353,7 +1365,7 @@
        transform="translate(1.4999557,0)">
       <path
          transform="matrix(0.70588253,0,0,0.70588253,-182.34587,512.13959)"
-         d="m 368,321.86218 c 0,4.69442 -3.80558,8.5 -8.5,8.5 -4.69442,0 -8.5,-3.80558 -8.5,-8.5 0,-4.69442 3.80558,-8.5 8.5,-8.5 4.69442,0 8.5,3.80558 8.5,8.5 z"
+         d="m 368,321.86218 a 8.5,8.5 0 1 1 -17,0 8.5,8.5 0 1 1 17,0 z"
          sodipodi:ry="8.5"
          sodipodi:rx="8.5"
          sodipodi:cy="321.86218"
@@ -1676,7 +1688,7 @@
          sodipodi:cy="321.86218"
          sodipodi:rx="8.5"
          sodipodi:ry="8.5"
-         d="m 368,321.86218 c 0,4.69442 -3.80558,8.5 -8.5,8.5 -4.69442,0 -8.5,-3.80558 -8.5,-8.5 0,-4.69442 3.80558,-8.5 8.5,-8.5 4.69442,0 8.5,3.80558 8.5,8.5 z"
+         d="m 368,321.86218 a 8.5,8.5 0 1 1 -17,0 8.5,8.5 0 1 1 17,0 z"
          transform="matrix(0.70588253,0,0,0.70588253,-182.34587,512.13959)" />
       <text
          xml:space="preserve"
@@ -1732,7 +1744,7 @@
            y="469.5665">Install</tspan></text>
     </g>
     <rect
-       style="fill:#f57900;fill-opacity:1;stroke:#ce5c00;stroke-width:0.99999994000000003;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       style="fill:#f57900;fill-opacity:1;stroke:#ce5c00;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect4168"
        width="148"
        height="24.999992"
