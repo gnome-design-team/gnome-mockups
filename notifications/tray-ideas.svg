@@ -30,8 +30,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="334.75898"
-     inkscape:cy="1073.7798"
+     inkscape:cx="209.25898"
+     inkscape:cy="1033.7798"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -823,7 +823,7 @@
          sodipodi:cy="321.86218"
          sodipodi:rx="8.5"
          sodipodi:ry="8.5"
-         d="m 368,321.86218 a 8.5,8.5 0 1 1 -17,0 8.5,8.5 0 1 1 17,0 z"
+         d="m 368,321.86218 c 0,4.69442 -3.80558,8.5 -8.5,8.5 -4.69442,0 -8.5,-3.80558 -8.5,-8.5 0,-4.69442 3.80558,-8.5 8.5,-8.5 4.69442,0 8.5,3.80558 8.5,8.5 z"
          transform="matrix(0.70588253,0,0,0.70588253,-1133.7648,95.165293)" />
       <text
          xml:space="preserve"
@@ -944,7 +944,7 @@
          style="fill:#2e3436;fill-opacity:1;stroke:none" />
       <path
          transform="matrix(0.70588253,0,0,0.70588253,-1133.7648,95.165293)"
-         d="m 368,321.86218 a 8.5,8.5 0 1 1 -17,0 8.5,8.5 0 1 1 17,0 z"
+         d="m 368,321.86218 c 0,4.69442 -3.80558,8.5 -8.5,8.5 -4.69442,0 -8.5,-3.80558 -8.5,-8.5 0,-4.69442 3.80558,-8.5 8.5,-8.5 4.69442,0 8.5,3.80558 8.5,8.5 z"
          sodipodi:ry="8.5"
          sodipodi:rx="8.5"
          sodipodi:cy="321.86218"
@@ -1670,7 +1670,7 @@
        transform="translate(1.4999557,0)">
       <path
          transform="matrix(0.70588253,0,0,0.70588253,-182.34587,512.13959)"
-         d="m 368,321.86218 a 8.5,8.5 0 1 1 -17,0 8.5,8.5 0 1 1 17,0 z"
+         d="m 368,321.86218 c 0,4.69442 -3.80558,8.5 -8.5,8.5 -4.69442,0 -8.5,-3.80558 -8.5,-8.5 0,-4.69442 3.80558,-8.5 8.5,-8.5 4.69442,0 8.5,3.80558 8.5,8.5 z"
          sodipodi:ry="8.5"
          sodipodi:rx="8.5"
          sodipodi:cy="321.86218"
@@ -1849,7 +1849,7 @@
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#555753;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Sans"
        id="flowRoot3237"
        xml:space="preserve"
-       transform="translate(4,18)"><flowRegion
+       transform="translate(4,20)"><flowRegion
          id="flowRegion3239"><rect
            y="81"
            x="60"
@@ -1857,7 +1857,7 @@
            width="313"
            id="rect3241"
            style="fill:#555753" /></flowRegion><flowPara
-         id="flowPara3243">It is impossible to associate a useful and positive action with every notification, so it probably makes sense to make open and dismiss actions explicit</flowPara></flowRoot>    <rect
+         id="flowPara3320">It is impossible to associate a useful and positive action with every notification, and clicking on a notification should not produce a negative response</flowPara></flowRoot>    <rect
        style="fill:#fce94f;fill-opacity:1;stroke:#edd400;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect3245"
        width="148"
@@ -1940,7 +1940,7 @@
          sodipodi:cy="321.86218"
          sodipodi:rx="8.5"
          sodipodi:ry="8.5"
-         d="m 368,321.86218 a 8.5,8.5 0 1 1 -17,0 8.5,8.5 0 1 1 17,0 z"
+         d="m 368,321.86218 c 0,4.69442 -3.80558,8.5 -8.5,8.5 -4.69442,0 -8.5,-3.80558 -8.5,-8.5 0,-4.69442 3.80558,-8.5 8.5,-8.5 4.69442,0 8.5,3.80558 8.5,8.5 z"
          transform="matrix(0.70588253,0,0,0.70588253,-182.34587,512.13959)" />
       <text
          xml:space="preserve"
@@ -2142,5 +2142,17 @@
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAXCAYAAAAC9s/ZAAAABHNCSVQICAgIfAhkiAAAAuRJREFU OI2V1E9II2cYx/FvxulMNlOLLLqmNykESovSgwdB2e5hiFJhbcmhDQWlFA8KgqIIjmFhIx1BXFER UcqCtoIWNI0gkRBoKEIPPVgh4MF/sMqCsPTgajTOa2b2YorR1NUXhuEdmM/7m2d4HpdpmgAYhuEy TdPhnku+fFk6PDz81uv1/g6c3weSLu/usrKyXyKRyI9AsWEYrvsCkiRJsq7rI9PT083Ah3dFpKub 5uZmJRgMvhgfH/8O0O6C5AHJZJK2tjalpaVlYnh4+BvA8z4kB7gALMsikUjQ29urtLa2/hwOhxuB B7cheQmEEAghiMViDAwMqB0dHTN9fX3+25A84OLiAsuyEEIQjUYZGxtz9/T0zHV2dn4JqIUQ+fqD XAohBIuLiy5N0zyhUOi3TCbz9dTU1F9A5r1ALoVlWSwsLLg0TdPC4fDSycnJU8Mw/jZN87zgJwA4 jpOXQgjB3NyctLq6+tHQ0FAkEAh8YRiG+r9AoRRCCGZmZqS1tbWHo6Oj0fr6+s8Nw/gAgMtmKnYc xwH+uzwej+P1ep1EIpFdX18/39jYOE+lUplsNmsfHBzs+P3+T4GiGzUAUBSF6upqUqkU29vblJeX v5mcnIwrinImSZKtqupZaWnpJ8CrGwlUVXVisZjY398XJSUlTmVlpXN8fCzq6up+ACqAR0ApUAxI eQncbjcrKyvC7Xa/SqfTWiAQ+DgajbK8vOwKhULfNzQ0xIE3V9s9V0QHIB6PW7Is7+q6biaTyaH+ /n7Ltm0mJiaKamtrH9fU1HwGqFcPzfsLtm1v+v3+nzKZzB/t7e2/yrL8uqmpid3dXTY3N+3Gxsav AE8hwNnZ2VnSdf2ZZVl/Aq+Bo62treeDg4NWd3c3Pp9P2tvbO71+aK4Gls/nawcE8NY0zSyAruuR +fn5iqqqqiddXV3/zM7OxoDTQsAF8C9gX5uH6WAwOAK8BLLAEXB2FXDlpvJtK9eFhYbtO4vyZGXu XFQcAAAAAElFTkSuQmCC "
        height="23"
        width="16" />
-  </g>
+    <flowRoot
+       transform="translate(4,74)"
+       xml:space="preserve"
+       id="flowRoot3326"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#555753;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Sans"><flowRegion
+         id="flowRegion3328"><rect
+           style="fill:#555753"
+           id="rect3330"
+           width="313"
+           height="127"
+           x="60"
+           y="81" /></flowRegion><flowPara
+         id="flowPara3332">So, let's make notification bodies unreactive and make open and dismiss actions explicit</flowPara></flowRoot>  </g>
 </svg>
