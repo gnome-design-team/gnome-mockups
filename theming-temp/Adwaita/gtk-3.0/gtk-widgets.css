@@ -1109,6 +1109,7 @@ GtkTreeMenu .menuitem * {
 }
 
 /* nth-child for linked regions */
+/*
 .toolbar .raised.linked .button,
 .toolbar .raised.linked .button:active,
 .toolbar .raised.linked.button,
@@ -1116,7 +1117,7 @@ GtkTreeMenu .menuitem * {
     border-width: 1 0;
     border-radius: 0;
 
-/*    box-shadow: inset 1 0 @button_raised_linked_shadow; */
+
 }
 
 .toolbar .raised.linked .button *:active,
@@ -1139,7 +1140,7 @@ GtkTreeMenu .menuitem * {
 .toolbar .raised.linked:nth-child(last) .button:active {
     border-width: 1 1 1 0;
 }
-
+*/
 GtkPathBar .button,
 GtkPathBar .button:active,
 GtkPathBar .button:active:hover {
@@ -1222,22 +1223,19 @@ GtkPathBar .button:active:nth-child(last) {
 }
 
 /* setup shadows */
+.toolbar .raised.linked.button:nth-child(first),
+.toolbar .raised.linked:nth-child(first) .button,
 .inline-toolbar.toolbar .button {
     padding: 2 3 2 3;
     icon-shadow: 0 1 @theme_base_color;
-
-    /* border-image: none; I want these buttons to be treated like raised buttons*/
-    /* border-color: shade(@button_border, 0.95); */
     border-radius: 0;
-/* why?
-    border-width: 1 0 1 1; */
-    /* FIXE - I need this for keyboard layout panel to look nice, 
-    but it's bad since it selects single buttons as well */
     border-width: 2 0;
     border-style: none;
     box-shadow: @button_raised_linked_shadow -1 0 inset, @button_raised_linked_hilight 1 0 inset
 }
 
+.toolbar .raised.linked.button:insensitive,
+.toolbar .raised.linked .button:insensitive,
 .inline-toolbar.toolbar .button:insensitive,
 .inline-toolbar.toolbar .button *:insensitive,
 .inline-toolbar.toolbar GtkToolButton .button:insensitive {
@@ -1247,6 +1245,10 @@ GtkPathBar .button:active:nth-child(last) {
     text-shadow: 0 1 @button_raised_insensitive_text_hilight;
 }
 
+.toolbar .raised.linked.button:active,
+.toolbar .raised.linked.button:active:hover,
+.toolbar .raised.linked .button:active,
+.toolbar .raised.linked .button:active:hover,
 .inline-toolbar.toolbar .button:active,
 .inline-toolbar.toolbar .button *:active,
 .inline-toolbar.toolbar GtkToolButton .button:active {
@@ -1263,6 +1265,12 @@ GtkPathBar .button:active:nth-child(last) {
 } */
 
 /* nth-child for inline toolbar button groups */
+.toolbar .raised.linked.button:active:nth-child(first),
+.toolbar .raised.linked.button:active:hover:nth-child(first),
+.toolbar .raised.linked.button:insensitive:nth-child(first),
+.toolbar .raised.linked:nth-child(first) .button:active,
+.toolbar .raised.linked:nth-child(first) .button:active:hover,
+.toolbar .raised.linked:nth-child(first) .button:insensitive,
 .inline-toolbar.toolbar .button:nth-child(first),
 .inline-toolbar.toolbar .button:active:nth-child(first),
 .inline-toolbar.toolbar .button:insensitive:nth-child(first),
@@ -1273,21 +1281,35 @@ GtkPathBar .button:active:nth-child(last) {
     padding-right: 1;
 }
 
+.toolbar .raised.linked.button:nth-child(first),
+.toolbar .raised.linked:nth-child(first) .button,
 .inline-toolbar.toolbar .button:nth-child(first),
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button {
     box-shadow: @button_raised_linked_shadow -1 0 inset;
 }
 
+.toolbar .raised.linked.button:active:nth-child(first),
+.toolbar .raised.linked.button:active:hover:nth-child(first),
+.toolbar .raised.linked:nth-child(first) .button:active,
+.toolbar .raised.linked:nth-child(first) .button:active:hover,
 .inline-toolbar.toolbar GtkToolButton:nth-child(first) .button:active,
 .inline-toolbar.toolbar .button:active:nth-child(first) {
     box-shadow: @button_raised_linked_shadow -1 0 inset;
 }
 
+.toolbar .raised.linked.button:insensitive:nth-child(first),
+.toolbar .raised.linked:nth-child(first) .button:insensitive,
 .inline-toolbar.toolbar GtkToolButton:nth-child(last) .button:insensitive,
 .inline-toolbar.toolbar .button:insensitive:nth-child(last) {
     box-shadow: @button_raised_insensitive_shadow -1 0 inset;
 }
 
+.toolbar .raised.linked.button:active:nth-child(last),
+.toolbar .raised.linked.button:active:hover:nth-child(last),
+.toolbar .raised.linked.button:insensitive:nth-child(last),
+.toolbar .raised.linked:nth-child(last) .button:active,
+.toolbar .raised.linked:nth-child(last) .button:active:hover,
+.toolbar .raised.linked:nth-child(last) .button:insensitive,
 .inline-toolbar.toolbar .button:nth-child(last),
 .inline-toolbar.toolbar .button:active:nth-child(last),
 .inline-toolbar.toolbar .button:insensitive:nth-child(last),
@@ -1298,16 +1320,23 @@ GtkPathBar .button:active:nth-child(last) {
     padding-left: 1;
 }
 
+.toolbar .raised.linked.button:nth-child(last),
+.toolbar .raised.linked:nth-child(last) .button,
 .inline-toolbar.toolbar .button:nth-child(last),
 .inline-toolbar.toolbar GtkToolButton:nth-child(last) .button {
     box-shadow: @button_raised_linked_hilight 1 0 inset;
 }
-
+ù.toolbar .raised.linked.button:active:nth-child(last),
+.toolbar .raised.linked.button:active:hover:nth-child(last),
+.toolbar .raised.linked:nth-child(last) .button:active,
+.toolbar .raised.linked:nth-child(last) .button:active:hover,
 .inline-toolbar.toolbar GtkToolButton:nth-child(last) .button:active,
 .inline-toolbar.toolbar .button:active:nth-child(last) {
     box-shadow: @button_raised_linked_shadow 1 0 inset;
 }
 
+.toolbar .raised.linked.button:insensitive:nth-child(first),
+.toolbar .raised.linked:nth-child(first) .button:insensitive,
 .inline-toolbar.toolbar GtkToolButton:nth-child(last) .button:insensitive,
 .inline-toolbar.toolbar .button:insensitive:nth-child(last) {
     box-shadow: @button_raised_insensitive_hilight 1 0 inset;
