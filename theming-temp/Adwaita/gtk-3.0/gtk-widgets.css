@@ -243,10 +243,11 @@ GtkComboBox.combobox-entry .button:prelight,
                                      from (@progressbar_background_a),
                                      to (@progressbar_background_b));
 
-    border-radius: 2.5;
+    border-radius: 2;
     border-width: 1;
     border-style: solid;
     border-color: @progressbar_border;
+    border-image: none;
     /* border-color: red; */
     /* border-image defined in the -assets variant */
     box-shadow: alpha(white, 0.2) 1 1 inset;
@@ -276,7 +277,8 @@ GtkComboBox.combobox-entry .button:prelight,
 /* through component */
 GtkProgressBar,
 .trough row {
-    padding: 0 0 1 0;
+/*    padding: 0 0 1 0; */
+     padding: 2 2 3 2;
     -GtkProgressBar-xspacing: 22;
     -GtkProgressBar-yspacing: 22;
 }

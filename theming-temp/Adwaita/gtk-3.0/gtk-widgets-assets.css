@@ -127,28 +127,31 @@ GtkComboBox.combobox-entry .button:hover:active:nth-child(first) {
 /*    border-image: url("assets/combobox-entry-border-active.svg") 3 / 3 0 3 3 stretch; */
 }
 
+/*
 GtkScale.trough,
 GtkSwitch.trough,
 GtkScale.trough.horizontal {
-/*    border-image: url("assets/trough-border-horizontal.svg") 3 / 3 stretch; */
+    border-image: url("assets/trough-border-horizontal.svg") 3 / 3 stretch; 
 }
 
 GtkScale.trough.vertical {
-/*    border-image: url("assets/trough-border-vertical.svg") 3 / 3 stretch; */
+    border-image: url("assets/trough-border-vertical.svg") 3 / 3 stretch; 
 }
+*/
 
 GtkSwitch.trough:active {
     border-image: url("assets/lapo-border-focused.svg") 3 / 3 stretch;
 }
 
-GtkScale.progressbar.horizontal {
-    /* border-image: url("assets/trough-active-border-horizontal.svg") 3 / 3 stretch; */
+/* GtkScale.progressbar.horizontal {
     border-image: url("assets/lapo-border.svg") 3 / 3 stretch;
 }
 
 GtkScale.progressbar.vertical {
     border-image: url("assets/trough-active-border-vertical.svg") 3 / 3 stretch;
-}
+} 
+
+*/
 
 /* we don't really need border-images here
 GtkSwitch.slider {
