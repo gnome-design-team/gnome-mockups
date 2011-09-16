@@ -473,15 +473,13 @@ GtkScrolledWindow.frame {
 }
 
 .button.default {
-    color: @selected_fg_color;
+/*    color: @selected_fg_color; */
     border-width: 1 1 2 1;
 /* FIXME - do proper color definitions */
-    background-image: -gtk-gradient (linear,
+/*    background-image: -gtk-gradient (linear,
 				     left top, left bottom,
                                      from (@progressbar_background_a),
-                                     /*color-stop (0.2, @progressbar_background_a),
-                                     color-stop (0.7, @progressbar_background_b), */
-                                     to (@progressbar_background_b));
+                                     to (@progressbar_background_b)); */
 }
 
 /*****************

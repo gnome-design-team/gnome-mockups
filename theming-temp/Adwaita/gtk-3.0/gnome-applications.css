@@ -76,12 +76,16 @@ NautilusSearchBar .entry.image {
 }
 
 NautilusFloatingBar {
-    background-image: -gtk-gradient (linear,
+    /* background-image: -gtk-gradient (linear,
                                      left top, left bottom,
                                      from (shade (@notebook_tab_gradient_a, 0.97)),
-                                     to (shade (@notebook_tab_gradient_b, 0.90)));
+                                     to (shade (@notebook_tab_gradient_b, 0.90))); 
 
     border-color: shade (@notebook_tab_gradient_b, 0.80);
+*/
+
+background-color: @info_bg_color;
+border-color: darker(@info_bg_color);
 
     border-radius: 0;
     border-width: 1;
