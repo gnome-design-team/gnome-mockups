@@ -1326,7 +1326,8 @@ GtkPathBar .button:active:nth-child(last) {
 .inline-toolbar.toolbar GtkToolButton:nth-child(last) .button {
     box-shadow: @button_raised_linked_hilight 1 0 inset;
 }
-ù.toolbar .raised.linked.button:active:nth-child(last),
+
+.toolbar .raised.linked.button:active:nth-child(last),
 .toolbar .raised.linked.button:active:hover:nth-child(last),
 .toolbar .raised.linked:nth-child(last) .button:active,
 .toolbar .raised.linked:nth-child(last) .button:active:hover,
