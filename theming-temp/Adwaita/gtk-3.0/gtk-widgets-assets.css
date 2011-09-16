@@ -331,6 +331,36 @@ GtkScale.scale-has-marks-below.slider.vertical:insensitive {
     border-image: url("assets/lapo-toolbar-border.svg") 4 / 4 4 4 0 stretch;
 }
 
+/* GtkPathBar */
+
+GtkPathBar .button {
+    border-image: url("assets/lapo-border-hilight.svg") 3 / 3 0 stretch;
+}
+
+GtkPathBar .button:active,
+GtkPathBar .button:active:hover {
+    border-image: url("assets/lapo-border.svg") 3 / 3 0 stretch;
+}
+
+GtkPathBar .button:nth-child(first) {
+    border-image: url("assets/lapo-border-hilight.svg") 3 / 3 0 3 3 stretch;
+}
+
+GtkPathBar .button:active:nth-child(first),
+GtkPathBar .button:active:hover:nth-child(first) {
+    border-image: url("assets/lapo-border.svg") 3 / 3 0 3 3 stretch;
+}
+
+GtkPathBar .button:nth-child(last) {
+    border-image: url("assets/lapo-border-hilight.svg") 3 / 3 3 3 0 stretch;
+}
+
+GtkPathBar .button:active:nth-child(last),
+GtkPathBar .button:active:hover:nth-child(last) {
+    border-image: url("assets/lapo-border.svg") 3 / 3 3 3 0 stretch;
+}
+
+
 
 /* nth-child for linked areas */
 /*

@@ -1108,29 +1108,43 @@ GtkTreeMenu .menuitem * {
     text-shadow: none;
 }
 
-GtkPathBar .button,
-GtkPathBar .button:active,
-GtkPathBar .button:active:hover {
+GtkPathBar .button {
     /* border-image: none; */
     border-style: none;
     border-width: 1 0 2 0;
     border-radius: 0;
+    box-shadow: @button_raised_linked_shadow -1 0 inset, @button_raised_linked_hilight 1 0 inset;
 }
 
 GtkPathBar .button:active,
 GtkPathBar .button:active:hover {
-    box-shadow: 1 0 inset shade(@button_border, 1.20);
+    box-shadow: @button_raised_linked_shadow -1 0 inset, @button_raised_linked_shadow 1 0 inset;
 }
 
-GtkPathBar .button:nth-child(first),
-GtkPathBar .button:active:nth-child(first) {
+GtkPathBar .button:nth-child(first) {
     border-radius: 3 0 0 3;
+    border-left-width: 2;
+    border-right-width: 0;
+    padding-right: 1;
+    box-shadow: @button_raised_linked_shadow -1 0 inset;
 }
 
-GtkPathBar .button:nth-child(last),
-GtkPathBar .button:active:nth-child(last) {
-    border-width: 1;
+GtkPathBar .button:active:nth-child(first),
+GtkPathBar .button:active:hover:nth-child(first) {
+    box-shadow: @button_raised_linked_shadow -1 0 inset;
+}
+
+GtkPathBar .button:nth-child(last) {
     border-radius: 0 3 3 0;
+    border-left-width: 0;
+    border-right-width: 2;
+    padding-left: 1;
+    box-shadow: @button_raised_linked_hilight 1 0 inset;
+}
+
+GtkPathBar .button:active:nth-child(last),
+GtkPathBar .button:active:hovernth-child(last) {
+    box-shadow: @button_raised_linked_shadow 1 0 inset;
 }
 
 .primary-toolbar.toolbar .entry {
