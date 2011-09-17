@@ -153,6 +153,10 @@ GtkStatusbar {
     color: @entry_text_color;
 }
 
+.primary-toolbar .entry {
+    border-width: 2;
+}
+
 .entry,
 GtkComboBox.combobox-entry .button,
 GtkComboBox.combobox-entry .button:prelight,
@@ -489,7 +493,7 @@ GtkScrolledWindow.frame {
  * tabs          *
  *****************/
 .notebook {
-    padding: 2;
+    padding: 1;
 
     border-color: @notebook_border;
     border-style: solid;
@@ -550,6 +554,10 @@ GtkComboBox {
     -GtkComboBox-shadow-type: none;
 }
 
+.primary-toolbar GtkComboBox {
+    padding: 2;
+}
+
 GtkComboBox .separator {
     /* always disable separators */
     -GtkWidget-wide-separators: true;
@@ -564,11 +572,20 @@ GtkComboBox .entry:nth-child(first) {
     border-image-width: 3 0 3 3;
 }
 
+.primary-toolbar GtkComboBox .entry,
+.primary-toolbar GtkComboBox .entry:nth-child(first) {
+    border-width: 2 0 2 2;
+}
+
 /* for RTL languages */
 GtkComboBox .entry:nth-child(last) {
     border-width: 1 1 2 0;
     border-radius: 0 3 3 0;
     border-image-width: 3 3 3 0;
+}
+
+.primary-toolbar GtkComboBox .entry:nth-child(last) {
+    border-width: 2 2 2 0;
 }
 
 GtkComboBox .button {
@@ -580,9 +597,7 @@ GtkComboBox .button *:prelight {
     color: @theme_text_color;
 }
 
-.primary-toolbar GtkComboBox.combobox-entry .button,
 GtkComboBox.combobox-entry .button,
-.primary-toolbar GtkComboBox.combobox-entry .button:nth-child(last),
 GtkComboBox.combobox-entry .button:nth-child(last) {
     border-width: 1 1 1 0;
     border-radius: 0 3 3 0;
@@ -591,20 +606,32 @@ GtkComboBox.combobox-entry .button:nth-child(last) {
     -adwaita-focus-fill-color: alpha (@theme_base_color, 0.0);
 }
 
+.primary-toolbar GtkComboBox.combobox-entry .button,
+.primary-toolbar GtkComboBox.combobox-entry .button:nth-child(last) {
+    border-width: 2 2 2 0;
+}
+
+
 /* for RTL languages */
-.primary-toolbar GtkComboBox.combobox-entry .button:nth-child(first),
 GtkComboBox.combobox-entry .button:nth-child(first) {
     border-width: 1 0 1 1;
     border-radius: 3 0 0 3;
 }
 
-.primary-toolbar GtkComboBox.combobox-entry .button,
+.primary-toolbar GtkComboBox.combobox-entry .button:nth-child(first) {
+    border-width: 2 0 2 2;
+}
+
 GtkComboBox.combobox-entry .button {
     border-width: 1 1 2 0;
     border-radius: 0 3 3 0;
 
     padding: 2 3 3 3;
     -adwaita-focus-fill-color: alpha (@theme_base_color, 0.0);
+}
+
+.primary-toolbar GtkComboBox.combobox-entry .button {
+    border-width: 2 2 2 0;
 }
 
 .primary-toolbar GtkComboBox.combobox-entry .button *:active,

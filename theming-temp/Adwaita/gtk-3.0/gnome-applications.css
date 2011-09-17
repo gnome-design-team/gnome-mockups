@@ -54,11 +54,20 @@ NautilusQueryEditor.info {
     border-style: solid;
 }
 
-NautilusSearchBar .entry {
+NautilusSearchBar .entry,
+NautilusSearchBar .entry:focused {
+    padding: 2;
     border-image: none;
-    border-color: @nautilus_cluebar_color;
+    border-style: solid;
+    border-width: 1;
+    border-color: shade(@nautilus_cluebar_color, 0.8);
 
     -GtkEntry-inner-border: 3;
+}
+
+NautilusSearchBar .entry:focused {
+    border-color: darker(@nautilus_cluebar_color);
+    box-shadow: 1 1 inset alpha(@nautilus_cluebar_color, 0.4), -1 -1 inset alpha(@nautilus_cluebar_color, 0.4);
 }
 
 NautilusSearchBar .entry.image {
@@ -75,6 +84,11 @@ NautilusSearchBar .entry.image {
     color: darker (@nautilus_cluebar_color);
     text-shadow: 0 1 alpha(@theme_base_color, 0.5);
     icon-shadow: 0 1 alpha(@theme_base_color, 0.5);
+}
+
+NautilusShareBar {
+    color: red;
+    background-color: blue;
 }
 
 NautilusFloatingBar {

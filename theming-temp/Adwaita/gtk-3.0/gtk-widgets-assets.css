@@ -88,13 +88,25 @@
     border-image: url("assets/lapo-border.svg") 3 / 3 stretch;
 }
 
+.primary-toolbar .entry {
+    border-image: url("assets/lapo-toolbar-border.svg") 4 / 4 stretch;
+}
+
 .entry:focused {
     border-image: url("assets/lapo-border-focused.svg") 3 / 3 stretch;
+}
+
+.primary-toolbar .entry:focused {
+    border-image: url("assets/lapo-toolbar-border-focused.svg") 4 / 4 stretch;
 }
 
 .primary-toolbar GtkComboBox.combobox-entry .button,
 .primary-toolbar GtkComboBox.combobox-entry .button:nth-child(last) {
     border-image: url("assets/lapo-toolbar-border.svg") 4 / 4 4 4 0 stretch;
+}
+
+.primary-toolbar GtkComboBox.combobox-entry {
+    border-image: url("assets/lapo-toolbar-border.svg") 4 / 4 stretch;
 }
 
 
