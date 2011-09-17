@@ -87,8 +87,9 @@ NautilusSearchBar .entry.image {
 }
 
 NautilusShareBar {
-    color: red;
-    background-color: blue;
+    /* FIXME - can't set background color or padding here 
+               looks like just `color` is working */
+
 }
 
 NautilusFloatingBar {
