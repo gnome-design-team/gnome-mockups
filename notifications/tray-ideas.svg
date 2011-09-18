@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.48.1 r9760"
    sodipodi:docname="tray-ideas.svg"
-   inkscape:export-filename="/home/allan/SparkleShare/gnome-mockups/notifications/notification-types.png"
+   inkscape:export-filename="/home/allan/SparkleShare/gnome-mockups/notifications/tray-idea.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    style="display:inline">
@@ -30,8 +30,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="338.37613"
-     inkscape:cy="712.10969"
+     inkscape:cx="349.21407"
+     inkscape:cy="934.72107"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -734,7 +734,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="disaggregate"
-     style="display:none"
+     style="display:inline"
      transform="translate(-17,0)">
     <rect
        style="fill:#eeeeec;fill-opacity:1;stroke:none"
@@ -1101,7 +1101,7 @@
     <rect
        style="fill:#fce94f;fill-opacity:1;stroke:#edd400;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect3662"
-       width="148"
+       width="141"
        height="38.999996"
        x="763.51984"
        y="216.96933"
@@ -1588,7 +1588,7 @@
        y="233.47188"
        x="927.0777"
        height="39.999996"
-       width="155"
+       width="144"
        id="rect3346"
        style="fill:#fce94f;fill-opacity:1;stroke:#edd400;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
     <text
@@ -1606,10 +1606,65 @@
          x="935.5777"
          sodipodi:role="line"
          id="tspan3337">between notifications</tspan></text>
-  </g>
+    <rect
+       y="861.72491"
+       x="40.418945"
+       height="211.27509"
+       width="356.58105"
+       id="rect3395"
+       style="fill:#eeeeec;fill-opacity:1;stroke:none" />
+    <flowRoot
+       transform="translate(2.764,806)"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       id="flowRoot3343"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3345"><rect
+           style="font-weight:bold;fill:#555753;-inkscape-font-specification:Cantarell Bold"
+           y="81"
+           x="60"
+           height="127"
+           width="313"
+           id="rect3347" /></flowRegion><flowPara
+         id="flowPara3349">Improvements on the current tray design:</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3351"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Sans"
+       transform="translate(2.764,830)"><flowRegion
+         id="flowRegion3353"><rect
+           id="rect3355"
+           width="313"
+           height="127"
+           x="60"
+           y="81"
+           style="fill:#555753" /></flowRegion><flowPara
+         id="flowPara3357">Major simplification - does the same job with a large reduction in ui complexity; this makes it easier to understand and use, etc.</flowPara></flowRoot>    <flowRoot
+       transform="translate(2.764,884)"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Sans"
+       id="flowRoot3359"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3361"><rect
+           style="fill:#555753"
+           y="81"
+           x="60"
+           height="127"
+           width="313"
+           id="rect3363" /></flowRegion><flowPara
+         id="flowPara3365">Removes the accordion and the interaction issues that come with it</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3367"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Sans"
+       transform="translate(2.764,924)"><flowRegion
+         id="flowRegion3369"><rect
+           id="rect3371"
+           width="313"
+           height="127"
+           x="60"
+           y="81"
+           style="fill:#555753" /></flowRegion><flowPara
+         id="flowPara3373">Lack of small icons makes it touch friendly - each notification could be easily opened with a drag gesture</flowPara></flowRoot>  </g>
   <g
      transform="translate(-17,0)"
-     style="display:inline"
+     style="display:none"
      inkscape:label="notification types"
      id="g6577"
      inkscape:groupmode="layer">
