@@ -100,56 +100,6 @@
     border-image: url("assets/lapo-toolbar-border-focused.svg") 4 / 4 stretch;
 }
 
-.primary-toolbar GtkComboBox.combobox-entry .button,
-.primary-toolbar GtkComboBox.combobox-entry .button:nth-child(last) {
-    border-image: url("assets/lapo-toolbar-border.svg") 4 / 4 4 4 0 stretch;
-}
-
-.primary-toolbar GtkComboBox.combobox-entry {
-    border-image: url("assets/lapo-toolbar-border.svg") 4 / 4 stretch;
-}
-
-
-GtkComboBox.combobox-entry .button,
-GtkComboBox.combobox-entry .button:nth-child(last),
-GtkComboBox.combobox-entry .button:insensitive:nth-child(last) {
-    border-image: url("assets/lapo-border.svg") 3 / 3 3 3 0 stretch;
-}
-
-.primary-toolbar GtkComboBox.combobox-entry .button:active,
-.primary-toolbar GtkComboBox.combobox-entry .button:hover:active,
-.primary-toolbar GtkComboBox.combobox-entry .button:active:nth-child(last),
-.primary-toolbar GtkComboBox.combobox-entry .button:hover:active:nth-child(last) {
-    border-image: url("assets/lapo-toolbar-border.svg") 4 / 4 4 4 0 stretch;
-}
-
-GtkComboBox.combobox-entry .button:active,
-GtkComboBox.combobox-entry .button:hover:active,
-GtkComboBox.combobox-entry .button:active:nth-child(last),
-GtkComboBox.combobox-entry .button:hover:active:nth-child(last) {
-    border-image: url("assets/lapo-border.svg") 3 / 3 3 3 0 stretch;
-/*    border-image: url("assets/combobox-entry-border-active.svg") 3 / 3 3 3 0 stretch; */
-}
-
-/* for RTL languages */
-.primary-toolbar GtkComboBox.combobox-entry .button:nth-child(first) {
-    border-image: url("assets/lapo-toolbar-border.svg") 4 / 4 0 4 4 stretch;
-}
-GtkComboBox.combobox-entry .button:nth-child(first) {
-    border-image: url("assets/lapo-border.svg") 3 / 3 0 3 3 stretch;
-}
-
-.primary-toolbar GtkComboBox.combobox-entry .button:active:nth-child(first),
-.primary-toolbar GtkComboBox.combobox-entry .button:hover:active:nth-child(first) {
-    border-image: url("assets/lapo-toolbar-border.svg") 4 / 4 0 4 4 stretch;
-}
-
-GtkComboBox.combobox-entry .button:active:nth-child(first),
-GtkComboBox.combobox-entry .button:hover:active:nth-child(first) {
-    border-image: url("assets/lapo-border.svg") 3 / 3 0 3 3 stretch;
-/*    border-image: url("assets/combobox-entry-border-active.svg") 3 / 3 0 3 3 stretch; */
-}
-
 /*
 GtkScale.trough,
 GtkSwitch.trough,
