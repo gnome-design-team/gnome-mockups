@@ -104,6 +104,7 @@
 @define-color progressbar_pattern #000000;
 
 @define-color entry_text_color @theme_text_color;
+@define-color entry_focused_inner_border alpha(@selected_bg_color, 0.4);
 
 @define-color entry_background_a #e1e1e1;
 @define-color entry_background_b #f8f8f8;
