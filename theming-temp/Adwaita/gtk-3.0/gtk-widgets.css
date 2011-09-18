@@ -558,6 +558,13 @@ GtkComboBox {
     padding: 2;
 }
 
+GtkComboBox .separator {
+    /* always disable separators */
+    -GtkWidget-wide-separators: true;
+    -GtkWidget-horizontal-separator: 0;
+    -GtkWidget-vertical-separator: 0;
+}
+
 /**************
  * Scrollbars *
  **************/
