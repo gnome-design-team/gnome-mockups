@@ -22,6 +22,18 @@
   <defs
      id="defs3141">
     <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4401">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4403" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.4"
+         offset="1"
+         id="stop4405" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient5955"
        inkscape:collect="always">
       <stop
@@ -317,16 +329,6 @@
        r="110.5" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient4863"
-       id="linearGradient4869"
-       x1="718.37573"
-       y1="475.88965"
-       x2="718.37573"
-       y2="428.10648"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0,0.0625)" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient4863-9"
        id="linearGradient4869-0"
        x1="718.37573"
@@ -370,15 +372,6 @@
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient4957"
-       id="linearGradient4963"
-       x1="727.96942"
-       y1="465.31186"
-       x2="727.96942"
-       y2="432.19604"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient4863-4"
        id="linearGradient4869-6"
        x1="718.37573"
@@ -408,15 +401,6 @@
          stdDeviation="1.7141195"
          id="feGaussianBlur5005" />
     </filter>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4957-6"
-       id="linearGradient4963-2"
-       x1="727.96942"
-       y1="465.31186"
-       x2="727.96942"
-       y2="432.19604"
-       gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient4957-6">
@@ -560,26 +544,6 @@
          offset="1"
          id="stop4867-5-3" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5390"
-       id="linearGradient5388"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(310,0)"
-       x1="727.96942"
-       y1="463.56204"
-       x2="727.96942"
-       y2="432.19604" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5429"
-       id="linearGradient4869-8-98"
-       x1="718.37573"
-       y1="475.88965"
-       x2="718.37573"
-       y2="428.10648"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(310,0.0625)" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient4863-3-8">
@@ -786,6 +750,243 @@
        y1="475.88965"
        x2="718.37573"
        y2="428.10648" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4863"
+       id="linearGradient4277"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,0.0625)"
+       x1="718.37573"
+       y1="475.88965"
+       x2="718.37573"
+       y2="428.10648" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4957"
+       id="linearGradient4279"
+       gradientUnits="userSpaceOnUse"
+       x1="727.96942"
+       y1="465.31186"
+       x2="727.96942"
+       y2="432.19604" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5429"
+       id="linearGradient4289"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(310,0.0625)"
+       x1="718.37573"
+       y1="475.88965"
+       x2="718.37573"
+       y2="428.10648" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5390"
+       id="linearGradient4291"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(310,0)"
+       x1="727.96942"
+       y1="463.56204"
+       x2="727.96942"
+       y2="432.19604" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4957-6"
+       id="linearGradient4302"
+       gradientUnits="userSpaceOnUse"
+       x1="727.96942"
+       y1="465.31186"
+       x2="727.96942"
+       y2="432.19604" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4863-3"
+       id="linearGradient4321"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(310,0.0625)"
+       x1="718.37573"
+       y1="475.88965"
+       x2="718.37573"
+       y2="428.10648" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4957-6"
+       id="linearGradient4323"
+       gradientUnits="userSpaceOnUse"
+       x1="727.96942"
+       y1="465.31186"
+       x2="727.96942"
+       y2="432.19604" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4863-3"
+       id="linearGradient4337"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(310,0.0625)"
+       x1="718.37573"
+       y1="475.88965"
+       x2="718.37573"
+       y2="428.10648" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4957-6"
+       id="linearGradient4339"
+       gradientUnits="userSpaceOnUse"
+       x1="727.96942"
+       y1="465.31186"
+       x2="727.96942"
+       y2="432.19604" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5429-9"
+       id="linearGradient4289-4"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(310,0.0625)"
+       x1="718.37573"
+       y1="475.88965"
+       x2="718.37573"
+       y2="428.10648" />
+    <linearGradient
+       id="linearGradient5429-9"
+       inkscape:collect="always">
+      <stop
+         id="stop5431-6"
+         offset="0"
+         style="stop-color:#3465a4;stop-opacity:1" />
+      <stop
+         id="stop5433-7"
+         offset="1"
+         style="stop-color:#729fcf;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5390-1"
+       id="linearGradient4291-2"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(310,0)"
+       x1="727.96942"
+       y1="463.56204"
+       x2="727.96942"
+       y2="432.19604" />
+    <linearGradient
+       id="linearGradient5390-1"
+       inkscape:collect="always">
+      <stop
+         id="stop5392-0"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:0.102" />
+      <stop
+         id="stop5394-1"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4401"
+       id="linearGradient4407"
+       x1="1381.9688"
+       y1="468.04568"
+       x2="1381.9688"
+       y2="489.8208"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4401"
+       id="linearGradient4410"
+       gradientUnits="userSpaceOnUse"
+       x1="1381.9688"
+       y1="468.04568"
+       x2="1381.9688"
+       y2="489.8208"
+       gradientTransform="translate(-20,0)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5955"
+       id="linearGradient4413"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(620,0.0625)"
+       x1="718.37573"
+       y1="475.88965"
+       x2="718.37573"
+       y2="428.10648" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5955"
+       id="linearGradient4423"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(620,0.0625)"
+       x1="718.37573"
+       y1="475.88965"
+       x2="718.37573"
+       y2="428.10648" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4401"
+       id="linearGradient4425"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-20,0)"
+       x1="1381.9688"
+       y1="468.04568"
+       x2="1381.9688"
+       y2="489.8208" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4863-3-9"
+       id="linearGradient4455"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(620,0.0625)"
+       x1="718.37573"
+       y1="475.88965"
+       x2="718.37573"
+       y2="428.10648" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4957-6-2"
+       id="linearGradient4457"
+       gradientUnits="userSpaceOnUse"
+       x1="727.96942"
+       y1="465.31186"
+       x2="727.96942"
+       y2="432.19604" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5390-6"
+       id="linearGradient4459"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(620,0)"
+       x1="727.96942"
+       y1="463.56204"
+       x2="727.96942"
+       y2="432.19604" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5955"
+       id="linearGradient4461"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(620,0.0625)"
+       x1="718.37573"
+       y1="475.88965"
+       x2="718.37573"
+       y2="428.10648" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4401"
+       id="linearGradient4463"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-20,0)"
+       x1="1381.9688"
+       y1="468.04568"
+       x2="1381.9688"
+       y2="489.8208" />
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5003-7-3-8">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.7141195"
+         id="feGaussianBlur5005-6-5-8" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -794,9 +995,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="595.4461"
-     inkscape:cy="252.85379"
+     inkscape:zoom="1"
+     inkscape:cx="1256.8065"
+     inkscape:cy="114.32572"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
@@ -1842,20 +2043,53 @@
        inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Medium"
-       x="692.38367"
-       y="532.50909"
-       id="text13283-3-0"
-       sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan13285-4-9"
+    <g
+       id="g4222">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
+         sodipodi:linespacing="125%"
+         id="text13283-3-0"
+         y="532.50909"
          x="692.38367"
-         y="532.50909">Suspend</tspan></text>
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Medium"
+         xml:space="preserve"><tspan
+           y="532.50909"
+           x="692.38367"
+           id="tspan13285-4-9"
+           sodipodi:role="line">Suspend</tspan></text>
+      <path
+         transform="matrix(1.5,0,0,1.5,582,-264)"
+         d="m 72,525 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
+         sodipodi:ry="1"
+         sodipodi:rx="1"
+         sodipodi:cy="525"
+         sodipodi:cx="71"
+         id="path3296-7-7"
+         style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(1.5,0,0,1.5,582,-259)"
+         d="m 72,525 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
+         sodipodi:ry="1"
+         sodipodi:rx="1"
+         sodipodi:cy="525"
+         sodipodi:cx="71"
+         id="path3296-0-6-9"
+         style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(1.5,0,0,1.5,582,-254)"
+         d="m 72,525 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
+         sodipodi:ry="1"
+         sodipodi:rx="1"
+         sodipodi:cy="525"
+         sodipodi:cx="71"
+         id="path3296-0-1-3-1"
+         style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         sodipodi:type="arc" />
+    </g>
     <g
        id="g5495"
        style="opacity:0.8">
@@ -2099,131 +2333,108 @@
        inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       id="path3296-7-7"
-       sodipodi:cx="71"
-       sodipodi:cy="525"
-       sodipodi:rx="1"
-       sodipodi:ry="1"
-       d="m 72,525 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
-       transform="matrix(1.5,0,0,1.5,582,-264)" />
-    <path
-       sodipodi:type="arc"
-       style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       id="path3296-0-6-9"
-       sodipodi:cx="71"
-       sodipodi:cy="525"
-       sodipodi:rx="1"
-       sodipodi:ry="1"
-       d="m 72,525 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
-       transform="matrix(1.5,0,0,1.5,582,-259)" />
-    <path
-       sodipodi:type="arc"
-       style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       id="path3296-0-1-3-1"
-       sodipodi:cx="71"
-       sodipodi:cy="525"
-       sodipodi:rx="1"
-       sodipodi:ry="1"
-       d="m 72,525 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
-       transform="matrix(1.5,0,0,1.5,582,-254)" />
-    <path
-       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5003);enable-background:accumulate"
-       d="m 722.29122,522.03933 c 0.48664,0 0.9657,-0.17433 1.3386,-0.51236 l 15.46821,-14.02253 42.74817,0 c 4.21878,0 7.61512,-3.07891 7.61512,-6.90339 l 0.008,-66.19956 c 0,-3.8245 -3.39634,-6.9034 -7.61512,-6.9034 l -118.76981,0 c -4.2187,0 -7.6151,3.0789 -7.6151,6.9034 l -0.008,66.19956 c 0,3.82448 3.3964,6.90339 7.6151,6.90339 l 42.40802,0 15.46821,14.02253 c 0.3729,0.33803 0.85196,0.51236 1.3386,0.51236 z"
-       id="path13237-9-7-9-1"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       sodipodi:nodetypes="cccccccccccccc"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png" />
-    <path
-       style="color:#000000;fill:url(#linearGradient4869);fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 722.29122,521.03933 c 0.48664,0 0.9657,-0.17433 1.3386,-0.51236 l 15.46821,-14.02253 42.74817,0 c 4.21878,0 7.61512,-3.07891 7.61512,-6.90339 l 0.008,-66.19956 c 0,-3.8245 -3.39634,-6.9034 -7.61512,-6.9034 l -118.76981,0 c -4.2187,0 -7.6151,3.0789 -7.6151,6.9034 l -0.008,66.19956 c 0,3.82448 3.3964,6.90339 7.6151,6.90339 l 42.40802,0 15.46821,14.02253 c 0.3729,0.33803 0.85196,0.51236 1.3386,0.51236 z"
-       id="path13237-9-7-9"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       sodipodi:nodetypes="cccccccccccccc"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png" />
-    <text
-       id="text13269-2-5-2-4"
-       y="449.82999"
-       x="722.80682"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;opacity:0.2;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       xml:space="preserve"
-       sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         y="449.82999"
-         x="722.80682"
-         id="tspan13271-7-8-0-82"
-         sodipodi:role="line">Suspend</tspan></text>
-    <text
-       id="text13269-2-5-2"
-       y="450.82999"
-       x="722.80682"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       xml:space="preserve"
-       sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         y="450.82999"
-         x="722.80682"
-         id="tspan13271-7-8-0"
-         sodipodi:role="line">Suspend</tspan></text>
-    <text
-       id="text13269-2-5-2-0-2"
-       y="487.82999"
-       x="721.72131"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;opacity:0.2;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       xml:space="preserve"
-       sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         y="487.82999"
-         x="721.72131"
-         id="tspan13271-7-8-0-8-3"
-         sodipodi:role="line">Power Off</tspan></text>
-    <text
-       id="text13269-2-5-2-0"
-       y="488.82999"
-       x="721.72131"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       xml:space="preserve"
-       sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         y="488.82999"
-         x="721.72131"
-         id="tspan13271-7-8-0-8"
-         sodipodi:role="line">Power Off</tspan></text>
-    <rect
-       style="opacity:0.05;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       id="rect4784"
-       width="132.95186"
-       height="1"
-       x="656.01691"
-       y="465" />
-    <rect
-       style="opacity:0.2;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       id="rect4784-4"
-       width="132.95186"
-       height="1"
-       x="656.01691"
-       y="466" />
-    <path
-       sodipodi:type="inkscape:offset"
-       inkscape:radius="-1"
-       inkscape:original="M 663.09375 426.5 C 658.87505 426.5 655.46875 429.58175 655.46875 433.40625 L 655.46875 499.59375 C 655.46875 503.41823 658.8438 506.5 663.0625 506.5 L 705.5 506.5 L 720.9375 520.53125 C 721.3104 520.86928 721.79461 521.03125 722.28125 521.03125 C 722.76789 521.03125 723.2521 520.86928 723.625 520.53125 L 739.09375 506.5 L 781.84375 506.5 C 786.06253 506.5 789.46875 503.41823 789.46875 499.59375 L 789.46875 433.40625 C 789.46875 429.58175 786.06253 426.5 781.84375 426.5 L 663.09375 426.5 z "
-       style="color:#000000;fill:none;stroke:url(#linearGradient4963);stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="path4947"
-       d="m 663.09375,427.5 c -3.7317,0 -6.625,2.67552 -6.625,5.90625 l 0,66.1875 c 0,3.23616 2.86205,5.90625 6.59375,5.90625 l 42.4375,0 a 1.0001,1.0001 0 0 1 0.6875,0.25 l 15.40625,14.03125 c 0.007,0.006 0.0242,-0.006 0.0312,0 0.16954,0.14382 0.40213,0.25 0.65625,0.25 0.26475,0 0.51598,-0.0945 0.6875,-0.25 L 738.4375,505.75 a 1.0001,1.0001 0 0 1 0.65625,-0.25 l 42.75,0 c 3.73179,0 6.625,-2.67553 6.625,-5.90625 l 0,-66.1875 c 0,-3.23075 -2.89321,-5.90625 -6.625,-5.90625 l -118.75,0 z" />
+    <g
+       id="g4261"
+       transform="translate(0,-5)">
+      <path
+         inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccccccccc"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         id="path13237-9-7-9-1"
+         d="m 722.29122,522.03933 c 0.48664,0 0.9657,-0.17433 1.3386,-0.51236 l 15.46821,-14.02253 42.74817,0 c 4.21878,0 7.61512,-3.07891 7.61512,-6.90339 l 0.008,-66.19956 c 0,-3.8245 -3.39634,-6.9034 -7.61512,-6.9034 l -118.76981,0 c -4.2187,0 -7.6151,3.0789 -7.6151,6.9034 l -0.008,66.19956 c 0,3.82448 3.3964,6.90339 7.6151,6.90339 l 42.40802,0 15.46821,14.02253 c 0.3729,0.33803 0.85196,0.51236 1.3386,0.51236 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5003);enable-background:accumulate" />
+      <g
+         id="g4243">
+        <path
+           style="color:#000000;fill:url(#linearGradient4277);fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 722.29122,521.03933 c 0.48664,0 0.9657,-0.17433 1.3386,-0.51236 l 15.46821,-14.02253 42.74817,0 c 4.21878,0 7.61512,-3.07891 7.61512,-6.90339 l 0.008,-66.19956 c 0,-3.8245 -3.39634,-6.9034 -7.61512,-6.9034 l -118.76981,0 c -4.2187,0 -7.6151,3.0789 -7.6151,6.9034 l -0.008,66.19956 c 0,3.82448 3.3964,6.90339 7.6151,6.90339 l 42.40802,0 15.46821,14.02253 c 0.3729,0.33803 0.85196,0.51236 1.3386,0.51236 z"
+           id="path13237-9-7-9"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90"
+           sodipodi:nodetypes="cccccccccccccc"
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png" />
+        <text
+           id="text13269-2-5-2-4"
+           y="451.82999"
+           x="722.80682"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;opacity:0.5;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           xml:space="preserve"
+           sodipodi:linespacing="125%"
+           inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90"><tspan
+             y="451.82999"
+             x="722.80682"
+             id="tspan13271-7-8-0-82"
+             sodipodi:role="line">Suspend</tspan></text>
+        <text
+           id="text13269-2-5-2"
+           y="450.82999"
+           x="722.80682"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           xml:space="preserve"
+           sodipodi:linespacing="125%"
+           inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90"><tspan
+             y="450.82999"
+             x="722.80682"
+             id="tspan13271-7-8-0"
+             sodipodi:role="line">Suspend</tspan></text>
+        <text
+           id="text13269-2-5-2-0-2"
+           y="489.82999"
+           x="721.72131"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;opacity:0.5;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           xml:space="preserve"
+           sodipodi:linespacing="125%"
+           inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90"><tspan
+             y="489.82999"
+             x="721.72131"
+             id="tspan13271-7-8-0-8-3"
+             sodipodi:role="line">Power Off</tspan></text>
+        <text
+           id="text13269-2-5-2-0"
+           y="488.82999"
+           x="721.72131"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           xml:space="preserve"
+           sodipodi:linespacing="125%"
+           inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90"><tspan
+             y="488.82999"
+             x="721.72131"
+             id="tspan13271-7-8-0-8"
+             sodipodi:role="line">Power Off</tspan></text>
+        <rect
+           style="opacity:0.05;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+           id="rect4784"
+           width="132.95186"
+           height="1"
+           x="656.01691"
+           y="465" />
+        <rect
+           style="opacity:0.2;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+           id="rect4784-4"
+           width="132.95186"
+           height="1"
+           x="656.01691"
+           y="466" />
+        <path
+           sodipodi:type="inkscape:offset"
+           inkscape:radius="-1"
+           inkscape:original="M 663.09375 426.5 C 658.87505 426.5 655.46875 429.58175 655.46875 433.40625 L 655.46875 499.59375 C 655.46875 503.41823 658.8438 506.5 663.0625 506.5 L 705.5 506.5 L 720.9375 520.53125 C 721.3104 520.86928 721.79461 521.03125 722.28125 521.03125 C 722.76789 521.03125 723.2521 520.86928 723.625 520.53125 L 739.09375 506.5 L 781.84375 506.5 C 786.06253 506.5 789.46875 503.41823 789.46875 499.59375 L 789.46875 433.40625 C 789.46875 429.58175 786.06253 426.5 781.84375 426.5 L 663.09375 426.5 z "
+           style="color:#000000;fill:none;stroke:url(#linearGradient4279);stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path4947"
+           d="m 663.09375,427.5 c -3.7317,0 -6.625,2.67552 -6.625,5.90625 l 0,66.1875 c 0,3.23616 2.86205,5.90625 6.59375,5.90625 l 42.4375,0 a 1.0001,1.0001 0 0 1 0.6875,0.25 l 15.40625,14.03125 c 0.007,0.006 0.0242,-0.006 0.0312,0 0.16954,0.14382 0.40213,0.25 0.65625,0.25 0.26475,0 0.51598,-0.0945 0.6875,-0.25 L 738.4375,505.75 a 1.0001,1.0001 0 0 1 0.65625,-0.25 l 42.75,0 c 3.73179,0 6.625,-2.67553 6.625,-5.90625 l 0,-66.1875 c 0,-3.23075 -2.89321,-5.90625 -6.625,-5.90625 l -118.75,0 z" />
+      </g>
+    </g>
     <path
        sodipodi:type="arc"
        style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline"
@@ -2378,20 +2589,6 @@
        inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Medium"
-       x="1002.3837"
-       y="532.50909"
-       id="text13283-3-0-5"
-       sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan13285-4-9-8"
-         x="1002.3837"
-         y="532.50909">Suspend</tspan></text>
     <path
        style="fill:none;stroke:#ffffff;stroke-width:1.63171685;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.50196078;stroke-dasharray:none;display:inline"
        d="m 21,442 212,0"
@@ -2601,148 +2798,176 @@
        inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       id="path3296-7-7-1"
-       sodipodi:cx="71"
-       sodipodi:cy="525"
-       sodipodi:rx="1"
-       sodipodi:ry="1"
-       d="m 72,525 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
-       transform="matrix(1.5,0,0,1.5,892,-264)" />
-    <path
-       sodipodi:type="arc"
-       style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       id="path3296-0-6-9-8"
-       sodipodi:cx="71"
-       sodipodi:cy="525"
-       sodipodi:rx="1"
-       sodipodi:ry="1"
-       d="m 72,525 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
-       transform="matrix(1.5,0,0,1.5,892,-259)" />
-    <path
-       sodipodi:type="arc"
-       style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       id="path3296-0-1-3-1-5"
-       sodipodi:cx="71"
-       sodipodi:cy="525"
-       sodipodi:rx="1"
-       sodipodi:ry="1"
-       d="m 72,525 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
-       transform="matrix(1.5,0,0,1.5,892,-254)" />
-    <path
-       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5003-7);enable-background:accumulate"
-       d="m 1032.2912,522.03933 c 0.4867,0 0.9657,-0.17433 1.3386,-0.51236 l 15.4682,-14.02253 42.7482,0 c 4.2188,0 7.6151,-3.07891 7.6151,-6.90339 l 0.01,-66.19956 c 0,-3.8245 -3.3963,-6.9034 -7.6151,-6.9034 l -118.76981,0 c -4.2187,0 -7.6151,3.0789 -7.6151,6.9034 l -0.008,66.19956 c 0,3.82448 3.3964,6.90339 7.6151,6.90339 l 42.40801,0 15.4682,14.02253 c 0.3729,0.33803 0.852,0.51236 1.3386,0.51236 z"
-       id="path13237-9-7-9-1-1"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       sodipodi:nodetypes="cccccccccccccc"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png" />
-    <path
-       style="color:#000000;fill:url(#linearGradient4869-8);fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 1032.2912,521.03933 c 0.4867,0 0.9657,-0.17433 1.3386,-0.51236 l 15.4682,-14.02253 42.7482,0 c 4.2188,0 7.6151,-3.07891 7.6151,-6.90339 l 0.01,-66.19956 c 0,-3.8245 -3.3963,-6.9034 -7.6151,-6.9034 l -118.76981,0 c -4.2187,0 -7.6151,3.0789 -7.6151,6.9034 l -0.008,66.19956 c 0,3.82448 3.3964,6.90339 7.6151,6.90339 l 42.40801,0 15.4682,14.02253 c 0.3729,0.33803 0.852,0.51236 1.3386,0.51236 z"
-       id="path13237-9-7-9-7"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       sodipodi:nodetypes="cccccccccccccc"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png" />
-    <text
-       id="text13269-2-5-2-0-2-4"
-       y="487.82999"
-       x="1031.7213"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;opacity:0.2;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       xml:space="preserve"
-       sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         y="487.82999"
-         x="1031.7213"
-         id="tspan13271-7-8-0-8-3-2"
-         sodipodi:role="line">Power Off</tspan></text>
-    <text
-       id="text13269-2-5-2-0-0"
-       y="488.82999"
-       x="1031.7213"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       xml:space="preserve"
-       sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         y="488.82999"
-         x="1031.7213"
-         id="tspan13271-7-8-0-8-30"
-         sodipodi:role="line">Power Off</tspan></text>
-    <rect
-       style="opacity:0.05;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       id="rect4784-40"
-       width="132.95186"
-       height="1"
-       x="966.01691"
-       y="465" />
-    <rect
-       style="opacity:0.2;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       id="rect4784-4-0"
-       width="132.95186"
-       height="1"
-       x="966.01691"
-       y="466" />
-    <path
-       sodipodi:type="inkscape:offset"
-       inkscape:radius="-1"
-       inkscape:original="M 663.09375 426.5 C 658.87505 426.5 655.46875 429.58175 655.46875 433.40625 L 655.46875 499.59375 C 655.46875 503.41823 658.8438 506.5 663.0625 506.5 L 705.5 506.5 L 720.9375 520.53125 C 721.3104 520.86928 721.79461 521.03125 722.28125 521.03125 C 722.76789 521.03125 723.2521 520.86928 723.625 520.53125 L 739.09375 506.5 L 781.84375 506.5 C 786.06253 506.5 789.46875 503.41823 789.46875 499.59375 L 789.46875 433.40625 C 789.46875 429.58175 786.06253 426.5 781.84375 426.5 L 663.09375 426.5 z "
-       style="color:#000000;fill:none;stroke:url(#linearGradient4963-2);stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="path4947-5"
-       d="m 663.09375,427.5 c -3.7317,0 -6.625,2.67552 -6.625,5.90625 l 0,66.1875 c 0,3.23616 2.86205,5.90625 6.59375,5.90625 l 42.4375,0 a 1.0001,1.0001 0 0 1 0.6875,0.25 l 15.40625,14.03125 c 0.007,0.006 0.0242,-0.006 0.0312,0 0.16954,0.14382 0.40213,0.25 0.65625,0.25 0.26475,0 0.51598,-0.0945 0.6875,-0.25 L 738.4375,505.75 a 1.0001,1.0001 0 0 1 0.65625,-0.25 l 42.75,0 c 3.73179,0 6.625,-2.67553 6.625,-5.90625 l 0,-66.1875 c 0,-3.23075 -2.89321,-5.90625 -6.625,-5.90625 l -118.75,0 z"
-       transform="translate(310,0)" />
-    <path
-       style="color:#000000;fill:url(#linearGradient4869-8-98);fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 973.09375,426.5 c -4.2187,0 -7.625,3.08175 -7.625,6.90625 l 0,32.125 134.00005,0 0,-32.125 c 0,-3.8245 -3.4063,-6.90625 -7.625,-6.90625 z"
-       id="path13237-9-7-9-7-3"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ssccsss" />
-    <path
-       style="opacity:0.5;color:#000000;fill:none;stroke:url(#linearGradient5388);stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 973.09375,427.5 c -3.7317,0 -6.625,2.67552 -6.625,5.90625 l 0,31.09375 132.00005,0 0,-31.09375 c 0,-3.23075 -2.8933,-5.90625 -6.625,-5.90625 z"
-       id="path4947-5-0"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ssccsss" />
-    <text
-       id="text13269-2-5-2-4-4"
-       y="449.82999"
-       x="1032.8069"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;opacity:0.2;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       xml:space="preserve"
-       sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         y="449.82999"
-         x="1032.8069"
-         id="tspan13271-7-8-0-82-7"
-         sodipodi:role="line">Suspend</tspan></text>
-    <text
-       id="text13269-2-5-2-2"
-       y="450.82999"
-       x="1032.8069"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       xml:space="preserve"
-       sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         y="450.82999"
-         x="1032.8069"
-         id="tspan13271-7-8-0-0"
-         sodipodi:role="line">Suspend</tspan></text>
+    <g
+       id="g4229">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
+         sodipodi:linespacing="125%"
+         id="text13283-3-0-5"
+         y="532.50909"
+         x="1002.3837"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Medium"
+         xml:space="preserve"><tspan
+           y="532.50909"
+           x="1002.3837"
+           id="tspan13285-4-9-8"
+           sodipodi:role="line">Suspend</tspan></text>
+      <path
+         transform="matrix(1.5,0,0,1.5,892,-264)"
+         d="m 72,525 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
+         sodipodi:ry="1"
+         sodipodi:rx="1"
+         sodipodi:cy="525"
+         sodipodi:cx="71"
+         id="path3296-7-7-1"
+         style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(1.5,0,0,1.5,892,-259)"
+         d="m 72,525 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
+         sodipodi:ry="1"
+         sodipodi:rx="1"
+         sodipodi:cy="525"
+         sodipodi:cx="71"
+         id="path3296-0-6-9-8"
+         style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(1.5,0,0,1.5,892,-254)"
+         d="m 72,525 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
+         sodipodi:ry="1"
+         sodipodi:rx="1"
+         sodipodi:cy="525"
+         sodipodi:cx="71"
+         id="path3296-0-1-3-1-5"
+         style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g4325"
+       transform="translate(0,-5)">
+      <path
+         inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccccccccc"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         id="path13237-9-7-9-1-1"
+         d="m 1032.2912,522.03933 c 0.4867,0 0.9657,-0.17433 1.3386,-0.51236 l 15.4682,-14.02253 42.7482,0 c 4.2188,0 7.6151,-3.07891 7.6151,-6.90339 l 0.01,-66.19956 c 0,-3.8245 -3.3963,-6.9034 -7.6151,-6.9034 l -118.76981,0 c -4.2187,0 -7.6151,3.0789 -7.6151,6.9034 l -0.008,66.19956 c 0,3.82448 3.3964,6.90339 7.6151,6.90339 l 42.40801,0 15.4682,14.02253 c 0.3729,0.33803 0.852,0.51236 1.3386,0.51236 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5003-7);enable-background:accumulate" />
+      <g
+         id="g4311">
+        <path
+           style="color:#000000;fill:url(#linearGradient4337);fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 1032.2912,521.03933 c 0.4867,0 0.9657,-0.17433 1.3386,-0.51236 l 15.4682,-14.02253 42.7482,0 c 4.2188,0 7.6151,-3.07891 7.6151,-6.90339 l 0.01,-66.19956 c 0,-3.8245 -3.3963,-6.9034 -7.6151,-6.9034 l -118.76981,0 c -4.2187,0 -7.6151,3.0789 -7.6151,6.9034 l -0.008,66.19956 c 0,3.82448 3.3964,6.90339 7.6151,6.90339 l 42.40801,0 15.4682,14.02253 c 0.3729,0.33803 0.852,0.51236 1.3386,0.51236 z"
+           id="path13237-9-7-9-7"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90"
+           sodipodi:nodetypes="cccccccccccccc"
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png" />
+        <text
+           id="text13269-2-5-2-0-2-4"
+           y="489.82999"
+           x="1031.7213"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;opacity:0.5;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           xml:space="preserve"
+           sodipodi:linespacing="125%"
+           inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90"><tspan
+             y="489.82999"
+             x="1031.7213"
+             id="tspan13271-7-8-0-8-3-2"
+             sodipodi:role="line">Power Off</tspan></text>
+        <text
+           id="text13269-2-5-2-0-0"
+           y="488.82999"
+           x="1031.7213"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           xml:space="preserve"
+           sodipodi:linespacing="125%"
+           inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90"><tspan
+             y="488.82999"
+             x="1031.7213"
+             id="tspan13271-7-8-0-8-30"
+             sodipodi:role="line">Power Off</tspan></text>
+        <rect
+           style="opacity:0.05;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+           id="rect4784-40"
+           width="132.95186"
+           height="1"
+           x="966.01691"
+           y="465" />
+        <rect
+           style="opacity:0.2;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+           id="rect4784-4-0"
+           width="132.95186"
+           height="1"
+           x="966.01691"
+           y="466" />
+        <path
+           sodipodi:type="inkscape:offset"
+           inkscape:radius="-1"
+           inkscape:original="M 663.09375 426.5 C 658.87505 426.5 655.46875 429.58175 655.46875 433.40625 L 655.46875 499.59375 C 655.46875 503.41823 658.8438 506.5 663.0625 506.5 L 705.5 506.5 L 720.9375 520.53125 C 721.3104 520.86928 721.79461 521.03125 722.28125 521.03125 C 722.76789 521.03125 723.2521 520.86928 723.625 520.53125 L 739.09375 506.5 L 781.84375 506.5 C 786.06253 506.5 789.46875 503.41823 789.46875 499.59375 L 789.46875 433.40625 C 789.46875 429.58175 786.06253 426.5 781.84375 426.5 L 663.09375 426.5 z "
+           style="color:#000000;fill:none;stroke:url(#linearGradient4339);stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path4947-5"
+           d="m 663.09375,427.5 c -3.7317,0 -6.625,2.67552 -6.625,5.90625 l 0,66.1875 c 0,3.23616 2.86205,5.90625 6.59375,5.90625 l 42.4375,0 a 1.0001,1.0001 0 0 1 0.6875,0.25 l 15.40625,14.03125 c 0.007,0.006 0.0242,-0.006 0.0312,0 0.16954,0.14382 0.40213,0.25 0.65625,0.25 0.26475,0 0.51598,-0.0945 0.6875,-0.25 L 738.4375,505.75 a 1.0001,1.0001 0 0 1 0.65625,-0.25 l 42.75,0 c 3.73179,0 6.625,-2.67553 6.625,-5.90625 l 0,-66.1875 c 0,-3.23075 -2.89321,-5.90625 -6.625,-5.90625 l -118.75,0 z"
+           transform="translate(310,0)" />
+      </g>
+      <g
+         id="g4281"
+         transform="translate(5e-5,0)">
+        <path
+           sodipodi:nodetypes="ssccsss"
+           inkscape:connector-curvature="0"
+           id="path13237-9-7-9-7-3"
+           d="m 973.09375,426.5 c -4.2187,0 -7.625,3.08175 -7.625,6.90625 l 0,32.125 134.00005,0 0,-32.125 c 0,-3.8245 -3.4063,-6.90625 -7.625,-6.90625 z"
+           style="color:#000000;fill:url(#linearGradient4289-4);fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <path
+           sodipodi:nodetypes="ssccsss"
+           inkscape:connector-curvature="0"
+           id="path4947-5-0"
+           d="m 973.09375,427.5 c -3.7317,0 -6.625,2.67552 -6.625,5.90625 l 0,31.09375 132.00005,0 0,-31.09375 c 0,-3.23075 -2.8933,-5.90625 -6.625,-5.90625 z"
+           style="opacity:0.5;color:#000000;fill:none;stroke:url(#linearGradient4291-2);stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <text
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
+           sodipodi:linespacing="125%"
+           xml:space="preserve"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;opacity:0.2;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+           x="1032.8069"
+           y="449.82999"
+           id="text13269-2-5-2-4-4"><tspan
+             sodipodi:role="line"
+             id="tspan13271-7-8-0-82-7"
+             x="1032.8069"
+             y="449.82999">Suspend</tspan></text>
+        <text
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
+           sodipodi:linespacing="125%"
+           xml:space="preserve"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+           x="1032.8069"
+           y="450.82999"
+           id="text13269-2-5-2-2"><tspan
+             sodipodi:role="line"
+             id="tspan13271-7-8-0-0"
+             x="1032.8069"
+             y="450.82999">Suspend</tspan></text>
+      </g>
+    </g>
     <g
        id="g5505"
        style="opacity:0.8"
-       transform="translate(0,-81)">
+       transform="translate(0,-86)">
       <path
          transform="translate(602,-2)"
          d="m 445,530 c 0,8.28427 -6.71573,15 -15,15 -8.28427,0 -15,-6.71573 -15,-15 0,-8.28427 6.71573,-15 15,-15 8.28427,0 15,6.71573 15,15 z"
@@ -2928,20 +3153,6 @@
        inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Medium"
-       x="1312.3838"
-       y="532.50909"
-       id="text13283-3-0-5-4"
-       sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan13285-4-9-8-6"
-         x="1312.3838"
-         y="532.50909">Power Off</tspan></text>
     <path
        style="fill:none;stroke:#ffffff;stroke-width:1.63171685;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.50196078;stroke-dasharray:none;display:inline"
        d="m 21,442 212,0"
@@ -3151,54 +3362,53 @@
        inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       id="path3296-7-7-1-2"
-       sodipodi:cx="71"
-       sodipodi:cy="525"
-       sodipodi:rx="1"
-       sodipodi:ry="1"
-       d="m 72,525 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
-       transform="matrix(1.5,0,0,1.5,1202,-264)" />
-    <path
-       sodipodi:type="arc"
-       style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       id="path3296-0-6-9-8-0"
-       sodipodi:cx="71"
-       sodipodi:cy="525"
-       sodipodi:rx="1"
-       sodipodi:ry="1"
-       d="m 72,525 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
-       transform="matrix(1.5,0,0,1.5,1202,-259)" />
-    <path
-       sodipodi:type="arc"
-       style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       id="path3296-0-1-3-1-5-1"
-       sodipodi:cx="71"
-       sodipodi:cy="525"
-       sodipodi:rx="1"
-       sodipodi:ry="1"
-       d="m 72,525 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
-       transform="matrix(1.5,0,0,1.5,1202,-254)" />
-    <path
-       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5003-7-3);enable-background:accumulate"
-       d="m 1342.2912,522.03933 c 0.4867,0 0.9657,-0.17433 1.3386,-0.51236 l 15.4682,-14.02253 42.7482,0 c 4.2188,0 7.6151,-3.07891 7.6151,-6.90339 l 0.01,-66.19956 c 0,-3.8245 -3.3963,-6.9034 -7.6151,-6.9034 l -118.7698,0 c -4.2187,0 -7.6151,3.0789 -7.6151,6.9034 l -0.01,66.19956 c 0,3.82448 3.3964,6.90339 7.6151,6.90339 l 42.408,0 15.4682,14.02253 c 0.3729,0.33803 0.852,0.51236 1.3386,0.51236 z"
-       id="path13237-9-7-9-1-1-3"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       sodipodi:nodetypes="cccccccccccccc"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png" />
-    <path
-       style="color:#000000;fill:url(#linearGradient4869-8-4);fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 1342.2912,521.03933 c 0.4867,0 0.9657,-0.17433 1.3386,-0.51236 l 15.4682,-14.02253 42.7482,0 c 4.2188,0 7.6151,-3.07891 7.6151,-6.90339 l 0.01,-66.19956 c 0,-3.8245 -3.3963,-6.9034 -7.6151,-6.9034 l -118.7698,0 c -4.2187,0 -7.6151,3.0789 -7.6151,6.9034 l -0.01,66.19956 c 0,3.82448 3.3964,6.90339 7.6151,6.90339 l 42.408,0 15.4682,14.02253 c 0.3729,0.33803 0.852,0.51236 1.3386,0.51236 z"
-       id="path13237-9-7-9-7-33"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       sodipodi:nodetypes="cccccccccccccc"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png" />
+    <g
+       id="g4236">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
+         sodipodi:linespacing="125%"
+         id="text13283-3-0-5-4"
+         y="532.50909"
+         x="1312.3838"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Medium"
+         xml:space="preserve"><tspan
+           y="532.50909"
+           x="1312.3838"
+           id="tspan13285-4-9-8-6"
+           sodipodi:role="line">Power Off</tspan></text>
+      <path
+         transform="matrix(1.5,0,0,1.5,1202,-264)"
+         d="m 72,525 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
+         sodipodi:ry="1"
+         sodipodi:rx="1"
+         sodipodi:cy="525"
+         sodipodi:cx="71"
+         id="path3296-7-7-1-2"
+         style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(1.5,0,0,1.5,1202,-259)"
+         d="m 72,525 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
+         sodipodi:ry="1"
+         sodipodi:rx="1"
+         sodipodi:cy="525"
+         sodipodi:cx="71"
+         id="path3296-0-6-9-8-0"
+         style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(1.5,0,0,1.5,1202,-254)"
+         d="m 72,525 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
+         sodipodi:ry="1"
+         sodipodi:rx="1"
+         sodipodi:cy="525"
+         sodipodi:cx="71"
+         id="path3296-0-1-3-1-5-1"
+         style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         sodipodi:type="arc" />
+    </g>
     <rect
        style="opacity:0.05;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
        id="rect4784-40-2"
@@ -3206,101 +3416,127 @@
        height="1"
        x="1276.0168"
        y="465" />
-    <rect
-       style="opacity:0.2;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       id="rect4784-4-0-4"
-       width="132.95186"
-       height="1"
-       x="1276.0168"
-       y="466" />
-    <path
-       sodipodi:type="inkscape:offset"
-       inkscape:radius="-1"
-       inkscape:original="M 663.09375 426.5 C 658.87505 426.5 655.46875 429.58175 655.46875 433.40625 L 655.46875 499.59375 C 655.46875 503.41823 658.8438 506.5 663.0625 506.5 L 705.5 506.5 L 720.9375 520.53125 C 721.3104 520.86928 721.79461 521.03125 722.28125 521.03125 C 722.76789 521.03125 723.2521 520.86928 723.625 520.53125 L 739.09375 506.5 L 781.84375 506.5 C 786.06253 506.5 789.46875 503.41823 789.46875 499.59375 L 789.46875 433.40625 C 789.46875 429.58175 786.06253 426.5 781.84375 426.5 L 663.09375 426.5 z "
-       style="color:#000000;fill:none;stroke:url(#linearGradient4963-2-9);stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="path4947-5-5"
-       d="m 663.09375,427.5 c -3.7317,0 -6.625,2.67552 -6.625,5.90625 l 0,66.1875 c 0,3.23616 2.86205,5.90625 6.59375,5.90625 l 42.4375,0 a 1.0001,1.0001 0 0 1 0.6875,0.25 l 15.40625,14.03125 c 0.007,0.006 0.0242,-0.006 0.0312,0 0.16954,0.14382 0.40213,0.25 0.65625,0.25 0.26475,0 0.51598,-0.0945 0.6875,-0.25 L 738.4375,505.75 a 1.0001,1.0001 0 0 1 0.65625,-0.25 l 42.75,0 c 3.73179,0 6.625,-2.67553 6.625,-5.90625 l 0,-66.1875 c 0,-3.23075 -2.89321,-5.90625 -6.625,-5.90625 l -118.75,0 z"
-       transform="translate(620,0)" />
-    <path
-       style="opacity:0.5;color:#000000;fill:none;stroke:url(#linearGradient5388-1);stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 1283.0938,427.5 c -3.7317,0 -6.625,2.67552 -6.625,5.90625 l 0,31.09375 132,0 0,-31.09375 c 0,-3.23075 -2.8933,-5.90625 -6.625,-5.90625 z"
-       id="path4947-5-0-4"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ssccsss" />
-    <text
-       id="text13269-2-5-2-4-4-3"
-       y="449.82999"
-       x="1342.8069"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;opacity:0.2;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       xml:space="preserve"
-       sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         y="449.82999"
-         x="1342.8069"
-         id="tspan13271-7-8-0-82-7-9"
-         sodipodi:role="line">Suspend</tspan></text>
-    <text
-       id="text13269-2-5-2-2-6"
-       y="450.82999"
-       x="1342.8069"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       xml:space="preserve"
-       sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         y="450.82999"
-         x="1342.8069"
-         id="tspan13271-7-8-0-0-8"
-         sodipodi:role="line">Suspend</tspan></text>
     <g
-       id="g5961"
-       transform="translate(-20,0)">
+       id="g4437"
+       transform="translate(30,-5)">
       <path
-         id="path13237-9-7-9-7-33-5"
-         d="m 1295.4688,465.5625 0,34.03125 c 0,3.82448 3.375,6.90625 7.5937,6.90625 l 42.4375,0 15.4375,14.03125 c 0.3729,0.33803 0.8571,0.5 1.3437,0.5 0.4867,0 0.9709,-0.16197 1.3438,-0.5 l 15.4688,-14.03125 42.75,0 c 4.2188,0 7.625,-3.08177 7.625,-6.90625 l 0,-34.03125 -134,0 z"
-         style="color:#000000;fill:url(#linearGradient5965);fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         inkscape:connector-curvature="0" />
-      <path
-         id="path4947-5-5-2"
-         d="m 1296.4688,466.5625 0,33.03125 c 0,3.23616 2.862,5.90625 6.5937,5.90625 l 42.4375,0 a 1.0001,1.0001 0 0 1 0.6875,0.25 l 15.4063,14.03125 c 0.01,0.006 0.024,-0.006 0.031,0 0.1695,0.14382 0.4021,0.25 0.6562,0.25 0.2648,0 0.516,-0.0945 0.6876,-0.25 L 1378.4375,505.75 a 1.0001,1.0001 0 0 1 0.6563,-0.25 l 42.75,0 c 3.7317,0 6.625,-2.67553 6.625,-5.90625 l 0,-33.03125 -132,0 z"
-         style="opacity:0.2;color:#000000;fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         inkscape:connector-curvature="0" />
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5003-7-3-8);enable-background:accumulate"
+         d="m 1312.2912,522.03933 c 0.4867,0 0.9657,-0.17433 1.3386,-0.51236 l 15.4682,-14.02253 42.7482,0 c 4.2188,0 7.6151,-3.07891 7.6151,-6.90339 l 0.01,-66.19956 c 0,-3.8245 -3.3963,-6.9034 -7.6151,-6.9034 l -118.7698,0 c -4.2187,0 -7.6151,3.0789 -7.6151,6.9034 l -0.01,66.19956 c 0,3.82448 3.3964,6.90339 7.6151,6.90339 l 42.408,0 15.4682,14.02253 c 0.3729,0.33803 0.852,0.51236 1.3386,0.51236 z"
+         id="path13237-9-7-9-1-1-3"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         sodipodi:nodetypes="cccccccccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png" />
+      <g
+         id="g4427"
+         transform="translate(-30,0)">
+        <path
+           style="color:#000000;fill:url(#linearGradient4455);fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 1342.2912,521.03933 c 0.4867,0 0.9657,-0.17433 1.3386,-0.51236 l 15.4682,-14.02253 42.7482,0 c 4.2188,0 7.6151,-3.07891 7.6151,-6.90339 l 0.01,-66.19956 c 0,-3.8245 -3.3963,-6.9034 -7.6151,-6.9034 l -118.7698,0 c -4.2187,0 -7.6151,3.0789 -7.6151,6.9034 l -0.01,66.19956 c 0,3.82448 3.3964,6.90339 7.6151,6.90339 l 42.408,0 15.4682,14.02253 c 0.3729,0.33803 0.852,0.51236 1.3386,0.51236 z"
+           id="path13237-9-7-9-7-33"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90"
+           sodipodi:nodetypes="cccccccccccccc"
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png" />
+        <rect
+           style="opacity:0.2;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+           id="rect4784-4-0-4"
+           width="132.95186"
+           height="1"
+           x="1276.0168"
+           y="466" />
+        <path
+           sodipodi:type="inkscape:offset"
+           inkscape:radius="-1"
+           inkscape:original="M 663.09375 426.5 C 658.87505 426.5 655.46875 429.58175 655.46875 433.40625 L 655.46875 499.59375 C 655.46875 503.41823 658.8438 506.5 663.0625 506.5 L 705.5 506.5 L 720.9375 520.53125 C 721.3104 520.86928 721.79461 521.03125 722.28125 521.03125 C 722.76789 521.03125 723.2521 520.86928 723.625 520.53125 L 739.09375 506.5 L 781.84375 506.5 C 786.06253 506.5 789.46875 503.41823 789.46875 499.59375 L 789.46875 433.40625 C 789.46875 429.58175 786.06253 426.5 781.84375 426.5 L 663.09375 426.5 z "
+           style="color:#000000;fill:none;stroke:url(#linearGradient4457);stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path4947-5-5"
+           d="m 663.09375,427.5 c -3.7317,0 -6.625,2.67552 -6.625,5.90625 l 0,66.1875 c 0,3.23616 2.86205,5.90625 6.59375,5.90625 l 42.4375,0 a 1.0001,1.0001 0 0 1 0.6875,0.25 l 15.40625,14.03125 c 0.007,0.006 0.0242,-0.006 0.0312,0 0.16954,0.14382 0.40213,0.25 0.65625,0.25 0.26475,0 0.51598,-0.0945 0.6875,-0.25 L 738.4375,505.75 a 1.0001,1.0001 0 0 1 0.65625,-0.25 l 42.75,0 c 3.73179,0 6.625,-2.67553 6.625,-5.90625 l 0,-66.1875 c 0,-3.23075 -2.89321,-5.90625 -6.625,-5.90625 l -118.75,0 z"
+           transform="translate(620,0)" />
+        <path
+           style="opacity:0.5;color:#000000;fill:none;stroke:url(#linearGradient4459);stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 1283.0938,427.5 c -3.7317,0 -6.625,2.67552 -6.625,5.90625 l 0,31.09375 132,0 0,-31.09375 c 0,-3.23075 -2.8933,-5.90625 -6.625,-5.90625 z"
+           id="path4947-5-0-4"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ssccsss" />
+        <text
+           id="text13269-2-5-2-4-4-3"
+           y="451.82999"
+           x="1342.8069"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;opacity:0.5;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           xml:space="preserve"
+           sodipodi:linespacing="125%"
+           inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90"><tspan
+             y="451.82999"
+             x="1342.8069"
+             id="tspan13271-7-8-0-82-7-9"
+             sodipodi:role="line">Suspend</tspan></text>
+        <text
+           id="text13269-2-5-2-2-6"
+           y="450.82999"
+           x="1342.8069"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           xml:space="preserve"
+           sodipodi:linespacing="125%"
+           inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90"><tspan
+             y="450.82999"
+             x="1342.8069"
+             id="tspan13271-7-8-0-0-8"
+             sodipodi:role="line">Suspend</tspan></text>
+      </g>
+      <g
+         id="g4415"
+         transform="translate(-30,0)">
+        <path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:url(#linearGradient4461);fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 1275.4688,465.5625 0,34.03125 c 0,3.82448 3.375,6.90625 7.5937,6.90625 l 42.4375,0 15.4375,14.03125 c 0.3729,0.33803 0.8571,0.5 1.3437,0.5 0.4867,0 0.9709,-0.16197 1.3438,-0.5 l 15.4688,-14.03125 42.75,0 c 4.2188,0 7.625,-3.08177 7.625,-6.90625 l 0,-34.03125 -134,0 z"
+           id="path13237-9-7-9-7-33-5" />
+        <path
+           inkscape:connector-curvature="0"
+           style="opacity:0.20100002;color:#000000;fill:none;stroke:url(#linearGradient4463);stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 1276.4688,466.5625 0,33.03125 c 0,3.23616 2.862,5.90625 6.5937,5.90625 l 42.4375,0 a 1.0001,1.0001 0 0 1 0.6875,0.25 l 15.4063,14.03125 c 0.01,0.006 0.024,-0.006 0.031,0 0.1695,0.14382 0.4021,0.25 0.6562,0.25 0.2648,0 0.516,-0.0945 0.6876,-0.25 L 1358.4375,505.75 a 1.0001,1.0001 0 0 1 0.6563,-0.25 l 42.75,0 c 3.7317,0 6.625,-2.67553 6.625,-5.90625 l 0,-33.03125 -132,0 z"
+           id="path4947-5-5-2" />
+        <text
+           id="text13269-2-5-2-0-2-4-4"
+           y="487.82999"
+           x="1341.7213"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;opacity:0.2;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+           xml:space="preserve"
+           sodipodi:linespacing="125%"
+           inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90"><tspan
+             y="487.82999"
+             x="1341.7213"
+             id="tspan13271-7-8-0-8-3-2-8"
+             sodipodi:role="line">Power Off</tspan></text>
+        <text
+           id="text13269-2-5-2-0-0-2"
+           y="488.82999"
+           x="1341.7213"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+           xml:space="preserve"
+           sodipodi:linespacing="125%"
+           inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90"><tspan
+             y="488.82999"
+             x="1341.7213"
+             id="tspan13271-7-8-0-8-30-9"
+             sodipodi:role="line">Power Off</tspan></text>
+      </g>
     </g>
-    <text
-       id="text13269-2-5-2-0-2-4-4"
-       y="487.82999"
-       x="1341.7213"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;opacity:0.2;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       xml:space="preserve"
-       sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         y="487.82999"
-         x="1341.7213"
-         id="tspan13271-7-8-0-8-3-2-8"
-         sodipodi:role="line">Power Off</tspan></text>
-    <text
-       id="text13269-2-5-2-0-0-2"
-       y="488.82999"
-       x="1341.7213"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       xml:space="preserve"
-       sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/allan/Documents/SoftwareDesign/Projects/GnomeShellUserMenu/user-menu-dnd-busy-bigger-avatar.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         y="488.82999"
-         x="1341.7213"
-         id="tspan13271-7-8-0-8-30-9"
-         sodipodi:role="line">Power Off</tspan></text>
     <g
        id="g5505-6"
        style="opacity:0.8"
-       transform="translate(310,-44)">
+       transform="translate(310,-89)">
       <path
          transform="translate(602,-2)"
          d="m 445,530 c 0,8.28427 -6.71573,15 -15,15 -8.28427,0 -15,-6.71573 -15,-15 0,-8.28427 6.71573,-15 15,-15 8.28427,0 15,6.71573 15,15 z"
