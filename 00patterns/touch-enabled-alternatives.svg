@@ -346,15 +346,6 @@
          offset="1"
          id="stop4867-5-0" />
     </linearGradient>
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:collect="always"
-       id="filter5003-7-3">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.7141195"
-         id="feGaussianBlur5005-6-5" />
-    </filter>
     <mask
        maskUnits="userSpaceOnUse"
        id="mask12112-0-6-5-3-8-3-4-3-4-4-7-2-9-4">
@@ -681,7 +672,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -3185,7 +3176,7 @@
     <g
        id="g5505-6"
        style="opacity:0.8"
-       transform="translate(310,-89)">
+       transform="translate(310,-48)">
       <path
          transform="translate(602,-2)"
          d="m 445,530 c 0,8.28427 -6.71573,15 -15,15 -8.28427,0 -15,-6.71573 -15,-15 0,-8.28427 6.71573,-15 15,-15 8.28427,0 15,6.71573 15,15 z"
