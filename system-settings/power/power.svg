@@ -50,10 +50,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="608.46759"
-     inkscape:cy="396.30549"
+     inkscape:cx="666.78246"
+     inkscape:cy="2196.3055"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="967"
@@ -314,49 +314,45 @@
          transform="translate(-60,-518)"
          style="fill:#888a85;fill-opacity:1" />
     </g>
-    <g
-       transform="translate(1143.3381,-37.87868)"
-       id="g5300">
-      <text
-         id="text5302"
-         y="973.69586"
-         x="863.44055"
-         style="font-size:13px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         xml:space="preserve"
-         transform="scale(0.9995531,1.0004471)"><tspan
-           style="font-size:13px;font-weight:normal;text-align:center;text-anchor:middle;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-           y="973.69586"
-           x="863.44055"
-           id="tspan5304"
-           sodipodi:role="line">On AC Power</tspan></text>
-      <rect
-         style="fill:#d3d7cf;fill-opacity:1;stroke:#a7aba7;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-         id="rect5306"
-         width="139"
-         height="29"
-         x="793.96667"
-         y="980.72614"
-         rx="3"
-         ry="3" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:none;stroke:#888a85;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-         d="m 913.3433,993.2134 3.983,4.0255 4.1102,-3.9831"
-         id="path5308"
-         sodipodi:nodetypes="ccc" />
-      <text
-         id="text5310"
-         y="999.68341"
-         x="803.77307"
-         style="font-size:13.03971481px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
-         xml:space="preserve"
-         transform="scale(0.9995531,1.0004471)"><tspan
-           y="999.68341"
-           x="803.77307"
-           id="tspan5312"
-           sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Cantarell;-inkscape-font-specification:Cantarell">Never</tspan></text>
-    </g>
+    <text
+       transform="scale(0.9995531,1.0004471)"
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="2007.9349"
+       y="935.83411"
+       id="text5302"><tspan
+         sodipodi:role="line"
+         id="tspan5304"
+         x="2007.9349"
+         y="935.83411"
+         style="font-size:13px;font-weight:normal;text-align:center;text-anchor:middle;font-family:Cantarell;-inkscape-font-specification:Cantarell">When plugged in</tspan></text>
+    <rect
+       ry="3"
+       rx="3"
+       y="942.84747"
+       x="1937.3048"
+       height="29"
+       width="139"
+       id="rect5306"
+       style="fill:#d3d7cf;fill-opacity:1;stroke:#a7aba7;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" />
+    <path
+       sodipodi:nodetypes="ccc"
+       id="path5308"
+       d="m 2056.6814,955.33472 3.983,4.0255 4.1102,-3.9831"
+       style="fill:none;stroke:#888a85;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       inkscape:connector-curvature="0" />
+    <text
+       transform="scale(0.9995531,1.0004471)"
+       xml:space="preserve"
+       style="font-size:13.03971481px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="1947.6223"
+       y="961.82166"
+       id="text5310"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         sodipodi:role="line"
+         id="tspan5312"
+         x="1947.6223"
+         y="961.82166">Don't suspend</tspan></text>
     <text
        transform="scale(0.9995531,1.0004471)"
        xml:space="preserve"
@@ -380,7 +376,7 @@
          y="935.36578"
          x="1861.2255"
          id="tspan5320"
-         sodipodi:role="line">On Battery Power</tspan></text>
+         sodipodi:role="line">On battery power</tspan></text>
     <rect
        style="fill:#d3d7cf;fill-opacity:1;stroke:#a7aba7;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect5322"
@@ -470,11 +466,11 @@
        ry="0.99999994"
        rx="0.99999994"
        y="-1059.7107"
-       x="1619.344"
+       x="1619.3439"
        height="0.50000018"
-       width="129.25"
+       width="351.25"
        id="rect5360"
-       style="fill:#73d216;fill-opacity:1;stroke:#729fcf;stroke-width:0.9999997;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#73d216;fill-opacity:1;stroke:#729fcf;stroke-width:0.99999964;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        transform="scale(1,-1)" />
     <g
        id="g5438"
@@ -649,7 +645,7 @@
          y="1047.3156"
          x="1617.3068"
          id="tspan5430"
-         sodipodi:role="line">55 minutes remaining</tspan></text>
+         sodipodi:role="line">Charging - 55 minutes until fully charged</tspan></text>
     <text
        id="text5292"
        y="1081.6091"
@@ -923,7 +919,7 @@
          id="tspan5811"
          x="1617.3068"
          y="607.51221"
-         style="font-size:13px;font-weight:normal;text-align:start;text-anchor:start;font-family:Cantarell;-inkscape-font-specification:Cantarell">55 minutes remaining</tspan></text>
+         style="font-size:13px;font-weight:normal;text-align:start;text-anchor:start;font-family:Cantarell;-inkscape-font-specification:Cantarell">Using battery power - 55 minutes remaining</tspan></text>
     <text
        transform="scale(0.9995531,1.0004471)"
        xml:space="preserve"
@@ -1319,7 +1315,7 @@
          id="tspan5989"
          x="1617.3068"
          y="1627.057"
-         style="font-size:13px;font-weight:normal;text-align:start;text-anchor:start;font-family:Cantarell;-inkscape-font-specification:Cantarell">55 minutes remaining</tspan></text>
+         style="font-size:13px;font-weight:normal;text-align:start;text-anchor:start;font-family:Cantarell;-inkscape-font-specification:Cantarell">Using battery power - 55 minutes remaining</tspan></text>
     <text
        transform="scale(0.9995531,1.0004471)"
        xml:space="preserve"
