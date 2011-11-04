@@ -55,9 +55,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="433.68771"
-     inkscape:cy="743.91814"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="440.89596"
+     inkscape:cy="620.99391"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -74,9 +74,10 @@
      inkscape:guide-bbox="true"
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-edge-midpoints="false"
-     inkscape:bbox-nodes="true"
+     inkscape:bbox-nodes="false"
      inkscape:snap-nodes="false"
-     inkscape:bbox-paths="true">
+     inkscape:bbox-paths="false"
+     inkscape:snap-global="false">
     <inkscape:grid
        type="xygrid"
        id="grid5718"
@@ -485,7 +486,7 @@
          id="tspan5989"
          x="-255.86014"
          y="1004.9574"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#2e3436;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold">Shortcuts</tspan></text>
+         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#2e3436;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold">Shortcut Keys</tspan></text>
     <text
        transform="scale(0.9995531,1.0004471)"
        xml:space="preserve"
@@ -567,22 +568,22 @@
        id="rect6071"
        width="261"
        height="96"
-       x="-500.65625"
-       y="1335.2812"
+       x="-111.65625"
+       y="1403.2812"
        rx="9"
        ry="9" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot6077"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Sans"
-       transform="translate(-623.15625,678.28125)"><flowRegion
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Sans"
+       transform="translate(-234.15625,746.02921)"><flowRegion
          id="flowRegion6079"><rect
            id="rect6081"
            width="229"
            height="103"
            x="140"
            y="670"
-           style="font-size:14px" /></flowRegion><flowPara
+           style="font-size:14px;fill:#2e3436" /></flowRegion><flowPara
          id="flowPara6083">The previous source should be remembered between sessions; this avoids the need for setting the default source</flowPara></flowRoot>    <text
        sodipodi:linespacing="125%"
        id="text6104"
@@ -689,23 +690,89 @@
        d="m -438.40634,1246.8284 c 0,24.01 0,24.01 0,24.01"
        style="fill:none;stroke:#babdb6;stroke-width:0.99999994px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1" />
     <text
-       transform="scale(0.9995531,1.0004471)"
-       xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#729fcf;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       id="text3120"
+       y="1076.9254"
        x="159.50304"
-       y="1084.9224"
-       id="text3308"><tspan
-         sodipodi:role="line"
-         id="tspan3310"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#729fcf;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"
+       transform="scale(0.9995531,1.0004471)"><tspan
+         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#729fcf;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         y="1076.9254"
          x="159.50304"
-         y="1084.9224"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#729fcf;font-family:Cantarell;-inkscape-font-specification:Cantarell">Shortcut Settings</tspan></text>
+         id="tspan3122"
+         sodipodi:role="line">Shortcut Settings</tspan></text>
     <path
-       style="fill:none;stroke:#729fcf;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 56.977036,1090.4811 c 103.308874,0 103.308874,0 103.308874,0"
-       id="path3312"
+       inkscape:connector-curvature="0"
+       id="path3124"
+       d="m 56.977036,1082.4811 c 103.308874,0 103.308874,0 103.308874,0"
+       style="fill:none;stroke:#729fcf;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3896"
+       d="m -292.40634,1268.7232 c 0,67.6162 0,67.6162 0,67.6162"
+       style="fill:none;stroke:#edd400;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       style="fill:none;stroke:#fce94f;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -292.40634,1268.7232 c 0,67.6162 0,67.6162 0,67.6162"
+       id="path3126"
        inkscape:connector-curvature="0" />
-  </g>
+    <rect
+       ry="9"
+       rx="9"
+       y="1323.8413"
+       x="-351.84695"
+       height="55.897942"
+       width="118.88125"
+       id="rect3898"
+       style="fill:#fce94f;fill-opacity:1;stroke:#fce94f;stroke-width:0.99999994;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <flowRoot
+       transform="translate(-480.4085,664.35124)"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Sans"
+       id="flowRoot3900"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3902"><rect
+           style="font-size:14px;fill:#2e3436"
+           y="670"
+           x="140"
+           height="103"
+           width="229"
+           id="rect3904" /></flowRegion><flowPara
+         id="flowPara3906">Show keyboard</flowPara><flowPara
+         id="flowPara3908">layout</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#edd400;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -424.90764,1268.7232 c 0,67.6162 0,67.6162 0,67.6162"
+       id="path3911"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3913"
+       d="m -424.90764,1268.7232 c 0,67.6162 0,67.6162 0,67.6162"
+       style="fill:none;stroke:#fce94f;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       style="fill:#fce94f;fill-opacity:1;stroke:#fce94f;stroke-width:0.99999994;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3915"
+       width="118.88125"
+       height="92.897942"
+       x="-484.34827"
+       y="1323.8413"
+       rx="9"
+       ry="9" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3917"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Sans"
+       transform="translate(-612.90982,664.35124)"><flowRegion
+         id="flowRegion3919"><rect
+           id="rect3921"
+           width="229"
+           height="103"
+           x="140"
+           y="670"
+           style="font-size:14px;fill:#2e3436" /></flowRegion><flowPara
+         id="flowPara3925">Input method</flowPara><flowPara
+         id="flowPara3929">settings; this</flowPara><flowPara
+         id="flowPara3931">will typically be</flowPara><flowPara
+         id="flowPara3933">insensitive</flowPara></flowRoot>  </g>
   <text
      xml:space="preserve"
      style="font-size:22px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
