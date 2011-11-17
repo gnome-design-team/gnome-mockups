@@ -1,0 +1,304 @@
+/*************************
+ * Check and Radio items *
+ *************************/
+
+/* draw regular check and radio items using our SVG assets */
+.check,
+.check row:selected,
+.check row:selected:focus {
+    background-image: url("assets/checkbox-unchecked.svg");
+}
+
+.check:insensitive,
+.check row:selected:insensitive,
+.check row:selected:focus:insensitive {
+    background-image: url("assets/checkbox-unchecked-insensitive.svg");
+}
+
+.check:active,
+.check row:selected:active,
+.check row:selected:focus:active {
+    background-image: url("assets/checkbox-checked.svg");
+}
+
+.check:active:insensitive,
+.check row:selected:active:insensitive,
+.check row:selected:focus:active:insensitive
+{
+    background-image: url("assets/checkbox-checked-insensitive.svg");
+}
+
+.check:inconsistent,
+.check row:selected:inconsistent,
+.check row:selected:focus:inconsistent {
+    background-image: url("assets/checkbox-mixed.svg");
+}
+
+.check:inconsistent:insensitive,
+.check row:selected:inconsistent:insensitive,
+.check row:selected:focus:inconsistent:insensitive {
+    background-image: url("assets/checkbox-mixed-insensitive.svg");
+}
+
+.radio,
+.radio row:selected,
+.radio row:selected:focus {
+    background-image: url("assets/radio-unselected.svg");
+}
+
+.radio:insensitive,
+.radio row:selected:insensitive,
+.radio row:selected:focus:insensitive {
+    background-image: url("assets/radio-unselected-insensitive.svg");
+}
+
+.radio:active,
+.radio row:selected:active,
+.radio row:selected:focus:active {
+    background-image: url("assets/radio-selected.svg");
+}
+
+.radio:active:insensitive,
+.radio row:selected:active:insensitive,
+.radio row:selected:focus:active:insensitive {
+    background-image: url("assets/radio-selected-insensitive.svg");
+}
+
+.radio:inconsistent,
+.radio row:selected:inconsistent,
+.radio row:selected:focus:inconsistent {
+    background-image: url("assets/radio-mixed.svg");
+}
+
+.radio:inconsistent:insensitive,
+.radio row:selected:inconsistent:insensitive,
+.radio row:selected:focus:inconsistent:insensitive {
+    background-image: url("assets/radio-mixed-insensitive.svg");
+}
+
+.sidebar .radio:active,
+.sidebar .radio:active:focus,
+.sidebar .radio:active:prelight {
+    background-image: url("assets/sidebar-radio-checked.svg");
+}
+
+.sidebar .radio:prelight {
+    background-image: url("assets/sidebar-radio-prelight.svg");
+}
+
+.sidebar .radio:active:selected,
+.sidebar .radio:active:selected:focus {
+    background-image: url("assets/sidebar-radio-selected.svg");
+}
+
+.sidebar .radio:selected:prelight,
+.sidebar .radio:selected:focus {
+    background-image: url("assets/sidebar-radio-selected-prelight.svg");    
+}
+
+.entry {
+    border-image: url("assets/entry-border-normal.svg") 2 / 2 stretch;
+}
+
+.entry:focus {
+    border-image: url("assets/entry-border-focused.svg") 2 / 2 stretch;
+}
+
+
+
+GtkScale.trough,
+GtkSwitch.trough,
+GtkScale.trough.horizontal {
+    border-image: url("assets/trough-border-horizontal.svg") 2 / 2 stretch;
+}
+
+GtkScale.trough.vertical {
+    border-image: url("assets/trough-border-vertical.svg") 2 / 2 stretch;
+}
+
+GtkSwitch.trough:active,
+GtkScale.progressbar.horizontal {
+    border-image: url("assets/trough-active-border-horizontal.svg") 2 / 2 stretch;
+}
+
+GtkScale.progressbar.vertical {
+    border-image: url("assets/trough-active-border-vertical.svg") 2 / 2 stretch;
+}
+
+GtkSwitch.slider {
+    border-image: url("assets/switch-slider-border.svg") 2 / 2 stretch;
+}
+
+GtkSwitch.slider:active {
+    border-image: url("assets/switch-slider-active-border.svg") 2 / 2 stretch;
+}
+
+.progressbar,
+.entry.progressbar,
+.progressbar row,
+.progressbar row:hover,
+.progressbar row:selected,
+.progressbar row:selected:focus {
+    border-image: url("assets/progressbar-border.svg") 3 / 3 stretch;
+}
+
+.progressbar.vertical {
+    border-image: url("assets/progressbar-border-vertical.svg") 3 / 3 stretch;
+}
+
+GtkScale.slider,
+GtkScale.slider.horizontal {
+    background-image: url("assets/scale-slider-horizontal.svg");
+}
+
+GtkScale.slider:insensitive,
+GtkScale.slider.horizontal:insensitive {
+    background-image: url("assets/scale-slider-horizontal-insensitive.svg");
+}
+
+GtkScale.slider.vertical {
+    background-image: url("assets/scale-slider-vertical.svg");
+}
+
+GtkScale.slider.vertical:insensitive {
+    background-image: url("assets/scale-slider-vertical-insensitive.svg");
+}
+
+GtkScale.scale-has-marks-above.slider.horizontal {
+    background-image: url("assets/scale-slider-marks-above-horizontal.svg");
+}
+
+GtkScale.scale-has-marks-above.slider.horizontal:insensitive {
+    background-image: url("assets/scale-slider-marks-above-horizontal-insensitive.svg");
+}
+
+GtkScale.scale-has-marks-above.slider.vertical {
+    background-image: url("assets/scale-slider-marks-above-vertical.svg");
+}
+
+GtkScale.scale-has-marks-above.slider.vertical:insensitive {
+    background-image: url("assets/scale-slider-marks-above-vertical-insensitive.svg");
+}
+
+GtkScale.scale-has-marks-below.slider.horizontal {
+    background-image: url("assets/scale-slider-marks-below-horizontal.svg");
+}
+
+GtkScale.scale-has-marks-below.slider.horizontal:insensitive {
+    background-image: url("assets/scale-slider-marks-below-horizontal-insensitive.svg");
+}
+
+GtkScale.scale-has-marks-below.slider.vertical {
+    background-image: url("assets/scale-slider-marks-below-vertical.svg");
+}
+
+GtkScale.scale-has-marks-below.slider.vertical:insensitive {
+    background-image: url("assets/scale-slider-marks-below-vertical-insensitive.svg");
+}
+
+
+
+/* Borders */
+
+/* generic element borders */
+.entry,
+GtkComboBox.combobox-entry .entry,
+GtkComboBox.combobox-entry .button,
+GtkComboBox.combobox-entry .button:active,
+GtkComboBox.combobox-entry .button:focus,
+GtkComboBox.combobox-entry .button:insensitive,
+.button:active,
+.button:active:hover,
+.button:insensitive {
+    border-image: url("new-assets/generic-border.svg") 3 3 4 3 / 3 3 4 3 stretch;
+    border-radius: 3;
+    border-width: 1 1 2 1;
+}
+
+/* focused element borders */
+.entry:focus,
+GtkComboBox.combobox-entry .entry:focus,
+.button:focus:active,
+.button.default:active { 
+    border-image: url("new-assets/generic-border-focused.svg") 3 3 4 3 / 3 3 4 3 stretch;
+    border-radius: 3;
+    border-width: 1 1 2 1;
+}
+
+/* generic button borders */
+.button {
+    border-image: url("new-assets/button-border.svg") 3 3 4 3 / 3 3 4 3 stretch;
+    border-radius: 3;
+    border-width: 1 1 2 1;
+}
+
+/* focused button borders */
+.button:focus,
+.button.default { 
+    border-image: url("new-assets/button-border-focused.svg") 3 3 4 3 / 3 3 4 3 stretch;
+    border-radius: 3;
+    border-width: 1 1 2 1;
+}
+
+/* primary toolbar - generic element borders */
+.primary-toolbar .entry,
+.primary-toolbar GtkComboBox.combobox-entry .entry,
+.primary-toolbar GtkComboBox.combobox-entry .button,
+.primary-toolbar GtkComboBox.combobox-entry .button:active,
+.primary-toolbar GtkComboBox.combobox-entry .button:focus,
+.primary-toolbar GtkComboBox.combobox-entry .button:insensitive,
+.primary-toolbar .button:active,
+.primary-toolbar .button:active:hover,
+.primary-toolbar .button.raised:insensitive,
+.primary-toolbar .raised .button:insensitive
+.inline-toolbar.toolbar .button:active,
+.inline-toolbar.toolbar .button:active:hover,
+.inline-toolbar.toolbar .button:insensitive,
+.inline-toolbar.toolbar GtkToolButton .button:active,
+.inline-toolbar.toolbar GtkButton.button:active {
+    border-image: url("new-assets/primary-toolbar-generic-border.svg") 4 / 4 stretch;
+    border-radius: 3;
+    border-width: 2;
+}
+
+/* primary toolbar - focused element borders */
+.primary-toolbar .entry:focus,
+.primary-toolbar GtkComboBox.combobox-entry .entry:focus,
+.primary-toolbar .button.raised:focus:active,
+.primary-toolbar .raised .button:focus:active,
+.primary-toolbar .button.raised:focus:active:hover,
+.primary-toolbar .raised .button:focus:active:hover,
+.primary-toolbar .button.raised.default:active,
+.primary-toolbar .raised .button.default:active,
+.inline-toolbar.toolbar .button:focus:active,
+.inline-toolbar.toolbar .button.default:active { 
+    border-image: url("new-assets/primary-toolbar-generic-border-focused.svg") 4 / 4 stretch;
+    border-radius: 3;
+    border-width: 2;
+}
+
+/* primary toolbar - generic button borders */
+.primary-toolbar .button.raised,
+.primary-toolbar .raised .button,
+.primary-toolbar .button.raised:hover,
+.primary-toolbar .raised .button:hover,
+.inline-toolbar.toolbar .button {
+    border-image: url("new-assets/primary-toolbar-button-border.svg") 4 / 4 stretch;
+    border-radius: 3;
+    border-width: 2;
+}
+
+/* primary toolbar - focused button borders */
+.primary-toolbar .button.raised:focus,
+.primary-toolbar .button.raised.default,
+.primary-toolbar .raised .button:focus,
+.primary-toolbar .raised .button.default,
+.primary-toolbar .button.raised:focus:hover,
+.primary-toolbar .raised .button:focus:hover,
+.inline-toolbar.toolbar .button:focus,
+.inline-toolbar.toolbar .button.default { 
+    border-image: url("new-assets/primary-toolbar-button-border-focused.svg") 4 / 4 stretch;
+    border-radius: 3;
+    border-width: 2;
+}
+
