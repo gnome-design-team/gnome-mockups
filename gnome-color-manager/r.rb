@@ -7,7 +7,7 @@ include REXML
 
 INKSCAPE = '/usr/bin/inkscape'
 #INKSCAPE = '/usr/bin/inkscape' # like this works for me, while using `which` inkscape hangs
-SRC = "src/gnome-stencils.svg"
+SRC = "src/colorimeters.svg"
 PREFIX = "data/figures"
 
 def chopSVG(icon)
