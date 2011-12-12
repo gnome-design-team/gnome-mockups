@@ -54,7 +54,7 @@ if (ARGV[0].nil?) #render all SVGs
 			chopSVG({	:name => icon_name,
 			 					:id => icon.attributes.get_attribute("id"),
 			 					:dir => dir,
-			 					:file => "#{dir}/#{icon_name}-symbolic.svg"})
+			 					:file => "#{dir}/#{icon_name}.svg"})
 		end
 	end
   puts "\nrendered all SVGs"
@@ -66,7 +66,7 @@ else #only render the icons passed
 		chopSVG({	:name => icon_name,
 		 					:id => icon.attributes["id"],
 		 					:dir => dir,
-		 					:file => "#{dir}/#{icon_name}-symbolic.svg",
+		 					:file => "#{dir}/#{icon_name}.svg",
 		 					:forcerender => true})
 	end
   puts "\nrendered #{ARGV.length} icons"
