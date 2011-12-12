@@ -46,7 +46,6 @@ if (ARGV[0].nil?) #render all SVGs
 	# Go through every layer.
 	svg.root.each_element("/svg/g[@inkscape:groupmode='layer']") do |context| 
 		context_name = context.attributes.get_attribute("inkscape:label").value  
-		puts "Going through layer '" + context_name + "'"
 		context.each_element("g") do |icon|
 			#puts "DEBUG #{icon.attributes.get_attribute('id')}"
 			dir = "#{PREFIX}/#{context_name}"
