@@ -50,6 +50,7 @@ if (ARGV[0].nil?) #render all SVGs
 		context.each_element("g") do |icon|
 			#puts "DEBUG #{icon.attributes.get_attribute('id')}"
 			dir = "#{PREFIX}/#{context_name}"
+			puts icon.attributes.get_attribute("inkscape:label").value
 			icon_name = icon.attributes.get_attribute("inkscape:label").value
 			chopSVG({	:name => icon_name,
 			 					:id => icon.attributes.get_attribute("id"),
