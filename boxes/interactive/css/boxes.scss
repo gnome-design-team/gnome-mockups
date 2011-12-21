@@ -17,5 +17,6 @@ fieldset {
   position: absolute;
   top: 0; left: 0; right: 0; height:  20px;
   border: 0;
-  background-color: -moz-linear-gradient(top, $toolbar_gradient_base, #00ff00);
+  background-color: $toolbar_gradient_base;
+  background-image: -moz-linear-gradient(top, $toolbar_gradient_base, #00ff00);
 }
