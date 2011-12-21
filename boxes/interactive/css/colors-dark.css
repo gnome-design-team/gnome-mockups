@@ -1,30 +1,45 @@
 /*
-Syntax error: Invalid CSS after "$borders ": expected ":", was "#24282a;"
-        on line 36 of css/colors-dark.scss
+Syntax error: Undefined variable: "$theme_unfocused_bg_color".
+        on line 12 of css/colors-dark.scss
 
-31: $theme_tooltip_bg_color: #000000;
-32: $theme_tooltip_fg_color: #eeeeee;
-33: 
-34: $button_gradient_color_a: lighten($theme_bg_color, 15%);
-35: $button_gradient_color_b: darken($theme_bg_color, 20%);
-36: $borders #24282a;
-37: 
-38: $button_active_text_shadow: black;
-39: $button_text_shadow: black;
-40: $primary_toolbar_button_text_shadow: rgba(0,0,0,0.1);
-41: 
+7: 
+8: $placeholder_text_color: darken($theme_text_color, 60%);
+9: 
+10: $theme_unfocused_base_color: $theme_base_color;
+11: $theme_unfocused_text_color: mix($theme_unfocused_base_color, $theme_text_color, 80%);
+12: $theme_unfocused_fg_color: mix($theme_unfocused_bg_color, $theme_text_color, 30%);
+13: $theme_unfocused_bg_color: $theme_bg_color;
+14: $theme_unfocused_selected_bg_color: darken ($theme_selected_bg_color, 10%); 
+15: $theme_unfocused_selected_fg_color: $theme_selected_fg_color; 
+16: $unfocused_button_background: $theme_unfocused_bg_color;
+17: $unfocused_borders: mix($theme_unfocused_bg_color, $theme_text_color, 15%);
 
 Backtrace:
-css/colors-dark.scss:36
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:929:in `expected'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:875:in `expected'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:870:in `tok!'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:353:in `variable'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:398:in `block_child'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:391:in `block_contents'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:59:in `stylesheet'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:28:in `parse'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:327:in `_to_tree'
+css/colors-dark.scss:12
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/variable.rb:49:in `_perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:76:in `_perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:76:in `map'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:76:in `_perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:242:in `visit_variable'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:27:in `visit_children'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:39:in `with_environment'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:26:in `visit_children'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:47:in `visit_root'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/root_node.rb:20:in `render'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:300:in `_render'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:247:in `render'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:339:in `update_stylesheet'
@@ -61,4 +76,4 @@ css/colors-dark.scss:36
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"$borders \": expected \":\", was \"#24282a;\"\A         on line 36 of css/colors-dark.scss\A \A 31: $theme_tooltip_bg_color: #000000;\A 32: $theme_tooltip_fg_color: #eeeeee;\A 33: \A 34: $button_gradient_color_a: lighten($theme_bg_color, 15%);\A 35: $button_gradient_color_b: darken($theme_bg_color, 20%);\A 36: $borders #24282a;\A 37: \A 38: $button_active_text_shadow: black;\A 39: $button_text_shadow: black;\A 40: $primary_toolbar_button_text_shadow: rgba(0,0,0,0.1);\A 41: "; }
+  content: "Syntax error: Undefined variable: \"$theme_unfocused_bg_color\".\A         on line 12 of css/colors-dark.scss\A \A 7: \A 8: $placeholder_text_color: darken($theme_text_color, 60%);\A 9: \A 10: $theme_unfocused_base_color: $theme_base_color;\A 11: $theme_unfocused_text_color: mix($theme_unfocused_base_color, $theme_text_color, 80%);\A 12: $theme_unfocused_fg_color: mix($theme_unfocused_bg_color, $theme_text_color, 30%);\A 13: $theme_unfocused_bg_color: $theme_bg_color;\A 14: $theme_unfocused_selected_bg_color: darken ($theme_selected_bg_color, 10%); \A 15: $theme_unfocused_selected_fg_color: $theme_selected_fg_color; \A 16: $unfocused_button_background: $theme_unfocused_bg_color;\A 17: $unfocused_borders: mix($theme_unfocused_bg_color, $theme_text_color, 15%);"; }

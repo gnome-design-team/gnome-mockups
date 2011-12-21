@@ -1,34 +1,36 @@
 /*
-Syntax error: Invalid CSS after "$borders ": expected ":", was "#24282a;"
-        on line 36 of css/colors-dark.scss
+Syntax error: Undefined variable: "$theme_unfocused_bg_color".
+        on line 12 of css/colors-dark.scss
         from line 3 of css/boxes.scss
 
-31: $theme_tooltip_bg_color: #000000;
-32: $theme_tooltip_fg_color: #eeeeee;
-33: 
-34: $button_gradient_color_a: lighten($theme_bg_color, 15%);
-35: $button_gradient_color_b: darken($theme_bg_color, 20%);
-36: $borders #24282a;
-37: 
-38: $button_active_text_shadow: black;
-39: $button_text_shadow: black;
-40: $primary_toolbar_button_text_shadow: rgba(0,0,0,0.1);
-41: 
+7:   background-color: #202020;
+8:   font-family: Cantarell;
+9:   margin: 0; padding: 0; border: 0;
+10: }
+11: 
+12: fieldset {
+13:   margin: 0;
+14:   }
+15: 
+16: #toolbar-main {
+17:   position: absolute;
 
 Backtrace:
-css/colors-dark.scss:36
+css/colors-dark.scss:12
 css/boxes.scss:3
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:929:in `expected'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:875:in `expected'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:870:in `tok!'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:353:in `variable'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:398:in `block_child'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:391:in `block_contents'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:59:in `stylesheet'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:28:in `parse'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:327:in `_to_tree'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:259:in `to_tree'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:144:in `visit_import'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/variable.rb:49:in `_perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:76:in `_perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:76:in `map'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:76:in `_perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:242:in `visit_variable'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:146:in `visit_import'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:146:in `map'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:146:in `visit_import'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
@@ -82,4 +84,4 @@ css/boxes.scss:3
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"$borders \": expected \":\", was \"#24282a;\"\A         on line 36 of css/colors-dark.scss\A         from line 3 of css/boxes.scss\A \A 31: $theme_tooltip_bg_color: #000000;\A 32: $theme_tooltip_fg_color: #eeeeee;\A 33: \A 34: $button_gradient_color_a: lighten($theme_bg_color, 15%);\A 35: $button_gradient_color_b: darken($theme_bg_color, 20%);\A 36: $borders #24282a;\A 37: \A 38: $button_active_text_shadow: black;\A 39: $button_text_shadow: black;\A 40: $primary_toolbar_button_text_shadow: rgba(0,0,0,0.1);\A 41: "; }
+  content: "Syntax error: Undefined variable: \"$theme_unfocused_bg_color\".\A         on line 12 of css/colors-dark.scss\A         from line 3 of css/boxes.scss\A \A 7:   background-color: #202020;\A 8:   font-family: Cantarell;\A 9:   margin: 0; padding: 0; border: 0;\A 10: }\A 11: \A 12: fieldset {\A 13:   margin: 0;\A 14:   }\A 15: \A 16: #toolbar-main {\A 17:   position: absolute;"; }
