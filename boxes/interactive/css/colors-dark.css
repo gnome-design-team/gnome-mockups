@@ -1,26 +1,22 @@
 /*
-Syntax error: Undefined variable: "$insensitive_bg_color".
-        on line 20 of css/colors-dark.scss
+Syntax error: "pink" is not a color for `mix'
+        on line 21 of css/colors-dark.scss
 
-15: $theme_unfocused_selected_fg_color: $theme_selected_fg_color; 
 16: $unfocused_button_background: $theme_unfocused_bg_color;
 17: $unfocused_borders: mix($theme_unfocused_bg_color, $theme_text_color, 15%);
 18: $unfocused_insensitive_borders_color: mix($theme_unfocused_bg_color, $unfocused_borders, 50%);
 19: $insensitive_fg_color: pink;
-20: $unfocused_insensitive_fg_color: mix($insensitive_fg_color, $insensitive_bg_color, 30%);
-21: $unfocused_insensitive_bg_color: $insensitive_bg_color;
-22: $unfocused_dark_bg: mix($theme_unfocused_bg_color, $borders, 50%);
-23: 
-24: $menu_bg_color: #555753;
-25: $menu_fg_color: $theme_text_color;
+20: $insensitive_bg_color: pink;
+21: $unfocused_insensitive_fg_color: mix($insensitive_fg_color, $insensitive_bg_color, 30%);
+22: $unfocused_insensitive_bg_color: $insensitive_bg_color;
+23: $unfocused_dark_bg: mix($theme_unfocused_bg_color, $borders, 50%);
+24: 
+25: $menu_bg_color: #555753;
+26: $menu_fg_color: $theme_text_color;
 
 Backtrace:
-css/colors-dark.scss:20
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/variable.rb:49:in `_perform'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:76:in `_perform'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:76:in `map'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:76:in `_perform'
+css/colors-dark.scss:21
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:97:in `_perform'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:242:in `visit_variable'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
@@ -76,4 +72,4 @@ css/colors-dark.scss:20
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$insensitive_bg_color\".\A         on line 20 of css/colors-dark.scss\A \A 15: $theme_unfocused_selected_fg_color: $theme_selected_fg_color; \A 16: $unfocused_button_background: $theme_unfocused_bg_color;\A 17: $unfocused_borders: mix($theme_unfocused_bg_color, $theme_text_color, 15%);\A 18: $unfocused_insensitive_borders_color: mix($theme_unfocused_bg_color, $unfocused_borders, 50%);\A 19: $insensitive_fg_color: pink;\A 20: $unfocused_insensitive_fg_color: mix($insensitive_fg_color, $insensitive_bg_color, 30%);\A 21: $unfocused_insensitive_bg_color: $insensitive_bg_color;\A 22: $unfocused_dark_bg: mix($theme_unfocused_bg_color, $borders, 50%);\A 23: \A 24: $menu_bg_color: #555753;\A 25: $menu_fg_color: $theme_text_color;"; }
+  content: "Syntax error: \"pink\" is not a color for `mix'\A         on line 21 of css/colors-dark.scss\A \A 16: $unfocused_button_background: $theme_unfocused_bg_color;\A 17: $unfocused_borders: mix($theme_unfocused_bg_color, $theme_text_color, 15%);\A 18: $unfocused_insensitive_borders_color: mix($theme_unfocused_bg_color, $unfocused_borders, 50%);\A 19: $insensitive_fg_color: pink;\A 20: $insensitive_bg_color: pink;\A 21: $unfocused_insensitive_fg_color: mix($insensitive_fg_color, $insensitive_bg_color, 30%);\A 22: $unfocused_insensitive_bg_color: $insensitive_bg_color;\A 23: $unfocused_dark_bg: mix($theme_unfocused_bg_color, $borders, 50%);\A 24: \A 25: $menu_bg_color: #555753;\A 26: $menu_fg_color: $theme_text_color;"; }
