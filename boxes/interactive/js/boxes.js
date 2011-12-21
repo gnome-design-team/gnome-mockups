@@ -20,7 +20,7 @@ $fn.renderBoxes = function () {
   var $container;
   
   $container = $(this).empty();
-  $cntainer.html("FIXME");
+  $container.html("FIXME");
 }
 
 
