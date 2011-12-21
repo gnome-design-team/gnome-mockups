@@ -16,7 +16,7 @@ BOXES = {
 }
 
 
-$fn.renderBoxes = function () {
+$.fn.renderBoxes = function () {
   var $container;
   
   $container = $(this).empty();
