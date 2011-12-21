@@ -19,7 +19,7 @@ fieldset {
   border: 0;
   background-color: $main-toolbar_gradient_b;
   background-image: -moz-linear-gradient(top, $main-toolbar_gradient_a, $main-toolbar_gradient_b);
-  @include box-shadow(0,2px,2px,rgba(0,0,0,0.5));
+  @include box-shadow(0,2px,2px,rgba(0,0,0,0.3));
 }
 
 button, .button, input[type="button"], input[type="submit"] {
