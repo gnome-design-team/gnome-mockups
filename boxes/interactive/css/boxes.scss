@@ -3,8 +3,8 @@
 @import "colors-dark";
 
 body {
-  color: #fff;
-  background-color: #202020;
+  color: $theme_fg_color;
+  background-color: $theme_bg_color;
   font-family: Cantarell;
   margin: 0; padding: 0; border: 0;
 }
@@ -24,4 +24,5 @@ fieldset {
 button, .button, input[type="button"], input[type="submit"] {
         background-color: $button_gradient_color_a;
         background-image: -moz-linear-gradient(top, $button_gradient_color_a, $button_gradient_color_b);
+        color: 
 }
