@@ -1,22 +1,26 @@
 /*
-Syntax error: "pink" is not a color for `mix'
-        on line 21 of css/colors-dark.scss
+Syntax error: Undefined variable: "$borders".
+        on line 23 of css/colors-dark.scss
 
-16: $unfocused_button_background: $theme_unfocused_bg_color;
-17: $unfocused_borders: mix($theme_unfocused_bg_color, $theme_text_color, 15%);
 18: $unfocused_insensitive_borders_color: mix($theme_unfocused_bg_color, $unfocused_borders, 50%);
-19: $insensitive_fg_color: pink;
-20: $insensitive_bg_color: pink;
+19: $insensitive_fg_color: #ff0000;
+20: $insensitive_bg_color: #ff0000;
 21: $unfocused_insensitive_fg_color: mix($insensitive_fg_color, $insensitive_bg_color, 30%);
 22: $unfocused_insensitive_bg_color: $insensitive_bg_color;
 23: $unfocused_dark_bg: mix($theme_unfocused_bg_color, $borders, 50%);
 24: 
 25: $menu_bg_color: #555753;
 26: $menu_fg_color: $theme_text_color;
+27: 
+28: $menu_controls_color: #aaa8ac;
 
 Backtrace:
-css/colors-dark.scss:21
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:97:in `_perform'
+css/colors-dark.scss:23
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/variable.rb:49:in `_perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:76:in `_perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:76:in `map'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:76:in `_perform'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:242:in `visit_variable'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
@@ -72,4 +76,4 @@ css/colors-dark.scss:21
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: \"pink\" is not a color for `mix'\A         on line 21 of css/colors-dark.scss\A \A 16: $unfocused_button_background: $theme_unfocused_bg_color;\A 17: $unfocused_borders: mix($theme_unfocused_bg_color, $theme_text_color, 15%);\A 18: $unfocused_insensitive_borders_color: mix($theme_unfocused_bg_color, $unfocused_borders, 50%);\A 19: $insensitive_fg_color: pink;\A 20: $insensitive_bg_color: pink;\A 21: $unfocused_insensitive_fg_color: mix($insensitive_fg_color, $insensitive_bg_color, 30%);\A 22: $unfocused_insensitive_bg_color: $insensitive_bg_color;\A 23: $unfocused_dark_bg: mix($theme_unfocused_bg_color, $borders, 50%);\A 24: \A 25: $menu_bg_color: #555753;\A 26: $menu_fg_color: $theme_text_color;"; }
+  content: "Syntax error: Undefined variable: \"$borders\".\A         on line 23 of css/colors-dark.scss\A \A 18: $unfocused_insensitive_borders_color: mix($theme_unfocused_bg_color, $unfocused_borders, 50%);\A 19: $insensitive_fg_color: #ff0000;\A 20: $insensitive_bg_color: #ff0000;\A 21: $unfocused_insensitive_fg_color: mix($insensitive_fg_color, $insensitive_bg_color, 30%);\A 22: $unfocused_insensitive_bg_color: $insensitive_bg_color;\A 23: $unfocused_dark_bg: mix($theme_unfocused_bg_color, $borders, 50%);\A 24: \A 25: $menu_bg_color: #555753;\A 26: $menu_fg_color: $theme_text_color;\A 27: \A 28: $menu_controls_color: #aaa8ac;"; }

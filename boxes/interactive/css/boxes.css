@@ -1,18 +1,20 @@
 /*
-Syntax error: "pink" is not a color for `mix'
-        on line 21 of css/colors-dark.scss
+Syntax error: Undefined variable: "$borders".
+        on line 23 of css/colors-dark.scss
         from line 3 of css/boxes.scss
 
-16: #toolbar-main {
-17:   position: absolute;
 18:   top: 0; left: 0; right: 0; height:  20px;
 19:   border: 0;
 20: }
 
 Backtrace:
-css/colors-dark.scss:21
+css/colors-dark.scss:23
 css/boxes.scss:3
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:97:in `_perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/variable.rb:49:in `_perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:76:in `_perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:76:in `map'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:76:in `_perform'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:242:in `visit_variable'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
@@ -74,4 +76,4 @@ css/boxes.scss:3
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: \"pink\" is not a color for `mix'\A         on line 21 of css/colors-dark.scss\A         from line 3 of css/boxes.scss\A \A 16: #toolbar-main {\A 17:   position: absolute;\A 18:   top: 0; left: 0; right: 0; height:  20px;\A 19:   border: 0;\A 20: }"; }
+  content: "Syntax error: Undefined variable: \"$borders\".\A         on line 23 of css/colors-dark.scss\A         from line 3 of css/boxes.scss\A \A 18:   top: 0; left: 0; right: 0; height:  20px;\A 19:   border: 0;\A 20: }"; }
