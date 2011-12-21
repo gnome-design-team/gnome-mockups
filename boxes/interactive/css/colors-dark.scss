@@ -16,6 +16,7 @@ $theme_unfocused_selected_fg_color: $theme_selected_fg_color;
 $unfocused_button_background: $theme_unfocused_bg_color;
 $unfocused_borders: mix($theme_unfocused_bg_color, $theme_text_color, 15%);
 $unfocused_insensitive_borders_color: mix($theme_unfocused_bg_color, $unfocused_borders, 50%);
+$insensitive_fg_color: pink;
 $unfocused_insensitive_fg_color: mix($insensitive_fg_color, $insensitive_bg_color, 30%);
 $unfocused_insensitive_bg_color: $insensitive_bg_color;
 $unfocused_dark_bg: mix($theme_unfocused_bg_color, $borders, 50%);
