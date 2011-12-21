@@ -34,8 +34,8 @@ $menu_separator: mix ($menu_fg_color, $menu_bg_color, 95%);
 $theme_tooltip_bg_color: #000000;
 $theme_tooltip_fg_color: #eeeeee;
 
-$button_gradient_color_a: lighten($theme_bg_color, 15%);
-$button_gradient_color_b: darken($theme_bg_color, 5%);
+$button_gradient_color_a: lighten($theme_bg_color, 5%);
+$button_gradient_color_b: darken($theme_bg_color, 15%);
 
 
 $button_active_text_shadow: black;
