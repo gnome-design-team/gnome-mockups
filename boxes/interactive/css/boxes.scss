@@ -20,6 +20,7 @@ button, .button, input[type="button"], input[type="submit"] {
         display: inline-block;
         border: 1px solid $borders;
         @include border-radius: 5px;
+        padding: 4px;
 }
 
 #toolbar-main {
