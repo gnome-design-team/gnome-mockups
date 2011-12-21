@@ -6,6 +6,7 @@ $theme_selected_bg_color: #3465a4;
 $theme_selected_fg_color: $theme_text_color;
 
 $placeholder_text_color: darken($theme_text_color, 60%);
+$borders: #24282a;
 
 $theme_unfocused_base_color: $theme_base_color;
 $theme_unfocused_text_color: mix($theme_unfocused_base_color, $theme_text_color, 80%);
@@ -35,7 +36,7 @@ $theme_tooltip_fg_color: #eeeeee;
 
 $button_gradient_color_a: lighten($theme_bg_color, 15%);
 $button_gradient_color_b: darken($theme_bg_color, 20%);
-$borders: #24282a;
+
 
 $button_active_text_shadow: black;
 $button_text_shadow: black;
