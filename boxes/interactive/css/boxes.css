@@ -1,75 +1,20 @@
-/*
-Syntax error: Undefined variable: "$switch_trough_active_bg_a".
-        on line 71 of css/colors-dark.scss
-        from line 3 of css/boxes.scss
+/* push cantarell with font-face in teh future */
+/* FIXME: needs dark colors from here */
+body {
+  color: #fff;
+  background-color: #202020;
+  font-family: Cantarell;
+  margin: 0;
+  padding: 0;
+  border: 0; }
 
-Backtrace:
-css/colors-dark.scss:71
-css/boxes.scss:3
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/variable.rb:49:in `_perform'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:76:in `_perform'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:76:in `map'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:76:in `_perform'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:242:in `visit_variable'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:146:in `visit_import'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:146:in `map'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:146:in `visit_import'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `map'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:27:in `visit_children'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:39:in `with_environment'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:26:in `visit_children'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:47:in `visit_root'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/root_node.rb:20:in `render'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:300:in `_render'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:247:in `render'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:339:in `update_stylesheet'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:202:in `update_stylesheets'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:200:in `each'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:200:in `update_stylesheets'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:272:in `watch'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/path.rb:73:in `call'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/path.rb:73:in `run_callback'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/path.rb:55:in `callback_action'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/path.rb:35:in `update'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/state/directory.rb:39:in `modified'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/state/directory.rb:37:in `each'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/state/directory.rb:37:in `modified'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/state/directory.rb:18:in `refresh'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:17:in `run'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:17:in `each'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:17:in `run'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:15:in `loop'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:15:in `run'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/monitor.rb:26:in `run'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm.rb:20:in `monitor'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:265:in `watch'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin.rb:107:in `send'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin.rb:107:in `method_missing'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:421:in `watch_or_update'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:302:in `process_result'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:41:in `parse'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:21:in `parse!'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/sass:8
-/usr/bin/sass:19:in `load'
-/usr/bin/sass:19
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$switch_trough_active_bg_a\".\A         on line 71 of css/colors-dark.scss\A         from line 3 of css/boxes.scss"; }
+fieldset {
+  margin: 0; }
+
+#toolbar-main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+  border: 0; }

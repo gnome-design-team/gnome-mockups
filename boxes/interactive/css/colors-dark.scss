@@ -67,13 +67,13 @@ $notebook_selected_tab_color: opacify($theme_selected_bg_color, 0.75);
 $notebook_tab_gradient_a: darken($theme_bg_color, 20%);
 $notebook_tab_gradient_b: darken($theme_bg_color, 25%);
 
-$switch_slider_color: darken($theme_bg_color, 10%);
-$switch_slider_active_border: darken($switch_trough_active_bg_a, 40%);
-$switch_slider_insensitive_bg: $theme_bg_color;
-
 $switch_trough_active_color: $theme_text_color;
 $switch_trough_active_bg_a: darken($theme_selected_bg_color, 40%);
 $switch_trough_active_bg_b: $theme_selected_bg_color;
+
+$switch_slider_color: darken($theme_bg_color, 10%);
+$switch_slider_active_border: darken($switch_trough_active_bg_a, 40%);
+$switch_slider_insensitive_bg: $theme_bg_color;
 
 $highlighted_border: $borders;
 $internal_element_color: #595959;
