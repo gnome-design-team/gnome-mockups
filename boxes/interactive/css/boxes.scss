@@ -34,7 +34,7 @@ button, .button, input[type="button"], input[type="submit"] {
   @include box-shadow(0,2px,2px,rgba(0,0,0,0.3));
   
   #select {
-    text-align: right;
+    float: right;
   }
 }
 
