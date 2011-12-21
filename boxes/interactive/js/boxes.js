@@ -15,7 +15,15 @@ BOXES = {
   }
 }
 
-$(document).ready(function () {
-  //console.log('working');
+
+$fn.renderBoxes = function () {
+  var $container;
   
+  $container = $(this).empty();
+  $cntainer.html("FIXME");
+}
+
+
+$(document).ready(function () {
+  $("#content").renderBoxes();
 });
