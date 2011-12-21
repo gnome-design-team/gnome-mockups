@@ -1,72 +1,18 @@
-/*
-Syntax error: File to import not found or unreadable: colors-dark.
-              Load paths:
-                /home/jimmac/SparkleShare/gnome-mockups/boxes/interactive
-                /home/jimmac/SparkleShare/gnome-mockups/boxes/interactive/css
-        on line 3 of css/boxes.scss
+/* push cantarell with font-face in teh future */
+#toolbar-main {
+  background-color: red; }
 
-1: @import "base";
-2: @import "fonts";
-3: @import "colors-dark";
-4: 
-5: body {
-6:   color: #fff;
-7:   background-color: #202020;
-8:   font-family: Cantarell;
+body {
+  color: #fff;
+  background-color: #202020;
+  font-family: Cantarell;
+  margin: 0;
+  padding: 0; }
 
-Backtrace:
-css/boxes.scss:3
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/import_node.rb:64:in `import'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/import_node.rb:25:in `imported_file'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:149:in `visit_import'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `map'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:27:in `visit_children'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:39:in `with_environment'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:26:in `visit_children'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:47:in `visit_root'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/root_node.rb:20:in `render'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:300:in `_render'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:247:in `render'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:339:in `update_stylesheet'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:202:in `update_stylesheets'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:200:in `each'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:200:in `update_stylesheets'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:293:in `watch'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/path.rb:73:in `call'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/path.rb:73:in `run_callback'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/path.rb:55:in `callback_action'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/path.rb:35:in `update'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/state/file.rb:19:in `refresh'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:17:in `run'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:17:in `each'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:17:in `run'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:15:in `loop'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:15:in `run'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/monitor.rb:26:in `run'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm.rb:20:in `monitor'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:265:in `watch'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin.rb:107:in `send'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin.rb:107:in `method_missing'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:421:in `watch_or_update'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:302:in `process_result'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:41:in `parse'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:21:in `parse!'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/sass:8
-/usr/bin/sass:19:in `load'
-/usr/bin/sass:19
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: colors-dark.\A               Load paths:\A                 /home/jimmac/SparkleShare/gnome-mockups/boxes/interactive\A                 /home/jimmac/SparkleShare/gnome-mockups/boxes/interactive/css\A         on line 3 of css/boxes.scss\A \A 1: @import \"base\";\A 2: @import \"fonts\";\A 3: @import \"colors-dark\";\A 4: \A 5: body {\A 6:   color: #fff;\A 7:   background-color: #202020;\A 8:   font-family: Cantarell;"; }
+#toolbar-main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+  border: 0; }
