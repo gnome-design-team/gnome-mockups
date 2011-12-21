@@ -1,9 +1,8 @@
 /*
-Syntax error: Undefined variable: "$insensitive_fg_color".
-        on line 19 of css/colors-dark.scss
+Syntax error: Undefined variable: "$insensitive_bg_color".
+        on line 20 of css/colors-dark.scss
         from line 3 of css/boxes.scss
 
-14:   }
 15: 
 16: #toolbar-main {
 17:   position: absolute;
@@ -12,7 +11,7 @@ Syntax error: Undefined variable: "$insensitive_fg_color".
 20: }
 
 Backtrace:
-css/colors-dark.scss:19
+css/colors-dark.scss:20
 css/boxes.scss:3
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/variable.rb:49:in `_perform'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
@@ -80,4 +79,4 @@ css/boxes.scss:3
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$insensitive_fg_color\".\A         on line 19 of css/colors-dark.scss\A         from line 3 of css/boxes.scss\A \A 14:   }\A 15: \A 16: #toolbar-main {\A 17:   position: absolute;\A 18:   top: 0; left: 0; right: 0; height:  20px;\A 19:   border: 0;\A 20: }"; }
+  content: "Syntax error: Undefined variable: \"$insensitive_bg_color\".\A         on line 20 of css/colors-dark.scss\A         from line 3 of css/boxes.scss\A \A 15: \A 16: #toolbar-main {\A 17:   position: absolute;\A 18:   top: 0; left: 0; right: 0; height:  20px;\A 19:   border: 0;\A 20: }"; }
