@@ -18,6 +18,7 @@ button, .button, input[type="button"], input[type="submit"] {
         background-image: -moz-linear-gradient(top, $button_gradient_color_a, $button_gradient_color_b);
         color: $theme_fg_color;
         display: inline-block;
+        border: 1px solid $borders;
 }
 
 #toolbar-main {
