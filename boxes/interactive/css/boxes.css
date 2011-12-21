@@ -6,13 +6,13 @@ Syntax error: Invalid CSS after "$borders ": expected ":", was "#24282a;"
 31: $theme_tooltip_bg_color: #000000;
 32: $theme_tooltip_fg_color: #eeeeee;
 33: 
-34: $button_gradient_color_a: shade ($theme_bg_color, 1.15);
-35: $button_gradient_color_b: shade ($theme_bg_color, 0.8);
+34: $button_gradient_color_a: lighten($theme_bg_color, 15%);
+35: $button_gradient_color_b: darken($theme_bg_color, 20%);
 36: $borders #24282a;
 37: 
 38: $button_active_text_shadow: black;
 39: $button_text_shadow: black;
-40: $primary_toolbar_button_text_shadow: alpha(black, 0.1);
+40: $primary_toolbar_button_text_shadow: rgba(0,0,0,0.1);
 41: 
 
 Backtrace:
@@ -82,4 +82,4 @@ css/boxes.scss:3
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"$borders \": expected \":\", was \"#24282a;\"\A         on line 36 of css/colors-dark.scss\A         from line 3 of css/boxes.scss\A \A 31: $theme_tooltip_bg_color: #000000;\A 32: $theme_tooltip_fg_color: #eeeeee;\A 33: \A 34: $button_gradient_color_a: shade ($theme_bg_color, 1.15);\A 35: $button_gradient_color_b: shade ($theme_bg_color, 0.8);\A 36: $borders #24282a;\A 37: \A 38: $button_active_text_shadow: black;\A 39: $button_text_shadow: black;\A 40: $primary_toolbar_button_text_shadow: alpha(black, 0.1);\A 41: "; }
+  content: "Syntax error: Invalid CSS after \"$borders \": expected \":\", was \"#24282a;\"\A         on line 36 of css/colors-dark.scss\A         from line 3 of css/boxes.scss\A \A 31: $theme_tooltip_bg_color: #000000;\A 32: $theme_tooltip_fg_color: #eeeeee;\A 33: \A 34: $button_gradient_color_a: lighten($theme_bg_color, 15%);\A 35: $button_gradient_color_b: darken($theme_bg_color, 20%);\A 36: $borders #24282a;\A 37: \A 38: $button_active_text_shadow: black;\A 39: $button_text_shadow: black;\A 40: $primary_toolbar_button_text_shadow: rgba(0,0,0,0.1);\A 41: "; }
