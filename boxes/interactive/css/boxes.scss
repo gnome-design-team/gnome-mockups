@@ -3,7 +3,7 @@
 @import "colors-dark";
 
 body {
-  color: $theme_fg_color;
+  color: darken($theme_fg_color, 20%);
   background-color: $theme_bg_color;
   font-family: Cantarell;
   margin: 0; padding: 0; border: 0;
