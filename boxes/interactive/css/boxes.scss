@@ -21,6 +21,8 @@ button, .button, input[type="button"], input[type="submit"] {
 
 #toolbar-main {
   position: absolute;
+  display: table-cell;
+  vertical-align: middle;
   top: 0; left: 0; right: 0; height:  40px;
   border: 0;
   background-color: $main-toolbar_gradient_b;

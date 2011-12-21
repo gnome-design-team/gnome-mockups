@@ -18,6 +18,8 @@ button, .button, input[type="button"], input[type="submit"] {
 
 #toolbar-main {
   position: absolute;
+  display: table-cell;
+  vertical-align: middle;
   top: 0;
   left: 0;
   right: 0;
