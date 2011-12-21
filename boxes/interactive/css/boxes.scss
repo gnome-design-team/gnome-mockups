@@ -20,3 +20,8 @@ fieldset {
   background-color: $main-toolbar_gradient_b;
   background-image: -moz-linear-gradient(top, $main-toolbar_gradient_a, $main-toolbar_gradient_b);
 }
+
+button, .button, input[type="button"], input[type="submit"] {
+        background-color: $button_gradient_color_a;
+        background-image: -moz-linear-gradient(top, $button_gradient_color_a, $button_gradient_color_b);
+}
