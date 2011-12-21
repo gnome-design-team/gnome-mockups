@@ -9,7 +9,7 @@ $placeholder_text_color: darken($theme_text_color, 60%);
 
 $theme_unfocused_base_color: $theme_base_color;
 $theme_unfocused_text_color: mix($theme_unfocused_base_color, $theme_text_color, 80%);
-$theme_unfocused_fg_color: mix($theme_unfocused_bg_color, $theme_text_color, 30%);
+$theme_unfocused_fg_color: mix($theme_unfocused_base_color, $theme_text_color, 30%);
 $theme_unfocused_bg_color: $theme_bg_color;
 $theme_unfocused_selected_bg_color: darken ($theme_selected_bg_color, 10%); 
 $theme_unfocused_selected_fg_color: $theme_selected_fg_color; 

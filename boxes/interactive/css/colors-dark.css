@@ -1,21 +1,21 @@
 /*
-Syntax error: Undefined variable: "$theme_unfocused_bg_color".
-        on line 12 of css/colors-dark.scss
+Syntax error: Undefined variable: "$insensitive_fg_color".
+        on line 19 of css/colors-dark.scss
 
-7: 
-8: $placeholder_text_color: darken($theme_text_color, 60%);
-9: 
-10: $theme_unfocused_base_color: $theme_base_color;
-11: $theme_unfocused_text_color: mix($theme_unfocused_base_color, $theme_text_color, 80%);
-12: $theme_unfocused_fg_color: mix($theme_unfocused_bg_color, $theme_text_color, 30%);
-13: $theme_unfocused_bg_color: $theme_bg_color;
 14: $theme_unfocused_selected_bg_color: darken ($theme_selected_bg_color, 10%); 
 15: $theme_unfocused_selected_fg_color: $theme_selected_fg_color; 
 16: $unfocused_button_background: $theme_unfocused_bg_color;
 17: $unfocused_borders: mix($theme_unfocused_bg_color, $theme_text_color, 15%);
+18: $unfocused_insensitive_borders_color: mix($theme_unfocused_bg_color, $unfocused_borders, 50%);
+19: $unfocused_insensitive_fg_color: mix($insensitive_fg_color, $insensitive_bg_color, 30%);
+20: $unfocused_insensitive_bg_color: $insensitive_bg_color;
+21: $unfocused_dark_bg: mix($theme_unfocused_bg_color, $borders, 50%);
+22: 
+23: $menu_bg_color: #555753;
+24: $menu_fg_color: $theme_text_color;
 
 Backtrace:
-css/colors-dark.scss:12
+css/colors-dark.scss:19
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/variable.rb:49:in `_perform'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/funcall.rb:76:in `_perform'
@@ -76,4 +76,4 @@ css/colors-dark.scss:12
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$theme_unfocused_bg_color\".\A         on line 12 of css/colors-dark.scss\A \A 7: \A 8: $placeholder_text_color: darken($theme_text_color, 60%);\A 9: \A 10: $theme_unfocused_base_color: $theme_base_color;\A 11: $theme_unfocused_text_color: mix($theme_unfocused_base_color, $theme_text_color, 80%);\A 12: $theme_unfocused_fg_color: mix($theme_unfocused_bg_color, $theme_text_color, 30%);\A 13: $theme_unfocused_bg_color: $theme_bg_color;\A 14: $theme_unfocused_selected_bg_color: darken ($theme_selected_bg_color, 10%); \A 15: $theme_unfocused_selected_fg_color: $theme_selected_fg_color; \A 16: $unfocused_button_background: $theme_unfocused_bg_color;\A 17: $unfocused_borders: mix($theme_unfocused_bg_color, $theme_text_color, 15%);"; }
+  content: "Syntax error: Undefined variable: \"$insensitive_fg_color\".\A         on line 19 of css/colors-dark.scss\A \A 14: $theme_unfocused_selected_bg_color: darken ($theme_selected_bg_color, 10%); \A 15: $theme_unfocused_selected_fg_color: $theme_selected_fg_color; \A 16: $unfocused_button_background: $theme_unfocused_bg_color;\A 17: $unfocused_borders: mix($theme_unfocused_bg_color, $theme_text_color, 15%);\A 18: $unfocused_insensitive_borders_color: mix($theme_unfocused_bg_color, $unfocused_borders, 50%);\A 19: $unfocused_insensitive_fg_color: mix($insensitive_fg_color, $insensitive_bg_color, 30%);\A 20: $unfocused_insensitive_bg_color: $insensitive_bg_color;\A 21: $unfocused_dark_bg: mix($theme_unfocused_bg_color, $borders, 50%);\A 22: \A 23: $menu_bg_color: #555753;\A 24: $menu_fg_color: $theme_text_color;"; }
