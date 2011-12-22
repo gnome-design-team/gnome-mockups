@@ -26,9 +26,9 @@ $.fn.renderBoxes = function () {
     $("<div></div>")
       .attr("id", box.id)
       .addClass("box-contain")
-      .append("<div class='box'>").closest("div")
+      .append("<div class='box'>").children()
       .css("background-image", box.thumbnail)
-      .parent("div")
+      .parent()
       .appendTo($container);
   });
 }
