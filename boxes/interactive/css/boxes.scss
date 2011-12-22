@@ -40,8 +40,8 @@ button, .button, input[type="button"], input[type="submit"] {
 }
 
 #content {
-  margin: 52px 12px 12px;
-  vertical-align: top;
+  position: absolute;
+  top: 52px; bottom: 0; right: 0; left: 0;
 }
 
 .box-contain {
