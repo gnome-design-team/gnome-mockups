@@ -27,6 +27,7 @@ $.fn.renderBoxes = function () {
       .attr("id", box.id)
       .addClass("box")
       .css("background-image", box.thumbnail)
+      .wrap("<div class='outer-contain'></div>")
       .appendTo($container);
   });
 }
