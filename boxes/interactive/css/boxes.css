@@ -50,7 +50,8 @@ button, .button, input[type="button"], input[type="submit"] {
   position: relative;
   display: inline-block;
   font-size: 90%;
-  text-align: center; }
+  text-align: center;
+  max-width: 128px; }
   .box-contain .box {
     position: relative;
     display: block;
@@ -60,3 +61,5 @@ button, .button, input[type="button"], input[type="submit"] {
     border: 1px solid #697575;
     margin: 12px;
     padding: 0; }
+  .box-contain .label {
+    whitespace: wrap; }
