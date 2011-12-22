@@ -24,16 +24,88 @@ BOXES = {
     fullscreen: "img/boxes/research.jpg",
     running: false
   }, {
-    id: "research",
-    label: "OS Research",
-    thumbnail: "img/boxes/research-thumb.png",
-    fullscreen: "img/boxes/research.jpg",
+    id: "box4",
+    label: "Anonymouse Box",
+    thumbnail: "img/boxes/anonymouse-thumb.png",
+    fullscreen: "img/boxes/anonymous.jpg",
     running: false
   }, {
-    id: "research",
-    label: "OS Research",
-    thumbnail: "img/boxes/research-thumb.png",
-    fullscreen: "img/boxes/research.jpg",
+    id: "box5",
+    label: "Anonymouse Box",
+    thumbnail: "img/boxes/anonymouse-thumb.png",
+    fullscreen: "img/boxes/anonymous.jpg",
+    running: false
+  }, {
+    id: "box6",
+    label: "Anonymouse Box",
+    thumbnail: "img/boxes/anonymouse-thumb.png",
+    fullscreen: "img/boxes/anonymous.jpg",
+    running: false
+  }, {
+    id: "box7",
+    label: "Anonymouse Box",
+    thumbnail: "img/boxes/anonymouse-thumb.png",
+    fullscreen: "img/boxes/anonymous.jpg",
+    running: false
+  }, {
+    id: "box8",
+    label: "Anonymouse Box",
+    thumbnail: "img/boxes/anonymouse-thumb.png",
+    fullscreen: "img/boxes/anonymous.jpg",
+    running: false
+  }, {
+    id: "box9",
+    label: "Anonymouse Box",
+    thumbnail: "img/boxes/anonymouse-thumb.png",
+    fullscreen: "img/boxes/anonymous.jpg",
+    running: false
+  }, {
+    id: "box10",
+    label: "Anonymouse Box",
+    thumbnail: "img/boxes/anonymouse-thumb.png",
+    fullscreen: "img/boxes/anonymous.jpg",
+    running: false
+  }, {
+    id: "box11",
+    label: "Anonymouse Box",
+    thumbnail: "img/boxes/anonymouse-thumb.png",
+    fullscreen: "img/boxes/anonymous.jpg",
+    running: false
+  }, {
+    id: "box12",
+    label: "Anonymouse Box",
+    thumbnail: "img/boxes/anonymouse-thumb.png",
+    fullscreen: "img/boxes/anonymous.jpg",
+    running: false
+  }, {
+    id: "box13",
+    label: "Anonymouse Box",
+    thumbnail: "img/boxes/anonymouse-thumb.png",
+    fullscreen: "img/boxes/anonymous.jpg",
+    running: false
+  }, {
+    id: "box14",
+    label: "Anonymouse Box",
+    thumbnail: "img/boxes/anonymouse-thumb.png",
+    fullscreen: "img/boxes/anonymous.jpg",
+    running: false
+  }, {
+    id: "box15",
+    label: "Anonymouse Box",
+    thumbnail: "img/boxes/anonymouse-thumb.png",
+    fullscreen: "img/boxes/anonymous.jpg",
+    running: false
+  }, {
+    id: "box16",
+    label: "Anonymouse Box",
+    thumbnail: "img/boxes/anonymouse-thumb.png",
+    fullscreen: "img/boxes/anonymous.jpg",
+    running: false
+  }, {
+    id: "box17",
+    label: "Anonymouse Box",
+    thumbnail: "img/boxes/anonymouse-thumb.png",
+    fullscreen: "img/boxes/anonymous.jpg",
     running: false
   }],
   os: ['fedora','ubuntu','windows','osx','unknown'],
