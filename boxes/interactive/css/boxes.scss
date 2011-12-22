@@ -24,7 +24,7 @@ button, .button, input[type="button"], input[type="submit"] {
 }
 
 #toolbar-main {
-  position: absolute;
+  position: fixed;
   display: table-cell;
   vertical-align: middle;
   z-index: 3;
