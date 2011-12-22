@@ -4,7 +4,7 @@ body {
   color: #eeeeec;
   background-color: #212424;
   font-family: Cantarell;
-  font-size: 12pt;
+  font-size: 11pt;
   margin: 0;
   padding: 0;
   border: 0; }
@@ -14,7 +14,7 @@ fieldset {
 
 button, .button, input[type="button"], input[type="submit"] {
   font-family: Cantarell;
-  font-size: 12pt;
+  font-size: 11pt;
   background-color: #454c4c;
   background-image: -moz-linear-gradient(top, #454c4c, #212424);
   color: #eeeeec;
@@ -23,7 +23,7 @@ button, .button, input[type="button"], input[type="submit"] {
   border-radius: 3px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  padding: 14px;
+  padding: 4px;
   margin: 2px; }
 
 #toolbar-main {

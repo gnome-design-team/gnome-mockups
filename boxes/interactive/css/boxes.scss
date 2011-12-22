@@ -5,7 +5,7 @@
 body {
   color: $theme_fg_color;
   background-color: darken($theme_bg_color, 10%);
-  font-family: Cantarell; font-size: 10pt;
+  font-family: Cantarell; font-size: 11pt;
   margin: 0; padding: 0; border: 0;
 }
 
@@ -14,14 +14,14 @@ fieldset {
   }
 
 button, .button, input[type="button"], input[type="submit"] {
-  font-family: Cantarell; font-size: 10pt;
+  font-family: Cantarell; font-size: 11pt;
   background-color: $button_gradient_color_a;
   background-image: -moz-linear-gradient(top, $button_gradient_color_a, $button_gradient_color_b);
   color: $theme_fg_color;
   display: inline-block;
   border: 1px solid $borders;
   @include border-radius(3px);
-  padding: 14px;
+  padding: 4px;
   margin: 2px;
 }
 
