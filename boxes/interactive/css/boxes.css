@@ -51,4 +51,7 @@ button, .button, input[type="button"], input[type="submit"] {
   display: inline-block;
   width: 128px;
   height: 128px;
-  background-color: #393f3f; }
+  background-color: #393f3f;
+  border: 1px solid #697575;
+  margin: 12px;
+  padding: 0; }
