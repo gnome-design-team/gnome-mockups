@@ -23,9 +23,8 @@ button, .button, input[type="button"], input[type="submit"] {
   @include border-radius(3px);
   padding: 4px;
   margin: 2px;
-  &:hover {
-    @include gradient-vertical($button_hover_gradient_color_a, $button_hover_gradient_color_b);
-  }
+  &:hover { @include gradient-vertical($button_hover_gradient_color_a, $button_hover_gradient_color_b);  }
+  &:active { @include gradient-vertical($button_active_gradient_color_a, $button_active_gradient_color_b);  }
 }
 
 #toolbar-main {

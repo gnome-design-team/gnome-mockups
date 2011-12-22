@@ -35,6 +35,12 @@ button, .button, input[type="button"], input[type="submit"] {
     background-image: -o-linear-gradient(top, #5d6767, #262a2a);
     background-image: -ms-linear-gradient(top, #5d6767, #262a2a);
     background-image: linear-gradient(top, #5d6767, #262a2a); }
+  button:active, .button:active, input[type="button"]:active, input[type="submit"]:active {
+    background-image: -moz-linear-gradient(top, black, black);
+    background-image: -webkit-linear-gradient(top, black, black);
+    background-image: -o-linear-gradient(top, black, black);
+    background-image: -ms-linear-gradient(top, black, black);
+    background-image: linear-gradient(top, black, black); }
 
 #toolbar-main {
   position: fixed;
