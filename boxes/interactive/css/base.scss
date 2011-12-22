@@ -112,6 +112,6 @@
 
 @mixin gradient-vertical($a,$b) {
   background-image: -moz-linear-gradient(top, $a, $b);
-  background-image: -webkit-linear-gradient(top, $a 0%, $b 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop($a), color-stop($b));
   
 }
