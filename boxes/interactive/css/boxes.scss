@@ -21,6 +21,7 @@ button, .button, input[type="button"], input[type="submit"] {
         border: 1px solid $borders;
         @include border-radius(3px);
         padding: 4px;
+        margin: 2px;
 }
 
 #toolbar-main {
