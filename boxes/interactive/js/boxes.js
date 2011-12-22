@@ -25,9 +25,10 @@ $.fn.renderBoxes = function () {
   $.each(BOXES.boxes, function (i,box) {
     $("<div></div>")
       .attr("id", box.id)
-      .addClass("box")
+      .addClass("box-contain")
+      .append("<div class='box'>").closest("div")
       .css("background-image", box.thumbnail)
-      .wrap("<div class='outer-contain'></div>")
+      .parent("div")
       .appendTo($container);
   });
 }
