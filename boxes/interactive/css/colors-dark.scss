@@ -42,8 +42,8 @@ $button_active_text_shadow: black;
 $button_text_shadow: black;
 $primary_toolbar_button_text_shadow: rgba(0,0,0,0.1);
 
-$button_active_gradient_color_a: darken($button_gradient_color_b, 30%);
-$button_active_gradient_color_b: darken($button_gradient_color_a, 30%);
+$button_active_gradient_color_a: darken($button_gradient_color_b, 10%);
+$button_active_gradient_color_b: darken($button_gradient_color_a, 10%);
 
 $button_hover_gradient_color_a: lighten($button_gradient_color_a, 10%);
 $button_hover_gradient_color_b: lighten($button_gradient_color_b, 2%);
