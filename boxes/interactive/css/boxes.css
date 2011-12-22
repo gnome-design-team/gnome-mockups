@@ -39,6 +39,9 @@ button, .button, input[type="button"], input[type="submit"] {
   background-color: #323331;
   background-image: -moz-linear-gradient(top, #525351, #323331);
   background-image: -webkit-linear-gradient(top, #525351, #323331);
+  background-image: -o-linear-gradient(top, #525351, #323331);
+  background-image: -ms-linear-gradient(top, #525351, #323331);
+  background-image: linear-gradient(top, #525351, #323331);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
