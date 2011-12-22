@@ -29,6 +29,7 @@ $.fn.renderBoxes = function () {
       .append("<div class='box'>").children()
       .css("background-image", box.thumbnail)
       .parent()
+      .append("<div class='label'>"+box.label+"</div>")
       .appendTo($container);
   });
 }
