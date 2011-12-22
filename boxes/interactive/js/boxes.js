@@ -26,7 +26,7 @@ $.fn.renderBoxes = function () {
     $("<div></div>")
       .attr("id", box.id)
       .appendTo($container);
-  }
+  });
 }
 
 
