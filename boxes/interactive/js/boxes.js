@@ -117,6 +117,7 @@ BOXES = {
       fullscreen: "img/boxes/anonymous.jpg",
       running: false
     });
+    $("#content").renderBoxes();
   },
   deleteBox: function () { // delete a box
   }
