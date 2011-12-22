@@ -14,14 +14,15 @@ fieldset {
   }
 
 button, .button, input[type="button"], input[type="submit"] {
-        background-color: $button_gradient_color_a;
-        background-image: -moz-linear-gradient(top, $button_gradient_color_a, $button_gradient_color_b);
-        color: $theme_fg_color;
-        display: inline-block;
-        border: 1px solid $borders;
-        @include border-radius(3px);
-        padding: 14px;
-        margin: 2px;
+  font-family: Cantarell;    
+  background-color: $button_gradient_color_a;
+  background-image: -moz-linear-gradient(top, $button_gradient_color_a, $button_gradient_color_b);
+  color: $theme_fg_color;
+  display: inline-block;
+  border: 1px solid $borders;
+  @include border-radius(3px);
+  padding: 14px;
+  margin: 2px;
 }
 
 #toolbar-main {
