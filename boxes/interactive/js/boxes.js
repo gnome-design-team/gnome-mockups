@@ -110,6 +110,13 @@ BOXES = {
   }],
   os: ['fedora','ubuntu','windows','osx','unknown'],
   addBox: function () { //create new box
+    this.boxes.push({
+      id: "box"+this.boxes.length,
+      label: "Anonymous",
+      thumbnail: "img/boxes/anonymous-thumb.png",
+      fullscreen: "img/boxes/anonymous.jpg",
+      running: false
+    });
   },
   deleteBox: function () { // delete a box
   }
