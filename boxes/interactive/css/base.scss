@@ -109,3 +109,7 @@
   -moz-background-size: $size;
   background-size: $size;
 }
+
+@mixin gradient-vertical($a,$b) {
+        -moz-linear-gradient(top, $a, $b);
+}

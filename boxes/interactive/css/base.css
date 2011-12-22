@@ -1,0 +1,72 @@
+/*
+Syntax error: Invalid CSS after "...linear-gradient": expected "{", was "(top, $a, $b);"
+        on line 114 of css/base.scss
+
+109:   -moz-background-size: $size;
+110:   background-size: $size;
+111: }
+112: 
+113: @mixin gradient-vertical($a,$b) {
+114:         -moz-linear-gradient(top, $a, $b);
+115: }
+
+Backtrace:
+css/base.scss:114
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:929:in `expected'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:875:in `expected'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:870:in `tok!'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:379:in `block'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:374:in `ruleset'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:436:in `declaration_or_ruleset'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:913:in `call'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:913:in `rethrow'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:437:in `declaration_or_ruleset'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:399:in `block_child'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:388:in `block_contents'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:380:in `block'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:153:in `mixin_directive'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:146:in `send'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:146:in `special_directive'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:125:in `directive'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:398:in `block_child'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:391:in `block_contents'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:59:in `stylesheet'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:28:in `parse'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:327:in `_to_tree'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:300:in `_render'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:247:in `render'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:339:in `update_stylesheet'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:202:in `update_stylesheets'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:200:in `each'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:200:in `update_stylesheets'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:272:in `watch'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/path.rb:73:in `call'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/path.rb:73:in `run_callback'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/path.rb:55:in `callback_action'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/path.rb:35:in `update'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/state/directory.rb:39:in `modified'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/state/directory.rb:37:in `each'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/state/directory.rb:37:in `modified'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/state/directory.rb:18:in `refresh'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:17:in `run'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:17:in `each'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:17:in `run'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:15:in `loop'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:15:in `run'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/monitor.rb:26:in `run'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm.rb:20:in `monitor'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:265:in `watch'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin.rb:107:in `send'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin.rb:107:in `method_missing'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:421:in `watch_or_update'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:302:in `process_result'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:41:in `parse'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:21:in `parse!'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/sass:8
+/usr/bin/sass:19:in `load'
+/usr/bin/sass:19
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"...linear-gradient\": expected \"{\", was \"(top, $a, $b);\"\A         on line 114 of css/base.scss\A \A 109:   -moz-background-size: $size;\A 110:   background-size: $size;\A 111: }\A 112: \A 113: @mixin gradient-vertical($a,$b) {\A 114:         -moz-linear-gradient(top, $a, $b);\A 115: }"; }
