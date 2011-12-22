@@ -41,6 +41,7 @@ button, .button, input[type="button"], input[type="submit"] {
 
 #content {
   position: fixed;
+  overflow: scroll;
   top: 52px; bottom: 0; right: 0; left: 0;
 }
 
