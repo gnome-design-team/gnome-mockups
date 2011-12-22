@@ -48,5 +48,7 @@ button, .button, input[type="button"], input[type="submit"] {
   display: inline-block;
   width: 128px; height: 128px;
   background-color: $theme_bg_color;
+  border: 1px solid lighten($theme_bg_color, 20%);
+  margin: 12px;  padding: 0;
   }
 
