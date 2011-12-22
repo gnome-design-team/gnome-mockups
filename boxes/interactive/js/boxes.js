@@ -11,6 +11,30 @@ BOXES = {
     thumbnail: "img/boxes/research-thumb.png",
     fullscreen: "img/boxes/research.jpg",
     running: false
+  }, {
+    id: "win8",
+    label: "Windows 8 Developer Preview",
+    thumbnail: "img/boxes/win8-thumb.png",
+    fullscreen: "img/boxes/win8.jpg",
+    running: false
+  }, {
+    id: "research",
+    label: "OS Research",
+    thumbnail: "img/boxes/research-thumb.png",
+    fullscreen: "img/boxes/research.jpg",
+    running: false
+  }, {
+    id: "research",
+    label: "OS Research",
+    thumbnail: "img/boxes/research-thumb.png",
+    fullscreen: "img/boxes/research.jpg",
+    running: false
+  }, {
+    id: "research",
+    label: "OS Research",
+    thumbnail: "img/boxes/research-thumb.png",
+    fullscreen: "img/boxes/research.jpg",
+    running: false
   }],
   os: ['fedora','ubuntu','windows','osx','unknown'],
   addBox: function () { //create new box
