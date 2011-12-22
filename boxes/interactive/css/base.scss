@@ -111,5 +111,5 @@
 }
 
 @mixin gradient-vertical($a,$b) {
-        -moz-linear-gradient(top, $a, $b);
+  background-image:  -moz-linear-gradient(top, $a, $b);
 }
