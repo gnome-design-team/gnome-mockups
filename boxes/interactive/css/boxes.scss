@@ -14,7 +14,7 @@ fieldset {
   }
 
 button, .button, input[type="button"], input[type="submit"] {
-  font-family: Cantarell;
+  font-family: Cantarell; font-size: 12pt;
   background-color: $button_gradient_color_a;
   background-image: -moz-linear-gradient(top, $button_gradient_color_a, $button_gradient_color_b);
   color: $theme_fg_color;
