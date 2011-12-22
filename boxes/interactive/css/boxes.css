@@ -1,59 +1,42 @@
 /*
-Syntax error: Invalid CSS after "...linear-gradient": expected "{", was "(top, $a, $b);"
-        on line 114 of css/base.scss
-        from line 1 of css/boxes.scss
+Syntax error: Invalid CSS after "...kground-image: ": expected expression (e.g. 1px, bold), was "@include gradie..."
+        on line 36 of css/boxes.scss
 
-109:   -moz-background-size: $size;
-110:   background-size: $size;
-111: }
-112: 
-113: @mixin gradient-vertical($a,$b) {
-114:         -moz-linear-gradient(top, $a, $b);
-115: }
+31:   vertical-align: middle;
+32:   z-index: 3;
+33:   top: 0; left: 0; right: 0; height:  28px;
+34:   border: 0;
+35:   background-color: $main-toolbar_gradient_b;
+36:   background-image: @include gradient-vertical($main-toolbar_gradient_a, $main-toolbar_gradient_b);
+37:   @include box-shadow(0,2px,2px,rgba(0,0,0,0.3));
+38:   text-align: center;
+39:   
+40:   #select { float: right; }
+41:   #new_box { float: left; }
 
 Backtrace:
-css/base.scss:114
-css/boxes.scss:1
+css/boxes.scss:36
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:929:in `expected'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:875:in `expected'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:870:in `tok!'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:379:in `block'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:374:in `ruleset'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:436:in `declaration_or_ruleset'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/lexer.rb:193:in `expected!'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/parser.rb:450:in `assert_expr'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/parser.rb:49:in `parse'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:822:in `send'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:822:in `sass_script'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:690:in `value!'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:667:in `declaration'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:427:in `declaration_or_ruleset'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:913:in `call'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:913:in `rethrow'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:437:in `declaration_or_ruleset'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:399:in `block_child'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:388:in `block_contents'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:391:in `block_contents'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:380:in `block'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:153:in `mixin_directive'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:146:in `send'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:146:in `special_directive'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:125:in `directive'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:374:in `ruleset'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:398:in `block_child'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:391:in `block_contents'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:59:in `stylesheet'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:28:in `parse'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:327:in `_to_tree'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:259:in `to_tree'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:144:in `visit_import'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `map'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:27:in `visit_children'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:39:in `with_environment'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:26:in `visit_children'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:47:in `visit_root'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/root_node.rb:20:in `render'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:300:in `_render'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:247:in `render'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:339:in `update_stylesheet'
@@ -90,4 +73,4 @@ css/boxes.scss:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"...linear-gradient\": expected \"{\", was \"(top, $a, $b);\"\A         on line 114 of css/base.scss\A         from line 1 of css/boxes.scss\A \A 109:   -moz-background-size: $size;\A 110:   background-size: $size;\A 111: }\A 112: \A 113: @mixin gradient-vertical($a,$b) {\A 114:         -moz-linear-gradient(top, $a, $b);\A 115: }"; }
+  content: "Syntax error: Invalid CSS after \"...kground-image: \": expected expression (e.g. 1px, bold), was \"@include gradie...\"\A         on line 36 of css/boxes.scss\A \A 31:   vertical-align: middle;\A 32:   z-index: 3;\A 33:   top: 0; left: 0; right: 0; height:  28px;\A 34:   border: 0;\A 35:   background-color: $main-toolbar_gradient_b;\A 36:   background-image: @include gradient-vertical($main-toolbar_gradient_a, $main-toolbar_gradient_b);\A 37:   @include box-shadow(0,2px,2px,rgba(0,0,0,0.3));\A 38:   text-align: center;\A 39:   \A 40:   #select { float: right; }\A 41:   #new_box { float: left; }"; }
