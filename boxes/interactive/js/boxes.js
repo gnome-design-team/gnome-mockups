@@ -146,4 +146,7 @@ $.fn.renderBoxes = function () {
 
 $(document).ready(function () {
   $("#content").renderBoxes();
+  $("#new_box").click(function () {
+    BOXES.addBox();
+  });
 });
