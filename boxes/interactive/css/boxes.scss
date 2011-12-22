@@ -43,3 +43,10 @@ button, .button, input[type="button"], input[type="submit"] {
   margin: 52px 12px 12px;
 }
 
+.box {
+  position: relative;
+  display: inline-block;
+  width: 128px; height: 128px;
+  background-color: $theme_bg_color;
+  }
+
