@@ -76,6 +76,7 @@ enterSelectMode = function () {
   $toolbar.empty().append("<button id='doneselecting'>Done</button>").children()
     .click(function () {
       //cancel selection and return to previous toolbar
+      console.log('click');
       $toolbar = $previous;
     });
 }
