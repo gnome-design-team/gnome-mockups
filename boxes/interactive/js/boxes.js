@@ -63,15 +63,15 @@ $.fn.renderBoxes = function () {
   
   $container = $(this).empty();
   $.each(BOXES.boxes, function (i,box) {
-    var running;
+    var suspended;
     
-    running = box.running ? "running" : "";
+    suspended = box.running ? "" : "suspended";
     $("<div></div>")
       .attr("id", box.id)
       .addClass("box-contain")
       .append("<div class='box'>").children()
       .css("background-image", box.thumbnail)
-      .addClass(running)
+      .addClass(suspended)
       .parent()
       .append("<div class='label'>"+box.label+"</div>")
       .appendTo($container);
