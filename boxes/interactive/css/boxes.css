@@ -96,5 +96,7 @@ button, .button, input[type="button"], input[type="submit"] {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); }
+    .box-contain .box .running {
+      background-color: red; }
   .box-contain .label {
     whitespace: wrap; }

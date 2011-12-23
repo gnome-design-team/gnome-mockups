@@ -66,6 +66,9 @@ button, .button, input[type="button"], input[type="submit"] {
     border: 1px solid lighten($theme_bg_color, 20%);
     margin: 12px;  padding: 0;
     @include box-shadow(0,2px,4px,rgba(0,0,0,0.4));
+    & .running {
+      background-color: red;
+    }
     }
     .label {
       whitespace: wrap;
