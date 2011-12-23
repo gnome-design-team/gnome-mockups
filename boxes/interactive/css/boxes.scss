@@ -70,7 +70,7 @@ button, .button, input[type="button"], input[type="submit"] {
       width: 128px; height: 128px;
     }
     &.suspended {
-      opacity: 0.4;
+      opacity: 0.6;
       @include no-box-shadow();
       span {
         position: absolute;
