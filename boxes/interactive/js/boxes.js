@@ -90,7 +90,11 @@ enterSelectMode = function (selected) {
       $check = $("input[type='checkbox']",this);
       console.info($check);
       if(!$(e.target).is($check)) {
-        console.log($check.attr('checked'));
+        if($check.attr('checked')) {
+          $check.removeAttr('checked');
+        } else {
+          $check.attr('checked','checked');
+        }
       }
       $(".action").sensitivize($(":checked", $content));
     });
