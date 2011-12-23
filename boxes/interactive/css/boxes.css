@@ -62,7 +62,7 @@ button, .button, input[type="button"], input[type="submit"] {
   -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
   text-align: center; }
-  #toolbar-main #select {
+  #toolbar-main #select, #toolbar-main #doneselecting {
     float: right; }
   #toolbar-main #new_box {
     float: left; }
