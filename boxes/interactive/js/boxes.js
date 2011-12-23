@@ -41,8 +41,8 @@ BOXES = {
     this.boxes.push({
       id: "box"+this.boxes.length,
       label: "New Box (placeholder)",
-      thumbnail: "img/boxes/anonymous-thumb.png",
-      fullscreen: "img/boxes/anonymous.jpg",
+      thumbnail: "img/boxes/new-thumb.png",
+      fullscreen: "img/boxes/new.jpg",
       running: false
     });
     $("#content").renderBoxes();
