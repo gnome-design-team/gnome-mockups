@@ -74,7 +74,10 @@ enterSelectMode = function () {
   $previous = $toolbar.children().clone();//clone all content, but keep container for bubbling events
   $content = $("#content").children();
   $content.each(function (i) {
-    $(this).find('.box').append("<input type='checkbox' name='boxes'>");
+    $(this).find('.box').append("<input type='checkbox' name='boxes'>").click(function () {
+      //forward the click to the checkbox
+      $(this).find("input[type='checkbox']").trigger('click');
+    });
   });
   $toolbar.addClass('selectmode');
   $toolbar.empty().append("<button id='doneselecting'>Done</button>").children()
