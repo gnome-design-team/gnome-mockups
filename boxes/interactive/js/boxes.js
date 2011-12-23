@@ -100,7 +100,7 @@ enterSelectMode = function (selected) {
       //cancel selection and return to previous toolbar
       $toolbar.removeClass('selectmode').children().replaceWith($previous);
       $content.find('.box').unbind('click').find("input").remove();
-    }).end().append("<button id='delete_box' class='fl'>Delete</button>").children()
+    }).end().append("<button id='delete_box' class='fl action'>Delete</button>").children()
       .click(function () {
         //delete selected boxes
       });
