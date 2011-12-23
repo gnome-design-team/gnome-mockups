@@ -85,7 +85,8 @@ button, .button, input[type="button"], input[type="submit"] {
       bottom: 10px;
       right: 10px;
       display: block;
-      width: 40px; height: 40px; 
+      width: 40px; height: 40px;
+      background-color: red;
     }
     &.suspended {
       @include no-box-shadow();
