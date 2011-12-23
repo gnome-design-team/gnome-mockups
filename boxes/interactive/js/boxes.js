@@ -71,7 +71,7 @@ enterSelectMode = function () {
   var $toolbar, $previous;
   
   $toolbar = $("#toolbar-main");
-  $previous = $toolbar;
+  $previous = $toolbar.clone();
   $toolbar.addClass('selectmode');
   $toolbar.empty().append("<button id='doneselecting'>Done</button>").children()
     .click(function () {
