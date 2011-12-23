@@ -82,6 +82,12 @@ enterSelectMode = function (selected) {
       if (!$target.is($("input",this))) {
         $("input",this).trigger('click');
       }
+      //sensitivize the action buttons
+      if($(":checked",$content)) {
+        console.log('sensitive');
+      } else {
+        console.log('insensitive');
+      }
     });
   });
   if(selected) {
