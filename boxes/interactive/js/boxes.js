@@ -72,6 +72,7 @@ enterSelectMode = function (selected) {
   
   $toolbar = $("#toolbar-main");
   $previous = $toolbar.children().clone();//clone all content, but keep container for bubbling events
+  //content
   $content = $("#content").children();
   $content.each(function (i) {
     $(this).find('.box').append("<input type='checkbox' name='boxes'>").click(function (e) {
@@ -83,6 +84,10 @@ enterSelectMode = function (selected) {
       }
     });
   });
+  if(selected) {
+    //if called by longpress
+  }
+  //toolbar
   $toolbar.addClass('selectmode');
   $toolbar.empty().append("<button id='doneselecting' class='fr'>Done</button>").children()
     .click(function () {
