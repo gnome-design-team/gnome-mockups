@@ -22,7 +22,7 @@ BOXES = {
     label: "Mac OS X",
     thumbnail: "img/boxes/osx-thumb.png",
     fullscreen: "img/boxes/osx.jpg",
-    running: false
+    running: true
   }, {
     id: "gaming",
     label: "Gaming Box",
