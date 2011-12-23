@@ -18,22 +18,22 @@ BOXES = {
     fullscreen: "img/boxes/win8.jpg",
     running: false
   }, {
-    id: "box4",
-    label: "Anonymouse Box",
+    id: "osx",
+    label: "Mac OS X",
     thumbnail: "img/boxes/anonymouse-thumb.png",
     fullscreen: "img/boxes/anonymous.jpg",
     running: false
   }, {
-    id: "box5",
-    label: "Anonymouse Box",
-    thumbnail: "img/boxes/anonymouse-thumb.png",
-    fullscreen: "img/boxes/anonymous.jpg",
+    id: "gaming",
+    label: "Gaming Box",
+    thumbnail: "img/boxes/gaming-thumb.png",
+    fullscreen: "img/boxes/gaming.jpg",
     running: false
   }, {
     id: "box6",
-    label: "Anonymouse Box",
-    thumbnail: "img/boxes/anonymouse-thumb.png",
-    fullscreen: "img/boxes/anonymous.jpg",
+    label: "POS Box",
+    thumbnail: "img/boxes/pos-thumb.png",
+    fullscreen: "img/boxes/pos.jpg",
     running: false
   }],
   os: ['fedora','ubuntu','windows','osx','unknown'],
