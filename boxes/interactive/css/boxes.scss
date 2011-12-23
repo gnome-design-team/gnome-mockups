@@ -44,6 +44,10 @@ button, .button, input[type="button"], input[type="submit"] {
   
   &.selectmode {
     @include gradient-vertical(#8e9c80, #4f6838);
+    
+    button, .button, input[type="button"], input[type="submit"] {
+      @include gradient-vertical(#7fc141, #47850d);
+    }
   }
 }
 
