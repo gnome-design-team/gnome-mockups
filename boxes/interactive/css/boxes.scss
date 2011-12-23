@@ -39,8 +39,8 @@ button, .button, input[type="button"], input[type="submit"] {
   @include box-shadow(0,2px,2px,rgba(0,0,0,0.3));
   text-align: center;
   
-  #select, #doneselecting { float: right; }
-  #new_box { float: left; }
+  .fr { float: right; }
+  .fl { float: left; }
   
   &.selectmode {
     @include gradient-vertical(#8e9c80, #4f6838);
