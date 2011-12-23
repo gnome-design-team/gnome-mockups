@@ -73,7 +73,7 @@ enterSelectMode = function () {
   
   $toolbar = $("#toolbar-main");
   $toolbar.addClass('selectmode');
-  $toolbar.empty().append("<button id='doneselecting'>Done</button>").closest()
+  $toolbar.empty().append("<button id='doneselecting'>Done</button>").child()
     .click(function () {
       //cancel selection and return to previous toolbar
       $toolbar = $previous;
