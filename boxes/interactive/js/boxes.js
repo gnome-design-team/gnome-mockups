@@ -101,5 +101,5 @@ $(document).ready(function () {
   $("#new_box").click(function () {
     BOXES.addBox();
   });
-  $("
+  grayscale($("#research" img")[0]);
 });
