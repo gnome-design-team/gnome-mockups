@@ -105,7 +105,7 @@ button, .button, input[type="button"], input[type="submit"] {
       -moz-box-shadow: none;
       -webkit-box-shadow: none; }
       .box-contain .box.suspended span {
-        display: absolute;
+        position: absolute;
         top: 0;
         left: 0;
         right: 0;
