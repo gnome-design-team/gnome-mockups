@@ -67,9 +67,14 @@ $.fn.renderBoxes = function () {
   });
 }
 
+enterSelectMode = function () {
+  console.log("selectmode engadged");
+}
+
 $(document).ready(function () {
   $("#content").renderBoxes();
   $("#new_box").click(function () {
     BOXES.addBox();
   });
+  $("#select").click(enterSelectMode);
 });
