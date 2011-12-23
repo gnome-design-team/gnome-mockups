@@ -20,8 +20,8 @@ BOXES = {
   }, {
     id: "osx",
     label: "Mac OS X",
-    thumbnail: "img/boxes/anonymouse-thumb.png",
-    fullscreen: "img/boxes/anonymous.jpg",
+    thumbnail: "img/boxes/osx-thumb.png",
+    fullscreen: "img/boxes/osx.jpg",
     running: false
   }, {
     id: "gaming",
