@@ -90,7 +90,7 @@ enterSelectMode = function (selected) {
       if ($("input:checked", this)) {
         $("input",this).attr("checked","checked");
       }  else {
-      $("input",this).removeAttr(":checked");
+      $("input",this).removeAttr("checked");
       }
       $(".action").sensitivize($(":checked", $content));
     });
