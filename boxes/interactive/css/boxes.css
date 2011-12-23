@@ -127,7 +127,10 @@ button, .button, input[type="button"], input[type="submit"] {
     .box-contain .box input[type='checkbox'] {
       position: absolute;
       bottom: 10px;
-      right: 10px; }
+      right: 10px;
+      display: block;
+      width: 40px;
+      height: 40px; }
     .box-contain .box.suspended {
       box-shadow: none;
       -moz-box-shadow: none;
