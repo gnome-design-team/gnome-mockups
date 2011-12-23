@@ -70,7 +70,7 @@ $.fn.renderBoxes = function () {
 $.fn.sensitivize = function ($content) {
     console.log($content, $(this));
     if($content.length>0) {
-      $(this).attr('disabled');
+      $(this).attr('disabled','disabled');
     } else {
       $(this).removeAttr('disabled');
     }
