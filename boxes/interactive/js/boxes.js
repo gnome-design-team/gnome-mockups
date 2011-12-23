@@ -94,8 +94,6 @@ enterSelectMode = function (selected) {
       }
       $(".action").sensitivize($(":checked", $content));
     });
-    //sensitivize the action buttons
-    $(".action").sensitivize($(":checked", $content));
   });
   if(selected) {
     //if called by longpress
@@ -111,6 +109,7 @@ enterSelectMode = function (selected) {
       .click(function () {
         //delete selected boxes
       });
+  $(".action").sensitivize($(":checked", $content));
 }
 
 $(document).ready(function () {
