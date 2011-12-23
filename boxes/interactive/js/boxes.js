@@ -2,8 +2,8 @@ BOXES = {
   boxes: [ {
     id: "alli",
     label: "Alli's Computer",
-    thumbnail: "img/boxes/alli-thumb.png",
-    fullscreen: "img/boxes/alli.jpg",
+    thumbnail: "img/boxes/allis-thumb.png",
+    fullscreen: "img/boxes/allis.jpg",
     running: true
   }, {
     id: "research",
