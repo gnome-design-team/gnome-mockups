@@ -88,7 +88,7 @@ enterSelectMode = function (selected) {
     $(this).find('.box').append("<input type='checkbox' name='boxes'>").click(function (e) {
       var $check;
       $check = $("input[type='checkbox']",this);
-      console.info($check);
+      //console.info($check);
       if(!$(e.target).is($check)) {
         if($check.attr('checked')) {
           $check.removeAttr('checked');
