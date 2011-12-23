@@ -73,7 +73,7 @@ enterSelectMode = function () {
   
   $toolbar = $("#toolbar-main");
   $toolbar.addClass('selectmode');
-  $toolbar.empty();
+  $toolbar.empty().append("<button id='doneselecting'>");
 }
 
 $(document).ready(function () {
