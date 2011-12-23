@@ -40,7 +40,7 @@ BOXES = {
   addBox: function () { //create new box
     this.boxes.push({
       id: "box"+this.boxes.length,
-      label: "Anonymous",
+      label: "New Box (placeholder)",
       thumbnail: "img/boxes/anonymous-thumb.png",
       fullscreen: "img/boxes/anonymous.jpg",
       running: false
