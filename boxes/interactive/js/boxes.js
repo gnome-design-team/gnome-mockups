@@ -82,14 +82,14 @@ enterSelectMode = function (selected) {
       if (!$target.is($("input",this))) {
         $("input",this).trigger('click');
       }
-      //sensitivize the action buttons
-      if($(":checked",$content).length>0) {
-        console.log('disabling', $(".action", $toolbar));
-        $(".action", $toolbar).attr('disabled');
-      } else {
-        $(".action", $toolbar).removeAttr('disabled');
-      }
     });
+    //sensitivize the action buttons
+    if($(":checked",$content).length>0) {
+      console.log('disabling', $(".action", $toolbar));
+      $(".action", $toolbar).attr('disabled');
+    } else {
+      $(".action", $toolbar).removeAttr('disabled');
+    }
   });
   if(selected) {
     //if called by longpress
