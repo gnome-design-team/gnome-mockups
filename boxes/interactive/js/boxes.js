@@ -85,6 +85,5 @@ $(document).ready(function () {
   $("#content").renderBoxes();
   $("#toolbar-main").on("click", "#new_box", function (event) {
     BOXES.addBox();
-  });
-  $("#select").click(enterSelectMode);
+  }).on("click","#select",enterSelectMode);
 });
