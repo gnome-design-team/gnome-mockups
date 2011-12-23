@@ -77,7 +77,7 @@ enterSelectMode = function () {
     .click(function () {
       //cancel selection and return to previous toolbar
       console.log($previous);
-      $toolbar = $previous;
+      $toolbar = $previous.clone();
     });
 }
 
