@@ -67,6 +67,7 @@ button, .button, input[type="button"], input[type="submit"] {
     margin: 12px;  padding: 0;
     @include box-shadow(0,2px,4px,rgba(0,0,0,0.4));
     &.suspended {
+      opacity: 0.2;
     }
   }
   .label {
