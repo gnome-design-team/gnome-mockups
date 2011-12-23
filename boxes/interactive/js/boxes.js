@@ -76,7 +76,7 @@ enterSelectMode = function () {
   $content.each(function (i) {
     $(this).find('.box').append("<input type='checkbox' name='boxes'>").click(function (e) {
       //forward the click to the checkbox
-      console.info(e);
+      console.info(e.target);
       //$(this).find("input[type='checkbox']").click();
     });
   });
@@ -84,7 +84,7 @@ enterSelectMode = function () {
   $toolbar.empty().append("<button id='doneselecting'>Done</button>").children()
     .click(function () {
       //cancel selection and return to previous toolbar
-      console.log($previous);
+      //console.log($previous);
       $toolbar.removeClass('selectmode').children().replaceWith($previous);
     });
 }
