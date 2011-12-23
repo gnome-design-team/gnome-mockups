@@ -84,9 +84,9 @@ enterSelectMode = function (selected) {
       }
       //sensitivize the action buttons
       if($(":checked",$content).length>0) {
-        $(".action", $toolbar).disable();
+        $(".action", $toolbar).attr('disabled');
       } else {
-        $(".action", $toolbar).enable();
+        $(".action", $toolbar).removeAttr('disabled');
       }
     });
   });
