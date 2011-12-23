@@ -68,10 +68,10 @@ $.fn.renderBoxes = function () {
 }
 
 enterSelectMode = function () {
-  var $toolbar;
-  var $previous = $(this);
+  var $toolbar, $previous;
   
   $toolbar = $("#toolbar-main");
+  $previous = $toolbar;
   $toolbar.addClass('selectmode');
   $toolbar.empty().append("<button id='doneselecting'>Done</button>").children()
     .click(function () {
