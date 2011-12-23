@@ -67,7 +67,7 @@ $.fn.renderBoxes = function () {
   });
 }
 
-enterSelectMode = function () {
+enterSelectMode = function (selected) {
   var $toolbar, $previous, $content;
   
   $toolbar = $("#toolbar-main");
