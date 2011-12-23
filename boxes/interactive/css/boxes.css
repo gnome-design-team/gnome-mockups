@@ -42,6 +42,10 @@ button, .button, input[type="button"], input[type="submit"] {
     background-image: -ms-linear-gradient(top, #151717, #434a4a);
     background-image: linear-gradient(top, #151717, #434a4a); }
 
+button[disabled] {
+  opacity: 0.2;
+  background-color: transparent; }
+
 #toolbar-main {
   position: fixed;
   display: table-cell;
