@@ -82,8 +82,6 @@ enterSelectMode = function () {
       if (!$target.is($("input",this))) {
         $("input",this).trigger('click');
       }
-      
-      //$(this).find("input[type='checkbox']").trigger('click');
     });
   });
   $toolbar.addClass('selectmode');
@@ -92,7 +90,10 @@ enterSelectMode = function () {
       //cancel selection and return to previous toolbar
       $toolbar.removeClass('selectmode').children().replaceWith($previous);
       $content.find('.box').unbind('click').find("input").remove();
-    });
+    }).append("<button id='delete_box'></button>").children()
+      .click(function () {
+        //delete selected boxes
+      });
 }
 
 $(document).ready(function () {
