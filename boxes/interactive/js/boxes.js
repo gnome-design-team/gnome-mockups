@@ -90,6 +90,7 @@ enterSelectMode = function (selected) {
       if (!$target.is($("input",this))) {
         $("input",this).trigger('click');
       }
+      $(".action").sensitivize($(":checked", $content));
     });
     //sensitivize the action buttons
     $(".action").sensitivize($(":checked", $content));
