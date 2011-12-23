@@ -4,7 +4,7 @@ Syntax error: Invalid CSS after "...n(#47850d, 10%)": expected ")", was ";   }"
 
 46:     @include gradient-vertical(#8e9c80, #4f6838);
 47:     
-48:     button, .button, input[type="button"], input[type="submit"] {
+48:     button {
 49:       @include gradient-vertical(#7fc141, #47850d);
 50:       border: 1px solid #2f5d04;
 51:       &:hover { @include gradient-vertical(lighten(#7fc141, 10%), lighten(#47850d, 10%);   }
@@ -92,4 +92,4 @@ css/boxes.scss:51
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"...n(#47850d, 10%)\": expected \")\", was \";   }\"\A         on line 51 of css/boxes.scss\A \A 46:     @include gradient-vertical(#8e9c80, #4f6838);\A 47:     \A 48:     button, .button, input[type=\"button\"], input[type=\"submit\"] {\A 49:       @include gradient-vertical(#7fc141, #47850d);\A 50:       border: 1px solid #2f5d04;\A 51:       &:hover { @include gradient-vertical(lighten(#7fc141, 10%), lighten(#47850d, 10%);   }\A 52:       &:active { @include gradient-vertical(darken(#47850d, 10%), lighten(#7fc141, 10%);   }\A 53:     }\A 54:   }\A 55: }\A 56: "; }
+  content: "Syntax error: Invalid CSS after \"...n(#47850d, 10%)\": expected \")\", was \";   }\"\A         on line 51 of css/boxes.scss\A \A 46:     @include gradient-vertical(#8e9c80, #4f6838);\A 47:     \A 48:     button {\A 49:       @include gradient-vertical(#7fc141, #47850d);\A 50:       border: 1px solid #2f5d04;\A 51:       &:hover { @include gradient-vertical(lighten(#7fc141, 10%), lighten(#47850d, 10%);   }\A 52:       &:active { @include gradient-vertical(darken(#47850d, 10%), lighten(#7fc141, 10%);   }\A 53:     }\A 54:   }\A 55: }\A 56: "; }
