@@ -71,14 +71,13 @@ enterSelectMode = function () {
   var $toolbar, $previous;
   
   $toolbar = $("#toolbar-main");
-  $previous = $toolbar.children().clone();
-  console.log($previous);
+  $previous = $toolbar.children().clone();//clone all content, but keep container for bubbling events
   $toolbar.addClass('selectmode');
   $toolbar.empty().append("<button id='doneselecting'>Done</button>").children()
     .click(function () {
       //cancel selection and return to previous toolbar
       console.log($previous);
-      $toolbar.children().replaceWith($previous);
+      $toolbar.removeClass('selectmode').children().replaceWith($previous);
     });
 }
 
