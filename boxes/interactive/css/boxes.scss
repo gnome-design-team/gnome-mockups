@@ -68,6 +68,7 @@ button, .button, input[type="button"], input[type="submit"] {
     @include box-shadow(0,2px,4px,rgba(0,0,0,0.4));
     &.suspended {
       background-color: red;
+      filter: url(filters.svg#desaturate);
     }
     }
     .label {
