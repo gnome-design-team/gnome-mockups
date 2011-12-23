@@ -29,12 +29,6 @@ BOXES = {
     thumbnail: "img/boxes/gaming-thumb.png",
     fullscreen: "img/boxes/gaming.jpg",
     running: false
-  }, {
-    id: "box6",
-    label: "POS Box",
-    thumbnail: "img/boxes/pos-thumb.png",
-    fullscreen: "img/boxes/pos.jpg",
-    running: false
   }],
   os: ['fedora','ubuntu','windows','osx','unknown'],
   addBox: function () { //create new box
