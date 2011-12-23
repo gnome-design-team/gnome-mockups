@@ -67,14 +67,14 @@ $.fn.renderBoxes = function () {
   });
 }
 
-/*$.fn.sensitivize = function ($content) {
+$.fn.sensitivize = function ($content) {
+    console.log($content, $(this));
     if($content.length>0) {
-      //console.log('disabling');
       $(this).attr('disabled','disabled');
     } else {
       $(this).removeAttr('disabled');
     }
-}*/
+}
 
 enterSelectMode = function (selected) {
   var $toolbar, $previous, $content;
@@ -91,10 +91,10 @@ enterSelectMode = function (selected) {
       if (!$target.is($("input",this))) {
         $("input",this).trigger('click');
       }
-      //$(".action").sensitivize($(":checked", $content));
+      $(".action").sensitivize($(":checked", $content));
     });
     //sensitivize the action buttons
-    //$(".action").sensitivize($(":checked", $content));
+    $(".action").sensitivize($(":checked", $content));
   });
   if(selected) {
     //if called by longpress
