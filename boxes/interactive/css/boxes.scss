@@ -43,7 +43,7 @@ button, .button, input[type="button"], input[type="submit"] {
   #new_box { float: left; }
   
   $.selectmode {
-    @include gradient-vertical(#8e9c80, #4f6838);
+    @include gradient-vertical("#8e9c80", "#4f6838");
   }
 }
 

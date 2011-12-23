@@ -8,7 +8,7 @@ Syntax error: Invalid CSS after "  $": expected identifier, was ".selectmode {"
 43:   #new_box { float: left; }
 44:   
 45:   $.selectmode {
-46:     @include gradient-vertical(#8e9c80, #4f6838);
+46:     @include gradient-vertical("#8e9c80", "#4f6838");
 47:   }
 48: }
 49: 
@@ -62,4 +62,4 @@ css/boxes.scss:45
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"  $\": expected identifier, was \".selectmode {\"\A         on line 45 of css/boxes.scss\A \A 40:   text-align: center;\A 41:   \A 42:   #select { float: right; }\A 43:   #new_box { float: left; }\A 44:   \A 45:   $.selectmode {\A 46:     @include gradient-vertical(#8e9c80, #4f6838);\A 47:   }\A 48: }\A 49: \A 50: #content {"; }
+  content: "Syntax error: Invalid CSS after \"  $\": expected identifier, was \".selectmode {\"\A         on line 45 of css/boxes.scss\A \A 40:   text-align: center;\A 41:   \A 42:   #select { float: right; }\A 43:   #new_box { float: left; }\A 44:   \A 45:   $.selectmode {\A 46:     @include gradient-vertical(\"#8e9c80\", \"#4f6838\");\A 47:   }\A 48: }\A 49: \A 50: #content {"; }
