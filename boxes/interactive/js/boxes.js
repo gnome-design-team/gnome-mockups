@@ -90,6 +90,7 @@ enterSelectMode = function () {
       //cancel selection and return to previous toolbar
       //console.log($previous);
       $toolbar.removeClass('selectmode').children().replaceWith($previous);
+      $content.find('input').remove();
     });
 }
 
