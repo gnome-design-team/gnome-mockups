@@ -68,7 +68,10 @@ $.fn.renderBoxes = function () {
 }
 
 enterSelectMode = function () {
-  console.log("selectmode engadged");
+  var $toolbar;
+  
+  $toolbar = $("#toolbar-main");
+  $toolbar.addClass('selectmode');
 }
 
 $(document).ready(function () {
