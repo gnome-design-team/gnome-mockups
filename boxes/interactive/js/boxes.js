@@ -78,7 +78,7 @@ enterSelectMode = function () {
       //forward the click to the checkbox
       var $target = $(e.target);
       if (!$target.is($("input",this))) {
-        console.log($target,$("input",this));
+        $("input",this).trigger('click');
       }
       
       //$(this).find("input[type='checkbox']").trigger('click');
