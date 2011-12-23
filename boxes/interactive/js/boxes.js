@@ -67,6 +67,14 @@ $.fn.renderBoxes = function () {
   });
 }
 
+$.fn.sensitivize = function ($content) {
+    if($content.length>0) {
+      $(this).attr('disabled');
+    } else {
+      $(this).removeAttr('disabled');
+    }
+}
+
 enterSelectMode = function (selected) {
   var $toolbar, $previous, $content;
   
@@ -84,12 +92,7 @@ enterSelectMode = function (selected) {
       }
     });
     //sensitivize the action buttons
-    if($(":checked",$content).length>0) {
-      console.log('disabling', $(".action", $toolbar));
-      $(".action", $toolbar).attr('disabled');
-    } else {
-      $(".action", $toolbar).removeAttr('disabled');
-    }
+    $(".action").sensitivize($(":checked", $content));
   });
   if(selected) {
     //if called by longpress
