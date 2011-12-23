@@ -71,7 +71,7 @@ $.fn.sensitivize = function ($content) {
     if($content.length>0) {
       $(this).removeAttr('disabled');
     } else {
-      console.log('disabling');
+      console.log('disabling', this);
       $(this).attr('disabled','disabled');
 
     }
