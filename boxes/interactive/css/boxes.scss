@@ -45,11 +45,11 @@ button, .button, input[type="button"], input[type="submit"] {
   &.selectmode {
     @include gradient-vertical(#8e9c80, #4f6838);
     
-    button {
+    button, .button, input[type="button"], input[type="submit"] {
       @include gradient-vertical(#7fc141, #47850d);
       border: 1px solid #2f5d04;
-      &:hover { @include gradient-vertical(lighten(#7fc141, 10%), lighten(#47850d, 10%);   }
-      &:active { @include gradient-vertical(darken(#47850d, 10%), lighten(#7fc141, 10%);   }
+      &:hover { @include gradient-vertical(lighten(#7fc141, 10%), lighten(#47850d, 10%));   }
+      &:active { @include gradient-vertical(darken(#47850d, 10%), lighten(#7fc141, 10%));   }
     }
   }
 }
