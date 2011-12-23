@@ -89,10 +89,8 @@ enterSelectMode = function () {
   $toolbar.empty().append("<button id='doneselecting'>Done</button>").children()
     .click(function () {
       //cancel selection and return to previous toolbar
-      //console.log($previous);
       $toolbar.removeClass('selectmode').children().replaceWith($previous);
-      console.log($content.find("input"));
-      $content.find('input').detach();
+      $content.find('input').remove();
     });
 }
 
