@@ -91,6 +91,12 @@ button, .button, input[type="button"], input[type="submit"] {
       img {
         opacity: 0.4;
       }
+      input[type='checkbox'] {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        
+      }
     }
   }
   .label {

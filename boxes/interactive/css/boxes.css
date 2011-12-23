@@ -137,5 +137,9 @@ button, .button, input[type="button"], input[type="submit"] {
         background: url("../img/checkers.png") repeat 0 0; }
       .box-contain .box.suspended img {
         opacity: 0.4; }
+      .box-contain .box.suspended input[type='checkbox'] {
+        position: absolute;
+        bottom: 10px;
+        right: 10px; }
   .box-contain .label {
     whitespace: wrap; }
