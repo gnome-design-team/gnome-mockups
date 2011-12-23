@@ -18,12 +18,6 @@ BOXES = {
     fullscreen: "img/boxes/win8.jpg",
     running: false
   }, {
-    id: "research",
-    label: "OS Research",
-    thumbnail: "img/boxes/research-thumb.png",
-    fullscreen: "img/boxes/research.jpg",
-    running: false
-  }, {
     id: "box4",
     label: "Anonymouse Box",
     thumbnail: "img/boxes/anonymouse-thumb.png",
@@ -107,4 +101,5 @@ $(document).ready(function () {
   $("#new_box").click(function () {
     BOXES.addBox();
   });
+  $("
 });
