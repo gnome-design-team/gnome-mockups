@@ -68,7 +68,6 @@ $.fn.renderBoxes = function () {
 }
 
 $.fn.sensitivize = function ($content) {
-
     if($content.length>0) {
     console.log('disabling');
       $(this).attr('disabled','disabled');
@@ -86,11 +85,11 @@ enterSelectMode = function (selected) {
   $content = $("#content").children();
   $content.each(function (i) {
     $(this).find('.box').append("<input type='checkbox' name='boxes'>").click(function (e) {
-      //forward the click to the checkbox
-      e.stopPropagation()
-      var $target = $(e.target);
-      if (!$target.is($("input",this))) {
-        $("input",this).trigger('click');
+      //check the checkbox
+      if ($("input:checked", this)) {
+        $("input").prop(":checked",true);
+      }  else {
+      $("input").prop(":checked",false);
       }
       $(".action").sensitivize($(":checked", $content));
     });
