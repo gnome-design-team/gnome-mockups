@@ -27,6 +27,11 @@ button, .button, input[type="button"], input[type="submit"] {
   &:active { @include gradient-vertical($button_active_gradient_color_a, $button_active_gradient_color_b);  }
 }
 
+button[disabled] {
+  opacity: 0.2;
+  background-color: transparent;
+}
+
 #toolbar-main {
   position: fixed;
   display: table-cell;
