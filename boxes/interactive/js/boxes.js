@@ -58,6 +58,7 @@ $.fn.renderBoxes = function () {
       .attr("id", box.id)
       .addClass("box-contain")
       .append("<div class='box'>").children()
+      .append("<span></span>")
       .append("<img src='"+box.thumbnail+"'>")
       .addClass(suspended)
       .parent()
