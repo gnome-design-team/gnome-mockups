@@ -80,14 +80,16 @@ button, .button, input[type="button"], input[type="submit"] {
     img {
       width: 128px; height: 128px;
     }
-    &.suspended img {
-      opacity: 0.6;
+    &.suspended {
       @include no-box-shadow();
       span {
         position: absolute;
         top: 0; left: 0;
         right: 0; bottom: 0;
         background: url('../img/checkers.png') repeat 0 0;
+      }
+      img {
+        opacity: 0.4;
       }
     }
   }
