@@ -124,12 +124,12 @@ button, .button, input[type="button"], input[type="submit"] {
     .box-contain .box img {
       width: 128px;
       height: 128px; }
-    .box-contain .box.suspended {
+    .box-contain .box.suspended img {
       opacity: 0.6;
       box-shadow: none;
       -moz-box-shadow: none;
       -webkit-box-shadow: none; }
-      .box-contain .box.suspended span {
+      .box-contain .box.suspended img span {
         position: absolute;
         top: 0;
         left: 0;

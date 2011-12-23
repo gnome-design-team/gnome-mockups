@@ -80,7 +80,7 @@ button, .button, input[type="button"], input[type="submit"] {
     img {
       width: 128px; height: 128px;
     }
-    &.suspended {
+    &.suspended img {
       opacity: 0.6;
       @include no-box-shadow();
       span {
