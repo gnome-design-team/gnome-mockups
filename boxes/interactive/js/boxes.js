@@ -83,7 +83,7 @@ enterSelectMode = function () {
 
 $(document).ready(function () {
   $("#content").renderBoxes();
-  $("#new_box").click(function () {
+  $("#toolbar-main").on("click", "#new", function (event) {
     BOXES.addBox();
   });
   $("#select").click(enterSelectMode);
