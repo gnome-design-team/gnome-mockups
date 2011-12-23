@@ -70,7 +70,7 @@ $.fn.renderBoxes = function () {
       .attr("id", box.id)
       .addClass("box-contain")
       .append("<div class='box'>").children()
-      .append("<img src='box.thumbnail'>")
+      .append("<img src='"+box.thumbnail+"'>")
       .addClass(suspended)
       .parent()
       .append("<div class='label'>"+box.label+"</div>")
