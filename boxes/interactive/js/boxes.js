@@ -89,6 +89,9 @@ enterSelectMode = function (selected) {
       var $check;
       $check = $("input[type='checkbox']",this);
       console.info($check);
+      if($(e.target).is($check)) {
+        console.log('cicked checkbox');
+      }
       $(".action").sensitivize($(":checked", $content));
     });
   });
