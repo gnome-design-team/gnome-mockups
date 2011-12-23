@@ -104,5 +104,12 @@ button, .button, input[type="button"], input[type="submit"] {
       box-shadow: none;
       -moz-box-shadow: none;
       -webkit-box-shadow: none; }
+      .box-contain .box.suspended span {
+        display: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: red; }
   .box-contain .label {
     whitespace: wrap; }
