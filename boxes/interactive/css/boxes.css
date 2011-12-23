@@ -45,6 +45,10 @@ button, .button, input[type="button"], input[type="submit"] {
 button[disabled] {
   opacity: 0.2;
   background-color: transparent; }
+  button[disabled]:hover {
+    background-color: transparent; }
+  button[disabled]:active {
+    background-color: transparent; }
 
 #toolbar-main {
   position: fixed;
