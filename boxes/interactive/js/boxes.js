@@ -76,7 +76,7 @@ enterSelectMode = function () {
   $content.each(function (i) {
     $(this).find('.box').append("<input type='checkbox' name='boxes'>").click(function () {
       //forward the click to the checkbox
-      console.log($(this).find("input[type='checkbox']"));
+      $(this).find("input[type='checkbox']").click();
     });
   });
   $toolbar.addClass('selectmode');
