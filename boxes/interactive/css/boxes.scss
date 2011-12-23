@@ -80,6 +80,11 @@ button, .button, input[type="button"], input[type="submit"] {
     img {
       width: 128px; height: 128px;
     }
+    input[type='checkbox'] {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;    
+    }
     &.suspended {
       @include no-box-shadow();
       span {
@@ -90,12 +95,6 @@ button, .button, input[type="button"], input[type="submit"] {
       }
       img {
         opacity: 0.4;
-      }
-      input[type='checkbox'] {
-        position: absolute;
-        bottom: 10px;
-        right: 10px;
-        
       }
     }
   }

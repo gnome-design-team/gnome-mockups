@@ -124,6 +124,10 @@ button, .button, input[type="button"], input[type="submit"] {
     .box-contain .box img {
       width: 128px;
       height: 128px; }
+    .box-contain .box input[type='checkbox'] {
+      position: absolute;
+      bottom: 10px;
+      right: 10px; }
     .box-contain .box.suspended {
       box-shadow: none;
       -moz-box-shadow: none;
@@ -137,9 +141,5 @@ button, .button, input[type="button"], input[type="submit"] {
         background: url("../img/checkers.png") repeat 0 0; }
       .box-contain .box.suspended img {
         opacity: 0.4; }
-      .box-contain .box.suspended input[type='checkbox'] {
-        position: absolute;
-        bottom: 10px;
-        right: 10px; }
   .box-contain .label {
     whitespace: wrap; }
