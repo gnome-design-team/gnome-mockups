@@ -85,12 +85,12 @@ enterSelectMode = function () {
     });
   });
   $toolbar.addClass('selectmode');
-  $toolbar.empty().append("<button id='doneselecting'>Done</button>").children()
+  $toolbar.empty().append("<button id='doneselecting' class='fr'>Done</button>").children()
     .click(function () {
       //cancel selection and return to previous toolbar
       $toolbar.removeClass('selectmode').children().replaceWith($previous);
       $content.find('.box').unbind('click').find("input").remove();
-    }).append("<button id='delete_box'>Delete</button>").children()
+    }).append("<button id='delete_box class='fl''>Delete</button>").children()
       .click(function () {
         //delete selected boxes
       });
