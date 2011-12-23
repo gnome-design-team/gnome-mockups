@@ -76,9 +76,9 @@ enterSelectMode = function () {
   $content.each(function (i) {
     $(this).find('.box').append("<input type='checkbox' name='boxes'>").click(function (e) {
       //forward the click to the checkbox
-      console.log('click');
-      var $target = $(e.target);
       e.stopPropagation()
+      console.log('click'); //it somehow triggers twice, what gives?
+      var $target = $(e.target);
       if (!$target.is($("input",this))) {
         $("input",this).trigger('click');
       }
