@@ -68,6 +68,7 @@ $.fn.renderBoxes = function () {
 }
 
 $.fn.sensitivize = function ($content) {
+    console.log($content);
     if($content.length>0) {
       $(this).attr('disabled');
     } else {
