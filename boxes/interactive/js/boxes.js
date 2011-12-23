@@ -77,6 +77,7 @@ enterSelectMode = function () {
     $(this).find('.box').append("<input type='checkbox' name='boxes'>").click(function (e) {
       //forward the click to the checkbox
       var $target = $(e.target);
+      console.log($target);
       if ($target.not($(this))) {
         console.log($("input",this));
       }
