@@ -68,9 +68,8 @@ $.fn.renderBoxes = function () {
 }
 
 $.fn.sensitivize = function ($content) {
-    console.log($content, $(this));
     if($content.length>0) {
-      $(this).attr('disabled','disabled');
+      $(this).attr('disabled');
     } else {
       $(this).removeAttr('disabled');
     }
@@ -91,7 +90,6 @@ enterSelectMode = function (selected) {
       if (!$target.is($("input",this))) {
         $("input",this).trigger('click');
       }
-      $(".action").sensitivize($(":checked", $content));
     });
     //sensitivize the action buttons
     $(".action").sensitivize($(":checked", $content));
