@@ -68,7 +68,7 @@ $.fn.renderBoxes = function () {
 }
 
 enterSelectMode = function () {
-  var $toolbar; $previous;
+  var $toolbar, $previous;
   
   $toolbar = $("#toolbar-main");
   $toolbar.addClass('selectmode');
