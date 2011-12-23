@@ -67,7 +67,7 @@ $.fn.renderBoxes = function () {
   });
 }
 
-$.fn.sensitivize = function ($content) {
+//$.fn.sensitivize = function ($content) {
     if($content.length>0) {
       //console.log('disabling');
       $(this).attr('disabled','disabled');
