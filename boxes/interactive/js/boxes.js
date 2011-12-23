@@ -86,7 +86,9 @@ enterSelectMode = function (selected) {
   $content = $("#content").children();
   $content.each(function (i) {
     $(this).find('.box').append("<input type='checkbox' name='boxes'>").click(function (e) {
-      console.log(this);
+      var $check;
+      $check = $("input[type='checkbox']",this);
+      console.info($check);
       $(".action").sensitivize($(":checked", $content));
     });
   });
