@@ -68,10 +68,12 @@ $.fn.renderBoxes = function () {
 }
 
 enterSelectMode = function () {
-  var $toolbar, $previous;
+  var $toolbar, $previous, $content;
   
   $toolbar = $("#toolbar-main");
   $previous = $toolbar.children().clone();//clone all content, but keep container for bubbling events
+  $content = $("#content").children();
+  $content.each();
   $toolbar.addClass('selectmode');
   $toolbar.empty().append("<button id='doneselecting'>Done</button>").children()
     .click(function () {
