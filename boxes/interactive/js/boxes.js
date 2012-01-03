@@ -159,7 +159,7 @@ enterSelectMode = function (selected) {
             'duration': 5000
            }, function () {
             //actually perform deletion of boxes after timeout
-            BOXES = TEMPBOXES;
+            BOXES = jQuery.extend(true, {}, TEMPBOXES); //roll back the old object
             $("#content").renderBoxes(BOXES);
            });
       });
