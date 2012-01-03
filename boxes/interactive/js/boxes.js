@@ -151,11 +151,8 @@ enterSelectMode = function (selected) {
         $(":checked",$content).parents("div.box-contain").each(function () {
           var id = $(this).index();
 
-          $(this).hide(500, function () { //hide selected
-            //rerender the whole set in this callback
-            BOXES.deleteBox(id);
-            $("#content").renderBoxes(BOXES);
-          });
+          BOXES.deleteBox(id);
+          $(this).hide(500);
         });    
         $notify.notify({
             'message':  'Box(es) successfully deleted.',
