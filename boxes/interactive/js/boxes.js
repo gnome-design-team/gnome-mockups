@@ -89,7 +89,7 @@ $.fn.notify = function (options,callback) {
       'marginLeft': -$(this).outerWidth()/2
     })
     .slideDown(500, function () {
-      $(this).css({
+      $container.css({
         'display', 'table-cell'
       });
     });
