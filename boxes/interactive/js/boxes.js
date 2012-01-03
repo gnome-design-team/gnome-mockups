@@ -88,7 +88,11 @@ $.fn.notify = function (options,callback) {
     .css({
       'marginLeft': -$(this).outerWidth()/2
     })
-    .slideDown(500);
+    .slideDown(500, function () {
+      $(this).css({
+        'display', 'table-cell'
+      });
+    });
   $container.oneTime(options.duration,"noteTimer",function () {
     $(this).slideUp(500,function () {
       $(this).empty();
