@@ -64,7 +64,7 @@ button[disabled] {
 #notify {
   position: absolute;
   vertical-align: middle;
-  display: table-cell;
+  display: none;
   z-index: 2;
   background-color: lighten($theme_bg_color,10%);
   padding: 1em;
