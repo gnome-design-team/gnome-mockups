@@ -72,7 +72,7 @@ button[disabled] {
   @include border-bottom-lr-radius(3px);
   border: 1px solid $borders;
   @include box-shadow(0,2px,2px,rgba(0,0,0,0.5));
-  div {
+  .message {
     float: left;
     min-width: 300px;
   }
