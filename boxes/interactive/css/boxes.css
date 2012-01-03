@@ -102,6 +102,7 @@ button[disabled] {
 
 #notify {
   position: absolute;
+  display: none;
   z-index: 2;
   background-color: #515a5a;
   padding: 1em;
