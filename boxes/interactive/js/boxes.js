@@ -140,7 +140,9 @@ enterSelectMode = function (selected) {
         var $notify = $("#notify"),
         $undobutton = {};
         TEMPBOXES = jQuery.extend(true, {}, BOXES); //clone the box set temporarily for undo
-
+                                                                                   //FIXME: this is not working -
+                                                                                   // the copy gets created when the event is bound, not when the
+                                                                                   // button is clicked?
         //pretend to delete selected boxes
         $undobutton = $('<button id="undo-remove">Undo</button>').click(function () {
           //undo boxes removal
