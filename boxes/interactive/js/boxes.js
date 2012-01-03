@@ -98,7 +98,8 @@ enterSelectMode = function (selected) {
   var $toolbar, $previous, $content,
   $notify = $("#notify");
   
-  //invalidate previously set notifications
+  //hide notification, but apply the undoable actions
+  //apply them
   //$notify.stopTime("noteTimer");
   //$notify.hide(500);
   $toolbar = $("#toolbar-main");
