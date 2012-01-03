@@ -44,6 +44,7 @@ BOXES = {
   deleteBox: function (id) { // delete boxes
     id = parseInt(id);
     console.log('removing ',id);
+    this.splice(id,1);
   }
 }
 
