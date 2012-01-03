@@ -74,6 +74,7 @@ button[disabled] {
   @include box-shadow(0,2px,2px,rgba(0,0,0,0.5));
   div {
     float: left;
+    min-width: 300px;
   }
   button {
     float: right;
