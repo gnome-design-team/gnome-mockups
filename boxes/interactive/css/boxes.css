@@ -103,7 +103,7 @@ button[disabled] {
 #notify {
   position: absolute;
   vertical-align: middle;
-  display: none;
+  display: table-cell;
   z-index: 2;
   background-color: #515a5a;
   padding: 1em;
