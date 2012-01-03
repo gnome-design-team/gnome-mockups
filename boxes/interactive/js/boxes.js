@@ -145,13 +145,13 @@ enterSelectMode = function (selected) {
             $notify.empty();
           });
         });
-        
+        $toolbar.removeClass('selectmode').children().replaceWith($previous); //restore toolbar
         $(":checked",$content).parents("div.box-contain").each(function () {
           var id = $(this).index();
+
           $(this).hide(500, function () { //hide selected
             //rerender the whole set in this callback
             TEMPBOXES.deleteBox(id);
-            $toolbar.removeClass('selectmode').children().replaceWith($previous);
             $("#content").renderBoxes(TEMPBOXES);
           });
         });    
