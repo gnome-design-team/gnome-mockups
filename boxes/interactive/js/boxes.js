@@ -148,7 +148,7 @@ enterSelectMode = function (selected) {
           });
         });
         $toolbar.removeClass('selectmode').children().replaceWith($previous); //restore toolbar
-        $content.find('.box').unbind('click').find("input").remove(); //remove checkboxes
+        //$content.find('.box').unbind('click').find("input").remove(); //remove checkboxes
         $(":checked",$content).parents("div.box-contain").each(function () {
           var id = $(this).index();
 
