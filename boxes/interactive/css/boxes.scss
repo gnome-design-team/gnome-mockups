@@ -68,7 +68,7 @@ button[disabled] {
   background-color: lighten($theme_bg_color,10%);
   padding: 1em;
   top: 28px;  left: 50%;
-  @include border-bottom(3px;);
+  @include border-bottom(3px);
   border: 1px solid $border_color;
   button {
     float: right;
