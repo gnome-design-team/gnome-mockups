@@ -39,7 +39,7 @@ var BOXES = {
       fullscreen: "img/boxes/new.jpg",
       running: false
     });
-    $("#content").renderBoxes(this);
+    $("#content").renderBoxes();
   },
   deleteBox: function (id) { // delete boxes
     id = parseInt(id);
@@ -50,7 +50,7 @@ var BOXES = {
 
 var TEMPBOXES = {};
 
-$.fn.renderBoxes = function (BOXES) {
+$.fn.renderBoxes = function () {
   var $container;
   
   $container = $(this).empty();
@@ -169,6 +169,7 @@ enterSelectMode = function (selected) {
             'duration': 5000
            }, function () {
              //deletion was actually performed
+             $content.renderBoxes();
            });
       });
   $(".action").sensitivize($(":checked", $content));
@@ -176,7 +177,7 @@ enterSelectMode = function (selected) {
 
 $(document).ready(function () {
   var $notify = $("#notify");
-  $("#content").renderBoxes(BOXES);
+  $("#content").renderBoxes();
   $("#toolbar-main").on("click", "#new_box", function (event) {
     //hide notification
     $notify.stopTime("noteTimer");
