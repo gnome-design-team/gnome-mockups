@@ -154,9 +154,8 @@ enterSelectMode = function (selected) {
 
           BOXES.deleteBox(id);
           $(this).hide(500);
-        }, function () {
-          $content.find('.box').unbind('click').find("input").remove(); //remove checkboxes after iterating through checked
-        });
+        };
+        $content.find('.box').unbind('click').find("input").remove(); //remove checkboxes after iterating through checked
         $notify.notify({
             'message':  'Box(es) successfully deleted.',
             'button':  $undobutton,
