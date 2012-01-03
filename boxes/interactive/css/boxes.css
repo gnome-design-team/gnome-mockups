@@ -126,7 +126,8 @@ button[disabled] {
   #notify .closebutton {
     position: absolute;
     right: 4px;
-    top: 4px;
+    top: 50%;
+    margin-top: -8px;
     display: block;
     width: 16px;
     height: 16px;
