@@ -84,7 +84,7 @@ $.fn.sensitivize = function ($content) {
 $.fn.notify = function (options,callback) {
   
   $container = $(this);
-  $container.empty().append(options.button,'<div>'+options.message+'</div><div class="closebutton"></div>')
+  $container.empty().append(options.button,'<div class="message">'+options.message+'</div><div class="closebutton"></div>')
     .css({
       'marginLeft': -$(this).outerWidth()/2
     })
