@@ -99,8 +99,8 @@ enterSelectMode = function (selected) {
   $notify = $("#notify");
   
   //invalidate previously set notifications
-  $notify.stopTime("noteTimer");
-  $notify.hide(500);
+  //$notify.stopTime("noteTimer");
+  //$notify.hide(500);
   $toolbar = $("#toolbar-main");
   $previous = $toolbar.children().clone();//clone all content, but keep container for bubbling events
   //content
