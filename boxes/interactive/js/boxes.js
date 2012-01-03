@@ -148,8 +148,9 @@ enterSelectMode = function (selected) {
         
         $(":checked",$content).parents("div.box-contain").each(function () {
           var id = $(this).index();
-          $(this).hide(500);
-          TEMPBOXES.deleteBox(id);
+          $(this).hide(500, function () {
+            TEMPBOXES.deleteBox(id);
+          });
         });
         //console.log(TEMPBOXES, BOXES);
         //restore view to normal
