@@ -84,9 +84,9 @@ $.fn.sensitivize = function ($content) {
 $.fn.notify = function (options,callback) {
   
   $container = $(this);
-  $container.empty().append(options.button,'<span>'+options.message+'</span><div class="closebutton"></div>').fadeIn(200);
+  $container.empty().append(options.button,'<span>'+options.message+'</span><div class="closebutton"></div>').slideDown(500);
   $container.oneTime(options.duration,"noteTimer",function () {
-    $(this).fadeOut(500,function () {
+    $(this).slideUp(500,function () {
       $(this).empty();
       if (callback) { callback(); };
     });
