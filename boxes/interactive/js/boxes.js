@@ -1,4 +1,4 @@
-BOXES = {
+var BOXES = {
   boxes: [ {
     id: "alli",
     label: "Alli's Computer",
@@ -46,8 +46,9 @@ BOXES = {
     //console.log('removing ',id);
     this.boxes.splice(id,1);
   }
-}
+};
 
+var TEMPBOXES = {};
 
 $.fn.renderBoxes = function (BOXES) {
   var $container;
@@ -134,7 +135,7 @@ enterSelectMode = function (selected) {
     }).end().append("<button id='delete_box' class='fl action'>Delete</button>").find('#delete_box')
       .click(function () {
         var $notify = $("#notify"),
-        $undobutton = {},
+        $undobutton = {};
         TEMPBOXES = jQuery.extend(true, {}, BOXES); //clone the box set temporarily for undo
 
         //pretend to delete selected boxes
