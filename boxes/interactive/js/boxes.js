@@ -148,13 +148,15 @@ enterSelectMode = function (selected) {
           });
         });
         $toolbar.removeClass('selectmode').children().replaceWith($previous); //restore toolbar
-        //$content.find('.box').unbind('click').find("input").remove(); //remove checkboxes
+        
         $(":checked",$content).parents("div.box-contain").each(function () {
           var id = $(this).index();
 
           BOXES.deleteBox(id);
           $(this).hide(500);
-        });    
+        }, function () {
+          $content.find('.box').unbind('click').find("input").remove(); //remove checkboxes
+        });
         $notify.notify({
             'message':  'Box(es) successfully deleted.',
             'button':  $undobutton,
