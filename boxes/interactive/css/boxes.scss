@@ -76,6 +76,12 @@ button[disabled] {
     float: left;
     min-width: 300px;
   }
+  .closebutton {
+    float: right;
+    display: block;
+    width: 16px; height: 16px;
+    background-color: red;
+  }
   button {
     float: right;
   }

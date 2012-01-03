@@ -122,6 +122,12 @@ button[disabled] {
   #notify div {
     float: left;
     min-width: 300px; }
+  #notify .closebutton {
+    float: right;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: red; }
   #notify button {
     float: right; }
 
