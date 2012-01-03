@@ -149,7 +149,7 @@ enterSelectMode = function (selected) {
           var id = $(this).index();
           TEMPBOXES.deleteBox(id);
         });
-        console.log(TEMPBOXES, BOXES);
+        //console.log(TEMPBOXES, BOXES);
         //restore view to normal
         $toolbar.removeClass('selectmode').children().replaceWith($previous);
         $("#content").renderBoxes(TEMPBOXES);
@@ -159,6 +159,7 @@ enterSelectMode = function (selected) {
             'duration': 5000
            }, function () {
             //actually perform deletion of boxes after timeout
+            console.log(TEMPBOXES, BOXES);
             BOXES = jQuery.extend(true, {}, TEMPBOXES); //roll back the old object
             $("#content").renderBoxes(BOXES);
            });
