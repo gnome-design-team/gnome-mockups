@@ -142,7 +142,7 @@ enterSelectMode = function (selected) {
           //undo boxes removal
           BOXES = jQuery.extend(true, {}, TEMPBOXES); //roll back the previous BOXES object
           //unhide hidden
-          $(":hidden", $content).show(500);
+          $content.filter(":hidden").show(500);
           $notify.stopTime("noteTimer");
           $notify.fadeOut(500, function () {
             $notify.empty();
