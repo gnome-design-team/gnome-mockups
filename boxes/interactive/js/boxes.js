@@ -99,9 +99,8 @@ enterSelectMode = function (selected) {
   var $toolbar, $previous, $content,
   $notify = $("#notify");
   
-  //hide notification, but apply the undoable actions
-  //FIXME:apply them
-  //$notify.stopTime("noteTimer");
+  //hide notification
+  $notify.stopTime("noteTimer");
   $notify.hide(500);
   $toolbar = $("#toolbar-main");
   $previous = $toolbar.children().clone();//clone all content, but keep container for bubbling events
@@ -141,6 +140,7 @@ enterSelectMode = function (selected) {
         //pretend to delete selected boxes
         $undobutton = $('<button id="undo-remove">Undo</button>').click(function () {
           //undo boxes removal
+          BOXES = jQuery.extend(true, {}, TEMPBOXES); //roll back the previous BOXES object
           $("#content").renderBoxes(BOXES); //just rerender, TEMPBOXES will not fold into BOXES now.
           $notify.stopTime("noteTimer");
           $notify.fadeOut(500, function () {
@@ -153,8 +153,8 @@ enterSelectMode = function (selected) {
 
           $(this).hide(500, function () { //hide selected
             //rerender the whole set in this callback
-            TEMPBOXES.deleteBox(id);
-            $("#content").renderBoxes(TEMPBOXES);
+            BOXES.deleteBox(id);
+            $("#content").renderBoxes(BOXES);
           });
         });    
         $notify.notify({
@@ -162,9 +162,7 @@ enterSelectMode = function (selected) {
             'button':  $undobutton,
             'duration': 5000
            }, function () {
-            //actually perform deletion of boxes after timeout
-            BOXES = jQuery.extend(true, {}, TEMPBOXES); //apply the changed object
-            $("#content").renderBoxes(BOXES);
+             //deletion was actually performed
            });
       });
   $(".action").sensitivize($(":checked", $content));
