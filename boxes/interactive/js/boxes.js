@@ -39,7 +39,7 @@ BOXES = {
       fullscreen: "img/boxes/new.jpg",
       running: false
     });
-    $("#content").renderBoxes();
+    $("#content").renderBoxes(BOXES);
   },
   deleteBox: function (id) { // delete boxes
     id = parseInt(id);
