@@ -147,7 +147,8 @@ enterSelectMode = function (selected) {
         $undobutton = $('<button id="undo-remove">Undo</button>').click(function () {
           //undo boxes removal
           BOXES = jQuery.extend(true, {}, TEMPBOXES); //roll back the previous BOXES object
-          $content.renderBoxes();
+          //unhide hidden
+          $content.filter(":hidden").show(500);
           $notify.stopTime("noteTimer");
           $notify.fadeOut(500, function () {
             $notify.empty();
