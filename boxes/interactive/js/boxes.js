@@ -149,6 +149,7 @@ enterSelectMode = function (selected) {
         $(":checked",$content).parents("div.box-contain").each(function () {
           var id = $(this).index();
           $(this).hide(500, function () {
+            console.log('now');
             TEMPBOXES.deleteBox(id);
           });
         });
