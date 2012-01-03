@@ -48,7 +48,7 @@ BOXES = {
 }
 
 
-$.fn.renderBoxes = function () {
+$.fn.renderBoxes = function (BOXES) {
   var $container;
   
   $container = $(this).empty();
@@ -133,7 +133,7 @@ enterSelectMode = function (selected) {
       .click(function () {
         var $notify = $("#notify"),
         $undobutton = {},
-        BOXESTEMP = BOXES;
+        TEMPBOXES = BOXES;
 
         //pretend to delete selected boxes
         $undobutton = $('<button id="undo-remove">Undo</button>').click(function () {
@@ -145,27 +145,27 @@ enterSelectMode = function (selected) {
         });
         
         $(":checked",$content).parents("div.box-contain").each(function () {
-          var id = $(this);
-          
-          console.log($(this).index());
+          var id = $(this).index();
+          TEMPBOXES.deleteBox(id);
         });
         //restore view to normal
         $toolbar.removeClass('selectmode').children().replaceWith($previous);
-        $("#content").renderBoxes();
+        $("#content").renderBoxes(TEMPBOXES);
         $notify.notify({
             'message':  'Box(es) successfully deleted.',
             'button':  $undobutton,
             'duration': 5000
            }, function () {
             //actually perform deletion of boxes after timeout
-            console.log('deleted');
+            BOXES = TEMPBOXES;
+            $("#content").renderBoxes(BOXES);
            });
       });
   $(".action").sensitivize($(":checked", $content));
 }
 
 $(document).ready(function () {
-  $("#content").renderBoxes();
+  $("#content").renderBoxes(BOXES);
   $("#toolbar-main").on("click", "#new_box", function (event) {
     BOXES.addBox();
   }).on("click","#select",enterSelectMode);
