@@ -90,7 +90,7 @@ $.fn.notify = function (options,callback) {
     })
     .slideDown(500).find('.closebutton').click(function () {
       $("#notify").stopTime("noteTimer");
-      $("#notify").hide(500);
+      $("#notify").slideUp(500);
     });
   $container.oneTime(options.duration,"noteTimer",function () {
     $(this).slideUp(500,function () {
@@ -108,7 +108,7 @@ enterSelectMode = function (selected) {
   
   //hide notification
   $notify.stopTime("noteTimer");
-  $notify.hide(500);
+  $notify.slideUp(500);
   $toolbar = $("#toolbar-main");
   $previous = $toolbar.children().clone();//clone all content, but keep container for bubbling events
   //content
