@@ -149,6 +149,7 @@ enterSelectMode = function (selected) {
           var id = $(this).index();
           TEMPBOXES.deleteBox(id);
         });
+        console.log(TEMPBOXES, BOXES);
         //restore view to normal
         $toolbar.removeClass('selectmode').children().replaceWith($previous);
         $("#content").renderBoxes(TEMPBOXES);
