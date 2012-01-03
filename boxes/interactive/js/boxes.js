@@ -126,7 +126,6 @@ enterSelectMode = function (selected) {
   $toolbar.empty().append("<button id='doneselecting' class='fr'>Done</button>").find('#doneselecting')
     .click(function () {
       //cancel selection and return to previous toolbar
-      console.log('click');
       $toolbar.removeClass('selectmode').children().replaceWith($previous);
       $content.find('.box').unbind('click').find("input").remove();
     }).end().append("<button id='delete_box' class='fl action'>Delete</button>").find('#delete_box')
@@ -145,11 +144,8 @@ enterSelectMode = function (selected) {
         });
         
         $(":checked",$content).parents("div.box-contain").each(function () {
-          var id = $(this).attr("id"),
-          foobar;
-          //console.log(BOXES);
-
-          console.log("now boxes is ", BOXES, foobar);
+          var id = $(this),
+          console.log($(this).index());
         });
         //restore view to normal
         $toolbar.removeClass('selectmode').children().replaceWith($previous);
