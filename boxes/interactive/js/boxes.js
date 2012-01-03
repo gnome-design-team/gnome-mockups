@@ -148,15 +148,13 @@ enterSelectMode = function (selected) {
         
         $(":checked",$content).parents("div.box-contain").each(function () {
           var id = $(this).index();
-          $(this).hide(500, function () {
-            console.log('now');
+          $(this).hide(500, function () { //hide selected
+            //rerender the whole set in this callback
             TEMPBOXES.deleteBox(id);
+            $toolbar.removeClass('selectmode').children().replaceWith($previous);
+            $("#content").renderBoxes(TEMPBOXES);
           });
-        });
-        //console.log(TEMPBOXES, BOXES);
-        //restore view to normal
-        $toolbar.removeClass('selectmode').children().replaceWith($previous);
-        $("#content").renderBoxes(TEMPBOXES);
+        });    
         $notify.notify({
             'message':  'Box(es) successfully deleted.',
             'button':  $undobutton,
