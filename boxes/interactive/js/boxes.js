@@ -133,7 +133,7 @@ enterSelectMode = function (selected) {
   }
   //toolbar
   $toolbar.addClass('selectmode');
-  $toolbar.empty().append("<button id='doneselecting' class='fr'>Done</button>").find('#doneselecting')
+  $toolbar.empty().append("<button id='cancelselecting' class='fl'>Cancel</button>").find('#cancelselecting')
     .click(function () {
       //cancel selection and return to previous toolbar
       $toolbar.removeClass('selectmode').children().replaceWith($previous);
