@@ -65,6 +65,7 @@ button[disabled] {
   position: absolute;
   vertical-align: middle;
   display: table-cell;
+  overflow: hidden;
   z-index: 2;
   background-color: lighten($theme_bg_color,10%);
   padding: 1em;
