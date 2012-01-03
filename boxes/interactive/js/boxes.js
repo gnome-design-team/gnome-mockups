@@ -173,6 +173,7 @@ enterSelectMode = function (selected) {
 }
 
 $(document).ready(function () {
+  var $notification = $("#notification");
   $("#content").renderBoxes(BOXES);
   $("#toolbar-main").on("click", "#new_box", function (event) {
     //hide notification
