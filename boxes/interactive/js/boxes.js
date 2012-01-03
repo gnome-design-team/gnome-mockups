@@ -41,8 +41,9 @@ BOXES = {
     });
     $("#content").renderBoxes();
   },
-  deleteBox: function (ids) { // delete boxes
-    
+  deleteBox: function (id) { // delete boxes
+    id = parseInt(id);
+    console.log('removing ',id);
   }
 }
 
