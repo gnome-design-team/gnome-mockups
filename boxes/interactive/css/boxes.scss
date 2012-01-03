@@ -67,7 +67,7 @@ button[disabled] {
   overflow: hidden;
   z-index: 2;
   background-color: lighten($theme_bg_color,10%);
-  padding: 1em;
+  padding: 1em 2em 1em 1em;
   top: 43px;  left: 50%;
   @include border-bottom-lr-radius(3px);
   border: 1px solid $borders;
