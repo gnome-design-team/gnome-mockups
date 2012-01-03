@@ -169,7 +169,7 @@ enterSelectMode = function (selected) {
             'duration': 5000
            }, function () {
              //deletion was actually performed
-             $content.renderBoxes();
+             //$content.renderBoxes();
            });
       });
   $(".action").sensitivize($(":checked", $content));
