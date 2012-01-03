@@ -1,24 +1,28 @@
 /*
-Syntax error: Undefined mixin 'border-bottom'.
-        on line 71 of css/boxes.scss, in `border-bottom'
-        from line 71 of css/boxes.scss
+Syntax error: Undefined variable: "$border_color".
+        on line 72 of css/boxes.scss
 
-66:   display: none;
 67:   z-index: 2;
 68:   background-color: lighten($theme_bg_color,10%);
 69:   padding: 1em;
 70:   top: 28px;  left: 50%;
-71:   @include border-bottom(3px);
+71:   @include border-bottom-lr-radius(3px);
 72:   border: 1px solid $border_color;
 73:   button {
 74:     float: right;
 75:   }
 76: }
+77: 
 
 Backtrace:
-css/boxes.scss:71:in `border-bottom'
-css/boxes.scss:71
-/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:170:in `visit_mixin'
+css/boxes.scss:72
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/variable.rb:49:in `_perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/list.rb:69:in `_perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/list.rb:69:in `map'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/list.rb:69:in `_perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/node.rb:40:in `perform'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:216:in `visit_prop'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
 /usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
@@ -83,4 +87,4 @@ css/boxes.scss:71
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'border-bottom'.\A         on line 71 of css/boxes.scss, in `border-bottom'\A         from line 71 of css/boxes.scss\A \A 66:   display: none;\A 67:   z-index: 2;\A 68:   background-color: lighten($theme_bg_color,10%);\A 69:   padding: 1em;\A 70:   top: 28px;  left: 50%;\A 71:   @include border-bottom(3px);\A 72:   border: 1px solid $border_color;\A 73:   button {\A 74:     float: right;\A 75:   }\A 76: }"; }
+  content: "Syntax error: Undefined variable: \"$border_color\".\A         on line 72 of css/boxes.scss\A \A 67:   z-index: 2;\A 68:   background-color: lighten($theme_bg_color,10%);\A 69:   padding: 1em;\A 70:   top: 28px;  left: 50%;\A 71:   @include border-bottom-lr-radius(3px);\A 72:   border: 1px solid $border_color;\A 73:   button {\A 74:     float: right;\A 75:   }\A 76: }\A 77: "; }
