@@ -1,0 +1,71 @@
+/*
+Syntax error: Invalid CSS after "...rder-bottom(3px": expected ")", was ";);"
+        on line 71 of css/boxes.scss
+
+66:   display: none;
+67:   z-index: 2;
+68:   background-color: lighten($theme_bg_color,10%);
+69:   padding: 1em;
+70:   top: 28px;  left: 50%;
+71:   @include border-bottom(3px;);
+72:   border: 1px solid $border_color;
+73:   button {
+74:     float: right;
+75:   }
+76: }
+
+Backtrace:
+css/boxes.scss:71
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:929:in `expected'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/lexer.rb:193:in `expected!'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/parser.rb:455:in `assert_tok'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/parser.rb:85:in `parse_mixin_include_arglist'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:822:in `send'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:822:in `sass_script'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:158:in `include_directive'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:146:in `send'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:146:in `special_directive'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:125:in `directive'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:399:in `block_child'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:391:in `block_contents'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:380:in `block'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:374:in `ruleset'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:398:in `block_child'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:391:in `block_contents'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:59:in `stylesheet'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:28:in `parse'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:327:in `_to_tree'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:300:in `_render'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:247:in `render'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:339:in `update_stylesheet'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:202:in `update_stylesheets'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:200:in `each'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:200:in `update_stylesheets'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:293:in `watch'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/path.rb:73:in `call'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/path.rb:73:in `run_callback'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/path.rb:55:in `callback_action'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/path.rb:35:in `update'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/state/file.rb:19:in `refresh'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:17:in `run'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:17:in `each'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:17:in `run'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:15:in `loop'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/backends/polling.rb:15:in `run'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm/monitor.rb:26:in `run'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/vendor/fssm/lib/fssm.rb:20:in `monitor'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:265:in `watch'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin.rb:107:in `send'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin.rb:107:in `method_missing'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:421:in `watch_or_update'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:302:in `process_result'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:41:in `parse'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:21:in `parse!'
+/usr/lib/ruby/gems/1.8/gems/sass-3.1.12/bin/sass:8
+/usr/bin/sass:19:in `load'
+/usr/bin/sass:19
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"...rder-bottom(3px\": expected \")\", was \";);\"\A         on line 71 of css/boxes.scss\A \A 66:   display: none;\A 67:   z-index: 2;\A 68:   background-color: lighten($theme_bg_color,10%);\A 69:   padding: 1em;\A 70:   top: 28px;  left: 50%;\A 71:   @include border-bottom(3px;);\A 72:   border: 1px solid $border_color;\A 73:   button {\A 74:     float: right;\A 75:   }\A 76: }"; }
