@@ -41,7 +41,8 @@ BOXES = {
     });
     $("#content").renderBoxes();
   },
-  deleteBox: function () { // delete a box
+  deleteBox: function (ids) { // delete boxes
+    
   }
 }
 
@@ -71,15 +72,33 @@ $.fn.sensitivize = function ($content) {
     if($content.length>0) {
       $(this).removeAttr('disabled');
     } else {
-      console.log('disabling', this);
+      //console.log('disabling', this);
       $(this).attr('disabled','disabled');
 
     }
 }
 
-enterSelectMode = function (selected) {
-  var $toolbar, $previous, $content;
+$.fn.notify = function (options,callback) {
   
+  $container = $(this);
+  $container.empty().append(options.button,'<span>'+options.message+'</span>').fadeIn(200);
+  $container.oneTime(options.duration,"noteTimer",function () {
+    $(this).fadeOut(500,function () {
+      $(this).empty();
+      if (callback) { callback(); };
+    });
+  });
+  return this;
+  //console.log(options.message,options.button);
+}
+
+enterSelectMode = function (selected) {
+  var $toolbar, $previous, $content,
+  $notify = $("#notify");
+  
+  //invalidate previously set notifications
+  $notify.stopTime("noteTimer");
+  $notify.hide(500);
   $toolbar = $("#toolbar-main");
   $previous = $toolbar.children().clone();//clone all content, but keep container for bubbling events
   //content
@@ -104,14 +123,45 @@ enterSelectMode = function (selected) {
   }
   //toolbar
   $toolbar.addClass('selectmode');
-  $toolbar.empty().append("<button id='doneselecting' class='fr'>Done</button>").children()
+  $toolbar.empty().append("<button id='doneselecting' class='fr'>Done</button>").find('#doneselecting')
     .click(function () {
       //cancel selection and return to previous toolbar
+      console.log('click');
       $toolbar.removeClass('selectmode').children().replaceWith($previous);
       $content.find('.box').unbind('click').find("input").remove();
-    }).end().append("<button id='delete_box' class='fl action'>Delete</button>").children()
+    }).end().append("<button id='delete_box' class='fl action'>Delete</button>").find('#delete_box')
       .click(function () {
-        //delete selected boxes
+        var $notify = $("#notify"),
+        $undobutton = {},
+        BOXESTEMP = BOXES;
+
+        //pretend to delete selected boxes
+        $undobutton = $('<button id="undo-remove">Undo</button>').click(function () {
+          //undo boxes removal
+          $notify.stopTime("noteTimer");
+          $notify.fadeOut(500, function () {
+            $notify.empty();
+          });
+        });
+        
+        $(":checked",$content).parents("div.box-contain").each(function () {
+          var id = $(this).attr("id"),
+          foobar;
+          //console.log(BOXES);
+
+          console.log("now boxes is ", BOXES, foobar);
+        });
+        //restore view to normal
+        $toolbar.removeClass('selectmode').children().replaceWith($previous);
+        $("#content").renderBoxes();
+        $notify.notify({
+            'message':  'Box(es) successfully deleted.',
+            'button':  $undobutton,
+            'duration': 5000
+           }, function () {
+            //actually perform deletion of boxes after timeout
+            console.log('deleted');
+           });
       });
   $(".action").sensitivize($(":checked", $content));
 }

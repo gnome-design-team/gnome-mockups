@@ -61,6 +61,18 @@ button[disabled] {
   }
 }
 
+#notify {
+  position: absolute;
+  z-index: 2;
+  background-color: lighten($theme_bg_color,10%);
+  padding: 1em;
+  top: 28px;  left: 50%;
+  
+  button {
+    float: right;
+  }
+}
+
 #content {
   position: fixed;
   overflow-y: auto;

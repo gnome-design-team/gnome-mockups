@@ -100,6 +100,16 @@ button[disabled] {
         background-image: -ms-linear-gradient(top, #2e5708, #72af39);
         background-image: linear-gradient(top, #2e5708, #72af39); }
 
+#notify {
+  position: absolute;
+  z-index: 2;
+  background-color: #515a5a;
+  padding: 1em;
+  top: 28px;
+  left: 50%; }
+  #notify button {
+    float: right; }
+
 #content {
   position: fixed;
   overflow-y: auto;
