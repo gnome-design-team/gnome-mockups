@@ -99,7 +99,7 @@ enterSelectMode = function (selected) {
   $notify = $("#notify");
   
   //hide notification, but apply the undoable actions
-  //apply them
+  //FIXME:apply them
   //$notify.stopTime("noteTimer");
   //$notify.hide(500);
   $toolbar = $("#toolbar-main");
