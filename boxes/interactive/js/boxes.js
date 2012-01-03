@@ -144,7 +144,8 @@ enterSelectMode = function (selected) {
         });
         
         $(":checked",$content).parents("div.box-contain").each(function () {
-          var id = $(this),
+          var id = $(this);
+          
           console.log($(this).index());
         });
         //restore view to normal
