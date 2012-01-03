@@ -134,7 +134,7 @@ enterSelectMode = function (selected) {
       .click(function () {
         var $notify = $("#notify"),
         $undobutton = {},
-        TEMPBOXES = BOXES;
+        TEMPBOXES = jQuery.extend(true, {}, BOXES);
 
         //pretend to delete selected boxes
         $undobutton = $('<button id="undo-remove">Undo</button>').click(function () {
