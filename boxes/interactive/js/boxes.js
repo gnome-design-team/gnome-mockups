@@ -53,6 +53,7 @@ $.fn.renderBoxes = function (BOXES) {
   var $container;
   
   $container = $(this).empty();
+  console.log(BOXES);
   $.each(BOXES.boxes, function (i,box) {
     var suspended;
     
