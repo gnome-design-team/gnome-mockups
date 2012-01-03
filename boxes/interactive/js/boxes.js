@@ -101,7 +101,7 @@ enterSelectMode = function (selected) {
   //hide notification, but apply the undoable actions
   //FIXME:apply them
   //$notify.stopTime("noteTimer");
-  //$notify.hide(500);
+  $notify.hide(500);
   $toolbar = $("#toolbar-main");
   $previous = $toolbar.children().clone();//clone all content, but keep container for bubbling events
   //content
