@@ -104,6 +104,7 @@ button[disabled] {
   position: absolute;
   vertical-align: middle;
   display: table-cell;
+  overflow: hidden;
   z-index: 2;
   background-color: #515a5a;
   padding: 1em;
