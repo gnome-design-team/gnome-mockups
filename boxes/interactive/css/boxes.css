@@ -123,7 +123,9 @@ button[disabled] {
     float: left;
     min-width: 300px; }
   #notify .closebutton {
-    float: right;
+    position: absolute;
+    right: 4px;
+    top: 4px;
     display: block;
     width: 16px;
     height: 16px;

@@ -77,7 +77,8 @@ button[disabled] {
     min-width: 300px;
   }
   .closebutton {
-    float: right;
+    position: absolute;
+    right: 4px; top: 4px;
     display: block;
     width: 16px; height: 16px;
     background-color: red;
