@@ -139,6 +139,7 @@ enterSelectMode = function (selected) {
         //pretend to delete selected boxes
         $undobutton = $('<button id="undo-remove">Undo</button>').click(function () {
           //undo boxes removal
+          $("#content").renderBoxes(BOXES); //just rerender, TEMPBOXES will not fold into BOXES now.
           $notify.stopTime("noteTimer");
           $notify.fadeOut(500, function () {
             $notify.empty();
