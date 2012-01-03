@@ -86,7 +86,7 @@ $.fn.notify = function (options,callback) {
   $container = $(this);
   $container.empty().append(options.button,'<span>'+options.message+'</span><div class="closebutton"></div>')
     .css({
-      'marginLeft': $(this).outerWidth()
+      'marginLeft': "-" + $(this).outerWidth()
     })
     .slideDown(500);
   $container.oneTime(options.duration,"noteTimer",function () {
