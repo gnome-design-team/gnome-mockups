@@ -175,6 +175,9 @@ enterSelectMode = function (selected) {
 $(document).ready(function () {
   $("#content").renderBoxes(BOXES);
   $("#toolbar-main").on("click", "#new_box", function (event) {
+    //hide notification
+    $notify.stopTime("noteTimer");
+    $notify.hide(500);
     BOXES.addBox();
   }).on("click","#select",enterSelectMode);
 });
