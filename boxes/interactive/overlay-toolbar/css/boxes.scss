@@ -114,6 +114,7 @@ button[disabled] {
   }
   
   button {
+    padding: 16px;
     background-color: $button_gradient_color_a;
     @include gradient-vertical(opacify($button_gradient_color_a, 0.6), opacify($button_gradient_color_b,0.6));
   }
