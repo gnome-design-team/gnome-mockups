@@ -183,9 +183,9 @@ button[disabled] {
           left: 0;
           right: 0;
           bottom: 0;
-          background-color: red; }
+          background: url(../img/checkbox-off.png) no-repeat 0 0; }
         .box-contain .box .check input[type=checkbox]:checked + span {
-          background-color: blue; }
+          background: url(../img/checkbox-on.png) no-repeat 0 0; }
     .box-contain .box.suspended {
       box-shadow: none;
       -moz-box-shadow: none;
