@@ -114,7 +114,7 @@ enterSelectMode = function (selected) {
   //content
   $content = $("#content").children();
   $content.each(function (i) {
-    $(this).find('.box').append("<input type='checkbox' name='boxes'></input><span></span>").click(function (e) {
+    $(this).find('.box').append("<div class='check'><input type='checkbox' name='boxes'></input></div>").click(function (e) {
       var $check;
       $check = $("input[type='checkbox']",this);
       //console.info($check);
@@ -165,7 +165,7 @@ enterSelectMode = function (selected) {
           BOXES.deleteBox(id);
           $(this).hide(500);
         });
-        $content.find('.box').unbind('click').find("input").remove(); //remove checkboxes after iterating through checked
+        $content.find('.box').unbind('click').find("div.check").remove(); //remove checkboxes after iterating through checked
         $notify.notify({
             'message':  'Box(es) successfully deleted.',
             'button':  $undobutton,
