@@ -161,7 +161,11 @@ button[disabled] {
   left: 50%;
   width: 400px;
   margin-left: -200px;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; }
 
 #content {
   position: fixed;
