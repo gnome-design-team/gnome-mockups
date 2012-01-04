@@ -104,6 +104,7 @@ button[disabled] {
   overflow: hidden;
   background-color: rgba(0,0,0,0.8);
   @include border-radius(5px);
+  padding: 12px;
 }
 
 #content {

@@ -167,7 +167,8 @@ button[disabled] {
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 5px;
   -moz-border-radius: 5px;
-  -webkit-border-radius: 5px; }
+  -webkit-border-radius: 5px;
+  padding: 12px; }
 
 #content {
   position: fixed;
