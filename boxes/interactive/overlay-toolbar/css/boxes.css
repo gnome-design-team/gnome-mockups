@@ -56,6 +56,46 @@ button[disabled] {
 .fl {
   float: left; }
 
+.defaultbutton {
+  background-image: -moz-linear-gradient(top, #7fc141, #47850d);
+  background-image: -webkit-linear-gradient(top, #7fc141, #47850d);
+  background-image: -o-linear-gradient(top, #7fc141, #47850d);
+  background-image: -ms-linear-gradient(top, #7fc141, #47850d);
+  background-image: linear-gradient(top, #7fc141, #47850d);
+  border: 1px solid #2f5d04; }
+  .defaultbutton:hover {
+    background-image: -moz-linear-gradient(top, #99ce67, #539c0f);
+    background-image: -webkit-linear-gradient(top, #99ce67, #539c0f);
+    background-image: -o-linear-gradient(top, #99ce67, #539c0f);
+    background-image: -ms-linear-gradient(top, #99ce67, #539c0f);
+    background-image: linear-gradient(top, #99ce67, #539c0f); }
+  .defaultbutton:active {
+    background-image: -moz-linear-gradient(top, #2e5708, #72af39);
+    background-image: -webkit-linear-gradient(top, #2e5708, #72af39);
+    background-image: -o-linear-gradient(top, #2e5708, #72af39);
+    background-image: -ms-linear-gradient(top, #2e5708, #72af39);
+    background-image: linear-gradient(top, #2e5708, #72af39); }
+
+.warningbutton {
+  background-image: -moz-linear-gradient(top, #cd4b4b, #b70000);
+  background-image: -webkit-linear-gradient(top, #cd4b4b, #b70000);
+  background-image: -o-linear-gradient(top, #cd4b4b, #b70000);
+  background-image: -ms-linear-gradient(top, #cd4b4b, #b70000);
+  background-image: linear-gradient(top, #cd4b4b, #b70000);
+  border: 1px solid #a40000; }
+  .warningbutton:hover {
+    background-image: -moz-linear-gradient(top, #d87373, #d10000);
+    background-image: -webkit-linear-gradient(top, #d87373, #d10000);
+    background-image: -o-linear-gradient(top, #d87373, #d10000);
+    background-image: -ms-linear-gradient(top, #d87373, #d10000);
+    background-image: linear-gradient(top, #d87373, #d10000); }
+  .warningbutton:active {
+    background-image: -moz-linear-gradient(top, #840000, #c73737);
+    background-image: -webkit-linear-gradient(top, #840000, #c73737);
+    background-image: -o-linear-gradient(top, #840000, #c73737);
+    background-image: -ms-linear-gradient(top, #840000, #c73737);
+    background-image: linear-gradient(top, #840000, #c73737); }
+
 #toolbar-main {
   position: fixed;
   display: table-cell;
@@ -82,44 +122,6 @@ button[disabled] {
     background-image: -o-linear-gradient(top, #8e9c80, #4f6838);
     background-image: -ms-linear-gradient(top, #8e9c80, #4f6838);
     background-image: linear-gradient(top, #8e9c80, #4f6838); }
-    #toolbar-main.selectmode .defaultbutton {
-      background-image: -moz-linear-gradient(top, #7fc141, #47850d);
-      background-image: -webkit-linear-gradient(top, #7fc141, #47850d);
-      background-image: -o-linear-gradient(top, #7fc141, #47850d);
-      background-image: -ms-linear-gradient(top, #7fc141, #47850d);
-      background-image: linear-gradient(top, #7fc141, #47850d);
-      border: 1px solid #2f5d04; }
-      #toolbar-main.selectmode .defaultbutton:hover {
-        background-image: -moz-linear-gradient(top, #99ce67, #539c0f);
-        background-image: -webkit-linear-gradient(top, #99ce67, #539c0f);
-        background-image: -o-linear-gradient(top, #99ce67, #539c0f);
-        background-image: -ms-linear-gradient(top, #99ce67, #539c0f);
-        background-image: linear-gradient(top, #99ce67, #539c0f); }
-      #toolbar-main.selectmode .defaultbutton:active {
-        background-image: -moz-linear-gradient(top, #2e5708, #72af39);
-        background-image: -webkit-linear-gradient(top, #2e5708, #72af39);
-        background-image: -o-linear-gradient(top, #2e5708, #72af39);
-        background-image: -ms-linear-gradient(top, #2e5708, #72af39);
-        background-image: linear-gradient(top, #2e5708, #72af39); }
-    #toolbar-main.selectmode .warningbutton {
-      background-image: -moz-linear-gradient(top, #cd4b4b, #b70000);
-      background-image: -webkit-linear-gradient(top, #cd4b4b, #b70000);
-      background-image: -o-linear-gradient(top, #cd4b4b, #b70000);
-      background-image: -ms-linear-gradient(top, #cd4b4b, #b70000);
-      background-image: linear-gradient(top, #cd4b4b, #b70000);
-      border: 1px solid #a40000; }
-      #toolbar-main.selectmode .warningbutton:hover {
-        background-image: -moz-linear-gradient(top, #d87373, #d10000);
-        background-image: -webkit-linear-gradient(top, #d87373, #d10000);
-        background-image: -o-linear-gradient(top, #d87373, #d10000);
-        background-image: -ms-linear-gradient(top, #d87373, #d10000);
-        background-image: linear-gradient(top, #d87373, #d10000); }
-      #toolbar-main.selectmode .warningbutton:active {
-        background-image: -moz-linear-gradient(top, #840000, #c73737);
-        background-image: -webkit-linear-gradient(top, #840000, #c73737);
-        background-image: -o-linear-gradient(top, #840000, #c73737);
-        background-image: -ms-linear-gradient(top, #840000, #c73737);
-        background-image: linear-gradient(top, #840000, #c73737); }
 
 #notify {
   position: absolute;
