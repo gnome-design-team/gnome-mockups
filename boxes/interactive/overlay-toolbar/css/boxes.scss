@@ -14,7 +14,7 @@ fieldset {
   }
 
 button, .button, input[type="button"], input[type="submit"] {
-  -webkit-appearance: none; /* this should make the button behave like a box */
+  -webkit-appearance: none;  /* this should make the button behave like a box */
   font-family: Cantarell; font-size: 11pt;
   background-color: $button_gradient_color_a;
   @include gradient-vertical($button_gradient_color_a, $button_gradient_color_b);
@@ -114,10 +114,11 @@ button[disabled] {
     border: 0;
   }
 
-/*  can't do rgba gradients?
+
   button {
     padding: 9px;
-
+  }
+/*  can't do rgba gradients?
     background-color: $button_gradient_color_a;
     @include gradient-vertical(rgba(100,100,100,0.3), rgba(0,0,0,0.5));
   }

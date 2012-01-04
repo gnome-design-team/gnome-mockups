@@ -175,9 +175,6 @@ button[disabled] {
   -webkit-border-radius: 5px;
   padding: 12px;
   /*  can't do rgba gradients?
-    button {
-      padding: 9px;
-  
       background-color: $button_gradient_color_a;
       @include gradient-vertical(rgba(100,100,100,0.3), rgba(0,0,0,0.5));
     }
@@ -186,6 +183,8 @@ button[disabled] {
     padding: 0;
     margin: 0;
     border: 0; }
+  #overlay-toolbar button {
+    padding: 9px; }
 
 #content {
   position: fixed;
