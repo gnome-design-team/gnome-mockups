@@ -161,6 +161,7 @@ button[disabled] {
 #overlay-toolbar {
   display: none;
   position: absolute;
+  z-index: 10;
   bottom: 10px;
   left: 50%;
   width: 400px;
