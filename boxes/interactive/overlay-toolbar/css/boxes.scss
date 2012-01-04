@@ -34,6 +34,8 @@ button[disabled] {
   &:active { background-color: transparent; }
 }
 
+.fr { float: right; }
+.fl { float: left; }
 
 #toolbar-main {
   position: fixed;
@@ -46,10 +48,7 @@ button[disabled] {
   @include gradient-vertical($main-toolbar_gradient_a, $main-toolbar_gradient_b);
   @include box-shadow(0,2px,2px,rgba(0,0,0,0.3));
   text-align: center;
-  
-  .fr { float: right; }
-  .fl { float: left; }
-  
+ 
   &.selectmode {
     @include gradient-vertical(#8e9c80, #4f6838);
     
