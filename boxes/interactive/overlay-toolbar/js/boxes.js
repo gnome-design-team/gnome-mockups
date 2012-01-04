@@ -137,6 +137,8 @@ enterSelectMode = function (selected) {
       $toolbar.removeClass('selectmode').children().replaceWith($previous);
       //remove checboxes
       $content.find('.box').unbind('click').find(".check").remove();
+      //hide overlay toolbar
+      $overlay.fadeOut(500);
     });
 }
 
