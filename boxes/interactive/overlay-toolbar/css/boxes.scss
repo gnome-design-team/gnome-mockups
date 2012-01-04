@@ -97,6 +97,13 @@ button[disabled] {
   }
 }
 
+#overlay-toolbar {
+  display: block;
+  position: absolute;
+  bottom: 10px; left: 50%;
+  width: 200px; margin-left: -100px;
+}
+
 #content {
   position: fixed;
   overflow-y: auto;
