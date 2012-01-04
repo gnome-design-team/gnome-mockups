@@ -174,7 +174,7 @@ enterSelectMode = function (selected) {
              //deletion was actually performed
              //$content.renderBoxes();
            });
-      });
+      }).end().append("<button id='send-to'>Send To</button>");
   $(".action").sensitivize($(":checked", $content));
 }
 
