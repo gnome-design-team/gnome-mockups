@@ -137,7 +137,7 @@ enterSelectMode = function (selected) {
     .click(function () {
       //cancel selection and return to previous toolbar
       $toolbar.removeClass('selectmode').children().replaceWith($previous);
-      $content.find('.box').unbind('click').find("input").remove();
+      $content.find('.box').unbind('click').find(".check").remove();
     }).end().append("<button id='delete_box' class='fr action warningbutton'>Delete</button>").find('#delete_box')
       .click(function () {
         var $notify = $("#notify"),
