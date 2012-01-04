@@ -13,7 +13,8 @@ fieldset {
   margin: 0; }
 
 button, .button, input[type="button"], input[type="submit"] {
-  -webkit-appearance: default-button;
+  -webkit-appearance: none;
+  /* this should make the button behave like a box */
   font-family: Cantarell;
   font-size: 11pt;
   background-color: #454c4c;
