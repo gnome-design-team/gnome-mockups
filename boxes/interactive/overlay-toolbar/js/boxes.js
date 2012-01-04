@@ -115,7 +115,7 @@ enterSelectMode = function (selected) {
         }
       }
       //do we have checked items? show overlay toolbar?
-      console.log(this);
+      console.log(this, $content);
     });
   });
   $content.change(function () {
