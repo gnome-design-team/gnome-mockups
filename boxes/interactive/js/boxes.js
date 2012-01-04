@@ -114,7 +114,7 @@ enterSelectMode = function (selected) {
   //content
   $content = $("#content").children();
   $content.each(function (i) {
-    $(this).find('.box').append("<input type='checkbox' name='boxes'><span></span></input>").click(function (e) {
+    $(this).find('.box').append("<input type='checkbox' name='boxes'></input><span></span>").click(function (e) {
       var $check;
       $check = $("input[type='checkbox']",this);
       //console.info($check);
