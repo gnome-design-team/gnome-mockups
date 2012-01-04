@@ -160,7 +160,8 @@ button[disabled] {
   bottom: 10px;
   left: 50%;
   width: 400px;
-  margin-left: -200px; }
+  margin-left: -200px;
+  overflow: hidden; }
 
 #content {
   position: fixed;
