@@ -169,6 +169,7 @@ button[disabled] {
       height: 128px; }
     .box-contain .box .check {
       position: absolute;
+      z-index: 3;
       bottom: 6px;
       right: 6px;
       width: 39px;
@@ -191,6 +192,7 @@ button[disabled] {
       -webkit-box-shadow: none; }
       .box-contain .box.suspended span {
         position: absolute;
+        z-index: 1;
         top: 0;
         left: 0;
         right: 0;
