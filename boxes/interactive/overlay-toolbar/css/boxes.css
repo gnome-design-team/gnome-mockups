@@ -50,6 +50,12 @@ button[disabled] {
   button[disabled]:active {
     background-color: transparent; }
 
+.fr {
+  float: right; }
+
+.fl {
+  float: left; }
+
 #toolbar-main {
   position: fixed;
   display: table-cell;
@@ -70,10 +76,6 @@ button[disabled] {
   -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
   text-align: center; }
-  #toolbar-main .fr {
-    float: right; }
-  #toolbar-main .fl {
-    float: left; }
   #toolbar-main.selectmode {
     background-image: -moz-linear-gradient(top, #8e9c80, #4f6838);
     background-image: -webkit-linear-gradient(top, #8e9c80, #4f6838);
