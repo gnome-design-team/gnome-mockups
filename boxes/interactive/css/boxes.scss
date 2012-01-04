@@ -116,15 +116,21 @@ button[disabled] {
     img {
       width: 128px; height: 128px;
     }
-    input[type='checkbox'] {
+    .check {
       position: absolute;
-      bottom: 10px;
-      right: 10px;
-      display: block;
+      bottom: 6px; right: 6px;
       width: 39px; height: 39px;
-      background: url(../img/checkbox-off.png) no-repeat 0 0;
-      &:checked {
-        background: url(../img/checkbox-on.png) no-repeat 0 0;
+      input[type=checkbox] {
+        opacity: 0;
+        &+span {
+          display: block;
+          position: absolute;
+          top: 0; left: 0; right: 0; bottom: 0;
+          background-color: red;
+        }
+        &:checked+span {
+          background-color: blue;
+        }
       }
     }
     
