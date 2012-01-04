@@ -115,8 +115,10 @@ button[disabled] {
   
   button {
     padding: 9px;
+
     background-color: $button_gradient_color_a;
-    @include gradient-vertical(rgba(100,100,100,0.3), rgba(0,0,0,0.5));
+    @include gradient-vertical($button_gradient_color_a, $button_gradient_color_b);
+    /* @include gradient-vertical(rgba(100,100,100,0.3), rgba(0,0,0,0.5)); */
   }
 }
 
