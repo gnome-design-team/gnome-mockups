@@ -123,7 +123,11 @@ button[disabled] {
       display: block;
       width: 39px; height: 39px;
       background: url(../img/checkbox-off.png) no-repeat 0 0;
+      &:checked {
+        background: url(../img/checkbox-on.png) no-repeat 0 0;
+      }
     }
+    
     &.suspended {
       @include no-box-shadow();
       span {
