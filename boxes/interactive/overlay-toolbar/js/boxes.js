@@ -94,7 +94,8 @@ $.fn.notify = function (options,callback) {
 
 enterSelectMode = function (selected) {
   var $toolbar, $previous, $content,
-  $notify = $("#notify");
+  $notify = $("#notify"),
+  $overlay = $("#overlay-toolbar");
   
   //hide notification
   $notify.stopTime("noteTimer");
@@ -115,7 +116,11 @@ enterSelectMode = function (selected) {
         }
       }
       //do we have checked items? show overlay toolbar?
-      console.log($content.find(':checked').length);
+      if($content.find(':checked').length>0) {
+        $overlay.fadeIn(200);
+      } else {
+        $overlay.fadeOut(500);
+      }
     });
   });
   $content.change(function () {
