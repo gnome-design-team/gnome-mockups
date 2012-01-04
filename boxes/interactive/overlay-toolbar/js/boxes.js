@@ -125,7 +125,6 @@ enterSelectMode = function (selected) {
           $check.attr('checked','checked');
         }
       }
-      $(".action").sensitivize($(":checked", $content));
     });
   });
   if(selected) {
@@ -138,7 +137,11 @@ enterSelectMode = function (selected) {
       //cancel selection and return to previous toolbar
       $toolbar.removeClass('selectmode').children().replaceWith($previous);
       $content.find('.box').unbind('click').find("input").remove();
-    }).end().append("<button id='delete_box' class='fr action warningbutton'>Delete</button>").find('#delete_box')
+    });
+}
+
+/*
+.end().append("<button id='delete_box' class='fr action warningbutton'>Delete</button>").find('#delete_box')
       .click(function () {
         var $notify = $("#notify"),
         $undobutton = {};
@@ -176,8 +179,7 @@ enterSelectMode = function (selected) {
              $("#content").renderBoxes();
            });
       }).end().append("<button id='send-to' class='fr action'>Send To</button>");
-  $(".action").sensitivize($(":checked", $content));
-}
+      */
 
 $(document).ready(function () {
   var $notify = $("#notify");
