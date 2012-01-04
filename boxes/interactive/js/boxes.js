@@ -172,7 +172,7 @@ enterSelectMode = function (selected) {
             'duration': 5000
            }, function () {
              //deletion was actually performed
-             console.log('wha?');
+             console.log('wha?', $content);
              //$content.renderBoxes();
            });
       }).end().append("<button id='send-to' class='fr action'>Send To</button>");
