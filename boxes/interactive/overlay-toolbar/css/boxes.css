@@ -169,6 +169,10 @@ button[disabled] {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   padding: 12px; }
+  #overlay-toolbar fieldset {
+    padding: 0;
+    margin: 0;
+    border: 0; }
 
 #content {
   position: fixed;

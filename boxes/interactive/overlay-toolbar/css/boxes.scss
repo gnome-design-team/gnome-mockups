@@ -105,6 +105,12 @@ button[disabled] {
   background-color: rgba(0,0,0,0.8);
   @include border-radius(5px);
   padding: 12px;
+  
+  fieldset {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
 }
 
 #content {
