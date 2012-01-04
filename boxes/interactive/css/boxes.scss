@@ -127,10 +127,10 @@ button[disabled] {
           display: block;
           position: absolute;
           top: 0; left: 0; right: 0; bottom: 0;
-          background-color: red;
+          background: url(../img/checkbox-off.png) no-repeat 0 0;
         }
         &:checked+span {
-          background-color: blue;
+          background: url(../img/checkbox-on.png) no-repeat 0 0;
         }
       }
     }
