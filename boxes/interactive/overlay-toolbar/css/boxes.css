@@ -13,7 +13,7 @@ fieldset {
   margin: 0; }
 
 button, .button, input[type="button"], input[type="submit"] {
-  -webkit-appearance: none;
+  -webkit-appearance: default-button;
   font-family: Cantarell;
   font-size: 11pt;
   background-color: #454c4c;
