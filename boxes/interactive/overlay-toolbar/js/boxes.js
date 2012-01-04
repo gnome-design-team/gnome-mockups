@@ -135,7 +135,8 @@ enterSelectMode = function (selected) {
     .click(function () {
       //cancel selection and return to previous toolbar
       $toolbar.removeClass('selectmode').children().replaceWith($previous);
-      $content.find('.box').unbind('click').find("input").remove();
+      //remove checboxes
+      $content.find('.box').unbind('click').find(".check").remove();
     });
 }
 
