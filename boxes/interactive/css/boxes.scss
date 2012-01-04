@@ -137,7 +137,7 @@ button[disabled] {
     
     &.suspended {
       @include no-box-shadow();
-      span {
+      span.checkers {
         position: absolute;
         z-index: 1;
         top: 0; left: 0;
