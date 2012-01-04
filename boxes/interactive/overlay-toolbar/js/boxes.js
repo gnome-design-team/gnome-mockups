@@ -71,16 +71,6 @@ $.fn.renderBoxes = function () {
   });
 }
 
-$.fn.sensitivize = function ($content) {
-    if($content.length>0) {
-      $(this).removeAttr('disabled');
-    } else {
-      //console.log('disabling', this);
-      $(this).attr('disabled','disabled');
-
-    }
-}
-
 $.fn.notify = function (options,callback) {
   
   $container = $(this);
@@ -126,6 +116,9 @@ enterSelectMode = function (selected) {
         }
       }
     });
+  });
+  $content.change(function () {
+    console.log('changed');
   });
   if(selected) {
     //if called by longpress
