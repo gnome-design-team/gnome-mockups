@@ -184,6 +184,7 @@ $(document).ready(function () {
           $(this).hide(500);
         });
         $content.find('.box').unbind('click').find("div.check").remove(); //remove checkboxes after iterating through checked
+        $overlay.fadeOut(500);
         $notify.notify({
             'message':  'Box(es) successfully deleted.',
             'button':  $undobutton,
@@ -193,6 +194,6 @@ $(document).ready(function () {
              //console.log('wha?', $content);
              $("#content").renderBoxes();
          });
-         $overlay.fadeOut(500);
+         
       });
 });
