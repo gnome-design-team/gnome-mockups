@@ -174,7 +174,6 @@ $(document).ready(function () {
             $notify.empty();
           });
         });
-        $toolbar.removeClass('selectmode').children().replaceWith($previous); //restore toolbar
         
         $(":checked",$content).parents("div.box-contain").each(function () {
           var id = $(this).index();
