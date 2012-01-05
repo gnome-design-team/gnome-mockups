@@ -192,7 +192,7 @@ $(document).ready(function () {
              //deletion was actually performed
              //console.log('wha?', $content);
              $("#content").renderBoxes();
-           });
+         });
+         $overlay.fadeOut(500);
       });
-      $overlay.fadeOut(500);
 });
