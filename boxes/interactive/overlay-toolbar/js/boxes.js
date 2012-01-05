@@ -150,7 +150,6 @@ enterSelectMode = function (selected) {
       //pretend to delete selected boxes
       $undobutton = $('<button id="undo-remove">Undo</button>').click(function () {
         //undo boxes removal
-        console.log('undoing');
         BOXES = jQuery.extend(true, {}, TEMPBOXES); //roll back the previous BOXES object
         //unhide hidden
         $content.filter(":hidden").show(500);
