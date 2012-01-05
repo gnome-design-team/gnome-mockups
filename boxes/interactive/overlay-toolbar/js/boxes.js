@@ -151,7 +151,7 @@ $(document).ready(function () {
   var $notify = $("#notify"),
   $overlay = $("#overlay-toolbar"),
   $content = $("#content");
-  $("#content").renderBoxes();
+  $content.renderBoxes();
   $("#toolbar-main").on("click", "#new_box", function (event) {
     //hide notification
     $notify.stopTime("noteTimer");
