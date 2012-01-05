@@ -144,8 +144,20 @@ enterSelectMode = function (selected) {
 
 /*
 .end().append("<button id='delete_box' class='fr action warningbutton'>Delete</button>").find('#delete_box')
-      .click(function () {
-        var $notify = $("#notify"),
+     
+      */
+
+$(document).ready(function () {
+  var $notify = $("#notify"),
+  $overlay = $("#overlay-toolbar");
+  $("#content").renderBoxes();
+  $("#toolbar-main").on("click", "#new_box", function (event) {
+    //hide notification
+    $notify.stopTime("noteTimer");
+    $notify.hide(500);
+    BOXES.addBox();
+  }).on("click","#select",enterSelectMode);
+   $overlay.on("click", "#delete-box", function () {
         $undobutton = {};
         TEMPBOXES = jQuery.extend(true, {}, BOXES); //clone the box set temporarily for undo
                                                                                    //FIXME: this is not working -
@@ -180,16 +192,5 @@ enterSelectMode = function (selected) {
              //console.log('wha?', $content);
              $("#content").renderBoxes();
            });
-      }).end().append("<button id='send-to' class='fr action'>Send To</button>");
-      */
-
-$(document).ready(function () {
-  var $notify = $("#notify");
-  $("#content").renderBoxes();
-  $("#toolbar-main").on("click", "#new_box", function (event) {
-    //hide notification
-    $notify.stopTime("noteTimer");
-    $notify.hide(500);
-    BOXES.addBox();
-  }).on("click","#select",enterSelectMode);
+      });
 });
