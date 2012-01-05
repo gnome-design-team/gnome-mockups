@@ -194,4 +194,5 @@ $(document).ready(function () {
              $("#content").renderBoxes();
            });
       });
+      $overlay.fadeOut(500);
 });
