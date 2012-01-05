@@ -194,6 +194,5 @@ $(document).ready(function () {
              //console.log('wha?', $content);
              $("#content").renderBoxes();
          });
-         
       });
 });
