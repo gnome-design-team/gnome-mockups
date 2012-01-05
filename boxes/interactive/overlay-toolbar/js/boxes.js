@@ -150,7 +150,8 @@ enterSelectMode = function (selected) {
 $(document).ready(function () {
   var $notify = $("#notify"),
   $overlay = $("#overlay-toolbar"),
-  $content = $("#content");
+  $content = $("#content"),
+  $toolbar = $("#toolbar-main");
   
   $content.renderBoxes();
   $("#toolbar-main").on("click", "#new_box", function (event) {
