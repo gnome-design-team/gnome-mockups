@@ -140,6 +140,45 @@ enterSelectMode = function (selected) {
       //hide overlay toolbar
       $overlay.fadeOut(500);
     });
+  //hook actionbuttons
+  $overlay.on("click", "#delete-box", function () {
+      $undobutton = {};
+      TEMPBOXES = jQuery.extend(true, {}, BOXES); //clone the box set temporarily for undo
+                                                                                 //FIXME: this is not working -
+                                                                                 // the copy gets created when the event is bound, not when the
+                                                                                 // button is clicked?
+      //pretend to delete selected boxes
+      $undobutton = $('<button id="undo-remove">Undo</button>').click(function () {
+        //undo boxes removal
+        console.log('undoing');
+        BOXES = jQuery.extend(true, {}, TEMPBOXES); //roll back the previous BOXES object
+        //unhide hidden
+        $content.filter(":hidden").show(500);
+        $notify.stopTime("noteTimer");
+        $notify.fadeOut(500, function () {
+          $notify.empty();
+        });
+      });
+      $toolbar.removeClass('selectmode').children().replaceWith($previous); //restore toolbar
+      //delete & hide
+      $(":checked",$content).parents("div.box-contain").each(function () {
+        var id = $(this).index();
+
+        BOXES.deleteBox(id);
+        $(this).hide(500);
+      });
+      $content.find('.box').unbind('click').find("div.check").remove(); //remove checkboxes after iterating through checked
+      $overlay.fadeOut(500);
+      $notify.notify({
+          'message':  'Box(es) successfully deleted.',
+          'button':  $undobutton,
+          'duration': 5000
+         }, function () {
+           //deletion was actually performed
+           //console.log('wha?', $content);
+           $("#content").renderBoxes();
+       });
+    });  
 }
 
 /*
@@ -160,42 +199,4 @@ $(document).ready(function () {
     $notify.hide(500);
     BOXES.addBox();
   }).on("click","#select",enterSelectMode);
-   $overlay.on("click", "#delete-box", function () {
-        $undobutton = {};
-        TEMPBOXES = jQuery.extend(true, {}, BOXES); //clone the box set temporarily for undo
-                                                                                   //FIXME: this is not working -
-                                                                                   // the copy gets created when the event is bound, not when the
-                                                                                   // button is clicked?
-        //pretend to delete selected boxes
-        $undobutton = $('<button id="undo-remove">Undo</button>').click(function () {
-          //undo boxes removal
-          console.log('undoing');
-          BOXES = jQuery.extend(true, {}, TEMPBOXES); //roll back the previous BOXES object
-          //unhide hidden
-          $content.filter(":hidden").show(500);
-          $notify.stopTime("noteTimer");
-          $notify.fadeOut(500, function () {
-            $notify.empty();
-          });
-        });
-        $toolbar.removeClass('selectmode').children().replaceWith($previous); //restore toolbar
-        //delete & hide
-        $(":checked",$content).parents("div.box-contain").each(function () {
-          var id = $(this).index();
-
-          BOXES.deleteBox(id);
-          $(this).hide(500);
-        });
-        $content.find('.box').unbind('click').find("div.check").remove(); //remove checkboxes after iterating through checked
-        $overlay.fadeOut(500);
-        $notify.notify({
-            'message':  'Box(es) successfully deleted.',
-            'button':  $undobutton,
-            'duration': 5000
-           }, function () {
-             //deletion was actually performed
-             //console.log('wha?', $content);
-             $("#content").renderBoxes();
-         });
-      });
 });
