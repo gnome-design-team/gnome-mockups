@@ -1,0 +1,191 @@
+@import "base";
+@import "fonts";
+@import "colors-dark";
+@import url(http://fonts.googleapis.com/css?family=Cantarell:400,700);
+
+body {
+  color: $theme_fg_color;
+  background: darken($theme_bg_color, 10%) url(../img/noise.png) repeat 0 0;
+  font-family: Cantarell, Sans-Serif; font-size: 11pt;
+  margin: 0; padding: 0; border: 0;
+}
+
+fieldset {
+  margin: 0;
+  }
+
+button, .button, input[type="button"], input[type="submit"] {
+  -webkit-appearance: none;  /* this should make the button behave like a box */
+  font-family: Cantarell; font-size: 11pt;
+  background-color: $button_gradient_color_a;
+  @include gradient-vertical($button_gradient_color_a, $button_gradient_color_b);
+  color: $theme_fg_color;
+  display: inline-block;
+  border: 1px solid $borders;
+  @include border-radius(3px);
+  padding: 4px;
+  margin: 2px;
+  &:hover { @include gradient-vertical($button_hover_gradient_color_a, $button_hover_gradient_color_b);   }
+  &:active { @include gradient-vertical($button_active_gradient_color_a, $button_active_gradient_color_b);  }
+}
+
+button[disabled] {
+  opacity: 0.2;
+  background-color: transparent;
+  &:hover { background-color: transparent; }
+  &:active { background-color: transparent; }
+}
+
+.fr { float: right; }
+.fl { float: left; }
+
+.defaultbutton {
+  @include gradient-vertical(#7fc141, #47850d);
+  border: 1px solid #2f5d04;
+  &:hover { @include gradient-vertical(lighten(#7fc141, 10%), lighten(#47850d, 5%));   }
+  &:active { @include gradient-vertical(darken(#47850d, 10%), darken(#7fc141, 5%));   }
+}
+
+.warningbutton {
+  @include gradient-vertical(#cd4b4b, #b70000);
+  border: 1px solid #a40000;
+  &:hover { @include gradient-vertical(lighten(#cd4b4b, 10%), lighten(#b70000, 5%));   }
+  &:active { @include gradient-vertical(darken(#b70000, 10%), darken(#cd4b4b, 5%));   }
+}
+    
+#toolbar-main {
+  position: fixed;
+  display: table-cell;
+  vertical-align: middle;
+  z-index: 3;
+  top: 0; left: 0; right: 0; height:  28px;
+  border: 0;
+  background-color: $main-toolbar_gradient_b;
+  @include gradient-vertical($main-toolbar_gradient_a, $main-toolbar_gradient_b);
+  @include box-shadow(0,2px,2px,rgba(0,0,0,0.3));
+  text-align: center;
+ 
+  &.selectmode {
+    @include gradient-vertical(#8e9c80, #4f6838);
+  }
+}
+
+#notify {
+  position: absolute;
+  display: none;
+  overflow: hidden;
+  z-index: 2;
+  background-color: lighten($theme_bg_color,10%);
+  background-image: -moz-linear-gradient(top, $theme_bg_color, lighten($theme_bg_color,10%) 10px);
+  padding: 1em 2em 1em 1em;
+  top: 43px;  left: 50%;
+  @include border-bottom-lr-radius(3px);
+  border: 1px solid $borders;
+  @include box-shadow(0,2px,2px,rgba(0,0,0,0.5));
+  .message {
+    float: left;
+    min-width: 300px;
+  }
+  .closebutton {
+    position: absolute;
+    right: 8px; top: 50%; margin-top: -8px;
+    display: block;
+    width: 16px; height: 16px;
+    background: url(../img/window-close-symbolic.png) no-repeat 0 0;
+  }
+  button {
+    float: right;
+  }
+}
+
+#overlay-toolbar {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  bottom: 10px; left: 50%;
+  width: 400px; margin-left: -200px;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.6);
+  @include border-radius(5px);
+  padding: 12px;
+  
+  fieldset {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+
+
+  button {
+    padding: 9px;
+  }
+/*  can't do rgba gradients?
+    background-color: $button_gradient_color_a;
+    @include gradient-vertical(rgba(100,100,100,0.3), rgba(0,0,0,0.5));
+  }
+*/
+}
+
+#content {
+  position: fixed;
+  overflow-y: auto;
+  top: 52px; bottom: 0; right: 0; left: 0;
+}
+
+.box-contain {
+  position: relative;
+  display: inline-block;
+  font-size: 90%;
+  text-align: center;
+  max-width: 150px;
+  overflow: hidden;
+  vertical-align: top;
+  .box {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    width: 128px; height: 128px;
+    background-color: $theme_bg_color;
+    border: 1px solid lighten($theme_bg_color, 20%);
+    margin: 12px;  padding: 0;
+    @include box-shadow(0,2px,4px,rgba(0,0,0,0.4));
+    img {
+      width: 128px; height: 128px;
+    }
+    .check {
+      position: absolute;
+      z-index: 3;
+      bottom: 6px; right: 6px;
+      width: 39px; height: 39px;
+      input[type=checkbox] {
+        opacity: 0;
+        &+span {
+          display: block;
+          position: absolute;
+          top: 0; left: 0; right: 0; bottom: 0;
+          background: url(../img/checkbox-off.png) no-repeat 0 0;
+        }
+        &:checked+span {
+          background: url(../img/checkbox-on.png) no-repeat 0 0;
+        }
+      }
+    }
+    
+    &.suspended {
+      @include no-box-shadow();
+      span.checkers {
+        position: absolute;
+        z-index: 1;
+        top: 0; left: 0;
+        right: 0; bottom: 0;
+        background: url('../img/checkers.png') repeat 0 0;
+      }
+      img {
+        opacity: 0.2;
+      }
+    }
+  }
+  .label {
+    whitespace: wrap;
+  }
+}
