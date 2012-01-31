@@ -19,6 +19,18 @@
    style="display:inline">
   <defs
      id="defs2987">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7649">
+      <stop
+         style="stop-color:#eeeeec;stop-opacity:1;"
+         offset="0"
+         id="stop7651" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1"
+         id="stop7653" />
+    </linearGradient>
     <inkscape:path-effect
        is_visible="true"
        id="path-effect9388"
@@ -2668,6 +2680,15 @@
          offset="1"
          id="stop85847-4-5-9-8" />
     </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7649"
+       id="linearGradient7655"
+       x1="410"
+       y1="101.6795"
+       x2="410"
+       y2="75.301338"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -2677,9 +2698,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="438.62089"
-     inkscape:cy="221.62712"
-     inkscape:current-layer="g7055"
+     inkscape:cx="417.71934"
+     inkscape:cy="361.31586"
+     inkscape:current-layer="layer10"
      inkscape:document-units="px"
      showgrid="false"
      inkscape:snap-bbox="true"
@@ -4662,10 +4683,25 @@
     </g>
   </g>
   <g
+     inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="window"
+     style="display:inline">
+    <rect
+       style="color:#000000;fill:url(#linearGradient7655);fill-opacity:1;fill-rule:nonzero;stroke:#babdb6;stroke-width:0.99999981999999998;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+       id="rect4234-70"
+       width="601"
+       height="483"
+       x="109.50001"
+       y="76.5"
+       rx="0"
+       ry="0" />
+  </g>
+  <g
      id="layer1"
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     style="display:inline">
+     style="display:none">
     <rect
        style="color:#000000;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
        id="rect4234"
