@@ -20,6 +20,18 @@
   <defs
      id="defs2987">
     <linearGradient
+       inkscape:collect="always"
+       id="linearGradient8261">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop8263" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop8265" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient7747">
       <stop
          style="stop-color:#babdb6;stop-opacity:1;"
@@ -2852,6 +2864,74 @@
        y1="392"
        x2="479"
        y2="378.96838" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7649-1"
+       id="linearGradient7655-3"
+       x1="410"
+       y1="91.432838"
+       x2="410"
+       y2="76.328995"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99999992,0,0,0.95238094,80.000011,-12.357144)" />
+    <linearGradient
+       id="linearGradient7649-1">
+      <stop
+         style="stop-color:#eeeeec;stop-opacity:1;"
+         offset="0"
+         id="stop7651-6" />
+      <stop
+         id="stop7676-8"
+         offset="0.5"
+         style="stop-color:#ffffff;stop-opacity:1" />
+      <stop
+         style="stop-color:#eeeeec;stop-opacity:1"
+         offset="1"
+         id="stop7653-6" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7747-8"
+       id="linearGradient7753-2"
+       x1="430.00003"
+       y1="107.85499"
+       x2="430.00003"
+       y2="87.939331"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(80,-30)" />
+    <linearGradient
+       id="linearGradient7747-8">
+      <stop
+         style="stop-color:#babdb6;stop-opacity:1;"
+         offset="0"
+         id="stop7749-1" />
+      <stop
+         id="stop7755-1"
+         offset="0.5"
+         style="stop-color:#eeeeec;stop-opacity:1" />
+      <stop
+         style="stop-color:#b2b5ad;stop-opacity:1"
+         offset="1"
+         id="stop7751-4" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8261"
+       id="linearGradient8267"
+       x1="520"
+       y1="100"
+       x2="520"
+       y2="60"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,3)" />
+    <filter
+       inkscape:collect="always"
+       id="filter8273">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.6575"
+         id="feGaussianBlur8275" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -2861,9 +2941,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="316.77459"
-     inkscape:cy="260.57994"
-     inkscape:current-layer="g5817"
+     inkscape:cx="380.50432"
+     inkscape:cy="396.00667"
+     inkscape:current-layer="layer10"
      inkscape:document-units="px"
      showgrid="false"
      inkscape:snap-bbox="true"
@@ -4851,6 +4931,22 @@
      inkscape:label="window"
      style="display:inline">
     <rect
+       style="opacity:1;color:#000000;fill:#729fcf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+       id="rect8185"
+       width="800"
+       height="600"
+       x="0"
+       y="7.1054274e-15" />
+    <rect
+       style="color:#000000;fill:url(#linearGradient8267);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994000000003;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter8273);enable-background:new;opacity:0.5"
+       id="rect4234-70-7"
+       width="602"
+       height="461"
+       x="189"
+       y="63"
+       rx="0"
+       ry="0" />
+    <rect
        style="color:#000000;fill:url(#linearGradient7655);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient7753);stroke-width:0.99999994;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
        id="rect4234-70"
        width="601"
@@ -5085,7 +5181,7 @@
        transform="matrix(2,0,0,2,38.56934,-1021.5)" />
     <text
        xml:space="preserve"
-       style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+       style="font-size:14.30000019000000044px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
        x="175.28015"
        y="97"
        id="text5932-7"
@@ -5094,11 +5190,11 @@
          x="175.28015"
          y="97"
          id="tspan5936-65"
-         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#4e9a06;font-family:Cantarell;-inkscape-font-specification:Cantarell">Combobox entry to be able to enter</tspan><tspan
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#ffffff;font-family:Cantarell;-inkscape-font-specification:Cantarell">Combobox entry to be able to enter</tspan><tspan
          sodipodi:role="line"
          x="175.28015"
          y="109.5"
-         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#4e9a06;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#ffffff;font-family:Cantarell;-inkscape-font-specification:Cantarell"
          id="tspan5992">undetected network printers</tspan></text>
   </g>
   <g
@@ -8442,14 +8538,14 @@
        id="text5855"
        y="137"
        x="175.28015"
-       style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+       style="font-size:14.30000019000000044px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
        xml:space="preserve"><tspan
-         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#4e9a06;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#ffffff;font-family:Cantarell;-inkscape-font-specification:Cantarell"
          y="137"
          x="175.28015"
          id="tspan5857"
          sodipodi:role="line">Only in case there are</tspan><tspan
-         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#4e9a06;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#ffffff;font-family:Cantarell;-inkscape-font-specification:Cantarell"
          id="tspan5859"
          y="149.5"
          x="175.28015"
@@ -8803,15 +8899,15 @@
        id="text5957"
        y="221"
        x="178.29828"
-       style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+       style="font-size:14.30000019000000044px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
        xml:space="preserve"><tspan
-         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#4e9a06;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#ffffff;font-family:Cantarell;-inkscape-font-specification:Cantarell"
          id="tspan5959"
          y="221"
          x="178.29828"
          sodipodi:role="line">Only in case the printer has</tspan><tspan
          id="tspan5961"
-         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#4e9a06;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#ffffff;font-family:Cantarell;-inkscape-font-specification:Cantarell"
          y="233.5"
          x="178.29828"
          sodipodi:role="line">multiple papers loaded</tspan></text>
@@ -9099,7 +9195,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+       style="font-size:14.30000019000000044px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
        x="178.29828"
        y="258"
        id="text5932-9-2-8-0"
@@ -9108,11 +9204,11 @@
          x="178.29828"
          y="258"
          id="tspan5936-6-6-9-1"
-         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#4e9a06;font-family:Cantarell;-inkscape-font-specification:Cantarell">Only in case the printer has</tspan><tspan
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#ffffff;font-family:Cantarell;-inkscape-font-specification:Cantarell">Only in case the printer has</tspan><tspan
          sodipodi:role="line"
          x="178.29828"
          y="270.5"
-         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#4e9a06;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#ffffff;font-family:Cantarell;-inkscape-font-specification:Cantarell"
          id="tspan5964-8-6-1">two-sided capabilities</tspan></text>
   </g>
   <g
