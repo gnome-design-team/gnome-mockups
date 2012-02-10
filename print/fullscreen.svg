@@ -1567,10 +1567,10 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="447.30187"
-     inkscape:cy="151.11441"
-     inkscape:current-layer="g4372"
+     inkscape:zoom="1"
+     inkscape:cx="352.22495"
+     inkscape:cy="146.73488"
+     inkscape:current-layer="layer5"
      inkscape:document-units="px"
      showgrid="false"
      showborder="false"
@@ -1578,8 +1578,8 @@
      inkscape:snap-bbox="true"
      inkscape:window-width="1566"
      inkscape:window-height="789"
-     inkscape:window-x="90"
-     inkscape:window-y="130"
+     inkscape:window-x="66"
+     inkscape:window-y="108"
      inkscape:window-maximized="0"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -1653,7 +1653,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="overlay"
-     style="display:none">
+     style="display:inline">
     <rect
        ry="7.0000005"
        rx="7.000001"
@@ -1890,9 +1890,41 @@
        y="547.5"
        rx="5"
        ry="5" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#888a85;fill-opacity:1;stroke:none;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+       x="209.20309"
+       y="422.31879"
+       id="text4582"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4584"
+         x="209.20309"
+         y="422.31879"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#888a85;font-family:Cantarell;-inkscape-font-specification:Cantarell">Zoom Logic:</tspan><tspan
+         sodipodi:role="line"
+         x="209.20309"
+         y="440.19379"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#888a85;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         id="tspan4592" /><tspan
+         sodipodi:role="line"
+         x="209.20309"
+         y="458.06879"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#888a85;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         id="tspan4586">- Defaults to page fit</tspan><tspan
+         sodipodi:role="line"
+         x="209.20309"
+         y="475.94379"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#888a85;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         id="tspan4588">- Zooming out would reveal more pages</tspan><tspan
+         sodipodi:role="line"
+         x="209.20309"
+         y="493.81879"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#888a85;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         id="tspan4590">- Zooming in would go to fit-width then continue zooming</tspan></text>
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="overlay - pressed button"
      id="g4372"
      inkscape:groupmode="layer">
@@ -1906,18 +1938,20 @@
        rx="7.000001"
        ry="7.0000005" />
     <path
-       style="opacity:0.80000000000000004;color:#000000;fill:url(#linearGradient4468);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99747145000000004;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 281 547.5 L 281 579.5 L 310.0625 579.5 C 312.8325 579.5 315.0625 577.27 315.0625 574.5 L 315.0625 552.5 C 315.0625 549.73 312.8325 547.5 310.0625 547.5 L 281 547.5 z "
-       id="rect4378-0" />
+       style="opacity:0.8;color:#000000;fill:url(#linearGradient4468);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99747145;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 281,547.5 0,32 29.0625,0 c 2.77,0 5,-2.23 5,-5 l 0,-22 c 0,-2.77 -2.23,-5 -5,-5 L 281,547.5 z"
+       id="rect4378-0"
+       inkscape:connector-curvature="0" />
     <g
        transform="matrix(1.0050761,0,0,1,-239.23857,-107.99999)"
        id="g4376"
        style="opacity:0.8;display:inline">
       <path
-         style="color:#000000;fill:url(#linearGradient4491);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99747145000000004;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="M 217.53125 547.5 C 214.76125 547.5 212.53125 549.73 212.53125 552.5 L 212.53125 574.5 C 212.53125 577.27 214.76125 579.5 217.53125 579.5 L 281 579.5 L 281 547.5 L 217.53125 547.5 z "
+         style="color:#000000;fill:url(#linearGradient4491);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99747145;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 217.53125,547.5 c -2.77,0 -5,2.23 -5,5 l 0,22 c 0,2.77 2.23,5 5,5 l 63.46875,0 0,-32 -63.46875,0 z"
          transform="matrix(0.99494954,0,0,1,238.0303,107.99999)"
-         id="rect4378" />
+         id="rect4378"
+         inkscape:connector-curvature="0" />
       <path
          inkscape:connector-curvature="0"
          inkscape:original-d="m 483.28537,655.49649 0,32.01045"
