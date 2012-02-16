@@ -34,10 +34,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="509.14941"
-     inkscape:cy="353.15108"
+     inkscape:cx="527.35368"
+     inkscape:cy="348.43298"
      inkscape:document-units="px"
-     inkscape:current-layer="layer30"
+     inkscape:current-layer="g20482"
      showgrid="false"
      inkscape:snap-global="true"
      inkscape:snap-nodes="false"
@@ -691,16 +691,6 @@
          offset="1"
          id="stop25732-2-0-6-3" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient19062-1-5"
-       id="linearGradient31664-8"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.3215031,0,0,-0.99225741,-449.79058,-119.84078)"
-       x1="678.36285"
-       y1="-194.97076"
-       x2="678.36285"
-       y2="-150.88217" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient19062-1-5">
@@ -2750,6 +2740,24 @@
          stdDeviation="1.0490625"
          id="feGaussianBlur20103-18" />
     </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient19062-1-5"
+       id="linearGradient20360"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3215031,0,0,-0.99225741,-449.79058,-119.84078)"
+       x1="678.36285"
+       y1="-194.97076"
+       x2="678.36285"
+       y2="-150.88217" />
+    <filter
+       inkscape:collect="always"
+       id="filter20378">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.608021"
+         id="feGaussianBlur20380" />
+    </filter>
   </defs>
   <metadata
      id="metadata7">
@@ -4646,11 +4654,21 @@
            id="rect25726-2-7"
            style="color:#000000;fill:url(#linearGradient31662-1);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.00399995;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
         <path
+           sodipodi:type="inkscape:offset"
+           inkscape:radius="0"
+           inkscape:original="M 8.25 28.71875 C 3.817999 28.71875 0.25 32.258564 0.25 36.65625 L 0.25 76.78125 L 1024.0312 76.78125 L 1024.0312 36.65625 C 1024.0312 32.258564 1020.4633 28.71875 1016.0312 28.71875 L 8.25 28.71875 z "
+           xlink:href="#rect4486-1-51"
+           style="fill:#000000;fill-opacity:1;stroke:none;display:inline;enable-background:new;color:#000000;fill-rule:nonzero;marker:none;visibility:visible;overflow:visible;filter:url(#filter20378)"
+           id="path20358"
+           inkscape:href="#rect4486-1-51"
+           d="m 8.25,28.71875 c -4.432001,0 -8,3.539814 -8,7.9375 l 0,40.125 1023.7812,0 0,-40.125 c 0,-4.397686 -3.5679,-7.9375 -8,-7.9375 l -1007.7812,0 z"
+           transform="translate(0,2.0007564)" />
+        <path
            sodipodi:nodetypes="sssccss"
            inkscape:connector-curvature="0"
            id="rect4486-1-51"
            d="m 8.2500019,28.720167 1007.7796981,0 c 4.432,0 8,3.540375 8,7.938061 l 0,40.13849 -1023.7797,0 0,-40.13849 c 0,-4.397686 3.5680009,-7.938061 8.0000019,-7.938061 z"
-           style="fill:url(#linearGradient31664-8);fill-opacity:1;stroke:none;display:inline;enable-background:new" />
+           style="fill:url(#linearGradient20360);fill-opacity:1;stroke:none;display:inline;enable-background:new" />
         <rect
            style="color:#000000;fill:url(#linearGradient31666-8);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient31668-5);stroke-width:1.00020337;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
            id="rect7568-8-1-1"
@@ -5585,7 +5603,7 @@
       <text
          transform="scale(1.0001746,0.99982544)"
          xml:space="preserve"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
          x="115.51621"
          y="220.37622"
          id="text74359-8-1"
@@ -5593,31 +5611,35 @@
            sodipodi:role="line"
            id="tspan74361-9-9"
            x="115.51621"
-           y="220.37622">Screencap Feb 16, 2012</tspan></text>
+           y="220.37622">How to Power off</tspan><tspan
+           sodipodi:role="line"
+           x="115.51621"
+           y="237.87622"
+           id="tspan20356">a Computer</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text19789"
-         y="240.37973"
+         y="258.38287"
          x="115.51621"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#888a85;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
          xml:space="preserve"
          transform="scale(1.0001746,0.99982544)"><tspan
-           y="240.37973"
+           y="258.38287"
            x="115.51621"
            id="tspan19791"
-           sodipodi:role="line">5:20</tspan></text>
+           sodipodi:role="line">5:20, Feb 16, 2012</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text19812"
          y="220.37622"
          x="315.48132"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
          xml:space="preserve"
          transform="scale(1.0001746,0.99982544)"><tspan
            y="220.37622"
            x="315.48132"
            id="tspan19814"
-           sodipodi:role="line">Screencap Feb 1, 2012</tspan></text>
+           sodipodi:role="line">Boxes Demo</tspan></text>
       <text
          transform="scale(1.0001746,0.99982544)"
          xml:space="preserve"
@@ -5629,11 +5651,11 @@
            sodipodi:role="line"
            id="tspan19818"
            x="315.48132"
-           y="240.37973">5:20</tspan></text>
+           y="240.37973">15:20, Feb 1, 2012</tspan></text>
       <text
          transform="scale(1.0001746,0.99982544)"
          xml:space="preserve"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
          x="515.44653"
          y="220.37622"
          id="text19820"
@@ -5641,7 +5663,7 @@
            sodipodi:role="line"
            id="tspan19822"
            x="515.44653"
-           y="220.37622">Screencap Jan 20, 2012</tspan></text>
+           y="220.37622">Screencap</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text19824"
@@ -5653,19 +5675,19 @@
            y="240.37973"
            x="515.44653"
            id="tspan19826"
-           sodipodi:role="line">5:20</tspan></text>
+           sodipodi:role="line">5:20, Jan 20, 2012</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text19828"
          y="220.37622"
          x="715.41174"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
          xml:space="preserve"
          transform="scale(1.0001746,0.99982544)"><tspan
            y="220.37622"
-           x="715.41174"
+           x="717.32581"
            id="tspan19830"
-           sodipodi:role="line">Screencap Dec 12, 2011</tspan></text>
+           sodipodi:role="line">Screencap </tspan></text>
       <text
          transform="scale(1.0001746,0.99982544)"
          xml:space="preserve"
@@ -5677,11 +5699,11 @@
            sodipodi:role="line"
            id="tspan19834"
            x="715.41174"
-           y="240.37973">5:20</tspan></text>
+           y="240.37973">5:20, Dec 12, 2011</tspan></text>
       <text
          transform="scale(1.0001746,0.99982544)"
          xml:space="preserve"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
          x="909.37787"
          y="220.37622"
          id="text19836"
@@ -5689,7 +5711,7 @@
            sodipodi:role="line"
            id="tspan19838"
            x="909.37787"
-           y="220.37622">Screencap Nov 10, 2011</tspan></text>
+           y="220.37622">Screencap</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text19840"
@@ -5701,19 +5723,19 @@
            y="240.37973"
            x="909.37787"
            id="tspan19842"
-           sodipodi:role="line">5:20</tspan></text>
+           sodipodi:role="line">5:20,  Nov 10, 2011</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text19854"
          y="386.40521"
          x="115.51621"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
          xml:space="preserve"
          transform="scale(1.0001746,0.99982544)"><tspan
            y="386.40521"
            x="115.51621"
            id="tspan19856"
-           sodipodi:role="line">Screencap Nov 5, 2011</tspan></text>
+           sodipodi:role="line">Screencap</tspan></text>
       <text
          transform="scale(1.0001746,0.99982544)"
          xml:space="preserve"
@@ -5725,11 +5747,11 @@
            sodipodi:role="line"
            id="tspan19860"
            x="115.51621"
-           y="406.40884">5:20</tspan></text>
+           y="406.40884">5:20, Nov 5, 2011</tspan></text>
       <text
          transform="scale(1.0001746,0.99982544)"
          xml:space="preserve"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
          x="315.48132"
          y="386.40521"
          id="text19862"
@@ -5737,7 +5759,7 @@
            sodipodi:role="line"
            id="tspan19864"
            x="315.48132"
-           y="386.40521">Screencap3 Nov 4, 2011</tspan></text>
+           y="386.40521">Screencap3</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text19866"
@@ -5749,19 +5771,19 @@
            y="406.40884"
            x="315.48132"
            id="tspan19868"
-           sodipodi:role="line">5:20</tspan></text>
+           sodipodi:role="line">5:20, Nov 4, 2011</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text19870"
          y="386.40521"
          x="515.44653"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
          xml:space="preserve"
          transform="scale(1.0001746,0.99982544)"><tspan
            y="386.40521"
            x="515.44653"
            id="tspan19872"
-           sodipodi:role="line">Screencap2  Nov 4, 2011</tspan></text>
+           sodipodi:role="line">Screencap2</tspan></text>
       <text
          transform="scale(1.0001746,0.99982544)"
          xml:space="preserve"
@@ -5773,11 +5795,11 @@
            sodipodi:role="line"
            id="tspan19876"
            x="515.44653"
-           y="406.40884">5:20</tspan></text>
+           y="406.40884">5:20, Nov 4, 2011</tspan></text>
       <text
          transform="scale(1.0001746,0.99982544)"
          xml:space="preserve"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
          x="715.41174"
          y="386.40521"
          id="text19878"
@@ -5785,7 +5807,7 @@
            sodipodi:role="line"
            id="tspan19880"
            x="715.41174"
-           y="386.40521">Screencap  Nov 4, 2011</tspan></text>
+           y="386.40521">Screencap</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text19882"
@@ -5797,19 +5819,19 @@
            y="406.40884"
            x="715.41174"
            id="tspan19884"
-           sodipodi:role="line">5:20</tspan></text>
+           sodipodi:role="line">5:20, Nov 4, 2011</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text19886"
          y="386.40521"
          x="909.37787"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
          xml:space="preserve"
          transform="scale(1.0001746,0.99982544)"><tspan
            y="386.40521"
            x="909.37787"
            id="tspan19888"
-           sodipodi:role="line">Screencap2  Jul 5, 2011</tspan></text>
+           sodipodi:role="line">Screencap2</tspan></text>
       <text
          transform="scale(1.0001746,0.99982544)"
          xml:space="preserve"
@@ -5821,7 +5843,7 @@
            sodipodi:role="line"
            id="tspan19892"
            x="909.37787"
-           y="406.40884">5:20</tspan></text>
+           y="406.40884">5:20, Jul 5, 2011</tspan></text>
       <path
          sodipodi:type="inkscape:offset"
          inkscape:radius="0"
@@ -5876,7 +5898,7 @@
       <text
          transform="scale(1.0001746,0.99982544)"
          xml:space="preserve"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
          x="115.51621"
          y="556.43475"
          id="text19904"
@@ -5884,7 +5906,7 @@
            sodipodi:role="line"
            id="tspan19906"
            x="115.51621"
-           y="556.43475">Screencap  Jul 5, 2011</tspan></text>
+           y="556.43475">Screencap</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text19908"
@@ -5896,19 +5918,19 @@
            y="576.43842"
            x="115.51621"
            id="tspan19910"
-           sodipodi:role="line">5:20</tspan></text>
+           sodipodi:role="line">5:20, Jul 5, 2011</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text19912"
          y="556.43475"
          x="315.48132"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
          xml:space="preserve"
          transform="scale(1.0001746,0.99982544)"><tspan
            y="556.43475"
            x="315.48132"
            id="tspan19914"
-           sodipodi:role="line">Screenshot  Jul 3, 2011</tspan></text>
+           sodipodi:role="line">Screenshot</tspan></text>
       <text
          transform="scale(1.0001746,0.99982544)"
          xml:space="preserve"
@@ -5920,11 +5942,11 @@
            sodipodi:role="line"
            id="tspan19918"
            x="315.48132"
-           y="576.43842">5:20</tspan></text>
+           y="576.43842">5:20, Jul 3, 2011</tspan></text>
       <text
          transform="scale(1.0001746,0.99982544)"
          xml:space="preserve"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
          x="515.44653"
          y="556.43475"
          id="text19920"
@@ -5932,7 +5954,7 @@
            sodipodi:role="line"
            id="tspan19922"
            x="515.44653"
-           y="556.43475">Screenshot  Jan 16, 2011</tspan></text>
+           y="556.43475">Screenshot</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text19924"
@@ -5944,19 +5966,19 @@
            y="576.43842"
            x="515.44653"
            id="tspan19926"
-           sodipodi:role="line">5:20</tspan></text>
+           sodipodi:role="line">5:20, Jan 16, 2011</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text19928"
          y="556.43475"
          x="715.41174"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
          xml:space="preserve"
          transform="scale(1.0001746,0.99982544)"><tspan
            y="556.43475"
            x="715.41174"
            id="tspan19930"
-           sodipodi:role="line">Screenshot  Jan 3, 2011</tspan></text>
+           sodipodi:role="line">Screenshot</tspan></text>
       <text
          transform="scale(1.0001746,0.99982544)"
          xml:space="preserve"
@@ -5968,7 +5990,7 @@
            sodipodi:role="line"
            id="tspan19934"
            x="715.41174"
-           y="576.43842">5:20</tspan></text>
+           y="576.43842">5:20, Jan 3, 2011</tspan></text>
       <g
          id="g20180">
         <path
@@ -6954,6 +6976,120 @@
            id="tspan101009"
            sodipodi:role="line">Source</tspan></text>
     </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="new recording"
+     style="display:inline">
+    <path
+       inkscape:connector-curvature="0"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#a5a5a5;stroke-width:1.99999988;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 48.5,75.15625 c -0.51124,0 -1.014512,0.202012 -1.40625,0.59375 L 30.84375,92 20,92 c -4.432,0 -8,3.568 -8,8 l 0,140 c 0,4.432 3.568,8 8,8 l 275,0 c 4.432,0 8,-3.568 8,-8 l 0,-140 c 0,-4.432 -3.568,-8 -8,-8 L 66.15625,92 49.90625,75.75 C 49.51451,75.35826 49.01124,75.15625 48.5,75.15625 z"
+       id="rect41123-4-3"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="sscsssssssscss" />
+    <text
+       sodipodi:linespacing="125%"
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="50.09082"
+       y="124.67584"
+       id="text40319-0"><tspan
+         sodipodi:role="line"
+         id="tspan40321-0"
+         x="50.09082"
+         y="124.67584"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell">Take a Screenshot</tspan></text>
+    <text
+       id="text20407"
+       y="158.67584"
+       x="50.09082"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"
+       sodipodi:linespacing="125%"><tspan
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         y="158.67584"
+         x="50.09082"
+         id="tspan20409"
+         sodipodi:role="line">Record Entire Display</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="50.09082"
+       y="190.67584"
+       id="text20411"><tspan
+         sodipodi:role="line"
+         x="50.09082"
+         y="190.67584"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         id="tspan20415">Record an Area</tspan></text>
+    <text
+       id="text20419"
+       y="222.67584"
+       x="50.09082"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan20421"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         y="222.67584"
+         x="50.09082"
+         sodipodi:role="line">Record a Window</tspan></text>
+    <g
+       style="display:inline"
+       inkscape:label="camera-web"
+       id="g6826"
+       transform="translate(5,-129)">
+      <rect
+         style="color:#bebebe;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible"
+         id="rect6828"
+         width="16"
+         height="16"
+         x="20"
+         y="276"
+         inkscape:label="a" />
+      <rect
+         ry="1.0690789"
+         rx="1.0690789"
+         y="280"
+         x="21.03125"
+         height="9"
+         width="9.96875"
+         id="rect6844"
+         style="color:#bebebe;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6846"
+         d="M 31,284.4693 34.469295,281 l 0.644737,0 0,7 -0.70614,0 L 31,284.4693 z"
+         style="color:#bebebe;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+    </g>
+    <g
+       transform="translate(5,-164)"
+       id="g11537"
+       inkscape:label="camera-photo"
+       style="display:inline">
+      <rect
+         inkscape:label="a"
+         y="276"
+         x="20"
+         height="16"
+         width="16"
+         id="rect11539"
+         style="color:#bebebe;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+      <path
+         style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 26,278 c -0.549959,0 -1,0.45004 -1,1 l 0,1 -3,0 c -0.552014,0 -1,0.45004 -1,1 l 0,8 c 0,0.54996 0.447986,1 1,1 l 12,0 c 0.552014,0 1,-0.45004 1,-1 l 0,-8 c 0,-0.54996 -0.447986,-1 -1,-1 l -3,0 0,-1 c 0,-0.54996 -0.450041,-1 -1,-1 l -4,0 z m 2,3 c 2.209139,0 4,1.79086 4,4 0,2.20914 -1.790861,4 -4,4 -2.209139,0 -4,-1.79086 -4,-4 0,-2.20914 1.790861,-4 4,-4 z m 0,2 c -1.10457,0 -2,0.89543 -2,2 0,1.10457 0.89543,2 2,2 1.10457,0 2,-0.89543 2,-2 0,-1.10457 -0.89543,-2 -2,-2 z"
+         id="rect5238"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="translate(5,-99)"
+       id="g20482"
+       inkscape:label="camera-web"
+       style="display:inline" />
   </g>
   <g
      inkscape:groupmode="layer"
