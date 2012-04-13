@@ -34,8 +34,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="542.52864"
-     inkscape:cy="371.69156"
+     inkscape:cx="545.52864"
+     inkscape:cy="397.69156"
      inkscape:document-units="px"
      inkscape:current-layer="g25167"
      showgrid="false"
@@ -51,7 +51,7 @@
      inkscape:snap-to-guides="true"
      inkscape:showpageshadow="false"
      borderlayer="true"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true">
     <inkscape:grid
        snapvisiblegridlinesonly="true"
@@ -1086,6 +1086,23 @@
     <inkscape:path-effect
        effect="spiro"
        id="path-effect5884-4-7"
+       is_visible="true" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5872-5-1"
+       id="linearGradient30333"
+       gradientUnits="userSpaceOnUse"
+       x1="205.84143"
+       y1="246.7094"
+       x2="206.74803"
+       y2="231.24142" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect8915-0-8-2-7-4-4-8"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect8915-0-8-2-7-4-4-8-9"
        is_visible="true" />
   </defs>
   <metadata
@@ -3853,7 +3870,7 @@
            clip-path="url(#clipPath6259-6-8-2-8-0-2)" />
       </g>
       <g
-         transform="translate(162.5,-1045.5)"
+         transform="translate(682.5,-1045.5)"
          id="g14586">
         <g
            inkscape:export-ydpi="90"
@@ -3875,7 +3892,7 @@
            id="g5886"
            style="display:inline;enable-background:new">
           <path
-             style="fill:none;stroke:url(#linearGradient5891-0-4);stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+             style="fill:none;stroke:url(#linearGradient30333);stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
              d="m 198.5,240 5.25,5.25 13.875,-13.875"
              id="path5835"
              inkscape:path-effect="#path-effect5837-4-6"
@@ -3897,6 +3914,50 @@
              inkscape:connector-curvature="0"
              sodipodi:nodetypes="csccc" />
         </g>
+      </g>
+      <g
+         transform="translate(-241.0002,535)"
+         style="display:inline"
+         id="g14485"
+         inkscape:label="object-select">
+        <path
+           sodipodi:nodetypes="ccc"
+           inkscape:connector-curvature="0"
+           inkscape:original-d="m 65.00055,794.99698 2.999913,2.99886 5.999826,-5.99773"
+           inkscape:path-effect="#path-effect8915-0-8-2-7-4-4-8"
+           id="path8913-6-7-1-5"
+           d="m 65.00055,794.99698 2.999913,2.99886 5.999826,-5.99773"
+           style="fill:none;stroke:#bebebe;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <rect
+           inkscape:label="a"
+           y="787"
+           x="61.000198"
+           height="16"
+           width="16"
+           id="rect8856-7"
+           style="color:#bebebe;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+      </g>
+      <g
+         transform="translate(634.9998,-613)"
+         style="display:inline"
+         id="g14485-9"
+         inkscape:label="object-select">
+        <path
+           sodipodi:nodetypes="ccc"
+           inkscape:connector-curvature="0"
+           inkscape:original-d="m 65.00055,794.99698 2.999913,2.99886 5.999826,-5.99773"
+           inkscape:path-effect="#path-effect8915-0-8-2-7-4-4-8-9"
+           id="path8913-6-7-1-5-8"
+           d="m 65.00055,794.99698 2.999913,2.99886 5.999826,-5.99773"
+           style="fill:none;stroke:#ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <rect
+           inkscape:label="a"
+           y="787"
+           x="61.000198"
+           height="16"
+           width="16"
+           id="rect8856-7-2"
+           style="color:#bebebe;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       </g>
     </g>
   </g>
