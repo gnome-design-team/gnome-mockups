@@ -15,6 +15,7 @@
 # Haml
 ###
 
+set :haml
 # CodeRay syntax highlighting in Haml
 # First: gem install haml-coderay
 # require 'haml-coderay'
