@@ -105,7 +105,7 @@ $total-columns: 3;
   }  
   ul.menu {
     @include span-columns(3 omega);
-    li 
+
     
   }
   // Create a media-query breakpoint at a min-width of 30em
