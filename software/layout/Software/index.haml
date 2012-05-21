@@ -1,0 +1,47 @@
+!!!5
+%html
+  %head
+    %title Test
+    %link{"rel" => "stylesheet", "href" => "stylesheets/screen.css", "type" => "text/css"}
+  %body
+    .container
+      %h2 Featured
+    .splash
+      .featured
+        #firefox.app 
+          .label Firefox
+        #gimp.app 
+          .label GNU Image Manipulation
+        #xchat.app 
+          .label XChat
+    .container
+      %h2 Popular
+      .tile.installed
+        %img{"alt"=>"Transmission", "src"=>"images/transmission.png"}
+        .label Transmission
+      .tile
+        %img{"alt"=>"Cheese", "src"=>"images/cheese.png"}
+        .label Cheese
+      .tile.installed
+        %img{"alt"=>"Inkcape", "src"=>"images/inkscape.png"}
+        .label Inkscape
+      .tile
+        %img{"alt"=>"Foobarnificator", "src"=>"images/foo.png"}
+        .label Foobarnificator
+      .tile.installed
+        %img{"alt"=>"Sound Juicer", "src"=>"images/juicer.png"}
+        .label Sound Juicer
+      .tile
+        %img{"alt"=>"Boxes", "src"=>"images/boxes.png"}
+        .label Boxes
+    .menucontainer
+      %h2 Categories
+      %ul
+        %li
+          %a Social Networking
+        %li
+          %a Social Networking
+        %li
+          %a Social Networking
+        %li
+          %a Social Networking

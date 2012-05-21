@@ -1,0 +1,128 @@
+// Imports -------------------------------------------------------------------
+
+@import "base";
+@import "helpers";
+
+$base-bg: #f1f2f1;
+$bg: #f00;
+$splash-bg: #224d8a;
+$font-family: Cantarell, OpenSans, Sans-Serif;
+$fsize: 12pt;
+$font: 12pt/18pt $font-family;
+/* Layout ------------------------------------------------------------------*/
+
+/*
+.page {
+  @include container;
+  @include susy-grid-background;
+}
+
+h1 {
+  @include span-columns(3);
+}
+*/
+
+body {
+  margin: 0;
+  font: $font;
+  background-color: $base-bg;
+}
+
+$total-columns: 3;
+
+.splash {
+  @include gradient-vertical(darken($splash-bg,10%),lighten($splash-bg, 10%));
+  border-top: 3px solid darken($splash-bg,20%);
+  border-bottom: 3px solid darken($splash-bg,20%);
+
+  .featured {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    @include text-shadow(0,2px,1px,#000);
+    .app {
+      position: relative;
+      display:inline-block;
+      width: 32%;
+      height: 2*$fsize;
+      padding-top: 190px;
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-position: 20% 50%;
+      background-size: 150%;
+      cursor: pointer;
+      .label {
+        position: absolute;
+        bottom: 20px; left: 20px;
+        font-size: 120%;
+      }
+    }
+  }
+}
+
+#firefox {
+  background-image: url('../images/featured-firefox.png');
+}
+
+#gimp {
+  background-image: url('../images/featured-gimp.png');
+}
+
+#xchat {
+  background-image: url('../images/featured-xchat.png');
+}
+
+.container {
+  // Portrait 3
+  @include container;
+  /* @include susy-grid-background; */
+  
+  h1,h2,h3 {
+    @include span-columns(3);
+    font-size: 120%;
+  }
+  
+  .tile {
+    @include span-columns(1);
+    padding: 0;
+    &:nth-child(3n) {
+      @include span-columns(1 omega);
+    }
+    img {
+      display: block;
+      padding: 0;
+      margin: 0 auto;
+      width: 100%;
+      height: auto;
+      max-width: 171px;
+    }
+    .label {
+      display: block;
+      font-size: 90%;
+      text-align: center;
+    }
+  }  
+  
+  // Create a media-query breakpoint at a min-width of 30em
+  // 6 colum for landscape
+  @include at-breakpoint(50em 6) { 
+    // Establish our new 8-column container.
+    @include container; 
+    /* @include susy-grid-background; */
+
+    .tile {
+      @include span-columns(1);
+      &:nth-child(3n) { @include span-columns(1); }
+      &:last-child { @include span-columns(1 omega); }
+    }  
+      
+    h1,h2,h3 {
+      @include span-columns(6);
+    }    
+  }
+}
+
+.menucontainer {
+  display: none;
+}
