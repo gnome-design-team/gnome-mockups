@@ -123,8 +123,4 @@ $total-columns: 3;
   }
 }
 
-.menucontainer {
-  @extend .container;
-  @include susy-grid-background;
-  
-}
+
