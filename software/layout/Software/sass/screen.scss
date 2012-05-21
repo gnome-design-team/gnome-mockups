@@ -129,6 +129,7 @@ $total-columns: 3;
       @include span-columns(6 omega);
       li { 
         @include span-columns(2);
+      }
     }
   }
 }
