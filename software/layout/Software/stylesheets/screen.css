@@ -128,6 +128,13 @@ body {
   font-size: 90%;
   text-align: center;
 }
+/* line 106, ../sass/screen.scss */
+.container ul.menu {
+  width: 100%;
+  float: left;
+  margin-right: 3.125%;
+  display: inline;
+}
 @media (min-width: 50em) {
   /* line 76, ../sass/screen.scss */
   .container {
@@ -146,21 +153,21 @@ body {
     display: table;
     clear: both;
   }
-  /* line 114, ../sass/screen.scss */
+  /* line 118, ../sass/screen.scss */
   .container .tile {
     width: 15.385%;
     float: left;
     margin-right: 1.538%;
     display: inline;
   }
-  /* line 116, ../sass/screen.scss */
+  /* line 120, ../sass/screen.scss */
   .container .tile:nth-child(3n) {
     width: 15.385%;
     float: left;
     margin-right: 1.538%;
     display: inline;
   }
-  /* line 117, ../sass/screen.scss */
+  /* line 121, ../sass/screen.scss */
   .container .tile:last-child {
     width: 15.385%;
     float: right;
@@ -168,8 +175,15 @@ body {
     #margin-left: -1em;
     display: inline;
   }
-  /* line 120, ../sass/screen.scss */
+  /* line 124, ../sass/screen.scss */
   .container h1, .container h2, .container h3 {
+    width: 100%;
+    float: left;
+    margin-right: 1.538%;
+    display: inline;
+  }
+  /* line 127, ../sass/screen.scss */
+  .container ul.menu {
     width: 100%;
     float: left;
     margin-right: 1.538%;

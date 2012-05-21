@@ -103,7 +103,11 @@ $total-columns: 3;
       text-align: center;
     }
   }  
-  
+  ul.menu {
+    @include span-columns(3);
+    
+    
+  }
   // Create a media-query breakpoint at a min-width of 30em
   // 6 colum for landscape
   @include at-breakpoint(50em 6) { 
@@ -120,6 +124,9 @@ $total-columns: 3;
     h1,h2,h3 {
       @include span-columns(6);
     }    
+    ul.menu {
+      @include span-columns(6);
+    }
   }
 }
 
