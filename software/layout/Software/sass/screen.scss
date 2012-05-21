@@ -105,8 +105,9 @@ $total-columns: 3;
   }  
   ul.menu {
     @include span-columns(3 omega);
-
-    
+    li {
+      @include span-columns(1);
+    }
   }
   // Create a media-query breakpoint at a min-width of 30em
   // 6 colum for landscape
@@ -126,6 +127,8 @@ $total-columns: 3;
     }    
     ul.menu {
       @include span-columns(6 omega);
+      li { 
+        @include span-columns(2);
     }
   }
 }

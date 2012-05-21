@@ -1,194 +1,66 @@
-/* Layout ------------------------------------------------------------------*/
 /*
-.page {
-  @include container;
-  @include susy-grid-background;
-}
+Syntax error: Invalid CSS after "}": expected "}", was ""
+        on line 137 of /home/jimmac/SparkleShare/gnome-mockups/software/layout/Software/sass/screen.scss
 
-h1 {
-  @include span-columns(3);
-}
+Backtrace:
+/home/jimmac/SparkleShare/gnome-mockups/software/layout/Software/sass/screen.scss:137
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:1085:in `expected'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:1021:in `expected'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:1016:in `tok!'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:513:in `block'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:506:in `ruleset'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:530:in `block_child'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:523:in `block_contents'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:70:in `stylesheet'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:27:in `parse'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/engine.rb:335:in `_to_tree'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/engine.rb:308:in `_render'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/engine.rb:255:in `render'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:126:in `timed'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:139:in `block in compile'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/logger.rb:45:in `red'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:138:in `compile'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:118:in `compile_if_required'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:101:in `each'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:101:in `block in run'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:126:in `timed'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:100:in `run'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/commands/watch_project.rb:147:in `recompile'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/path.rb:73:in `call'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/path.rb:73:in `run_callback'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/path.rb:55:in `callback_action'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/path.rb:35:in `update'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/state/directory.rb:39:in `block in modified'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/state/directory.rb:37:in `each'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/state/directory.rb:37:in `modified'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/state/directory.rb:18:in `refresh'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/backends/inotify.rb:12:in `block in add_handler'
+/home/jimmac/.gem/ruby/1.9.1/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:200:in `call'
+/home/jimmac/.gem/ruby/1.9.1/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:200:in `block in watch'
+/home/jimmac/.gem/ruby/1.9.1/gems/rb-inotify-0.8.8/lib/rb-inotify/watcher.rb:41:in `[]'
+/home/jimmac/.gem/ruby/1.9.1/gems/rb-inotify-0.8.8/lib/rb-inotify/watcher.rb:41:in `callback!'
+/home/jimmac/.gem/ruby/1.9.1/gems/rb-inotify-0.8.8/lib/rb-inotify/event.rb:128:in `callback!'
+/home/jimmac/.gem/ruby/1.9.1/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:233:in `block in process'
+/home/jimmac/.gem/ruby/1.9.1/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:233:in `each'
+/home/jimmac/.gem/ruby/1.9.1/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:233:in `process'
+/home/jimmac/.gem/ruby/1.9.1/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:216:in `run'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/backends/inotify.rb:20:in `run'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/monitor.rb:26:in `run'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm.rb:20:in `monitor'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/commands/watch_project.rb:87:in `perform'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/commands/base.rb:18:in `execute'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/commands/project_base.rb:19:in `execute'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/bin/compass:29:in `block in <top (required)>'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/bin/compass:43:in `call'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/bin/compass:43:in `<top (required)>'
+/home/jimmac/bin/compass:23:in `load'
+/home/jimmac/bin/compass:23:in `<main>'
 */
-/* line 25, ../sass/screen.scss */
-body {
-  margin: 0;
-  font: 12pt/18pt Cantarell, OpenSans, Sans-Serif;
-  background-color: #f1f2f1;
-}
-
-/* line 33, ../sass/screen.scss */
-.splash {
-  background-image: -moz-linear-gradient(top, #183661, #2c64b3);
-  background-image: -webkit-linear-gradient(top, #183661, #2c64b3);
-  background-image: -o-linear-gradient(top, #183661, #2c64b3);
-  background-image: -ms-linear-gradient(top, #183661, #2c64b3);
-  background-image: linear-gradient(top, #183661, #2c64b3);
-  border-top: 3px solid #0e1f38;
-  border-bottom: 3px solid #0e1f38;
-}
-/* line 38, ../sass/screen.scss */
-.splash .featured {
-  width: 90%;
-  margin: 0 auto;
-  color: white;
-  font-weight: bold;
-  text-shadow: 0 2px 1px black;
-  -moz-text-shadow: 0 2px 1px black;
-  -webkit-text-shadow: 0 2px 1px black;
-}
-/* line 44, ../sass/screen.scss */
-.splash .featured .app {
-  position: relative;
-  display: inline-block;
-  width: 32%;
-  height: 24pt;
-  padding-top: 190px;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-position: 20% 50%;
-  background-size: 150%;
-  cursor: pointer;
-}
-/* line 55, ../sass/screen.scss */
-.splash .featured .app .label {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  font-size: 120%;
-}
-
-/* line 64, ../sass/screen.scss */
-#firefox {
-  background-image: url("../images/featured-firefox.png");
-}
-
-/* line 68, ../sass/screen.scss */
-#gimp {
-  background-image: url("../images/featured-gimp.png");
-}
-
-/* line 72, ../sass/screen.scss */
-#xchat {
-  background-image: url("../images/featured-xchat.png");
-}
-
-/* line 76, ../sass/screen.scss */
-.container {
-  *zoom: 1;
-  max-width: 32em;
-  _width: 32em;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1em;
-  padding-right: 1em;
-  /* @include susy-grid-background; */
-}
-/* line 38, ../../../../../../.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.container:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* line 81, ../sass/screen.scss */
-.container h1, .container h2, .container h3 {
-  width: 100%;
-  float: left;
-  margin-right: 3.125%;
-  display: inline;
-  font-size: 120%;
-}
-/* line 86, ../sass/screen.scss */
-.container .tile {
-  width: 31.25%;
-  float: left;
-  margin-right: 3.125%;
-  display: inline;
-  padding: 0;
-}
-/* line 89, ../sass/screen.scss */
-.container .tile:nth-child(3n) {
-  width: 31.25%;
-  float: right;
-  margin-right: 0;
-  #margin-left: -1em;
-  display: inline;
-}
-/* line 92, ../sass/screen.scss */
-.container .tile img {
-  display: block;
-  padding: 0;
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
-  max-width: 171px;
-}
-/* line 100, ../sass/screen.scss */
-.container .tile .label {
-  display: block;
-  font-size: 90%;
-  text-align: center;
-}
-/* line 106, ../sass/screen.scss */
-.container ul.menu {
-  width: 100%;
-  float: right;
-  margin-right: 0;
-  #margin-left: -1em;
-  display: inline;
-}
-@media (min-width: 50em) {
-  /* line 76, ../sass/screen.scss */
-  .container {
-    *zoom: 1;
-    max-width: 65em;
-    _width: 65em;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1em;
-    padding-right: 1em;
-    /* @include susy-grid-background; */
-  }
-  /* line 38, ../../../../../../.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-  .container:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  /* line 118, ../sass/screen.scss */
-  .container .tile {
-    width: 15.385%;
-    float: left;
-    margin-right: 1.538%;
-    display: inline;
-  }
-  /* line 120, ../sass/screen.scss */
-  .container .tile:nth-child(3n) {
-    width: 15.385%;
-    float: left;
-    margin-right: 1.538%;
-    display: inline;
-  }
-  /* line 121, ../sass/screen.scss */
-  .container .tile:last-child {
-    width: 15.385%;
-    float: right;
-    margin-right: 0;
-    #margin-left: -1em;
-    display: inline;
-  }
-  /* line 124, ../sass/screen.scss */
-  .container h1, .container h2, .container h3 {
-    width: 100%;
-    float: left;
-    margin-right: 1.538%;
-    display: inline;
-  }
-  /* line 127, ../sass/screen.scss */
-  .container ul.menu {
-    width: 100%;
-    float: right;
-    margin-right: 0;
-    #margin-left: -1em;
-    display: inline;
-  }
-}
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 137 of /home/jimmac/SparkleShare/gnome-mockups/software/layout/Software/sass/screen.scss"; }
