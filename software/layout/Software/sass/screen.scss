@@ -110,6 +110,13 @@ $total-columns: 3;
       &:nth-child(3n) {
         @include span-columns(1 omega);
       }
+      @include box-sizing(border-box);
+      padding: .5em;
+      @include border-radius(5px);
+      border: 1px solid $base-bg;
+      &:hover {
+        border: 1px solid darken($base-bg,20%);
+      }
     }
   }
   // Create a media-query breakpoint at a min-width of 30em
@@ -132,13 +139,7 @@ $total-columns: 3;
       @include span-columns(6 omega);
       li { 
         @include span-columns(2);
-        @include box-sizing(border-box);
-        padding: .5em;
-        @include border-radius(5px);
-        border: 1px solid $base-bg;
-        &:hover {
-          border: 1px solid darken($base-bg,20%);
-        }
+
         &:nth-child(3n) {
           @include span-columns(2 omega);
         }

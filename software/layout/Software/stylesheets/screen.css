@@ -142,6 +142,15 @@ body {
   float: left;
   margin-right: 3.125%;
   display: inline;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  padding: .5em;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #f1f2f1;
 }
 /* line 110, ../sass/screen.scss */
 .container ul.menu li:nth-child(3n) {
@@ -150,6 +159,10 @@ body {
   margin-right: 0;
   #margin-left: -1em;
   display: inline;
+}
+/* line 117, ../sass/screen.scss */
+.container ul.menu li:hover {
+  border: 1px solid #bcc1bc;
 }
 @media (min-width: 50em) {
   /* line 76, ../sass/screen.scss */
@@ -169,21 +182,21 @@ body {
     display: table;
     clear: both;
   }
-  /* line 122, ../sass/screen.scss */
+  /* line 129, ../sass/screen.scss */
   .container .tile {
     width: 15.385%;
     float: left;
     margin-right: 1.538%;
     display: inline;
   }
-  /* line 124, ../sass/screen.scss */
+  /* line 131, ../sass/screen.scss */
   .container .tile:nth-child(3n) {
     width: 15.385%;
     float: left;
     margin-right: 1.538%;
     display: inline;
   }
-  /* line 125, ../sass/screen.scss */
+  /* line 132, ../sass/screen.scss */
   .container .tile:last-child {
     width: 15.385%;
     float: right;
@@ -191,14 +204,14 @@ body {
     #margin-left: -1em;
     display: inline;
   }
-  /* line 128, ../sass/screen.scss */
+  /* line 135, ../sass/screen.scss */
   .container h1, .container h2, .container h3 {
     width: 100%;
     float: left;
     margin-right: 1.538%;
     display: inline;
   }
-  /* line 131, ../sass/screen.scss */
+  /* line 138, ../sass/screen.scss */
   .container ul.menu {
     width: 100%;
     float: right;
@@ -206,27 +219,14 @@ body {
     #margin-left: -1em;
     display: inline;
   }
-  /* line 133, ../sass/screen.scss */
+  /* line 140, ../sass/screen.scss */
   .container ul.menu li {
     width: 32.308%;
     float: left;
     margin-right: 1.538%;
     display: inline;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    padding: .5em;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border: 1px solid #f1f2f1;
   }
-  /* line 139, ../sass/screen.scss */
-  .container ul.menu li:hover {
-    border: 1px solid #bcc1bc;
-  }
-  /* line 142, ../sass/screen.scss */
+  /* line 143, ../sass/screen.scss */
   .container ul.menu li:nth-child(3n) {
     width: 32.308%;
     float: right;
