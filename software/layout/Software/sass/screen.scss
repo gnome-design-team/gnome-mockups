@@ -9,6 +9,7 @@ $splash-bg: #224d8a;
 $font-family: Cantarell, OpenSans, Sans-Serif;
 $fsize: 12pt;
 $font: 12pt/18pt $font-family;
+$link: #3465a4;
 /* Layout ------------------------------------------------------------------*/
 
 /*
@@ -118,6 +119,9 @@ $total-columns: 3;
       &:hover {
         border: 1px solid darken($base-bg,20%);
         @include gradient-vertical(lighten($base-bg,5%),darken($base-bg,5%));
+      }
+      a {
+        color: $link;
       }
     }
   }
