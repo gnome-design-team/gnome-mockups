@@ -216,8 +216,9 @@ body {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -o-box-sizing: border-box;
+    padding: .5em;
   }
-  /* line 136, ../sass/screen.scss */
+  /* line 137, ../sass/screen.scss */
   .container ul.menu li:nth-child(3n) {
     width: 32.308%;
     float: right;
