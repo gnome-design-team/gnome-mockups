@@ -62,16 +62,10 @@ $total-columns: 3;
   }
 }
 
-#firefox {
-  background-image: url('../images/featured-firefox.png');
-}
-
-#gimp {
-  background-image: url('../images/featured-gimp.png');
-}
-
-#xchat {
-  background-image: url('../images/featured-xchat.png');
+@each $app in firefox, gimp, xchat {
+  ##{$app} {
+    background-image: url('../images/featured-#{$app}.png');
+  }
 }
 
 .container {
