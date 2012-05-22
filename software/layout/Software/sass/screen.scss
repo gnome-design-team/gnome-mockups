@@ -123,7 +123,7 @@ $total-columns: 3;
       @include box-sizing(border-box);
       padding: .5em;
       @include border-radius(5px);
-      border: 1px solid $base-bg;
+      border: 1px solid darken($base-bg,3%);
       &:hover {
         border: 1px solid darken($base-bg,20%);
         @include gradient-vertical(lighten($base-bg,5%),darken($base-bg,5%));
