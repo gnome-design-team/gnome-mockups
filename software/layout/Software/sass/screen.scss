@@ -111,8 +111,9 @@ $total-columns: 3;
       @include box-sizing(border-box);
       font-size: 80%;
       color: #fff;
-      background-color: $link;
-      padding: 0.5em;
+      background-color: lighten($link,10%);
+      padding: 0.5em 1em;
+      @include border-radius(3px);
     }
   }  
   ul.menu {
