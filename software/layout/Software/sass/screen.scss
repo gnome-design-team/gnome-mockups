@@ -107,6 +107,9 @@ $total-columns: 3;
     @include span-columns(3 omega);
     li {
       @include span-columns(1);
+      &:nth-child(3n) {
+        @include span-columns(1 omega);
+      }
     }
   }
   // Create a media-query breakpoint at a min-width of 30em
