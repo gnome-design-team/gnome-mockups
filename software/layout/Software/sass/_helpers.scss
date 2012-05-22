@@ -118,3 +118,10 @@
   background-image: linear-gradient(top, $a , $b);
   
 }
+
+@mixin box-sizing($model) {
+  box-sizing: $model;
+  -moz-box-sizing: $model;
+  -webkit-box-sizing: $model;
+  -o-box-sizing: $model;
+}
