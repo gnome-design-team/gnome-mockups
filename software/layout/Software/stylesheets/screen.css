@@ -233,4 +233,12 @@ body {
     margin-right: 1.538%;
     display: inline;
   }
+  /* line 132, ../sass/screen.scss */
+  .container ul.menu li:nth-child(3n) {
+    width: 32.308%;
+    float: right;
+    margin-right: 0;
+    #margin-left: -1em;
+    display: inline;
+  }
 }
