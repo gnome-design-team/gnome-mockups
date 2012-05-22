@@ -104,6 +104,16 @@ $total-columns: 3;
       font-size: 90%;
       text-align: center;
     }
+    span {
+      position: absolute;
+      right: 0;
+      top: 60%;
+      @include box-sizing(border-box);
+      font-size: 80%;
+      color: #fff;
+      background-color: $link;
+      padding: 0.5em;
+    }
   }  
   ul.menu {
     @include span-columns(3 omega);
