@@ -106,6 +106,7 @@ $total-columns: 3;
   ul.menu {
     @include span-columns(3 omega);
     li {
+      cursor: pointer;
       @include span-columns(1);
       &:nth-child(3n) {
         @include span-columns(1 omega);
@@ -116,6 +117,7 @@ $total-columns: 3;
       border: 1px solid $base-bg;
       &:hover {
         border: 1px solid darken($base-bg,20%);
+        @include gradient-vertical(lighten($base-bg,5%),darken($base-bg,5%));
       }
     }
   }
