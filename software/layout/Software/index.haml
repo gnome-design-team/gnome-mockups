@@ -41,8 +41,8 @@
       %h2 Categories
       %ul.menu
       - @menu = {"Social Networking"=> "#", "Music"=>"#"}
-      - for item in @menu
+      - @menu.each do |item,link|
         %li
-          =item.value
+          =item
         
  
