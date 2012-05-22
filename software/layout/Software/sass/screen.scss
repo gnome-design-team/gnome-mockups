@@ -85,6 +85,7 @@ $total-columns: 3;
   }
   
   .tile {
+    position: relative;
     @include span-columns(1);
     padding: 0;
     &:nth-child(3n) {
