@@ -1,277 +1,89 @@
-/* Layout ------------------------------------------------------------------*/
 /*
-.page {
-  @include container;
-  @include susy-grid-background;
-}
+Syntax error: Invalid CSS after "...rgba(0,0,0,0.5)": expected ")", was ";"
+        on line 117 of /home/jimmac/SparkleShare/gnome-mockups/software/layout/Software/sass/screen.scss
 
-h1 {
-  @include span-columns(3);
-}
+Backtrace:
+/home/jimmac/SparkleShare/gnome-mockups/software/layout/Software/sass/screen.scss:117
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:1085:in `expected'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/script/lexer.rb:198:in `expected!'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/script/parser.rb:478:in `assert_tok'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/script/parser.rb:85:in `parse_mixin_include_arglist'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:960:in `sass_script'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:180:in `include_directive'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:163:in `special_directive'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:135:in `directive'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:531:in `block_child'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:523:in `block_contents'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:512:in `block'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:506:in `ruleset'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:568:in `block in declaration_or_ruleset'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:1059:in `call'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:1059:in `rethrow'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:569:in `declaration_or_ruleset'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:531:in `block_child'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:523:in `block_contents'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:512:in `block'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:506:in `ruleset'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:568:in `block in declaration_or_ruleset'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:1059:in `call'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:1059:in `rethrow'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:569:in `declaration_or_ruleset'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:531:in `block_child'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:523:in `block_contents'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:512:in `block'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:506:in `ruleset'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:530:in `block_child'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:523:in `block_contents'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:70:in `stylesheet'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/scss/parser.rb:27:in `parse'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/engine.rb:335:in `_to_tree'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/engine.rb:308:in `_render'
+/home/jimmac/.gem/ruby/1.9.1/gems/sass-3.2.0.alpha.237/lib/sass/engine.rb:255:in `render'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:126:in `timed'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:139:in `block in compile'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/logger.rb:45:in `red'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:138:in `compile'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:118:in `compile_if_required'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:101:in `each'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:101:in `block in run'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:126:in `timed'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/compiler.rb:100:in `run'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/commands/watch_project.rb:147:in `recompile'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/path.rb:73:in `call'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/path.rb:73:in `run_callback'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/path.rb:55:in `callback_action'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/path.rb:35:in `update'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/state/directory.rb:39:in `block in modified'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/state/directory.rb:37:in `each'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/state/directory.rb:37:in `modified'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/state/directory.rb:18:in `refresh'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/backends/inotify.rb:12:in `block in add_handler'
+/home/jimmac/.gem/ruby/1.9.1/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:200:in `call'
+/home/jimmac/.gem/ruby/1.9.1/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:200:in `block in watch'
+/home/jimmac/.gem/ruby/1.9.1/gems/rb-inotify-0.8.8/lib/rb-inotify/watcher.rb:41:in `[]'
+/home/jimmac/.gem/ruby/1.9.1/gems/rb-inotify-0.8.8/lib/rb-inotify/watcher.rb:41:in `callback!'
+/home/jimmac/.gem/ruby/1.9.1/gems/rb-inotify-0.8.8/lib/rb-inotify/event.rb:128:in `callback!'
+/home/jimmac/.gem/ruby/1.9.1/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:233:in `block in process'
+/home/jimmac/.gem/ruby/1.9.1/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:233:in `each'
+/home/jimmac/.gem/ruby/1.9.1/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:233:in `process'
+/home/jimmac/.gem/ruby/1.9.1/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:216:in `run'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/backends/inotify.rb:20:in `run'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm/monitor.rb:26:in `run'
+/usr/share/gems/gems/fssm-0.2.7/lib/fssm.rb:20:in `monitor'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/commands/watch_project.rb:87:in `perform'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/commands/base.rb:18:in `execute'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/commands/project_base.rb:19:in `execute'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/bin/compass:29:in `block in <top (required)>'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/bin/compass:43:in `call'
+/home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/bin/compass:43:in `<top (required)>'
+/home/jimmac/bin/compass:23:in `load'
+/home/jimmac/bin/compass:23:in `<main>'
 */
-/* line 26, ../sass/screen.scss */
-body {
-  margin: 0;
-  font: 12pt/18pt Cantarell, OpenSans, Sans-Serif;
-  background-color: #f1f2f1;
-}
-
-/* line 34, ../sass/screen.scss */
-.splash {
-  background-image: -moz-linear-gradient(top, #183661, #2c64b3);
-  background-image: -webkit-linear-gradient(top, #183661, #2c64b3);
-  background-image: -o-linear-gradient(top, #183661, #2c64b3);
-  background-image: -ms-linear-gradient(top, #183661, #2c64b3);
-  background-image: linear-gradient(top, #183661, #2c64b3);
-  border-top: 3px solid #0e1f38;
-  border-bottom: 3px solid #0e1f38;
-}
-/* line 39, ../sass/screen.scss */
-.splash .featured {
-  width: 90%;
-  margin: 0 auto;
-  color: white;
-  font-weight: bold;
-  text-shadow: 0 2px 1px black;
-  -moz-text-shadow: 0 2px 1px black;
-  -webkit-text-shadow: 0 2px 1px black;
-}
-/* line 45, ../sass/screen.scss */
-.splash .featured .app {
-  position: relative;
-  display: inline-block;
-  width: 32%;
-  height: 24pt;
-  padding-top: 190px;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-position: 20% 50%;
-  background-size: 150%;
-  cursor: pointer;
-}
-/* line 56, ../sass/screen.scss */
-.splash .featured .app .label {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  font-size: 120%;
-}
-
-/* line 65, ../sass/screen.scss */
-#firefox {
-  background-image: url("../images/featured-firefox.png");
-}
-
-/* line 69, ../sass/screen.scss */
-#gimp {
-  background-image: url("../images/featured-gimp.png");
-}
-
-/* line 73, ../sass/screen.scss */
-#xchat {
-  background-image: url("../images/featured-xchat.png");
-}
-
-/* line 77, ../sass/screen.scss */
-.container {
-  *zoom: 1;
-  max-width: 32em;
-  _width: 32em;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1em;
-  padding-right: 1em;
-  /* @include susy-grid-background; */
-}
-/* line 38, ../../../../../../.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.container:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* line 82, ../sass/screen.scss */
-.container h1, .container h2, .container h3 {
-  width: 100%;
-  float: left;
-  margin-right: 3.125%;
-  display: inline;
-  font-size: 120%;
-}
-/* line 87, ../sass/screen.scss */
-.container .tile {
-  position: relative;
-  width: 31.25%;
-  float: left;
-  margin-right: 3.125%;
-  display: inline;
-  padding: 0;
-}
-/* line 91, ../sass/screen.scss */
-.container .tile:nth-child(3n) {
-  width: 31.25%;
-  float: right;
-  margin-right: 0;
-  #margin-left: -1em;
-  display: inline;
-}
-/* line 94, ../sass/screen.scss */
-.container .tile img {
-  display: block;
-  padding: 0;
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
-  max-width: 171px;
-}
-/* line 102, ../sass/screen.scss */
-.container .tile .label {
-  display: block;
-  font-size: 90%;
-  text-align: center;
-}
-/* line 107, ../sass/screen.scss */
-.container .tile span {
-  position: absolute;
-  right: 0;
-  top: 60%;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  font-size: 80%;
-  color: #fff;
-  background-color: #6d99d1;
-  padding: 0.2em 1em;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-}
-/* line 119, ../sass/screen.scss */
-.container ul.menu {
-  width: 100%;
-  float: right;
-  margin-right: 0;
-  #margin-left: -1em;
-  display: inline;
-}
-/* line 121, ../sass/screen.scss */
-.container ul.menu li {
-  cursor: pointer;
-  width: 31.25%;
-  float: left;
-  margin-right: 3.125%;
-  display: inline;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  padding: .5em;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border: 1px solid #f1f2f1;
-}
-/* line 124, ../sass/screen.scss */
-.container ul.menu li:nth-child(3n) {
-  width: 31.25%;
-  float: right;
-  margin-right: 0;
-  #margin-left: -1em;
-  display: inline;
-}
-/* line 131, ../sass/screen.scss */
-.container ul.menu li:hover {
-  border: 1px solid #bcc1bc;
-  background-image: -moz-linear-gradient(top, #fefefe, #e4e6e4);
-  background-image: -webkit-linear-gradient(top, #fefefe, #e4e6e4);
-  background-image: -o-linear-gradient(top, #fefefe, #e4e6e4);
-  background-image: -ms-linear-gradient(top, #fefefe, #e4e6e4);
-  background-image: linear-gradient(top, #fefefe, #e4e6e4);
-  box-shadow: 0 1px 0 white;
-  -moz-box-shadow: 0 1px 0 white;
-  -webkit-box-shadow: 0 1px 0 white;
-}
-/* line 136, ../sass/screen.scss */
-.container ul.menu li:active {
-  border: 1px solid #a2a8a2;
-  background-image: -moz-linear-gradient(top, #c9cdc9, #e4e6e4);
-  background-image: -webkit-linear-gradient(top, #c9cdc9, #e4e6e4);
-  background-image: -o-linear-gradient(top, #c9cdc9, #e4e6e4);
-  background-image: -ms-linear-gradient(top, #c9cdc9, #e4e6e4);
-  background-image: linear-gradient(top, #c9cdc9, #e4e6e4);
-}
-/* line 140, ../sass/screen.scss */
-.container ul.menu li a {
-  color: #3465a4;
-}
-@media (min-width: 50em) {
-  /* line 77, ../sass/screen.scss */
-  .container {
-    *zoom: 1;
-    max-width: 65em;
-    _width: 65em;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1em;
-    padding-right: 1em;
-    /* @include susy-grid-background; */
-  }
-  /* line 38, ../../../../../../.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-  .container:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  /* line 152, ../sass/screen.scss */
-  .container .tile {
-    width: 15.385%;
-    float: left;
-    margin-right: 1.538%;
-    display: inline;
-  }
-  /* line 154, ../sass/screen.scss */
-  .container .tile:nth-child(3n) {
-    width: 15.385%;
-    float: left;
-    margin-right: 1.538%;
-    display: inline;
-  }
-  /* line 155, ../sass/screen.scss */
-  .container .tile:last-child {
-    width: 15.385%;
-    float: right;
-    margin-right: 0;
-    #margin-left: -1em;
-    display: inline;
-  }
-  /* line 158, ../sass/screen.scss */
-  .container h1, .container h2, .container h3 {
-    width: 100%;
-    float: left;
-    margin-right: 1.538%;
-    display: inline;
-  }
-  /* line 161, ../sass/screen.scss */
-  .container ul.menu {
-    width: 100%;
-    float: right;
-    margin-right: 0;
-    #margin-left: -1em;
-    display: inline;
-  }
-  /* line 163, ../sass/screen.scss */
-  .container ul.menu li {
-    width: 32.308%;
-    float: left;
-    margin-right: 1.538%;
-    display: inline;
-  }
-  /* line 166, ../sass/screen.scss */
-  .container ul.menu li:nth-child(3n) {
-    width: 32.308%;
-    float: right;
-    margin-right: 0;
-    #margin-left: -1em;
-    display: inline;
-  }
-}
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"...rgba(0,0,0,0.5)\": expected \")\", was \";\"\A         on line 117 of /home/jimmac/SparkleShare/gnome-mockups/software/layout/Software/sass/screen.scss"; }

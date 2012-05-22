@@ -114,6 +114,7 @@ $total-columns: 3;
       background-color: lighten($link,20%);
       padding: 0.2em 1em;
       @include border-radius(3px);
+      @include text-shadow(0,-1px,0,rgba(0,0,0,0.5);
     }
   }  
   ul.menu {
