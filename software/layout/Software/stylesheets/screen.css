@@ -83,7 +83,7 @@ body {
   padding-right: 1em;
   /* @include susy-grid-background; */
 }
-/* line 38, /home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .container:after {
   content: "";
   display: table;
@@ -163,7 +163,7 @@ body {
     padding-right: 1em;
     /* @include susy-grid-background; */
   }
-  /* line 38, /home/jimmac/.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../../.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .container:after {
     content: "";
     display: table;
@@ -212,8 +212,12 @@ body {
     float: left;
     margin-right: 1.538%;
     display: inline;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
   }
-  /* line 135, ../sass/screen.scss */
+  /* line 136, ../sass/screen.scss */
   .container ul.menu li:nth-child(3n) {
     width: 32.308%;
     float: right;

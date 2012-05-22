@@ -132,6 +132,7 @@ $total-columns: 3;
       @include span-columns(6 omega);
       li { 
         @include span-columns(2);
+        @include box-sizing(border-box);
         &:nth-child(3n) {
           @include span-columns(2 omega);
         }
