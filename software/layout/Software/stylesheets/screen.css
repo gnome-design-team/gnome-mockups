@@ -217,8 +217,15 @@ body {
     -webkit-box-sizing: border-box;
     -o-box-sizing: border-box;
     padding: .5em;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
   }
-  /* line 137, ../sass/screen.scss */
+  /* line 138, ../sass/screen.scss */
+  .container ul.menu li:hover {
+    border: 1px solid #bcc1bc;
+  }
+  /* line 141, ../sass/screen.scss */
   .container ul.menu li:nth-child(3n) {
     width: 32.308%;
     float: right;

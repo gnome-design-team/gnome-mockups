@@ -134,6 +134,10 @@ $total-columns: 3;
         @include span-columns(2);
         @include box-sizing(border-box);
         padding: .5em;
+        @include border-radius(5px);
+        &:hover {
+          border: 1px solid darken($base-bg,20%);
+        }
         &:nth-child(3n) {
           @include span-columns(2 omega);
         }
