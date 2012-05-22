@@ -81,7 +81,21 @@ body {
   margin-right: auto;
   padding-left: 1em;
   padding-right: 1em;
-  /* @include susy-grid-background; */
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(31.25%, rgba(100, 100, 225, 0.25)), color-stop(31.25%, rgba(0, 0, 0, 0)), color-stop(34.375%, rgba(0, 0, 0, 0)), color-stop(34.375%, rgba(100, 100, 225, 0.25)), color-stop(65.625%, rgba(100, 100, 225, 0.25)), color-stop(65.625%, rgba(0, 0, 0, 0)), color-stop(68.75%, rgba(0, 0, 0, 0)), color-stop(68.75%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 31.25%, rgba(0, 0, 0, 0) 31.25%, rgba(0, 0, 0, 0) 34.375%, rgba(100, 100, 225, 0.25) 34.375%, rgba(100, 100, 225, 0.25) 65.625%, rgba(0, 0, 0, 0) 65.625%, rgba(0, 0, 0, 0) 68.75%, rgba(100, 100, 225, 0.25) 68.75%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 31.25%, rgba(0, 0, 0, 0) 31.25%, rgba(0, 0, 0, 0) 34.375%, rgba(100, 100, 225, 0.25) 34.375%, rgba(100, 100, 225, 0.25) 65.625%, rgba(0, 0, 0, 0) 65.625%, rgba(0, 0, 0, 0) 68.75%, rgba(100, 100, 225, 0.25) 68.75%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 31.25%, rgba(0, 0, 0, 0) 31.25%, rgba(0, 0, 0, 0) 34.375%, rgba(100, 100, 225, 0.25) 34.375%, rgba(100, 100, 225, 0.25) 65.625%, rgba(0, 0, 0, 0) 65.625%, rgba(0, 0, 0, 0) 68.75%, rgba(100, 100, 225, 0.25) 68.75%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 31.25%, rgba(0, 0, 0, 0) 31.25%, rgba(0, 0, 0, 0) 34.375%, rgba(100, 100, 225, 0.25) 34.375%, rgba(100, 100, 225, 0.25) 65.625%, rgba(0, 0, 0, 0) 65.625%, rgba(0, 0, 0, 0) 68.75%, rgba(100, 100, 225, 0.25) 68.75%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 31.25%, rgba(0, 0, 0, 0) 31.25%, rgba(0, 0, 0, 0) 34.375%, rgba(100, 100, 225, 0.25) 34.375%, rgba(100, 100, 225, 0.25) 65.625%, rgba(0, 0, 0, 0) 65.625%, rgba(0, 0, 0, 0) 68.75%, rgba(100, 100, 225, 0.25) 68.75%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-position: left top;
+  -webkit-background-origin: content;
+  -moz-background-origin: content;
+  -ms-background-origin: content-box;
+  -o-background-origin: content-box;
+  background-origin: content-box;
+  -webkit-background-clip: content-box;
+  -moz-background-clip: content-box;
+  background-clip: content-box;
 }
 /* line 38, ../../../../../../.gem/ruby/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .container:after {
