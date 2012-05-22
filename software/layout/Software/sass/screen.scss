@@ -120,6 +120,10 @@ $total-columns: 3;
         border: 1px solid darken($base-bg,20%);
         @include gradient-vertical(lighten($base-bg,5%),darken($base-bg,5%));
       }
+      &:active {
+        border: 1px solid darken($base-bg,30%);
+        @include gradient-vertical(darken($base-bg,15%),darken($base-bg,5%));
+      }
       a {
         color: $link;
       }
