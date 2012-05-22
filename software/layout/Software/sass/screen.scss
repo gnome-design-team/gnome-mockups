@@ -119,7 +119,7 @@ $total-columns: 3;
       &:hover {
         border: 1px solid darken($base-bg,20%);
         @include gradient-vertical(lighten($base-bg,5%),darken($base-bg,5%));
-        @include box-shadow(0,1px,0,lighten($base-bg,50%));
+        @include box-shadow(0,1px,0,#fff);
       }
       &:active {
         border: 1px solid darken($base-bg,30%);
