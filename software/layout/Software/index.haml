@@ -39,9 +39,9 @@
         .label Boxes
     .container
       %h2 Categories
-      - @menu = {"Social Networking"=> "#", "Music"=>"#"}
       %ul.menu
-      for item in @menu
+      - @menu = {"Social Networking"=> "#", "Music"=>"#"}
+      - for item in @menu
         %li
           %a =item
         
