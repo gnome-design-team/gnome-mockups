@@ -41,6 +41,10 @@
       %h2 Categories
       - @menu = {"Social Networking"=> "#", "Music"=>"#"}
       %ul.menu
+      for item in @menu
+        %li
+          %a =item
+        
         %li
           %a Social Networking
         %li
