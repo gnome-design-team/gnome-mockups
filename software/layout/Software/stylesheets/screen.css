@@ -390,3 +390,26 @@ body {
   display: inline;
   width: 100%;
 }
+/* line 220, ../sass/screen.scss */
+.page #meta dl {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+/* line 222, ../sass/screen.scss */
+.page #meta dl dt {
+  width: 48.936%;
+  float: left;
+  margin-right: 2.128%;
+  display: inline;
+}
+/* line 225, ../sass/screen.scss */
+.page #meta dl dd {
+  width: 48.936%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}

@@ -217,5 +217,14 @@ $total-columns: 3;
       width: 100%;
     }
   }
+  #meta dl {
+    @include span-columns(12 omega);
+    dt {
+      @include span-columns(6);
+    }
+    dd {
+      @include span-columns(6 omega);
+    }
+  }
 }
 
