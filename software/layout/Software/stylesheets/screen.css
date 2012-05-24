@@ -375,12 +375,13 @@ body {
   #margin-left: -1em;
   display: inline;
   border: 2px solid transparent;
+  cursor: pointer;
 }
-/* line 211, ../sass/screen.scss */
+/* line 212, ../sass/screen.scss */
 .page #thumbnails a.selected {
   border: 2px solid #3465a4;
 }
-/* line 214, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 .page #thumbnails a img {
   width: 14.894%;
   float: right;
