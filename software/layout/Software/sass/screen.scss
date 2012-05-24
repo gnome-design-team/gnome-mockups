@@ -179,6 +179,7 @@ $total-columns: 3;
   .header {
     .icon {
       @include span-columns(2);
+      margin-top: 19px;
     }
     .name {
       @include span-columns(8);
