@@ -184,7 +184,7 @@ $total-columns: 3;
       @include span-columns(8);
     }
     .rating {
-      @include span-columns(2);
+      @include span-columns(2 omega);
     }
   }
   
