@@ -197,7 +197,7 @@ $total-columns: 3;
       }
     }
   }
-  #galleria {
+  #gallery {
     @include span-columns(10);
     img {
       @include box-sizing(border-box);
