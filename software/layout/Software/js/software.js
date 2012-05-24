@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  if (Galleria) {
-    console.log('working');
-  }
+  Galleria.loadTheme('themes/classic/galleria.classic.min.js');
+  Galleria.run('#galleria');
 });
