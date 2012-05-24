@@ -185,6 +185,11 @@ $total-columns: 3;
     }
     .rating {
       @include span-columns(2 omega);
+      img {
+        display: block;
+        align: right;
+        margin: 2em 0 0 0;
+      }
     }
   }
   
