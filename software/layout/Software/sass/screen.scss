@@ -223,6 +223,9 @@ $total-columns: 3;
       @include span-columns(3);
       margin-left: 0;
     }
+    dd:nth-child(2n) {
+      @include span-columns(3 omega);
+    }
   }
 }
 

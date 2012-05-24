@@ -420,3 +420,11 @@ body {
   display: inline;
   margin-left: 0;
 }
+/* line 226, ../sass/screen.scss */
+.page #meta dl dd:nth-child(2n) {
+  width: 23.404%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
