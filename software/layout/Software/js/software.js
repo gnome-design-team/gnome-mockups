@@ -1,3 +1,5 @@
 $(document).ready(function () {
-  console.log('working');
+  if (Galeria) {
+    console.log('working');
+  }
 });
