@@ -218,7 +218,10 @@ $total-columns: 3;
     }
   }
   #meta dl {
-    @include span-columns(6 omega);
+    @include span-columns(6);
+    &:last-child {
+      @include span-columns(6 omega);
+    }
   }
 }
 
