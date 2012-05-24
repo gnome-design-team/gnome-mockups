@@ -200,6 +200,7 @@ $total-columns: 3;
   #galleria {
     @include span-columns(10);
     img {
+      @include box-sizing(border-box);
       width: 100%;
     }
   }

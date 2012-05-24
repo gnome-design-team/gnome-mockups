@@ -371,9 +371,13 @@ body {
 }
 /* line 202, ../sass/screen.scss */
 .page #galleria img {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
   width: 100%;
 }
-/* line 206, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 .page #thumbs {
   width: 14.894%;
   float: right;
