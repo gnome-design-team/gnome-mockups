@@ -369,7 +369,11 @@ body {
   margin-right: 2.128%;
   display: inline;
 }
-/* line 203, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
+.page #galleria img {
+  width: 100%;
+}
+/* line 206, ../sass/screen.scss */
 .page #thumbs {
   width: 14.894%;
   float: right;
