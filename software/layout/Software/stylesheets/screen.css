@@ -324,7 +324,7 @@ body {
   clear: both;
 }
 /* line 180, ../sass/screen.scss */
-.page .header .icon {
+.page #header .icon {
   width: 14.894%;
   float: left;
   margin-right: 2.128%;
@@ -332,14 +332,14 @@ body {
   margin-top: 19px;
 }
 /* line 184, ../sass/screen.scss */
-.page .header .name {
+.page #header .name {
   width: 65.957%;
   float: left;
   margin-right: 2.128%;
   display: inline;
 }
 /* line 187, ../sass/screen.scss */
-.page .header .rating {
+.page #header .rating {
   width: 14.894%;
   float: right;
   margin-right: 0;
@@ -348,7 +348,7 @@ body {
   position: relative;
 }
 /* line 190, ../sass/screen.scss */
-.page .header .rating img {
+.page #header .rating img {
   display: block;
   position: absolute;
   top: 19px;
