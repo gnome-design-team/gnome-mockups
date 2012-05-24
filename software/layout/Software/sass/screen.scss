@@ -197,6 +197,11 @@ $total-columns: 3;
       }
     }
   }
-  
+  #galleria {
+    @include span-columns(10);
+  }
+  #thumbs {
+    @include span-columns(2 omega);
+  }
 }
 
