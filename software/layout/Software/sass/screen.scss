@@ -204,8 +204,12 @@ $total-columns: 3;
       width: 100%;
     }
   }
-  #thumbs {
+  #thumbnails {
     @include span-columns(2 omega);
+    img {
+      @include box-sizing(border-box);
+      width: 100%;
+    }
   }
 }
 

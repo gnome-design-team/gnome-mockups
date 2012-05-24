@@ -378,10 +378,18 @@ body {
   width: 100%;
 }
 /* line 207, ../sass/screen.scss */
-.page #thumbs {
+.page #thumbnails {
   width: 14.894%;
   float: right;
   margin-right: 0;
   #margin-left: -1em;
   display: inline;
+}
+/* line 209, ../sass/screen.scss */
+.page #thumbnails img {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  width: 100%;
 }
