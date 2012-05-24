@@ -180,7 +180,7 @@ $total-columns: 3;
     .icon {
       @include span-columns(2);
     }
-    h2 {
+    .name {
       @include span-columns(8);
     }
     .rating {
