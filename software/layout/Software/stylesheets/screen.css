@@ -379,21 +379,26 @@ body {
 }
 /* line 207, ../sass/screen.scss */
 .page #thumbnails a {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
   width: 14.894%;
   float: right;
   margin-right: 0;
   #margin-left: -1em;
   display: inline;
 }
-/* line 209, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 .page #thumbnails a.selected {
   border: 2px solid #3465a4;
 }
-/* line 212, ../sass/screen.scss */
+/* line 213, ../sass/screen.scss */
 .page #thumbnails a img {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -o-box-sizing: border-box;
+  width: 14.894%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
   width: 100%;
 }

@@ -205,12 +205,13 @@ $total-columns: 3;
     }
   }
   #thumbnails a {
+    @include box-sizing(border-box);
     @include span-columns(2 omega);
     &.selected {
       border: 2px solid $link;
     }    
     img {
-      @include box-sizing(border-box);
+      @include span-columns(2 omega);
       width: 100%;
     }
   }
