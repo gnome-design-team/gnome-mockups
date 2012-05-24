@@ -312,9 +312,23 @@ body {
   display: table;
   clear: both;
 }
-/* line 179, ../sass/screen.scss */
-.page .icon {
-  width: 23.404%;
+/* line 180, ../sass/screen.scss */
+.page .header .icon {
+  width: 14.894%;
+  float: left;
+  margin-right: 2.128%;
+  display: inline;
+}
+/* line 183, ../sass/screen.scss */
+.page .header h2 {
+  width: 65.957%;
+  float: left;
+  margin-right: 2.128%;
+  display: inline;
+}
+/* line 186, ../sass/screen.scss */
+.page .header .rating {
+  width: 14.894%;
   float: left;
   margin-right: 2.128%;
   display: inline;

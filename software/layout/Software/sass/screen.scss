@@ -176,8 +176,17 @@ $total-columns: 3;
   @include container;
   @include susy-grid-background;
   
-  .icon {
-    @include span-columns(3);
+  .header {
+    .icon {
+      @include span-columns(2);
+    }
+    h2 {
+      @include span-columns(8);
+    }
+    .rating {
+      @include span-columns(2);
+    }
   }
+  
 }
 
