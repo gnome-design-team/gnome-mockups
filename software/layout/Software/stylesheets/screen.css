@@ -388,12 +388,13 @@ body {
   margin-right: 0;
   #margin-left: -1em;
   display: inline;
+  border: 2px solid transparent;
 }
-/* line 210, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 .page #thumbnails a.selected {
   border: 2px solid #3465a4;
 }
-/* line 213, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 .page #thumbnails a img {
   width: 14.894%;
   float: right;

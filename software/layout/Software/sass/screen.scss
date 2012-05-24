@@ -207,6 +207,7 @@ $total-columns: 3;
   #thumbnails a {
     @include box-sizing(border-box);
     @include span-columns(2 omega);
+    border: 2px solid transparent;
     &.selected {
       border: 2px solid $link;
     }    
