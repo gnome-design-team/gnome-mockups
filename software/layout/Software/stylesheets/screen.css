@@ -323,7 +323,15 @@ body {
   display: table;
   clear: both;
 }
-/* line 180, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
+.page #header, .page #meta, .page #screenshots {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+/* line 183, ../sass/screen.scss */
 .page #header .icon {
   width: 14.894%;
   float: left;
@@ -331,14 +339,14 @@ body {
   display: inline;
   margin-top: 19px;
 }
-/* line 184, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 .page #header .name {
   width: 65.957%;
   float: left;
   margin-right: 2.128%;
   display: inline;
 }
-/* line 187, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .page #header .rating {
   width: 14.894%;
   float: right;
@@ -347,7 +355,7 @@ body {
   display: inline;
   position: relative;
 }
-/* line 190, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 .page #header .rating img {
   display: block;
   position: absolute;
