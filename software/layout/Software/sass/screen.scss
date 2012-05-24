@@ -224,7 +224,7 @@ $total-columns: 3;
     }
     dd {
       @include span-columns(6 omega);
-      margin-left: 0'
+      margin-left: 0;
     }
   }
 }
