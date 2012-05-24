@@ -1,0 +1,59 @@
+!!!5
+%html
+  %head
+    %title New Software
+    %link{"rel" => "stylesheet", "href" => "stylesheets/screen.css", "type" => "text/css"}
+  %body
+    .container
+      %h2 Featured
+    .splash
+      .featured
+        #firefox.app 
+          .label Firefox
+        #gimp.app 
+          .label GNU Image Manipulation
+        #xchat.app 
+          .label XChat
+    .container
+      %h2 Popular
+      .tile
+        %img{"alt"=>"Transmission", "src"=>"images/transmission.png"}
+        .label Transmission
+        %span Installed
+      .tile
+        %img{"alt"=>"Cheese", "src"=>"images/cheese.png"}
+        .label Cheese
+      .tile
+        %img{"alt"=>"Inkcape", "src"=>"images/inkscape.png"}
+        .label Inkscape
+        %span Installed
+      .tile
+        %img{"alt"=>"Foobarnificator", "src"=>"images/foo.png"}
+        .label Foobarnificator
+      .tile
+        %img{"alt"=>"Sound Juicer", "src"=>"images/juicer.png"}
+        .label Sound Juicer
+        %span Installed
+      .tile
+        %img{"alt"=>"Boxes", "src"=>"images/boxes.png"}
+        .label Boxes
+    .container
+      %h2 Categories
+      %ul.menu
+        - @menu = {"Social Networking"=> "#", 
+                   "Music"=>"#",
+                   "Navigation" => "#",
+                   "News" => "#",
+                   "Games" => "#",
+                   "Music" => "#",
+                   "Productivity" => "#",
+                   "Utility" => "#",
+                   "Weather" => "#",
+                   "Photo &amp; Video" => "#",
+                   "Business &amp; Finance" => "#",
+                   "Lifestyle" => "#",
+                   "Entertainment" => "#"}
+        - @menu.each do |item,link|
+          %li
+            %a{"href"=>link}
+              =item
