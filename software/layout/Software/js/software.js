@@ -1,4 +1,4 @@
 $(document).ready(function () {
-  Galleria.loadTheme('js/themes/classic/galleria.classic.min.js');
+  Galleria.loadTheme('themes/classic/galleria.classic.js');
   Galleria.run('#galleria');
 });
