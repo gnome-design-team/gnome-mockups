@@ -204,14 +204,14 @@ $total-columns: 3;
       width: 100%;
     }
   }
-  #thumbnails {
+  #thumbnails a {
     @include span-columns(2 omega);
+    &:.selected {
+      border: 2px solid $link;
+    }    
     img {
       @include box-sizing(border-box);
       width: 100%;
-      &.selected {
-        border: 2px solid $link;
-      }
     }
   }
 }
