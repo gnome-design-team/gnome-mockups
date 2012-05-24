@@ -174,7 +174,7 @@ $total-columns: 3;
   $column-width: 3em;
   $gutter-width: 1em;
   @include container;
-  /* @include susy-grid-background; */
+  @include susy-grid-background;
   
   #header,#meta, #screenshots {
     @include span-columns(12 omega);
