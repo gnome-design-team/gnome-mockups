@@ -5,7 +5,7 @@ var $scr = $("#gallery img"),
 
 $scr.hide();
 $thumbs.click(function () {
-  console.log($(this).attr("id"));
+  console.log($("#"+$(this).attr("id")));
   
 });
 });
