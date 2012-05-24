@@ -393,3 +393,7 @@ body {
   -o-box-sizing: border-box;
   width: 100%;
 }
+/* line 212, ../sass/screen.scss */
+.page #thumbnails img.selected {
+  border: 2px solid #3465a4;
+}

@@ -209,6 +209,9 @@ $total-columns: 3;
     img {
       @include box-sizing(border-box);
       width: 100%;
+      &.selected {
+        border: 2px solid $link;
+      }
     }
   }
 }
