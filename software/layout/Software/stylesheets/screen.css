@@ -333,11 +333,12 @@ body {
   margin-right: 0;
   #margin-left: -1em;
   display: inline;
-  text-align: right;
+  position: relative;
 }
 /* line 189, ../sass/screen.scss */
 .page .header .rating img {
   display: block;
-  text-align: right;
-  margin: 2em 0 0 0;
+  position: absolute;
+  top: 2em;
+  right: 0;
 }

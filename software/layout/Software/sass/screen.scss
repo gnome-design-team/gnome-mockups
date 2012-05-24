@@ -185,11 +185,11 @@ $total-columns: 3;
     }
     .rating {
       @include span-columns(2 omega);
-      text-align: right;
+      position: relative;
       img {
         display: block;
-        text-align: right;
-        margin: 2em 0 0 0;
+        position: absolute;
+        top: 2em; right: 0;
       }
     }
   }
