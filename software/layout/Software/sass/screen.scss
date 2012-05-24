@@ -185,6 +185,7 @@ $total-columns: 3;
     }
     .rating {
       @include span-columns(2 omega);
+      text-align: right;
       img {
         display: block;
         text-align: right;
