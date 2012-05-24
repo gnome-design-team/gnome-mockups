@@ -16,12 +16,12 @@
           %img{"src"=>"images/rating.png", "alt"=>""}
       #screenshots
         #gallery
-          %img{"src"=>"images/screenshot1.png", "alt"=>""}
-          %img{"src"=>"images/screenshot2.png", "alt"=>""}         
+          %img{"id"=>"screenshot1", "src"=>"images/screenshot1.png", "alt"=>""}
+          %img{"id"=>"screenshot2", "src"=>"images/screenshot2.png", "alt"=>""}         
         #thumbnails
-          %a{"id" => "screenshot1"}
+          %a{"data-img" => "screenshot1"}
             %img{"src"=>"images/screenshot1-thumb.png", "alt"=>""}
-          %a{"id" => "screenshot2"}
+          %a{"data-img" => "screenshot2"}
             %img{"src"=>"images/screenshot2-thumb.png", "alt"=>""}    
       #meta
         %h3 Description
