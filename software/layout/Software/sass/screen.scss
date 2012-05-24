@@ -206,7 +206,7 @@ $total-columns: 3;
   }
   #thumbnails a {
     @include span-columns(2 omega);
-    &:.selected {
+    &.selected {
       border: 2px solid $link;
     }    
     img {
