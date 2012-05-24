@@ -5,7 +5,7 @@ var $scr = $("#gallery img"),
 
 $scr.hide();
 $thumbs.click(function () {
-  console.log($("#"+$(this).attr("data-img")));
+  $("#"+$(this).attr("data-img")).show(200);
   
 });
 });
