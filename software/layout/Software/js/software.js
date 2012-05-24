@@ -6,8 +6,9 @@ $(document).ready(function () {
 
   $thumbs.click(function () {
     $scr.hide();
+    $thumbs.removeClass("selected");
     $("#"+$(this).attr("data-img")).show();
-   
+    $(this).addClass("selected");
   });
   $scr.hide();
   $thumbs[0].click();
