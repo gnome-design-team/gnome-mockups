@@ -176,8 +176,9 @@ $total-columns: 3;
   @include container;
   @include susy-grid-background;
   
-  #header,#meta, #screenshots {
+  #header,#meta, #screenshots, #buttons {
     @include span-columns(12 omega);
+    margin-bottom: 6px;
   }
   #header {
     .icon {

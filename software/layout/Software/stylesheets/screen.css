@@ -324,14 +324,15 @@ body {
   clear: both;
 }
 /* line 179, ../sass/screen.scss */
-.page #header, .page #meta, .page #screenshots {
+.page #header, .page #meta, .page #screenshots, .page #buttons {
   width: 100%;
   float: right;
   margin-right: 0;
   #margin-left: -1em;
   display: inline;
+  margin-bottom: 6px;
 }
-/* line 183, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 .page #header .icon {
   width: 14.894%;
   float: left;
@@ -339,14 +340,14 @@ body {
   display: inline;
   margin-top: 19px;
 }
-/* line 187, ../sass/screen.scss */
+/* line 188, ../sass/screen.scss */
 .page #header .name {
   width: 65.957%;
   float: left;
   margin-right: 2.128%;
   display: inline;
 }
-/* line 190, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 .page #header .rating {
   width: 14.894%;
   float: right;
@@ -355,21 +356,21 @@ body {
   display: inline;
   position: relative;
 }
-/* line 193, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 .page #header .rating img {
   display: block;
   position: absolute;
   top: 19px;
   right: 0;
 }
-/* line 200, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 .page #gallery {
   width: 82.979%;
   float: left;
   margin-right: 2.128%;
   display: inline;
 }
-/* line 202, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
 .page #gallery img {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -377,7 +378,7 @@ body {
   -o-box-sizing: border-box;
   width: 100%;
 }
-/* line 207, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 .page #thumbnails a {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -391,11 +392,11 @@ body {
   border: 2px solid transparent;
   cursor: pointer;
 }
-/* line 212, ../sass/screen.scss */
+/* line 213, ../sass/screen.scss */
 .page #thumbnails a.selected {
   border: 2px solid #3465a4;
 }
-/* line 215, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 .page #thumbnails a img {
   width: 14.894%;
   float: right;
@@ -404,14 +405,14 @@ body {
   display: inline;
   width: 100%;
 }
-/* line 220, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 .page #meta dl {
   width: 48.936%;
   float: left;
   margin-right: 2.128%;
   display: inline;
 }
-/* line 222, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 .page #meta dl:last-child {
   width: 48.936%;
   float: right;
