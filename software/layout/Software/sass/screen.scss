@@ -175,5 +175,9 @@ $total-columns: 3;
   $gutter-width: 1em;
   @include container;
   @include susy-grid-background;
+  
+  .icon {
+    @include span-columns(3);
+  }
 }
 
