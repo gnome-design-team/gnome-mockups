@@ -219,11 +219,8 @@ $total-columns: 3;
   }
   #meta dl {
     @include span-columns(12 omega);
-    dt {
-      @include span-columns(6);
-    }
-    dd {
-      @include span-columns(6 omega);
+    dt,dd {
+      @include span-columns(3);
       margin-left: 0;
     }
   }
