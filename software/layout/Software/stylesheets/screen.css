@@ -384,8 +384,9 @@ body {
 /* line 216, ../sass/screen.scss */
 .page #thumbnails {
   width: 14.894%;
-  float: left;
-  margin-right: 2.128%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
   display: inline;
 }
 /* line 219, ../sass/screen.scss */
