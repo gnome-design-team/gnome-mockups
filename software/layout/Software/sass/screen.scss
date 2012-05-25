@@ -223,11 +223,17 @@ $total-columns: 3;
     &:last-child {
       @include span-columns(6 omega);
     }
-    dt,dd {
+    dt {
+      @include span-columns(3);
       background-color: rgba(255,0,0,.1);
       @include box-sizing(border-box);
       display: inline-block;
-      width: 49.9%;
+      margin: 0;
+    }
+    dd {
+      @include span-columns(3 omega);
+      @include box-sizing(border-box);
+      display: inline-block;
       margin: 0;
     }
   }
