@@ -214,7 +214,7 @@ $total-columns: 3;
     }
   }
   #thumbnails {
-    @include span-columns(12 omega,12);
+    @include span-columns(2 omega,12);
     
     a {
       @include box-sizing(border-box);
