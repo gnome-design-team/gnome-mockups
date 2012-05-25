@@ -213,17 +213,24 @@ $total-columns: 3;
       }
     }
   }
-  #thumbnails a {
-    @include box-sizing(border-box);
-    @include span-columns(2 omega);
-    border: 2px solid transparent;
-    cursor: pointer;
-    &.selected {
-      border: 2px solid $link;
-    }    
-    img {
+  #thumbnails {
+    @include span-columns(2);
+    
+    a {
+      @include box-sizing(border-box);
       @include span-columns(2 omega);
-      width: 100%;
+      border: 2px solid transparent;
+      cursor: pointer;
+      &.selected {
+        border: 2px solid $link;
+      }    
+      img {
+        @include span-columns(2 omega);
+        width: 100%;
+      }
+    }
+    @include at-breakpoint(50em 12) {
+      @include span-columns(12);
     }
   }
   #meta dl {
