@@ -225,15 +225,10 @@ $total-columns: 3;
     }
     dt {
       @include span-columns(3);
-      float: none;
-      background-color: rgba(255,0,0,.1);
-      display: inline-block;
       margin: 0;
     }
     dd {
       @include span-columns(3 omega);
-      float: none;
-      display: inline-block;
       margin: 0;
     }
   }
