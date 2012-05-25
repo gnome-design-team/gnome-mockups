@@ -214,11 +214,11 @@ $total-columns: 3;
     }
   }
   #thumbnails {
-    @include span-columns(2 omega);
+    @include span-columns(2 omega,12);
     
     a {
       @include box-sizing(border-box);
-      @include span-columns(2 omega);
+      @include span-columns(2 omega,2);
       border: 2px solid transparent;
       cursor: pointer;
       &.selected {
