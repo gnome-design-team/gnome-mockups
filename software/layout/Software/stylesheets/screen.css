@@ -431,6 +431,24 @@ body {
   -webkit-box-shadow: 0 1px 0 white;
 }
 /* line 235, ../sass/screen.scss */
+.page #buttons button:hover {
+  border: 1px solid #0f1d30;
+  background-image: -moz-linear-gradient(top, white, #e4e6e4);
+  background-image: -webkit-linear-gradient(top, white, #e4e6e4);
+  background-image: -o-linear-gradient(top, white, #e4e6e4);
+  background-image: -ms-linear-gradient(top, white, #e4e6e4);
+  background-image: linear-gradient(top, #ffffff, #e4e6e4);
+}
+/* line 239, ../sass/screen.scss */
+.page #buttons button:active {
+  border: 1px solid #a2a8a2;
+  background-image: -moz-linear-gradient(top, #c9cdc9, #e4e6e4);
+  background-image: -webkit-linear-gradient(top, #c9cdc9, #e4e6e4);
+  background-image: -o-linear-gradient(top, #c9cdc9, #e4e6e4);
+  background-image: -ms-linear-gradient(top, #c9cdc9, #e4e6e4);
+  background-image: linear-gradient(top, #c9cdc9, #e4e6e4);
+}
+/* line 243, ../sass/screen.scss */
 .page #buttons button:last-child {
   width: 31.915%;
   float: right;

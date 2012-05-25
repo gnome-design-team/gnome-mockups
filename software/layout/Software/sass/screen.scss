@@ -232,6 +232,14 @@ $total-columns: 3;
     border: 1px solid darken($base-bg,20%);
     @include gradient-vertical(lighten($base-bg,5%),darken($base-bg,5%));
     @include box-shadow(0,1px,0,#fff);
+    &:hover {
+      border: 1px solid darken($link,30%);
+      @include gradient-vertical(lighten($base-bg,10%),darken($base-bg,5%));
+    }
+    &:active {
+      border: 1px solid darken($base-bg,30%);
+      @include gradient-vertical(darken($base-bg,15%),darken($base-bg,5%));
+    }
     &:last-child {
       @include span-columns(4 omega);
     }
