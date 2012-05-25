@@ -200,13 +200,13 @@ $total-columns: 3;
     }
   }
   #gallery {
-    @include span-columns(10);
+    @include span-columns(12);
     img {
       @include box-sizing(border-box);
       width: 100%;
     }
     @include at-breakpoint(50em 12) {
-      @include span-columns(12);
+      @include span-columns(10);
       img {
        @include box-sizing(border-box);
        width: 100%;

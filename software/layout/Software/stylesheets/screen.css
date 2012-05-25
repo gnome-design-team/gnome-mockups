@@ -351,7 +351,7 @@ body {
 }
 /* line 202, ../sass/screen.scss */
 .page #gallery {
-  width: 82.979%;
+  width: 100%;
   float: left;
   margin-right: 2.128%;
   display: inline;
@@ -367,7 +367,7 @@ body {
 @media (min-width: 50em) {
   /* line 202, ../sass/screen.scss */
   .page #gallery {
-    width: 100%;
+    width: 82.979%;
     float: left;
     margin-right: 2.128%;
     display: inline;
