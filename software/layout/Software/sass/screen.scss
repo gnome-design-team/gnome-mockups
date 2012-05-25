@@ -224,6 +224,7 @@ $total-columns: 3;
       @include span-columns(6 omega);
     }
     dt {
+      @include box-sizing(border-box);
       display: inline-block;
       width: 24.468%;
     }
