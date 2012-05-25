@@ -207,6 +207,10 @@ $total-columns: 3;
     }
     @include at-breakpoint(50em 6) {
       @include span-columns(12);
+      img {
+       @include box-sizing(border-box);
+       width: 100%;
+      }
     }
   }
   #thumbnails a {
