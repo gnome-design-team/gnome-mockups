@@ -231,6 +231,9 @@ $total-columns: 3;
     }
     @include at-breakpoint(50em 12) {
       @include span-columns(2 omega, 12);
+      a {
+        @include span-columns(2,12);
+      }
     }
   }
   #meta dl {
