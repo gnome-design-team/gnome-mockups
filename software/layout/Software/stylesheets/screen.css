@@ -430,7 +430,17 @@ body {
   display: inline;
   width: 100%;
 }
-/* line 233, ../sass/screen.scss */
+@media (min-width: 50em) {
+  /* line 216, ../sass/screen.scss */
+  .page #thumbnails {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+    #margin-left: -1em;
+    display: inline;
+  }
+}
+/* line 237, ../sass/screen.scss */
 .page #meta dl {
   width: 48.936%;
   float: left;
@@ -438,7 +448,7 @@ body {
   display: inline;
   font-size: 90%;
 }
-/* line 236, ../sass/screen.scss */
+/* line 240, ../sass/screen.scss */
 .page #meta dl:last-child {
   width: 48.936%;
   float: right;
@@ -446,7 +456,7 @@ body {
   #margin-left: -1em;
   display: inline;
 }
-/* line 239, ../sass/screen.scss */
+/* line 243, ../sass/screen.scss */
 .page #meta dl dt {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -458,7 +468,7 @@ body {
   text-align: right;
   color: #888888;
 }
-/* line 248, ../sass/screen.scss */
+/* line 252, ../sass/screen.scss */
 .page #meta dl dd {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -468,7 +478,7 @@ body {
   margin: 0;
   width: 46%;
 }
-/* line 255, ../sass/screen.scss */
+/* line 259, ../sass/screen.scss */
 .page #buttons button {
   width: 31.915%;
   float: left;
@@ -493,7 +503,7 @@ body {
   -webkit-box-shadow: 0 1px 0 white;
   cursor: pointer;
 }
-/* line 264, ../sass/screen.scss */
+/* line 268, ../sass/screen.scss */
 .page #buttons button:hover {
   border: 1px solid #3a71b7;
   background-image: -moz-linear-gradient(top, white, #e4e6e4);
@@ -502,7 +512,7 @@ body {
   background-image: -ms-linear-gradient(top, white, #e4e6e4);
   background-image: linear-gradient(top, #ffffff, #e4e6e4);
 }
-/* line 268, ../sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 .page #buttons button:active {
   border: 1px solid #a2a8a2;
   background-image: -moz-linear-gradient(top, #c9cdc9, #e4e6e4);
@@ -511,7 +521,7 @@ body {
   background-image: -ms-linear-gradient(top, #c9cdc9, #e4e6e4);
   background-image: linear-gradient(top, #c9cdc9, #e4e6e4);
 }
-/* line 272, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 .page #buttons button:last-child {
   width: 31.915%;
   float: right;
