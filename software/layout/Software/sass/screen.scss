@@ -226,7 +226,6 @@ $total-columns: 3;
       @include span-columns(6 omega);
     }
     dt {
-      background-color: rgba(255,0,0,.1);
       @include box-sizing(border-box);
       display: inline-block;
       margin: 0 3% 0 0;
