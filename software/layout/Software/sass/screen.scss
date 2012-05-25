@@ -127,6 +127,7 @@ $total-columns: 3;
       padding: .5em;
       @include border-radius(5px);
       border: 1px solid $base-bg;      
+      margin-bottom: 1px;
       &:hover {
         border: 1px solid darken($base-bg,20%);
         @include gradient-vertical(lighten($base-bg,5%),darken($base-bg,5%));
@@ -137,6 +138,7 @@ $total-columns: 3;
         @include gradient-vertical(darken($base-bg,15%),darken($base-bg,5%));
       }
       a {
+        display: block;
         color: $link;
         text-align: center;
       }
