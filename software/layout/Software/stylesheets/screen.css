@@ -407,7 +407,7 @@ body {
   display: inline;
 }
 /* line 226, ../sass/screen.scss */
-.page #meta dl dt {
+.page #meta dl dt, .page #meta dl dd {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
