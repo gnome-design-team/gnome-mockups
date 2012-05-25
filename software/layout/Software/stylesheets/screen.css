@@ -412,8 +412,25 @@ body {
   float: left;
   margin-right: 2.128%;
   display: inline;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  padding: .5em;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #bcc1bc;
+  background-image: -moz-linear-gradient(top, #fefefe, #e4e6e4);
+  background-image: -webkit-linear-gradient(top, #fefefe, #e4e6e4);
+  background-image: -o-linear-gradient(top, #fefefe, #e4e6e4);
+  background-image: -ms-linear-gradient(top, #fefefe, #e4e6e4);
+  background-image: linear-gradient(top, #fefefe, #e4e6e4);
+  box-shadow: 0 1px 0 white;
+  -moz-box-shadow: 0 1px 0 white;
+  -webkit-box-shadow: 0 1px 0 white;
 }
-/* line 229, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
 .page #buttons button:last-child {
   width: 31.915%;
   float: right;
