@@ -225,6 +225,7 @@ $total-columns: 3;
     }
     dt {
       @include span-columns(3);
+      float: none;
       background-color: rgba(255,0,0,.1);
       @include box-sizing(border-box);
       display: inline-block;
@@ -232,6 +233,7 @@ $total-columns: 3;
     }
     dd {
       @include span-columns(3 omega);
+      float: none;
       @include box-sizing(border-box);
       display: inline-block;
       margin: 0;
