@@ -220,6 +220,7 @@ $total-columns: 3;
   }
   #meta dl {
     @include span-columns(6);
+    font-size: 90%;
     &:last-child {
       @include span-columns(6 omega);
     }
@@ -229,6 +230,8 @@ $total-columns: 3;
       display: inline-block;
       margin: 0;
       width: 47.9%;
+      text-align: right;
+      
     }
     dd {
       @include box-sizing(border-box);
