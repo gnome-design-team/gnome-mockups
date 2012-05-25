@@ -228,11 +228,13 @@ $total-columns: 3;
       @include box-sizing(border-box);
       display: inline-block;
       margin: 0;
+      width: 49%;
     }
     dd {
       @include box-sizing(border-box);
       display: inline-block;
       margin: 0;
+      width: 49%;
     }
   }
   #buttons button {
