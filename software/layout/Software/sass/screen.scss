@@ -205,7 +205,7 @@ $total-columns: 3;
       @include box-sizing(border-box);
       width: 100%;
     }
-    @include at-breakpoint(50em 6) {
+    @include at-breakpoint(50em 12) {
       @include span-columns(12);
       img {
        @include box-sizing(border-box);
