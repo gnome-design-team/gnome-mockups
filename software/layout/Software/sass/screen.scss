@@ -229,7 +229,7 @@ $total-columns: 3;
       @include box-sizing(border-box);
       display: inline-block;
       margin: 0 3% 0 0;
-      width: 47.9%;
+      width: 47.8%;
       text-align: right;
       color: $label;
       
@@ -238,7 +238,7 @@ $total-columns: 3;
       @include box-sizing(border-box);
       display: inline-block;
       margin: 0;
-      width: 47.9%;
+      width: 47%;
     }
   }
   #buttons button {
