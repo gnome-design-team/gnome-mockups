@@ -219,6 +219,7 @@ body {
 /* line 139, ../sass/screen.scss */
 .container ul.menu li a {
   color: #3465a4;
+  text-align: center;
 }
 @media (min-width: 50em) {
   /* line 73, ../sass/screen.scss */
@@ -238,21 +239,21 @@ body {
     display: table;
     clear: both;
   }
-  /* line 151, ../sass/screen.scss */
+  /* line 152, ../sass/screen.scss */
   .container .tile {
     width: 15.385%;
     float: left;
     margin-right: 1.538%;
     display: inline;
   }
-  /* line 153, ../sass/screen.scss */
+  /* line 154, ../sass/screen.scss */
   .container .tile:nth-child(3n) {
     width: 15.385%;
     float: left;
     margin-right: 1.538%;
     display: inline;
   }
-  /* line 154, ../sass/screen.scss */
+  /* line 155, ../sass/screen.scss */
   .container .tile:last-child {
     width: 15.385%;
     float: right;
@@ -260,14 +261,14 @@ body {
     #margin-left: -1em;
     display: inline;
   }
-  /* line 157, ../sass/screen.scss */
+  /* line 158, ../sass/screen.scss */
   .container h1, .container h2, .container h3 {
     width: 100%;
     float: left;
     margin-right: 1.538%;
     display: inline;
   }
-  /* line 160, ../sass/screen.scss */
+  /* line 161, ../sass/screen.scss */
   .container ul.menu {
     width: 100%;
     float: right;
@@ -275,14 +276,14 @@ body {
     #margin-left: -1em;
     display: inline;
   }
-  /* line 162, ../sass/screen.scss */
+  /* line 163, ../sass/screen.scss */
   .container ul.menu li {
     width: 32.308%;
     float: left;
     margin-right: 1.538%;
     display: inline;
   }
-  /* line 165, ../sass/screen.scss */
+  /* line 166, ../sass/screen.scss */
   .container ul.menu li:nth-child(3n) {
     width: 32.308%;
     float: right;
@@ -292,7 +293,7 @@ body {
   }
 }
 
-/* line 173, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 .page {
   *zoom: 1;
   max-width: 47em;
@@ -309,7 +310,7 @@ body {
   display: table;
   clear: both;
 }
-/* line 180, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 .page #header, .page #meta, .page #screenshots, .page #buttons {
   width: 100%;
   float: right;
@@ -318,7 +319,7 @@ body {
   display: inline;
   margin-bottom: 6px;
 }
-/* line 185, ../sass/screen.scss */
+/* line 186, ../sass/screen.scss */
 .page #header .icon {
   width: 14.894%;
   float: left;
@@ -326,14 +327,14 @@ body {
   display: inline;
   margin: 19px 0 19px;
 }
-/* line 189, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .page #header .name {
   width: 65.957%;
   float: left;
   margin-right: 2.128%;
   display: inline;
 }
-/* line 192, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 .page #header .rating {
   width: 14.894%;
   float: right;
@@ -342,21 +343,21 @@ body {
   display: inline;
   position: relative;
 }
-/* line 195, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 .page #header .rating img {
   display: block;
   position: absolute;
   top: 19px;
   right: 0;
 }
-/* line 202, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
 .page #gallery {
   width: 100%;
   float: left;
   margin-right: 2.128%;
   display: inline;
 }
-/* line 204, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
 .page #gallery img {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -365,14 +366,14 @@ body {
   width: 100%;
 }
 @media (min-width: 50em) {
-  /* line 202, ../sass/screen.scss */
+  /* line 203, ../sass/screen.scss */
   .page #gallery {
     width: 82.979%;
     float: left;
     margin-right: 2.128%;
     display: inline;
   }
-  /* line 210, ../sass/screen.scss */
+  /* line 211, ../sass/screen.scss */
   .page #gallery img {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -381,7 +382,7 @@ body {
     width: 100%;
   }
 }
-/* line 216, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 .page #thumbnails {
   width: 100%;
   float: right;
@@ -389,7 +390,7 @@ body {
   #margin-left: -1em;
   display: inline;
 }
-/* line 219, ../sass/screen.scss */
+/* line 220, ../sass/screen.scss */
 .page #thumbnails a {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -402,11 +403,11 @@ body {
   border: 2px solid transparent;
   cursor: pointer;
 }
-/* line 224, ../sass/screen.scss */
+/* line 225, ../sass/screen.scss */
 .page #thumbnails a.selected {
   border: 2px solid #3465a4;
 }
-/* line 227, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 .page #thumbnails a img {
   width: 100%;
   float: right;
@@ -416,7 +417,7 @@ body {
   width: 100%;
 }
 @media (min-width: 50em) {
-  /* line 216, ../sass/screen.scss */
+  /* line 217, ../sass/screen.scss */
   .page #thumbnails {
     width: 14.894%;
     float: right;
@@ -424,7 +425,7 @@ body {
     #margin-left: -1em;
     display: inline;
   }
-  /* line 235, ../sass/screen.scss */
+  /* line 236, ../sass/screen.scss */
   .page #thumbnails a {
     width: 100%;
     float: right;
@@ -433,7 +434,7 @@ body {
     display: inline;
   }
 }
-/* line 240, ../sass/screen.scss */
+/* line 241, ../sass/screen.scss */
 .page #meta dl {
   width: 48.936%;
   float: left;
@@ -441,7 +442,7 @@ body {
   display: inline;
   font-size: 90%;
 }
-/* line 243, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 .page #meta dl:last-child {
   width: 48.936%;
   float: right;
@@ -449,7 +450,7 @@ body {
   #margin-left: -1em;
   display: inline;
 }
-/* line 246, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 .page #meta dl dt {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -461,7 +462,7 @@ body {
   text-align: right;
   color: #888888;
 }
-/* line 255, ../sass/screen.scss */
+/* line 256, ../sass/screen.scss */
 .page #meta dl dd {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -471,7 +472,7 @@ body {
   margin: 0;
   width: 46%;
 }
-/* line 262, ../sass/screen.scss */
+/* line 263, ../sass/screen.scss */
 .page #buttons button {
   width: 31.915%;
   float: left;
@@ -496,7 +497,7 @@ body {
   -webkit-box-shadow: 0 1px 0 white;
   cursor: pointer;
 }
-/* line 271, ../sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 .page #buttons button:hover {
   border: 1px solid #3a71b7;
   background-image: -moz-linear-gradient(top, white, #e4e6e4);
@@ -505,7 +506,7 @@ body {
   background-image: -ms-linear-gradient(top, white, #e4e6e4);
   background-image: linear-gradient(top, #ffffff, #e4e6e4);
 }
-/* line 275, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 .page #buttons button:active {
   border: 1px solid #a2a8a2;
   background-image: -moz-linear-gradient(top, #c9cdc9, #e4e6e4);
@@ -514,7 +515,7 @@ body {
   background-image: -ms-linear-gradient(top, #c9cdc9, #e4e6e4);
   background-image: linear-gradient(top, #c9cdc9, #e4e6e4);
 }
-/* line 279, ../sass/screen.scss */
+/* line 280, ../sass/screen.scss */
 .page #buttons button:last-child {
   width: 31.915%;
   float: right;
