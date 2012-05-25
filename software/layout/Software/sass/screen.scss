@@ -229,9 +229,7 @@ $total-columns: 3;
         width: 100%;
       }
     }
-    @include at-breakpoint(50em 12) {
-      @include span-columns(12 omega);
-    }
+
   }
   #meta dl {
     @include span-columns(6);
