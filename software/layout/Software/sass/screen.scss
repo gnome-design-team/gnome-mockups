@@ -223,6 +223,10 @@ $total-columns: 3;
     &:last-child {
       @include span-columns(6 omega);
     }
+    dt {
+      display: inline-block;
+      width: 24.468%;
+    }
   }
   #buttons button {
     @include span-columns(4);

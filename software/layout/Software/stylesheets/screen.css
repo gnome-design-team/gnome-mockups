@@ -406,7 +406,12 @@ body {
   #margin-left: -1em;
   display: inline;
 }
-/* line 227, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
+.page #meta dl dt {
+  display: inline-block;
+  width: 24.468%;
+}
+/* line 231, ../sass/screen.scss */
 .page #buttons button {
   width: 31.915%;
   float: left;
@@ -431,7 +436,7 @@ body {
   -webkit-box-shadow: 0 1px 0 white;
   cursor: pointer;
 }
-/* line 236, ../sass/screen.scss */
+/* line 240, ../sass/screen.scss */
 .page #buttons button:hover {
   border: 1px solid #3a71b7;
   background-image: -moz-linear-gradient(top, white, #e4e6e4);
@@ -440,7 +445,7 @@ body {
   background-image: -ms-linear-gradient(top, white, #e4e6e4);
   background-image: linear-gradient(top, #ffffff, #e4e6e4);
 }
-/* line 240, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 .page #buttons button:active {
   border: 1px solid #a2a8a2;
   background-image: -moz-linear-gradient(top, #c9cdc9, #e4e6e4);
@@ -449,7 +454,7 @@ body {
   background-image: -ms-linear-gradient(top, #c9cdc9, #e4e6e4);
   background-image: linear-gradient(top, #c9cdc9, #e4e6e4);
 }
-/* line 244, ../sass/screen.scss */
+/* line 248, ../sass/screen.scss */
 .page #buttons button:last-child {
   width: 31.915%;
   float: right;
