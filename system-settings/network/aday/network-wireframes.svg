@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.48.2 r9819"
    sodipodi:docname="network-wireframes.svg"
-   inkscape:export-filename="/home/allan/SparkleShare/gnome-mockups/system-settings/network/aday/png/ui-patterns.png"
+   inkscape:export-filename="/home/allan/SparkleShare/gnome-mockups/system-settings/network/aday/png/vpn.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -465,12 +465,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="432.2674"
-     inkscape:cy="2273.9131"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="371.48036"
+     inkscape:cy="972.28931"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
+     inkscape:current-layer="layer5"
+     showgrid="true"
      inkscape:window-width="1280"
      inkscape:window-height="965"
      inkscape:window-x="0"
@@ -1872,7 +1872,7 @@
          sodipodi:cy="3419.25"
          sodipodi:rx="2.75"
          sodipodi:ry="2.75"
-         d="m 3657.5,3419.25 a 2.75,2.75 0 1 1 -5.5,0 2.75,2.75 0 1 1 5.5,0 z"
+         d="m 3657.5,3419.25 c 0,1.5188 -1.2312,2.75 -2.75,2.75 -1.5188,0 -2.75,-1.2312 -2.75,-2.75 0,-1.5188 1.2312,-2.75 2.75,-2.75 1.5188,0 2.75,1.2312 2.75,2.75 z"
          transform="translate(-3737.6115,-4643.1367)" />
     </g>
     <text
@@ -2530,7 +2530,7 @@
            sodipodi:rx="1"
            sodipodi:type="arc"
            id="path15057"
-           d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+           d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
            transform="matrix(1.5,0,0,1.5,46.5002,-124)"
            sodipodi:cy="209" />
         <path
@@ -2675,7 +2675,7 @@
           <path
              sodipodi:cy="209"
              transform="matrix(1.5,0,0,1.5,26.5002,-124)"
-             d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+             d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
              id="path15111"
              sodipodi:type="arc"
              sodipodi:rx="1"
@@ -3259,7 +3259,7 @@
         <path
            sodipodi:cy="209"
            transform="matrix(1.5,0,0,1.5,66.5002,-124)"
-           d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+           d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
            id="path15329"
            sodipodi:type="arc"
            sodipodi:rx="1"
@@ -3425,7 +3425,7 @@
            sodipodi:rx="1"
            sodipodi:type="arc"
            id="path15387"
-           d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+           d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
            transform="matrix(1.5,0,0,1.5,66.5002,-124)"
            sodipodi:cy="209" />
         <path
@@ -3498,7 +3498,7 @@
         <path
            sodipodi:cy="209"
            transform="matrix(1.5,0,0,1.5,66.5002,-124)"
-           d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+           d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
            id="path15413"
            sodipodi:type="arc"
            sodipodi:rx="1"
@@ -9110,7 +9110,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="patterns"
-     style="display:inline"
+     style="display:none"
      transform="translate(1,1)">
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -9355,7 +9355,7 @@
     <path
        inkscape:connector-curvature="0"
        id="path13546"
-       d="m 40.00003,619.83783 410,0"
+       d="m 40.00003,619.83783 408.99997,0"
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <text
        xml:space="preserve"
@@ -13512,7 +13512,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="vpn"
-     style="display:none">
+     style="display:inline">
     <rect
        y="65.987228"
        x="42"
@@ -14940,7 +14940,7 @@
          sodipodi:role="line"
          id="tspan16464"
          x="72.697815"
-         y="1652.6912">General</tspan></text>
+         y="1652.6912">Network</tspan></text>
     <rect
        ry="3"
        rx="3.0000002"
@@ -14977,30 +14977,30 @@
        ry="3"
        rx="3.0000002"
        y="-1663.9465"
-       x="426"
+       x="360"
        height="26"
-       width="218"
+       width="284"
        id="rect16506"
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        transform="scale(1,-1)" />
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="414.08374"
+       x="352.08374"
        y="1655.7203"
        id="text16508"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16510"
-         x="414.08374"
+         x="352.08374"
          y="1655.7203">Domain</tspan></text>
     <rect
        transform="scale(1,-1)"
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        id="rect16512"
-       width="218"
+       width="284"
        height="26"
-       x="426"
+       x="360"
        y="-1701.9465"
        rx="3.0000002"
        ry="3" />
@@ -15008,11 +15008,11 @@
        sodipodi:linespacing="125%"
        id="text16514"
        y="1693.7203"
-       x="414.08374"
+       x="352.08374"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        xml:space="preserve"><tspan
          y="1693.7203"
-         x="414.08374"
+         x="352.08374"
          id="tspan16516"
          sodipodi:role="line">Vendor</tspan></text>
     <g
@@ -15219,7 +15219,7 @@
          y="2132.6912"
          x="72.697815"
          id="tspan16683"
-         sodipodi:role="line">General</tspan></text>
+         sodipodi:role="line">Network</tspan></text>
     <rect
        transform="scale(1,-1)"
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
