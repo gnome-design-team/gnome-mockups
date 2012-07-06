@@ -926,11 +926,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.38010483"
-     inkscape:cx="276.62489"
-     inkscape:cy="497.92401"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="866.86758"
+     inkscape:cy="1493.2055"
      inkscape:document-units="px"
-     inkscape:current-layer="g12860"
+     inkscape:current-layer="layer7"
      showgrid="true"
      inkscape:window-width="1280"
      inkscape:window-height="965"
@@ -969,7 +969,7 @@
      inkscape:groupmode="layer"
      id="g12860"
      transform="translate(3,2025.625)"
-     style="display:inline">
+     style="display:none">
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -13746,7 +13746,7 @@
         <path
            sodipodi:cy="209"
            transform="matrix(1.5,0,0,1.5,46.5002,-124)"
-           d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+           d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
            id="path12189"
            sodipodi:type="arc"
            sodipodi:rx="1"
@@ -13900,7 +13900,7 @@
              sodipodi:rx="1"
              sodipodi:type="arc"
              id="path12243"
-             d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+             d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
              transform="matrix(1.5,0,0,1.5,26.5002,-124)"
              sodipodi:cy="209" />
           <path
@@ -14486,7 +14486,7 @@
            sodipodi:rx="1"
            sodipodi:type="arc"
            id="path12461"
-           d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+           d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
            transform="matrix(1.5,0,0,1.5,66.5002,-124)"
            sodipodi:cy="209" />
         <path
@@ -14644,7 +14644,7 @@
         <path
            sodipodi:cy="209"
            transform="matrix(1.5,0,0,1.5,66.5002,-124)"
-           d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+           d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
            id="path12519"
            sodipodi:type="arc"
            sodipodi:rx="1"
@@ -14725,7 +14725,7 @@
            sodipodi:rx="1"
            sodipodi:type="arc"
            id="path12545"
-           d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+           d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
            transform="matrix(1.5,0,0,1.5,66.5002,-124)"
            sodipodi:cy="209" />
         <path
@@ -14897,95 +14897,7 @@
        y="722"
        x="319"
        id="image13812"
-       xlink:href="data:image/png;base64,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
-"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAE0ZJREFU aIHVmmmQHMWdxV9m1t1dfUxP92ju0TW6QBwSIAYkpEUGY7Q2YYy8BHYYjC1hfLJmfbAbMepdWwuL wzjWwRoEYbC9GNuK9bFgvBs+kAEL0DUaSYyO0TlHa46eme7prq6uIzP3gxAeo2vkWH9wRmRUVXZW 5e/Vy39VdmYRKSX+mhOdTqVsNkvXrt3MCCHkLw1ECCGrVmWVbDY7LTZyIQfWrt3MRiOOuuXZuz0p MV27SDYL8tbCze8IXtRzh+zshAQufA1CQFbe/ayO4yfCl1/uDP9sAWvXbmY9aZh3ZHoqnZ2d4mwN vS2KZLNbWG6NTfStcZqyFZLzx2hDwx/r5nJAg5YSY6VQeh1F0fBiSQK/Fxs2dMqz3ZhsNkuf72uO LC7ZlZ/85A5+0QIIIeTyu5+JM+1SZ8eTS4Kpvy1dv0nN6M3UTZm8fY1NGvamWJlNsvGgRFt0hRQC nRouI4gDnlsmuhmVKAJVk8uE6ok+L5Q1qi2iPMbfrNsvlZ9zlkMu2PHkune1s1Pl/t7I7mfvKcpz gJ5TwNL1myxuaVrXY3cXppa/73O/0kessjFrySK3aaDIPD3O7LTL/EmfUUujpOjRQIkRYnhn9GFZ 1YUaTkoZ14Wo+EKLabw0avJw1BVHvD6zWU86z3SurE4954oHnk2wSq2/48k1lbNxnjVQTgWQFU8k 2spTy9eu3ayV2VjNqkXzwtZqqMqkqRNZ1nlV1aWu6UyoBo/ZUZ1WEzygSRbQpOKpKRbQJA9oUqfV BI/ZUSZUQ+qazquqTmRZt1qZtnBRQzAwEWbW/v1mc2qbpxgK8XMF9VkLX8gttJkq/Jc7V74TQISA 9KfUBiuR9ryCy7jv6Eq1oqlxpoVOxWIh4oLSGuHzVEi1JNNIMhSolQqvCQVqmUaSIdWSwuepULIU CxEPnYqlxpmmVCuaUhWKlSHeMKdN69dDPd3uy50rQ6YK/4XcQnvaAmjAY1ZaOFPLOh78WbomKbXL F9ZyrVbRFKZoQo/p1bJMFYXfEEhRQ0KZpIQnAVFDPZmilCSFIElKSZJ6MgWIGkp4EiKscSthfQky I301JvSYrjBFmzszweNxTZtoeTGzftPOd0RYaeHQgMemJWDp+k0q1YSxZcM93umybBaKxkVLJJmc DENb5RxqANWohm7KLbutKTNqUKnEBedJRWpxIZAEkCBEJBXCkoSIJICEEEgqUosTIeOaoli84rcy 7qVCRcQDqAbnUGMtmeLYOG9taICazUIBgC0b7vGoJoyl6zep7+ZVztRkx10u3NNRn81uUd703CSo MFqaGkLPdTTVkwahvj024c5NRHQOpiokCE1IqnPCtUrfjoXByO41XnmiGQC0SHJAz1z2UnTmNQc4 eEAk9QmTnq4ZyvCEOzedIocVSSl3ZTmpa9UhhehvdZ9MNsVeH89mPUgpw8s++ZyrUjsOIH9eAboq I6zEy6fgsxStH1Oqu7oaIgnV5bykRinTHF3Y1UnawCHSkZg+LIWIQaGmFNwo7v35mvb6yKp7P7dB 0TUdbrWCY8ePz/7us8/eV3AG/xBf9MFfSnAfCq1Go4ZbLDnpkisqNbaZC6lDolQRlqq6TijrQ4WW 0Noms9msMPyZLrUC+90CzuhCXkBMwlkAALk1a9hIpaIwJUhHtWhFSlOt8DCqalrE8csNOlU0IkgU kDaFsCsDuy/NWP7KLz34JSVVU4to1AZjClpbW/BP//iQqrgnr68Mdi+hlNgUwgakratM9atufSg9 W9W0SIWHUavGcMOSn1YsoYxUKkpuzRpGOAsCoRsXjAGAWzSjBdksaOQVX9EsXwkETUY0U+ikYjKo FgkRqVTDJl1nTFIR5QRRKVnUG+5+77pPrPuTfhqxIqcaIgR3fOh2xRvetUqAZKRkUU4QpTpU1/Ub hVAiJESEQbWSlkElkGBaRNEsX4m84ivx+jQHuDUNAcxqGoD/1sIepRgXSkANBimTkYQR+lQxGWOW kKHle9Um3aCSCBqhEhYgEr4znjEtCyH/4/CFUApFUcE5R0NTE3xnvAZS1AIiQSUsSzNQ9fxGIrkl ZGgxxixFYywQQaoacCWgBivGhRJvsAUTiLyb9owYIIIrR5MlumKgyGQywqQfKoRRUwTCYFVqcioM AtWAhA2hWpKAQSJCQOIEFJ7n4uTQIGJ2HIwxSCnBOYcUAoHvgYAQAhKHJJ6EDAUI5xK2whRDSOpz CE+ELJSCmpqlMl4OlZgS4YZekH2UnsF7hgMUCk8mkxarjdDA8RkxPEoEZFXyBCGKJrkwJKTBGOUl 16mTYAYoMQiRUT2WKR/q7QUhQLFUQNkpwamUUfVcCAj09h6GFqtzAUQIkVFQYrhumFYVyiVCQ0Ia kgvD87w40xQpqiEjhkcDx2cnR31LEJwxqDtDQCBkSBwe8Qoui1kq1aohowzccdwEJVyjDCoFVN1Q qm6lWgfCdUipSykNo+36gR8+/yNZcV1IKVFxK6i4DjgPUZycxH+/+EtptV6fBzlVH1LqZaeS0TXm CwKNAiplUHkYxpkUQiWcadWQxSyVSggLgp4xtD5LDISBR9UIs3Va4Sr1dJuqqlqsOG6zBFQJrkoq VctQHafsNxIOTQKaAFH0mtaqnprpP/Lwo+jq2oWJiXGMj41j+44d+NY3/x1W3QKuxZsDCcoEiCIB rVxyG0zDrFAJVVKpSnC1MOE2MVUrQjLq6TatcJW6bhABePBu2jP6lMrkZIAgbbgsz02XBFyldtzu z49N3sooGeCSKkRSpTaZGB0ZKWsnRyfa6uuSBRBCSLVgzahv0eatvBm/+/0vMfniryUAEq2pR8ff rkNfboBVwrJOaJSAEDI0MtYCSLW2xh6DJAoBFBAoZcdtTqRju32FUhL6VFUC4laDFIEydEEHqlUy yAPRWBIuDRRKlJCSxrQ5wsMgMl4op4ggBJBUMpDmpnTX0PDEJb4XmoJIqRUPNq9euYI0t7TBTLfL 1NUfd2qW3etadQvQ1NyC65YuIWr5aC1ARNUP1KHhwry2psxeAkIEFRSQdHLSTXDJzaaUPaKEAVFC SlyhUM+rNlSr/uAFBXR//6OOFKSay+dTmh8lnPkE0GDb5q6+wdGlnIBIAUIkIdGYOZmqiR07dGTg ynBisCYdFdHm+jRyfb2SqLpHFC0AUQKqqH7+5AnZPCOFGj0wq6WT0cOHc/NTyVi/FbUcQQEiCZEC pG8wv9iOGDuprhEeEsKZT4YHx1KQzO3+/kedCwoAAALeNzZWaQMA6Do0XUN7U7o78LmdHy02EAop CZFUAE2NqcPRWGRk/9H8kuZ517GITrCve5sMjRnjQsAHIV6gZyYP9XTJiCYxY+YS2nNgaH7cjuQb mlLHAAEqAEmIHBsvZoKAW20tjd0AoOkaoOvIF4rNQvATZ2M9y2AOGO+bOJBsqb2yf/hk34wZUR+K AWLqPFMb+9/+3Njf2dHoVstQBIgUBDSclQon6pIh2XpgHL94rReBYwhFVFgsrvqSSFouhao/EQ2/ +h+/0dKpFG5ZGGKU+AVOaCglOCFSVF1fP5EbuyJdm/ixogoBMADAaH/erlSCGRMDY789G+tZHeh9 6bMe5cHOvtzoZYxr0vd8MCFlS0Pd0XhUf6X3SF9HGAoAnBMpwrhzYMk9d97GNt57DW69agYaauO0 MnIic+Ct/U0H3+qdkR8ZikCzi/WsX2y892rc8+EPMNvZvxiQIZEiDMMQvYdzS+JR/dWWxuRRKhXJ hJS+56NvcOwSKcnO3pc+652N9awOAMAtTcf2/Wpo3tLewf76Oa0zxrmQUipSzpvdvG3fgeOZvQeO rWif27gnyYdmtDWmE8lEEl27u6AHw+KjN8+jjQ2NqLgVDPT1syMnThi53FEz8Dy6Z28Xll3TgZkN aXvvxEB6kqa93qMnL9F1tWvunJZtREgZMilJKOXA4Hhd1QvM9zUc2nsuzvNOq1z2yeeaTKbcPn9u 5rWaVK0PQXTJQh1C6MeOD19bKLrvvbml75JPffxjCU3T8cTTT4RF1Bw1STVFvGIiEonKttZW2tTY SGfMqEOhUMRkaRIL5y9EEAR4/Lvfm/x1f8v+mqT9P7Nnpt/kXHqg1CNc8QqFcW1/b+6aSsg3dz91 18C5GM/pAAB0P3XXwFWf+PFve4+N/s3lZvQVzaSCSpULAjFrVsN2ku+um93SeG0sFsPOXTvAiT5R jl2+vQSpQ0LV/Hxy7NhYen/va00ycKJ1dRlcf90K4lTKqE1l0N7aGBnnlS5kZu4UknIQKaik3HPL 7NCR3DWB4L85HzwwjanF7U9/eF/o8X17Dh67zncFIxCcCRIyIUSDOn77e2+6iZUdB69v2x5uH4xO Hjg02JzLTcTGxktq0VVdEXgqEb51w4pV8s4P30UaG5qQz+cxOVnETe+5iTUao+9XGOUkPHXdasVV ug/2XeN7fM+OJ+86Z9eZlgOn05tP3fm7qz71n2Ln3qM3zpmZ2V6XSTmxya5r58xqS0UiEXR170IQ hCdrWxc8LMYm24NKaWYzckvqDKf1hhUryWWXLiZCCvT1HcerW7dWR0eG9OXLbyBXLbkKs2fOSpWP 7V5WtC/77UhhInq4d+jKUIZbtz/9kS3TYbvg3OjUdOV9zy3UQD+UqY333pA+8M11935yRhgE+PHm H7kn/cQ3AqVuMO733qFJZ/mqlavYooWXsjAMcfzEUfzh9derhULRqyipn0gohYxW/MztH/yQaegG nn7m6eFXx9v/ITdSmu1xsnn3pjvfmi7TtBw4nXY9cVfPsi88/2Q9OfqvC+bNTxm6gd0HelAul3lE kR1aMLR89erVbH77Aub5Pg4c7MHWN95wS+VyxVHSP3SSN74qgICAcrvwm4/0Hj5kXrXkasxrn1ez /w9Hbxyk9V/Z/Z07zhjv/L8JAIBbkofGojHzlhXLV6gThXF079kTqqpqvOc9q1a1z2mnVa+KPfu6 8eYbb7oVzytO0swPnMTSrZKoAkIKEClKZUcLndgL5r59H2trnamvuH6FemB/z81Nas8nLpbnogVY Uf3uyxZfnlBVFcMjQ1h+/XJl9qw5qLgOdnXtwBvbt3uu60/kvNTmUTZ/GwBU8/l0wAO9Wg3UiuvF AyF1Cuu1RnPwtmPHj2SWXnk1Lr10caJ7z+67ATx9MTwXFQPZbFaLxqzBT62/v7ZQmIBhmqCU4q2e fdi5c2fZD8Pjh8e0p3eP1vYCpEYSmYCUhIBOSEkmBOcFSrTc+5p6TnR2doqHH9348dpU6ls33rja TtfW4Yknv5N3SpXGzs5Of7pMF+WAFTXWL71yaZQQgsnSJI6dOIaurl3ScRxCCR0MOf9eS9Q/VK9M 7N+wYcMJAKcXOE7fJQIAb0opAKAmXvuDQmHikf7+PjtTW4crr7giunPXzvUAvj1dpmk78Nhjj5mC hIP3r/90cnhkCBISLU1tAICyU0axWEA+PxqeHDrp9ff3K6XSJCghJ0Ih9vieu9Ovhj3DE/kDTz3+ 1OkXkwQQbHzknz+Trq37l+XLl0ebGlvwxKbHJ6hUGx944AF3OlzTcoAQQv7tGxs/v2xZh8WFwMjo CBynjHw+D8uyYBgGDN1Aa0ur0t4+XzENAxJAuVxuLxYL7aOjo7edHMr5g4P9yiOPbpSUkhNhwPdW qu4ux6kcYXRMyeUGUF/XgKVLrra2bXv984SQR861qPEnbOer8/aiHlm3bp09b8Hcvvvv+3Ssf+AE tr6+tTI8MlKElDWUUliW5dmxmB6zbd2KWIhGojAtE6ZuwTANmIYF0zRhGqfmpUrlEgqFCeTzo+HQ 0El/MDeg6LqhLlm6lMyZ1Y4nnnx88uD+wy2bNm0qAZDnE3JOB07DA6Cz5rQ82HFth+H5PoZHhjE6 OiJ+8OxzN+7bt6+yevXq+tmz29pjCXuebccWa5q+kABNlFFhmmZg27YeiUa0iGXBtCxYpgXLsmCa FpqbW5R57fMVy4pAQqJr9w5Uqy6uuXqZEQT+gwCyAAQhBBe9xEQIoQDIF7+4LtnYPPfY/fd9Jnr4 aC927NhePXSw97sbv/7wYzg1lpoaqCEAH4Bcs2ZNY9vs5vaYHW+PRK3FmqIuElK2EEKEZVl+NBox LMvSTMuEaZjQDQNhECAatbFowWI8senx8rEjPbO+/e1nxt924YxFxvM6cDpl6lq/cv11y3Wn4iCf H8XI8Ij8xc9f+N5pd6ZkAsB8e0tefPHFAEDP2/mnAKSmaaKjo6NuzrxZs5KJ5Ox4zL5U1bT5AJoI Idw0TTF79iyr1DyJZcs69MD3vwzgy+fjO+8q5UMPPZRJpmJHPvD+2yJlp4Q9e/f4vQd7n//61x7+ RwCF07A49f+PvX1D6JRj9i6B5F3HAABN09DR0dG4fEXHuta21lsXLlygxWJxvPTSS87o8PicRx99 dPhcXeicDkgp5caHv/ZVznnkpz/7r3fKt2/b9TCAsSlABH/afaau5k/dl1O2U/eJ7/t0y5YtfYyx vkg0cusrr7x6+pxIoib2FSnlF87FOe33wOmYOEvGWfbPl84lZGoW03mEAhc5lHjnpD8+oc4GfjEC AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC "
        height="48"
        width="48" />
     <rect
@@ -16017,7 +15929,7 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
        style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        id="rect21086"
        width="1000"
-       height="2540"
+       height="1261"
        x="2.5641025e-06"
        y="3.0000033"
        inkscape:export-filename="/home/allan/SparkleShare/gnome-mockups/system-settings/network/aday/png/vpn.png"
@@ -16385,134 +16297,6 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
          x="478.64581"
          id="tspan14988"
          sodipodi:role="line">Connected</tspan></text>
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       id="rect15619"
-       width="660"
-       height="443.01279"
-       x="43"
-       y="585.9873" />
-    <rect
-       y="585.9873"
-       x="43"
-       height="63.012817"
-       width="660"
-       id="rect15621"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       x="371.73999"
-       y="612.26764"
-       id="text15623"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan15625"
-         x="371.73999"
-         y="612.26764">Super Secret VPN</tspan></text>
-    <rect
-       ry="3"
-       rx="3"
-       y="-632.49365"
-       x="551.99994"
-       height="30"
-       width="131"
-       id="rect15627"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       transform="scale(1,-1)" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text15629"
-       y="622.26764"
-       x="616.896"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       xml:space="preserve"><tspan
-         y="622.26764"
-         x="616.896"
-         id="tspan15631"
-         sodipodi:role="line">Apply</tspan></text>
-    <rect
-       transform="scale(1,-1)"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       id="rect15633"
-       width="131"
-       height="30"
-       x="72"
-       y="-632.49365"
-       rx="3"
-       ry="3" />
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="136.89598"
-       y="622.26764"
-       id="text15635"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan15637"
-         x="136.89598"
-         y="622.26764">Cancel</tspan></text>
-    <rect
-       transform="scale(1,-1)"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       id="rect15639"
-       width="218"
-       height="26"
-       x="452"
-       y="-703.00012"
-       rx="3.0000002"
-       ry="3" />
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="461.68506"
-       y="694.77405"
-       id="text15641"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan15643"
-         x="461.68506"
-         y="694.77405">Super Secret VPN</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text15645"
-       y="694.77405"
-       x="440.08374"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       xml:space="preserve"><tspan
-         y="694.77405"
-         x="440.08374"
-         id="tspan15647"
-         sodipodi:role="line">Your name for this network</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text15700"
-       y="566.78802"
-       x="51.650024"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       xml:space="preserve"><tspan
-         y="566.78802"
-         x="51.650024"
-         id="tspan15702"
-         sodipodi:role="line">VPN Settings Dialog</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text15710"
-       y="632.26764"
-       x="371.73999"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       xml:space="preserve"><tspan
-         y="632.26764"
-         x="371.73999"
-         id="tspan15712"
-         sodipodi:role="line">Connected</tspan></text>
-    <rect
-       y="671.94653"
-       x="64.047913"
-       height="337.05359"
-       width="179"
-       id="rect15720"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
     <image
        y="84.987343"
        x="418.71927"
@@ -16562,273 +16346,6 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
         </g>
       </g>
     </g>
-    <rect
-       y="1065.9873"
-       x="43"
-       height="443.01279"
-       width="660"
-       id="rect16090"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       id="rect16092"
-       width="660"
-       height="63.012817"
-       x="43"
-       y="1065.9873" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text16094"
-       y="1092.2676"
-       x="371.73999"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       xml:space="preserve"><tspan
-         y="1092.2676"
-         x="371.73999"
-         id="tspan16096"
-         sodipodi:role="line">Super Secret VPN</tspan></text>
-    <rect
-       transform="scale(1,-1)"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       id="rect16098"
-       width="131"
-       height="30"
-       x="551.99994"
-       y="-1112.4937"
-       rx="3"
-       ry="3" />
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="616.896"
-       y="1102.2676"
-       id="text16100"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan16102"
-         x="616.896"
-         y="1102.2676">Apply</tspan></text>
-    <rect
-       ry="3"
-       rx="3"
-       y="-1112.4937"
-       x="72"
-       height="30"
-       width="131"
-       id="rect16104"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       transform="scale(1,-1)" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text16106"
-       y="1102.2676"
-       x="136.89598"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       xml:space="preserve"><tspan
-         y="1102.2676"
-         x="136.89598"
-         id="tspan16108"
-         sodipodi:role="line">Cancel</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       x="371.73999"
-       y="1112.2676"
-       id="text16136"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan16138"
-         x="371.73999"
-         y="1112.2676">Connected</tspan></text>
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       id="rect16146"
-       width="179"
-       height="337.05359"
-       x="64.047913"
-       y="1151.9465" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text16152"
-       y="1262.6492"
-       x="72.697815"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       xml:space="preserve"><tspan
-         y="1262.6492"
-         x="72.697815"
-         id="tspan16154"
-         sodipodi:role="line">Identification</tspan></text>
-    <rect
-       style="fill:#729fcf;fill-opacity:1;stroke:none;display:inline"
-       id="rect16202"
-       width="177"
-       height="30"
-       x="65.047913"
-       y="1182.973" />
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="72.697815"
-       y="1202.7471"
-       id="text16158"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan16160"
-         x="72.697815"
-         y="1202.7471">Authentication</tspan></text>
-    <rect
-       ry="3"
-       rx="3"
-       y="-1269.9465"
-       x="426"
-       height="30"
-       width="218"
-       id="rect16120"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       transform="scale(1,-1)" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text16122"
-       y="1259.7203"
-       x="414.08374"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       xml:space="preserve"><tspan
-         y="1259.7203"
-         x="414.08374"
-         id="tspan16124"
-         sodipodi:role="line">Group</tspan></text>
-    <rect
-       transform="scale(1,-1)"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect16126"
-       width="218"
-       height="26"
-       x="426"
-       y="-1307.9464"
-       rx="3.0000002"
-       ry="3" />
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="435.68506"
-       y="1299.7203"
-       id="text16128"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan16130"
-         x="435.68506"
-         y="1299.7203">••••••••••••••</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text16132"
-       y="1299.7203"
-       x="414.08374"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       xml:space="preserve"><tspan
-         y="1299.7203"
-         x="414.08374"
-         id="tspan16134"
-         sodipodi:role="line">Group Password</tspan></text>
-    <rect
-       transform="scale(1,-1)"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       id="rect16140"
-       width="218"
-       height="26"
-       x="426"
-       y="-1177.9465"
-       rx="3.0000002"
-       ry="3" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text16142"
-       y="1169.7203"
-       x="414.08374"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       xml:space="preserve"><tspan
-         y="1169.7203"
-         x="414.08374"
-         id="tspan16144"
-         sodipodi:role="line">Username</tspan></text>
-    <rect
-       ry="3"
-       rx="3.0000002"
-       y="-1215.9465"
-       x="426"
-       height="26"
-       width="218"
-       id="rect16162"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       transform="scale(1,-1)" />
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="414.08374"
-       y="1207.7203"
-       id="text16164"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan16166"
-         x="414.08374"
-         y="1207.7203">User Password</tspan></text>
-    <g
-       transform="translate(156.83398,348.07842)"
-       id="g16168">
-      <rect
-         ry="2.9999998"
-         rx="3.0000002"
-         y="-994.49377"
-         x="271.16602"
-         height="14.000001"
-         width="14.000001"
-         id="rect16170"
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-         transform="scale(1,-1)" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text16172"
-         y="992.2677"
-         x="295.3833"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         xml:space="preserve"><tspan
-           y="992.2677"
-           x="295.3833"
-           id="tspan16174"
-           sodipodi:role="line">Show passwords</tspan></text>
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text16194"
-       y="1292.6912"
-       x="72.697815"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       xml:space="preserve"><tspan
-         y="1292.6912"
-         x="72.697815"
-         id="tspan16196"
-         sodipodi:role="line">Transport and Security</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text16198"
-       y="1238.6912"
-       x="72.697815"
-       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       xml:space="preserve"><tspan
-         y="1238.6912"
-         x="72.697815"
-         id="tspan16200"
-         sodipodi:role="line">Advanced</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text16204"
-       y="1172.6912"
-       x="72.697815"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       xml:space="preserve"><tspan
-         y="1172.6912"
-         x="72.697815"
-         id="tspan16206"
-         sodipodi:role="line">Network</tspan></text>
     <rect
        y="585.9873"
        x="-1037"
@@ -17189,53 +16706,838 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
            id="tspan16320"
            sodipodi:role="line">CA File</tspan></text>
     </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path14322"
+       d="m 80,498 0,45"
+       style="fill:none;stroke:#729fcf;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       id="rect14324"
+       width="437"
+       height="229"
+       x="42"
+       y="555" />
+    <rect
+       y="555"
+       x="42"
+       height="40"
+       width="437"
+       id="rect14326"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text14328"
+       y="579.823"
+       x="260.68988"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       xml:space="preserve"><tspan
+         y="579.823"
+         x="260.68988"
+         id="tspan14330"
+         sodipodi:role="line">Add Connection</tspan></text>
+    <g
+       style="display:inline"
+       transform="translate(-629.5,-54)"
+       id="g14332">
+      <rect
+         ry="3"
+         rx="3"
+         y="-644"
+         x="677.5"
+         height="30"
+         width="92.5"
+         id="rect14334"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         transform="scale(1,-1)" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text14336"
+         y="633.77423"
+         x="723.72766"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         xml:space="preserve"><tspan
+           y="633.77423"
+           x="723.72766"
+           id="tspan14338"
+           sodipodi:role="line">Cancel</tspan></text>
+    </g>
+    <g
+       id="g15197"
+       transform="translate(-39.500005,2.5)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#babdb6;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         id="rect14340"
+         width="354"
+         height="136"
+         x="123"
+         y="619"
+         rx="12"
+         ry="12" />
+      <path
+         style="fill:none;stroke:#babdb6;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         d="m 123,665 354.00001,0"
+         id="path14342"
+         inkscape:connector-curvature="0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text14346"
+         y="648.823"
+         x="137.00226"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+         xml:space="preserve"><tspan
+           y="648.823"
+           x="137.00226"
+           id="tspan14348"
+           sodipodi:role="line">DSL</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+         x="137.00226"
+         y="692.823"
+         id="text14350"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan14352"
+           x="137.00226"
+           y="692.823">Mobile Broadband</tspan></text>
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999988;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;display:inline"
+         d="m 135,711 330,0 12,0 0,32 c 0,6.648 -5.352,12 -12,12 l -330,0 c -6.648,0 -12,-5.352 -12,-12 l 0,-32 z"
+         id="path14354"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccsssscc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text14356"
+         y="738.823"
+         x="137.00226"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+         xml:space="preserve"><tspan
+           y="738.823"
+           x="137.00226"
+           id="tspan14358"
+           sodipodi:role="line">VPN</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         x="461.04379"
+         y="648.823"
+         id="text14360"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan14362"
+           x="461.04379"
+           y="648.823">Not detected</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text14364"
+         y="692.823"
+         x="461.04379"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         xml:space="preserve"><tspan
+           y="692.823"
+           x="461.04379"
+           id="tspan14366"
+           sodipodi:role="line">Not detected</tspan></text>
+    </g>
+    <flowRoot
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       id="flowRoot14368"
+       xml:space="preserve"
+       transform="translate(140,0)"><flowRegion
+         id="flowRegion14370"><rect
+           style="font-weight:normal;-inkscape-font-specification:Cantarell"
+           y="614"
+           x="470"
+           height="86"
+           width="191"
+           id="rect14372" /></flowRegion><flowPara
+         id="flowPara14374">Show all connection types that we support; better status messages for unavailable connection types would be welcome</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#729fcf;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 300,743.99992 0,119"
+       id="path14472"
+       inkscape:connector-curvature="0" />
+    <rect
+       y="875"
+       x="42"
+       height="269"
+       width="537"
+       id="rect14474"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999988;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       id="rect14476"
+       width="537"
+       height="40"
+       x="42"
+       y="875" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       x="302.18988"
+       y="899.823"
+       id="text14478"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan14480"
+         x="302.18988"
+         y="899.823">Choose VPN Connection Type</tspan></text>
+    <g
+       id="g14482"
+       transform="translate(-629.5,266)"
+       style="display:inline">
+      <rect
+         transform="scale(1,-1)"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         id="rect14484"
+         width="92.5"
+         height="30"
+         x="677.5"
+         y="-644"
+         rx="3"
+         ry="3" />
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         x="723.72766"
+         y="633.77423"
+         id="text14487"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan14489"
+           x="723.72766"
+           y="633.77423">Cancel</tspan></text>
+    </g>
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       id="rect14521"
+       width="92.5"
+       height="30"
+       x="480"
+       y="-910"
+       rx="3"
+       ry="3" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="526.22766"
+       y="899.77423"
+       id="text14523"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan14525"
+         x="526.22766"
+         y="899.77423">Add</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot14527"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       transform="translate(-1,-6)"><flowRegion
+         id="flowRegion14529"><rect
+           id="rect14531"
+           width="498.54669"
+           height="142.06607"
+           x="60.509624"
+           y="942.44128"
+           style="font-weight:normal;-inkscape-font-specification:Cantarell" /></flowRegion><flowPara
+         id="flowPara14533">Select the type of VPN connection you want to add. If the type you want is not in the list, you may not have the required VPN plugin installed.</flowPara></flowRoot>    <rect
+       ry="3"
+       rx="3"
+       y="-1022"
+       x="58.999996"
+       height="30"
+       width="500"
+       id="rect14535"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       transform="scale(1,-1)" />
+    <flowRoot
+       transform="translate(9.2920114,55.566885)"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       id="flowRoot14537"
+       xml:space="preserve"><flowRegion
+         id="flowRegion14539"><rect
+           style="font-weight:normal;-inkscape-font-specification:Cantarell"
+           y="942.44128"
+           x="60.509624"
+           height="142.06607"
+           width="498.54669"
+           id="rect14541" /></flowRegion><flowPara
+         id="flowPara14543">Cisco Compatible VPN (vpnc)</flowPara></flowRoot>    <g
+       id="g14630"
+       transform="matrix(0,-1,1,0,532.76242,1014.4986)"
+       style="fill:#000000;fill-opacity:1">
+      <g
+         style="fill:#000000;fill-opacity:1;display:inline"
+         id="layer9-6"
+         transform="translate(-100,-626)"
+         inkscape:label="status" />
+      <g
+         id="layer10-8"
+         transform="translate(-100,-626)"
+         inkscape:label="devices"
+         style="fill:#000000;fill-opacity:1" />
+      <g
+         id="layer11-4"
+         transform="translate(-100,-626)"
+         inkscape:label="apps"
+         style="fill:#000000;fill-opacity:1" />
+      <g
+         id="layer12-5"
+         transform="translate(-100,-626)"
+         inkscape:label="actions"
+         style="fill:#000000;fill-opacity:1">
+        <path
+           style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+           sodipodi:nodetypes="ccsccccccccccc"
+           id="path10839-9-9-5"
+           d="m 110.99705,628 -1,0 c -0.0104,-1.2e-4 -0.0208,-4.6e-4 -0.0313,0 -0.25495,0.0112 -0.50987,0.12858 -0.6875,0.3125 l -5.2812,5.21875 5.28125,5.1875 c 0.18816,0.18819 0.45346,0.28125 0.71875,0.28125 l 1,0 0,-1 c 0,-0.26529 -0.0931,-0.53058 -0.28125,-0.71875 l -3.8125,-3.75 3.8125,-3.78125 c 0.21074,-0.19463 0.30316,-0.46925 0.28125,-0.75 l 0,-1 z"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="layer13-1"
+         transform="translate(-100,-626)"
+         inkscape:label="places"
+         style="fill:#000000;fill-opacity:1" />
+      <g
+         id="layer14-4"
+         transform="translate(-100,-626)"
+         inkscape:label="mimetypes"
+         style="fill:#000000;fill-opacity:1" />
+      <g
+         style="fill:#000000;fill-opacity:1;display:inline"
+         id="layer15-4"
+         transform="translate(-100,-626)"
+         inkscape:label="emblems" />
+      <g
+         style="fill:#000000;fill-opacity:1;display:inline"
+         id="g4953-9"
+         transform="translate(-100,-626)"
+         inkscape:label="categories" />
+    </g>
+    <flowRoot
+       transform="translate(-1,86)"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#555753;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       id="flowRoot15149"
+       xml:space="preserve"><flowRegion
+         id="flowRegion15151"><rect
+           style="font-style:normal;font-weight:normal;fill:#555753;-inkscape-font-specification:Cantarell"
+           y="942.44128"
+           x="60.509624"
+           height="142.06607"
+           width="498.54669"
+           id="rect15153" /></flowRegion><flowPara
+         id="flowPara15155">Compatible with various Cisco, Juniper, Netscreen and Sonicwall IPSec-based VPN gateways.</flowPara></flowRoot>    <rect
+       transform="scale(1,-1)"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect15157"
+       width="160"
+       height="30"
+       x="58.999996"
+       y="-1124"
+       rx="3.0000002"
+       ry="3" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot15159"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       transform="translate(-171.14985,157.15389)"><flowRegion
+         id="flowRegion15161"><rect
+           id="rect15163"
+           width="498.54669"
+           height="142.06607"
+           x="60.509624"
+           y="942.44128"
+           style="font-weight:normal;text-align:center;text-anchor:middle;-inkscape-font-specification:Cantarell" /></flowRegion><flowPara
+         id="flowPara15165">Import from File...</flowPara></flowRoot>    <flowRoot
+       transform="translate(140,260)"
+       xml:space="preserve"
+       id="flowRoot15172"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"><flowRegion
+         id="flowRegion15174"><rect
+           id="rect15176"
+           width="191"
+           height="86"
+           x="470"
+           y="614"
+           style="font-weight:normal;-inkscape-font-specification:Cantarell" /></flowRegion><flowPara
+         id="flowPara15178">Add open a VPN settings dialog for the new connection.</flowPara></flowRoot>    <flowRoot
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       id="flowRoot15180"
+       xml:space="preserve"
+       transform="translate(-432,558)"><flowRegion
+         id="flowRegion15182"><rect
+           style="font-weight:normal;text-align:center;text-anchor:middle;-inkscape-font-specification:Cantarell"
+           y="614"
+           x="470"
+           height="86"
+           width="191"
+           id="rect15184" /></flowRegion><flowPara
+         id="flowPara15186">Opens the file chooser </flowPara></flowRoot>    <path
+       style="fill:none;stroke:#729fcf;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 134,1120 0,45"
+       id="path15212"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="vpn-settings"
+     style="display:inline">
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/allan/SparkleShare/gnome-mockups/system-settings/network/aday/png/vpn-settings.png"
+       y="1"
+       x="1.0000026"
+       height="2021"
+       width="1000"
+       id="rect15214"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       id="rect15619"
+       width="660"
+       height="443.01279"
+       x="44"
+       y="103.9873" />
+    <rect
+       y="103.9873"
+       x="44"
+       height="63.012817"
+       width="660"
+       id="rect15621"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       x="372.73999"
+       y="130.26764"
+       id="text15623"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan15625"
+         x="372.73999"
+         y="130.26764">Super Secret VPN</tspan></text>
+    <rect
+       ry="3"
+       rx="3"
+       y="-150.49365"
+       x="552.99994"
+       height="30"
+       width="131"
+       id="rect15627"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       transform="scale(1,-1)" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text15629"
+       y="140.26764"
+       x="617.896"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"><tspan
+         y="140.26764"
+         x="617.896"
+         id="tspan15631"
+         sodipodi:role="line">Apply</tspan></text>
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       id="rect15633"
+       width="131"
+       height="30"
+       x="73"
+       y="-150.49365"
+       rx="3"
+       ry="3" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="137.89598"
+       y="140.26764"
+       id="text15635"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan15637"
+         x="137.89598"
+         y="140.26764">Cancel</tspan></text>
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       id="rect15639"
+       width="218"
+       height="26"
+       x="453"
+       y="-221.00012"
+       rx="3.0000002"
+       ry="3" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="462.68506"
+       y="212.77405"
+       id="text15641"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan15643"
+         x="462.68506"
+         y="212.77405">Super Secret VPN</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text15645"
+       y="212.77405"
+       x="441.08374"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"><tspan
+         y="212.77405"
+         x="441.08374"
+         id="tspan15647"
+         sodipodi:role="line">Your name for this network</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text15700"
+       y="84.788017"
+       x="52.650024"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       xml:space="preserve"><tspan
+         y="84.788017"
+         x="52.650024"
+         id="tspan15702"
+         sodipodi:role="line">VPN Settings Dialog</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text15710"
+       y="150.26764"
+       x="372.73999"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       xml:space="preserve"><tspan
+         y="150.26764"
+         x="372.73999"
+         id="tspan15712"
+         sodipodi:role="line">Connected</tspan></text>
+    <rect
+       y="189.94653"
+       x="65.047913"
+       height="337.05359"
+       width="179"
+       id="rect15720"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+    <rect
+       y="583.9873"
+       x="44"
+       height="443.01279"
+       width="660"
+       id="rect16090"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       id="rect16092"
+       width="660"
+       height="63.012817"
+       x="44"
+       y="583.9873" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text16094"
+       y="610.26758"
+       x="372.73999"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       xml:space="preserve"><tspan
+         y="610.26758"
+         x="372.73999"
+         id="tspan16096"
+         sodipodi:role="line">Super Secret VPN</tspan></text>
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       id="rect16098"
+       width="131"
+       height="30"
+       x="552.99994"
+       y="-630.49365"
+       rx="3"
+       ry="3" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="617.896"
+       y="620.26758"
+       id="text16100"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan16102"
+         x="617.896"
+         y="620.26758">Apply</tspan></text>
+    <rect
+       ry="3"
+       rx="3"
+       y="-630.49365"
+       x="73"
+       height="30"
+       width="131"
+       id="rect16104"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       transform="scale(1,-1)" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text16106"
+       y="620.26758"
+       x="137.89598"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"><tspan
+         y="620.26758"
+         x="137.89598"
+         id="tspan16108"
+         sodipodi:role="line">Cancel</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       x="372.73999"
+       y="630.26758"
+       id="text16136"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan16138"
+         x="372.73999"
+         y="630.26758">Connected</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       id="rect16146"
+       width="179"
+       height="337.05359"
+       x="65.047913"
+       y="669.94653" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text16152"
+       y="780.64917"
+       x="73.697815"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"><tspan
+         y="780.64917"
+         x="73.697815"
+         id="tspan16154"
+         sodipodi:role="line">Identification</tspan></text>
+    <rect
+       style="fill:#729fcf;fill-opacity:1;stroke:none;display:inline"
+       id="rect16202"
+       width="177"
+       height="30"
+       x="66.047913"
+       y="700.97302" />
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="72.697815"
-       y="782.64917"
+       x="73.697815"
+       y="720.74707"
+       id="text16158"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan16160"
+         x="73.697815"
+         y="720.74707">Authentication</tspan></text>
+    <rect
+       ry="3"
+       rx="3"
+       y="-787.94653"
+       x="427"
+       height="30"
+       width="218"
+       id="rect16120"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       transform="scale(1,-1)" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text16122"
+       y="777.72034"
+       x="415.08374"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"><tspan
+         y="777.72034"
+         x="415.08374"
+         id="tspan16124"
+         sodipodi:role="line">Group</tspan></text>
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       id="rect16126"
+       width="218"
+       height="26"
+       x="427"
+       y="-825.94641"
+       rx="3.0000002"
+       ry="3" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="436.68506"
+       y="817.72028"
+       id="text16128"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan16130"
+         x="436.68506"
+         y="817.72028">••••••••••••••</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text16132"
+       y="817.72028"
+       x="415.08374"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"><tspan
+         y="817.72028"
+         x="415.08374"
+         id="tspan16134"
+         sodipodi:role="line">Group Password</tspan></text>
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       id="rect16140"
+       width="218"
+       height="26"
+       x="427"
+       y="-695.94653"
+       rx="3.0000002"
+       ry="3" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text16142"
+       y="687.72034"
+       x="415.08374"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"><tspan
+         y="687.72034"
+         x="415.08374"
+         id="tspan16144"
+         sodipodi:role="line">Username</tspan></text>
+    <rect
+       ry="3"
+       rx="3.0000002"
+       y="-733.94647"
+       x="427"
+       height="26"
+       width="218"
+       id="rect16162"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       transform="scale(1,-1)" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="415.08374"
+       y="725.72028"
+       id="text16164"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan16166"
+         x="415.08374"
+         y="725.72028">User Password</tspan></text>
+    <g
+       style="display:inline"
+       transform="translate(157.83398,-133.9216)"
+       id="g16168">
+      <rect
+         ry="2.9999998"
+         rx="3.0000002"
+         y="-994.49377"
+         x="271.16602"
+         height="14.000001"
+         width="14.000001"
+         id="rect16170"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         transform="scale(1,-1)" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text16172"
+         y="992.2677"
+         x="295.3833"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         xml:space="preserve"><tspan
+           y="992.2677"
+           x="295.3833"
+           id="tspan16174"
+           sodipodi:role="line">Show passwords</tspan></text>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text16194"
+       y="810.69122"
+       x="73.697815"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"><tspan
+         y="810.69122"
+         x="73.697815"
+         id="tspan16196"
+         sodipodi:role="line">Transport and Security</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text16198"
+       y="756.69116"
+       x="73.697815"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       xml:space="preserve"><tspan
+         y="756.69116"
+         x="73.697815"
+         id="tspan16200"
+         sodipodi:role="line">Advanced</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text16204"
+       y="690.69116"
+       x="73.697815"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"><tspan
+         y="690.69116"
+         x="73.697815"
+         id="tspan16206"
+         sodipodi:role="line">Network</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="73.697815"
+       y="300.64917"
        id="text16328"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16330"
-         x="72.697815"
-         y="782.64917">Identification</tspan></text>
+         x="73.697815"
+         y="300.64917">Identification</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text16332"
-       y="722.74707"
-       x="72.697815"
+       y="240.74707"
+       x="73.697815"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        xml:space="preserve"><tspan
-         y="722.74707"
-         x="72.697815"
+         y="240.74707"
+         x="73.697815"
          id="tspan16334"
          sodipodi:role="line">Authentication</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="72.697815"
-       y="812.69122"
+       x="73.697815"
+       y="330.69122"
        id="text16336"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16338"
-         x="72.697815"
-         y="812.69122">Transport and Security</tspan></text>
+         x="73.697815"
+         y="330.69122">Transport and Security</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       x="72.697815"
-       y="758.69122"
+       x="73.697815"
+       y="276.69122"
        id="text16340"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16342"
-         x="72.697815"
-         y="758.69122">Advanced</tspan></text>
+         x="73.697815"
+         y="276.69122">Advanced</tspan></text>
     <rect
-       y="672.89612"
-       x="65.047913"
+       y="190.89612"
+       x="66.047913"
        height="30"
        width="177"
        id="rect16344"
@@ -17243,24 +17545,24 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="72.697815"
-       y="692.69122"
+       x="73.697815"
+       y="210.69122"
        id="text16346"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16348"
-         x="72.697815"
-         y="692.69122">Network</tspan></text>
+         x="73.697815"
+         y="210.69122">Network</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        id="rect16350"
        width="660"
        height="443.01279"
-       x="43"
-       y="1545.9873" />
+       x="44"
+       y="1063.9873" />
     <rect
-       y="1545.9873"
-       x="43"
+       y="1063.9873"
+       x="44"
        height="63.012817"
        width="660"
        id="rect16352"
@@ -17268,19 +17570,19 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       x="371.73999"
-       y="1572.2676"
+       x="372.73999"
+       y="1090.2675"
        id="text16354"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16356"
-         x="371.73999"
-         y="1572.2676">Super Secret VPN</tspan></text>
+         x="372.73999"
+         y="1090.2675">Super Secret VPN</tspan></text>
     <rect
        ry="3"
        rx="3"
-       y="-1592.4937"
-       x="551.99994"
+       y="-1110.4937"
+       x="552.99994"
        height="30"
        width="131"
        id="rect16358"
@@ -17289,12 +17591,12 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
     <text
        sodipodi:linespacing="125%"
        id="text16360"
-       y="1582.2676"
-       x="616.896"
+       y="1100.2676"
+       x="617.896"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        xml:space="preserve"><tspan
-         y="1582.2676"
-         x="616.896"
+         y="1100.2676"
+         x="617.896"
          id="tspan16362"
          sodipodi:role="line">Apply</tspan></text>
     <rect
@@ -17303,35 +17605,35 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
        id="rect16364"
        width="131"
        height="30"
-       x="72"
-       y="-1592.4937"
+       x="73"
+       y="-1110.4937"
        rx="3"
        ry="3" />
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="136.89598"
-       y="1582.2676"
+       x="137.89598"
+       y="1100.2676"
        id="text16366"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16368"
-         x="136.89598"
-         y="1582.2676">Cancel</tspan></text>
+         x="137.89598"
+         y="1100.2676">Cancel</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text16396"
-       y="1592.2676"
-       x="371.73999"
+       y="1110.2676"
+       x="372.73999"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        xml:space="preserve"><tspan
-         y="1592.2676"
-         x="371.73999"
+         y="1110.2676"
+         x="372.73999"
          id="tspan16398"
          sodipodi:role="line">Connected</tspan></text>
     <rect
-       y="1631.9465"
-       x="64.047913"
+       y="1149.9465"
+       x="65.047913"
        height="337.05359"
        width="179"
        id="rect16406"
@@ -17341,61 +17643,61 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
        id="rect16408"
        width="177"
        height="30"
-       x="65.047913"
-       y="1722.8961" />
+       x="66.047913"
+       y="1240.8961" />
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="72.697815"
-       y="1742.6492"
+       x="73.697815"
+       y="1260.6492"
        id="text16414"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16416"
-         x="72.697815"
-         y="1742.6492">Identification</tspan></text>
+         x="73.697815"
+         y="1260.6492">Identification</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text16418"
-       y="1682.7471"
-       x="72.697815"
+       y="1200.7471"
+       x="73.697815"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        xml:space="preserve"><tspan
-         y="1682.7471"
-         x="72.697815"
+         y="1200.7471"
+         x="73.697815"
          id="tspan16420"
          sodipodi:role="line">Authentication</tspan></text>
     <rect
-       y="-1401"
-       x="-496"
+       y="-919"
+       x="-497"
        height="22"
        width="70"
        id="rect16436"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        transform="scale(-1,-1)" />
     <rect
-       style="fill:#888a85;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#888a85;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        id="rect16438"
        width="35"
        height="22"
-       x="-496"
-       y="-1401"
+       x="-497"
+       y="-919"
        transform="scale(-1,-1)" />
     <text
        sodipodi:linespacing="125%"
        id="text16440"
-       y="1393.0659"
-       x="414.08374"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       y="911.06592"
+       x="415.08374"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        xml:space="preserve"><tspan
-         y="1393.0659"
-         x="414.08374"
+         y="911.06592"
+         x="415.08374"
          id="tspan16442"
          sodipodi:role="line">Hybird Authentication</tspan></text>
     <g
        id="g16444"
-       style="opacity:0.4"
-       transform="translate(54,474)">
+       style="opacity:0.4;display:inline"
+       transform="translate(55,-8.00003)">
       <rect
          ry="3"
          rx="3.0000002"
@@ -17421,41 +17723,41 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="72.697815"
-       y="1772.6912"
+       x="73.697815"
+       y="1290.6912"
        id="text16452"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16454"
-         x="72.697815"
-         y="1772.6912">Transport and Security</tspan></text>
+         x="73.697815"
+         y="1290.6912">Transport and Security</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       x="72.697815"
-       y="1718.6912"
+       x="73.697815"
+       y="1236.6912"
        id="text16456"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16458"
-         x="72.697815"
-         y="1718.6912">Advanced</tspan></text>
+         x="73.697815"
+         y="1236.6912">Advanced</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="72.697815"
-       y="1652.6912"
+       x="73.697815"
+       y="1170.6912"
        id="text16462"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16464"
-         x="72.697815"
-         y="1652.6912">Network</tspan></text>
+         x="73.697815"
+         y="1170.6912">Network</tspan></text>
     <rect
        ry="3"
        rx="3.0000002"
-       y="-745.00012"
-       x="452"
+       y="-263.00012"
+       x="453"
        height="26"
        width="218"
        id="rect16466"
@@ -17464,30 +17766,30 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
     <text
        sodipodi:linespacing="125%"
        id="text16468"
-       y="736.77405"
-       x="461.68506"
+       y="254.77405"
+       x="462.68506"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        xml:space="preserve"><tspan
-         y="736.77405"
-         x="461.68506"
+         y="254.77405"
+         x="462.68506"
          id="tspan16470"
          sodipodi:role="line">987.762.272.612</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="440.08374"
-       y="736.77405"
+       x="441.08374"
+       y="254.77405"
        id="text16472"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16474"
-         x="440.08374"
-         y="736.77405">Gateway Address</tspan></text>
+         x="441.08374"
+         y="254.77405">Gateway Address</tspan></text>
     <rect
        ry="3"
        rx="3.0000002"
-       y="-1663.9465"
-       x="360"
+       y="-1181.9465"
+       x="361"
        height="26"
        width="284"
        id="rect16506"
@@ -17496,39 +17798,39 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="352.08374"
-       y="1655.7203"
+       x="353.08374"
+       y="1173.7203"
        id="text16508"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16510"
-         x="352.08374"
-         y="1655.7203">Domain</tspan></text>
+         x="353.08374"
+         y="1173.7203">Domain</tspan></text>
     <rect
        transform="scale(1,-1)"
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        id="rect16512"
        width="284"
        height="26"
-       x="360"
-       y="-1701.9465"
+       x="361"
+       y="-1219.9465"
        rx="3.0000002"
        ry="3" />
     <text
        sodipodi:linespacing="125%"
        id="text16514"
-       y="1693.7203"
-       x="352.08374"
+       y="1211.7203"
+       x="353.08374"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        xml:space="preserve"><tspan
-         y="1693.7203"
-         x="352.08374"
+         y="1211.7203"
+         x="353.08374"
          id="tspan16516"
          sodipodi:role="line">Vendor</tspan></text>
     <g
        id="g16625"
-       transform="matrix(0,-1,1,0,618,1696.4452)"
-       style="fill:#000000;fill-opacity:1">
+       transform="matrix(0,-1,1,0,619,1214.4452)"
+       style="fill:#000000;fill-opacity:1;display:inline">
       <g
          style="fill:#000000;fill-opacity:1;display:inline"
          id="layer9"
@@ -17584,8 +17886,8 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
       </g>
     </g>
     <rect
-       y="2025.9873"
-       x="43"
+       y="1543.9873"
+       x="44"
        height="443.01279"
        width="660"
        id="rect16637"
@@ -17595,17 +17897,17 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
        id="rect16639"
        width="660"
        height="63.012817"
-       x="43"
-       y="2025.9873" />
+       x="44"
+       y="1543.9873" />
     <text
        sodipodi:linespacing="125%"
        id="text16641"
-       y="2052.2676"
-       x="371.73999"
+       y="1570.2676"
+       x="372.73999"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        xml:space="preserve"><tspan
-         y="2052.2676"
-         x="371.73999"
+         y="1570.2676"
+         x="372.73999"
          id="tspan16643"
          sodipodi:role="line">Super Secret VPN</tspan></text>
     <rect
@@ -17614,26 +17916,26 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
        id="rect16645"
        width="131"
        height="30"
-       x="551.99994"
-       y="-2072.4937"
+       x="552.99994"
+       y="-1590.4937"
        rx="3"
        ry="3" />
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="616.896"
-       y="2062.2676"
+       x="617.896"
+       y="1580.2676"
        id="text16647"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16649"
-         x="616.896"
-         y="2062.2676">Apply</tspan></text>
+         x="617.896"
+         y="1580.2676">Apply</tspan></text>
     <rect
        ry="3"
        rx="3"
-       y="-2072.4937"
-       x="72"
+       y="-1590.4937"
+       x="73"
        height="30"
        width="131"
        id="rect16651"
@@ -17642,35 +17944,35 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
     <text
        sodipodi:linespacing="125%"
        id="text16653"
-       y="2062.2676"
-       x="136.89598"
+       y="1580.2676"
+       x="137.89598"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        xml:space="preserve"><tspan
-         y="2062.2676"
-         x="136.89598"
+         y="1580.2676"
+         x="137.89598"
          id="tspan16655"
          sodipodi:role="line">Cancel</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       x="371.73999"
-       y="2072.2676"
+       x="372.73999"
+       y="1590.2676"
        id="text16657"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16659"
-         x="371.73999"
-         y="2072.2676">Connected</tspan></text>
+         x="372.73999"
+         y="1590.2676">Connected</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        id="rect16661"
        width="179"
        height="337.05359"
-       x="64.047913"
-       y="2111.9465" />
-    <rect
-       y="2232.896"
        x="65.047913"
+       y="1629.9465" />
+    <rect
+       y="1750.896"
+       x="66.047913"
        height="30"
        width="177"
        id="rect16663"
@@ -17678,56 +17980,56 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
     <text
        sodipodi:linespacing="125%"
        id="text16665"
-       y="2222.6492"
-       x="72.697815"
+       y="1740.6492"
+       x="73.697815"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        xml:space="preserve"><tspan
-         y="2222.6492"
-         x="72.697815"
+         y="1740.6492"
+         x="73.697815"
          id="tspan16667"
          sodipodi:role="line">Identification</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="72.697815"
-       y="2162.7471"
+       x="73.697815"
+       y="1680.7471"
        id="text16669"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16671"
-         x="72.697815"
-         y="2162.7471">Authentication</tspan></text>
+         x="73.697815"
+         y="1680.7471">Authentication</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text16673"
-       y="2252.6912"
-       x="72.697815"
+       y="1770.6912"
+       x="73.697815"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        xml:space="preserve"><tspan
-         y="2252.6912"
-         x="72.697815"
+         y="1770.6912"
+         x="73.697815"
          id="tspan16675"
          sodipodi:role="line">Transport and Security</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text16677"
-       y="2198.6912"
-       x="72.697815"
+       y="1716.6912"
+       x="73.697815"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        xml:space="preserve"><tspan
-         y="2198.6912"
-         x="72.697815"
+         y="1716.6912"
+         x="73.697815"
          id="tspan16679"
          sodipodi:role="line">Advanced</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text16681"
-       y="2132.6912"
-       x="72.697815"
+       y="1650.6912"
+       x="73.697815"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        xml:space="preserve"><tspan
-         y="2132.6912"
-         x="72.697815"
+         y="1650.6912"
+         x="73.697815"
          id="tspan16683"
          sodipodi:role="line">Network</tspan></text>
     <rect
@@ -17736,26 +18038,26 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
        id="rect16685"
        width="218"
        height="26"
-       x="426"
-       y="-2143.9465"
+       x="427"
+       y="-1661.9465"
        rx="3.0000002"
        ry="3" />
     <text
        sodipodi:linespacing="125%"
        id="text16687"
-       y="2135.7202"
-       x="414.08374"
+       y="1653.7202"
+       x="415.08374"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        xml:space="preserve"><tspan
-         y="2135.7202"
-         x="414.08374"
+         y="1653.7202"
+         x="415.08374"
          id="tspan16689"
          sodipodi:role="line">Encryption Method</tspan></text>
     <rect
        ry="3"
        rx="3.0000002"
-       y="-2181.9465"
-       x="426"
+       y="-1699.9465"
+       x="427"
        height="26"
        width="218"
        id="rect16691"
@@ -17764,17 +18066,17 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="414.08374"
-       y="2173.7202"
+       x="415.08374"
+       y="1691.7202"
        id="text16693"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16695"
-         x="414.08374"
-         y="2173.7202">Nat Traversal</tspan></text>
+         x="415.08374"
+         y="1691.7202">Nat Traversal</tspan></text>
     <g
-       style="fill:#000000;fill-opacity:1"
-       transform="matrix(0,-1,1,0,618,2176.4452)"
+       style="fill:#000000;fill-opacity:1;display:inline"
+       transform="matrix(0,-1,1,0,619,1694.4452)"
        id="g16697">
       <g
          inkscape:label="status"
@@ -17836,25 +18138,25 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
        id="rect16719"
        width="218"
        height="26"
-       x="426"
-       y="-2219.9465"
+       x="427"
+       y="-1737.9465"
        rx="3.0000002"
        ry="3" />
     <text
        sodipodi:linespacing="125%"
        id="text16721"
-       y="2211.7202"
-       x="414.08374"
+       y="1729.7202"
+       x="415.08374"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        xml:space="preserve"><tspan
-         y="2211.7202"
-         x="414.08374"
+         y="1729.7202"
+         x="415.08374"
          id="tspan16723"
          sodipodi:role="line">IKE DE Group</tspan></text>
     <g
        id="g16725"
-       transform="matrix(0,-1,1,0,618,2214.4452)"
-       style="fill:#000000;fill-opacity:1">
+       transform="matrix(0,-1,1,0,619,1732.4452)"
+       style="fill:#000000;fill-opacity:1;display:inline">
       <g
          style="fill:#000000;fill-opacity:1;display:inline"
          id="g16727"
@@ -17912,8 +18214,8 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
     <rect
        ry="3"
        rx="3.0000002"
-       y="-2257.9465"
-       x="426"
+       y="-1775.9465"
+       x="427"
        height="26"
        width="218"
        id="rect16747"
@@ -17922,17 +18224,17 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="414.08374"
-       y="2249.7202"
+       x="415.08374"
+       y="1767.7202"
        id="text16749"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16751"
-         x="414.08374"
-         y="2249.7202">Perfect Forward Secrecy</tspan></text>
+         x="415.08374"
+         y="1767.7202">Perfect Forward Secrecy</tspan></text>
     <g
-       style="fill:#000000;fill-opacity:1"
-       transform="matrix(0,-1,1,0,618,2252.4452)"
+       style="fill:#000000;fill-opacity:1;display:inline"
+       transform="matrix(0,-1,1,0,619,1770.4452)"
        id="g16753">
       <g
          inkscape:label="status"
@@ -17990,30 +18292,30 @@ AEDgAo/K87L8Jb5WOddHIX8u5Hnb+mv/3Ob/ACk+idsr/ZXXAAAAAElFTkSuQmCC
     </g>
     <rect
        transform="scale(1,-1)"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        id="rect16775"
        width="14.000001"
        height="14.000001"
-       x="433.37869"
-       y="-2285"
+       x="434.37869"
+       y="-1803"
        rx="3.0000002"
        ry="2.9999998" />
     <path
        sodipodi:nodetypes="ccc"
        inkscape:connector-curvature="0"
        id="path16777"
-       d="m 435.3787,2278.5198 4.6875,4.671 10.3125,-11.2105"
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       d="m 436.3787,1796.5198 4.6875,4.671 10.3125,-11.2105"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
     <text
        xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       x="459.59598"
-       y="2282.3735"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="460.59598"
+       y="1800.3735"
        id="text16779"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16781"
-         x="459.59598"
-         y="2282.3735">Disable dead peer detection</tspan></text>
+         x="460.59598"
+         y="1800.3735">Disable dead peer detection</tspan></text>
   </g>
 </svg>
