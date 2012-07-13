@@ -345,10 +345,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="948.62569"
-     inkscape:cy="873.6778"
+     inkscape:cx="1191.6257"
+     inkscape:cy="-36.322203"
      inkscape:document-units="px"
-     inkscape:current-layer="g40704"
+     inkscape:current-layer="layer1"
      showgrid="false"
      borderlayer="true"
      inkscape:showpageshadow="false"
@@ -4559,91 +4559,16 @@
          id="tspan44061-9-9"
          sodipodi:role="line">&lt;Ctrl&gt;&lt;Alt&gt;W</tspan></text>
     <g
-       id="g10887"
-       transform="translate(234.49997,635)">
-      <rect
-         ry="3.5999999"
-         rx="3.5999997"
-         y="-313.68723"
-         x="563.5"
-         height="31.12443"
-         width="132.12444"
-         id="rect10889"
-         style="fill:#eeeeec;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline;enable-background:new" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text10891"
-         y="-293.53152"
-         x="579.30103"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         xml:space="preserve"
-         transform="scale(0.9995531,1.0004471)"><tspan
-           y="-293.53152"
-           x="579.30103"
-           id="tspan10893"
-           sodipodi:role="line">Preview Mapping</tspan></text>
-    </g>
-    <g
-       transform="translate(236.49997,1189)"
-       id="g10895">
-      <rect
-         style="fill:#eeeeec;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline;enable-background:new"
-         id="rect10897"
-         width="132.12444"
-         height="31.12443"
-         x="563.5"
-         y="-313.68723"
-         rx="3.5999997"
-         ry="3.5999999" />
-      <text
-         transform="scale(0.9995531,1.0004471)"
-         xml:space="preserve"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         x="579.30103"
-         y="-293.53152"
-         id="text10899"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan10901"
-           x="579.30103"
-           y="-293.53152">Preview Mapping</tspan></text>
-    </g>
-    <g
-       id="g10903"
-       transform="translate(237.06219,1767)">
-      <rect
-         ry="3.5999999"
-         rx="3.5999997"
-         y="-313.68723"
-         x="562.93781"
-         height="31.12443"
-         width="132.12444"
-         id="rect10905"
-         style="fill:#eeeeec;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline;enable-background:new" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text10907"
-         y="-293.53152"
-         x="579.30103"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         xml:space="preserve"
-         transform="scale(0.9995531,1.0004471)"><tspan
-           y="-293.53152"
-           x="579.30103"
-           id="tspan10909"
-           sodipodi:role="line">Preview Mapping</tspan></text>
-    </g>
-    <g
        transform="translate(238.49997,55)"
        id="g10911">
       <rect
          style="fill:#eeeeec;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline;enable-background:new"
          id="rect10913"
-         width="132.12444"
+         width="113.12444"
          height="31.12443"
          x="563.5"
          y="-313.68723"
-         rx="3.5999997"
+         rx="3.5999999"
          ry="3.5999999" />
       <text
          transform="scale(0.9995531,1.0004471)"
@@ -4656,7 +4581,31 @@
            sodipodi:role="line"
            id="tspan10917"
            x="579.30103"
-           y="-293.53152">Preview Mapping</tspan></text>
+           y="-293.53152">Test Mapping</tspan></text>
     </g>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g10911"
+       id="use10923"
+       transform="translate(0,580)"
+       width="1520"
+       height="2354" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use10923"
+       id="use10925"
+       transform="translate(-2,554)"
+       width="1520"
+       height="2354" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use10925"
+       id="use10927"
+       transform="translate(0,578)"
+       width="1520"
+       height="2354" />
   </g>
 </svg>
