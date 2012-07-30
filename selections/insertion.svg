@@ -16,7 +16,7 @@
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="selections.svg"
+   sodipodi:docname="insertion.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    inkscape:export-filename="/home/hbons/image.png"
@@ -34,10 +34,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="531.76925"
-     inkscape:cy="531.84027"
+     inkscape:cx="417.3098"
+     inkscape:cy="546.5023"
      inkscape:document-units="px"
-     inkscape:current-layer="g10078"
+     inkscape:current-layer="g5418"
      showgrid="false"
      inkscape:snap-global="true"
      inkscape:snap-nodes="false"
@@ -4641,6 +4641,50 @@
        id="radialGradient4687"
        xlink:href="#linearGradient49887-5-5-0-3-1-6"
        inkscape:collect="always" />
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter10056-7">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.4125"
+         id="feGaussianBlur10058-4" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9941-7"
+       id="linearGradient9849-9-4"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.20992655,0,0,0.18518519,797.35422,203.38656)"
+       x1="835.91327"
+       y1="53.296539"
+       x2="835.91327"
+       y2="-83.000481" />
+    <linearGradient
+       id="linearGradient9941-7">
+      <stop
+         style="stop-color:#3a73bc;stop-opacity:1"
+         offset="0"
+         id="stop9943-1" />
+      <stop
+         id="stop9945-9"
+         offset="0.32457834"
+         style="stop-color:#3465a4;stop-opacity:1" />
+      <stop
+         style="stop-color:#96b6de;stop-opacity:1"
+         offset="1"
+         id="stop9947-5" />
+    </linearGradient>
+    <linearGradient
+       y2="-82.749413"
+       x2="803.75616"
+       y1="55.426964"
+       x1="803.75616"
+       gradientTransform="matrix(-0.20992655,0,0,0.18518519,797.35422,203.38656)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient4598"
+       xlink:href="#linearGradient9941-7"
+       inkscape:collect="always" />
   </defs>
   <metadata
      id="metadata7">
@@ -4650,7 +4694,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -6674,17 +6718,10 @@
          id="tspan14675-7"
          x="510"
          y="59">Status Report</tspan></text>
-    <rect
-       style="color:#000000;fill:#3465a4;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       id="rect18939"
-       width="92"
-       height="24"
-       x="528"
-       y="160" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot14350"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:267.00000763%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:267.00000763000002735%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
        transform="translate(0,-5)"><flowRegion
          id="flowRegion14352"><rect
            id="rect14354"
@@ -6692,10 +6729,10 @@
            height="593"
            x="52"
            y="97"
-           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:267.00000763%;writing-mode:lr-tb;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato" /></flowRegion><flowPara
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:267.00000763000002735%;writing-mode:lr-tb;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato;fill:#000000;fill-opacity:1" /></flowRegion><flowPara
          id="flowPara14356">High fidelity comps for Notes</flowPara><flowPara
          id="flowPara15091">Tweaks to the application themes in 3.4, particularly <flowSpan
-   style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:267.00000763%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Lato;-inkscape-font-specification:Lato"
+   style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:267.00000763000002735%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Lato;-inkscape-font-specification:Lato"
    id="flowSpan15095">Contacts</flowSpan>.</flowPara><flowPara
          id="flowPara15093">Coffee for the baus</flowPara><flowPara
          id="flowPara15097">Super secret project to overthrow the Man</flowPara><flowPara
@@ -6905,6 +6942,32 @@
        height="18"
        x="949.5"
        y="44.5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 286,158 0,22"
+       id="path5389"
+       inkscape:connector-curvature="0" />
+    <g
+       transform="matrix(0.27267413,0,0,0.27418108,112.9696,126.91672)"
+       style="display:inline;enable-background:new"
+       id="g9901-8">
+      <path
+         transform="translate(0,1)"
+         d="M 634.90625,189.875 621.5,200 l 0,13.5 26,0 0,-13.5 -12.59375,-10.125 z"
+         inkscape:href="#path8441-6"
+         id="path9583-3"
+         style="opacity:0.3;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter10056-7);enable-background:accumulate"
+         xlink:href="#path8441-6"
+         inkscape:original="M 634.90625 189.875 L 621.5 200 L 621.5 213.5 L 647.5 213.5 L 647.5 200 L 634.90625 189.875 z "
+         inkscape:radius="0"
+         sodipodi:type="inkscape:offset" />
+      <path
+         style="color:#000000;fill:url(#linearGradient4598);fill-opacity:1;fill-rule:nonzero;stroke:#eeeeec;stroke-width:3.65728903;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="M 647.5,200 634.90886,189.86875 621.5,200 l 0,13.5 26,0 z"
+         id="path8441-6"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+    </g>
   </g>
   <g
      style="display:none"
@@ -8272,12 +8335,13 @@
   <g
      inkscape:groupmode="layer"
      id="layer8"
-     inkscape:label="selections">
+     inkscape:label="selections"
+     style="display:none">
     <g
        inkscape:groupmode="layer"
        id="layer10"
        inkscape:label="longtap"
-       style="display:none">
+       style="display:inline">
       <g
          style="display:inline;enable-background:new"
          id="g21004"
@@ -8714,7 +8778,7 @@
          sodipodi:nodetypes="ccccc" />
     </g>
     <g
-       style="display:inline"
+       style="display:none"
        inkscape:label="many-custom-actions"
        id="g10078"
        inkscape:groupmode="layer">
@@ -8943,7 +9007,7 @@
            style="opacity:0.17283953;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter21081-7-58-8-9-2);enable-background:accumulate"
            id="path21069-4-6-9"
            inkscape:href="#rect41123-4-5-6-7-9"
-           d="m 434.5,202.625 c -4.432,0 -8,3.568 -8,8 l 0,32 c 0,4.432 3.568,8 8,8 l 51.84375,0 10.25,10.28125 c 0.39174,0.39174 0.89501,0.59375 1.40625,0.59375 0.51124,0 1.01452,-0.20201 1.40625,-0.59375 l 10.25,-10.28125 197.84375,0 c 4.432,0 8,-3.568 8,-8 l 0,-32 c 0,-4.432 -3.568,-8 -8,-8 l -273,0 z"
+           d="m 434.5,202.625 c -4.432,0 -8,3.568 -8,8 l 0,32 c 0,4.432 3.568,8 8,8 l 51.84375,0 10.25,10.28125 c 0.39174,0.39174 0.89501,0.59375 1.40625,0.59375 0.51124,0 1.01452,-0.20201 1.40625,-0.59375 l 10.25,-10.28125 217.84375,0 c 4.432,0 8,-3.568 8,-8 l 0,-32 c 0,-4.432 -3.568,-8 -8,-8 l -293,0 z"
            transform="translate(0,3)" />
         <path
            sodipodi:nodetypes="sscsssssssscss"
@@ -9364,5 +9428,19 @@
          id="rect10054"
          style="color:#000000;fill:none;stroke:#a40000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.99999996, 1.99999996;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer13"
+     inkscape:label="insert point">
+    <g
+       inkscape:groupmode="layer"
+       id="layer15"
+       inkscape:label="initial tap"
+       style="display:none" />
+    <g
+       inkscape:label="timeout"
+       id="g5418"
+       inkscape:groupmode="layer" />
   </g>
 </svg>
