@@ -15,7 +15,7 @@
    id="svg2985"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="add-printer-dialog.svg"
+   sodipodi:docname="add-printer-dialog-halfway-there.svg"
    style="display:inline"
    inkscape:export-filename="/home/lapo/SparkleShare/gnome-mockups/print/printer panel/add-printer-dialog.png"
    inkscape:export-xdpi="90"
@@ -322,15 +322,6 @@
        y1="39.502155"
        x2="49.000004"
        y2="10.497845" />
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:collect="always"
-       id="filter17852-7">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="4.9626774"
-         id="feGaussianBlur17854-3" />
-    </filter>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient72870-6-4"
@@ -579,16 +570,6 @@
          id="stop72866-7-4-3" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient54928-8"
-       id="linearGradient55030-2"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.5918367,0,0,0.85714285,-256.56122,59.071426)"
-       x1="479"
-       y1="392"
-       x2="479"
-       y2="380" />
-    <linearGradient
        id="linearGradient54928-8"
        inkscape:collect="always">
       <stop
@@ -600,16 +581,6 @@
          offset="1"
          style="stop-color:#f1f1f1;stop-opacity:1" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient54975-2"
-       id="linearGradient55032-1"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(4.1326529,0,0,0.85714285,-1607.0051,59.071426)"
-       x1="479"
-       y1="392"
-       x2="479"
-       y2="378.96838" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient54975-2">
@@ -655,6 +626,14 @@
        y1="392"
        x2="479"
        y2="378.96838" />
+    <filter
+       inkscape:collect="always"
+       id="filter20582">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2257813"
+         id="feGaussianBlur20584" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1757,11 +1736,11 @@ aMyuORNBd+wYO+R53iirIwWIiqiqolmWnZqa+u5tAQxQAHzAaf9vlHv/1wxAC8ja+VEgb8uSWq2W
        inkscape:radius="0"
        inkscape:original="M 131.375 85.21875 C 128.76915 85.21875 126.68829 87.302799 126.6875 89.90625 L 126.5 501.84375 L 131.21875 501.84375 L 685.78125 501.84375 L 690.5 501.84375 L 690.5 89.90625 C 690.51269 87.302799 688.41834 85.21875 685.8125 85.21875 L 131.375 85.21875 z "
        xlink:href="#path17058"
-       style="fill:#000000;fill-opacity:1;stroke:none;display:inline;filter:url(#filter17852-7)"
+       style="fill:#000000;fill-opacity:1;stroke:none;display:inline;filter:url(#filter20582)"
        id="path17830"
        inkscape:href="#path17058"
        d="m 131.375,85.21875 c -2.60585,0 -4.68671,2.084049 -4.6875,4.6875 l -0.1875,411.9375 4.71875,0 554.5625,0 4.71875,0 0,-411.9375 c 0.0127,-2.603451 -2.08166,-4.6875 -4.6875,-4.6875 l -554.4375,0 z"
-       transform="translate(0,4)" />
+       transform="translate(0,1)" />
     <path
        style="fill:url(#linearGradient20500);fill-opacity:1;stroke:#a7aba7;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        d="m 131.37673,85.207779 554.42285,0 c 2.60584,0 4.71637,2.095918 4.70368,4.699369 l -0.0172,411.937172 -4.70369,0 -554.57863,0 -4.70371,0 0.17309,-411.937172 c 7.9e-4,-2.603451 2.09786,-4.699369 4.70371,-4.699369 z"
