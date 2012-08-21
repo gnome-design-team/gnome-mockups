@@ -87,19 +87,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="319.45661"
-     inkscape:cy="768.57984"
+     inkscape:zoom="1"
+     inkscape:cx="453.95661"
+     inkscape:cy="564.57984"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="g15111"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1280"
-     inkscape:window-height="741"
-     inkscape:window-x="0"
+     inkscape:window-width="2560"
+     inkscape:window-height="1381"
+     inkscape:window-x="1600"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
      showguides="true"
@@ -120,7 +120,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -492,7 +492,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="clock scaling"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g6832"
@@ -841,7 +841,7 @@
      id="g15111"
      inkscape:groupmode="layer"
      inkscape:label="timer and stopwatch"
-     style="display:none">
+     style="display:inline">
     <g
        transform="translate(0,1640)"
        id="g15113">
@@ -1664,7 +1664,7 @@
        ry="3"
        rx="3"
        y="559.19745"
-       x="147.99911"
+       x="279.99911"
        height="34"
        width="121.99999"
        id="rect16304"
@@ -1675,23 +1675,45 @@
          sodipodi:linespacing="125%"
          id="text16306"
          y="580.68243"
-         x="208.65228"
+         x="340.65228"
          style="font-size:13px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
          xml:space="preserve"><tspan
            y="580.68243"
-           x="208.65228"
+           x="340.65228"
            id="tspan16308"
            sodipodi:role="line">Start</tspan></text>
     </g>
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999988;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect16504"
-       width="121.99999"
-       height="34"
-       x="279.99911"
-       y="559.19745"
-       rx="3"
-       ry="3" />
+    <g
+       id="g12361"
+       transform="translate(-132,0)">
+      <rect
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.99999988;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect16504"
+         width="121.99999"
+         height="34"
+         x="279.99911"
+         y="559.19745"
+         rx="3"
+         ry="3" />
+      <g
+         id="g12296">
+        <g
+           id="g16510"
+           transform="translate(131.99999,0)">
+          <text
+             xml:space="preserve"
+             style="font-size:13px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+             x="208.65228"
+             y="580.68243"
+             id="text16512"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan16514"
+               x="208.65228"
+               y="580.68243">Lap</tspan></text>
+        </g>
+      </g>
+    </g>
     <rect
        style="opacity:0.58222201;fill:#729fcf;fill-opacity:1;stroke:none"
        id="rect16310"
@@ -1784,29 +1806,6 @@
          inkscape:transform-center-x="-0.16747036"
          style="fill:#729fcf;fill-opacity:1;stroke:none" />
     </g>
-    <g
-       id="g16510"
-       transform="translate(131.99999,0)">
-      <text
-         xml:space="preserve"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-         x="208.65228"
-         y="580.68243"
-         id="text16512"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan16514"
-           x="208.65228"
-           y="580.68243">Lap</tspan></text>
-    </g>
-    <rect
-       style="opacity:0.58222201;fill:#729fcf;fill-opacity:1;stroke:none"
-       id="rect16481"
-       width="870"
-       height="256"
-       x="-150.22018"
-       y="-402.99911"
-       transform="matrix(0,1,-1,0,0,0)" />
     <text
        xml:space="preserve"
        style="font-size:13px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#729fcf;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
@@ -1829,5 +1828,13 @@
          x="35.682381"
          id="tspan16489"
          sodipodi:role="line">The layouts of the timer and stopwatch need to mirror each other</tspan></text>
+    <rect
+       style="opacity:0.58222201;fill:#729fcf;fill-opacity:1;stroke:none;display:inline"
+       id="rect16481"
+       width="870"
+       height="256"
+       x="-150.22021"
+       y="-402.99911"
+       transform="matrix(0,1,-1,0,0,0)" />
   </g>
 </svg>
