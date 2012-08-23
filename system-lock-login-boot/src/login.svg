@@ -24,7 +24,7 @@
    sodipodi:docname="login.svg"
    inkscape:output_extension="org.inkscape.output.svgz.inkscape"
    style="display:inline;overflow:visible"
-   inkscape:export-filename="/home/allan/SparkleShare/gnome-mockups/system-lock-login-boot/login-not-listed-password.png"
+   inkscape:export-filename="/home/allan/SparkleShare/gnome-mockups/system-lock-login-boot/login-not-listed-password-failure.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"><defs
    id="defs471"><pattern
@@ -2177,7 +2177,7 @@
    xlink:href="#linearGradient16413-5-7-1-4-1-0-5-9-9-0"
    id="linearGradient5298"
    gradientUnits="userSpaceOnUse"
-   gradientTransform="matrix(0.26584594,0,0,2.0945664,576.93262,-474.68062)"
+   gradientTransform="matrix(0.26584594,0,0,2.0945664,576.93262,-456.74311)"
    x1="261.02084"
    y1="700.76471"
    x2="261.02084"
@@ -2206,7 +2206,7 @@
    x2="261.02084"
    y1="700.76471"
    x1="261.02084"
-   gradientTransform="matrix(0.26584595,0,0,2.0945664,1162.1435,-474.6806)"
+   gradientTransform="matrix(0.26584595,0,0,2.0945664,1162.1435,-456.74311)"
    gradientUnits="userSpaceOnUse"
    id="linearGradient3967"
    xlink:href="#linearGradient16413-5-7-1-4-1-0-5-9-9-0-1"
@@ -2235,7 +2235,7 @@
    x2="261.02084"
    y1="700.76471"
    x1="261.02084"
-   gradientTransform="matrix(0.26584595,0,0,2.0945664,1162.1435,-474.68063)"
+   gradientTransform="matrix(0.26584595,0,0,2.0945664,1162.1435,-456.74313)"
    gradientUnits="userSpaceOnUse"
    id="linearGradient4780"
    xlink:href="#linearGradient16413-5-7-1-4-1-0-5-9-9-0-1-7"
@@ -2254,11 +2254,11 @@
    height="128px"
    width="128px"
    inkscape:zoom="0.70710678"
-   inkscape:cx="497.79334"
+   inkscape:cx="304.04608"
    inkscape:cy="310.96887"
    inkscape:window-x="0"
    inkscape:window-y="27"
-   inkscape:current-layer="g5281"
+   inkscape:current-layer="layer7"
    showgrid="false"
    borderlayer="true"
    inkscape:showpageshadow="false"
@@ -2459,7 +2459,7 @@
        d="m 27.0625,221.3125 a 0.37503771,0.37503771 0 0 0 -0.125,0.625 c 1.10149,1.10149 1.10149,2.89851 0,4 a 0.37565048,0.37565048 0 1 0 0.53125,0.53125 c 1.388102,-1.3881 1.388102,-3.6744 0,-5.0625 a 0.37503771,0.37503771 0 0 0 -0.40625,-0.0937 z" /></g><rect
      ry="12.447388"
      rx="12.447387"
-     y="918.07727"
+     y="936.01477"
      x="617.70703"
      height="74.090675"
      width="172.64844"
@@ -2477,6 +2477,37 @@
      d="m 631.16016,785.58154 0,38.09141"
      id="path4350"
      inkscape:connector-curvature="0" /><g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="failure#1"><text
+       xml:space="preserve"
+       style="font-size:31.390625px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#edd400;fill-opacity:1;stroke:none;display:inline;overflow:visible;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="679.36719"
+       y="883.42194"
+       id="text3961"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3963"
+         x="679.36719"
+         y="883.42194"
+         style="font-size:31.390625px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#edd400;fill-opacity:1;font-family:Cantarell;-inkscape-font-specification:Cantarell">Sorry that didn't work. Please try again.</tspan></text>
+<g
+       transform="matrix(2.2421875,0,0,2.2421875,-53.828125,282.51562)"
+       inkscape:label="dialog-warning"
+       id="g3965"
+       style="display:inline;overflow:visible"><rect
+         style="color:#bebebe;fill:none;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         id="rect3967"
+         y="257"
+         x="301"
+         height="16"
+         width="16" /><path
+         style="color:#bebebe;fill:#f57900;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         d="m 308.91905,257.09375 c -0.5255,-0.0286 -1.03823,0.28305 -1.4375,0.96875 l -6.25,11.59375 C 300.69808,270.61964 301.27977,272 302.3253,272 l 13.15625,0 c 0.98172,0 1.90311,-1.15939 1.21875,-2.34375 L 310.3878,258.125 c -0.39872,-0.64617 -0.94325,-1.00262 -1.46875,-1.03125 z m -0.0313,3.9375 c 0.54448,-0.0172 1.04849,0.48677 1.03125,1.03125 l 0,3.9375 c 0.007,0.52831 -0.47163,1.01424 -1,1.01424 -0.52836,0 -1.00747,-0.48593 -1,-1.01424 l 0,-3.9375 c -0.008,-0.4666 0.3541,-0.91253 0.8125,-1 0.0511,-0.0145 0.10345,-0.025 0.15625,-0.0313 z m -0.9687,6.96875 2,0 0,2 -2,0 0,-2 z"
+         id="path3969"
+         sodipodi:nodetypes="cccccccccccsccscccccc"
+         class="warning"
+         inkscape:connector-curvature="0" /></g></g><g
      inkscape:label="password"
      id="g5281"
      inkscape:groupmode="layer"
@@ -2494,23 +2525,25 @@
      id="tspan5291"
      sodipodi:role="line">Password:</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-size:31.390625px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;overflow:visible;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
    x="700.47119"
-   y="965.40295"
+   y="983.34045"
    id="text3878"
    sodipodi:linespacing="125%"><tspan
      sodipodi:role="line"
      id="tspan3880"
      x="700.47119"
-     y="965.40295"
+     y="983.34045"
      style="font-size:31.390625px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold">Back</tspan></text>
+
 
 <rect
    ry="12.447388"
    rx="12.447387"
-   y="918.07727"
+   y="936.01477"
    x="1202.918"
    height="74.090675"
    width="172.64844"
@@ -2519,14 +2552,15 @@
    xml:space="preserve"
    style="font-size:31.390625px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#e9eaea;fill-opacity:0.58039216;stroke:none;display:inline;overflow:visible;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
    x="1289.1185"
-   y="965.07782"
+   y="983.01532"
    id="text4758"
    sodipodi:linespacing="125%"><tspan
      sodipodi:role="line"
      id="tspan4760"
      x="1289.1185"
-     y="965.07782"
+     y="983.01532"
      style="font-size:31.390625px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#e9eaea;fill-opacity:0.58039216;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold">Sign In</tspan></text>
+
 </g><g
      inkscape:groupmode="layer"
      id="layer6"
@@ -2537,20 +2571,21 @@
    width="172.64844"
    height="74.090675"
    x="1202.918"
-   y="918.07727"
+   y="936.01477"
    rx="12.447387"
    ry="12.447388" /><text
    sodipodi:linespacing="125%"
    id="text3886"
-   y="965.07782"
+   y="983.01532"
    x="1288.0602"
    style="font-size:31.390625px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#e9eaea;fill-opacity:0.58039216;stroke:none;display:inline;overflow:visible;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
    xml:space="preserve"><tspan
      style="font-size:31.390625px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#e9eaea;fill-opacity:0.58039216;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-     y="965.07782"
+     y="983.01532"
      x="1288.0602"
      id="tspan3888"
      sodipodi:role="line">Next</tspan></text>
+
 
 <text
    xml:space="preserve"
@@ -2565,18 +2600,20 @@
      y="744.40625"
      style="font-size:31.390625px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Cantarell;-inkscape-font-specification:Cantarell">Username:</tspan></text>
 
+
 <text
    sodipodi:linespacing="125%"
    id="text5300"
-   y="965.93671"
+   y="983.87421"
    x="702.88965"
    style="font-size:31.390625px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;overflow:visible;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
    xml:space="preserve"><tspan
      style="font-size:31.390625px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-     y="965.93671"
+     y="983.87421"
      x="702.88965"
      id="tspan5302"
      sodipodi:role="line">Cancel</tspan></text>
+
 
 </g></g><g
    inkscape:groupmode="layer"
@@ -2592,6 +2629,7 @@
      id="tspan13585"
      x="1160.9644"
      y="1087.4609" /></text>
+
 
 
 
@@ -2647,6 +2685,7 @@
 
 
 
+
 <text
    sodipodi:linespacing="125%"
    id="text16014-3"
@@ -2659,6 +2698,7 @@
      x="780.06885"
      id="tspan16016-1"
      sodipodi:role="line">Leonard Kohen</tspan></text>
+
 
 
 
@@ -2686,6 +2726,7 @@
      x="448.70947"
      y="270.52246"
      style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#bfbfbf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.44599304;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold">Jan Hendrics</tspan></text>
+
 
 
 
@@ -2734,6 +2775,7 @@
      id="tspan24329-77-4-2"
      x="622.21497"
      y="1174.906">Not listed?</tspan></text>
+
 
 
 
@@ -2900,6 +2942,7 @@
 
 
 
+
 <g
    id="g3828"
    style="display:inline"
@@ -2949,6 +2992,7 @@
 
 
 
+
 <text
    xml:space="preserve"
    style="font-size:44.84375px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#bfbfbf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
@@ -2961,6 +3005,7 @@
      x="780.06885"
      y="985.35931"
      style="font-size:44.84375px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#bfbfbf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold">Leonard Kohen</tspan></text>
+
 
 
 
@@ -2988,6 +3033,7 @@
      x="448.70947"
      id="tspan3852"
      sodipodi:role="line">Jan Hendrics</tspan></text>
+
 
 
 
@@ -3036,6 +3082,7 @@
      x="622.21497"
      id="tspan3868"
      sodipodi:role="line">Not listed?</tspan></text>
+
 
 
 
@@ -3241,6 +3288,7 @@
 
 
 
+
 </g><g
    style="display:inline;overflow:visible"
    id="g4692-3-9"
@@ -3391,6 +3439,7 @@
 
 
 
+
 </g><g
    style="color:#000000;fill:url(#linearGradient23988);fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:2.2421875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
    transform="translate(-860.22793,208.38334)"
@@ -3486,6 +3535,7 @@
 
 
 
+
 </g><g
    style="fill:url(#pattern109867-5-6-6-1-7);fill-opacity:1;stroke:#8b8b8b;stroke-width:2.66666651;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;overflow:visible"
    transform="matrix(1.8161719,0,0,1.8161719,-54.792308,113.70886)"
@@ -3517,6 +3567,7 @@
      x="616.58594"
      y="744.40625"
      style="font-size:31.390625px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Cantarell;-inkscape-font-specification:Cantarell">Password:</tspan></text>
+
 
 
 
@@ -3564,6 +3615,7 @@
 
 
 
+
 </g><g
    style="display:inline;overflow:visible"
    id="g4692-3-9-3"
@@ -3584,7 +3636,7 @@
      sodipodi:cy="696"
      sodipodi:rx="7"
      sodipodi:ry="7"
-     d="m 51.52343,689.95141 c 3.340544,1.94594 4.471097,6.23148 2.52516,9.57202 -1.945936,3.34054 -6.231476,4.4711 -9.57202,2.52516 -3.340544,-1.94594 -4.471097,-6.23148 -2.52516,-9.57202 0.612757,-1.05191 1.489249,-1.92583 2.542951,-2.53549"
+     d="m 51.52343,689.95141 a 7,7 0 1 1 -7.029069,-0.0103"
      transform="matrix(0.85694274,0,0,0.85714276,6.8667487,99.42864)"
      sodipodi:start="5.239857"
      sodipodi:end="10.471045"
@@ -3714,6 +3766,7 @@
 
 
 
+
 </g><g
    style="color:#000000;fill:url(#linearGradient23988-1);fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:2.2421875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
    transform="translate(-860.22793,208.38333)"
@@ -3745,7 +3798,7 @@
      id="path29149-7"
      d="m 288.99994,271.498 0,-5.49794 L 287,265.4375 l -6e-5,5.56256 z"
      style="opacity:0.35;color:#000000;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" /><path
-     d="m 346,265 c 0,0.55228 -0.44772,1 -1,1 -0.55228,0 -1,-0.44772 -1,-1 0,-0.55228 0.44772,-1 1,-1 0.55228,0 1,0.44772 1,1 z"
+     d="m 346,265 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
      sodipodi:ry="1"
      sodipodi:rx="1"
      sodipodi:cy="265"
@@ -3809,6 +3862,7 @@
 
 
 
+
 </g><g
    style="fill:url(#pattern109867-5-6-6-1-7-5);fill-opacity:1;stroke:#8b8b8b;stroke-width:2.66666651;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;overflow:visible"
    transform="matrix(1.8161719,0,0,1.8161719,-54.79231,113.70885)"
@@ -3836,6 +3890,7 @@
 
 
 
+
 <rect
    ry="10.167775"
    rx="10.167775"
@@ -3856,6 +3911,7 @@
      x="679.36719"
      id="tspan33505"
      sodipodi:role="line">Sorry that didn't work. Please try again.</tspan></text>
+
 
 
 
@@ -3934,6 +3990,7 @@
 
 
 
+
 <text
    id="text3678-1"
    y="414.07788"
@@ -3946,6 +4003,7 @@
      x="1531.6021"
      id="tspan3680-7"
      sodipodi:role="line">Wired</tspan></text>
+
 
 
 
@@ -3965,6 +4023,7 @@
 
 
 
+
 <text
    id="text42181-4-6-1"
    y="833.35651"
@@ -3976,6 +4035,7 @@
      x="1532.1101"
      id="tspan42183-46-4-0"
      sodipodi:role="line">Betty's</tspan></text>
+
 
 
 
@@ -4035,6 +4095,7 @@
      x="1533.2444"
      id="tspan42183-46-2"
      sodipodi:role="line">Carbon Coffee</tspan></text>
+
 
 
 
@@ -4107,6 +4168,7 @@
 
 
 
+
 <rect
    ry="8.96875"
    rx="8.96875"
@@ -4127,6 +4189,7 @@
      x="2005.3737"
      id="tspan42231-19"
      sodipodi:role="line">OFF</tspan></text>
+
 
 
 
@@ -4165,6 +4228,7 @@
      x="1531.6021"
      id="tspan42179-2-1"
      sodipodi:role="line">Wi-Fi</tspan></text>
+
 
 
 
@@ -4214,6 +4278,7 @@
      x="1943.6302"
      id="tspan42231-1-8"
      sodipodi:role="line">ON</tspan></text>
+
 
 
 
@@ -4275,6 +4340,7 @@
 
 
 
+
 <text
    sodipodi:linespacing="125%"
    xml:space="preserve"
@@ -4286,6 +4352,7 @@
      id="tspan19999"
      x="1528.8585"
      y="1070.5977">Restart</tspan></text>
+
 
 
 
@@ -4589,6 +4656,7 @@
 
 
 
+
 <path
    sodipodi:type="inkscape:offset"
    inkscape:radius="0"
@@ -4613,6 +4681,7 @@
      x="1004.0978"
      id="tspan6707"
      sodipodi:role="line">8:04 AM</tspan></text>
+
 
 
 
