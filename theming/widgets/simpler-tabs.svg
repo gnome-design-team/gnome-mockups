@@ -2017,6 +2017,60 @@
        y1="604.19843"
        x2="400"
        y2="582.54358" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4792-9-1"
+       id="linearGradient5282-8"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1428571,0,0,1.1111111,-36.07143,178.63998)"
+       x1="400"
+       y1="604.19843"
+       x2="400"
+       y2="582.54358" />
+    <linearGradient
+       id="linearGradient4792-9-1"
+       inkscape:collect="always">
+      <stop
+         id="stop4794-2-1"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1" />
+      <stop
+         id="stop4796-5-9"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5208-8"
+       id="linearGradient5280-1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1428571,0,0,1.1111111,-57.071429,-67.72222)"
+       x1="400"
+       y1="604.19843"
+       x2="400"
+       y2="582.54358" />
+    <linearGradient
+       id="linearGradient5208-8"
+       inkscape:collect="always">
+      <stop
+         id="stop5210-79"
+         offset="0"
+         style="stop-color:#b8bbb5;stop-opacity:1" />
+      <stop
+         id="stop5212-69"
+         offset="1"
+         style="stop-color:#b8bbb5;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient
+       y2="582.54358"
+       x2="400"
+       y1="604.19843"
+       x1="400"
+       gradientTransform="matrix(1.1428571,0,0,1.1111111,-37.07143,178.63998)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient5305"
+       xlink:href="#linearGradient5208-8"
+       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -2025,9 +2079,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="8"
-     inkscape:cx="413.41732"
-     inkscape:cy="213.93674"
+     inkscape:zoom="1"
+     inkscape:cx="423.81933"
+     inkscape:cy="205.1896"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2861,6 +2915,12 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
     </g>
+    <path
+       id="path5276"
+       style="fill:none;stroke:url(#linearGradient5305);stroke-width:0.99999994px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 440.75,865.8622 -4,-27.92943 c -0.4381,-2.29676 -1.7883,-3.06777 -3.3125,-3.07057 l -16.38477,-0.0301 2.44725,21.03009"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccscc" />
     <use
        height="600"
        width="800"
@@ -2869,6 +2929,12 @@
        xlink:href="#g4867"
        y="0"
        x="0" />
+    <path
+       style="opacity:0.6;fill:none;stroke:url(#linearGradient5282-8);stroke-width:0.99999994px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 420.49998,855.86217 418,835.61218"
+       id="path5278"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
     <g
        transform="translate(-50.999998,246.3622)"
        id="g7367-8">
@@ -3188,20 +3254,6 @@
     </g>
     <g
        id="use7365-5-3"
-       transform="translate(70,220)">
-      <path
-         id="path5276"
-         transform="translate(-50.999998,26.3622)"
-         style="fill:none;stroke:url(#linearGradient5280);stroke-width:0.99999994px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 420.75,619.5 -4,-27.92943 c -0.4381,-2.29676 -1.7883,-3.06777 -3.3125,-3.07057 l -16.38477,-0.0301 2.44725,21.03009"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccscc" />
-      <path
-         style="opacity:0.6;fill:none;stroke:url(#linearGradient5282);stroke-width:0.99999994px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 349.49998,635.86217 347,615.61218"
-         id="path5278"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-    </g>
+       transform="translate(70,220)" />
   </g>
 </svg>
