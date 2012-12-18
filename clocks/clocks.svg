@@ -19,7 +19,7 @@
    sodipodi:docname="clocks.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
-   inkscape:export-filename="/home/allan/SparkleShare/gnome-mockups/clocks/clocks-new-alarm.png"
+   inkscape:export-filename="/home/andreasn/SparkleShare/gnome-mockups/clocks/clocks-alarm-ringing.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    style="display:inline;enable-background:new">
@@ -33,18 +33,18 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.84277344"
-     inkscape:cx="516.00146"
-     inkscape:cy="371.52512"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="393.47241"
+     inkscape:cy="447.42572"
      inkscape:document-units="px"
-     inkscape:current-layer="g16731"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:snap-global="true"
      inkscape:snap-nodes="false"
      inkscape:snap-bbox="true"
      showborder="true"
-     inkscape:window-width="1280"
-     inkscape:window-height="964"
+     inkscape:window-width="1920"
+     inkscape:window-height="1021"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -5799,6 +5799,71 @@
        y1="360.94116"
        x2="1061.4476"
        y2="400.85233" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient60585-4-48-08"
+       id="linearGradient11523-0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.4303797,0,0,1.7096775,498.91931,494.25856)"
+       x1="49"
+       y1="39.502155"
+       x2="49.000004"
+       y2="10.497845" />
+    <linearGradient
+       id="linearGradient60585-4-48-08"
+       inkscape:collect="always">
+      <stop
+         id="stop60587-8-5-4"
+         offset="0"
+         style="stop-color:#dbdbdb;stop-opacity:1" />
+      <stop
+         id="stop60589-6-3-6"
+         offset="1"
+         style="stop-color:#f7f7f7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3808-0-8-6"
+       id="linearGradient11525-2"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.4303797,0,0,1.7096775,-1663.4935,494.25809)"
+       x1="589"
+       y1="37.753166"
+       x2="589"
+       y2="9.7479591" />
+    <linearGradient
+       id="linearGradient3808-0-8-6">
+      <stop
+         style="stop-color:#4a9206;stop-opacity:1;"
+         offset="0"
+         id="stop3810-8-8-5" />
+      <stop
+         style="stop-color:#55a907;stop-opacity:1;"
+         offset="1"
+         id="stop3812-7-4-89" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient60585-4-48-08-4"
+       id="linearGradient11523-0-4"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.4303797,0,0,1.7096775,498.91931,494.25856)"
+       x1="49"
+       y1="39.502155"
+       x2="49.000004"
+       y2="10.497845" />
+    <linearGradient
+       id="linearGradient60585-4-48-08-4"
+       inkscape:collect="always">
+      <stop
+         id="stop60587-8-5-4-9"
+         offset="0"
+         style="stop-color:#dbdbdb;stop-opacity:1" />
+      <stop
+         id="stop60589-6-3-6-6"
+         offset="1"
+         style="stop-color:#f7f7f7;stop-opacity:1" />
+    </linearGradient>
   </defs>
   <metadata
      id="metadata7">
@@ -6842,7 +6907,7 @@
        sodipodi:cy="30"
        sodipodi:rx="42"
        sodipodi:ry="16"
-       d="M 9,29.999999 A 42,16 0 0 1 93,30 l -42,0 z"
+       d="M 9,29.999999 C 9.0000011,21.163443 27.804042,14 51.000002,14 74.195961,14 93,21.163444 93,30 l -42,0 z"
        sodipodi:start="3.1415927"
        sodipodi:end="6.2831853"
        transform="translate(-568,-134.62266)" />
@@ -7220,7 +7285,7 @@
          sodipodi:start="5.4977871"
          sodipodi:open="true"
          transform="matrix(0.784314,0,0,0.784314,5.94118,48.8628)"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          sodipodi:ry="3.1875"
          sodipodi:rx="3.1875"
          sodipodi:cy="223.9375"
@@ -7240,7 +7305,7 @@
          sodipodi:cy="223.9375"
          sodipodi:rx="3.1875"
          sodipodi:ry="3.1875"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          transform="matrix(1.72549,0,0,1.72549,-17.5294,-161.902)"
          clip-path="url(#clipPath6265-3-4-2)" />
       <path
@@ -7248,7 +7313,7 @@
          sodipodi:start="5.4977871"
          sodipodi:open="true"
          transform="matrix(2.66667,0,0,2.66667,-41,-372.666)"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          sodipodi:ry="3.1875"
          sodipodi:rx="3.1875"
          sodipodi:cy="223.9375"
@@ -7595,7 +7660,7 @@
       <path
          sodipodi:type="inkscape:offset"
          inkscape:radius="0"
-         inkscape:original="M 889.8125 422.09375 L 886.09375 432 L 887.8125 432 L 888.8125 429.40625 L 892.46875 429.40625 L 893.46875 432 L 895.28125 432 L 891.5625 422.09375 L 889.8125 422.09375 z M 901.15625 422.09375 L 901.15625 425.21875 C 900.72725 425.07575 900.21395 424.96875 899.65625 424.96875 C 897.58275 424.96875 896.03125 426.2708 896.03125 428.6875 C 896.03125 431.3044 897.89575 432.15625 899.46875 432.15625 C 900.06935 432.15625 900.79665 432.0164 901.46875 431.6875 L 901.59375 432 L 902.84375 432 L 902.84375 422.09375 L 901.15625 422.09375 z M 909.59375 422.09375 L 909.59375 425.21875 C 909.16475 425.07575 908.6827 424.96875 908.125 424.96875 C 906.0515 424.96875 904.5 426.2708 904.5 428.6875 C 904.5 431.3044 906.3645 432.15625 907.9375 432.15625 C 908.5381 432.15625 909.23415 432.0164 909.90625 431.6875 L 910.0625 432 L 911.3125 432 L 911.3125 422.09375 L 909.59375 422.09375 z M 890.625 424.125 L 891.90625 427.8125 L 889.375 427.8125 L 890.625 424.125 z M 899.84375 426.4375 C 900.32995 426.4375 900.82735 426.55615 901.15625 426.65625 L 901.15625 430.40625 C 900.82735 430.53495 900.3612 430.625 899.875 430.625 C 899.017 430.625 897.71875 430.2589 897.71875 428.5 C 897.71875 426.7554 899.00005 426.4375 899.84375 426.4375 z M 908.3125 426.4375 C 908.7987 426.4375 909.26485 426.55615 909.59375 426.65625 L 909.59375 430.40625 C 909.26485 430.53495 908.82995 430.625 908.34375 430.625 C 907.48575 430.625 906.1875 430.2589 906.1875 428.5 C 906.1875 426.7554 907.4688 426.4375 908.3125 426.4375 z "
+         inkscape:original="M 889.59375 422.09375 L 885.875 432 L 887.59375 432 L 888.59375 429.40625 L 892.21875 429.40625 L 893.21875 432 L 895.03125 432 L 891.3125 422.09375 L 889.59375 422.09375 z M 901.09375 422.09375 L 901.09375 425.21875 C 900.66475 425.07575 900.1827 424.96875 899.625 424.96875 C 897.5515 424.96875 895.96875 426.2708 895.96875 428.6875 C 895.96875 431.3044 897.83325 432.15625 899.40625 432.15625 C 900.00685 432.15625 900.73415 432.0164 901.40625 431.6875 L 901.53125 432 L 902.8125 432 L 902.8125 422.09375 L 901.09375 422.09375 z M 909.5625 422.09375 L 909.5625 425.21875 C 909.1335 425.07575 908.6202 424.96875 908.0625 424.96875 C 905.989 424.96875 904.4375 426.2708 904.4375 428.6875 C 904.4375 431.3044 906.302 432.15625 907.875 432.15625 C 908.4756 432.15625 909.2029 432.0164 909.875 431.6875 L 910 432 L 911.28125 432 L 911.28125 422.09375 L 909.5625 422.09375 z M 890.40625 424.125 L 891.65625 427.8125 L 889.125 427.8125 L 890.40625 424.125 z M 899.8125 426.4375 C 900.2987 426.4375 900.76485 426.55615 901.09375 426.65625 L 901.09375 430.40625 C 900.76485 430.53495 900.2987 430.625 899.8125 430.625 C 898.9545 430.625 897.65625 430.2589 897.65625 428.5 C 897.65625 426.7554 898.9688 426.4375 899.8125 426.4375 z M 908.25 426.4375 C 908.7362 426.4375 909.2336 426.55615 909.5625 426.65625 L 909.5625 430.40625 C 909.2336 430.53495 908.76745 430.625 908.28125 430.625 C 907.42325 430.625 906.125 430.2589 906.125 428.5 C 906.125 426.7554 907.4063 426.4375 908.25 426.4375 z "
          xlink:href="#text3767-1-5"
          style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;color:#000000;fill:#3465a4;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
          id="path60213"
@@ -8694,7 +8759,7 @@
        style="opacity:0.3;fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="new alarm"
      id="g18287"
      inkscape:groupmode="layer">
@@ -9470,6 +9535,169 @@
          x="47.698418"
          id="tspan18641"
          sodipodi:role="line">Cancel</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="alarm-ringing">
+    <g
+       transform="translate(-310,1.6591454e-6)"
+       style="display:inline;enable-background:new"
+       id="g11505-5-4">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         d="m 537.3125,513.3125 18.71875,0"
+         id="path11507-3-3"
+         inkscape:connector-curvature="0" />
+      <rect
+         style="color:#000000;fill:none;stroke:#ffffff;stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.59210528;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect11509-2-2"
+         width="271"
+         height="52.999996"
+         x="531.9693"
+         y="511.5625"
+         rx="3"
+         ry="3"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         ry="3"
+         rx="3"
+         y="510.50049"
+         x="531.50806"
+         height="52.999996"
+         width="271"
+         id="rect11511-8-6"
+         style="color:#000000;fill:url(#linearGradient11523-0-4);fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         xml:space="preserve"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+         x="667.29919"
+         y="546.27399"
+         id="text11513-4-1"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"><tspan
+           sodipodi:role="line"
+           id="tspan11515-6-0"
+           x="667.29919"
+           y="546.27399">Dismiss</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         sodipodi:linespacing="125%"
+         id="text11517-8-6"
+         y="545.27448"
+         x="667.29919"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+         xml:space="preserve"><tspan
+           y="545.27448"
+           x="667.29919"
+           id="tspan11519-2-2"
+           sodipodi:role="line">Dismiss</tspan></text>
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:0.15714285;display:inline;enable-background:new"
+         d="m 534.51144,511.5 264.9829,0"
+         id="path11521-6-8"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="translate(2.5190258e-6,-2.9802322e-8)"
+       style="display:inline;enable-background:new"
+       id="g11505-5">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;enable-background:new"
+         d="m 537.3125,513.3125 18.71875,0"
+         id="path11507-3"
+         inkscape:connector-curvature="0" />
+      <rect
+         style="color:#000000;fill:none;stroke:#ffffff;stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.59210528;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect11509-2"
+         width="271"
+         height="52.999996"
+         x="531.9693"
+         y="511.5625"
+         rx="3"
+         ry="3"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         ry="3"
+         rx="3"
+         y="510.50049"
+         x="531.50806"
+         height="52.999996"
+         width="271"
+         id="rect11511-8"
+         style="color:#000000;fill:url(#linearGradient11523-0);fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         xml:space="preserve"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+         x="667.29919"
+         y="546.27399"
+         id="text11513-4"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"><tspan
+           sodipodi:role="line"
+           id="tspan11515-6"
+           x="667.29919"
+           y="546.27399">Snooze five minutes</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         sodipodi:linespacing="125%"
+         id="text11517-8"
+         y="545.27448"
+         x="667.29919"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+         xml:space="preserve"><tspan
+           y="545.27448"
+           x="667.29919"
+           id="tspan11519-2"
+           sodipodi:role="line">Snooze five minutes</tspan></text>
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:0.15714285;display:inline;enable-background:new"
+         d="m 534.51144,511.5 264.9829,0"
+         id="path11521-6"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:15px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       x="511.81345"
+       y="58.176262"
+       id="text18295-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan18297-9"
+         x="511.81345"
+         y="58.176262">New Alarm</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6064-0"
+       y="365.18506"
+       x="511.47305"
+       style="font-size:123.18782806px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       xml:space="preserve"><tspan
+         y="365.18506"
+         x="511.47305"
+         id="tspan6066-1"
+         sodipodi:role="line">6:45 PM<tspan
+   style="font-size:123.18782806px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#babdb6;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+   id="tspan15089-8" /></tspan></text>
   </g>
   <g
      style="display:none"
