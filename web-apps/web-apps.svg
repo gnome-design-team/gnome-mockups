@@ -15,7 +15,10 @@
    id="svg11748"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="web-apps.svg">
+   sodipodi:docname="web-apps.svg"
+   inkscape:export-filename="/home/jimmac/SparkleShare/gnome-mockups/web-apps/web-apps.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs11750">
     <filter
@@ -141,24 +144,6 @@
          offset="1"
          id="stop25627-4-7-2-7-4" />
     </linearGradient>
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:collect="always"
-       id="filter9976">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="8.1249975"
-         id="feGaussianBlur9978" />
-    </filter>
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:collect="always"
-       id="filter9976-5">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="8.1249975"
-         id="feGaussianBlur9978-9" />
-    </filter>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient5378-2-93-6-3-1-66-6-7-5-0-7-6-4-2"
@@ -299,6 +284,22 @@
        id="linearGradient14090"
        xlink:href="#linearGradient72990-6"
        inkscape:collect="always" />
+    <filter
+       inkscape:collect="always"
+       id="filter14197">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.0624988"
+         id="feGaussianBlur14199" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter14209">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.2812484"
+         id="feGaussianBlur14211" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -311,7 +312,7 @@
      inkscape:cx="881.08506"
      inkscape:cy="507.05395"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -340,7 +341,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1298,7 +1299,7 @@
      inkscape:label="window 2"
      style="display:inline">
     <path
-       style="opacity:0.68049795;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter9976-5);enable-background:accumulate"
+       style="opacity:0.32113821;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;filter:url(#filter14197)"
        d="m 438.60708,99.54069 966.00062,0 c 4.9857,0 8.9994,4.46 8.9994,10 l 0,631 -8.9994,0 -966.00062,0 -8.99951,0 0,-631 c 0,-5.54 4.01378,-10 8.99951,-10 z"
        id="path12349"
        inkscape:connector-curvature="0"
@@ -1611,8 +1612,8 @@
        sodipodi:nodetypes="sssccccss"
        inkscape:connector-curvature="0"
        id="path12180"
-       d="m 154.60708,175.54069 998.00062,0 c 4.9857,0 9.0165,4.46003 8.9994,10 l 0,649 -8.9994,0 -998.00062,0 -8.99951,0 0,-649 c 0,-5.54 4.01378,-10 8.99951,-10 z"
-       style="opacity:0.68049795;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter9976);enable-background:accumulate" />
+       d="m 154.60708,177.54069 998.00062,0 c 4.9857,0 9.0165,4.46003 8.9994,10 l 0,649 -8.9994,0 -998.00062,0 -8.99951,0 0,-649 c 0,-5.54 4.01378,-10 8.99951,-10 z"
+       style="opacity:0.8;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter14209);enable-background:accumulate" />
     <image
        y="224"
        x="149"
