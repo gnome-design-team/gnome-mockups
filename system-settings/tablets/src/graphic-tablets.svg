@@ -1355,8 +1355,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="493.97747"
-     inkscape:cy="2283.5047"
+     inkscape:cx="771.97747"
+     inkscape:cy="514.5047"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2486,32 +2486,12 @@
            style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
            y="258"
            x="943"
-           height="342"
+           height="323"
            width="177"
            id="rect10838" /></flowRegion><flowPara
-         id="flowPara10844">Screenshot only shown for when display mapping is apporpiate. That is for multihead setups with Non-screen tablets (Cintiq / Tablet PCs) and only in tablet mode (as opposed to mouse mode). </flowPara><flowPara
+         id="flowPara10844">Screenshot only shown for when display mapping is apporpiate, that is for regular pen tablets and only in tablet mode (as opposed to mouse mode). Screen tablets will always map 1:1 to the associated display.</flowPara><flowPara
          id="flowPara10855" /><flowPara
-         id="flowPara10857">Single screen setups simply map to the default screen. Screen tablets like the Cintiq do the right thing and figure out which screen to map to.</flowPara><flowPara
-         id="flowPara10851" /><flowPara
-         id="flowPara10853">Clicking on the thumbnail shows the modal dialog below where you can define the target screen/screens.</flowPara></flowRoot>    <g
-       style="display:inline"
-       transform="matrix(0.70770971,0,0,0.70770971,-422.71292,-229.91192)"
-       id="g4353-0">
-      <path
-         style="fill:#d3d7cf;fill-opacity:1;stroke:#babdb6;stroke-width:1.41300881px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m -667.4063,114.6834 0.71708,115.66778 c 58.68272,10.39004 114.98708,8.87359 168.80487,0 L -501.4063,114.6834 z"
-         id="path3568-6"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccc" />
-      <rect
-         style="color:#000000;fill:#888a85;fill-opacity:1;fill-rule:nonzero;stroke:#babdb6;stroke-width:1.41300857;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         id="rect10889"
-         width="126.79845"
-         height="82.952255"
-         x="-647.31793"
-         y="129.88136" />
-    </g>
-    <g
+         id="flowPara10853">Clicking on the thumbnail shows the modal dialog below where you can define the target screen/screens and provide tablet area mapping (fill/keep aspect).</flowPara></flowRoot>    <g
        id="g10883"
        transform="matrix(0.70770971,0,0,0.70770971,-422.71292,-90.01724)"
        style="display:inline">
@@ -2574,18 +2554,6 @@
          sodipodi:nodetypes="cc" />
     </g>
     <flowRoot
-       xml:space="preserve"
-       id="flowRoot10929"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       transform="matrix(0.83865881,0,0,0.83865881,-1689.715,-266.30841)"><flowRegion
-         id="flowRegion10931"><rect
-           id="rect10933"
-           width="177"
-           height="207"
-           x="943"
-           y="258"
-           style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell" /></flowRegion><flowPara
-         id="flowPara10943">Generic tablet  graphic</flowPara></flowRoot>    <flowRoot
        transform="matrix(0.83865881,0,0,0.83865881,-1683.715,-118.70446)"
        style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        id="flowRoot10959"
@@ -2597,7 +2565,7 @@
            height="207"
            width="177"
            id="rect10963" /></flowRegion><flowPara
-         id="flowPara10965">Multi-monitor setup - screenshots are stretched to fill the active tablet area.</flowPara></flowRoot>    <flowRoot
+         id="flowPara8260">Multi-monitor setup - screenshots are stretched to fill the active tablet area.</flowPara></flowRoot>    <flowRoot
        transform="translate(-941.4063,-511.84375)"
        style="font-size:13px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Italic"
        id="flowRoot10967"
