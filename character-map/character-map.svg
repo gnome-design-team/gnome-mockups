@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="character-map.svg"
-   inkscape:export-filename="/home/aday/checkout/gnome-mockups/character-map/png/app-menu.png"
+   inkscape:export-filename="/home/aday/checkout/gnome-mockups/character-map/png/windowed.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    style="display:inline">
@@ -23878,18 +23878,18 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="428.16198"
-     inkscape:cy="432.09426"
+     inkscape:cx="608.34669"
+     inkscape:cy="397.66009"
      inkscape:document-units="px"
      inkscape:current-layer="g9613"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1140"
-     inkscape:window-x="0"
+     inkscape:window-height="1142"
+     inkscape:window-x="1600"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:snap-nodes="true"
-     inkscape:snap-bbox="false"
+     inkscape:snap-nodes="false"
+     inkscape:snap-bbox="true"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -23898,7 +23898,7 @@
      inkscape:guide-bbox="true"
      inkscape:snap-global="true"
      inkscape:snap-bbox-midpoints="false"
-     inkscape:bbox-paths="true"
+     inkscape:bbox-paths="false"
      inkscape:bbox-nodes="false"
      showborder="true"
      borderlayer="true">
@@ -23926,7 +23926,7 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="base"
-     style="display:inline"
+     style="display:none"
      transform="translate(-53.96875,-129.78125)">
     <g
        inkscape:export-filename="/home/hbons/layer4.png"
@@ -24573,7 +24573,7 @@
        sodipodi:cy="30"
        sodipodi:rx="42"
        sodipodi:ry="16"
-       d="M 9,29.999999 A 42,16 0 0 1 93,30 l -42,0 z"
+       d="M 9,29.999999 C 9.0000011,21.163443 27.804042,14 51.000002,14 74.195961,14 93,21.163444 93,30 l -42,0 z"
        sodipodi:start="3.1415927"
        sodipodi:end="6.2831853"
        transform="translate(53.96875,128.89016)" />
@@ -24880,7 +24880,7 @@
   </g>
   <g
      transform="translate(-53.96875,-129.78125)"
-     style="display:none"
+     style="display:inline"
      inkscape:label="base - large"
      id="g9613"
      inkscape:groupmode="layer">
@@ -25830,7 +25830,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="window"
-     style="display:inline">
+     style="display:none">
     <path
        style="color:#000000;fill:url(#linearGradient8817);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate"
        d="M 8.999512,29 1015.0001,29 c 4.9857,0 8.9994,4.46 8.9994,10 l 0,37 -8.9994,0 L 8.999512,76 0,76 0,39 C 0,33.46 4.013782,29 8.999512,29 z"
@@ -25961,7 +25961,7 @@
        style="fill:none;stroke:#a7aba7;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="window  - small"
      id="g9109"
      inkscape:groupmode="layer">
@@ -25976,14 +25976,14 @@
        inkscape:connector-curvature="0"
        id="path9111"
        d="m 333.49951,9.5 965.00079,0 c 4.9857,0 8.8498,4.462021 8.9994,10 l 0,37 -8.9994,0 -965.00079,0 -8.99951,0 0,-37 c 0,-5.54 4.01378,-10 8.99951,-10 z"
-       style="color:#000000;fill:url(#linearGradient9611);fill-opacity:1;fill-rule:nonzero;stroke:#93a6b4;stroke-width:1;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate" />
+       style="color:#000000;fill:url(#linearGradient9611);fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:1;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate" />
     <rect
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.99999994;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate"
        id="rect9113"
        width="724"
        height="593"
-       x="584"
-       y="57" />
+       x="583.5"
+       y="56.5" />
     <g
        id="g9115"
        transform="translate(1273.5307,26.1)"
@@ -26083,23 +26083,18 @@
          id="g9157" />
     </g>
     <rect
-       y="57"
-       x="324"
+       style="color:#000000;fill:#ebedeb;fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.99999988;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate"
+       id="rect8391"
+       width="259"
        height="593"
-       width="258.99997"
-       id="rect9159"
-       style="color:#000000;fill:#ebedeb;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999988;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path9161"
-       d="M 583.5,57.54929 583.5,649.5"
-       style="fill:none;stroke:#a7aba7;stroke-width:0.99999994px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+       x="324.5"
+       y="56.5" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="punctuation - small"
-     style="display:none">
+     style="display:inline">
     <text
        sodipodi:linespacing="125%"
        inkscape:export-ydpi="90"
@@ -27137,7 +27132,7 @@
          y="568.63196">Á</tspan></text>
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="punctuation "
      id="g9165"
      inkscape:groupmode="layer">
