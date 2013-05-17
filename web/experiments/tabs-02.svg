@@ -80,18 +80,6 @@
   <defs
      id="defs4">
     <linearGradient
-       inkscape:collect="always"
-       id="linearGradient26777">
-      <stop
-         style="stop-color:#3b3b3b;stop-opacity:1"
-         offset="0"
-         id="stop26779" />
-      <stop
-         style="stop-color:#585858;stop-opacity:1"
-         offset="1"
-         id="stop26781" />
-    </linearGradient>
-    <linearGradient
        id="linearGradient19917"
        inkscape:collect="always">
       <stop
@@ -1481,24 +1469,6 @@
        effect="spiro"
        id="path-effect23054-1"
        is_visible="true" />
-    <filter
-       inkscape:collect="always"
-       id="filter17312-5-8"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="4.5943676"
-         id="feGaussianBlur17314-8-2" />
-    </filter>
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:collect="always"
-       id="filter20132-0">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.2371542"
-         id="feGaussianBlur20134-0" />
-    </filter>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient23064-64">
@@ -2337,50 +2307,10 @@
        y1="360.94116"
        x2="1061.4476"
        y2="400.85233" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient10013-6-4-3"
-       id="linearGradient16936-0-8"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(7.622449,0,0,0.85714285,-3461.8317,59.071426)"
-       x1="479"
-       y1="392"
-       x2="479"
-       y2="380" />
-    <linearGradient
-       id="linearGradient10013-6-4-3"
-       inkscape:collect="always">
-      <stop
-         id="stop10015-6-6-4"
-         offset="0"
-         style="stop-color:#ffffff;stop-opacity:1" />
-      <stop
-         id="stop10017-8-4-7"
-         offset="1"
-         style="stop-color:#dbdbdb;stop-opacity:1" />
-    </linearGradient>
     <inkscape:path-effect
        is_visible="true"
        id="path-effect12286-9-0-4"
        effect="spiro" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient23064-64"
-       id="linearGradient26686"
-       gradientUnits="userSpaceOnUse"
-       x1="143.79688"
-       y1="244.95377"
-       x2="143.79688"
-       y2="111.49965" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient23064-64"
-       id="linearGradient26718"
-       gradientUnits="userSpaceOnUse"
-       x1="143.79688"
-       y1="244.95377"
-       x2="143.79688"
-       y2="111.49965" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient23064-64"
@@ -2390,15 +2320,6 @@
        y1="244.95377"
        x2="143.79688"
        y2="111.49965" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient26777"
-       id="linearGradient26783"
-       x1="214.94881"
-       y1="119.26656"
-       x2="214.94881"
-       y2="132.50476"
-       gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient10013-6-4-3-2"
@@ -6133,7 +6054,7 @@
          y="61">Type to Search</tspan></text>
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="search"
      id="g26261"
      inkscape:groupmode="layer">
@@ -6541,7 +6462,7 @@
      inkscape:groupmode="layer"
      id="layer13"
      inkscape:label="one page"
-     style="display:none">
+     style="display:inline">
     <g
        transform="translate(568,133.63782)"
        style="display:inline;enable-background:new"
