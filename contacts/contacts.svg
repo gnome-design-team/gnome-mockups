@@ -16,12 +16,24 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="contacts.svg"
-   inkscape:export-filename="/home/aday/checkout/gnome-mockups/contacts/png/loading2.png"
+   inkscape:export-filename="/home/aday/checkout/gnome-mockups/contacts/png/accounts-dialog.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    style="display:inline">
   <defs
      id="defs121491">
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect9309"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect9031"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect9029"
+       effect="spiro" />
     <inkscape:path-effect
        effect="spiro"
        id="path-effect14512"
@@ -21707,7 +21719,7 @@
        xlink:href="#linearGradient23485"
        id="linearGradient16469"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(118.38163,173.55759)"
+       gradientTransform="translate(118.00001,173.86944)"
        x1="643.52222"
        y1="31.528872"
        x2="643.52222"
@@ -21717,7 +21729,7 @@
        xlink:href="#linearGradient102131-4"
        id="linearGradient16472"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.52730693,0,0,0.39809028,542.46542,236.91104)"
+       gradientTransform="matrix(0.52730693,0,0,0.39809028,542.0838,236.91104)"
        x1="125"
        y1="-98.637817"
        x2="125"
@@ -23848,42 +23860,6 @@
          offset="1"
          id="stop72874-0-0-1" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient72862-1-0-5">
-      <stop
-         style="stop-color:#b5b8b5;stop-opacity:1;"
-         offset="0"
-         id="stop72864-5-9-4" />
-      <stop
-         style="stop-color:#969a96;stop-opacity:1"
-         offset="1"
-         id="stop72866-7-4-0" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient5378-2-93-6-3-1-66-3-7-2-9">
-      <stop
-         style="stop-color:#f4f6f4;stop-opacity:1"
-         offset="0"
-         id="stop5380-6-3-4-8-7-7-5-9-9-3" />
-      <stop
-         style="stop-color:#d7dad7;stop-opacity:1"
-         offset="1"
-         id="stop5382-06-2-2-1-7-2-3-6-6-1" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4410-4-9-7-9-5-1-2-8-0-0-5-0">
-      <stop
-         style="stop-color: rgb(251, 252, 251); stop-opacity: 1;"
-         offset="0"
-         id="stop4412-6-7-4-4-3-3-6-33-8-6-5-8" />
-      <stop
-         style="stop-color: rgb(221, 222, 221); stop-opacity: 1;"
-         offset="1"
-         id="stop4414-9-8-8-8-8-1-8-5-1-6-4-3" />
-    </linearGradient>
     <inkscape:path-effect
        effect="spiro"
        id="path-effect14501-9"
@@ -23892,46 +23868,6 @@
        is_visible="true"
        id="path-effect14508-1"
        effect="spiro" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient72870-6-4-5"
-       id="linearGradient14800"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(2.31875,0,0,1,2105.3057,-423.42158)"
-       x1="-690.86926"
-       y1="819.64716"
-       x2="-690.86926"
-       y2="854.875" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient72862-1-0-5"
-       id="linearGradient14802"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(2.31875,0,0,1,2105.3057,-423.42158)"
-       x1="-716.06873"
-       y1="856.875"
-       x2="-716.06873"
-       y2="820.86108" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5378-2-93-6-3-1-66-3-7-2-9"
-       id="linearGradient14804"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.0681817,0,0,0.70454549,251.05145,187.46612)"
-       x1="220"
-       y1="304"
-       x2="220"
-       y2="336.06244" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4410-4-9-7-9-5-1-2-8-0-0-5-0"
-       id="linearGradient14806"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(3.0000002,0,0,1.2608694,-2497.5387,331.36031)"
-       x1="1016.4781"
-       y1="54.679287"
-       x2="1016.4781"
-       y2="77.908928" />
     <filter
        inkscape:collect="always"
        id="filter14808">
@@ -23940,46 +23876,6 @@
          stdDeviation="4.5438205"
          id="feGaussianBlur14810" />
     </filter>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient72870-6-4"
-       id="linearGradient14840"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(2.31875,0,0,1,2101.3057,-520.45595)"
-       x1="-690.86926"
-       y1="819.64716"
-       x2="-690.86926"
-       y2="854.875" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient72862-1-0"
-       id="linearGradient14842"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(2.31875,0,0,1,2101.3057,-520.45595)"
-       x1="-716.06873"
-       y1="856.875"
-       x2="-716.06873"
-       y2="820.86108" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5378-2-93-6-3-1-66-3-7-2"
-       id="linearGradient14844"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.0681817,0,0,0.70454549,247.05145,90.43175)"
-       x1="220"
-       y1="304"
-       x2="220"
-       y2="336.06244" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4410-4-9-7-9-5-1-2-8-0-0-5"
-       id="linearGradient14846"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(3.0000002,0,0,1.2608694,-2501.5387,234.32594)"
-       x1="1016.4781"
-       y1="54.679287"
-       x2="1016.4781"
-       y2="77.908928" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient60585-4-48"
@@ -24112,6 +24008,130 @@
        y1="360.94116"
        x2="1061.4476"
        y2="400.85233" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5378-2-93-6-3-1-66-3-7-2"
+       id="linearGradient8977"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.2670452,0,0,0.70454549,55.232853,130.43175)"
+       x1="220"
+       y1="304"
+       x2="220"
+       y2="336.06244" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4410-4-9-7-9-5-1-2-8-0-0-5"
+       id="linearGradient8979"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(6.4354843,0,0,1.2608694,-5845.9818,274.32594)"
+       x1="1016.4781"
+       y1="54.679287"
+       x2="1016.4781"
+       y2="77.908928" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5378-2-93-6-3-1-66-3-7-2-6">
+      <stop
+         style="stop-color:#f4f6f4;stop-opacity:1"
+         offset="0"
+         id="stop5380-6-3-4-8-7-7-5-9-9-8" />
+      <stop
+         style="stop-color:#d7dad7;stop-opacity:1"
+         offset="1"
+         id="stop5382-06-2-2-1-7-2-3-6-6-0" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4410-4-9-7-9-5-1-2-8-0-0-5-4"
+       id="linearGradient9027-3"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(6.4354843,0,0,1.2608694,-5845.9818,274.32594)"
+       x1="1016.4781"
+       y1="54.679287"
+       x2="1016.4781"
+       y2="77.908928" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4410-4-9-7-9-5-1-2-8-0-0-5-4">
+      <stop
+         style="stop-color: rgb(251, 252, 251); stop-opacity: 1;"
+         offset="0"
+         id="stop4412-6-7-4-4-3-3-6-33-8-6-5-3" />
+      <stop
+         style="stop-color: rgb(221, 222, 221); stop-opacity: 1;"
+         offset="1"
+         id="stop4414-9-8-8-8-8-1-8-5-1-6-4-4" />
+    </linearGradient>
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect9029-5"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect9031-5"
+       is_visible="true" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5378-2-93-6-3-1-66-3-7-2-6"
+       id="linearGradient9165"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.2670452,0,0,0.70454549,55.232853,130.43175)"
+       x1="220"
+       y1="304"
+       x2="220"
+       y2="336.06244" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4410-4-9-7-9-5-1-2-8-0-0-5-4"
+       id="linearGradient9167"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(6.4354843,0,0,1.2608694,-5845.9818,274.32594)"
+       x1="1016.4781"
+       y1="54.679287"
+       x2="1016.4781"
+       y2="77.908928" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5378-2-93-6-3-1-66-6-7-5-0-7-6-3-5-9"
+       id="linearGradient14590-8"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.44886364,0,0,0.75000002,-60.318359,-189.2502)"
+       x1="220"
+       y1="304"
+       x2="220"
+       y2="336.06244" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5378-2-93-6-3-1-66-6-7-5-0-7-6-3-5-9">
+      <stop
+         style="stop-color:#f4f6f4;stop-opacity:1"
+         offset="0"
+         id="stop5380-6-3-4-8-7-7-8-5-8-9-0-1-0-3-3" />
+      <stop
+         style="stop-color:#d7dad7;stop-opacity:1"
+         offset="1"
+         id="stop5382-06-2-2-1-7-2-5-3-8-2-3-2-8-3-5" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3808-0-8-4-0-9"
+       id="linearGradient9367"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99999997,0,0,1.0322581,297.4993,-2239.4002)"
+       x1="589"
+       y1="37.753166"
+       x2="589"
+       y2="9.7479591" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3808-0-8-4-0-9"
+       id="linearGradient9376"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99999997,0,0,1.0322581,153.78104,181.5999)"
+       x1="589"
+       y1="37.753166"
+       x2="589"
+       y2="9.7479591" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -24120,19 +24140,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="534.31576"
-     inkscape:cy="438.70667"
+     inkscape:zoom="0.5"
+     inkscape:cx="483.20808"
+     inkscape:cy="518.39554"
      inkscape:document-units="px"
-     inkscape:current-layer="g15477"
+     inkscape:current-layer="layer4"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1142"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-width="1280"
+     inkscape:window-height="767"
+     inkscape:window-x="1600"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:snap-nodes="true"
-     inkscape:snap-bbox="false"
+     inkscape:snap-nodes="false"
+     inkscape:snap-bbox="true"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -25001,7 +25021,8 @@
      inkscape:groupmode="layer"
      id="g11258"
      transform="translate(87.78125,2266.0938)"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <g
        transform="translate(-74.953319,-642.05296)"
        id="g11364">
@@ -25659,7 +25680,7 @@
        inkscape:groupmode="layer"
        id="layer2"
        inkscape:label="selection"
-       style="display:none">
+       style="display:inline">
       <path
          sodipodi:nodetypes="sssssccccccccccccccccccccccccccccccccccccccccccccc"
          inkscape:connector-curvature="0"
@@ -28927,7 +28948,8 @@
      id="layer16"
      inkscape:label="sidebar and toolbar"
      style="display:inline"
-     transform="translate(0,0.09375)">
+     transform="translate(0,0.09375)"
+     sodipodi:insensitive="true">
     <rect
        style="color:#000000;fill:#ebedeb;fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate"
        id="rect4521"
@@ -28939,7 +28961,7 @@
        inkscape:groupmode="layer"
        id="layer20"
        inkscape:label="selection"
-       style="display:none">
+       style="display:inline">
       <rect
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
@@ -29764,7 +29786,7 @@
           <path
              sodipodi:ry="1.96875"
              sodipodi:rx="1.96875"
-             d="m 291,178.03125 c 0,1.08731 -0.88144,1.96875 -1.96875,1.96875 -1.08731,0 -1.96875,-0.88144 -1.96875,-1.96875 0,-1.08731 0.88144,-1.96875 1.96875,-1.96875 1.08731,0 1.96875,0.88144 1.96875,1.96875 z"
+             d="m 291,178.03125 a 1.96875,1.96875 0 1 1 -3.9375,0 1.96875,1.96875 0 1 1 3.9375,0 z"
              style="color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
              sodipodi:type="arc"
              sodipodi:cy="178.03125"
@@ -35658,192 +35680,153 @@
            id="tspan14364">Cancel</tspan></text>
     </g>
     <g
-       id="g14820">
-      <path
-         style="color:#bebebe;fill:url(#linearGradient14840);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient14842);stroke-width:1.00000012;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="m 312.5442,298.5 398.8776,0 0,36.0572 c 0,1.7783 -1.1522,2.9428 -3.0285,2.9428 l -392.9095,0 c -1.7399,0 -2.9838,-1.4866 -2.9838,-2.8593 z"
-         id="path14495"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccccc" />
+       id="g8969"
+       transform="translate(-105.46091,8)">
       <rect
          ry="2.5000005"
          rx="2.5000005"
-         y="302.5"
+         y="342.5"
          x="417.96091"
          height="31"
-         width="188"
+         width="399"
          id="rect10892"
-         style="color:#000000;fill:url(#linearGradient14844);fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.99999988;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+         style="color:#000000;fill:url(#linearGradient8977);fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.99999988;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#fbfbfb;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Medium"
+         x="617.50354"
+         y="363.81601"
+         id="text8960"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="617.50354"
+           y="363.81601"
+           id="tspan8962">Online Accounts</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text10894"
-         y="322.45901"
-         x="512.02893"
+         y="362.81601"
+         x="617.50354"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Medium"
          xml:space="preserve"><tspan
            id="tspan10896"
-           y="322.45901"
-           x="512.02893"
-           sodipodi:role="line">Add an Online Account</tspan></text>
+           y="362.81601"
+           x="617.50354"
+           sodipodi:role="line">Online Accounts</tspan></text>
       <rect
-         style="fill:none;stroke:url(#linearGradient14846);stroke-width:0.99999976;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new"
+         style="fill:none;stroke:url(#linearGradient8979);stroke-width:0.99999976;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new"
          id="rect10898"
-         width="186"
+         width="399"
          height="29"
          x="418.96091"
-         y="303.5"
+         y="343.5"
          rx="1.9999999"
          ry="1.9999996" />
-      <rect
-         y="151.50002"
-         x="312.5"
-         height="147"
-         width="399"
-         id="rect14453"
-         style="opacity:0.7;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#d3d7cf;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
-      <path
-         inkscape:connector-curvature="0"
-         inkscape:original-d="m 710.5,249.5 -397.00554,0"
-         inkscape:path-effect="#path-effect14501"
-         id="path14498"
-         d="m 710.5,249.5 -397.00554,0"
-         style="opacity:0.7;fill:none;stroke:#d3d7cf;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         style="opacity:0.7;fill:none;stroke:#d3d7cf;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m 710.5,200.5 -397.00554,0"
-         id="path14506"
-         inkscape:path-effect="#path-effect14508"
-         inkscape:original-d="m 710.5,200.5 -397.00554,0"
-         inkscape:connector-curvature="0" />
-      <text
-         xml:space="preserve"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         x="329"
-         y="229.77399"
-         id="text10988"
-         inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           x="329"
-           y="229.77399"
-           id="tspan10990">Yahoo</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
-         id="text14518"
-         y="181.77399"
-         x="329"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         xml:space="preserve"><tspan
-           id="tspan14520"
-           y="181.77399"
-           x="329"
-           sodipodi:role="line">Google</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
-         id="text14522"
-         y="277.77399"
-         x="329"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         xml:space="preserve"><tspan
-           id="tspan14524"
-           y="277.77399"
-           x="329"
-           sodipodi:role="line">Keep contacts on this computer only</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
-         id="text14526"
-         y="181.77399"
-         x="696.14899"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         xml:space="preserve"><tspan
-           id="tspan14528"
-           y="181.77399"
-           x="696.14899"
-           sodipodi:role="line">angela.avery@gmail.com</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
-         id="text15167"
-         y="229.77399"
-         x="696.14899"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         xml:space="preserve"><tspan
-           id="tspan15169"
-           y="229.77399"
-           x="696.14899"
-           sodipodi:role="line">angela.avery@yahoo.com</tspan></text>
     </g>
-    <g
-       id="g7252"
-       transform="translate(108.56104,-370.99112)">
-      <g
-         id="g14579"
-         transform="translate(100.71948,0)">
-        <rect
-           style="opacity:0.4;color:#000000;fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           id="rect7254"
-           width="79"
-           height="30.999998"
-           x="727.21948"
-           y="410.49112"
-           rx="3"
-           ry="3"
-           inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
-           inkscape:export-xdpi="90"
-           inkscape:export-ydpi="90" />
-        <rect
-           style="color:#000000;fill:#f4f4f2;fill-opacity:1;fill-rule:nonzero;stroke:#babdb6;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-           id="rect7256"
-           width="79"
-           height="32"
-           x="727.21948"
-           y="408.49118"
-           rx="3"
-           ry="3"
-           inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
-           inkscape:export-xdpi="90"
-           inkscape:export-ydpi="90" />
-        <text
-           xml:space="preserve"
-           style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.5;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-           x="749.89642"
-           y="429.37463"
-           id="text7260"
-           sodipodi:linespacing="125%"
-           inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
-           inkscape:export-xdpi="90"
-           inkscape:export-ydpi="90"><tspan
-             sodipodi:role="line"
-             id="tspan7262"
-             x="749.89642"
-             y="429.37463">Done</tspan></text>
-      </g>
-    </g>
+    <rect
+       style="opacity:0.7;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#d3d7cf;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+       id="rect14453"
+       width="399"
+       height="171"
+       x="312.5"
+       y="159.5" />
+    <path
+       style="opacity:0.7;fill:none;stroke:#d3d7cf;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 710.5,273.5 -397.00554,0"
+       id="path14498"
+       inkscape:path-effect="#path-effect14501"
+       inkscape:original-d="m 710.5,273.5 -397.00554,0"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 710.5,216.5 -397.00554,0"
+       inkscape:path-effect="#path-effect14508"
+       id="path14506"
+       d="m 710.5,216.5 -397.00554,0"
+       style="opacity:0.7;fill:none;stroke:#d3d7cf;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <text
+       sodipodi:linespacing="125%"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
+       id="text10988"
+       y="249.77399"
+       x="329"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"><tspan
+         id="tspan10990"
+         y="249.77399"
+         x="329"
+         sodipodi:role="line">Yahoo</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="329"
+       y="193.77399"
+       id="text14518"
+       inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="329"
+         y="193.77399"
+         id="tspan14520">Google</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="329"
+       y="305.77399"
+       id="text14522"
+       inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="329"
+         y="305.77399"
+         id="tspan14524">Local Address Book</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="696.14899"
+       y="193.77399"
+       id="text14526"
+       inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="696.14899"
+         y="193.77399"
+         id="tspan14528">angela.avery@gmail.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="696.14899"
+       y="249.77399"
+       id="text15167"
+       inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="696.14899"
+         y="249.77399"
+         id="tspan15169">angela.avery@yahoo.com</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer22"
      inkscape:label="dialogs"
-     style="display:none"
+     style="display:inline"
      transform="translate(0,0.09375)">
     <g
        inkscape:groupmode="layer"
        id="layer26"
        inkscape:label="modal shade"
-       style="display:inline">
+       style="display:inline"
+       sodipodi:insensitive="true">
       <rect
          style="fill:#000000;fill-opacity:0.54901961;fill-rule:evenodd;stroke:none;display:inline"
          id="rect8486"
@@ -35858,7 +35841,7 @@
        inkscape:groupmode="layer"
        id="layer4"
        inkscape:label="accounts"
-       style="display:none">
+       style="display:inline">
       <rect
          y="112.11946"
          x="65.984924"
@@ -35866,258 +35849,337 @@
          width="1026"
          id="rect3859"
          style="opacity:0.4;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter14808);enable-background:new"
-         transform="matrix(0.54985337,0,0,0.43106151,193.64319,132.22099)" />
+         transform="matrix(0.54985337,0,0,0.4727746,193.64319,127.99903)" />
       <rect
          y="198.30759"
-         x="231.88162"
+         x="231.5"
          height="299.09866"
          width="560"
          id="rect3861"
          style="color:#000000;fill:url(#linearGradient16472);fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate" />
+      <rect
+         style="color:#000000;fill:#f1f2f1;fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate"
+         id="rect3865"
+         width="560"
+         height="300"
+         x="231.5"
+         y="231.40625" />
       <path
          style="color:#000000;fill:url(#linearGradient16469);fill-opacity:1;fill-rule:nonzero;stroke:#a6a6a6;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="m 231.88163,213.55759 0,-26.5 c 0,-2.77 2.23,-5 5,-5 l 550,0 c 2.77,0 5,2.23 5,5 l 0,26.5"
+         d="m 231.50001,213.86944 0,-26.5 c 0,-2.77 2.23,-5 5,-5 l 550,0 c 2.77,0 5,2.23 5,5 l 0,26.5"
          id="path3863"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cssssc" />
-      <rect
-         style="color:#000000;fill:#f1f2f1;fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate"
-         id="rect3865"
-         width="560"
-         height="266.10648"
-         x="231.88162"
-         y="231.29977" />
       <text
          sodipodi:linespacing="125%"
          id="text3867"
-         y="211.80759"
-         x="511.88513"
+         y="212.11943"
+         x="511.50351"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#555753;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
          xml:space="preserve"><tspan
-           y="211.80759"
-           x="511.88513"
+           y="212.11943"
+           x="511.50351"
            id="tspan3869"
            sodipodi:role="line">Primary Contacts Account</tspan></text>
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         ry="3"
+         rx="3"
+         y="194.3974"
+         x="703.28101"
+         height="30.00885"
+         width="79"
+         id="rect16229"
+         style="opacity:0.4;color:#000000;fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:type="inkscape:offset"
+         inkscape:radius="0"
+         inkscape:original="M 803.5 410.5 C 801.838 410.5 800.5 411.838 800.5 413.5 L 800.5 439.5 C 800.5 441.162 801.838 442.5 803.5 442.5 L 996.5 442.5 C 998.162 442.5 999.5 441.162 999.5 439.5 L 999.5 413.5 C 999.5 411.838 998.162 410.5 996.5 410.5 L 803.5 410.5 z "
+         xlink:href="#rect2995-9-8"
+         style="opacity:0.4;color:#000000;fill:none;stroke:#ffffff;stroke-width:1.58713174;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path16231"
+         inkscape:href="#rect2995-9-8"
+         d="m 803.5,410.5 c -1.662,0 -3,1.338 -3,3 l 0,26 c 0,1.662 1.338,3 3,3 l 193,0 c 1.662,0 3,-1.338 3,-3 l 0,-26 c 0,-1.662 -1.338,-3 -3,-3 l -193,0 z"
+         transform="matrix(0.39698492,0,0,1,529.21284,-2639.0938)" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         ry="3"
+         rx="2.9999998"
+         y="191.40636"
+         x="703.28101"
+         height="32"
+         width="79"
+         id="rect16233"
+         style="color:#000000;fill:url(#linearGradient9376);fill-opacity:1;fill-rule:nonzero;stroke:#204a87;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path16235"
+         d="m 706.68161,192.4063 72.62078,0"
+         style="opacity:0.2;fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
       <g
-         id="g16227"
-         transform="translate(-143.33664,2420.6882)"
-         style="display:inline">
-        <rect
-           style="opacity:0.4;color:#000000;fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           id="rect16229"
-           width="79"
-           height="30.00885"
-           x="847.71875"
-           y="-2227.6025"
-           rx="3"
-           ry="3"
-           inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         id="g16237"
+         transform="translate(-143.71826,2420.347)">
+        <text
+           inkscape:export-ydpi="90"
            inkscape:export-xdpi="90"
-           inkscape:export-ydpi="90" />
-        <path
-           transform="matrix(0.39698492,0,0,1,529.21284,-2639.0938)"
-           d="m 803.5,410.5 c -1.662,0 -3,1.338 -3,3 l 0,26 c 0,1.662 1.338,3 3,3 l 193,0 c 1.662,0 3,-1.338 3,-3 l 0,-26 c 0,-1.662 -1.338,-3 -3,-3 l -193,0 z"
-           inkscape:href="#rect2995-9-8"
-           id="path16231"
-           style="opacity:0.4;color:#000000;fill:none;stroke:#ffffff;stroke-width:1.58713174;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           xlink:href="#rect2995-9-8"
-           inkscape:original="M 803.5 410.5 C 801.838 410.5 800.5 411.838 800.5 413.5 L 800.5 439.5 C 800.5 441.162 801.838 442.5 803.5 442.5 L 996.5 442.5 C 998.162 442.5 999.5 441.162 999.5 439.5 L 999.5 413.5 C 999.5 411.838 998.162 410.5 996.5 410.5 L 803.5 410.5 z "
-           inkscape:radius="0"
-           sodipodi:type="inkscape:offset" />
-        <rect
-           style="color:#000000;fill:url(#linearGradient16413);fill-opacity:1;fill-rule:nonzero;stroke:#204a87;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           id="rect16233"
-           width="79"
-           height="32"
-           x="846.99927"
-           y="-2229.5938"
-           rx="2.9999998"
-           ry="3"
            inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
-           inkscape:export-xdpi="90"
-           inkscape:export-ydpi="90" />
-        <path
-           style="opacity:0.2;fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-           d="m 850.39987,-2228.5938 72.62078,0"
-           id="path16235"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="cc"
-           inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
-           inkscape:export-xdpi="90"
-           inkscape:export-ydpi="90" />
-        <g
-           transform="translate(0,-0.65305977)"
-           id="g16237">
-          <text
-             xml:space="preserve"
-             style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#3465a4;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-             x="886.13818"
+           sodipodi:linespacing="125%"
+           id="text16239"
+           y="-2209.0837"
+           x="886.13818"
+           style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#3465a4;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+           xml:space="preserve"><tspan
              y="-2209.0837"
-             id="text16239"
-             sodipodi:linespacing="125%"
-             inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
-             inkscape:export-xdpi="90"
-             inkscape:export-ydpi="90"><tspan
-               sodipodi:role="line"
-               id="tspan16241"
-               x="886.13818"
-               y="-2209.0837">Done</tspan></text>
-          <text
-             inkscape:export-ydpi="90"
-             inkscape:export-xdpi="90"
-             inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
-             sodipodi:linespacing="125%"
-             id="text16243"
-             y="-2208.0837"
              x="886.13818"
-             style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-             xml:space="preserve"><tspan
-               y="-2208.0837"
-               x="886.13818"
-               id="tspan16245"
-               sodipodi:role="line">Done</tspan></text>
-        </g>
+             id="tspan16241"
+             sodipodi:role="line">Done</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+           x="886.13818"
+           y="-2208.0837"
+           id="text16243"
+           sodipodi:linespacing="125%"
+           inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90"><tspan
+             sodipodi:role="line"
+             id="tspan16245"
+             x="886.13818"
+             y="-2208.0837">Done</tspan></text>
       </g>
       <g
-         id="g14779"
-         transform="translate(-4.1183777,20.87188)">
-        <path
-           sodipodi:nodetypes="ccccccc"
-           inkscape:connector-curvature="0"
-           id="path14600"
-           d="m 316.5442,395.53437 398.8776,0 0,36.0572 c 0,1.7783 -1.1522,2.9428 -3.0285,2.9428 l -392.9095,0 c -1.7399,0 -2.9838,-1.4866 -2.9838,-2.8593 z"
-           style="color:#bebebe;fill:url(#linearGradient14800);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient14802);stroke-width:1.00000012;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+         style="display:inline"
+         transform="translate(-105.9609,117.90618)"
+         id="g8982">
         <rect
-           style="color:#000000;fill:url(#linearGradient14804);fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.99999988;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           id="rect14602"
-           width="188"
+           style="color:#000000;fill:url(#linearGradient9165);fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.99999988;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="rect8984"
+           width="399"
            height="31"
-           x="421.96091"
-           y="399.53436"
+           x="417.96091"
+           y="342.5"
            rx="2.5000005"
            ry="2.5000005" />
         <text
+           sodipodi:linespacing="125%"
+           id="text8987"
+           y="363.81601"
+           x="617.50354"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#fbfbfb;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Medium"
+           xml:space="preserve"><tspan
+             id="tspan8989"
+             y="363.81601"
+             x="617.50354"
+             sodipodi:role="line">Online Accounts</tspan></text>
+        <text
            xml:space="preserve"
            style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Medium"
-           x="516.02893"
-           y="419.49338"
-           id="text14604"
+           x="617.50354"
+           y="362.81601"
+           id="text8991"
            sodipodi:linespacing="125%"><tspan
              sodipodi:role="line"
-             x="516.02893"
-             y="419.49338"
-             id="tspan14606">Add an Online Account</tspan></text>
+             x="617.50354"
+             y="362.81601"
+             id="tspan8993">Online Accounts</tspan></text>
         <rect
            ry="1.9999996"
            rx="1.9999999"
-           y="400.53436"
-           x="422.96091"
+           y="343.5"
+           x="418.96091"
            height="29"
-           width="186"
-           id="rect14608"
-           style="fill:none;stroke:url(#linearGradient14806);stroke-width:0.99999976;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new" />
-        <rect
-           style="opacity:0.7;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#d3d7cf;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-           id="rect14610"
            width="399"
-           height="147"
-           x="316.5"
-           y="248.53439" />
-        <path
-           style="opacity:0.7;fill:none;stroke:#d3d7cf;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-           d="m 714.5,346.53437 -397.00554,0"
-           id="path14612"
-           inkscape:path-effect="#path-effect14501-9"
-           inkscape:original-d="m 714.5,346.53437 -397.00554,0"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           inkscape:original-d="m 714.5,297.53437 -397.00554,0"
-           inkscape:path-effect="#path-effect14508-1"
-           id="path14614"
-           d="m 714.5,297.53437 -397.00554,0"
-           style="opacity:0.7;fill:none;stroke:#d3d7cf;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
-        <text
-           sodipodi:linespacing="125%"
-           inkscape:export-ydpi="90"
-           inkscape:export-xdpi="90"
-           inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
-           id="text14616"
-           y="326.80835"
-           x="333"
-           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-           xml:space="preserve"><tspan
-             id="tspan14618"
-             y="326.80835"
-             x="333"
-             sodipodi:role="line">Yahoo</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-           x="333"
-           y="374.80835"
-           id="text14624"
-           inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
-           inkscape:export-xdpi="90"
-           inkscape:export-ydpi="90"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             x="333"
-             y="374.80835"
-             id="tspan14626">Keep contacts on this computer only</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-           x="700.14899"
-           y="326.80835"
-           id="text14632"
-           inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
-           inkscape:export-xdpi="90"
-           inkscape:export-ydpi="90"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             x="700.14899"
-             y="326.80835"
-             id="tspan14634">angela.avery@yahoo.com</tspan></text>
-        <rect
-           y="248.5343"
-           x="316.5"
-           height="48.871857"
-           width="399"
-           id="rect14777"
-           style="fill:#729fcf;fill-opacity:1;stroke:#3465a4;stroke-width:0.99999982;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-        <text
-           xml:space="preserve"
-           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#fbfbfb;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-           x="333"
-           y="278.80835"
-           id="text14620"
-           inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
-           inkscape:export-xdpi="90"
-           inkscape:export-ydpi="90"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             x="333"
-             y="278.80835"
-             id="tspan14622">Google</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#fbfbfb;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-           x="700.14899"
-           y="278.80835"
-           id="text14628"
-           inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
-           inkscape:export-xdpi="90"
-           inkscape:export-ydpi="90"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             x="700.14899"
-             y="278.80835"
-             id="tspan14630">angela.avery@gmail.com</tspan></text>
+           id="rect8995"
+           style="fill:none;stroke:url(#linearGradient9167);stroke-width:0.99999976;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new" />
+      </g>
+      <rect
+         y="269.40619"
+         x="312"
+         height="171"
+         width="399"
+         id="rect8997"
+         style="opacity:0.7;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#d3d7cf;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
+      <path
+         inkscape:connector-curvature="0"
+         inkscape:original-d="m 710.00001,383.40618 -397.0055,0"
+         inkscape:path-effect="#path-effect9029-5"
+         id="path8999"
+         d="m 710.00001,383.40618 -397.0055,0"
+         style="opacity:0.7;fill:none;stroke:#d3d7cf;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+      <path
+         style="opacity:0.7;fill:none;stroke:#d3d7cf;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         d="m 710.00001,326.40619 -397.0055,0"
+         id="path9001"
+         inkscape:path-effect="#path-effect9031-5"
+         inkscape:original-d="m 710.00001,326.40619 -397.0055,0"
+         inkscape:connector-curvature="0" />
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         x="360.5"
+         y="359.68018"
+         id="text9003"
+         inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="360.5"
+           y="359.68018"
+           id="tspan9005">Yahoo</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
+         id="text9007"
+         y="303.68018"
+         x="360.5"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         xml:space="preserve"><tspan
+           id="tspan9009"
+           y="303.68018"
+           x="360.5"
+           sodipodi:role="line">Google</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
+         id="text9011"
+         y="415.68018"
+         x="360.5"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         xml:space="preserve"><tspan
+           id="tspan9013"
+           y="415.68018"
+           x="360.5"
+           sodipodi:role="line">Local Address Book</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
+         id="text9015"
+         y="303.68018"
+         x="695.64893"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         xml:space="preserve"><tspan
+           id="tspan9017"
+           y="303.68018"
+           x="695.64893"
+           sodipodi:role="line">angela.avery@gmail.com</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
+         id="text9020"
+         y="359.68018"
+         x="695.64893"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         xml:space="preserve"><tspan
+           id="tspan9022"
+           y="359.68018"
+           x="695.64893"
+           sodipodi:role="line">angela.avery@yahoo.com</tspan></text>
+      <g
+         id="g9295"
+         transform="translate(329.11904,289.37494)"
+         style="fill:#2e3436">
+        <g
+           style="fill:#2e3436;display:inline"
+           id="layer9-0"
+           transform="translate(-61.000665,-787)"
+           inkscape:label="status" />
+        <g
+           id="layer10-6"
+           transform="translate(-61.000665,-787)"
+           inkscape:label="devices"
+           style="fill:#2e3436" />
+        <g
+           id="layer11-9"
+           transform="translate(-61.000665,-787)"
+           inkscape:label="apps"
+           style="fill:#2e3436" />
+        <g
+           id="layer13-3"
+           transform="translate(-61.000665,-787)"
+           inkscape:label="places"
+           style="fill:#2e3436" />
+        <g
+           id="layer14-73"
+           transform="translate(-61.000665,-787)"
+           inkscape:label="mimetypes"
+           style="fill:#2e3436" />
+        <g
+           style="fill:#2e3436;display:inline"
+           id="layer15-34"
+           transform="translate(-61.000665,-787)"
+           inkscape:label="emblems" />
+        <g
+           style="fill:#2e3436;display:inline"
+           id="g71291-2"
+           transform="translate(-61.000665,-787)"
+           inkscape:label="emotes" />
+        <g
+           style="fill:#2e3436;display:inline"
+           id="g4953-04"
+           transform="translate(-61.000665,-787)"
+           inkscape:label="categories" />
+        <g
+           style="fill:#2e3436;display:inline"
+           id="layer12-52"
+           transform="translate(-61.000665,-787)"
+           inkscape:label="actions">
+          <path
+             style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+             id="path8913-6-7-1-5-6"
+             d="M 72.9375,790.9375 68,795.875 l -1.9375,-1.9375 -2.125,2.125 3,3 1.0625,1.0625 1.0625,-1.0625 6,-6 -2.125,-2.125 z"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+      <g
+         transform="translate(232,153.90625)"
+         style="display:inline"
+         id="g9319">
+        <g
+           id="g9311"
+           transform="translate(-3.0000001,0.99995035)">
+          <rect
+             style="color:#000000;fill:url(#linearGradient14590-8);fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.99999988;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="rect9313"
+             width="79"
+             height="33"
+             x="11.5"
+             y="36.50005"
+             rx="2.5000005"
+             ry="2.5000002" />
+          <text
+             xml:space="preserve"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Medium"
+             x="50.547844"
+             y="57.795048"
+             id="text9315"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               x="50.547844"
+               y="57.795048"
+               id="tspan9317">Cancel</tspan></text>
+        </g>
       </g>
     </g>
     <g
-       style="display:inline"
+       style="display:none"
        inkscape:label="linked accounts"
        id="g25846"
        inkscape:groupmode="layer">
