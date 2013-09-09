@@ -1,8 +1,8 @@
-{:	data{I"/:ET{:default{	:	lastI"¡<!DOCTYPE HTML>
+{:	data{I"/:ET{:default{	:	lastI"¤<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>A Brand New nanoc Site - Home</title>
+    <title>A Brand New nanoc Site - </title>
     <link rel="stylesheet" href="/style.css">
 
     <!-- you don't need to keep this, but it's cool for stats! -->
@@ -10,13 +10,15 @@
   </head>
   <body>
     <div id="main">
-      %h1 Test
+      :haml
+%h1 Test
 
 %ul
   %li test 123
   %li test 456
 
 %p Pretty slick
+
     </div>
     <div id="sidebar">
       <h2>Documentation</h2>
@@ -33,19 +35,23 @@
     </div>
   </body>
 </html>
-;T:rawI"A%h1 Test
+;T:rawI"H:haml
+%h1 Test
 
 %ul
   %li test 123
   %li test 456
 
-%p Pretty slick;T:preI"A%h1 Test
+%p Pretty slick
+;T:preI"H:haml
+%h1 Test
 
 %ul
   %li test 123
   %li test 456
 
-%p Pretty slick;T:	post@
+%p Pretty slick
+;T:	post@
 I"/stylesheet/;T{;{;I"* {
   margin: 0;
   padding: 0;
