@@ -104,6 +104,68 @@
        id="linearGradient27028"
        xlink:href="#linearGradient5716"
        inkscape:collect="always" />
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       x="-0.10291173"
+       width="1.2058235"
+       y="-0.065432459"
+       height="1.1308649"
+       id="filter5601-0">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.610872"
+         id="feGaussianBlur5603-3" />
+    </filter>
+    <linearGradient
+       y2="9.7093649"
+       x2="33.971455"
+       y1="11.772627"
+       x1="29.089951"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient27026-4"
+       xlink:href="#linearGradient5716-5"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient5716-5">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5718-3" />
+      <stop
+         style="stop-color:#484848;stop-opacity:1;"
+         offset="1"
+         id="stop5720-0" />
+    </linearGradient>
+    <linearGradient
+       y2="9.7093649"
+       x2="33.971455"
+       y1="11.772627"
+       x1="29.089951"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient27028-5"
+       xlink:href="#linearGradient5716-5"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient27151">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop27153" />
+      <stop
+         style="stop-color:#484848;stop-opacity:1;"
+         offset="1"
+         id="stop27155" />
+    </linearGradient>
+    <linearGradient
+       y2="9.7093649"
+       x2="33.971455"
+       y1="11.772627"
+       x1="29.089951"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient27161"
+       xlink:href="#linearGradient5716-5"
+       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -126,7 +188,7 @@
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer11">
+     inkscape:current-layer="layer13">
     <inkscape:grid
        type="xygrid"
        id="grid23304" />
@@ -203,6 +265,56 @@
      id="layer10"
      inkscape:label="stuff"
      style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       x="451"
+       y="141"
+       id="text23336"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan23338"
+         x="451"
+         y="141">gtk-widgets.css</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text23340"
+       y="141"
+       x="285"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#8e9192;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       xml:space="preserve"><tspan
+         y="141"
+         x="285"
+         id="tspan23342"
+         sodipodi:role="line">text.plymouth</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#8e9192;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       x="112"
+       y="141"
+       id="text23344"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan23346"
+         x="112"
+         y="141">spinner.plymouth</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text23348"
+       y="141"
+       x="609"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#8e9192;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       xml:space="preserve"><tspan
+         y="141"
+         x="609"
+         id="tspan23350"
+         sodipodi:role="line">gtk-main.css</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer12"
+     inkscape:label="closebuttons"
+     style="display:inline">
     <g
        inkscape:label="window-close"
        id="g14265-5"
@@ -218,7 +330,7 @@
            x="41.5"
            y="760.5"
            id="rect10837-5"
-           style="opacity:0.46530611999999999;color:#bebebe;fill:#bbbcbd;stroke:#8e9192;stroke-width:1;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;fill-opacity:1"
+           style="opacity:0.46530612;color:#bebebe;fill:#bbbcbd;fill-opacity:1;stroke:#8e9192;stroke-width:1;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
            rx="2.032932"
            ry="2.032932" />
         <path
@@ -231,7 +343,7 @@
            d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
            inkscape:connector-curvature="0"
            id="path10839-9"
-           style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988000000006;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+           style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
            sodipodi:nodetypes="ccsccccccccccccccccccccccc" />
       </g>
     </g>
@@ -284,10 +396,10 @@
       </g>
     </g>
     <g
-       transform="translate(177,128)"
        style="opacity:0.5;display:inline"
        id="g23417"
-       inkscape:label="window-close">
+       inkscape:label="window-close"
+       transform="translate(177,128)">
       <g
          style="display:inline"
          id="g23419"
@@ -306,74 +418,6 @@
            inkscape:connector-curvature="0"
            d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z" />
       </g>
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       x="448"
-       y="141"
-       id="text23336"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan23338"
-         x="448"
-         y="141">gtk-widgets.css</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text23340"
-       y="141"
-       x="278"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#8e9192;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       xml:space="preserve"><tspan
-         y="141"
-         x="278"
-         id="tspan23342"
-         sodipodi:role="line">text.plymouth</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#8e9192;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       x="110"
-       y="141"
-       id="text23344"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan23346"
-         x="110"
-         y="141">spinner.plymouth</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text23348"
-       y="141"
-       x="610"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#8e9192;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-       xml:space="preserve"><tspan
-         y="141"
-         x="610"
-         id="tspan23350"
-         sodipodi:role="line">gtk-main.css</tspan></text>
-    <g
-       style="display:inline"
-       id="default-pointer-c"
-       inkscape:label="#g5607"
-       transform="matrix(1.3703014,0,0,1.3703014,492.10872,137.98907)">
-      <path
-         inkscape:connector-curvature="0"
-         style="opacity:0.6;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.72976643;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:block;overflow:visible;filter:url(#filter5601);enable-background:accumulate"
-         d="m 27.135224,2.8483222 0,16.4402338 3.712311,-3.623922 2.12132,4.331029 c 0.519598,1.171377 3.220861,0.229524 2.452777,-1.336875 l -2.099224,-4.496756 4.684582,0 L 27.135224,2.8483222 z"
-         id="path5567"
-         sodipodi:nodetypes="cccccccc" />
-      <path
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccccccc"
-         id="path5565"
-         d="m 26.604893,2.3179921 0,16.4402329 3.712311,-3.623922 2.12132,4.331029 c 0.519598,1.171377 3.220861,0.229524 2.452777,-1.336875 l -2.099224,-4.496756 4.684582,0 L 26.604893,2.3179921 z"
-         style="color:#000000;fill:url(#linearGradient27026);fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.72976643;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:block;overflow:visible;enable-background:accumulate" />
-      <path
-         inkscape:connector-curvature="0"
-         style="color:#000000;fill:url(#linearGradient27028);fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.72976643;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:block;overflow:visible;enable-background:accumulate"
-         d="m 26.604893,2.3179921 0,16.4402329 3.712311,-3.623922 2.12132,4.331029 c 0.519598,1.171377 3.220861,0.229524 2.452777,-1.336875 l -2.099224,-4.496756 4.684582,0 L 26.604893,2.3179921 z"
-         id="path6242"
-         sodipodi:nodetypes="cccccccc" />
     </g>
   </g>
   <g
@@ -415,6 +459,35 @@
          id="path23397"
          d="M 20.48895,146.01645 20.5,124.99928"
          style="fill:none;stroke:#000000;stroke-width:1.38812231999999991;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.38812242999999991, 2.77624487000000020;stroke-dashoffset:0" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer13"
+     inkscape:label="cursor">
+    <g
+       style="display:inline"
+       id="default-pointer-c"
+       inkscape:label="#g5607"
+       transform="matrix(1.3703014,0,0,1.3703014,492.10872,133.98907)">
+      <path
+         inkscape:connector-curvature="0"
+         style="opacity:0.6;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.72976643;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:block;overflow:visible;filter:url(#filter5601-0);enable-background:accumulate"
+         d="m 27.135224,2.8483222 0,16.4402338 3.712311,-3.623922 2.12132,4.331029 c 0.519598,1.171377 3.220861,0.229524 2.452777,-1.336875 l -2.099224,-4.496756 4.684582,0 L 27.135224,2.8483222 z"
+         id="path5567"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccc"
+         id="path5565"
+         d="m 26.604893,2.3179921 0,16.4402329 3.712311,-3.623922 2.12132,4.331029 c 0.519598,1.171377 3.220861,0.229524 2.452777,-1.336875 l -2.099224,-4.496756 4.684582,0 L 26.604893,2.3179921 z"
+         style="color:#000000;fill:url(#linearGradient27026-4);fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.72976643;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:block;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         style="color:#000000;fill:url(#linearGradient27161);fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.72976643;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:block;overflow:visible;enable-background:accumulate"
+         d="m 26.604893,2.3179921 0,16.4402329 3.712311,-3.623922 2.12132,4.331029 c 0.519598,1.171377 3.220861,0.229524 2.452777,-1.336875 l -2.099224,-4.496756 4.684582,0 L 26.604893,2.3179921 z"
+         id="path6242"
+         sodipodi:nodetypes="cccccccc" />
     </g>
   </g>
 </svg>
