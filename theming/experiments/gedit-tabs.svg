@@ -16,7 +16,7 @@
    width="930"
    height="1070"
    sodipodi:docname="gedit-tabs.svg"
-   inkscape:export-filename="/home/jimmac/SparkleShare/gnome-mockups/theming/experiments/gedit-tabs-whitespace-as-separator.png"
+   inkscape:export-filename="/home/jimmac/SparkleShare/gnome-mockups/theming/experiments/gedit-tabs-separators-are-noisy.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <metadata
@@ -54,7 +54,7 @@
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer10">
+     inkscape:current-layer="layer11">
     <inkscape:grid
        type="xygrid"
        id="grid23304" />
@@ -162,41 +162,6 @@
            style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#8e9192;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
            sodipodi:nodetypes="ccsccccccccccccccccccccccc" />
       </g>
-    </g>
-    <g
-       id="g23425"
-       transform="matrix(1,0,0,0.51897262,-4.5562114e-8,65.182992)"
-       style="opacity:0.3;display:inline">
-      <path
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         id="path23385"
-         d="M 692.48895,146.01645 692.5,124.99928"
-         style="fill:none;stroke:#000000;stroke-width:1.38812232;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.38812243, 2.77624487;stroke-dashoffset:0" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1.38812232;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.38812243, 2.77624487;stroke-dashoffset:0"
-         d="M 540.48895,146.01645 540.5,124.99928"
-         id="path23391"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <path
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         id="path23393"
-         d="M 366.48895,146.01645 366.5,124.99928"
-         style="fill:none;stroke:#000000;stroke-width:1.38812232;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.38812243, 2.77624487;stroke-dashoffset:0" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1.38812232;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.38812243, 2.77624487;stroke-dashoffset:0"
-         d="M 200.48895,146.01645 200.5,124.99928"
-         id="path23395"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <path
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         id="path23397"
-         d="M 20.48895,146.01645 20.5,124.99928"
-         style="fill:none;stroke:#000000;stroke-width:1.38812232;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.38812243, 2.77624487;stroke-dashoffset:0" />
     </g>
     <g
        transform="translate(667,128)"
@@ -314,5 +279,45 @@
          x="610"
          id="tspan23350"
          sodipodi:role="line">gtk-main.css</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer11"
+     inkscape:label="separators">
+    <g
+       id="g23425"
+       transform="matrix(1,0,0,0.51897262,-4.5562114e-8,65.182996)"
+       style="opacity:0.3;display:inline">
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path23385"
+         d="M 692.48895,146.01645 692.5,124.99928"
+         style="fill:none;stroke:#000000;stroke-width:1.38812232;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.38812243, 2.77624487;stroke-dashoffset:0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.38812232;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.38812243, 2.77624487;stroke-dashoffset:0"
+         d="M 540.48895,146.01645 540.5,124.99928"
+         id="path23391"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path23393"
+         d="M 366.48895,146.01645 366.5,124.99928"
+         style="fill:none;stroke:#000000;stroke-width:1.38812232;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.38812243, 2.77624487;stroke-dashoffset:0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.38812232;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.38812243, 2.77624487;stroke-dashoffset:0"
+         d="M 200.48895,146.01645 200.5,124.99928"
+         id="path23395"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path23397"
+         d="M 20.48895,146.01645 20.5,124.99928"
+         style="fill:none;stroke:#000000;stroke-width:1.38812232;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.38812243, 2.77624487;stroke-dashoffset:0" />
+    </g>
   </g>
 </svg>
