@@ -15,7 +15,10 @@
    inkscape:version="0.48.4 r9939"
    width="930"
    height="1070"
-   sodipodi:docname="Screenshot from 2013-10-11 15:45:06.png">
+   sodipodi:docname="gedit-tabs.svg"
+   inkscape:export-filename="/home/jimmac/SparkleShare/gnome-mockups/theming/experiments/gedit-tabs-whitespace-as-separator.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <metadata
      id="metadata22745">
     <rdf:RDF>
@@ -46,12 +49,12 @@
      inkscape:snap-nodes="false"
      inkscape:snap-bbox="true"
      inkscape:zoom="1"
-     inkscape:cx="377.37667"
-     inkscape:cy="575.78091"
+     inkscape:cx="331.06784"
+     inkscape:cy="861.56988"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer10">
+     inkscape:current-layer="layer9">
     <inkscape:grid
        type="xygrid"
        id="grid23304" />
@@ -73,7 +76,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="blinders"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
        style="color:#bebebe;fill:#ededed;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
        id="rect22769"
@@ -103,41 +106,103 @@
        id="rect23283"
        style="color:#bebebe;fill:#ededed;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
     <path
-       style="fill:none;stroke:#3465a4;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 365.4375,156.4375 175.0625,0"
+       style="fill:none;stroke:#4a90d9;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 365.4375,156.52589 175.0625,0"
        id="path23306"
        inkscape:connector-curvature="0" />
     <rect
        style="color:#bebebe;fill:#e2e2e2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
        id="rect23308"
-       width="23"
-       height="21"
-       x="655"
+       width="641"
+       height="26"
+       x="37"
        y="126" />
     <rect
-       y="126"
-       x="325.5"
-       height="21"
-       width="23"
-       id="rect23310"
-       style="color:#bebebe;fill:#e2e2e2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
-    <rect
-       style="color:#bebebe;fill:#e2e2e2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       id="rect23312"
-       width="23"
-       height="21"
-       x="167"
-       y="126" />
-    <rect
-       y="126"
+       y="124"
        x="499"
        height="21"
        width="23"
        id="rect23314"
        style="color:#bebebe;fill:#e2e2e2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
+    <g
+       inkscape:label="window-close"
+       id="g14265-5"
+       style="display:inline"
+       transform="translate(517,128)">
+      <g
+         transform="translate(-41,-760)"
+         id="layer4-4-1"
+         style="display:inline">
+        <rect
+           width="16"
+           height="16"
+           x="41"
+           y="760"
+           id="rect10837-5"
+           style="color:#bebebe;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
+        <path
+           sodipodi:nodetypes="ccsccccccccccccccccccccccc"
+           style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+           id="path23379"
+           inkscape:connector-curvature="0"
+           d="m 45,765.0625 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,767.65625 51.3125,765.375 c 0.265625,-0.2305 0.446672,-0.3055 0.6875,-0.3125 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 c 0.188188,0.18817 0.281242,0.45345 0.28125,0.71875 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,770.5 46.71875,772.78125 C 46.530586,772.96944 46.26529,773.0625 46,773.0625 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 -2.28125,-2.28125 C 45.070508,766.61787 44.97809,766.34325 45,766.0625 l 0,-1 z" />
+        <path
+           d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+           inkscape:connector-curvature="0"
+           id="path10839-9"
+           style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#8e9192;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+           sodipodi:nodetypes="ccsccccccccccccccccccccccc" />
+      </g>
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer10"
-     inkscape:label="stuff" />
+     inkscape:label="stuff"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       x="448"
+       y="141"
+       id="text23336"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan23338"
+         x="448"
+         y="141">gtk-widgets.css</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text23340"
+       y="141"
+       x="278"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#8e9192;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       xml:space="preserve"><tspan
+         y="141"
+         x="278"
+         id="tspan23342"
+         sodipodi:role="line">text.plymouth</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#8e9192;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       x="110"
+       y="141"
+       id="text23344"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan23346"
+         x="110"
+         y="141">spinner.plymouth</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text23348"
+       y="141"
+       x="610"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#8e9192;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       xml:space="preserve"><tspan
+         y="141"
+         x="610"
+         id="tspan23350"
+         sodipodi:role="line">gtk-main.css</tspan></text>
+  </g>
 </svg>
