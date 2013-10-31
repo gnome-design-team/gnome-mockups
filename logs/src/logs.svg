@@ -24,6 +24,10 @@
      id="defs121491">
     <inkscape:path-effect
        effect="spiro"
+       id="path-effect7429"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
        id="path-effect12019"
        is_visible="true" />
     <inkscape:path-effect
@@ -18341,15 +18345,6 @@
        y1="371.5"
        x2="363.76468"
        y2="371.5" />
-    <filter
-       inkscape:collect="always"
-       id="filter7753-5"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.2400002"
-         id="feGaussianBlur7755-2" />
-    </filter>
     <clipPath
        id="clipPath6279-7-9-7">
       <rect
@@ -18480,15 +18475,6 @@
        effect="spiro"
        id="path-effect8915-0-8-2-5-2"
        is_visible="true" />
-    <filter
-       inkscape:collect="always"
-       id="filter7753-4"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.2400002"
-         id="feGaussianBlur7755-9" />
-    </filter>
     <clipPath
        id="clipPath6279-7-9-6">
       <rect
@@ -23976,10 +23962,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="664.18561"
-     inkscape:cy="403.31042"
+     inkscape:cx="598.55068"
+     inkscape:cy="346.59628"
      inkscape:document-units="px"
-     inkscape:current-layer="layer8"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1134"
@@ -25241,7 +25227,7 @@
        d="m 0.49999,276.5 197.99997,0"
        style="fill:#555753;stroke:#d3d7cf;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
     <g
-       style="opacity:0.6;fill:#ffffff;fill-opacity:1;display:inline"
+       style="opacity:0.59999999999999998;fill:#ffffff;fill-opacity:1;display:inline"
        transform="translate(993.00156,46.1)"
        id="g8733">
       <g
@@ -25268,7 +25254,7 @@
              inkscape:connector-curvature="0"
              d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
              id="path8745"
-             style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono" />
+             style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988000000006;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono" />
         </g>
       </g>
       <g
@@ -25661,7 +25647,7 @@
        style="fill:#555753;stroke:#eeeeec;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="336.71213"
        y="99.0849"
        id="text10424"
@@ -25670,7 +25656,7 @@
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
          id="tspan10434"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="336.71213"
          y="99.0849">pid.c: Daemon already running.</tspan></text>
@@ -25682,13 +25668,13 @@
        id="text10436"
        y="99.0849"
        x="212.71211"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          id="tspan10446"
          y="99.0849"
          x="212.71211"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas">System</tspan></text>
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium">System</tspan></text>
     <text
        sodipodi:linespacing="144.00001%"
        inkscape:export-ydpi="90"
@@ -25697,16 +25683,16 @@
        id="text10470"
        y="484.08505"
        x="1126.7122"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          y="484.08505"
          x="1126.7122"
          sodipodi:role="line"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro Medium"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          id="tspan10472">GNOME</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="1126.7122"
        y="381.75748"
        id="text10478"
@@ -25715,13 +25701,13 @@
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
          id="tspan10480"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro Medium"
+         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="1126.7122"
          y="381.75748">GNOME</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="336.71213"
        y="132.75739"
        id="text10482"
@@ -25730,7 +25716,7 @@
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
          id="tspan10492"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="336.71213"
          y="132.75739">Failed at step PAM spawning /usr/lib/systemd/systemd: Operation not permitted.</tspan></text>
@@ -25757,7 +25743,7 @@
        style="fill:#555753;stroke:#eeeeec;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="212.71211"
        y="132.75739"
        id="text10532"
@@ -25765,7 +25751,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="212.71211"
          y="132.75739"
@@ -25778,12 +25764,12 @@
        id="text10539"
        y="166.75742"
        x="336.71213"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          y="166.75742"
          x="336.71213"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          id="tspan10541">CPU1: Core temperature above threshold, cpu clock throttled (total events = 1)</tspan></text>
     <text
        sodipodi:linespacing="144.00001%"
@@ -25793,13 +25779,13 @@
        id="text10543"
        y="166.75742"
        x="212.71211"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          id="tspan10545"
          y="166.75742"
          x="212.71211"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas">Hardware</tspan></text>
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium">Hardware</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:13px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro Bold"
@@ -25847,14 +25833,14 @@
          id="tspan10557">systemd</tspan></text>
     <path
        style="fill:#555753;stroke:#eeeeec;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       d="m 200.5,247.49991 855.6784,0"
+       d="m 200.5,247.49988 855.6784,0"
        id="path10561"
        inkscape:path-effect="#path-effect10602-7"
-       inkscape:original-d="m 200.5,247.49991 855.6784,0"
+       inkscape:original-d="m 200.5,247.49988 855.6784,0"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="1126.7122"
        y="552.08508"
        id="text10563"
@@ -25863,7 +25849,7 @@
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
          id="tspan10565"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro Medium"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="1126.7122"
          y="552.08508">GNOME</tspan></text>
@@ -25875,12 +25861,12 @@
        id="text10567"
        y="517.75757"
        x="1126.7122"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          y="517.75757"
          x="1126.7122"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro Medium"
+         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          id="tspan10569">GNOME</tspan></text>
     <path
        style="fill:#555753;stroke:#eeeeec;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
@@ -25946,16 +25932,16 @@
        id="text10641"
        y="201.08493"
        x="336.71213"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          y="201.08493"
          x="336.71213"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          id="tspan10643">Quit unexpectedly</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="212.71211"
        y="201.08493"
        id="text10645"
@@ -25963,14 +25949,14 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="212.71211"
          y="201.08493"
          id="tspan10647">Firefox</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="336.71213"
        y="235.08493"
        id="text10649"
@@ -25979,7 +25965,7 @@
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
          id="tspan10651"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="336.71213"
          y="235.08493">wireless_connection_from_ifcfg: assertion 'error != NULL' failed</tspan></text>
@@ -25991,16 +25977,16 @@
        id="text10653"
        y="269.08496"
        x="336.71213"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          y="269.08496"
          x="336.71213"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          id="tspan10655">dbus_g_proxy_cancel_call: assertion 'pending != NULL' failed</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="212.71211"
        y="235.08493"
        id="text10657"
@@ -26008,14 +25994,14 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="212.71211"
          y="235.08493"
          id="tspan10659">System</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="212.71211"
        y="269.08496"
        id="text10661"
@@ -26023,14 +26009,14 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="212.71211"
          y="269.08496"
          id="tspan10663">System</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="336.71213"
        y="302.75748"
        id="text10665"
@@ -26039,7 +26025,7 @@
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
          id="tspan10667"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="336.71213"
          y="302.75748">receive_packet failed on wlp3s0: Network is down</tspan></text>
@@ -26051,13 +26037,13 @@
        id="text10669"
        y="302.75748"
        x="212.71211"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          id="tspan10671"
          y="302.75748"
          x="212.71211"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas">System</tspan></text>
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium">System</tspan></text>
     <text
        sodipodi:linespacing="144.00001%"
        inkscape:export-ydpi="90"
@@ -26066,16 +26052,16 @@
        id="text10673"
        y="337.08499"
        x="336.71213"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          y="337.08499"
          x="336.71213"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          id="tspan10675">gkr-pam: the password for the login keyring was invalid.</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="212.71211"
        y="337.08499"
        id="text10677"
@@ -26083,7 +26069,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="212.71211"
          y="337.08499"
@@ -26110,16 +26096,16 @@
        id="text10685"
        y="371.08499"
        x="336.71213"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          y="371.08499"
          x="336.71213"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          id="tspan10687">pid.c: Daemon already running.</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="212.71211"
        y="371.08499"
        id="text10689"
@@ -26127,7 +26113,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="212.71211"
          y="371.08499"
@@ -26140,12 +26126,12 @@
        id="text10693"
        y="404.75748"
        x="336.71213"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          y="404.75748"
          x="336.71213"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          id="tspan10695">Failed at step PAM spawning /usr/lib/systemd/systemd: Operation not permitted.</tspan></text>
     <path
        style="fill:#555753;stroke:#eeeeec;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
@@ -26176,16 +26162,16 @@
        id="text10703"
        y="404.75748"
        x="212.71211"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          id="tspan10705"
          y="404.75748"
          x="212.71211"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas">Security</tspan></text>
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium">Security</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="336.71213"
        y="438.75754"
        id="text10707"
@@ -26194,13 +26180,13 @@
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
          id="tspan10709"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="336.71213"
          y="438.75754">CPU1: Core temperature above threshold, cpu clock throttled (total events = 1)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="212.71211"
        y="438.75754"
        id="text10711"
@@ -26208,7 +26194,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="212.71211"
          y="438.75754"
@@ -26236,7 +26222,7 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="336.71213"
        y="473.08505"
        id="text10723"
@@ -26245,7 +26231,7 @@
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
          id="tspan10725"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="336.71213"
          y="473.08505">Missing virtio device '/dev/virtio-ports/com.redhat.spice.0': No such file or directory</tspan></text>
@@ -26257,13 +26243,13 @@
        id="text10727"
        y="473.08505"
        x="212.71211"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          id="tspan10729"
          y="473.08505"
          x="212.71211"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas">System</tspan></text>
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium">System</tspan></text>
     <text
        sodipodi:linespacing="144.00001%"
        inkscape:export-ydpi="90"
@@ -26272,16 +26258,16 @@
        id="text10731"
        y="507.08505"
        x="336.71213"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          y="507.08505"
          x="336.71213"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          id="tspan10733">wireless_connection_from_ifcfg: assertion 'error != NULL' failed</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="336.71213"
        y="541.08508"
        id="text10735"
@@ -26290,7 +26276,7 @@
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
          id="tspan10737"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="336.71213"
          y="541.08508">dbus_g_proxy_cancel_call: assertion 'pending != NULL' failed</tspan></text>
@@ -26302,13 +26288,13 @@
        id="text10739"
        y="507.08505"
        x="212.71211"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          id="tspan10741"
          y="507.08505"
          x="212.71211"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas">System</tspan></text>
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium">System</tspan></text>
     <text
        sodipodi:linespacing="144.00001%"
        inkscape:export-ydpi="90"
@@ -26317,13 +26303,13 @@
        id="text10743"
        y="541.08508"
        x="212.71211"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          id="tspan10745"
          y="541.08508"
          x="212.71211"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas">System</tspan></text>
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium">System</tspan></text>
     <text
        sodipodi:linespacing="144.00001%"
        inkscape:export-ydpi="90"
@@ -26332,16 +26318,16 @@
        id="text10747"
        y="574.75757"
        x="336.71213"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          y="574.75757"
          x="336.71213"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          id="tspan10749">receive_packet failed on wlp3s0: Network is down</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="212.71211"
        y="574.75757"
        id="text10751"
@@ -26349,14 +26335,14 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="212.71211"
          y="574.75757"
          id="tspan10753">System</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="336.71213"
        y="609.08508"
        id="text10755"
@@ -26365,7 +26351,7 @@
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
          id="tspan10757"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="336.71213"
          y="609.08508">gkr-pam: the password for the login keyring was invalid.</tspan></text>
@@ -26377,13 +26363,13 @@
        id="text10759"
        y="609.08508"
        x="212.71211"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          id="tspan10761"
          y="609.08508"
          x="212.71211"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas">Security</tspan></text>
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium">Security</tspan></text>
     <path
        style="fill:#555753;stroke:#eeeeec;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        d="m 200.5,621.50012 855.6784,0"
@@ -26400,7 +26386,7 @@
        style="fill:#555753;stroke:#eeeeec;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="336.71213"
        y="643.08508"
        id="text10812"
@@ -26409,7 +26395,7 @@
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
          id="tspan10814"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="336.71213"
          y="643.08508">pid.c: Daemon already running.</tspan></text>
@@ -26421,16 +26407,16 @@
        id="text10816"
        y="643.08508"
        x="212.71211"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          id="tspan10818"
          y="643.08508"
          x="212.71211"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas">System</tspan></text>
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium">System</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="336.71213"
        y="676.75757"
        id="text10820"
@@ -26439,7 +26425,7 @@
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
          id="tspan10822"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="336.71213"
          y="676.75757">Failed at step PAM spawning /usr/lib/systemd/systemd: Operation not permitted.</tspan></text>
@@ -26466,7 +26452,7 @@
        style="fill:#555753;stroke:#d3d7cf;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="212.71211"
        y="676.75757"
        id="text10830"
@@ -26474,7 +26460,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="212.71211"
          y="676.75757"
@@ -26494,16 +26480,16 @@
        id="text10838"
        y="710.75757"
        x="212.71211"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          id="tspan10840"
          y="710.75757"
          x="212.71211"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas">System Start</tspan></text>
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium">System Start</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="212.71211"
        y="745.08508"
        id="text10854"
@@ -26511,7 +26497,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="212.71211"
          y="745.08508"
@@ -26522,30 +26508,30 @@
        inkscape:export-xdpi="90"
        inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
        id="text11953"
-       y="99.0849"
+       y="98.853851"
        x="1010.6909"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
-         y="99.0849"
+         y="98.853851"
          x="1010.6909"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          id="tspan11955">9:48 AM</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="1010.6909"
-       y="269.08496"
+       y="268.85394"
        id="text11957"
        inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
          id="tspan11959"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="1010.6909"
-         y="269.08496">8:34 AM</tspan></text>
+         y="268.85394">8:34 AM</tspan></text>
     <text
        sodipodi:linespacing="144.00001%"
        inkscape:export-ydpi="90"
@@ -26554,16 +26540,16 @@
        id="text11961"
        y="541.08508"
        x="1010.6909"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          y="541.08508"
          x="1010.6909"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          id="tspan11963">6:21 AM</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Consolas;-inkscape-font-specification:Consolas"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        x="1010.6909"
        y="710.75757"
        id="text12022"
@@ -26572,7 +26558,7 @@
        inkscape:export-ydpi="90"
        sodipodi:linespacing="144.00001%"><tspan
          id="tspan12024"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;font-family:Consolas;-inkscape-font-specification:Consolas"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          sodipodi:role="line"
          x="1010.6909"
          y="710.75757">6:19 AM</tspan></text>
@@ -26584,13 +26570,20 @@
        id="text12026"
        y="745.08508"
        x="1010.6909"
-       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro Medium"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
        xml:space="preserve"><tspan
          y="745.08508"
          x="1010.6909"
          sodipodi:role="line"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:144.00000572%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro Medium"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:144.00000571999999011%;writing-mode:lr-tb;text-anchor:end;fill:#888a85;font-family:Inconsolata;-inkscape-font-specification:Inconsolata Medium"
          id="tspan12028">August 8, 11:51 PM</tspan></text>
+    <path
+       style="fill:#555753;stroke:#eeeeec;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 200.5,77.499817 855.6784,0"
+       id="path7427"
+       inkscape:path-effect="#path-effect7429"
+       inkscape:original-d="m 200.5,77.499817 855.6784,0"
+       inkscape:connector-curvature="0" />
   </g>
   <g
      transform="translate(-53.96875,-129.78125)"
@@ -26721,7 +26714,7 @@
        inkscape:export-ydpi="90" />
     <path
        transform="translate(-553.1976,261.3417)"
-       d="m 743.34557,67.257256 a 3.6726558,3.6726558 0 1 1 -7.34531,0 3.6726558,3.6726558 0 1 1 7.34531,0 z"
+       d="m 743.34557,67.257256 c 0,2.028351 -1.64431,3.672655 -3.67266,3.672655 -2.02835,0 -3.67265,-1.644304 -3.67265,-3.672655 0,-2.028352 1.6443,-3.672656 3.67265,-3.672656 2.02835,0 3.67266,1.644304 3.67266,3.672656 z"
        sodipodi:ry="3.6726558"
        sodipodi:rx="3.6726558"
        sodipodi:cy="67.257256"
@@ -26819,7 +26812,7 @@
        sodipodi:cy="67.257256"
        sodipodi:rx="3.6726558"
        sodipodi:ry="3.6726558"
-       d="m 743.34557,67.257256 a 3.6726558,3.6726558 0 1 1 -7.34531,0 3.6726558,3.6726558 0 1 1 7.34531,0 z"
+       d="m 743.34557,67.257256 c 0,2.028351 -1.64431,3.672655 -3.67266,3.672655 -2.02835,0 -3.67265,-1.644304 -3.67265,-3.672655 0,-2.028352 1.6443,-3.672656 3.67265,-3.672656 2.02835,0 3.67266,1.644304 3.67266,3.672656 z"
        transform="translate(-553.1976,163.3417)" />
     <text
        inkscape:export-ydpi="90"
