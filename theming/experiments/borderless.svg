@@ -15,7 +15,10 @@
    inkscape:version="0.48.4 r9939"
    width="926"
    height="610"
-   sodipodi:docname="borderless.svg">
+   sodipodi:docname="borderless.svg"
+   inkscape:export-filename="/home/jimmac/SparkleShare/gnome-mockups/theming/experiments/borderless-after.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <metadata
      id="metadata12659">
     <rdf:RDF>
@@ -108,6 +111,48 @@
        y1="521.5"
        x2="822.0625"
        y2="571.54254" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient13449-4-3"
+       id="linearGradient13482-6-1"
+       gradientUnits="userSpaceOnUse"
+       x1="822.0625"
+       y1="521.5"
+       x2="822.0625"
+       y2="571.54254"
+       gradientTransform="matrix(1.0000422,0,0,1,0.01080061,0)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient13449-4-3">
+      <stop
+         style="stop-color:#f3f3f3;stop-opacity:1"
+         offset="0"
+         id="stop13451-6-3" />
+      <stop
+         style="stop-color:#d9d9d9;stop-opacity:1"
+         offset="1"
+         id="stop13453-7-7" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient13449-4-3"
+       id="linearGradient13455-6-8"
+       x1="822.0625"
+       y1="521.5"
+       x2="822.0625"
+       y2="571.54254"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0030383,0,0,1,-2.3746393,0)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient13449-4-3"
+       id="linearGradient13472-9-9"
+       gradientUnits="userSpaceOnUse"
+       x1="822.0625"
+       y1="521.5"
+       x2="822.0625"
+       y2="571.54254"
+       gradientTransform="matrix(1.0001296,0,0,1,-0.11544901,0)" />
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -127,12 +172,12 @@
      inkscape:snap-nodes="false"
      inkscape:snap-bbox="true"
      inkscape:zoom="1"
-     inkscape:cx="168.79582"
-     inkscape:cy="173.51671"
+     inkscape:cx="575.81393"
+     inkscape:cy="97.658642"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="layer3">
     <inkscape:grid
        type="xygrid"
        id="grid13445"
@@ -144,8 +189,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer1"
-     inkscape:label="bg"
-     sodipodi:insensitive="true">
+     inkscape:label="bg">
     <image
        width="926"
        height="610"
@@ -157,7 +201,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="right aligned">
+     inkscape:label="right aligned"
+     style="display:none">
     <g
        id="g13464"
        transform="translate(-109,0)">
@@ -264,6 +309,119 @@
          sodipodi:role="line"
          id="tspan12673"
          x="619"
+         y="553">Preview</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="span">
+    <g
+       id="g13464-4"
+       transform="matrix(2.6436059,0,0,1,-1752.6059,0)">
+      <rect
+         style="color:#bebebe;fill:url(#linearGradient13472-9-9);fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.61503756;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         id="rect13466-2"
+         width="108.95162"
+         height="52"
+         x="781.54834"
+         y="521.5" />
+      <rect
+         style="color:#bebebe;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         id="rect13468-6"
+         width="108"
+         height="1"
+         x="782"
+         y="522" />
+      <rect
+         y="522"
+         x="781.73749"
+         height="51"
+         width="0.37829581"
+         id="rect13470-3"
+         style="color:#bebebe;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
+    </g>
+    <g
+       id="g13459-4"
+       transform="matrix(2.6436059,0,0,1,-1464.4528,0)">
+      <rect
+         y="521.5"
+         x="781.5625"
+         height="52"
+         width="109.26849"
+         id="rect12675-6"
+         style="color:#bebebe;fill:url(#linearGradient13455-6-8);fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.61503756;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
+      <rect
+         y="522"
+         x="782"
+         height="1"
+         width="108.61469"
+         id="rect13447-6"
+         style="color:#bebebe;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
+      <rect
+         style="color:#bebebe;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         id="rect13457-5"
+         width="0.3782438"
+         height="51"
+         x="781.67963"
+         y="522" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="758"
+       y="553"
+       id="text12663-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan12665-1"
+         x="758"
+         y="553">Print</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text12667-4"
+       y="553"
+       x="455.99997"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"><tspan
+         y="553"
+         x="455.99997"
+         id="tspan12669-0"
+         sodipodi:role="line">Cancel</tspan></text>
+    <g
+       transform="matrix(2.6436059,0,0,1,-2040.7589,0)"
+       id="g13474-4">
+      <rect
+         y="521.5"
+         x="781.60626"
+         height="52"
+         width="108.9421"
+         id="rect13476-2"
+         style="color:#bebebe;fill:url(#linearGradient13482-6-1);fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.61503756;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
+      <rect
+         y="522"
+         x="782"
+         height="1"
+         width="108"
+         id="rect13478-0"
+         style="color:#bebebe;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
+      <rect
+         style="color:#bebebe;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         id="rect13480-1"
+         width="0.37824893"
+         height="51"
+         x="781.79541"
+         y="522" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="175.99997"
+       y="553"
+       id="text12671-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan12673-0"
+         x="175.99997"
          y="553">Preview</tspan></text>
   </g>
 </svg>
