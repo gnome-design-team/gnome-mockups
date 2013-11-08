@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -163,8 +163,8 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2560"
-     inkscape:window-height="1374"
+     inkscape:window-width="1920"
+     inkscape:window-height="1021"
      id="namedview12655"
      showgrid="false"
      borderlayer="true"
@@ -172,8 +172,8 @@
      inkscape:snap-nodes="false"
      inkscape:snap-bbox="true"
      inkscape:zoom="1"
-     inkscape:cx="575.81393"
-     inkscape:cy="97.658642"
+     inkscape:cx="430.10547"
+     inkscape:cy="-222.34136"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -423,5 +423,24 @@
          id="tspan12673-0"
          x="175.99997"
          y="553">Preview</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Quicksand;-inkscape-font-specification:Sans Bold"
+       x="45"
+       y="664"
+       id="text3040"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3042"
+         x="45"
+         y="664"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Droid Sans;-inkscape-font-specification:Droid Sans">Pretty hot, btw you know this is not implementable since we FSCKING STILL lack a way to automagically</tspan><tspan
+         sodipodi:role="line"
+         x="45"
+         y="686.5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+         id="tspan3044">remove borders (i.e. know when an element is touching borders of the main window or frame), right? <tspan
+   style="fill:#729fcf"
+   id="tspan3046">L</tspan></tspan></text>
   </g>
 </svg>
