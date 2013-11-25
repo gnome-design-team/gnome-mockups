@@ -34,6 +34,18 @@
   <defs
      id="defs14568">
     <linearGradient
+       id="linearGradient40153"
+       inkscape:collect="always">
+      <stop
+         id="stop40155"
+         offset="0"
+         style="stop-color:#d3d7cf;stop-opacity:1" />
+      <stop
+         id="stop40157"
+         offset="1"
+         style="stop-color:#eeeeec;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
        inkscape:collect="always"
        id="linearGradient40084">
       <stop
@@ -3426,6 +3438,15 @@
          stdDeviation="1.8612889"
          id="feGaussianBlur40104" />
     </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient40153"
+       id="linearGradient40151"
+       x1="830"
+       y1="194.5625"
+       x2="830"
+       y2="412.24347"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -3447,7 +3468,7 @@
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g40124"
+     inkscape:current-layer="g40106"
      showguides="true"
      inkscape:guide-bbox="true">
     <inkscape:grid
@@ -7963,7 +7984,7 @@ gg==
      id="g40106"
      inkscape:label="firefox">
     <rect
-       style="color:#000000;fill:url(#radialGradient40090);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient15232);stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:url(#linearGradient40151);fill-opacity:1;fill-rule:nonzero;stroke:#babdb6;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect40108"
        width="1048"
        height="244"
@@ -7971,7 +7992,7 @@ gg==
        y="167.5625" />
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        x="583.8125"
        y="339"
        id="text40112"
@@ -7983,7 +8004,7 @@ gg==
     <flowRoot
        xml:space="preserve"
        id="flowRoot40116"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        transform="translate(-122.1875,6)"><flowRegion
          id="flowRegion40118"><rect
            id="rect40120"
@@ -7991,7 +8012,7 @@ gg==
            height="45"
            x="710"
            y="346"
-           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Cantarell;-inkscape-font-specification:Cantarell" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;font-family:Cantarell;-inkscape-font-specification:Cantarell" /></flowRegion><flowPara
          id="flowPara40122">World wide web browser by Mozilla.</flowPara></flowRoot>    <g
        clip-path="url(#clipPath15989)"
        id="g40124"
@@ -8005,11 +8026,11 @@ gg==
          sodipodi:cy="244"
          sodipodi:rx="32.5"
          sodipodi:ry="21"
-         d="M 88,244 C 88,255.59798 73.449254,265 55.5,265 37.550746,265 23,255.59798 23,244 23,232.40202 37.550746,223 55.5,223 73.449254,223 88,232.40202 88,244 z"
+         d="m 88,244 a 32.5,21 0 1 1 -65,0 32.5,21 0 1 1 65,0 z"
          transform="matrix(0.71395177,0,0,0.37621846,32.391597,172.19472)" />
       <path
          transform="matrix(0.71395177,0,0,0.37621846,165.51475,172.19472)"
-         d="M 88,244 C 88,255.59798 73.449254,265 55.5,265 37.550746,265 23,255.59798 23,244 23,232.40202 37.550746,223 55.5,223 73.449254,223 88,232.40202 88,244 z"
+         d="m 88,244 a 32.5,21 0 1 1 -65,0 32.5,21 0 1 1 65,0 z"
          sodipodi:ry="21"
          sodipodi:rx="32.5"
          sodipodi:cy="244"
@@ -8019,7 +8040,7 @@ gg==
          sodipodi:type="arc" />
       <path
          transform="matrix(0.71395177,0,0,0.37621846,32.391597,172.19472)"
-         d="M 88,244 C 88,255.59798 73.449254,265 55.5,265 37.550746,265 23,255.59798 23,244 23,232.40202 37.550746,223 55.5,223 73.449254,223 88,232.40202 88,244 z"
+         d="m 88,244 a 32.5,21 0 1 1 -65,0 32.5,21 0 1 1 65,0 z"
          sodipodi:ry="21"
          sodipodi:rx="32.5"
          sodipodi:cy="244"
@@ -8035,7 +8056,7 @@ gg==
          sodipodi:cy="244"
          sodipodi:rx="32.5"
          sodipodi:ry="21"
-         d="M 88,244 C 88,255.59798 73.449254,265 55.5,265 37.550746,265 23,255.59798 23,244 23,232.40202 37.550746,223 55.5,223 73.449254,223 88,232.40202 88,244 z"
+         d="m 88,244 a 32.5,21 0 1 1 -65,0 32.5,21 0 1 1 65,0 z"
          transform="matrix(0.71395177,0,0,0.37621846,165.51475,172.19472)" />
       <path
          sodipodi:type="arc"
@@ -8045,11 +8066,11 @@ gg==
          sodipodi:cy="244"
          sodipodi:rx="32.5"
          sodipodi:ry="21"
-         d="M 88,244 C 88,255.59798 73.449254,265 55.5,265 37.550746,265 23,255.59798 23,244 23,232.40202 37.550746,223 55.5,223 73.449254,223 88,232.40202 88,244 z"
+         d="m 88,244 a 32.5,21 0 1 1 -65,0 32.5,21 0 1 1 65,0 z"
          transform="matrix(0.56756098,0,0,0.37621846,107.41149,143.09922)" />
       <path
          transform="matrix(0.13215491,0,0,0.25426927,131.57658,172.85487)"
-         d="M 88,244 C 88,255.59798 73.449254,265 55.5,265 37.550746,265 23,255.59798 23,244 23,232.40202 37.550746,223 55.5,223 73.449254,223 88,232.40202 88,244 z"
+         d="m 88,244 a 32.5,21 0 1 1 -65,0 32.5,21 0 1 1 65,0 z"
          sodipodi:ry="21"
          sodipodi:rx="32.5"
          sodipodi:cy="244"
