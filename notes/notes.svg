@@ -19,7 +19,7 @@
    sodipodi:docname="notes.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
-   inkscape:export-filename="/home/aday/checkout/gnome-mockups/notes/notes-add-to-notebook-dialog-new-notebook.png"
+   inkscape:export-filename="/home/aday/checkout/gnome-mockups/notes/notes-notebook-properties-dialog.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    style="display:inline;enable-background:new">
@@ -34,10 +34,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="429.46846"
-     inkscape:cy="346.21875"
+     inkscape:cx="512.7962"
+     inkscape:cy="360.36216"
      inkscape:document-units="px"
-     inkscape:current-layer="g5564"
+     inkscape:current-layer="layer8"
      showgrid="false"
      inkscape:snap-global="true"
      inkscape:snap-nodes="false"
@@ -102,19 +102,9 @@
        patternTransform="matrix(0.18209438,0,0,0.27011674,684.2967,63.11009)" />
     <pattern
        inkscape:collect="always"
-       xlink:href="#pattern5531"
-       id="pattern5641"
-       patternTransform="matrix(0.18209438,0,0,0.27011674,353.2967,-496.88991)" />
-    <pattern
-       inkscape:collect="always"
        xlink:href="#pattern18401-5"
        id="pattern5531"
        patternTransform="matrix(0.18209438,0,0,0.27011674,353.2967,63.11009)" />
-    <pattern
-       inkscape:collect="always"
-       xlink:href="#pattern18401-5"
-       id="pattern5514"
-       patternTransform="matrix(0.18209438,0,0,0.27011674,684.29663,-517.10682)" />
     <pattern
        inkscape:collect="always"
        xlink:href="#pattern18401-5"
@@ -5660,26 +5650,6 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient21246"
-       id="linearGradient5511"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.29669262,0,0,0.44011048,624.66138,-488.05954)"
-       x1="1183.8281"
-       y1="658.48389"
-       x2="1043.2812"
-       y2="366.12119" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient21246"
-       id="linearGradient5639"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.29669262,0,0,0.44011048,293.66148,-467.84262)"
-       x1="1183.8281"
-       y1="658.48389"
-       x2="1043.2812"
-       y2="366.12119" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient21246"
        id="linearGradient5684"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.29669262,0,0,0.44011048,-37.338523,91.94046)"
@@ -6635,36 +6605,6 @@
        y2="36.441929" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient72990-6-8-2-7-4-6-0-5-0"
-       id="linearGradient8743"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-476.91323,295.49082)"
-       x1="884.91321"
-       y1="6.4419298"
-       x2="884.91321"
-       y2="36.441929" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient54975-2-7-8"
-       id="linearGradient8745"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(3.153061,0,0,0.85714285,-969.352,50.07142)"
-       x1="479"
-       y1="392"
-       x2="479"
-       y2="378.96838" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3808-0-8-4-0"
-       id="linearGradient8747"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,1.0645161,-105.99999,650.74931)"
-       x1="589"
-       y1="37.753166"
-       x2="589"
-       y2="9.7479591" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient5378-2-5-9-9-0-80-7-6-8-35"
        id="linearGradient5552-4"
        gradientUnits="userSpaceOnUse"
@@ -7548,6 +7488,68 @@
        y1="658.48389"
        x2="1043.2812"
        y2="366.12119" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient60585-4-48-3-8-1-9-9-7-0-1-6-8-8"
+       id="linearGradient15885-3-9"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.0645201,302.00004,-140.61302)"
+       x1="49"
+       y1="39.502155"
+       x2="49.000004"
+       y2="10.497845" />
+    <linearGradient
+       id="linearGradient60585-4-48-3-8-1-9-9-7-0-1-6-8-8"
+       inkscape:collect="always">
+      <stop
+         id="stop60587-8-5-5-1-4-6-7-0-1-4-5-0-7"
+         offset="0"
+         style="stop-color:#dbdbdb;stop-opacity:1" />
+      <stop
+         id="stop60589-6-3-85-7-1-6-7-5-2-3-0-9-8"
+         offset="1"
+         style="stop-color:#f7f7f7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient54975-2-7-8"
+       id="linearGradient5796"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.153061,0,0,0.85714285,-986.32167,50.07142)"
+       x1="479"
+       y1="392"
+       x2="479"
+       y2="378.96838" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient72990-6-8-2-7-4-6-0-5-0"
+       id="linearGradient5804"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-493.8829,295.49082)"
+       x1="884.91321"
+       y1="6.4419298"
+       x2="884.91321"
+       y2="36.441929" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient60585-4-48-3-8-1-9-9-7-0-1-6-8-8"
+       id="linearGradient5810"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.0645201,302.00004,-140.61302)"
+       x1="49"
+       y1="39.502155"
+       x2="49.000004"
+       y2="10.497845" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3808-0-8-4-0"
+       id="linearGradient5834"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.0645161,77.03034,299.38713)"
+       x1="589"
+       y1="37.753166"
+       x2="589"
+       y2="9.7479591" />
   </defs>
   <metadata
      id="metadata7">
@@ -8755,66 +8757,6 @@
        width="305"
        id="rect21304"
        style="opacity:0.3;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter6964);enable-background:accumulate" />
-    <rect
-       y="-462.78308"
-       x="353"
-       height="305"
-       width="305"
-       id="rect21306"
-       style="color:#000000;fill:#d4dee9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999976;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:new" />
-    <rect
-       style="opacity:0.03703703;color:#000000;fill:url(#pattern5641);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999976;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:new"
-       id="rect21308"
-       width="305"
-       height="305"
-       x="353"
-       y="-462.78308" />
-    <rect
-       y="-462.78308"
-       x="353"
-       height="305"
-       width="305"
-       id="rect21310"
-       style="opacity:0.38121547;color:#000000;fill:url(#linearGradient5639);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999976;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:new" />
-    <flowRoot
-       transform="matrix(0.59466887,0,0,0.59466887,361.7262,-500.12597)"
-       style="font-size:28.06129646px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:200%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Lato;-inkscape-font-specification:Lato"
-       id="flowRoot21312"
-       xml:space="preserve"><flowRegion
-         id="flowRegion21314"><rect
-           style="font-size:28.06129646px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:200%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;font-family:Lato;-inkscape-font-specification:Lato"
-           y="101.00876"
-           x="41.978107"
-           height="426.6366"
-           width="404.43961"
-           id="rect21316" /></flowRegion><flowPara
-         id="flowPara21318">High fidelity comps for Notes</flowPara><flowPara
-         id="flowPara21320">Tweaks to the application themes in 3.4, particularly <flowSpan
-   id="flowSpan21322"
-   style="font-size:28.06129646px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:200%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;font-family:Lato;-inkscape-font-specification:Lato">Contacts</flowSpan>.</flowPara><flowPara
-         id="flowPara21324">Coffee for the baus</flowPara><flowPara
-         id="flowPara21326">Super secret project to overthrow the Man</flowPara><flowPara
-         id="flowPara21328">Reinvented the wheel</flowPara></flowRoot>    <rect
-       style="color:#000000;fill:#f1f4d2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999976;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:new"
-       id="rect21336"
-       width="305"
-       height="305"
-       x="684"
-       y="-483" />
-    <rect
-       y="-483"
-       x="684"
-       height="305"
-       width="305"
-       id="rect21338"
-       style="opacity:0.03703703;color:#000000;fill:url(#pattern5514);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999976;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:new" />
-    <rect
-       style="opacity:0.38121547;color:#000000;fill:url(#linearGradient5511);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999976;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:new"
-       id="rect21340"
-       width="305"
-       height="305"
-       x="684"
-       y="-483" />
     <text
        sodipodi:linespacing="125%"
        id="text21364"
@@ -9503,66 +9445,6 @@
        height="305"
        x="352.33554"
        y="99" />
-    <rect
-       style="color:#000000;fill:#d4dee9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999976;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:new"
-       id="rect5596"
-       width="305"
-       height="305"
-       x="353"
-       y="-462.78308" />
-    <rect
-       y="-462.78308"
-       x="353"
-       height="305"
-       width="305"
-       id="rect5598"
-       style="opacity:0.03703703;color:#000000;fill:url(#pattern5641);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999976;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:new" />
-    <rect
-       style="opacity:0.38121547;color:#000000;fill:url(#linearGradient5639);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999976;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:new"
-       id="rect5600"
-       width="305"
-       height="305"
-       x="353"
-       y="-462.78308" />
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot5602"
-       style="font-size:28.06129646px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:200%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Lato;-inkscape-font-specification:Lato"
-       transform="matrix(0.59466887,0,0,0.59466887,361.7262,-500.12597)"><flowRegion
-         id="flowRegion5604"><rect
-           id="rect5606"
-           width="404.43961"
-           height="426.6366"
-           x="41.978107"
-           y="101.00876"
-           style="font-size:28.06129646px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:200%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;font-family:Lato;-inkscape-font-specification:Lato" /></flowRegion><flowPara
-         id="flowPara5608">High fidelity comps for Notes</flowPara><flowPara
-         id="flowPara5610">Tweaks to the application themes in 3.4, particularly <flowSpan
-   style="font-size:28.06129646px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:200%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;font-family:Lato;-inkscape-font-specification:Lato"
-   id="flowSpan5612">Contacts</flowSpan>.</flowPara><flowPara
-         id="flowPara5614">Coffee for the baus</flowPara><flowPara
-         id="flowPara5616">Super secret project to overthrow the Man</flowPara><flowPara
-         id="flowPara5618">Reinvented the wheel</flowPara></flowRoot>    <rect
-       y="-483"
-       x="684"
-       height="305"
-       width="305"
-       id="rect5620"
-       style="color:#000000;fill:#f1f4d2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999976;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:new" />
-    <rect
-       style="opacity:0.03703703;color:#000000;fill:url(#pattern5514);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999976;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:new"
-       id="rect5622"
-       width="305"
-       height="305"
-       x="684"
-       y="-483" />
-    <rect
-       y="-483"
-       x="684"
-       height="305"
-       width="305"
-       id="rect5624"
-       style="opacity:0.38121547;color:#000000;fill:url(#linearGradient5511);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999976;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:new" />
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
@@ -10331,7 +10213,7 @@
              sodipodi:cy="178.03125"
              sodipodi:rx="1.96875"
              sodipodi:ry="1.96875"
-             d="m 291,178.03125 a 1.96875,1.96875 0 1 1 -3.9375,0 1.96875,1.96875 0 1 1 3.9375,0 z"
+             d="m 291,178.03125 c 0,1.08731 -0.88144,1.96875 -1.96875,1.96875 -1.08731,0 -1.96875,-0.88144 -1.96875,-1.96875 0,-1.08731 0.88144,-1.96875 1.96875,-1.96875 1.08731,0 1.96875,0.88144 1.96875,1.96875 z"
              transform="matrix(1.5079365,0,0,1.5079365,-86.649872,707.68703)" />
           <path
              inkscape:transform-center-y="-5.5812618"
@@ -10360,7 +10242,7 @@
           </g>
           <path
              transform="matrix(1.5079365,0,0,1.5079365,-86.649872,707.68703)"
-             d="m 291,178.03125 a 1.96875,1.96875 0 1 1 -3.9375,0 1.96875,1.96875 0 1 1 3.9375,0 z"
+             d="m 291,178.03125 c 0,1.08731 -0.88144,1.96875 -1.96875,1.96875 -1.08731,0 -1.96875,-0.88144 -1.96875,-1.96875 0,-1.08731 0.88144,-1.96875 1.96875,-1.96875 1.08731,0 1.96875,0.88144 1.96875,1.96875 z"
              sodipodi:ry="1.96875"
              sodipodi:rx="1.96875"
              sodipodi:cy="178.03125"
@@ -10538,7 +10420,7 @@
            sodipodi:cy="386.5"
            sodipodi:rx="3.5"
            sodipodi:ry="3.5"
-           d="m 311,386.5 a 3.5,3.5 0 1 1 -7,0 3.5,3.5 0 1 1 7,0 z"
+           d="m 311,386.5 c 0,1.933 -1.567,3.5 -3.5,3.5 -1.933,0 -3.5,-1.567 -3.5,-3.5 0,-1.933 1.567,-3.5 3.5,-3.5 1.933,0 3.5,1.567 3.5,3.5 z"
            transform="matrix(1.2871768,0,0,1.2857143,521.70054,-445.42857)" />
         <path
            inkscape:connector-curvature="0"
@@ -10554,7 +10436,7 @@
          transform="translate(772.9998,-603)">
         <path
            transform="matrix(1.2871768,0,0,1.2857143,-249.29926,155.57143)"
-           d="m 311,386.5 a 3.5,3.5 0 1 1 -7,0 3.5,3.5 0 1 1 7,0 z"
+           d="m 311,386.5 c 0,1.933 -1.567,3.5 -3.5,3.5 -1.933,0 -3.5,-1.567 -3.5,-3.5 0,-1.933 1.567,-3.5 3.5,-3.5 1.933,0 3.5,1.567 3.5,3.5 z"
            sodipodi:ry="3.5"
            sodipodi:rx="3.5"
            sodipodi:cy="386.5"
@@ -10788,7 +10670,7 @@
              inkscape:label="emblem-important" />
           <path
              transform="matrix(1.5079365,0,0,1.5079365,-86.649872,707.68703)"
-             d="m 291,178.03125 a 1.96875,1.96875 0 1 1 -3.9375,0 1.96875,1.96875 0 1 1 3.9375,0 z"
+             d="m 291,178.03125 c 0,1.08731 -0.88144,1.96875 -1.96875,1.96875 -1.08731,0 -1.96875,-0.88144 -1.96875,-1.96875 0,-1.08731 0.88144,-1.96875 1.96875,-1.96875 1.08731,0 1.96875,0.88144 1.96875,1.96875 z"
              sodipodi:ry="1.96875"
              sodipodi:rx="1.96875"
              sodipodi:cy="178.03125"
@@ -10829,7 +10711,7 @@
              sodipodi:cy="178.03125"
              sodipodi:rx="1.96875"
              sodipodi:ry="1.96875"
-             d="m 291,178.03125 a 1.96875,1.96875 0 1 1 -3.9375,0 1.96875,1.96875 0 1 1 3.9375,0 z"
+             d="m 291,178.03125 c 0,1.08731 -0.88144,1.96875 -1.96875,1.96875 -1.08731,0 -1.96875,-0.88144 -1.96875,-1.96875 0,-1.08731 0.88144,-1.96875 1.96875,-1.96875 1.08731,0 1.96875,0.88144 1.96875,1.96875 z"
              transform="matrix(1.5079365,0,0,1.5079365,-86.649872,707.68703)" />
           <path
              inkscape:transform-center-y="-5.5812618"
@@ -11542,7 +11424,7 @@
           <path
              sodipodi:cx="289.03125"
              sodipodi:cy="178.03125"
-             d="m 291,178.03125 a 1.96875,1.96875 0 1 1 -3.9375,0 1.96875,1.96875 0 1 1 3.9375,0 z"
+             d="m 291,178.03125 c 0,1.08731 -0.88144,1.96875 -1.96875,1.96875 -1.08731,0 -1.96875,-0.88144 -1.96875,-1.96875 0,-1.08731 0.88144,-1.96875 1.96875,-1.96875 1.08731,0 1.96875,0.88144 1.96875,1.96875 z"
              id="path17629"
              sodipodi:rx="1.96875"
              sodipodi:ry="1.96875"
@@ -11552,7 +11434,7 @@
           <path
              sodipodi:cx="289.03125"
              sodipodi:cy="178.03125"
-             d="m 291,178.03125 a 1.96875,1.96875 0 1 1 -3.9375,0 1.96875,1.96875 0 1 1 3.9375,0 z"
+             d="m 291,178.03125 c 0,1.08731 -0.88144,1.96875 -1.96875,1.96875 -1.08731,0 -1.96875,-0.88144 -1.96875,-1.96875 0,-1.08731 0.88144,-1.96875 1.96875,-1.96875 1.08731,0 1.96875,0.88144 1.96875,1.96875 z"
              id="path17631"
              sodipodi:rx="1.96875"
              sodipodi:ry="1.96875"
@@ -11562,7 +11444,7 @@
           <path
              sodipodi:cx="289.03125"
              sodipodi:cy="178.03125"
-             d="m 291,178.03125 a 1.96875,1.96875 0 1 1 -3.9375,0 1.96875,1.96875 0 1 1 3.9375,0 z"
+             d="m 291,178.03125 c 0,1.08731 -0.88144,1.96875 -1.96875,1.96875 -1.08731,0 -1.96875,-0.88144 -1.96875,-1.96875 0,-1.08731 0.88144,-1.96875 1.96875,-1.96875 1.08731,0 1.96875,0.88144 1.96875,1.96875 z"
              id="path17633"
              sodipodi:rx="1.96875"
              sodipodi:ry="1.96875"
@@ -13920,199 +13802,186 @@
            sodipodi:role="line">Remove</tspan></text>
     </g>
     <g
-       id="g8715"
-       transform="translate(-16.969667,0)">
-      <g
-         transform="translate(40,42)"
-         style="opacity:0.4;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;filter:url(#filter8709)"
-         id="g8701">
-        <rect
-           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999988;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new"
-           id="rect8697"
-           width="399.99997"
-           height="96.067261"
-           x="289.50003"
-           y="291.43274" />
-        <path
-           style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           d="m 295.49999,262.57382 c -3.3182,0 -6,2.6818 -6,6 l 0,41 6,0 388.00001,0 6,0 0,-41 c 0,-3.3182 -2.6818,-6 -6,-6 z"
-           id="path8699"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="csccccscc" />
-      </g>
+       id="g8701"
+       style="opacity:0.4;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;filter:url(#filter8709)"
+       transform="translate(23.030333,42)">
       <rect
-         style="fill:#eeeeec;fill-opacity:1;stroke:#a6a6a6;stroke-width:0.99999988;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new"
-         id="rect15969"
-         width="399.99997"
+         y="291.43274"
+         x="289.50003"
          height="96.067261"
-         x="329.50003"
-         y="331.43274" />
+         width="399.99997"
+         id="rect8697"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999988;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new" />
       <path
-         style="color:#000000;fill:url(#linearGradient8743);fill-opacity:1;fill-rule:nonzero;stroke:#a6a6a6;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="m 335.49999,302.57382 c -3.3182,0 -6,2.6818 -6,6 l 0,41 6,0 388.00001,0 6,0 0,-41 c 0,-3.3182 -2.6818,-6 -6,-6 z"
-         id="path15971"
+         sodipodi:nodetypes="csccccscc"
          inkscape:connector-curvature="0"
-         sodipodi:nodetypes="csccccscc" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text15979"
-         y="331.70667"
-         x="529.00848"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#555753;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-         xml:space="preserve"><tspan
-           y="331.70667"
-           x="529.00848"
-           id="tspan15981"
-           sodipodi:role="line">Rename Notebook</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         x="388.21967"
-         y="394.33701"
-         id="text16181"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan16183"
-           x="388.21967"
-           y="394.33701">Name</tspan></text>
-      <rect
-         style="opacity:0.6;color:#000000;fill:none;stroke:#ffffff;stroke-width:0.99999994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-         id="rect16069"
-         width="309"
-         height="30"
-         x="397.50003"
-         y="375.53687"
-         rx="3.803925"
-         ry="3.8039246" />
-      <rect
-         ry="3.8039246"
-         rx="3.803925"
-         y="374.5"
-         x="397.50003"
-         height="30"
-         width="309"
-         id="rect16071"
-         style="color:#000000;fill:url(#linearGradient8745);fill-opacity:1;fill-rule:nonzero;stroke:#babdb6;stroke-width:0.99999994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text16177"
-         y="394.33701"
-         x="405.1925"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         xml:space="preserve"><tspan
-           y="394.33701"
-           x="405.1925"
-           id="tspan16179"
-           sodipodi:role="line">Blog</tspan></text>
-      <g
-         id="g16838"
-         style="display:inline;enable-background:new"
-         transform="translate(10,139.96311)">
-        <rect
-           inkscape:export-ydpi="90"
-           inkscape:export-xdpi="90"
-           inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
-           ry="3"
-           rx="3"
-           y="172.5"
-           x="633.49445"
-           height="30.999998"
-           width="79"
-           id="rect16840"
-           style="opacity:0.4;color:#000000;fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-        <rect
-           inkscape:export-ydpi="90"
-           inkscape:export-xdpi="90"
-           inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
-           ry="3"
-           rx="2.9999998"
-           y="169.5369"
-           x="633.5"
-           height="33"
-           width="79"
-           id="rect16842"
-           style="color:#000000;fill:#f4f4f2;fill-opacity:1;fill-rule:nonzero;stroke:#babdb6;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-        <text
-           xml:space="preserve"
-           style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.5;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-           x="672.7406"
-           y="190.92035"
-           id="text16844"
-           sodipodi:linespacing="125%"
-           inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
-           inkscape:export-xdpi="90"
-           inkscape:export-ydpi="90"><tspan
-             sodipodi:role="line"
-             id="tspan16846"
-             x="672.7406"
-             y="190.92035">Done</tspan></text>
-        <g
-           id="g16848"
-           transform="translate(190,-491.32529)">
-          <rect
-             inkscape:export-ydpi="90"
-             inkscape:export-xdpi="90"
-             inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
-             ry="3"
-             rx="3"
-             y="663.86218"
-             x="443.5"
-             height="30.999998"
-             width="79"
-             id="rect16850"
-             style="opacity:0.4;color:#000000;fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-          <rect
-             style="color:#000000;fill:url(#linearGradient8747);fill-opacity:1;fill-rule:nonzero;stroke:#204a87;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-             id="rect16852"
-             width="79"
-             height="32.999996"
-             x="443.5"
-             y="660.86218"
-             rx="3"
-             ry="3"
-             inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
-             inkscape:export-xdpi="90"
-             inkscape:export-ydpi="90" />
-          <text
-             inkscape:export-ydpi="90"
-             inkscape:export-xdpi="90"
-             inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
-             sodipodi:linespacing="125%"
-             id="text16854"
-             y="681.23859"
-             x="482.99643"
-             style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#3465a4;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-             xml:space="preserve"><tspan
-               y="681.23859"
-               x="482.99643"
-               id="tspan16856"
-               sodipodi:role="line">Done</tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-             x="482.99643"
-             y="682.23846"
-             id="text16858"
-             sodipodi:linespacing="125%"
-             inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
-             inkscape:export-xdpi="90"
-             inkscape:export-ydpi="90"><tspan
-               sodipodi:role="line"
-               id="tspan16860"
-               x="482.99643"
-               y="682.23846">Done</tspan></text>
-          <path
-             style="opacity:0.2;fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-             d="m 446.21655,661.86218 73.26463,0"
-             id="path16862"
-             inkscape:connector-curvature="0"
-             sodipodi:nodetypes="cc"
-             inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
-             inkscape:export-xdpi="90"
-             inkscape:export-ydpi="90" />
-        </g>
-      </g>
+         id="path8699"
+         d="m 295.49999,262.57382 c -3.3182,0 -6,2.6818 -6,6 l 0,41 6,0 388.00001,0 6,0 0,-41 c 0,-3.3182 -2.6818,-6 -6,-6 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     </g>
+    <rect
+       y="331.43274"
+       x="312.53036"
+       height="96.067261"
+       width="399.99997"
+       id="rect15969"
+       style="fill:#eeeeec;fill-opacity:1;stroke:#a6a6a6;stroke-width:0.99999988;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new" />
+    <path
+       sodipodi:nodetypes="csccccscc"
+       inkscape:connector-curvature="0"
+       id="path15971"
+       d="m 318.53032,302.57382 c -3.3182,0 -6,2.6818 -6,6 l 0,41 6,0 388.00001,0 6,0 0,-41 c 0,-3.3182 -2.6818,-6 -6,-6 z"
+       style="color:#000000;fill:url(#linearGradient5804);fill-opacity:1;fill-rule:nonzero;stroke:#a6a6a6;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#555753;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       x="512.03882"
+       y="331.70667"
+       id="text15979"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan15981"
+         x="512.03882"
+         y="331.70667">Rename Notebook</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text16181"
+       y="394.33701"
+       x="371.25"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#888a85;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"><tspan
+         y="394.33701"
+         x="371.25"
+         id="tspan16183"
+         sodipodi:role="line">Name</tspan></text>
+    <rect
+       ry="3.8039246"
+       rx="3.803925"
+       y="375.53687"
+       x="380.53036"
+       height="30"
+       width="309"
+       id="rect16069"
+       style="opacity:0.6;color:#000000;fill:none;stroke:#ffffff;stroke-width:0.99999994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
+    <rect
+       style="color:#000000;fill:url(#linearGradient5796);fill-opacity:1;fill-rule:nonzero;stroke:#babdb6;stroke-width:0.99999994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+       id="rect16071"
+       width="309"
+       height="30"
+       x="380.53036"
+       y="374.5"
+       rx="3.803925"
+       ry="3.8039246" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="388.22284"
+       y="394.33701"
+       id="text16177"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan16179"
+         x="388.22284"
+         y="394.33701">Blog</tspan></text>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+       ry="3"
+       rx="3"
+       y="312.4631"
+       x="626.52478"
+       height="30.999998"
+       width="79"
+       id="rect16840"
+       style="opacity:0.4;color:#000000;fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+       ry="3"
+       rx="2.9999998"
+       y="309.5"
+       x="626.53033"
+       height="33"
+       width="79"
+       id="rect16842"
+       style="color:#000000;fill:#f4f4f2;fill-opacity:1;fill-rule:nonzero;stroke:#babdb6;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.5;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="665.77094"
+       y="330.88345"
+       id="text16844"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan16846"
+         x="665.77094"
+         y="330.88345">Done</tspan></text>
+    <rect
+       style="opacity:0.4;color:#000000;fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect16850"
+       width="79"
+       height="30.999998"
+       x="626.53033"
+       y="312.5"
+       rx="3"
+       ry="3"
+       inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+       ry="3"
+       rx="3"
+       y="309.5"
+       x="626.53033"
+       height="32.999996"
+       width="79"
+       id="rect16852"
+       style="color:#000000;fill:url(#linearGradient5834);fill-opacity:1;fill-rule:nonzero;stroke:#204a87;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#3465a4;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       x="666.02673"
+       y="329.8764"
+       id="text16854"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan16856"
+         x="666.02673"
+         y="329.8764">Rename</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+       sodipodi:linespacing="125%"
+       id="text16858"
+       y="330.87628"
+       x="666.02673"
+       style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       xml:space="preserve"><tspan
+         y="330.87628"
+         x="666.02673"
+         id="tspan16860"
+         sodipodi:role="line">Rename</tspan></text>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path16862"
+       d="m 629.24688,310.5 73.26463,0"
+       style="opacity:0.2;fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
     <g
        transform="matrix(1.080735,0,0,0.43554394,-841.33632,194.43435)"
        style="opacity:0.17241378;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.45755315;stroke-opacity:1;filter:url(#filter17018)"
@@ -14341,6 +14210,33 @@
            inkscape:export-xdpi="90"
            inkscape:export-ydpi="90" />
       </g>
+    </g>
+    <g
+       id="g5775"
+       transform="translate(8,440.00012)">
+      <rect
+         style="color:#000000;fill:url(#linearGradient5810);fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5729"
+         width="79"
+         height="33.000122"
+         x="311.5"
+         y="-130.50012"
+         rx="3"
+         ry="3"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5731"
+         y="-109.23035"
+         x="330.19247"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         xml:space="preserve"><tspan
+           y="-109.23035"
+           x="330.19247"
+           id="tspan5733"
+           sodipodi:role="line">Cancel</tspan></text>
     </g>
   </g>
   <g
