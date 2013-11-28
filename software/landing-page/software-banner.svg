@@ -16,7 +16,7 @@
    width="1114"
    height="1283"
    sodipodi:docname="software-banner.svg"
-   inkscape:export-filename="/home/jimmac/SparkleShare/gnome-mockups/software/landing-page/banner-weather0surely-thats-not-good-enough-for-you-matthias.png"
+   inkscape:export-filename="/home/jimmac/SparkleShare/gnome-mockups/software/landing-page/banner-chess.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <metadata
@@ -33,6 +33,18 @@
   </metadata>
   <defs
      id="defs14568">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient44558">
+      <stop
+         style="stop-color:#d3d7cf;stop-opacity:1"
+         offset="0"
+         id="stop44560" />
+      <stop
+         style="stop-color:#eeeeec;stop-opacity:1"
+         offset="1"
+         id="stop44562" />
+    </linearGradient>
     <linearGradient
        id="linearGradient40153"
        inkscape:collect="always">
@@ -3579,6 +3591,15 @@
        fx="56.340511"
        fy="275.8309"
        r="43.077633" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient44558"
+       id="linearGradient44564"
+       gradientUnits="userSpaceOnUse"
+       x1="830"
+       y1="194.5625"
+       x2="830"
+       y2="412.24347" />
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -3600,7 +3621,7 @@
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g43742"
+     inkscape:current-layer="g40106"
      showguides="true"
      inkscape:guide-bbox="true">
     <inkscape:grid
@@ -5106,12 +5127,12 @@
     </g>
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:groupmode="layer"
      id="g40106"
      inkscape:label="firefox">
     <rect
-       style="color:#000000;fill:url(#linearGradient40151);fill-opacity:1;fill-rule:nonzero;stroke:#babdb6;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:url(#linearGradient44564);fill-opacity:1;fill-rule:nonzero;stroke:#babdb6;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect40108"
        width="1048"
        height="244"
@@ -5232,14 +5253,14 @@
      inkscape:label="chess"
      id="g43742"
      inkscape:groupmode="layer"
-     style="display:inline">
+     style="display:none">
     <rect
        y="167.5625"
        x="34.5"
        height="244"
        width="1048"
        id="rect43744"
-       style="color:#000000;fill:url(#linearGradient40151);fill-opacity:1;fill-rule:nonzero;stroke:#babdb6;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+       style="color:#000000;fill:url(#linearGradient40151);fill-opacity:1;fill-rule:nonzero;stroke:#2e3436;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <text
        sodipodi:linespacing="125%"
        id="text43746"
@@ -5270,7 +5291,7 @@
        clip-path="url(#clipPath15989)">
       <path
          transform="matrix(0.71395177,0,0,0.37621846,32.391597,172.19472)"
-         d="M 88,244 C 88,255.59798 73.449254,265 55.5,265 37.550746,265 23,255.59798 23,244 23,232.40202 37.550746,223 55.5,223 73.449254,223 88,232.40202 88,244 z"
+         d="m 88,244 a 32.5,21 0 1 1 -65,0 32.5,21 0 1 1 65,0 z"
          sodipodi:ry="21"
          sodipodi:rx="32.5"
          sodipodi:cy="244"
@@ -5286,7 +5307,7 @@
          sodipodi:cy="244"
          sodipodi:rx="32.5"
          sodipodi:ry="21"
-         d="M 88,244 C 88,255.59798 73.449254,265 55.5,265 37.550746,265 23,255.59798 23,244 23,232.40202 37.550746,223 55.5,223 73.449254,223 88,232.40202 88,244 z"
+         d="m 88,244 a 32.5,21 0 1 1 -65,0 32.5,21 0 1 1 65,0 z"
          transform="matrix(0.71395177,0,0,0.37621846,165.51475,172.19472)" />
       <path
          sodipodi:type="arc"
@@ -5296,11 +5317,11 @@
          sodipodi:cy="244"
          sodipodi:rx="32.5"
          sodipodi:ry="21"
-         d="M 88,244 C 88,255.59798 73.449254,265 55.5,265 37.550746,265 23,255.59798 23,244 23,232.40202 37.550746,223 55.5,223 73.449254,223 88,232.40202 88,244 z"
+         d="m 88,244 a 32.5,21 0 1 1 -65,0 32.5,21 0 1 1 65,0 z"
          transform="matrix(0.71395177,0,0,0.37621846,32.391597,172.19472)" />
       <path
          transform="matrix(0.71395177,0,0,0.37621846,165.51475,172.19472)"
-         d="M 88,244 C 88,255.59798 73.449254,265 55.5,265 37.550746,265 23,255.59798 23,244 23,232.40202 37.550746,223 55.5,223 73.449254,223 88,232.40202 88,244 z"
+         d="m 88,244 a 32.5,21 0 1 1 -65,0 32.5,21 0 1 1 65,0 z"
          sodipodi:ry="21"
          sodipodi:rx="32.5"
          sodipodi:cy="244"
@@ -5310,7 +5331,7 @@
          sodipodi:type="arc" />
       <path
          transform="matrix(0.56756098,0,0,0.37621846,107.41149,143.09922)"
-         d="M 88,244 C 88,255.59798 73.449254,265 55.5,265 37.550746,265 23,255.59798 23,244 23,232.40202 37.550746,223 55.5,223 73.449254,223 88,232.40202 88,244 z"
+         d="m 88,244 a 32.5,21 0 1 1 -65,0 32.5,21 0 1 1 65,0 z"
          sodipodi:ry="21"
          sodipodi:rx="32.5"
          sodipodi:cy="244"
@@ -5326,7 +5347,7 @@
          sodipodi:cy="244"
          sodipodi:rx="32.5"
          sodipodi:ry="21"
-         d="M 88,244 C 88,255.59798 73.449254,265 55.5,265 37.550746,265 23,255.59798 23,244 23,232.40202 37.550746,223 55.5,223 73.449254,223 88,232.40202 88,244 z"
+         d="m 88,244 a 32.5,21 0 1 1 -65,0 32.5,21 0 1 1 65,0 z"
          transform="matrix(0.13215491,0,0,0.25426927,131.57658,172.85487)" />
       <image
          y="112.40005"
