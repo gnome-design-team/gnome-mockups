@@ -16,11 +16,71 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="list-styles.svg"
-   inkscape:export-filename="/home/aday/checkout/gnome-mockups/theming/experiments/list-styles-standard.png"
+   inkscape:export-filename="/home/aday/checkout/gnome-mockups/theming/experiments/list-styles-sidebar.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
      id="defs22045">
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect6087"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect6085"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6083"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6081"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect6079"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5820"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5817"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5814"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5799"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5796"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5793"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5702"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5699"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect5696"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5693"
+       is_visible="true" />
     <inkscape:path-effect
        effect="spiro"
        id="path-effect6884"
@@ -734,16 +794,6 @@
          id="stop5382-06-3-6-4-2-4-6-8-0-9-6-8-7-7-6-7" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient72990-6-8-2-7-3-5"
-       id="linearGradient6729"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(2200.389,606.08768)"
-       x1="-1016.3721"
-       y1="-554.43628"
-       x2="-1016.3721"
-       y2="-518.31604" />
-    <linearGradient
        id="linearGradient60585-4-48-53-2-8-8-7-1"
        inkscape:collect="always">
       <stop
@@ -760,7 +810,7 @@
        xlink:href="#linearGradient60585-4-48-53-2-8-8-7-1"
        id="linearGradient6946"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.41772154,0,0,1.0645162,756.5317,46.38704)"
+       gradientTransform="matrix(0.41772154,0,0,1.0645162,831.5317,72.38704)"
        x1="49"
        y1="39.502155"
        x2="49.000004"
@@ -770,7 +820,7 @@
        xlink:href="#linearGradient60585-4-48-53-2-8-8-7-1"
        id="linearGradient7009"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.41772154,0,0,1.0645162,1266.5317,46.38704)"
+       gradientTransform="matrix(0.41772154,0,0,1.0645162,1190.5317,72.38704)"
        x1="49"
        y1="39.502155"
        x2="49.000004"
@@ -864,15 +914,6 @@
          inkscape:export-xdpi="90"
          inkscape:export-ydpi="90" />
     </clipPath>
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:collect="always"
-       id="filter5457-7-4-9">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.1187122"
-         id="feGaussianBlur5459-82-1-4" />
-    </filter>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient60591-7-7-4-7-9"
@@ -901,6 +942,26 @@
          stdDeviation="1.1770312"
          id="feGaussianBlur8044" />
     </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient72990-6-8-2-7-3-5"
+       id="linearGradient6075"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(2200.389,606.08768)"
+       x1="-1016.3721"
+       y1="-554.43628"
+       x2="-1016.3721"
+       y2="-518.31604" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient72990-6-8-4-1-3"
+       id="linearGradient6077"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0000057,0,0,1.0000653,1776.3979,632.12057)"
+       x1="-1016.3721"
+       y1="-554.43628"
+       x2="-1016.3721"
+       y2="-518.31604" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -910,10 +971,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="655.18038"
-     inkscape:cy="346.18181"
+     inkscape:cx="700.62442"
+     inkscape:cy="358.34141"
      inkscape:document-units="px"
-     inkscape:current-layer="layer35"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
@@ -947,7 +1008,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-372.36215)"
-     style="display:none">
+     style="display:inline">
     <rect
        style="color:#000000;fill:#f1f2f1;fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate"
        id="rect22053"
@@ -4455,7 +4516,33 @@
        width="80"
        id="rect44634"
        style="color:#000000;fill:#f1f2f1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
-  </g>
+    <flowRoot
+       transform="translate(-139.95834,246.10047)"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:400%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       id="flowRoot6282"
+       xml:space="preserve"><flowRegion
+         id="flowRegion6284"><rect
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:400%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+           y="160"
+           x="386"
+           height="74"
+           width="219"
+           id="rect6286" /></flowRegion><flowPara
+         style="font-weight:bold;text-align:center;text-anchor:middle;fill:#555753;-inkscape-font-specification:Cantarell Bold"
+         id="flowPara6288">Sidebar List</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6317"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:400%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       transform="translate(560.04164,246.10047)"><flowRegion
+         id="flowRegion6319"><rect
+           id="rect6321"
+           width="219"
+           height="74"
+           x="386"
+           y="160"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:400%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold" /></flowRegion><flowPara
+         id="flowPara6323"
+         style="font-weight:bold;text-align:center;text-anchor:middle;fill:#555753;-inkscape-font-specification:Cantarell Bold">Temporary Sidebar List</flowPara></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
@@ -4599,7 +4686,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssccccssc" />
     <rect
-       style="opacity:0.69135802;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#d3d7cf;stroke-width:1.01080942;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+       style="color:#000000;fill:#fbfbfb;fill-opacity:1;fill-rule:nonzero;stroke:#d3d7cf;stroke-width:1.01080942;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
        id="rect4285"
        width="428.98917"
        height="282.9892"
@@ -4618,63 +4705,7 @@
            width="219"
            id="rect4291" /></flowRegion><flowPara
          style="font-weight:normal;fill:#2e3436;-inkscape-font-specification:Cantarell"
-         id="flowPara4293">United States</flowPara></flowRoot>    <g
-       style="fill:#2e3436;display:inline;enable-background:new"
-       transform="translate(254.5005,212.46857)"
-       id="g4295">
-      <g
-         inkscape:label="status"
-         transform="translate(-61.000665,-787)"
-         id="g4297"
-         style="fill:#2e3436;display:inline" />
-      <g
-         style="fill:#2e3436"
-         inkscape:label="devices"
-         transform="translate(-61.000665,-787)"
-         id="g4299" />
-      <g
-         style="fill:#2e3436"
-         inkscape:label="apps"
-         transform="translate(-61.000665,-787)"
-         id="g4301" />
-      <g
-         style="fill:#2e3436"
-         inkscape:label="places"
-         transform="translate(-61.000665,-787)"
-         id="g4303" />
-      <g
-         style="fill:#2e3436"
-         inkscape:label="mimetypes"
-         transform="translate(-61.000665,-787)"
-         id="g4305" />
-      <g
-         inkscape:label="emblems"
-         transform="translate(-61.000665,-787)"
-         id="g4307"
-         style="fill:#2e3436;display:inline" />
-      <g
-         inkscape:label="emotes"
-         transform="translate(-61.000665,-787)"
-         id="g4309"
-         style="fill:#2e3436;display:inline" />
-      <g
-         inkscape:label="categories"
-         transform="translate(-61.000665,-787)"
-         id="g4311"
-         style="fill:#2e3436;display:inline" />
-      <g
-         inkscape:label="actions"
-         transform="translate(-61.000665,-787)"
-         id="g4313"
-         style="fill:#2e3436;display:inline">
-        <path
-           inkscape:connector-curvature="0"
-           d="M 72.9375,790.9375 68,795.875 l -1.9375,-1.9375 -2.125,2.125 3,3 1.0625,1.0625 1.0625,-1.0625 6,-6 -2.125,-2.125 z"
-           id="path4315"
-           style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
-      </g>
-    </g>
-    <path
+         id="flowPara4293">Argentina</flowPara></flowRoot>    <path
        style="opacity:0.4;fill:none;stroke:#000000;stroke-width:1.01085544px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.24884793;display:inline;enable-background:new"
        d="m 570.4944,385.50101 -426.9891,0"
        id="path4317"
@@ -5715,122 +5746,153 @@
     </g>
     <rect
        style="color:#000000;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate"
-       id="rect6469"
+       id="rect5837"
        width="607"
        height="531"
        x="753.5"
        y="96.500031" />
     <path
-       style="color:#bebebe;fill:url(#linearGradient6729);fill-opacity:1;fill-rule:nonzero;stroke:#b4b4b4;stroke-width:0.99329853;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate"
+       style="color:#bebebe;fill:url(#linearGradient6075);fill-opacity:1;fill-rule:nonzero;stroke:#b4b4b4;stroke-width:0.99329853;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate"
        d="m 762.4962,49.503379 589.0041,-4.5e-4 c 4.9857,0 8.7004,4.46806 8.9994,10 l 0,37 -8.9994,0 -589.0041,4.5e-4 -8.9995,0 0,-37 c 0,-5.54 4.0137,-10 8.9995,-10 z"
-       id="path6471"
+       id="path5839"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sssccccss" />
     <path
        inkscape:connector-curvature="0"
-       id="path6473"
+       id="path5841"
        d="m 1312.5,56.500209 0,33.0182"
        style="fill:none;stroke:#a7a7a7;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
     <g
-       id="g6475"
+       id="g5843"
        transform="translate(1328.0016,65.739909)"
        style="opacity:0.6;fill:#ffffff;fill-opacity:1;display:inline">
       <g
          style="fill:#ffffff;fill-opacity:1;display:inline"
-         id="g6477"
+         id="g5845"
          transform="translate(-60,-518)" />
       <g
-         id="g6479"
+         id="g5847"
          transform="translate(-60,-518)"
          style="fill:#ffffff;fill-opacity:1" />
       <g
-         id="g6481"
+         id="g5849"
          transform="translate(-60,-518)"
          style="fill:#ffffff;fill-opacity:1" />
       <g
-         id="g6483"
+         id="g5851"
          transform="translate(-60,-518)"
          style="fill:#ffffff;fill-opacity:1">
         <g
            style="fill:#ffffff;fill-opacity:1;display:inline"
-           id="g6485"
+           id="g5853"
            transform="translate(19,-242)">
           <path
              style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
-             id="path6487"
+             id="path5855"
              d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
              inkscape:connector-curvature="0" />
         </g>
       </g>
       <g
-         id="g6489"
+         id="g5857"
          transform="translate(-60,-518)"
          style="fill:#ffffff;fill-opacity:1" />
       <g
-         id="g6491"
+         id="g5859"
          transform="translate(-60,-518)"
          style="fill:#ffffff;fill-opacity:1" />
       <g
-         id="g6493"
+         id="g5861"
          transform="translate(-60,-518)"
          style="fill:#ffffff;fill-opacity:1" />
     </g>
     <g
        style="fill:#888a85;display:inline"
        transform="translate(1328.0016,64.739709)"
-       id="g6495">
+       id="g5863">
       <g
          transform="translate(-60,-518)"
-         id="g6497"
+         id="g5865"
          style="fill:#888a85;display:inline" />
       <g
          style="fill:#888a85"
          transform="translate(-60,-518)"
-         id="g6499" />
+         id="g5867" />
       <g
          style="fill:#888a85"
          transform="translate(-60,-518)"
-         id="g6501" />
+         id="g5869" />
       <g
          style="fill:#888a85"
          transform="translate(-60,-518)"
-         id="g6503">
+         id="g5871">
         <g
            transform="translate(19,-242)"
-           id="g6505"
+           id="g5873"
            style="fill:#888a85;display:inline">
           <path
              inkscape:connector-curvature="0"
              d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
-             id="path6507"
+             id="path5875"
              style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#888a85;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono" />
         </g>
       </g>
       <g
          style="fill:#888a85"
          transform="translate(-60,-518)"
-         id="g6509" />
+         id="g5877" />
       <g
          style="fill:#888a85"
          transform="translate(-60,-518)"
-         id="g6511" />
+         id="g5879" />
       <g
          style="fill:#888a85"
          transform="translate(-60,-518)"
-         id="g6513" />
+         id="g5881" />
+    </g>
+    <g
+       id="g5883"
+       style="opacity:0.3;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;display:inline"
+       transform="translate(-149,675.63785)">
+      <rect
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate"
+         id="rect5885"
+         width="607"
+         height="531"
+         x="902.5"
+         y="-579.13782" />
+      <path
+         style="color:#bebebe;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.99329853;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate"
+         d="m 911.49616,-626.13447 589.00414,-4.5e-4 c 4.9857,0 8.7004,4.46806 8.9994,10 l 0,37 -8.9994,0 -589.00414,4.5e-4 -8.99951,0 0,-37 c 0,-5.54 4.01378,-10 8.99951,-10 z"
+         id="path5887"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="sssccccss" />
     </g>
     <rect
-       y="196.50919"
-       x="842.50513"
-       height="235.9892"
-       width="428.98917"
+       style="fill:#f1f2f1;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-opacity:1;display:inline"
+       id="rect5889"
+       width="455"
+       height="511.99997"
+       x="829.49982"
+       y="87.500031" />
+    <path
+       sodipodi:nodetypes="cssccccssc"
+       inkscape:connector-curvature="0"
+       id="path5891"
+       d="M 838.49963,75.500301 1275.5036,75.5 c 4.9856,0 8.8497,4.462292 8.9994,10.000653 l 0,37.002417 -8.9994,0 -437.00407,3e-4 -8.99955,0 0,-37.002416 c 0,-5.540362 4.01393,-10.000653 8.99955,-10.000653 z"
+       style="color:#bebebe;fill:url(#linearGradient6077);fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate" />
+    <rect
+       y="135.5054"
+       x="842.50537"
+       height="463.9892"
+       width="415.9892"
        id="rect6525"
-       style="opacity:0.69135802;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#d3d7cf;stroke-width:1.01080942;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
+       style="color:#000000;fill:#fbfbfb;fill-opacity:1;fill-rule:nonzero;stroke:#d3d7cf;stroke-width:1.01080942;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot6527"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:400%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       transform="translate(474.3672,21.690169)"><flowRegion
+       transform="translate(474.36723,-39.313627)"><flowRegion
          id="flowRegion6529"><rect
            id="rect6531"
            width="219"
@@ -5839,36 +5901,36 @@
            y="160"
            style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:400%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell" /></flowRegion><flowPara
          id="flowPara6533"
-         style="font-weight:normal;fill:#2e3436;-inkscape-font-specification:Cantarell">United States</flowPara></flowRoot>    <path
+         style="font-weight:normal;fill:#2e3436;-inkscape-font-specification:Cantarell">Argentina</flowPara></flowRoot>    <path
        inkscape:connector-curvature="0"
-       inkscape:original-d="m 1270.4944,385.50101 -426.9891,0"
+       inkscape:original-d="m 1257.4946,324.4959 -414.30161,0"
        inkscape:path-effect="#path-effect6733"
        id="path6557"
-       d="m 1270.4944,385.50101 -426.9891,0"
+       d="m 1257.4946,324.4959 -414.30161,0"
        style="opacity:0.4;fill:none;stroke:#000000;stroke-width:1.01085544px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.24884793;display:inline;enable-background:new" />
     <path
        style="opacity:0.4;fill:none;stroke:#000000;stroke-width:1.01085544px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.24884793;display:inline;enable-background:new"
-       d="m 1270.4944,338.50227 -426.9891,0"
+       d="m 1257.4946,277.49716 -414.30161,0"
        id="path6559"
        inkscape:path-effect="#path-effect6735"
-       inkscape:original-d="m 1270.4944,338.50227 -426.9891,0"
+       inkscape:original-d="m 1257.4946,277.49716 -414.30161,0"
        inkscape:connector-curvature="0" />
     <path
        style="opacity:0.4;fill:none;stroke:#000000;stroke-width:1.01085544px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.24884793;display:inline;enable-background:new"
-       d="m 1270.4944,291.50355 -426.9891,0"
+       d="m 1257.4946,230.49844 -414.30161,0"
        id="path6561"
        inkscape:path-effect="#path-effect6737"
-       inkscape:original-d="m 1270.4944,291.50355 -426.9891,0"
+       inkscape:original-d="m 1257.4946,230.49844 -414.30161,0"
        inkscape:connector-curvature="0" />
     <path
        inkscape:connector-curvature="0"
-       inkscape:original-d="m 1270.4944,244.50488 -426.9891,0"
+       inkscape:original-d="m 1257.4946,183.49977 -414.30161,0"
        inkscape:path-effect="#path-effect6739"
        id="path6563"
-       d="m 1270.4944,244.50488 -426.9891,0"
+       d="m 1257.4946,183.49977 -414.30161,0"
        style="opacity:0.4;fill:none;stroke:#000000;stroke-width:1.01085544px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.24884793;display:inline;enable-background:new" />
     <flowRoot
-       transform="translate(474.3672,68.694869)"
+       transform="translate(474.36723,7.6910727)"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:400%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        id="flowRoot6565"
        xml:space="preserve"><flowRegion
@@ -5883,7 +5945,7 @@
        xml:space="preserve"
        id="flowRoot6573"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:400%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       transform="translate(474.3672,162.69157)"><flowRegion
+       transform="translate(474.36723,101.68777)"><flowRegion
          id="flowRegion6575"><rect
            id="rect6577"
            width="219"
@@ -5892,7 +5954,7 @@
            y="160"
            style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:400%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell" /></flowRegion><flowPara
          id="flowPara6579">Botswana</flowPara></flowRoot>    <flowRoot
-       transform="translate(474.3672,209.69167)"
+       transform="translate(474.36723,148.68787)"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:400%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        id="flowRoot6581"
        xml:space="preserve"><flowRegion
@@ -5907,7 +5969,7 @@
        xml:space="preserve"
        id="flowRoot6589"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:400%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       transform="translate(474.3672,115.68657)"><flowRegion
+       transform="translate(474.36723,54.682774)"><flowRegion
          id="flowRegion6591"><rect
            id="rect6593"
            width="219"
@@ -5915,13 +5977,113 @@
            x="386"
            y="160"
            style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:400%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell" /></flowRegion><flowPara
-         id="flowPara6595">Australia</flowPara></flowRoot>    <rect
+         id="flowPara6595">Australia</flowPara></flowRoot>    <path
+       style="opacity:0.4;fill:none;stroke:#000000;stroke-width:1.01085544px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.24884793;display:inline;enable-background:new"
+       d="m 1257.4946,465.49203 -414.30161,0"
+       id="path5630"
+       inkscape:path-effect="#path-effect5702"
+       inkscape:original-d="m 1257.4946,465.49203 -414.30161,0"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 1257.4946,418.49329 -414.30161,0"
+       inkscape:path-effect="#path-effect5699"
+       id="path5632"
+       d="m 1257.4946,418.49329 -414.30161,0"
+       style="opacity:0.4;fill:none;stroke:#000000;stroke-width:1.01085544px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.24884793;display:inline;enable-background:new" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 1257.4946,371.49457 -414.30161,0"
+       inkscape:path-effect="#path-effect5696"
+       id="path5634"
+       d="m 1257.4946,371.49457 -414.30161,0"
+       style="opacity:0.4;fill:none;stroke:#000000;stroke-width:1.01085544px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.24884793;display:inline;enable-background:new" />
+    <flowRoot
+       transform="translate(474.36723,242.6839)"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:400%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       id="flowRoot5646"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5648"><rect
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:400%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           y="160"
+           x="386"
+           height="74"
+           width="219"
+           id="rect5650" /></flowRegion><flowPara
+         id="flowPara5652">Croatia</flowPara></flowRoot>    <flowRoot
+       transform="translate(474.36723,195.6789)"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:400%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       id="flowRoot5654"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5656"><rect
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:400%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           y="160"
+           x="386"
+           height="74"
+           width="219"
+           id="rect5658" /></flowRegion><flowPara
+         id="flowPara5660">China</flowPara></flowRoot>    <path
+       style="opacity:0.4;fill:none;stroke:#000000;stroke-width:1.01085544px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.24884793;display:inline;enable-background:new"
+       d="m 1257.4946,559.48949 -414.30161,0"
+       id="path5704"
+       inkscape:path-effect="#path-effect5820"
+       inkscape:original-d="m 1257.4946,559.48949 -414.30161,0"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 1257.4946,512.49075 -414.30161,0"
+       inkscape:path-effect="#path-effect5817"
+       id="path5706"
+       d="m 1257.4946,512.49075 -414.30161,0"
+       style="opacity:0.4;fill:none;stroke:#000000;stroke-width:1.01085544px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.24884793;display:inline;enable-background:new" />
+    <flowRoot
+       transform="translate(474.36723,336.68136)"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:400%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       id="flowRoot5710"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5712"><rect
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:400%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           y="160"
+           x="386"
+           height="74"
+           width="219"
+           id="rect5714" /></flowRegion><flowPara
+         id="flowPara5716">Finland</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5718"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:400%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       transform="translate(474.36723,383.68146)"><flowRegion
+         id="flowRegion5720"><rect
+           id="rect5722"
+           width="219"
+           height="74"
+           x="386"
+           y="160"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:400%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell" /></flowRegion><flowPara
+         id="flowPara5724">France</flowPara></flowRoot>    <flowRoot
+       transform="translate(474.36723,289.67636)"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:400%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       id="flowRoot5726"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5728"><rect
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:400%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           y="160"
+           x="386"
+           height="74"
+           width="219"
+           id="rect5730" /></flowRegion><flowPara
+         id="flowPara5732">Denmark</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#a7aba7;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 790.86291,599.5 c -4.17,-0.0479 532.29799,0 532.29799,0"
+       id="path5822"
+       inkscape:connector-curvature="0" />
+    <rect
        style="opacity:0.4;color:#000000;fill:none;stroke:#ffffff;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect17669"
        width="33"
        height="30.999998"
-       x="760.5"
-       y="59.499882"
+       x="835.5"
+       y="85.499878"
        rx="3.0000002"
        ry="3"
        inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
@@ -5929,7 +6091,7 @@
        inkscape:export-ydpi="90" />
     <g
        style="opacity:0.5;fill:#ffffff;fill-opacity:1"
-       transform="translate(769,66)"
+       transform="translate(844,92)"
        id="g7103">
       <g
          transform="translate(-60.0002,-726)"
@@ -5983,8 +6145,8 @@
        id="rect17671"
        width="33"
        height="33"
-       x="760.5"
-       y="56.500004"
+       x="835.5"
+       y="82.5"
        rx="3.0000002"
        ry="3"
        inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
@@ -5992,40 +6154,16 @@
        inkscape:export-ydpi="90" />
     <path
        style="opacity:0.5;fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-       d="m 762.4769,57.49988 29.6248,0"
+       d="m 837.4769,83.49988 29.6248,0"
        id="path17673"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
-    <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
-       ry="3"
-       rx="3.0000002"
-       y="59.499882"
-       x="1270.5"
-       height="30.999998"
-       width="33"
-       id="rect6822"
-       style="opacity:0.4;color:#000000;fill:none;stroke:#ffffff;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-    <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
-       ry="3"
-       rx="3.0000002"
-       y="56.500004"
-       x="1270.5"
-       height="33"
-       width="33"
-       id="rect6824"
-       style="color:#000000;fill:url(#linearGradient7009);fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <g
        id="g7092"
-       transform="translate(769,65.000004)"
+       transform="translate(844,91.000004)"
        style="fill:#2e3436">
       <g
          style="fill:#2e3436;display:inline"
@@ -6074,8 +6212,143 @@
          id="g4953-6"
          transform="translate(-60.0002,-726)" />
     </g>
+    <rect
+       style="color:#000000;fill:#d6d6d6;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+       id="rect11790"
+       width="13.036335"
+       height="476.04141"
+       x="1271.0205"
+       y="122.95859"
+       rx="0"
+       ry="0" />
+    <rect
+       ry="3.5"
+       rx="3.4764707"
+       y="126"
+       x="1274.0205"
+       height="92.229691"
+       width="6.9795446"
+       id="rect11792"
+       style="opacity:0.8;color:#000000;fill:#9b9d9e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6473"
+       d="m 1236.5,87.355906 0,23.294494"
+       style="fill:none;stroke:#a7a7a7;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
     <g
-       transform="translate(343.43767,-146.40557)"
+       id="g6475"
+       transform="translate(1252.0016,91.739909)"
+       style="opacity:0.6;fill:#ffffff;fill-opacity:1;display:inline">
+      <g
+         style="fill:#ffffff;fill-opacity:1;display:inline"
+         id="g6477"
+         transform="translate(-60,-518)" />
+      <g
+         id="g6479"
+         transform="translate(-60,-518)"
+         style="fill:#ffffff;fill-opacity:1" />
+      <g
+         id="g6481"
+         transform="translate(-60,-518)"
+         style="fill:#ffffff;fill-opacity:1" />
+      <g
+         id="g6483"
+         transform="translate(-60,-518)"
+         style="fill:#ffffff;fill-opacity:1">
+        <g
+           style="fill:#ffffff;fill-opacity:1;display:inline"
+           id="g6485"
+           transform="translate(19,-242)">
+          <path
+             style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+             id="path6487"
+             d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+      <g
+         id="g6489"
+         transform="translate(-60,-518)"
+         style="fill:#ffffff;fill-opacity:1" />
+      <g
+         id="g6491"
+         transform="translate(-60,-518)"
+         style="fill:#ffffff;fill-opacity:1" />
+      <g
+         id="g6493"
+         transform="translate(-60,-518)"
+         style="fill:#ffffff;fill-opacity:1" />
+    </g>
+    <g
+       style="fill:#888a85;display:inline"
+       transform="translate(1252.0016,90.739709)"
+       id="g6495">
+      <g
+         transform="translate(-60,-518)"
+         id="g6497"
+         style="fill:#888a85;display:inline" />
+      <g
+         style="fill:#888a85"
+         transform="translate(-60,-518)"
+         id="g6499" />
+      <g
+         style="fill:#888a85"
+         transform="translate(-60,-518)"
+         id="g6501" />
+      <g
+         style="fill:#888a85"
+         transform="translate(-60,-518)"
+         id="g6503">
+        <g
+           transform="translate(19,-242)"
+           id="g6505"
+           style="fill:#888a85;display:inline">
+          <path
+             inkscape:connector-curvature="0"
+             d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+             id="path6507"
+             style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#888a85;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono" />
+        </g>
+      </g>
+      <g
+         style="fill:#888a85"
+         transform="translate(-60,-518)"
+         id="g6509" />
+      <g
+         style="fill:#888a85"
+         transform="translate(-60,-518)"
+         id="g6511" />
+      <g
+         style="fill:#888a85"
+         transform="translate(-60,-518)"
+         id="g6513" />
+    </g>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+       ry="3"
+       rx="3.0000002"
+       y="85.499878"
+       x="1194.5"
+       height="30.999998"
+       width="33"
+       id="rect6822"
+       style="opacity:0.4;color:#000000;fill:none;stroke:#ffffff;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+       ry="3"
+       rx="3.0000002"
+       y="82.5"
+       x="1194.5"
+       height="33"
+       width="33"
+       id="rect6824"
+       style="color:#000000;fill:url(#linearGradient7009);fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <g
+       transform="translate(267.4377,-120.40557)"
        id="g7136"
        style="opacity:0.5;fill:#ffffff;fill-opacity:1;filter:url(#filter7160)">
       <g
@@ -6137,7 +6410,7 @@
     </g>
     <g
        id="g7123"
-       transform="translate(343.43767,-147.40607)">
+       transform="translate(267.4377,-121.40607)">
       <g
          style="fill:#2e3436;display:inline;enable-background:new"
          transform="translate(934.5005,212.46857)"
@@ -6202,14 +6475,133 @@
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path6826"
-       d="m 1272.4769,57.49988 29.6248,0"
+       d="m 1196.4769,83.49988 29.6248,0"
        style="opacity:0.5;fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
-  </g>
+    <path
+       style="fill:none;stroke:#a7a7a7;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 534.5,147.35591 0,23.29449"
+       id="path6146"
+       inkscape:connector-curvature="0" />
+    <g
+       style="opacity:0.6;fill:#ffffff;fill-opacity:1;display:inline"
+       transform="translate(550.0016,151.73991)"
+       id="g6148">
+      <g
+         transform="translate(-60,-518)"
+         id="g6150"
+         style="fill:#ffffff;fill-opacity:1;display:inline" />
+      <g
+         style="fill:#ffffff;fill-opacity:1"
+         transform="translate(-60,-518)"
+         id="g6152" />
+      <g
+         style="fill:#ffffff;fill-opacity:1"
+         transform="translate(-60,-518)"
+         id="g6154" />
+      <g
+         style="fill:#ffffff;fill-opacity:1"
+         transform="translate(-60,-518)"
+         id="g6156">
+        <g
+           transform="translate(19,-242)"
+           id="g6158"
+           style="fill:#ffffff;fill-opacity:1;display:inline">
+          <path
+             inkscape:connector-curvature="0"
+             d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+             id="path6160"
+             style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono" />
+        </g>
+      </g>
+      <g
+         style="fill:#ffffff;fill-opacity:1"
+         transform="translate(-60,-518)"
+         id="g6162" />
+      <g
+         style="fill:#ffffff;fill-opacity:1"
+         transform="translate(-60,-518)"
+         id="g6164" />
+      <g
+         style="fill:#ffffff;fill-opacity:1"
+         transform="translate(-60,-518)"
+         id="g6166" />
+    </g>
+    <g
+       id="g6168"
+       transform="translate(550.0016,150.73971)"
+       style="fill:#888a85;display:inline">
+      <g
+         style="fill:#888a85;display:inline"
+         id="g6170"
+         transform="translate(-60,-518)" />
+      <g
+         id="g6172"
+         transform="translate(-60,-518)"
+         style="fill:#888a85" />
+      <g
+         id="g6174"
+         transform="translate(-60,-518)"
+         style="fill:#888a85" />
+      <g
+         id="g6176"
+         transform="translate(-60,-518)"
+         style="fill:#888a85">
+        <g
+           style="fill:#888a85;display:inline"
+           id="g6178"
+           transform="translate(19,-242)">
+          <path
+             style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#888a85;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+             id="path6180"
+             d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+      <g
+         id="g6182"
+         transform="translate(-60,-518)"
+         style="fill:#888a85" />
+      <g
+         id="g6184"
+         transform="translate(-60,-518)"
+         style="fill:#888a85" />
+      <g
+         id="g6186"
+         transform="translate(-60,-518)"
+         style="fill:#888a85" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6188"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:400%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       transform="translate(-138.45547,-40.198615)"><flowRegion
+         id="flowRegion6190"><rect
+           id="rect6192"
+           width="219"
+           height="74"
+           x="386"
+           y="160"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:400%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold" /></flowRegion><flowPara
+         id="flowPara6194"
+         style="font-weight:bold;text-align:center;text-anchor:middle;fill:#555753;-inkscape-font-specification:Cantarell Bold">Short Add/Remove List</flowPara></flowRoot>    <flowRoot
+       transform="translate(561.25496,-100.48715)"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:400%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       id="flowRoot6196"
+       xml:space="preserve"><flowRegion
+         id="flowRegion6198"><rect
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:400%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+           y="160"
+           x="386"
+           height="74"
+           width="219"
+           id="rect6200" /></flowRegion><flowPara
+         style="font-weight:bold;text-align:center;text-anchor:middle;fill:#555753;-inkscape-font-specification:Cantarell Bold"
+         id="flowPara6202">Long Add/Remove List</flowPara></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer35"
      inkscape:label="standard list"
-     style="display:inline"
+     style="display:none"
      transform="translate(0,-300)">
     <rect
        y="396.5"
@@ -6217,7 +6609,7 @@
        height="531"
        width="607"
        id="rect44069"
-       style="color:#000000;fill:#f1f2f1;fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate" />
+       style="color:#000000;fill:#fbfbfb;fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate" />
     <rect
        style="opacity:0.35344831;color:#000000;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999982;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter31440-5-5);enable-background:accumulate"
        id="rect41479"
@@ -7177,7 +7569,7 @@
        style="color:#bebebe;fill:url(#linearGradient46995);fill-opacity:1;fill-rule:nonzero;stroke:#b4b4b4;stroke-width:0.99329853;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate" />
     <path
        style="fill:none;stroke:#a7a7a7;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-       d="m 612.4999,356.50021 0,33.0182"
+       d="m 612.4999,361.49394 0,23.01212"
        id="path50630"
        inkscape:connector-curvature="0" />
     <g
@@ -7304,7 +7696,7 @@
          sodipodi:role="line"
          id="tspan45329">Background color is not used to indicate selected rows</tspan></text>
     <rect
-       style="color:#000000;fill:#ebedeb;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+       style="color:#000000;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
        id="rect62163"
        width="105.00003"
        height="606"
@@ -7383,7 +7775,7 @@
        inkscape:transform-center-x="-0.45792812"
        style="fill:#2e3436;fill-opacity:1;stroke:none;display:inline" />
     <rect
-       style="color:#000000;fill:#f1f2f1;fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate"
+       style="color:#000000;fill:#fbfbfb;fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate"
        id="rect7257"
        width="607"
        height="531"
@@ -8352,7 +8744,7 @@
     <path
        inkscape:connector-curvature="0"
        id="path7609"
-       d="m 1312.4999,356.50021 0,33.0182"
+       d="m 1312.4999,361.49394 0,23.01212"
        style="fill:none;stroke:#a7a7a7;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
     <g
        id="g7611"
@@ -8449,7 +8841,7 @@
        height="606"
        width="105.00003"
        id="rect7651"
-       style="color:#000000;fill:#ebedeb;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
+       style="color:#000000;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -8473,7 +8865,7 @@
        height="33"
        width="77.000015"
        id="rect7655"
-       style="color:#000000;fill:url(#linearGradient7673);fill-opacity:1.0;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1.00000011999999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+       style="color:#000000;fill:url(#linearGradient7673);fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1.00000012;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <text
        sodipodi:linespacing="125%"
        id="text7659"
@@ -8538,7 +8930,7 @@
          sodipodi:role="line"
          x="1254.7922"
          y="459.41599"
-         id="tspan8004">Fun</tspan><tspan
+         id="tspan8004">Type</tspan><tspan
          sodipodi:role="line"
          x="1254.7922"
          y="486.01599"
@@ -8557,7 +8949,33 @@
        sodipodi:ry="2.2980971"
        d="m 1238.3208,140.12398 a 2.2980971,2.2980971 0 1 1 -4.5962,0 2.2980971,2.2980971 0 1 1 4.5962,0 z"
        transform="translate(8,288)" />
-  </g>
+    <flowRoot
+       transform="translate(-138.74843,173.51432)"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:400%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       id="flowRoot6204"
+       xml:space="preserve"><flowRegion
+         id="flowRegion6206"><rect
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:400%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+           y="160"
+           x="386"
+           height="74"
+           width="219"
+           id="rect6208" /></flowRegion><flowPara
+         style="font-weight:bold;text-align:center;text-anchor:middle;fill:#555753;-inkscape-font-specification:Cantarell Bold"
+         id="flowPara6210">Standard List</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6239"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:400%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       transform="translate(561.25157,173.51432)"><flowRegion
+         id="flowRegion6241"><rect
+           id="rect6243"
+           width="219"
+           height="74"
+           x="386"
+           y="160"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:400%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold" /></flowRegion><flowPara
+         id="flowPara6245"
+         style="font-weight:bold;text-align:center;text-anchor:middle;fill:#555753;-inkscape-font-specification:Cantarell Bold">Standard List</flowPara></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer36"
@@ -8702,12 +9120,12 @@
        d="m 138.5027,435.50337 437.0014,-3e-4 c 4.9856,0 8.8498,4.462 8.9994,10 l 0,37 -8.9994,0 -437.0015,3e-4 -8.9995,0 0,-37 c 0,-5.54 4.0139,-10 8.9995,-10 z"
        style="color:#bebebe;fill:url(#linearGradient47298);fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.99329853;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate" />
     <rect
-       y="496.51144"
+       y="496.50638"
        x="142.50513"
        height="235.9882"
        width="428.98917"
        id="rect5260"
-       style="opacity:0.69135802;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#d3d7cf;stroke-width:1.01080942;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
+       style="color:#000000;fill:#fbfbfb;fill-opacity:1;fill-rule:nonzero;stroke:#d3d7cf;stroke-width:1.01080942;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot5262"
@@ -8779,31 +9197,31 @@
     </g>
     <path
        inkscape:connector-curvature="0"
-       inkscape:original-d="m 570.4944,685.50097 -426.9891,0"
+       inkscape:original-d="m 570.4944,685.49457 -426.9891,0"
        inkscape:path-effect="#path-effect17805-4-2"
        id="path5292"
-       d="m 570.4944,685.50097 -426.9891,0"
+       d="m 570.4944,685.49457 -426.9891,0"
        style="opacity:0.4;fill:none;stroke:#000000;stroke-width:1.01085544px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.24884793;display:inline;enable-background:new" />
     <path
        style="opacity:0.4;fill:none;stroke:#000000;stroke-width:1.01085544px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.24884793;display:inline;enable-background:new"
-       d="m 570.4944,638.50227 -426.9891,0"
+       d="m 570.4944,638.49457 -426.9891,0"
        id="path5294"
        inkscape:path-effect="#path-effect17807-3-1"
-       inkscape:original-d="m 570.4944,638.50227 -426.9891,0"
+       inkscape:original-d="m 570.4944,638.49457 -426.9891,0"
        inkscape:connector-curvature="0" />
     <path
        style="opacity:0.4;fill:none;stroke:#000000;stroke-width:1.01085544px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.24884793;display:inline;enable-background:new"
-       d="m 570.4944,591.50357 -426.9891,0"
+       d="m 570.4944,591.49457 -426.9891,0"
        id="path5296"
        inkscape:path-effect="#path-effect17809-2-2"
-       inkscape:original-d="m 570.4944,591.50357 -426.9891,0"
+       inkscape:original-d="m 570.4944,591.49457 -426.9891,0"
        inkscape:connector-curvature="0" />
     <path
        inkscape:connector-curvature="0"
-       inkscape:original-d="m 570.4944,544.50487 -426.9891,0"
+       inkscape:original-d="m 570.4944,544.49457 -426.9891,0"
        inkscape:path-effect="#path-effect17811-3-9"
        id="path5298"
-       d="m 570.4944,544.50487 -426.9891,0"
+       d="m 570.4944,544.49457 -426.9891,0"
        style="opacity:0.4;fill:none;stroke:#000000;stroke-width:1.01085544px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:0.24884793;display:inline;enable-background:new" />
     <flowRoot
        transform="translate(-225.6328,368.69487)"
@@ -8888,5 +9306,111 @@
          x="74"
          y="1164.0001"
          id="tspan45335">Background color is not used to indicate selected rows</tspan></text>
-  </g>
+    <path
+       style="fill:none;stroke:#a7a7a7;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 536.4992,447.35597 0,23.2945"
+       id="path5444"
+       inkscape:connector-curvature="0" />
+    <g
+       style="opacity:0.6;fill:#ffffff;fill-opacity:1;display:inline"
+       transform="translate(552.0008,452)"
+       id="g5446">
+      <g
+         transform="translate(-60,-518)"
+         id="g5448"
+         style="fill:#ffffff;fill-opacity:1;display:inline" />
+      <g
+         style="fill:#ffffff;fill-opacity:1"
+         transform="translate(-60,-518)"
+         id="g5450" />
+      <g
+         style="fill:#ffffff;fill-opacity:1"
+         transform="translate(-60,-518)"
+         id="g5452" />
+      <g
+         style="fill:#ffffff;fill-opacity:1"
+         transform="translate(-60,-518)"
+         id="g5454">
+        <g
+           transform="translate(19,-242)"
+           id="g5456"
+           style="fill:#ffffff;fill-opacity:1;display:inline">
+          <path
+             inkscape:connector-curvature="0"
+             d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+             id="path5458"
+             style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono" />
+        </g>
+      </g>
+      <g
+         style="fill:#ffffff;fill-opacity:1"
+         transform="translate(-60,-518)"
+         id="g5460" />
+      <g
+         style="fill:#ffffff;fill-opacity:1"
+         transform="translate(-60,-518)"
+         id="g5462" />
+      <g
+         style="fill:#ffffff;fill-opacity:1"
+         transform="translate(-60,-518)"
+         id="g5464" />
+    </g>
+    <g
+       id="g5466"
+       transform="translate(552.0008,451)"
+       style="fill:#888a85;display:inline">
+      <g
+         style="fill:#888a85;display:inline"
+         id="g5468"
+         transform="translate(-60,-518)" />
+      <g
+         id="g5470"
+         transform="translate(-60,-518)"
+         style="fill:#888a85" />
+      <g
+         id="g5472"
+         transform="translate(-60,-518)"
+         style="fill:#888a85" />
+      <g
+         id="g5474"
+         transform="translate(-60,-518)"
+         style="fill:#888a85">
+        <g
+           style="fill:#888a85;display:inline"
+           id="g5476"
+           transform="translate(19,-242)">
+          <path
+             style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#888a85;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+             id="path5478"
+             d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+      <g
+         id="g5480"
+         transform="translate(-60,-518)"
+         style="fill:#888a85" />
+      <g
+         id="g5482"
+         transform="translate(-60,-518)"
+         style="fill:#888a85" />
+      <g
+         id="g5484"
+         transform="translate(-60,-518)"
+         style="fill:#888a85" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6247"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:400%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       transform="translate(-138.74323,259.78739)"><flowRegion
+         id="flowRegion6249"><rect
+           id="rect6251"
+           width="219"
+           height="74"
+           x="386"
+           y="160"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:400%;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold" /></flowRegion><flowPara
+         id="flowPara6253"
+         style="font-weight:bold;text-align:center;text-anchor:middle;fill:#555753;-inkscape-font-specification:Cantarell Bold">Embedded List</flowPara></flowRoot>  </g>
 </svg>
