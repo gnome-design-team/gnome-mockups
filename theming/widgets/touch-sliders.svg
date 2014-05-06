@@ -15,8 +15,8 @@
    id="svg47622"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="widget-factory.svg"
-   inkscape:export-filename="/home/aday/checkout/gnome-mockups/theming/widgets/widget-factory.png"
+   sodipodi:docname="touch-sliders.svg"
+   inkscape:export-filename="/run/media/rupert/5e448d7e-e195-431f-a7b0-0c206216b82a/aday/checkout/gnome-mockups/theming/widgets/touch-sliders.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -7193,9 +7193,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="506.29268"
-     inkscape:cy="1060.0523"
+     inkscape:zoom="1"
+     inkscape:cx="294.10853"
+     inkscape:cy="1276.7178"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -7256,7 +7256,8 @@
      inkscape:label="bg"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(1516.5,385.125)">
+     transform="translate(1516.5,385.125)"
+     sodipodi:insensitive="true">
     <rect
        style="color:#000000;fill:#ededed;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect47638"
@@ -8217,5 +8218,17 @@
        id="rect36396"
        style="opacity:0.4;fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6.0000001, 6.0000001;stroke-dashoffset:0"
        transform="matrix(0,1,-1,0,0,0)" />
-  </g>
+    <flowRoot
+       transform="translate(68.399292,711)"
+       style="font-size:14px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot36417"
+       xml:space="preserve"><flowRegion
+         id="flowRegion36419"><rect
+           style="font-size:14px;text-align:start;text-anchor:start;fill:#888a85"
+           y="1022"
+           x="78"
+           height="128"
+           width="286"
+           id="rect36421" /></flowRegion><flowPara
+         id="flowPara36423">OSD appears when the control is pressed - to indicate that the press is active. The slider trough could also highlight in this state.</flowPara></flowRoot>  </g>
 </svg>
