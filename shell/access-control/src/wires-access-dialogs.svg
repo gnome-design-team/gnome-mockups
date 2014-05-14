@@ -10,13 +10,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1100"
+   width="940"
    height="1940"
    id="svg5653"
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="wires-access-dialogs.svg"
-   inkscape:export-filename="/home/aday/checkout/gnome-mockups/shell/access-dialogs/content-access-dialogs.png"
+   inkscape:export-filename="/home/aday/checkout/gnome-mockups/shell/access-control/location-access-dialogs.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -443,12 +443,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="449.10209"
-     inkscape:cy="1650.5957"
+     inkscape:zoom="0.5"
+     inkscape:cx="257.66251"
+     inkscape:cy="1404.4558"
      inkscape:document-units="px"
-     inkscape:current-layer="g13320"
-     showgrid="false"
+     inkscape:current-layer="layer1"
+     showgrid="true"
      inkscape:snap-nodes="false"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
@@ -492,29 +492,39 @@
      transform="translate(0,887.63785)"
      style="display:inline">
     <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+       id="rect4787"
+       width="940"
+       height="1220"
+       x="0"
+       y="-887.63788"
+       inkscape:export-filename="/home/aday/checkout/gnome-mockups/shell/access-control/content-access-dialogs.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
        style="fill:#2e3436;stroke:#000000;stroke-width:0.99999976;stroke-opacity:1"
        id="rect10690"
        width="469"
        height="289"
        x="66.5"
-       y="-807.13782"
+       y="-827.13782"
        rx="19"
        ry="19" />
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        x="176.35028"
-       y="-751.30585"
+       y="-771.30585"
        id="text10692"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan10694"
          x="176.35028"
-         y="-751.30585">Contacts Access</tspan></text>
+         y="-771.30585">Contacts Access</tspan></text>
     <rect
        ry="16"
        rx="16"
-       y="-595.87891"
+       y="-615.87891"
        x="116.50003"
        height="31.911074"
        width="119.00002"
@@ -524,31 +534,31 @@
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        x="175.92807"
-       y="-575.0863"
+       y="-595.0863"
        id="text10704"
        sodipodi:linespacing="125%"><tspan
          style="font-weight:normal;text-align:center;text-anchor:middle;fill:#eeeeec;fill-opacity:1;-inkscape-font-specification:Cantarell"
          sodipodi:role="line"
          id="tspan10706"
          x="175.92807"
-         y="-575.0863">Don't Allow</tspan></text>
+         y="-595.0863">Don't Allow</tspan></text>
     <rect
        style="fill:none;stroke:#eeeeec;stroke-width:0.99999982;stroke-opacity:1"
        id="rect10714"
        width="119.00002"
        height="31.911074"
        x="367.5"
-       y="-595.87891"
+       y="-615.87891"
        rx="16"
        ry="16" />
     <text
        sodipodi:linespacing="125%"
        id="text10716"
-       y="-575.0863"
+       y="-595.0863"
        x="426.92804"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        xml:space="preserve"><tspan
-         y="-575.0863"
+         y="-595.0863"
          x="426.92804"
          id="tspan10718"
          sodipodi:role="line"
@@ -591,7 +601,7 @@
        id="g7270" />
     <g
        id="g4461"
-       transform="matrix(2.9999997,0,0,2.9999997,111.99997,-771.63784)"
+       transform="matrix(2.9999997,0,0,2.9999997,111.99997,-791.63784)"
        style="fill:#eeeeec;fill-opacity:1">
       <g
          transform="translate(-41.0002,-337)"
@@ -660,7 +670,7 @@
        xml:space="preserve"
        id="flowRoot4838"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       transform="translate(4.5377808,-865.63785)"><flowRegion
+       transform="translate(4.5377808,-885.63785)"><flowRegion
          id="flowRegion4840"><rect
            id="rect4842"
            width="298.39905"
@@ -669,7 +679,7 @@
            y="122.77843"
            style="fill:#eeeeec" /></flowRegion><flowPara
          id="flowPara4844">&lt;application&gt; wants to access your contacts.</flowPara></flowRoot>    <g
-       transform="matrix(0.5089163,0,0,0.51739823,151.79973,-766.07133)"
+       transform="matrix(0.5089163,0,0,0.51739823,151.79973,-786.07133)"
        id="g7059"
        style="fill:#2e3436;fill-opacity:1;stroke:#eeeeec;display:inline">
       <g
@@ -690,7 +700,7 @@
        xml:space="preserve"
        id="flowRoot7089"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       transform="translate(28.537781,-825.40487)"><flowRegion
+       transform="translate(28.537781,-845.40487)"><flowRegion
          id="flowRegion7091"><rect
            id="rect7093"
            width="298.39905"
@@ -702,12 +712,12 @@
        sodipodi:nodetypes="ccc"
        inkscape:connector-curvature="0"
        id="path7097"
-       d="m 183,-695.63785 3,3 8,-8"
+       d="m 183,-715.63785 3,3 8,-8"
        style="fill:none;stroke:#eeeeec;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
     <rect
        ry="19"
        rx="19"
-       y="-467.13782"
+       y="-487.13782"
        x="66.5"
        height="289"
        width="469"
@@ -716,11 +726,11 @@
     <text
        sodipodi:linespacing="125%"
        id="text7119"
-       y="-411.30585"
+       y="-431.30585"
        x="176.35028"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        xml:space="preserve"><tspan
-         y="-411.30585"
+         y="-431.30585"
          x="176.35028"
          id="tspan7121"
          sodipodi:role="line">Documents Access</tspan></text>
@@ -730,17 +740,17 @@
        width="119.00002"
        height="31.911074"
        x="116.5"
-       y="-255.87888"
+       y="-275.87888"
        rx="16"
        ry="16" />
     <text
        sodipodi:linespacing="125%"
        id="text7125"
-       y="-235.08633"
+       y="-255.08633"
        x="175.9281"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        xml:space="preserve"><tspan
-         y="-235.08633"
+         y="-255.08633"
          x="175.9281"
          id="tspan7127"
          sodipodi:role="line"
@@ -748,7 +758,7 @@
     <rect
        ry="16"
        rx="16"
-       y="-255.87888"
+       y="-275.87888"
        x="367.5"
        height="31.911074"
        width="119.00002"
@@ -758,17 +768,17 @@
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        x="426.92804"
-       y="-235.08633"
+       y="-255.08633"
        id="text7131"
        sodipodi:linespacing="125%"><tspan
          style="font-weight:normal;text-align:center;text-anchor:middle;fill:#eeeeec;fill-opacity:1;-inkscape-font-specification:Cantarell"
          sodipodi:role="line"
          id="tspan7133"
          x="426.92804"
-         y="-235.08633">Allow</tspan></text>
+         y="-255.08633">Allow</tspan></text>
     <g
        id="g7317"
-       transform="matrix(2.9998941,0,0,2.9998941,115.00007,-428.63454)"
+       transform="matrix(2.9998941,0,0,2.9998941,115.00007,-448.63454)"
        style="fill:#eeeeec">
       <g
          transform="translate(-481,-195.00012)"
@@ -823,7 +833,7 @@
          id="layer12-9" />
     </g>
     <flowRoot
-       transform="translate(4.53778,-525.63785)"
+       transform="translate(4.53778,-545.63785)"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        id="flowRoot7159"
        xml:space="preserve"><flowRegion
@@ -837,7 +847,7 @@
          id="flowPara7165">&lt;application&gt; wants to access your documents.</flowPara></flowRoot>    <g
        style="fill:#2e3436;fill-opacity:1;stroke:#eeeeec;display:inline"
        id="g7175"
-       transform="matrix(0.5089163,0,0,0.51739823,151.79973,-426.07133)">
+       transform="matrix(0.5089163,0,0,0.51739823,151.79973,-446.07133)">
       <g
          id="g7177"
          style="fill:#2e3436;fill-opacity:1;stroke:#eeeeec">
@@ -853,7 +863,7 @@
       </g>
     </g>
     <flowRoot
-       transform="translate(28.53778,-485.40487)"
+       transform="translate(28.53778,-505.40487)"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        id="flowRoot7181"
        xml:space="preserve"><flowRegion
@@ -866,7 +876,7 @@
            id="rect7185" /></flowRegion><flowPara
          id="flowPara7187">Don't ask again for &lt;application&gt;</flowPara></flowRoot>    <path
        style="fill:none;stroke:#eeeeec;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       d="m 183,-355.63785 3,3 8,-8"
+       d="m 183,-375.63785 3,3 8,-8"
        id="path7189"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
@@ -1266,7 +1276,7 @@
          id="flowPara8527">Camera</flowPara></flowRoot>    <rect
        ry="19.000002"
        rx="19"
-       y="-127.13786"
+       y="-147.13786"
        x="66.5"
        height="409"
        width="469"
@@ -1275,11 +1285,11 @@
     <text
        sodipodi:linespacing="125%"
        id="text3302"
-       y="-75.305847"
+       y="-95.305847"
        x="178.35028"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        xml:space="preserve"><tspan
-         y="-75.305847"
+         y="-95.305847"
          x="178.35028"
          id="tspan3304"
          sodipodi:role="line">Access Request</tspan></text>
@@ -1289,17 +1299,17 @@
        width="119.00002"
        height="31.911074"
        x="116.5"
-       y="214.12112"
+       y="194.12112"
        rx="16"
        ry="16" />
     <text
        sodipodi:linespacing="125%"
        id="text3308"
-       y="234.91367"
+       y="214.91367"
        x="175.9281"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        xml:space="preserve"><tspan
-         y="234.91367"
+         y="214.91367"
          x="175.9281"
          id="tspan3310"
          sodipodi:role="line"
@@ -1307,7 +1317,7 @@
     <rect
        ry="16"
        rx="16"
-       y="214.12112"
+       y="194.12112"
        x="367.5"
        height="31.911074"
        width="119.00002"
@@ -1317,16 +1327,16 @@
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        x="426.92798"
-       y="234.91367"
+       y="214.91367"
        id="text3314"
        sodipodi:linespacing="125%"><tspan
          style="font-weight:normal;text-align:center;text-anchor:middle;fill:#eeeeec;fill-opacity:1;-inkscape-font-specification:Cantarell"
          sodipodi:role="line"
          id="tspan3316"
          x="426.92798"
-         y="234.91367">Allow</tspan></text>
+         y="214.91367">Allow</tspan></text>
     <flowRoot
-       transform="translate(6.5378,-187.63785)"
+       transform="translate(6.5378,-207.63785)"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        id="flowRoot3342"
        xml:space="preserve"><flowRegion
@@ -1338,7 +1348,7 @@
            width="298.39905"
            id="rect3346" /></flowRegion><flowPara
          id="flowPara3348">Calculator is requesting access to content on your computer.</flowPara></flowRoot>    <flowRoot
-       transform="translate(34.5378,8.81013)"
+       transform="translate(34.5378,-11.18987)"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#d3d7cf;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        id="flowRoot3364"
        xml:space="preserve"><flowRegion
@@ -1353,7 +1363,7 @@
        xml:space="preserve"
        id="flowRoot5880"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       transform="translate(34.5378,-125.92843)"><flowRegion
+       transform="translate(34.5378,-145.92843)"><flowRegion
          id="flowRegion5882"><rect
            id="rect5884"
            width="298.39905"
@@ -1362,7 +1372,7 @@
            y="122.77843"
            style="fill:#eeeeec" /></flowRegion><flowPara
          id="flowPara5886">Contacts</flowPara></flowRoot>    <flowRoot
-       transform="translate(34.5378,-95.92843)"
+       transform="translate(34.5378,-115.92843)"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        id="flowRoot6030"
        xml:space="preserve"><flowRegion
@@ -1375,7 +1385,7 @@
            id="rect6034" /></flowRegion><flowPara
          id="flowPara6036">Documents</flowPara></flowRoot>    <g
        style="fill:#eeeeec"
-       transform="matrix(0.9999647,0,0,0.9999647,177.9998,27.362715)"
+       transform="matrix(0.9999647,0,0,0.9999647,177.9998,7.362715)"
        id="g6038">
       <g
          id="g6040"
@@ -1431,7 +1441,7 @@
     </g>
     <g
        id="g6131"
-       transform="translate(177.9687,88.36215)"
+       transform="translate(177.9687,68.36215)"
        style="fill:#eeeeec">
       <g
          transform="translate(-541,-195)"
@@ -1497,7 +1507,7 @@
     </g>
     <g
        id="g6338"
-       transform="translate(177.9998,-2.63785)"
+       transform="translate(177.9998,-22.63785)"
        style="fill:#eeeeec">
       <g
          transform="translate(-41.0002,-337)"
@@ -1566,7 +1576,7 @@
        xml:space="preserve"
        id="flowRoot6359"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       transform="translate(34.5378,-65.92843)"><flowRegion
+       transform="translate(34.5378,-85.92843)"><flowRegion
          id="flowRegion6361"><rect
            id="rect6363"
            width="298.39905"
@@ -1576,7 +1586,7 @@
            style="fill:#eeeeec" /></flowRegion><flowPara
          id="flowPara6365">Music</flowPara></flowRoot>    <g
        id="g6517"
-       transform="translate(178.9593,58.37386)"
+       transform="translate(178.9593,38.37386)"
        style="fill:#eeeeec">
       <g
          transform="translate(-461.0002,-195)"
@@ -1657,7 +1667,7 @@
          id="layer12-1" />
     </g>
     <flowRoot
-       transform="translate(34.5378,-35.92843)"
+       transform="translate(34.5378,-55.92843)"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        id="flowRoot6533"
        xml:space="preserve"><flowRegion
@@ -1670,7 +1680,7 @@
            id="rect6537" /></flowRegion><flowPara
          id="flowPara6539">Videos</flowPara></flowRoot>    <g
        id="g10665"
-       transform="translate(-1028,104)">
+       transform="translate(-1028,84)">
       <g
          transform="translate(1730,-52)"
          id="g7075">
@@ -1774,7 +1784,7 @@
     </g>
     <g
        id="g7364"
-       transform="matrix(2.5104785,0,0,2.5104785,120.9218,-89.71638)"
+       transform="matrix(2.5104785,0,0,2.5104785,120.9218,-109.71638)"
        style="fill:#eeeeec">
       <g
          style="fill:#eeeeec;display:inline"
@@ -1826,7 +1836,7 @@
     <g
        style="fill:#2e3436;fill-opacity:1;stroke:#eeeeec;display:inline"
        id="g10641"
-       transform="matrix(0.5089163,0,0,0.51739823,153.7997,67.92867)">
+       transform="matrix(0.5089163,0,0,0.51739823,153.7997,47.92867)">
       <g
          id="g10643"
          style="fill:#2e3436;fill-opacity:1;stroke:#eeeeec">
@@ -1843,7 +1853,7 @@
     </g>
     <path
        style="fill:none;stroke:#eeeeec;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       d="m 185,138.36215 3,3 8,-8"
+       d="m 185,118.36215 3,3 8,-8"
        id="path10647"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
@@ -1854,6 +1864,16 @@
      inkscape:label="camera-microphone"
      transform="translate(0,640)"
      style="display:none">
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-mockups/shell/access-control/camera-microphone-dialogs.png"
+       y="-640"
+       x="0"
+       height="1580"
+       width="940"
+       id="rect4767"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
     <rect
        ry="19"
        rx="19"
@@ -2842,6 +2862,16 @@
      id="g13320"
      inkscape:groupmode="layer">
     <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+       id="rect4765"
+       width="940"
+       height="1200"
+       x="0"
+       y="-640"
+       inkscape:export-filename="/home/aday/checkout/gnome-mockups/shell/access-control/3g-access-dialogs.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
        style="fill:#2e3436;stroke:#000000;stroke-width:0.99999994;stroke-opacity:1;display:inline"
        id="rect13322"
        width="469"
@@ -3461,13 +3491,13 @@
        width="593"
        height="449"
        x="65.085785"
-       y="370.5"
+       y="360.5"
        rx="19"
        ry="18.999998" />
     <rect
        ry="18.999998"
        rx="19"
-       y="-569.5"
+       y="-579.5"
        x="65.085785"
        height="449"
        width="593"
@@ -3476,11 +3506,11 @@
     <text
        sodipodi:linespacing="125%"
        id="text7331"
-       y="-507.66797"
+       y="-517.66797"
        x="176.35022"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        xml:space="preserve"><tspan
-         y="-507.66797"
+         y="-517.66797"
          x="176.35022"
          id="tspan7333"
          sodipodi:role="line">Location Access</tspan></text>
@@ -3490,17 +3520,17 @@
        width="119.00002"
        height="31.911074"
        x="116.5"
-       y="-194.24109"
+       y="-204.24109"
        rx="16"
        ry="16" />
     <text
        sodipodi:linespacing="125%"
        id="text7337"
-       y="-173.44849"
+       y="-183.44849"
        x="175.9281"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        xml:space="preserve"><tspan
-         y="-173.44849"
+         y="-183.44849"
          x="175.9281"
          id="tspan7339"
          sodipodi:role="line"
@@ -3508,7 +3538,7 @@
     <rect
        ry="16"
        rx="16"
-       y="-194.24109"
+       y="-204.24109"
        x="498.5"
        height="31.911074"
        width="119.00002"
@@ -3518,16 +3548,16 @@
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        x="557.92798"
-       y="-173.44849"
+       y="-183.44849"
        id="text7343"
        sodipodi:linespacing="125%"><tspan
          style="font-weight:normal;text-align:center;text-anchor:middle;fill:#eeeeec;fill-opacity:1;-inkscape-font-specification:Cantarell"
          sodipodi:role="line"
          id="tspan7345"
          x="557.92798"
-         y="-173.44849">Allow</tspan></text>
+         y="-183.44849">Allow</tspan></text>
     <flowRoot
-       transform="translate(4.53778,-616.2933)"
+       transform="translate(4.53778,-626.2933)"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        id="flowRoot7371"
        xml:space="preserve"><flowRegion
@@ -3541,7 +3571,7 @@
          id="flowPara7377">&lt;application&gt; wants to know where you are. Turning on GPS and Wi-Fi will provide more accurate location information.</flowPara></flowRoot>    <g
        style="fill:#2e3436;fill-opacity:1;stroke:#eeeeec;display:inline"
        id="g7387"
-       transform="matrix(0.5089163,0,0,0.51739823,150.79979,-354.4334)">
+       transform="matrix(0.5089163,0,0,0.51739823,150.79979,-364.4334)">
       <g
          id="g7389"
          style="fill:#2e3436;fill-opacity:1;stroke:#eeeeec">
@@ -3557,7 +3587,7 @@
       </g>
     </g>
     <flowRoot
-       transform="translate(28.53778,-413.76702)"
+       transform="translate(28.53778,-423.76702)"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        id="flowRoot7393"
        xml:space="preserve"><flowRegion
@@ -3570,7 +3600,7 @@
            id="rect7397" /></flowRegion><flowPara
          id="flowPara7399">Grant &lt;application&gt; access to location data in the future</flowPara></flowRoot>    <g
        id="g7594"
-       transform="matrix(2.6664819,0,0,2.6665023,120.99986,-523.101)"
+       transform="matrix(2.6664819,0,0,2.6665023,120.99986,-533.101)"
        style="fill:#eeeeec">
       <g
          transform="translate(-180.96716,-806.99245)"
@@ -3635,7 +3665,7 @@
       </g>
     </g>
     <g
-       transform="translate(-290.00003,-2396.9999)"
+       transform="translate(-290.00003,-2406.9999)"
        style="display:inline"
        id="g7896">
       <rect
@@ -3670,7 +3700,7 @@
            sodipodi:role="line">OFF</tspan></text>
     </g>
     <flowRoot
-       transform="translate(6.53772,-555.767)"
+       transform="translate(6.53772,-565.767)"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        id="flowRoot7932"
        xml:space="preserve"><flowRegion
@@ -3684,7 +3714,7 @@
          id="flowPara7938">GPS</flowPara></flowRoot>    <rect
        ry="6"
        rx="6"
-       y="-345.32996"
+       y="-355.32996"
        x="176.50006"
        height="29"
        width="372.99994"
@@ -3694,7 +3724,7 @@
        xml:space="preserve"
        id="flowRoot7619"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       transform="translate(34.53795,-462.76729)"><flowRegion
+       transform="translate(34.53795,-472.76729)"><flowRegion
          id="flowRegion7621"><rect
            id="rect7623"
            width="298.39905"
@@ -3704,7 +3734,7 @@
            style="fill:#eeeeec" /></flowRegion><flowPara
          id="flowPara7625">Search to manually set your location</flowPara></flowRoot>    <g
        id="g7838"
-       transform="translate(183.00336,-338.86184)"
+       transform="translate(183.00336,-348.86184)"
        style="fill:#eeeeec">
       <g
          style="fill:#eeeeec;display:inline"
@@ -4192,7 +4222,7 @@
        xml:space="preserve"
        id="flowRoot11445"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       transform="translate(0,-1100)"><flowRegion
+       transform="translate(0,-1110)"><flowRegion
          id="flowRegion11447"><rect
            id="rect11449"
            width="179.60512"
@@ -4202,7 +4232,7 @@
            style="fill:#2e3436" /></flowRegion><flowPara
          id="flowPara11451">Depending on the requested accuracy level, GPS and Wi-Fi might be needed. If they're off, switches are presented.</flowPara></flowRoot>    <g
        id="g12315"
-       transform="translate(0,-811.82996)">
+       transform="translate(0,-821.82996)">
       <rect
          ry="6"
          rx="6"
@@ -4338,7 +4368,7 @@
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        id="flowRoot11746"
        xml:space="preserve"
-       transform="translate(0,-240)"><flowRegion
+       transform="translate(0,-250)"><flowRegion
          id="flowRegion11748"><rect
            style="fill:#2e3436"
            y="779.5694"
@@ -4349,7 +4379,7 @@
          id="flowPara11752">If a location is set from the search box, other controls go insensitive and switch to off.</flowPara></flowRoot>    <g
        id="g12033"
        style="display:inline"
-       transform="translate(-290.00003,-2356.9999)">
+       transform="translate(-290.00003,-2366.9999)">
       <rect
          ry="2"
          rx="2"
@@ -4385,7 +4415,7 @@
        xml:space="preserve"
        id="flowRoot12043"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       transform="translate(6.53772,-515.76702)"><flowRegion
+       transform="translate(6.53772,-525.76702)"><flowRegion
          id="flowRegion12045"><rect
            id="rect12047"
            width="298.39905"
@@ -4399,24 +4429,24 @@
        width="593"
        height="365"
        x="65.085785"
-       y="-65.5"
+       y="-75.5"
        rx="19"
        ry="18.999998" />
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        x="176.35022"
-       y="-1.6679688"
+       y="-11.667969"
        id="text12053"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan12055"
          x="176.35022"
-         y="-1.6679688">Location Access</tspan></text>
+         y="-11.667969">Location Access</tspan></text>
     <rect
        ry="16"
        rx="16"
-       y="225.75891"
+       y="215.75891"
        x="116.5"
        height="31.911074"
        width="119.00002"
@@ -4426,31 +4456,31 @@
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        x="175.9281"
-       y="246.55151"
+       y="236.55151"
        id="text12059"
        sodipodi:linespacing="125%"><tspan
          style="font-weight:normal;text-align:center;text-anchor:middle;fill:#eeeeec;fill-opacity:1;-inkscape-font-specification:Cantarell"
          sodipodi:role="line"
          id="tspan12061"
          x="175.9281"
-         y="246.55151">Don't Allow</tspan></text>
+         y="236.55151">Don't Allow</tspan></text>
     <rect
        style="fill:none;stroke:#eeeeec;stroke-width:0.99999982;stroke-opacity:1"
        id="rect12063"
        width="119.00002"
        height="31.911074"
        x="498.5"
-       y="225.75891"
+       y="215.75891"
        rx="16"
        ry="16" />
     <text
        sodipodi:linespacing="125%"
        id="text12065"
-       y="246.55151"
+       y="236.55151"
        x="557.92798"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        xml:space="preserve"><tspan
-         y="246.55151"
+         y="236.55151"
          x="557.92798"
          id="tspan12067"
          sodipodi:role="line"
@@ -4459,7 +4489,7 @@
        xml:space="preserve"
        id="flowRoot12069"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       transform="translate(4.53778,-110.29326)"><flowRegion
+       transform="translate(4.53778,-120.29326)"><flowRegion
          id="flowRegion12071"><rect
            id="rect12073"
            width="430.39905"
@@ -4468,7 +4498,7 @@
            y="122.77843"
            style="fill:#eeeeec" /></flowRegion><flowPara
          id="flowPara12075">&lt;application&gt; wants to know where you are. Turning on GPS and Wi-Fi will provide more accurate location information.</flowPara></flowRoot>    <g
-       transform="matrix(0.5089163,0,0,0.51739823,150.79979,65.5666)"
+       transform="matrix(0.5089163,0,0,0.51739823,150.79979,55.5666)"
        id="g12077"
        style="fill:#2e3436;fill-opacity:1;stroke:#eeeeec;display:inline">
       <g
@@ -4489,7 +4519,7 @@
        xml:space="preserve"
        id="flowRoot12083"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       transform="translate(28.53778,6.23298)"><flowRegion
+       transform="translate(28.53778,-3.76702)"><flowRegion
          id="flowRegion12085"><rect
            id="rect12087"
            width="376.39908"
@@ -4499,7 +4529,7 @@
            style="fill:#eeeeec" /></flowRegion><flowPara
          id="flowPara12089">Grant &lt;application&gt; access to location data in the future</flowPara></flowRoot>    <g
        style="fill:#eeeeec"
-       transform="matrix(2.6664819,0,0,2.6665023,120.99986,-17.101)"
+       transform="matrix(2.6664819,0,0,2.6665023,120.99986,-27.101)"
        id="g12091">
       <g
          id="g12093"
@@ -4569,11 +4599,11 @@
        width="372.99994"
        height="29"
        x="176.50006"
-       y="74.670036"
+       y="64.670036"
        rx="6"
        ry="6" />
     <flowRoot
-       transform="translate(34.53795,-42.76729)"
+       transform="translate(34.53795,-52.76729)"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        id="flowRoot12135"
        xml:space="preserve"><flowRegion
@@ -4586,7 +4616,7 @@
            id="rect12139" /></flowRegion><flowPara
          id="flowPara12141">Search to manually set your location</flowPara></flowRoot>    <g
        style="fill:#eeeeec"
-       transform="translate(183.00336,81.13816)"
+       transform="translate(183.00336,71.13816)"
        id="g12143">
       <g
          inkscape:label="status"
@@ -4644,17 +4674,17 @@
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        x="176.35022"
-       y="432.33203"
+       y="422.33203"
        id="text12185"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan12187"
          x="176.35022"
-         y="432.33203">Location Access</tspan></text>
+         y="422.33203">Location Access</tspan></text>
     <rect
        ry="16"
        rx="16"
-       y="745.75891"
+       y="735.75891"
        x="116.5"
        height="31.911074"
        width="119.00002"
@@ -4664,31 +4694,31 @@
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        x="175.9281"
-       y="766.55151"
+       y="756.55151"
        id="text12191"
        sodipodi:linespacing="125%"><tspan
          style="font-weight:normal;text-align:center;text-anchor:middle;fill:#eeeeec;fill-opacity:1;-inkscape-font-specification:Cantarell"
          sodipodi:role="line"
          id="tspan12193"
          x="175.9281"
-         y="766.55151">Don't Allow</tspan></text>
+         y="756.55151">Don't Allow</tspan></text>
     <rect
        style="fill:none;stroke:#eeeeec;stroke-width:0.99999982;stroke-opacity:1"
        id="rect12195"
        width="119.00002"
        height="31.911074"
        x="498.5"
-       y="745.75891"
+       y="735.75891"
        rx="16"
        ry="16" />
     <text
        sodipodi:linespacing="125%"
        id="text12197"
-       y="766.55151"
+       y="756.55151"
        x="557.92798"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        xml:space="preserve"><tspan
-         y="766.55151"
+         y="756.55151"
          x="557.92798"
          id="tspan12199"
          sodipodi:role="line"
@@ -4697,7 +4727,7 @@
        xml:space="preserve"
        id="flowRoot12201"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       transform="translate(4.53778,323.70674)"><flowRegion
+       transform="translate(4.53778,313.70674)"><flowRegion
          id="flowRegion12203"><rect
            id="rect12205"
            width="430.39905"
@@ -4707,7 +4737,7 @@
            style="fill:#eeeeec" /></flowRegion><flowPara
          id="flowPara12207">&lt;application&gt; wants to know where you are. Turning on GPS and Wi-Fi will provide more accurate location information.</flowPara></flowRoot>    <g
        style="fill:#eeeeec"
-       transform="matrix(2.6664819,0,0,2.6665023,120.99986,416.899)"
+       transform="matrix(2.6664819,0,0,2.6665023,120.99986,406.899)"
        id="g12223">
       <g
          id="g12225"
@@ -4774,7 +4804,7 @@
     <g
        id="g12343"
        style="opacity:0.5"
-       transform="translate(0,-340)">
+       transform="translate(0,-350)">
       <g
          style="fill:#2e3436;fill-opacity:1;stroke:#eeeeec;display:inline"
          id="g12209"
@@ -4906,24 +4936,24 @@
        width="593"
        height="349"
        x="65.085785"
-       y="869.5"
+       y="859.5"
        rx="19"
        ry="18.999998" />
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        x="176.35022"
-       y="932.33197"
+       y="922.33197"
        id="text12372"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan12374"
          x="176.35022"
-         y="932.33197">Location Access</tspan></text>
+         y="922.33197">Location Access</tspan></text>
     <rect
        ry="16"
        rx="16"
-       y="1145.7589"
+       y="1135.7589"
        x="116.5"
        height="31.911074"
        width="119.00002"
@@ -4933,31 +4963,31 @@
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        x="175.9281"
-       y="1166.5515"
+       y="1156.5515"
        id="text12378"
        sodipodi:linespacing="125%"><tspan
          style="font-weight:normal;text-align:center;text-anchor:middle;fill:#eeeeec;fill-opacity:1;-inkscape-font-specification:Cantarell"
          sodipodi:role="line"
          id="tspan12380"
          x="175.9281"
-         y="1166.5515">Cancel</tspan></text>
+         y="1156.5515">Cancel</tspan></text>
     <rect
        style="fill:none;stroke:#eeeeec;stroke-width:0.99999982;stroke-opacity:1"
        id="rect12382"
        width="119.00002"
        height="31.911074"
        x="498.5"
-       y="1145.7589"
+       y="1135.7589"
        rx="16"
        ry="16" />
     <text
        sodipodi:linespacing="125%"
        id="text12384"
-       y="1166.5515"
+       y="1156.5515"
        x="557.92798"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        xml:space="preserve"><tspan
-         y="1166.5515"
+         y="1156.5515"
          x="557.92798"
          id="tspan12386"
          sodipodi:role="line"
@@ -4966,7 +4996,7 @@
        xml:space="preserve"
        id="flowRoot12388"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       transform="translate(4.53778,823.7067)"><flowRegion
+       transform="translate(4.53778,813.7067)"><flowRegion
          id="flowRegion12390"><rect
            id="rect12392"
            width="430.39905"
@@ -4976,7 +5006,7 @@
            style="fill:#eeeeec" /></flowRegion><flowPara
          id="flowPara12394">&lt;application&gt; wants to know where you are. Turning on GPS and Wi-Fi will provide more accurate location information.</flowPara></flowRoot>    <g
        style="fill:#eeeeec"
-       transform="matrix(2.6664819,0,0,2.6665023,120.99986,916.899)"
+       transform="matrix(2.6664819,0,0,2.6665023,120.99986,906.899)"
        id="g12410">
       <g
          id="g12412"
@@ -5043,7 +5073,7 @@
     <g
        id="g12434"
        style="display:inline"
-       transform="translate(-290.00003,-956.9999)">
+       transform="translate(-290.00003,-966.9999)">
       <rect
          ry="2"
          rx="2"
@@ -5079,7 +5109,7 @@
        xml:space="preserve"
        id="flowRoot12444"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-       transform="translate(6.53772,884.233)"><flowRegion
+       transform="translate(6.53772,874.233)"><flowRegion
          id="flowRegion12446"><rect
            id="rect12448"
            width="298.39905"
@@ -5088,7 +5118,7 @@
            y="122.77843"
            style="fill:#eeeeec" /></flowRegion><flowPara
          id="flowPara12450">GPS</flowPara></flowRoot>    <g
-       transform="translate(-290.00003,-916.9999)"
+       transform="translate(-290.00003,-926.9999)"
        style="display:inline"
        id="g12484">
       <rect
@@ -5123,7 +5153,7 @@
            sodipodi:role="line">OFF</tspan></text>
     </g>
     <flowRoot
-       transform="translate(6.53772,924.233)"
+       transform="translate(6.53772,914.233)"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        id="flowRoot12494"
        xml:space="preserve"><flowRegion
@@ -5135,7 +5165,7 @@
            width="298.39905"
            id="rect12498" /></flowRegion><flowPara
          id="flowPara12500">Wi-Fi</flowPara></flowRoot>    <flowRoot
-       transform="translate(0,160)"
+       transform="translate(0,150)"
        xml:space="preserve"
        id="flowRoot12502"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"><flowRegion
@@ -5147,7 +5177,7 @@
            y="779.5694"
            style="fill:#2e3436" /></flowRegion><flowPara
          id="flowPara12508">If ongoing access has been granted, but GPS/Wi-Fi are still needed, ask.</flowPara></flowRoot>    <flowRoot
-       transform="translate(0,-760)"
+       transform="translate(0,-770)"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        id="flowRoot12512"
        xml:space="preserve"><flowRegion
