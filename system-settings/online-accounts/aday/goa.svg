@@ -6043,12 +6043,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="891.73962"
-     inkscape:cy="968.03379"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="880.04832"
+     inkscape:cy="950.58912"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
-     showgrid="false"
+     inkscape:current-layer="layer1"
+     showgrid="true"
      inkscape:window-width="1920"
      inkscape:window-height="1134"
      inkscape:window-x="0"
@@ -11097,8 +11097,18 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="account-dialogs"
-     style="display:none"
+     style="display:inline"
      transform="translate(0,-1300)">
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+       id="rect22498"
+       width="1300"
+       height="784"
+       x="0"
+       y="1300"
+       inkscape:export-filename="/home/aday/checkout/gnome-mockups/system-settings/online-accounts/aday/png/account-dialog.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="color:#000000;fill:#e5e6e5;fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:accumulate"
        d="m 702.5,1404.5001 475,-10e-5 c 6.648,0 12,5.352 12,12 l 0,35 -12,0 -475,10e-5 -12,0 0,-35 c 0,-6.648 5.352,-12 12,-12 z"
@@ -12034,7 +12044,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="add-account"
-     style="display:inline"
+     style="display:none"
      transform="translate(0,-1300)">
     <rect
        inkscape:export-ydpi="90"
@@ -12751,7 +12761,7 @@
            sodipodi:ry="1"
            sodipodi:rx="1"
            id="path19766"
-           d="m 346,265 c 0,0.55228 -0.44772,1 -1,1 -0.55228,0 -1,-0.44772 -1,-1 0,-0.55228 0.44772,-1 1,-1 0.55228,0 1,0.44772 1,1 z"
+           d="m 346,265 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
            sodipodi:type="arc"
            sodipodi:cy="265" />
       </g>
