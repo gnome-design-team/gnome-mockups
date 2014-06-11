@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="tabs.svg"
-   inkscape:export-filename="/home/aday/checkout/gnome-mockups/theming/widgets/tabs/overflow-button-hover.png"
+   inkscape:export-filename="/home/aday/checkout/gnome-mockups/theming/widgets/tabs/two-tabs.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -6021,6 +6021,24 @@
        fx="396.5"
        fy="163.21535"
        r="87.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5716-3-0-0-2"
+       id="linearGradient14071"
+       gradientUnits="userSpaceOnUse"
+       x1="29.089951"
+       y1="11.772627"
+       x2="33.971455"
+       y2="9.7093649" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5716-3-0-0-2"
+       id="linearGradient14073"
+       gradientUnits="userSpaceOnUse"
+       x1="29.089951"
+       y1="11.772627"
+       x2="33.971455"
+       y2="9.7093649" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -6030,10 +6048,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="519.50396"
-     inkscape:cy="369.01591"
+     inkscape:cx="574.87193"
+     inkscape:cy="359.72659"
      inkscape:document-units="px"
-     inkscape:current-layer="g5294"
+     inkscape:current-layer="g13987"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1014"
@@ -6861,7 +6879,7 @@
      inkscape:groupmode="layer"
      id="g5294"
      inkscape:label="tabs - connected overflow - overflow tab hover copy"
-     style="display:inline">
+     style="display:none">
     <rect
        y="127"
        x="128"
@@ -7855,6 +7873,79 @@
        x="1032"
        y="158.44701"
        transform="translate(0.99999836,3.774414e-6)" />
+  </g>
+  <g
+     style="display:inline"
+     inkscape:label="two-tabs"
+     id="g13987"
+     inkscape:groupmode="layer">
+    <rect
+       style="color:#000000;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect14003"
+       width="469"
+       height="40.983719"
+       x="128"
+       y="127" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       x="362.62479"
+       y="152.89062"
+       id="text14005"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan14007"
+         x="362.62479"
+         y="152.89062">A tab</tspan></text>
+    <rect
+       style="fill:#eeeeec;fill-opacity:1;stroke:#d3d7cf;stroke-width:1;display:inline"
+       id="rect14009"
+       width="17"
+       height="17"
+       x="567.5"
+       y="138.5"
+       rx="2"
+       ry="2" />
+    <path
+       sodipodi:nodetypes="ccsccccccccccccccccccccccc"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#a7aba7;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+       id="path14011"
+       inkscape:connector-curvature="0"
+       d="m 572.0017,143.00011 0.99998,0 c 0.0104,-1e-4 0.0208,-4e-4 0.0312,0 0.25494,0.011 0.50986,0.1286 0.68748,0.3125 l 2.28121,2.2813 2.31246,-2.2813 c 0.26563,-0.2305 0.44666,-0.3055 0.68749,-0.3125 l 0.99998,0 0,1 c 0,0.2865 -0.0343,0.5507 -0.25,0.75 l -2.2812,2.2813 2.24996,2.25 c 0.18818,0.1881 0.28123,0.4534 0.28124,0.7187 l 0,1 -0.99998,0 c -0.2653,0 -0.53057,-0.093 -0.71874,-0.2812 l -2.28121,-2.2813 -2.28121,2.2813 c -0.18815,0.1882 -0.45345,0.2812 -0.71873,0.2812 l -0.99998,0 0,-1 c 0,-0.2653 0.0931,-0.5306 0.28124,-0.7187 l 2.28121,-2.25 -2.28121,-2.2813 c -0.21074,-0.1946 -0.30315,-0.4692 -0.28124,-0.75 l 0,-1 z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path14013"
+       d="m 127.5,167.4793 0,-38.9793"
+       style="fill:none;stroke:#d3d7cf;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+    <path
+       style="fill:none;stroke:#d3d7cf;stroke-width:0.99999994px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 597.50002,166.51729 0,-38.02927"
+       id="path14015"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="color:#000000;fill:#729fcf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect14017"
+       width="471"
+       height="1.984"
+       x="127"
+       y="165.99953" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+       sodipodi:linespacing="125%"
+       id="text14077"
+       y="152.89062"
+       x="839.62482"
+       style="font-size:14.30000019000000044px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#555753;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       xml:space="preserve"><tspan
+         y="152.89062"
+         x="839.62482"
+         id="tspan14079"
+         sodipodi:role="line">Another tab</tspan></text>
   </g>
   <g
      style="display:none"
