@@ -15,7 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="multi-window.svg">
+   sodipodi:docname="multi-window.svg"
+   inkscape:export-filename="/home/jimmac/SparkleShare/gnome-mockups/boxes/wires/multi-window.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4">
     <pattern
@@ -1397,9 +1400,9 @@
      borderopacity="1"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.1767767"
-     inkscape:cx="-1332.266"
-     inkscape:cy="2917.2077"
+     inkscape:zoom="1"
+     inkscape:cx="226.50602"
+     inkscape:cy="273.22874"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -3419,11 +3422,11 @@
        id="text20853"
        y="946.15723"
        x="105.41083"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ef2929;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        xml:space="preserve"><tspan
          id="tspan20857"
          y="946.15723"
          x="105.41083"
-         sodipodi:role="line">FIXME: Primary window complexity (Closing quits?) … probably just treat all windows the same.</tspan></text>
+         sodipodi:role="line">When primary window gets closed, any remaining open window gets its role (gets the back button to be able to navigate to another).</tspan></text>
   </g>
 </svg>
