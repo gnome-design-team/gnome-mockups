@@ -11,13 +11,658 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1024"
-   height="6000"
+   height="3400"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="multi-window.svg">
   <defs
      id="defs4">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21119"
+       id="pattern21125"
+       patternTransform="matrix(10,0,0,10,-80,-60)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21117"
+       id="pattern21123"
+       patternTransform="matrix(10,0,0,10,-80,-60)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21115"
+       id="pattern21121"
+       patternTransform="matrix(10,0,0,10,-80,-60)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21113"
+       id="pattern21119"
+       patternTransform="matrix(10,0,0,10,-80,-160)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21111"
+       id="pattern21117"
+       patternTransform="matrix(10,0,0,10,-80,-160)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21109"
+       id="pattern21115"
+       patternTransform="matrix(10,0,0,10,-80,-160)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21107"
+       id="pattern21113"
+       patternTransform="matrix(10,0,0,10,-80,-2660)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21105"
+       id="pattern21111"
+       patternTransform="matrix(10,0,0,10,-80,-2660)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21103"
+       id="pattern21109"
+       patternTransform="matrix(10,0,0,10,-80,-2660)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21101"
+       id="pattern21107"
+       patternTransform="matrix(10,0,0,10,-80,-2680)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21099"
+       id="pattern21105"
+       patternTransform="matrix(10,0,0,10,-80,-2680)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21097"
+       id="pattern21103"
+       patternTransform="matrix(10,0,0,10,-80,-2680)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21095"
+       id="pattern21101"
+       patternTransform="matrix(10,0,0,10,-80,-2700)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21093"
+       id="pattern21099"
+       patternTransform="matrix(10,0,0,10,-80,-2700)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21091"
+       id="pattern21097"
+       patternTransform="matrix(10,0,0,10,-80,-2700)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21089"
+       id="pattern21095"
+       patternTransform="matrix(10,0,0,10,-80,-2720)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21087"
+       id="pattern21093"
+       patternTransform="matrix(10,0,0,10,-80,-2720)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21085"
+       id="pattern21091"
+       patternTransform="matrix(10,0,0,10,-80,-2720)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21083"
+       id="pattern21089"
+       patternTransform="matrix(10,0,0,10,-80,-2700)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21081"
+       id="pattern21087"
+       patternTransform="matrix(10,0,0,10,-80,-2700)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21079"
+       id="pattern21085"
+       patternTransform="matrix(10,0,0,10,-80,-2700)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21077"
+       id="pattern21083"
+       patternTransform="matrix(10,0,0,10,-80,-2680)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21075"
+       id="pattern21081"
+       patternTransform="matrix(10,0,0,10,-80,-2680)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21073"
+       id="pattern21079"
+       patternTransform="matrix(10,0,0,10,-80,-2680)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21071"
+       id="pattern21077"
+       patternTransform="matrix(10,0,0,10,-80,-2660)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21069"
+       id="pattern21075"
+       patternTransform="matrix(10,0,0,10,-80,-2660)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21067"
+       id="pattern21073"
+       patternTransform="matrix(10,0,0,10,-80,-2660)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21065"
+       id="pattern21071"
+       patternTransform="matrix(10,0,0,10,-80,-2620)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21063"
+       id="pattern21069"
+       patternTransform="matrix(10,0,0,10,-80,-2620)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21061"
+       id="pattern21067"
+       patternTransform="matrix(10,0,0,10,-80,-2620)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21059"
+       id="pattern21065"
+       patternTransform="matrix(10,0,0,10,-80,-2600)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21057"
+       id="pattern21063"
+       patternTransform="matrix(10,0,0,10,-80,-2600)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21055"
+       id="pattern21061"
+       patternTransform="matrix(10,0,0,10,-80,-2600)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21053"
+       id="pattern21059"
+       patternTransform="matrix(10,0,0,10,-80,-2580)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21051"
+       id="pattern21057"
+       patternTransform="matrix(10,0,0,10,-80,-2580)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21049"
+       id="pattern21055"
+       patternTransform="matrix(10,0,0,10,-80,-2580)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21047"
+       id="pattern21053"
+       patternTransform="matrix(10,0,0,10,-80,-2540)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21045"
+       id="pattern21051"
+       patternTransform="matrix(10,0,0,10,-80,-2540)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21043"
+       id="pattern21049"
+       patternTransform="matrix(10,0,0,10,-80,-2540)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21041"
+       id="pattern21047"
+       patternTransform="matrix(10,0,0,10,-80,-2520)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21039"
+       id="pattern21045"
+       patternTransform="matrix(10,0,0,10,-80,-2520)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21037"
+       id="pattern21043"
+       patternTransform="matrix(10,0,0,10,-80,-2520)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21035"
+       id="pattern21041"
+       patternTransform="matrix(10,0,0,10,-80,-2500)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21033"
+       id="pattern21039"
+       patternTransform="matrix(10,0,0,10,-80,-2500)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21031"
+       id="pattern21037"
+       patternTransform="matrix(10,0,0,10,-80,-2500)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21029"
+       id="pattern21035"
+       patternTransform="matrix(10,0,0,10,-80,-2460)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21027"
+       id="pattern21033"
+       patternTransform="matrix(10,0,0,10,-80,-2460)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21025"
+       id="pattern21031"
+       patternTransform="matrix(10,0,0,10,-80,-2460)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21023"
+       id="pattern21029"
+       patternTransform="matrix(10,0,0,10,-80,-2440)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21021"
+       id="pattern21027"
+       patternTransform="matrix(10,0,0,10,-80,-2440)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21019"
+       id="pattern21025"
+       patternTransform="matrix(10,0,0,10,-80,-2440)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21017"
+       id="pattern21023"
+       patternTransform="matrix(10,0,0,10,-80,-2400)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21015"
+       id="pattern21021"
+       patternTransform="matrix(10,0,0,10,-80,-2400)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21013"
+       id="pattern21019"
+       patternTransform="matrix(10,0,0,10,-80,-2400)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21011"
+       id="pattern21017"
+       patternTransform="matrix(10,0,0,10,-80,-2380)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21009"
+       id="pattern21015"
+       patternTransform="matrix(10,0,0,10,-80,-2380)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21007"
+       id="pattern21013"
+       patternTransform="matrix(10,0,0,10,-80,-2380)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21005"
+       id="pattern21011"
+       patternTransform="matrix(10,0,0,10,-80,-2360)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21003"
+       id="pattern21009"
+       patternTransform="matrix(10,0,0,10,-80,-2360)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern21001"
+       id="pattern21007"
+       patternTransform="matrix(10,0,0,10,-80,-2360)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20999"
+       id="pattern21005"
+       patternTransform="matrix(10,0,0,10,-80,-2340)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20997"
+       id="pattern21003"
+       patternTransform="matrix(10,0,0,10,-80,-2340)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20995"
+       id="pattern21001"
+       patternTransform="matrix(10,0,0,10,-80,-2340)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20993"
+       id="pattern20999"
+       patternTransform="matrix(10,0,0,10,-80,-2320)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20991"
+       id="pattern20997"
+       patternTransform="matrix(10,0,0,10,-80,-2320)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20989"
+       id="pattern20995"
+       patternTransform="matrix(10,0,0,10,-80,-2320)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20987"
+       id="pattern20993"
+       patternTransform="matrix(10,0,0,10,-80,-2300)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20985"
+       id="pattern20991"
+       patternTransform="matrix(10,0,0,10,-80,-2300)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20983"
+       id="pattern20989"
+       patternTransform="matrix(10,0,0,10,-80,-2300)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20981"
+       id="pattern20987"
+       patternTransform="matrix(10,0,0,10,-80,-2280)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20979"
+       id="pattern20985"
+       patternTransform="matrix(10,0,0,10,-80,-2280)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20977"
+       id="pattern20983"
+       patternTransform="matrix(10,0,0,10,-80,-2280)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20975"
+       id="pattern20981"
+       patternTransform="matrix(10,0,0,10,-80,-2220)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20973"
+       id="pattern20979"
+       patternTransform="matrix(10,0,0,10,-80,-2220)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20971"
+       id="pattern20977"
+       patternTransform="matrix(10,0,0,10,-80,-2220)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20969"
+       id="pattern20975"
+       patternTransform="matrix(10,0,0,10,-80,-2040)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20967"
+       id="pattern20973"
+       patternTransform="matrix(10,0,0,10,-80,-2040)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20965"
+       id="pattern20971"
+       patternTransform="matrix(10,0,0,10,-80,-2040)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20963"
+       id="pattern20969"
+       patternTransform="matrix(10,0,0,10,-80,-1920)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20961"
+       id="pattern20967"
+       patternTransform="matrix(10,0,0,10,-80,-1920)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20959"
+       id="pattern20965"
+       patternTransform="matrix(10,0,0,10,-80,-1920)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20957"
+       id="pattern20963"
+       patternTransform="matrix(10,0,0,10,-80,-1780)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20955"
+       id="pattern20961"
+       patternTransform="matrix(10,0,0,10,-80,-1780)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20953"
+       id="pattern20959"
+       patternTransform="matrix(10,0,0,10,-80,-1780)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20951"
+       id="pattern20957"
+       patternTransform="matrix(10,0,0,10,-80,-1620)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20949"
+       id="pattern20955"
+       patternTransform="matrix(10,0,0,10,-80,-1620)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20947"
+       id="pattern20953"
+       patternTransform="matrix(10,0,0,10,-80,-1620)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20945"
+       id="pattern20951"
+       patternTransform="matrix(10,0,0,10,-80,-1520)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20943"
+       id="pattern20949"
+       patternTransform="matrix(10,0,0,10,-80,-1520)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20941"
+       id="pattern20947"
+       patternTransform="matrix(10,0,0,10,-80,-1520)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20939"
+       id="pattern20945"
+       patternTransform="matrix(10,0,0,10,-80,-1400)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20937"
+       id="pattern20943"
+       patternTransform="matrix(10,0,0,10,-80,-1400)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20935"
+       id="pattern20941"
+       patternTransform="matrix(10,0,0,10,-80,-1400)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20933"
+       id="pattern20939"
+       patternTransform="matrix(10,0,0,10,-80,-1300)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20931"
+       id="pattern20937"
+       patternTransform="matrix(10,0,0,10,-80,-1300)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20929"
+       id="pattern20935"
+       patternTransform="matrix(10,0,0,10,-80,-1300)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20927"
+       id="pattern20933"
+       patternTransform="matrix(10,0,0,10,-80,-1200)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20925"
+       id="pattern20931"
+       patternTransform="matrix(10,0,0,10,-80,-1200)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20923"
+       id="pattern20929"
+       patternTransform="matrix(10,0,0,10,-80,-1200)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20921"
+       id="pattern20927"
+       patternTransform="matrix(10,0,0,10,-80,-1100)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20919"
+       id="pattern20925"
+       patternTransform="matrix(10,0,0,10,-80,-1100)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20917"
+       id="pattern20923"
+       patternTransform="matrix(10,0,0,10,-80,-1100)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20915"
+       id="pattern20921"
+       patternTransform="matrix(10,0,0,10,-80,-1000)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20913"
+       id="pattern20919"
+       patternTransform="matrix(10,0,0,10,-80,-1000)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20911"
+       id="pattern20917"
+       patternTransform="matrix(10,0,0,10,-80,-1000)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20909"
+       id="pattern20915"
+       patternTransform="matrix(10,0,0,10,-80,-880)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20907"
+       id="pattern20913"
+       patternTransform="matrix(10,0,0,10,-80,-880)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20905"
+       id="pattern20911"
+       patternTransform="matrix(10,0,0,10,-80,-880)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20903"
+       id="pattern20909"
+       patternTransform="matrix(10,0,0,10,-80,-760)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20901"
+       id="pattern20907"
+       patternTransform="matrix(10,0,0,10,-80,-760)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20899"
+       id="pattern20905"
+       patternTransform="matrix(10,0,0,10,-80,-760)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20897"
+       id="pattern20903"
+       patternTransform="matrix(10,0,0,10,-80,-600)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20895"
+       id="pattern20901"
+       patternTransform="matrix(10,0,0,10,-80,-600)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20893"
+       id="pattern20899"
+       patternTransform="matrix(10,0,0,10,-80,-600)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20891"
+       id="pattern20897"
+       patternTransform="matrix(10,0,0,10,-80,-460)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20889"
+       id="pattern20895"
+       patternTransform="matrix(10,0,0,10,-80,-460)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20887"
+       id="pattern20893"
+       patternTransform="matrix(10,0,0,10,-80,-460)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20885"
+       id="pattern20891"
+       patternTransform="matrix(10,0,0,10,-80,-320)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20883"
+       id="pattern20889"
+       patternTransform="matrix(10,0,0,10,-80,-320)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20881"
+       id="pattern20887"
+       patternTransform="matrix(10,0,0,10,-80,-320)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20879"
+       id="pattern20885"
+       patternTransform="matrix(10,0,0,10,-80,-180)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20877"
+       id="pattern20883"
+       patternTransform="matrix(10,0,0,10,-80,-180)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20875"
+       id="pattern20881"
+       patternTransform="matrix(10,0,0,10,-80,-180)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20873"
+       id="pattern20879"
+       patternTransform="matrix(10,0,0,10,-80,-40)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20871"
+       id="pattern20877"
+       patternTransform="matrix(10,0,0,10,-80,-40)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20869"
+       id="pattern20875"
+       patternTransform="matrix(10,0,0,10,-80,-40)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20785"
+       id="pattern20873"
+       patternTransform="matrix(10,0,0,10,-80,-20)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20783"
+       id="pattern20871"
+       patternTransform="matrix(10,0,0,10,-80,-20)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern20781"
+       id="pattern20869"
+       patternTransform="matrix(10,0,0,10,-80,-20)" />
     <pattern
        inkscape:collect="always"
        xlink:href="#pattern20779"
@@ -82,37 +727,37 @@
        inkscape:collect="always"
        xlink:href="#pattern20274"
        id="pattern20761"
-       patternTransform="matrix(10,0,0,10,-94,-15.999926)" />
+       patternTransform="matrix(10,0,0,10,-94,-75.9999)" />
     <pattern
        inkscape:collect="always"
        xlink:href="#Polkadots-smallwhite"
        id="pattern20759"
-       patternTransform="matrix(10,0,0,10,-80,0)" />
+       patternTransform="matrix(10,0,0,10,-80,-60)" />
     <pattern
        inkscape:collect="always"
        xlink:href="#Polkadots-smallwhite-0"
        id="pattern20757"
-       patternTransform="matrix(10,0,0,10,-80,0)" />
+       patternTransform="matrix(10,0,0,10,-80,-60)" />
     <pattern
        inkscape:collect="always"
        xlink:href="#Polkadots-smallwhite-0"
        id="pattern20755"
-       patternTransform="matrix(10,0,0,10,-80,0)" />
+       patternTransform="matrix(10,0,0,10,-80,-60)" />
     <pattern
        inkscape:collect="always"
        xlink:href="#Polkadots-smallwhite"
        id="pattern20753"
-       patternTransform="matrix(10,0,0,10,-80,0)" />
+       patternTransform="matrix(10,0,0,10,-80,-60)" />
     <pattern
        inkscape:collect="always"
        xlink:href="#Polkadots-smallwhite-0"
        id="pattern20751"
-       patternTransform="matrix(10,0,0,10,-80,0)" />
+       patternTransform="matrix(10,0,0,10,-80,-60)" />
     <pattern
        inkscape:collect="always"
        xlink:href="#Polkadots-smallwhite-0"
        id="pattern20749"
-       patternTransform="matrix(10,0,0,10,-80,0)" />
+       patternTransform="matrix(10,0,0,10,-80,-60)" />
     <pattern
        inkscape:collect="always"
        xlink:href="#Polkadots-smallwhite"
@@ -147,7 +792,7 @@
        inkscape:collect="always"
        xlink:href="#pattern20274"
        id="pattern20623"
-       patternTransform="matrix(10,0,0,10,-180,-730.99993)" />
+       patternTransform="matrix(10,0,0,10,-180,-790.9999)" />
     <pattern
        inkscape:collect="always"
        xlink:href="#Polkadots-smallwhite-0"
@@ -752,9 +1397,9 @@
      borderopacity="1"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="555.59101"
-     inkscape:cy="3905.9676"
+     inkscape:zoom="0.1767767"
+     inkscape:cx="-1332.266"
+     inkscape:cy="2917.2077"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -791,10 +1436,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,4947.6378)">
+     transform="translate(0,2347.6378)">
     <g
        id="g13705"
-       transform="translate(80,144)">
+       transform="translate(80,2804)">
       <rect
          y="-4875.6377"
          x="16"
@@ -969,7 +1614,7 @@
       <g
          id="g11589">
         <rect
-           style="color:#000000;fill:url(#pattern20781);fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           style="color:#000000;fill:url(#pattern21121);fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
            id="rect11581"
            width="164"
            height="118"
@@ -999,7 +1644,7 @@
            height="118"
            width="164"
            id="rect11596"
-           style="color:#000000;fill:url(#pattern20783);fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+           style="color:#000000;fill:url(#pattern21123);fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
         <text
            xml:space="preserve"
            style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
@@ -1019,7 +1664,7 @@
          id="g11602"
          transform="translate(360,0)">
         <rect
-           style="color:#000000;fill:url(#pattern20785);fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           style="color:#000000;fill:url(#pattern21125);fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
            id="rect11604"
            width="164"
            height="118"
@@ -1146,11 +1791,11 @@
        inkscape:export-xdpi="90"
        inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
        id="text4104-4"
-       y="-4856.8428"
+       y="-2196.8428"
        x="117.5975"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        xml:space="preserve"><tspan
-         y="-4856.8428"
+         y="-2196.8428"
          x="117.5975"
          id="tspan4106-7"
          sodipodi:role="line">Multiple VMs on multiple displays running concurrently</tspan></text>
@@ -1158,7 +1803,7 @@
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        x="117.5975"
-       y="-4830.8428"
+       y="-2170.8428"
        id="text13777"
        inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
        inkscape:export-xdpi="90"
@@ -1167,12 +1812,12 @@
          sodipodi:role="line"
          id="tspan13779"
          x="117.5975"
-         y="-4830.8428">Single VM with multiple virtualized displays running on multiple host displays</tspan></text>
+         y="-2170.8428">Single VM with multiple virtualized displays running on multiple host displays</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
        x="117.5975"
-       y="-4896.8428"
+       y="-2236.8428"
        id="text13781"
        inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
        inkscape:export-xdpi="90"
@@ -1181,9 +1826,9 @@
          sodipodi:role="line"
          id="tspan13783"
          x="117.5975"
-         y="-4896.8428">Relevant Use Cases</tspan></text>
+         y="-2236.8428">Relevant Use Cases</tspan></text>
     <g
-       transform="translate(80,684)"
+       transform="translate(80,3344)"
        id="g13785">
       <rect
          style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -1532,7 +2177,7 @@
     </g>
     <g
        id="g19494"
-       transform="translate(80,0)">
+       transform="translate(80,2660)">
       <path
          inkscape:connector-curvature="0"
          style="color:#000000;fill:#2f2f2f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.99999988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -1623,17 +2268,17 @@
        inkscape:export-xdpi="90"
        inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
        id="text19514-8"
-       y="-3695.8638"
+       y="-1035.8638"
        x="99.671814"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        xml:space="preserve"><tspan
-         y="-3695.8638"
+         y="-1035.8638"
          x="99.671814"
          sodipodi:role="line"
          id="tspan19553">Long tap no longer goes into selection mode, but provides a single box actions in a Popover. </tspan></text>
     <g
        id="g19796"
-       transform="translate(80,1264)">
+       transform="translate(80,3924)">
       <rect
          y="-4875.6377"
          x="16"
@@ -2126,7 +2771,7 @@
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        x="99.671814"
-       y="-3115.8638"
+       y="-455.86377"
        id="text20065"
        inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
        inkscape:export-xdpi="90"
@@ -2134,7 +2779,7 @@
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="99.671814"
-         y="-3115.8638"
+         y="-455.86377"
          id="tspan20069">Selection mode only accessible through the headerbar.</tspan></text>
     <text
        sodipodi:linespacing="125%"
@@ -2142,16 +2787,16 @@
        inkscape:export-xdpi="90"
        inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
        id="text20157"
-       y="-3092.8428"
+       y="-432.84277"
        x="98.410828"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ef2929;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        xml:space="preserve"><tspan
-         y="-3092.8428"
+         y="-432.84277"
          x="98.410828"
          id="tspan20159"
          sodipodi:role="line">FIXME:Favorite/Star pattern</tspan></text>
     <g
-       transform="translate(80,1927)"
+       transform="translate(80,4587)"
        id="g20161">
       <rect
          style="color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -2529,7 +3174,7 @@
        height="6000" />
     <g
        id="g20521"
-       transform="translate(166,2642)">
+       transform="translate(166,5302)">
       <rect
          y="-4875.0229"
          x="16.5"
@@ -2748,7 +3393,7 @@
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ef2929;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        x="888.41083"
-       y="-2732.8428"
+       y="-72.842773"
        id="text20847"
        inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
        inkscape:export-xdpi="90"
@@ -2757,14 +3402,14 @@
          sodipodi:role="line"
          id="tspan20849"
          x="888.41083"
-         y="-2732.8428">FIXME:</tspan><tspan
+         y="-72.842773">FIXME:</tspan><tspan
          sodipodi:role="line"
          x="888.41083"
-         y="-2715.3428"
+         y="-55.342773"
          id="tspan20851">modal properties</tspan><tspan
          sodipodi:role="line"
          x="888.41083"
-         y="-2697.8428"
+         y="-37.842773"
          id="tspan20861">modal new box</tspan></text>
     <text
        sodipodi:linespacing="125%"
@@ -2772,12 +3417,12 @@
        inkscape:export-xdpi="90"
        inkscape:export-filename="/home/allan/Documents/GnomeDesign/projects/contacts/png/big-landscape.png"
        id="text20853"
-       y="-1713.8428"
+       y="946.15723"
        x="105.41083"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ef2929;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
        xml:space="preserve"><tspan
          id="tspan20857"
-         y="-1713.8428"
+         y="946.15723"
          x="105.41083"
          sodipodi:role="line">FIXME: Primary window complexity (Closing quits?) … probably just treat all windows the same.</tspan></text>
   </g>
