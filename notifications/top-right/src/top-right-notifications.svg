@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="top-right-notifications.svg"
-   inkscape:export-filename="/home/aday/checkout/gnome-mockups/notifications/top-right/banners.png"
+   inkscape:export-filename="/home/aday/checkout/gnome-mockups/notifications/top-right/status-icons-restore.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -861,10 +861,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="459.7684"
-     inkscape:cy="350.44896"
+     inkscape:cx="472.7684"
+     inkscape:cy="390.44896"
      inkscape:document-units="px"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="layer10"
      showgrid="false"
      inkscape:showpageshadow="false"
      borderlayer="true"
@@ -2663,7 +2663,7 @@
        inkscape:groupmode="layer"
        id="layer10"
        inkscape:label="Restore"
-       style="display:none">
+       style="display:inline">
       <rect
          ry="9"
          rx="9.000001"
@@ -2672,7 +2672,7 @@
          height="89"
          width="299"
          id="rect12326"
-         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#babdb6;stroke-width:0.99999982;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+         style="color:#000000;fill:#343a3c;fill-opacity:1;fill-rule:nonzero;stroke:#babdb6;stroke-width:0.99999981999999998;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       <image
          y="746"
          x="-16"
@@ -2690,7 +2690,7 @@
          width="16"
          style="display:inline" />
       <g
-         transform="matrix(1.4628768,0,0,1.4628768,-35.05078,764.47797)"
+         transform="matrix(1.4628768,0,0,1.4628768,-19.05078,756.47797)"
          inkscape:label="#g5607"
          id="g12332"
          style="display:inline">
@@ -2790,7 +2790,7 @@
        inkscape:groupmode="layer"
        id="layer9"
        inkscape:label="Expanded"
-       style="display:inline">
+       style="display:none">
       <rect
          style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#babdb6;stroke-width:0.99999982;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          id="rect12228"
@@ -2894,7 +2894,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="Banners"
-     style="display:inline">
+     style="display:none">
     <rect
        ry="6"
        rx="6"
@@ -3940,13 +3940,12 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-284.36218)"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:none">
     <g
        inkscape:groupmode="layer"
        id="layer5"
        inkscape:label="System"
-       style="display:none">
+       style="display:inline">
       <path
          sodipodi:nodetypes="sccssssssssccs"
          inkscape:export-ydpi="90"
@@ -5344,7 +5343,7 @@
            sodipodi:role="line"
            id="tspan5032"
            x="739.94476"
-           y="558.24817">Removable Devices</tspan></text>
+           y="558.24817">Removable Media</tspan></text>
       <g
          id="g5537"
          transform="translate(711,545.36218)"
@@ -7277,7 +7276,7 @@
          sodipodi:nodetypes="cc" />
     </g>
     <g
-       style="display:inline"
+       style="display:none"
        inkscape:label="Message Tray"
        id="g4234"
        inkscape:groupmode="layer">
