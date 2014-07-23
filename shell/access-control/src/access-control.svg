@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="access-control.svg"
-   inkscape:export-filename="/home/aday/checkout/gnome-mockups/shell/access-control/system-menu-camera.png"
+   inkscape:export-filename="/home/aday/checkout/gnome-mockups/shell/access-control/content-access-dialog.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -741,6 +741,42 @@
        id="radialGradient17348"
        xlink:href="#linearGradient34508-4-75-2-9"
        inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14849"
+       id="linearGradient3633"
+       gradientUnits="userSpaceOnUse"
+       x1="409.7406"
+       y1="336.625"
+       x2="425.22338"
+       y2="336.625" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14859"
+       id="linearGradient3635"
+       gradientUnits="userSpaceOnUse"
+       x1="398.52965"
+       y1="336.625"
+       x2="425.79988"
+       y2="336.625" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14872"
+       id="linearGradient3637"
+       gradientUnits="userSpaceOnUse"
+       x1="412.20908"
+       y1="329.62717"
+       x2="412.20908"
+       y2="336.57812" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14849"
+       id="linearGradient3639"
+       gradientUnits="userSpaceOnUse"
+       x1="409.7406"
+       y1="336.625"
+       x2="425.22338"
+       y2="336.625" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -749,16 +785,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="434.16489"
-     inkscape:cy="379.75885"
+     inkscape:zoom="0.95019531"
+     inkscape:cx="470.42353"
+     inkscape:cy="433.39746"
      inkscape:document-units="px"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:showpageshadow="false"
      borderlayer="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1015"
+     inkscape:window-height="1135"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -802,7 +838,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="dialogs"
-     style="display:none">
+     style="display:inline">
     <g
        inkscape:groupmode="layer"
        id="layer5"
@@ -822,7 +858,7 @@
        inkscape:groupmode="layer"
        id="layer4"
        inkscape:label="content access"
-       style="display:none">
+       style="display:inline">
       <rect
          ry="24"
          rx="24.000002"
@@ -913,7 +949,7 @@
              height="125.86501"
              width="298.39905"
              id="rect4480" /></flowRegion><flowPara
-           id="flowPara4482">Contacts</flowPara></flowRoot>      <flowRoot
+           id="flowPara4482">Calendar</flowPara></flowRoot>      <flowRoot
          xml:space="preserve"
          id="flowRoot4484"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
@@ -925,7 +961,7 @@
              x="171.82695"
              y="122.77843"
              style="fill:#eeeeec" /></flowRegion><flowPara
-           id="flowPara4490">Documents</flowPara></flowRoot>      <flowRoot
+           id="flowPara4490">Contacts</flowPara></flowRoot>      <flowRoot
          transform="translate(306.42723,264.71677)"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
          id="flowRoot4562"
@@ -937,7 +973,7 @@
              height="125.86501"
              width="298.39905"
              id="rect4566" /></flowRegion><flowPara
-           id="flowPara4568">Music</flowPara></flowRoot>      <flowRoot
+           id="flowPara4568">Photos</flowPara></flowRoot>      <flowRoot
          xml:space="preserve"
          id="flowRoot4600"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
@@ -961,7 +997,7 @@
              height="155.30003"
              width="254.82799"
              id="rect4676" /></flowRegion><flowPara
-           id="flowPara4678">Choose which content you want to make available to Firefox.</flowPara></flowRoot>      <g
+           id="flowPara4678">Choose which content you want to make available to Corebird.</flowPara></flowRoot>      <g
          transform="translate(100.45747,-199.35788)"
          id="layer1-8"
          inkscape:label="Layer 1">
@@ -1265,7 +1301,7 @@
     </g>
     <g
        style="display:none"
-       inkscape:label="camera / microphone"
+       inkscape:label="camera"
        id="g13882"
        inkscape:groupmode="layer">
       <rect
@@ -1348,18 +1384,6 @@
            sodipodi:role="line">Turn on Camera?</tspan></text>
       <flowRoot
          xml:space="preserve"
-         id="flowRoot13906"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#babdb6;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
-         transform="translate(270.37493,201.77977)"><flowRegion
-           id="flowRegion13908"><rect
-             id="rect13910"
-             width="298.39905"
-             height="125.86501"
-             x="171.82695"
-             y="122.77843"
-             style="font-weight:bold;fill:#babdb6;-inkscape-font-specification:Cantarell Bold" /></flowRegion><flowPara
-           id="flowPara13912">Microphone</flowPara></flowRoot>      <flowRoot
-         xml:space="preserve"
          id="flowRoot13938"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
          transform="translate(270.42722,168.00006)"><flowRegion
@@ -1371,71 +1395,75 @@
              y="122.77843"
              style="fill:#eeeeec" /></flowRegion><flowPara
            id="flowPara13944">Firefox wants to use your camera.</flowPara></flowRoot>      <g
-         id="g14880"
-         transform="translate(43.957431,27)">
-        <path
-           transform="matrix(0,-0.75759004,1.2258065,0,-3.6371135,647.25192)"
-           d="m 424.70453,336.625 a 12.539763,7.75 0 1 1 -25.07953,0 12.539763,7.75 0 1 1 25.07953,0 z"
-           sodipodi:ry="7.75"
-           sodipodi:rx="12.539763"
-           sodipodi:cy="336.625"
-           sodipodi:cx="412.16476"
-           id="path14835"
-           style="color:#000000;fill:url(#linearGradient15000);fill-opacity:1;fill-rule:nonzero;stroke:#868686;stroke-width:1.0377003;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           sodipodi:type="arc" />
+         id="g3618"
+         transform="translate(0,-24)">
+        <g
+           transform="translate(43.957431,27)"
+           id="g14880">
+          <path
+             sodipodi:type="arc"
+             style="color:#000000;fill:url(#linearGradient3633);fill-opacity:1;fill-rule:nonzero;stroke:#868686;stroke-width:1.0377003;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="path14835"
+             sodipodi:cx="412.16476"
+             sodipodi:cy="336.625"
+             sodipodi:rx="12.539763"
+             sodipodi:ry="7.75"
+             d="m 424.70453,336.625 a 12.539763,7.75 0 1 1 -25.07953,0 12.539763,7.75 0 1 1 25.07953,0 z"
+             transform="matrix(0,-0.75759004,1.2258065,0,-3.6371135,647.25192)" />
+          <path
+             transform="matrix(0,-0.35885852,0.58064514,0,213.54033,482.90884)"
+             d="m 424.70453,336.625 a 12.539763,7.75 0 1 1 -25.07953,0 12.539763,7.75 0 1 1 25.07953,0 z"
+             sodipodi:ry="7.75"
+             sodipodi:rx="12.539763"
+             sodipodi:cy="336.625"
+             sodipodi:cx="412.16476"
+             id="path14857"
+             style="color:#000000;fill:#4787c8;fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient3635);stroke-width:2.19070101;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             sodipodi:type="arc" />
+          <path
+             transform="matrix(0.27911211,0,0,0.43870953,293.95982,187.20891)"
+             style="color:#000000;fill:none;stroke:url(#linearGradient3637);stroke-width:2.85773611;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             d="m 399.625,336.625 c 0,-4.28021 5.61424,-7.75 12.53976,-7.75 6.92552,0 12.53977,3.46979 12.53977,7.75"
+             id="path14867"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="csc" />
+        </g>
         <path
            sodipodi:type="arc"
-           style="color:#000000;fill:#4787c8;fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient15002);stroke-width:2.19070101;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           id="path14857"
+           style="color:#000000;fill:url(#linearGradient3639);fill-opacity:1;fill-rule:nonzero;stroke:#868686;stroke-width:1.0377003;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path14893"
            sodipodi:cx="412.16476"
            sodipodi:cy="336.625"
            sodipodi:rx="12.539763"
            sodipodi:ry="7.75"
            d="m 424.70453,336.625 a 12.539763,7.75 0 1 1 -25.07953,0 12.539763,7.75 0 1 1 25.07953,0 z"
-           transform="matrix(0,-0.35885852,0.58064514,0,213.54033,482.90884)" />
-        <path
-           sodipodi:nodetypes="csc"
-           inkscape:connector-curvature="0"
-           id="path14867"
-           d="m 399.625,336.625 c 0,-4.28021 5.61424,-7.75 12.53976,-7.75 6.92552,0 12.53977,3.46979 12.53977,7.75"
-           style="color:#000000;fill:none;stroke:url(#linearGradient15004);stroke-width:2.85773611;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           transform="matrix(0.27911211,0,0,0.43870953,293.95982,187.20891)" />
-      </g>
-      <path
-         transform="matrix(0,-0.75759004,1.2258065,0,40.320318,704.25192)"
-         d="m 424.70453,336.625 a 12.539763,7.75 0 1 1 -25.07953,0 12.539763,7.75 0 1 1 25.07953,0 z"
-         sodipodi:ry="7.75"
-         sodipodi:rx="12.539763"
-         sodipodi:cy="336.625"
-         sodipodi:cx="412.16476"
-         id="path14893"
-         style="color:#000000;fill:url(#linearGradient15006);fill-opacity:1;fill-rule:nonzero;stroke:#868686;stroke-width:1.0377003;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
-      <flowRoot
-         transform="translate(300.42722,230.25171)"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         id="flowRoot14905"
-         xml:space="preserve"><flowRegion
-           id="flowRegion14907"><rect
-             style="fill:#eeeeec"
-             y="122.77843"
-             x="171.82695"
-             height="155.30003"
-             width="254.82799"
-             id="rect14909" /></flowRegion><flowPara
-           id="flowPara14911">Logitech 19AF</flowPara></flowRoot>      <flowRoot
-         xml:space="preserve"
-         id="flowRoot14913"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         transform="translate(300.42722,260.23071)"><flowRegion
-           id="flowRegion14915"><rect
-             id="rect14917"
-             width="254.82799"
-             height="155.30003"
-             x="171.82695"
-             y="122.77843"
-             style="fill:#eeeeec" /></flowRegion><flowPara
-           id="flowPara14919">Built-in microphone</flowPara></flowRoot>      <rect
+           transform="matrix(0,-0.75759004,1.2258065,0,40.320318,704.25192)" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot14905"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           transform="translate(300.42722,230.25171)"><flowRegion
+             id="flowRegion14907"><rect
+               id="rect14909"
+               width="254.82799"
+               height="155.30003"
+               x="171.82695"
+               y="122.77843"
+               style="fill:#eeeeec" /></flowRegion><flowPara
+             id="flowPara14911">Logitech B920</flowPara></flowRoot>        <flowRoot
+           transform="translate(300.42722,260.23071)"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+           id="flowRoot14913"
+           xml:space="preserve"><flowRegion
+             id="flowRegion14915"><rect
+               style="fill:#eeeeec"
+               y="122.77843"
+               x="171.82695"
+               height="155.30003"
+               width="254.82799"
+               id="rect14917" /></flowRegion><flowPara
+             id="flowPara14919">Built-in camera</flowPara></flowRoot>      </g>
+      <rect
          style="color:#000000;fill:#303636;fill-opacity:1;fill-rule:nonzero;stroke:#868686;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          id="rect14930"
          width="6"
@@ -1517,6 +1545,59 @@
            inkscape:label="actions"
            id="layer12" />
       </g>
+      <g
+         id="g3606"
+         transform="translate(660.99985,386)">
+        <g
+           transform="translate(-61,-447)"
+           style="display:inline"
+           inkscape:label="status"
+           id="layer9-6" />
+        <g
+           transform="translate(-61,-447)"
+           style="display:inline"
+           inkscape:label="devices"
+           id="layer10-22">
+          <path
+             style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#bebebe;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:1.00302994;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+             id="rect6806"
+             d="m 64.5002,452 c -0.27614,0 -0.5,0.22386 -0.5,0.5 l 0,2.96875 c 0,1.96838 1.25801,3.62455 3,4.25 l 0,1.28125 -2,0 c -0.56475,0 -1,0.49007 -1,1 l 0,1 0.84375,0 2.15625,0 5,0 0.0937,0 0.90625,0 0,-1 c -6e-5,-0.58435 -0.47642,-0.99995 -1,-1 l -2,0 0,-1.28125 c 1.74199,-0.62545 3,-2.28162 3,-4.25 l 0,-2.96875 c 0,-0.27614 -0.22386,-0.5 -0.5,-0.5 -0.27614,0 -0.5,0.22386 -0.5,0.5 0,0.069 0.006,0.12768 0.0312,0.1875 l 0,2.78125 c 0,1.96415 -1.57895,3.53125 -3.53125,3.53125 -1.9523,0 -3.5,-1.5671 -3.5,-3.53125 l 0,-2.96875 c 0,-0.27614 -0.22386,-0.5 -0.5,-0.5 z M 68.5,447.98712 c 1.385,0 2.5,1.115 2.5,2.5 L 71,455.5 c 0,1.385 -1.115,2.5 -2.5,2.5 -1.385,0 -2.5,-1.115 -2.5,-2.5 l 0,-5.01288 c 0,-1.385 1.115,-2.5 2.5,-2.5 z"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           transform="translate(-61,-447)"
+           inkscape:label="apps"
+           id="layer11-6" />
+        <g
+           transform="translate(-61,-447)"
+           style="display:inline"
+           inkscape:label="places"
+           id="layer13-1" />
+        <g
+           transform="translate(-61,-447)"
+           inkscape:label="mimetypes"
+           id="layer14-8" />
+        <g
+           transform="translate(-61,-447)"
+           style="display:inline"
+           inkscape:label="emblems"
+           id="layer15-8" />
+        <g
+           transform="translate(-61,-447)"
+           style="display:inline"
+           inkscape:label="emotes"
+           id="g71291-1" />
+        <g
+           transform="translate(-61,-447)"
+           style="display:inline"
+           inkscape:label="categories"
+           id="g4953-3" />
+        <g
+           transform="translate(-61,-447)"
+           style="display:inline"
+           inkscape:label="actions"
+           id="layer12-4" />
+      </g>
     </g>
   </g>
   <g
@@ -1543,7 +1624,7 @@
        transform="translate(0,283.37734)"
        sodipodi:end="6.2831853"
        sodipodi:start="3.1415927"
-       d="M 9,29.999999 A 42,16 0 0 1 93,30 l -42,0 z"
+       d="M 9,29.999999 C 9.0000011,21.163443 27.804042,14 51.000002,14 74.195961,14 93,21.163444 93,30 l -42,0 z"
        sodipodi:ry="16"
        sodipodi:rx="42"
        sodipodi:cy="30"
@@ -1632,7 +1713,7 @@
            sodipodi:ry="1"
            sodipodi:rx="1"
            id="path10852"
-           d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+           d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
            sodipodi:cy="209"
            sodipodi:cx="28"
            clip-path="none" />
@@ -1857,7 +1938,7 @@
        inkscape:groupmode="layer"
        id="layer7"
        inkscape:label="system menu - camera"
-       style="display:inline">
+       style="display:none">
       <path
          sodipodi:nodetypes="sccssssssssccs"
          inkscape:export-ydpi="90"
