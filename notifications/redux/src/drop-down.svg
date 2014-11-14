@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.92 r13675"
    sodipodi:docname="drop-down.svg"
-   inkscape:export-filename="/home/aday/checkout/gnome-mockups/notifications/redux/drop-down-empty.png"
+   inkscape:export-filename="/home/aday/checkout/gnome-mockups/notifications/redux/drop-down.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -211,10 +211,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="470.40728"
-     inkscape:cy="318.05721"
+     inkscape:cx="498.40728"
+     inkscape:cy="308.05721"
      inkscape:document-units="px"
-     inkscape:current-layer="layer24"
+     inkscape:current-layer="layer20"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -254,7 +254,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="bg small"
-     style="display:inline">
+     style="display:none">
     <path
        sodipodi:nodetypes="sccssssssssccs"
        inkscape:export-ydpi="90"
@@ -268,7 +268,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="bg large"
-     style="display:none">
+     style="display:inline">
     <path
        inkscape:connector-curvature="0"
        style="display:inline;fill:#000000;fill-opacity:1;stroke:#a5a5a5;stroke-width:1.99999988;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1031,7 +1031,7 @@
      inkscape:groupmode="layer"
      id="layer20"
      inkscape:label="notifications"
-     style="display:none"
+     style="display:inline"
      transform="translate(0,-3120)">
     <rect
        style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.53879311;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:#2e3436;stroke-width:4.41593933;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
@@ -1135,33 +1135,19 @@
        width="32"
        style="display:inline" />
     <text
-       sodipodi:linespacing="125%"
-       id="text17601"
-       y="3229.7754"
-       x="353.52716"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.99999332px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
-       xml:space="preserve"
-       inkscape:export-filename="/home/aday/image13827.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         y="3229.7754"
-         x="353.52716"
-         id="tspan17603"
-         sodipodi:role="line">Alarm</tspan></text>
-    <text
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="/home/aday/image13827.png"
        xml:space="preserve"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-indent:0;text-align:end;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:end;display:inline;overflow:visible;visibility:visible;fill:#888a85;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
-       x="623.15668"
-       y="3228.771"
+       x="630.78265"
+       y="3218.771"
        id="text17605"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan17607"
-         x="623.15668"
-         y="3228.771">11:53</tspan></text>
+         x="630.78265"
+         y="3218.771">11:53</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text17609"
@@ -1498,39 +1484,38 @@
        y="3376.9871"
        x="310.01337"
        id="image6263"
-       xlink:href="data:image/png;base64,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
-VAKz87gAAAAASUVORK5CYII=
-"
+       xlink:href="data:image/png;base64,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 VAKz87gAAAAASUVORK5CYII= "
        preserveAspectRatio="none"
        height="32"
        width="32" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/image13827.png"
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.99999332px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+       x="353.52716"
+       y="3221.7754"
+       id="text18147"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan18149"
+         x="353.52716"
+         y="3221.7754">Alarm</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text18151"
+       y="3239.7754"
+       x="353.52716"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.99999332px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#babdb6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+       xml:space="preserve"
+       inkscape:export-filename="/home/aday/image13827.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="3239.7754"
+         x="353.52716"
+         id="tspan18153"
+         sodipodi:role="line">12:30</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2079,7 +2064,7 @@ VAKz87gAAAAASUVORK5CYII=
      inkscape:groupmode="layer"
      id="layer24"
      inkscape:label="empty"
-     style="display:inline"
+     style="display:none"
      transform="translate(0,-3120)">
     <text
        inkscape:export-ydpi="90"
