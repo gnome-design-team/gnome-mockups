@@ -175,19 +175,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="581.58404"
-     inkscape:cy="601.064"
+     inkscape:zoom="1"
+     inkscape:cx="557.27747"
+     inkscape:cy="258.61974"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
-     showgrid="true"
+     showgrid="false"
      inkscape:showpageshadow="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1920"
-     inkscape:window-height="1134"
+     inkscape:window-height="1015"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -207,7 +207,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -216,7 +216,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,545.16879)"
-     style="display:none">
+     style="display:inline">
     <rect
        style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.3;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
        id="rect5115"
@@ -298,8 +298,7 @@
            transform="matrix(1.9999995,0,0,1.9999995,13.00022,-227.9999)"
            cx="28"
            cy="209"
-           r="1"
-           d="m 29,209 a 1,1 0 0 1 -1,1 1,1 0 0 1 -1,-1 1,1 0 0 1 1,-1 1,1 0 0 1 1,1 z" />
+           r="1" />
         <path
            inkscape:connector-curvature="0"
            d="m 69.00019,179.0002 c -2.81422,0 -5.17173,1 -7,2.58557 l 0,1.41443 1.48072,0 c 1.51928,-1.26466 3.21936,-2 5.51928,-2 2.29992,0 4,0.77953 5.51928,2 l 1.48072,0 0,-1.38128 c -1.64044,-1.46575 -4.18578,-2.61872 -7,-2.61872 z"
@@ -586,8 +585,7 @@
            clip-path="none"
            cx="28"
            cy="209"
-           r="1"
-           d="m 29,209 a 1,1 0 0 1 -1,1 1,1 0 0 1 -1,-1 1,1 0 0 1 1,-1 1,1 0 0 1 1,1 z" />
+           r="1" />
         <path
            style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.35;fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
            sodipodi:nodetypes="scccscccs"
@@ -874,8 +872,7 @@
            transform="matrix(1.9999995,0,0,1.9999995,13.00022,-227.9999)"
            cx="28"
            cy="209"
-           r="1"
-           d="m 29,209 a 1,1 0 0 1 -1,1 1,1 0 0 1 -1,-1 1,1 0 0 1 1,-1 1,1 0 0 1 1,1 z" />
+           r="1" />
         <path
            inkscape:connector-curvature="0"
            d="m 69.00019,179.0002 c -2.81422,0 -5.17173,1 -7,2.58557 l 0,1.41443 1.48072,0 c 1.51928,-1.26466 3.21936,-2 5.51928,-2 2.29992,0 4,0.77953 5.51928,2 l 1.48072,0 0,-1.38128 c -1.64044,-1.46575 -4.18578,-2.61872 -7,-2.61872 z"
@@ -1259,12 +1256,19 @@
          id="tspan36105"
          x="114.16827"
          y="-410.69617">New emais from Angela Avery, Jan Hendricks, Roger Law, ...</tspan></text>
+    <ellipse
+       cy="-462.75107"
+       cx="157.55937"
+       id="ellipse12907"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       rx="0.66146106"
+       ry="0.661461" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="banners 2 - expanded"
-     style="display:inline"
+     style="display:none"
      transform="translate(0,-137.58333)">
     <path
        inkscape:export-filename="/home/jimmac/src/cvs/gnome/gnome-shell-design/mockups/motion/textures/top-bar-overview.png"
@@ -1335,8 +1339,7 @@
            clip-path="none"
            cx="28"
            cy="209"
-           r="1"
-           d="m 29,209 a 1,1 0 0 1 -1,1 1,1 0 0 1 -1,-1 1,1 0 0 1 1,-1 1,1 0 0 1 1,1 z" />
+           r="1" />
         <path
            style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.35;fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
            sodipodi:nodetypes="scccscccs"
@@ -1631,8 +1634,7 @@
            transform="matrix(1.9999995,0,0,1.9999995,13.00022,-227.9999)"
            cx="28"
            cy="209"
-           r="1"
-           d="m 29,209 a 1,1 0 0 1 -1,1 1,1 0 0 1 -1,-1 1,1 0 0 1 1,-1 1,1 0 0 1 1,1 z" />
+           r="1" />
         <path
            inkscape:connector-curvature="0"
            d="m 69.00019,179.0002 c -2.81422,0 -5.17173,1 -7,2.58557 l 0,1.41443 1.48072,0 c 1.51928,-1.26466 3.21936,-2 5.51928,-2 2.29992,0 4,0.77953 5.51928,2 l 1.48072,0 0,-1.38128 c -1.64044,-1.46575 -4.18578,-2.61872 -7,-2.61872 z"
@@ -2008,8 +2010,7 @@
            clip-path="none"
            cx="28"
            cy="209"
-           r="1"
-           d="m 29,209 a 1,1 0 0 1 -1,1 1,1 0 0 1 -1,-1 1,1 0 0 1 1,-1 1,1 0 0 1 1,1 z" />
+           r="1" />
         <path
            style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.35;fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
            sodipodi:nodetypes="scccscccs"
@@ -2740,6 +2741,13 @@
          transform="translate(-60,-518)"
          style="fill:#babdb6" />
     </g>
+    <ellipse
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       id="path12894"
+       cx="157.55937"
+       cy="198.83438"
+       ry="0.661461"
+       rx="0.66146106" />
   </g>
   <g
      inkscape:groupmode="layer"
