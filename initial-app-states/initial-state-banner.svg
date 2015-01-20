@@ -21,11 +21,6 @@
    inkscape:export-ydpi="90">
   <defs
      id="defs8672">
-    <pattern
-       inkscape:collect="always"
-       xlink:href="#pattern9930"
-       id="pattern10651"
-       patternTransform="matrix(0.02946587,0,0,0.02946587,10.020231,273.38045)" />
     <inkscape:path-effect
        effect="spiro"
        id="path-effect7911"
@@ -1507,6 +1502,36 @@ oGf/2Q==
          x="0"
          y="5.6843419e-14" />
     </pattern>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9673-6">
+      <g
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.53156143;stroke-miterlimit:4;stroke-dasharray:none;display:inline"
+         inkscape:label="camera-photo"
+         id="g9675-7"
+         transform="matrix(18.8125,0,0,18.8125,-936.25,-4634.8878)">
+        <path
+           style="color:#bebebe;fill:#729fcf;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 26,278.46875 c -0.288968,0 -0.53125,0.24228 -0.53125,0.53125 l 0,1 A 0.47845317,0.47845317 0 0 1 25,280.46875 l -3,0 c -0.291995,0 -0.53125,0.24109 -0.53125,0.53125 l 0,8 c 0,0.29016 0.239255,0.53125 0.53125,0.53125 l 12,0 c 0.291995,0 0.53125,-0.24109 0.53125,-0.53125 l 0,-8 c 0,-0.29016 -0.239255,-0.53125 -0.53125,-0.53125 l -3,0 A 0.47845317,0.47845317 0 0 1 30.53125,280 l 0,-1 c 0,-0.28897 -0.242282,-0.53125 -0.53125,-0.53125 l -4,0 z m 2,2.0625 c 2.467688,0 4.46875,2.00106 4.46875,4.46875 0,2.46769 -2.001062,4.46875 -4.46875,4.46875 -2.467688,0 -4.46875,-2.00106 -4.46875,-4.46875 0,-2.46769 2.001062,-4.46875 4.46875,-4.46875 z m 0,2.9375 c -0.846021,0 -1.53125,0.68523 -1.53125,1.53125 0,0.84602 0.685229,1.53125 1.53125,1.53125 0.846021,0 1.53125,-0.68523 1.53125,-1.53125 0,-0.84602 -0.685229,-1.53125 -1.53125,-1.53125 z"
+           id="path9677-2"
+           inkscape:connector-curvature="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9673-8">
+      <g
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.53156143;stroke-miterlimit:4;stroke-dasharray:none;display:inline"
+         inkscape:label="camera-photo"
+         id="g9675-1"
+         transform="matrix(18.8125,0,0,18.8125,-936.25,-4634.8878)">
+        <path
+           style="color:#bebebe;fill:#729fcf;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 26,278.46875 c -0.288968,0 -0.53125,0.24228 -0.53125,0.53125 l 0,1 A 0.47845317,0.47845317 0 0 1 25,280.46875 l -3,0 c -0.291995,0 -0.53125,0.24109 -0.53125,0.53125 l 0,8 c 0,0.29016 0.239255,0.53125 0.53125,0.53125 l 12,0 c 0.291995,0 0.53125,-0.24109 0.53125,-0.53125 l 0,-8 c 0,-0.29016 -0.239255,-0.53125 -0.53125,-0.53125 l -3,0 A 0.47845317,0.47845317 0 0 1 30.53125,280 l 0,-1 c 0,-0.28897 -0.242282,-0.53125 -0.53125,-0.53125 l -4,0 z m 2,2.0625 c 2.467688,0 4.46875,2.00106 4.46875,4.46875 0,2.46769 -2.001062,4.46875 -4.46875,4.46875 -2.467688,0 -4.46875,-2.00106 -4.46875,-4.46875 0,-2.46769 2.001062,-4.46875 4.46875,-4.46875 z m 0,2.9375 c -0.846021,0 -1.53125,0.68523 -1.53125,1.53125 0,0.84602 0.685229,1.53125 1.53125,1.53125 0.846021,0 1.53125,-0.68523 1.53125,-1.53125 0,-0.84602 -0.685229,-1.53125 -1.53125,-1.53125 z"
+           id="path9677-5"
+           inkscape:connector-curvature="0" />
+      </g>
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1519,7 +1544,7 @@ oGf/2Q==
      inkscape:cx="418.67917"
      inkscape:cy="385.51257"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      showgrid="false"
      borderlayer="true"
      inkscape:showpageshadow="false"
@@ -1792,9 +1817,16 @@ oGf/2Q==
          width="1"
          height="1" />
     </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="stencil icons"
+     style="display:none">
     <g
+       style="display:inline"
        id="g9821"
-       transform="translate(-790,0)">
+       transform="translate(5.9999997,-273.36218)">
       <g
          transform="matrix(18.8125,0,0,18.8125,-19.25,-4718.8878)"
          id="g9823"
@@ -1808,7 +1840,7 @@ oGf/2Q==
       </g>
       <g
          id="g9827"
-         clip-path="url(#clipPath9673)"
+         clip-path="url(#clipPath9673-6)"
          transform="translate(917,-84)"
          style="opacity:0.59832638">
         <g
@@ -2010,12 +2042,48 @@ oGf/2Q==
         </g>
       </g>
     </g>
-  </g>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/andreasn/SparkleShare/gnome-mockups/initial-app-states/layout-proposal.png"
+       sodipodi:linespacing="125%"
+       id="text8417-4"
+       y="504.69727"
+       x="511.81512"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#888a85;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       xml:space="preserve"><tspan
+         y="504.69727"
+         x="511.81512"
+         id="tspan8419-9"
+         sodipodi:role="line">Welcome to Photos!</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot9323-7"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:139.99999762%;letter-spacing:0px;word-spacing:0px;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="translate(-671.3097,189.18671)"
+       inkscape:export-filename="/home/andreasn/SparkleShare/gnome-mockups/initial-app-states/layout-proposal.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion9325-6"><rect
+           id="rect9327-4"
+           width="1027.1392"
+           height="138.07822"
+           x="669.63013"
+           y="321.78152"
+           style="line-height:139.99999762%;fill:#555753;fill-opacity:1" /></flowRegion><flowPara
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:139.99999762%;text-anchor:middle;fill:#555753;fill-opacity:1;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         id="flowPara9329-7">Photos from your <flowSpan
+   style="line-height:139.99999762%;fill:#3465a4;fill-opacity:1"
+   id="flowSpan9331-1">Online Accounts</flowSpan> and</flowPara><flowPara
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:139.99999762%;text-anchor:middle;fill:#555753;fill-opacity:1;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         id="flowPara9333-1"><flowSpan
+   style="line-height:139.99999762%;fill:#3465a4;fill-opacity:1"
+   id="flowSpan9335-9">Pictures folder</flowSpan> will appear here.</flowPara></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="photo stencil"
-     style="display:inline">
+     style="display:none">
     <text
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -2068,9 +2136,9 @@ oGf/2Q==
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="lanham gnome style"
-     style="display:none">
+     style="display:inline">
     <g
-       transform="translate(-1.2330642e-6,-284.36218)"
+       transform="translate(-1.2330642e-6,-266.36218)"
        id="g13507">
       <g
          style="opacity:0.53231937;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.45833337;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter13503)"
@@ -2143,7 +2211,7 @@ oGf/2Q==
                sodipodi:cy="118.96296"
                sodipodi:rx="21.037037"
                sodipodi:ry="21.037037"
-               d="m 229.62963,118.96296 a 21.037037,21.037037 0 1 1 -42.07408,0 l 21.03704,0 z"
+               d="m 229.62963,118.96296 c 0,11.61843 -9.41861,21.03704 -21.03704,21.03704 -11.61843,0 -21.03704,-9.41861 -21.03704,-21.03704 0,0 0,0 0,0 l 21.03704,0 z"
                transform="translate(275.11023,326.63882)"
                sodipodi:start="0"
                sodipodi:end="3.1415927" />
@@ -2151,7 +2219,7 @@ oGf/2Q==
                sodipodi:end="3.1415927"
                sodipodi:start="0"
                transform="matrix(0.47887318,0,0,-0.47887318,383.81342,526.86625)"
-               d="m 229.62963,118.96296 a 21.037037,21.037037 0 1 1 -42.07408,0 l 21.03704,0 z"
+               d="m 229.62963,118.96296 c 0,11.61843 -9.41861,21.03704 -21.03704,21.03704 -11.61843,0 -21.03704,-9.41861 -21.03704,-21.03704 0,0 0,0 0,0 l 21.03704,0 z"
                sodipodi:ry="21.037037"
                sodipodi:rx="21.037037"
                sodipodi:cy="118.96296"
@@ -2173,7 +2241,7 @@ oGf/2Q==
                sodipodi:end="3.1415927"
                sodipodi:start="0"
                transform="translate(275.11023,326.63882)"
-               d="m 229.62963,118.96296 a 21.037037,21.037037 0 1 1 -42.07408,0 l 21.03704,0 z"
+               d="m 229.62963,118.96296 c 0,11.61843 -9.41861,21.03704 -21.03704,21.03704 -11.61843,0 -21.03704,-9.41861 -21.03704,-21.03704 0,0 0,0 0,0 l 21.03704,0 z"
                sodipodi:ry="21.037037"
                sodipodi:rx="21.037037"
                sodipodi:cy="118.96296"
@@ -2189,7 +2257,7 @@ oGf/2Q==
                sodipodi:cy="118.96296"
                sodipodi:rx="21.037037"
                sodipodi:ry="21.037037"
-               d="m 229.62963,118.96296 a 21.037037,21.037037 0 1 1 -42.07408,0 l 21.03704,0 z"
+               d="m 229.62963,118.96296 c 0,11.61843 -9.41861,21.03704 -21.03704,21.03704 -11.61843,0 -21.03704,-9.41861 -21.03704,-21.03704 0,0 0,0 0,0 l 21.03704,0 z"
                transform="matrix(0.47887318,0,0,-0.47887318,383.81342,526.86625)"
                sodipodi:start="0"
                sodipodi:end="3.1415927" />
@@ -2250,5 +2318,41 @@ oGf/2Q==
         </g>
       </g>
     </g>
-  </g>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/andreasn/SparkleShare/gnome-mockups/initial-app-states/layout-proposal.png"
+       sodipodi:linespacing="125%"
+       id="text8417-4-5"
+       y="485.69727"
+       x="511.81512"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#888a85;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       xml:space="preserve"><tspan
+         y="485.69727"
+         x="511.81512"
+         id="tspan8419-9-0"
+         sodipodi:role="line">Welcome to Photos!</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot9323-7-7"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:139.99999762%;letter-spacing:0px;word-spacing:0px;fill:#555753;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="translate(-671.3097,170.18671)"
+       inkscape:export-filename="/home/andreasn/SparkleShare/gnome-mockups/initial-app-states/layout-proposal.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion9325-6-5"><rect
+           id="rect9327-4-9"
+           width="1027.1392"
+           height="138.07822"
+           x="669.63013"
+           y="321.78152"
+           style="line-height:139.99999762%;fill:#555753;fill-opacity:1" /></flowRegion><flowPara
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:139.99999762%;text-anchor:middle;fill:#555753;fill-opacity:1;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         id="flowPara9329-7-2">Photos from your <flowSpan
+   style="line-height:139.99999762%;fill:#3465a4;fill-opacity:1"
+   id="flowSpan9331-1-2">Online Accounts</flowSpan> and</flowPara><flowPara
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:139.99999762%;text-anchor:middle;fill:#555753;fill-opacity:1;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         id="flowPara9333-1-7"><flowSpan
+   style="line-height:139.99999762%;fill:#3465a4;fill-opacity:1"
+   id="flowSpan9335-9-6">Pictures folder</flowSpan> will appear here.</flowPara></flowRoot>  </g>
 </svg>
