@@ -12615,6 +12615,39 @@ t3BnRtg2qOQpxkfWrhKPLvwUQ5+XPRfr9O9NmaP/2Q==
          in2="SourceGraphic"
          id="feComposite7731" />
     </filter>
+    <filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:label="Lightness-Contrast"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Increase or decrease lightness and contrast"
+       color-interpolation-filters="sRGB"
+       id="filter7777">
+      <feFlood
+         result="result1"
+         flood-opacity="0"
+         flood-color="rgb(222,222,222)"
+         id="feFlood7779" />
+      <feBlend
+         mode="normal"
+         in2="SourceGraphic"
+         result="result2"
+         id="feBlend7781" />
+      <feComposite
+         k2="2.0463320463320471"
+         operator="arithmetic"
+         in2="SourceGraphic"
+         id="feComposite7783"
+         k1="0.23166023166023209"
+         k3="0.077220077220076178"
+         k4="0.19305019305019222" />
+      <feComposite
+         operator="in"
+         in2="SourceGraphic"
+         id="feComposite7785" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -12624,8 +12657,8 @@ t3BnRtg2qOQpxkfWrhKPLvwUQ5+XPRfr9O9NmaP/2Q==
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="-261.24604"
-     inkscape:cy="72.569714"
+     inkscape:cx="-77.398281"
+     inkscape:cy="81.054995"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -12683,7 +12716,7 @@ t3BnRtg2qOQpxkfWrhKPLvwUQ5+XPRfr9O9NmaP/2Q==
          id="flowPara5757"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;font-family:Cantarell;-inkscape-font-specification:Cantarell">Image: https://www.flickr.com/photos/eevblog/15354008908</flowPara></flowRoot>    <g
        id="g7140"
-       style="fill:url(#pattern6997);fill-opacity:1.0">
+       style="fill:url(#pattern6997);fill-opacity:1;filter:url(#filter7777)">
       <path
          style="color:#000000;fill:url(#pattern7721);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;filter:url(#filter7723)"
          d="M 32,0 C 14.326888,0 0,14.326889 0,32 0,44.249743 6.8904777,54.872034 17,60.25 l 0,135.5 C 6.8904777,201.12797 0,211.75026 0,224 c 0,17.67311 14.326888,32 32,32 11.844174,0 22.18568,-6.43564 27.71875,-16 l 136.5625,0 c 5.53307,9.56436 15.87458,16 27.71875,16 17.67311,0 32,-14.32689 32,-32 0,-11.81366 -6.41389,-22.11275 -15.9375,-27.65625 l 0,-136.6875 C 249.58611,54.112745 256,43.813655 256,32 256,14.326889 241.67311,0 224,0 211.75026,0 201.12797,6.8904782 195.75,17 L 60.25,17 C 54.872034,6.8904782 44.249743,0 32,0 z M 59.53125,49 196.875,49 c 0.89346,1.422754 1.9005,2.770756 3,4.03125 l -16.65625,16.625 C 179.24174,66.731687 174.31512,65 169,65 c -10.07098,0 -18.68892,6.206114 -22.25,15 l -36.5,0 C 106.68892,71.206114 98.070975,65 88,65 84.355977,65 80.906032,65.828109 77.8125,67.28125 L 59.53125,49 z M 49,61.0625 66.4375,78.46875 C 64.882444,81.648159 64,85.22218 64,89 c 0,10.448538 6.680158,19.32939 16,22.625 l 0,34.75 c -9.319842,3.29561 -16,12.17646 -16,22.625 0,5.57141 1.908484,10.70824 5.09375,14.78125 L 53,199.875 c -1.255369,-1.0934 -2.583953,-2.11075 -4,-3 L 49,61.0625 z m 159,6.40625 0,128.8125 c -0.25086,0.14513 -0.5035,0.28582 -0.75,0.4375 L 190.40625,179.875 C 192.06686,176.61164 193,172.91248 193,169 c 0,-10.44854 -6.68016,-19.32939 -16,-22.625 l 0,-34.75 c 9.31984,-3.29561 16,-12.176462 16,-22.625 0,-2.004586 -0.25571,-3.951202 -0.71875,-5.8125 L 208,67.46875 z M 110.9375,96 l 35.125,0 c 2.22159,7.28169 7.79405,13.09899 14.9375,15.625 l 0,34.75 c -6.47992,2.29138 -11.68122,7.28155 -14.25,13.625 l -36.5,0 C 107.68122,153.65655 102.47992,148.66638 96,146.375 l 0,-34.75 c 7.14345,-2.52601 12.71591,-8.34331 14.9375,-15.625 z m 0,80 35.125,0 c 3.00006,9.83328 12.12264,17 22.9375,17 3.49617,0 6.81666,-0.74974 9.8125,-2.09375 L 195.9375,208 67.46875,208 83,192.46875 C 84.611079,192.80976 86.287358,193 88,193 c 10.814861,0 19.93744,-7.16672 22.9375,-17 z"
