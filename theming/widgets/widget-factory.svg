@@ -23,6 +23,18 @@
      id="defs47624">
     <linearGradient
        inkscape:collect="always"
+       id="linearGradient9249">
+      <stop
+         style="stop-color:#a7a7a7;stop-opacity:1;"
+         offset="0"
+         id="stop9251" />
+      <stop
+         style="stop-color:#a7a7a7;stop-opacity:0;"
+         offset="1"
+         id="stop9253" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
        id="linearGradient71759">
       <stop
          style="stop-color:#ffffff;stop-opacity:1;"
@@ -1829,6 +1841,15 @@
        y1="816.875"
        x2="608.31805"
        y2="810.375" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9249"
+       id="linearGradient9311"
+       gradientUnits="userSpaceOnUse"
+       x1="633.61292"
+       y1="907.96118"
+       x2="633.61292"
+       y2="912.05493" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1838,8 +1859,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="458.3851"
-     inkscape:cy="2204.0353"
+     inkscape:cx="464.52081"
+     inkscape:cy="2196.129"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -10787,26 +10808,12 @@
        id="g9037"
        transform="translate(-92,0)">
       <rect
-         y="905"
-         x="631.96582"
-         height="2.0037913"
-         width="3.0266736"
-         id="rect9039"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.672;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#f3f3f3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33299994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#b1b3b1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33299994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect9041"
-         width="2.0320911"
-         height="2.0075824"
-         x="631.98438"
-         y="904.99622" />
-      <rect
-         y="905.00269"
-         x="633.01917"
-         height="2.0056868"
-         width="0.9921875"
-         id="rect9043"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#f3f3f3;fill-opacity:0.50969531;fill-rule:nonzero;stroke:none;stroke-width:1.33299994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+         y="907.02917"
+         x="632.95667"
+         height="4.9890075"
+         width="1.0598193"
+         id="rect9239"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient9311);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33299994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
     </g>
     <use
        x="0"
