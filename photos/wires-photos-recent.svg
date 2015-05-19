@@ -141,6 +141,10 @@
          id="rect13664"
          style="color:#000000;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:#eeeeec;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     </clipPath>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect8915-0-8-2-7-4-4-8-0"
+       is_visible="true" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -151,7 +155,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1"
      inkscape:cx="389.97392"
-     inkscape:cy="7497.9144"
+     inkscape:cy="7657.9144"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -297,41 +301,6 @@
            id="tspan23076"
            x="506.68115"
            y="-3836.7798">Albums</tspan></text>
-      <g
-         id="g17838"
-         transform="translate(273,0)">
-        <rect
-           ry="4"
-           rx="4"
-           y="-3858.1377"
-           x="842.50012"
-           height="33"
-           width="33"
-           id="rect23078"
-           style="display:inline;fill:#555753;fill-opacity:1;fill-rule:evenodd;stroke:#888a85;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-        <g
-           transform="translate(789.9998,-4636.6379)"
-           inkscape:label="object-select"
-           id="g14485"
-           style="display:inline">
-          <path
-             style="fill:none;stroke:#bebebe;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             d="m 65.00055,794.99698 2.999913,2.99886 5.999826,-5.99773"
-             id="path8913-6-7-1-5"
-             inkscape:path-effect="#path-effect8915-0-8-2-7-4-4-8"
-             inkscape:original-d="m 65.00055,794.99698 2.999913,2.99886 5.999826,-5.99773"
-             inkscape:connector-curvature="0"
-             sodipodi:nodetypes="ccc" />
-          <rect
-             style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
-             id="rect8856-7"
-             width="16"
-             height="16"
-             x="61.000198"
-             y="787"
-             inkscape:label="a" />
-        </g>
-      </g>
       <text
          sodipodi:linespacing="125%"
          id="text11099"
@@ -5577,5 +5546,40 @@
          id="tspan14457-9"
          x="102.75031"
          y="-6871.7529">Photos sorted by recency</tspan></text>
+    <g
+       id="g17838"
+       transform="translate(272.99998,-2980)">
+      <rect
+         ry="4"
+         rx="4"
+         y="-3858.1377"
+         x="842.50012"
+         height="33"
+         width="33"
+         id="rect23078"
+         style="display:inline;fill:#555753;fill-opacity:1;fill-rule:evenodd;stroke:#888a85;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <g
+         transform="translate(789.9998,-4636.6379)"
+         inkscape:label="object-select"
+         id="g14485"
+         style="display:inline">
+        <path
+           style="fill:none;stroke:#bebebe;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 65.00055,794.99698 2.999913,2.99886 5.999826,-5.99773"
+           id="path8913-6-7-1-5"
+           inkscape:path-effect="#path-effect8915-0-8-2-7-4-4-8-0"
+           inkscape:original-d="m 65.00055,794.99698 2.999913,2.99886 5.999826,-5.99773"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccc" />
+        <rect
+           style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
+           id="rect8856-7"
+           width="16"
+           height="16"
+           x="61.000198"
+           y="787"
+           inkscape:label="a" />
+      </g>
+    </g>
   </g>
 </svg>
