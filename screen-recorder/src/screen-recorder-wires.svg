@@ -2121,10 +2121,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="410.2802"
-     inkscape:cy="1666.1818"
+     inkscape:cx="630.00744"
+     inkscape:cy="1819.8305"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1136"
@@ -4060,7 +4060,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="editing"
-     style="display:inline"
+     style="display:none"
      transform="translate(0,-660)">
     <path
        style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#3e4444;fill-opacity:1;fill-rule:nonzero;stroke:#1d2020;stroke-width:0.99329859;stroke-opacity:1;marker:none;filter:url(#filter12000-4-9-2);enable-background:accumulate"
@@ -4277,7 +4277,7 @@
          id="tspan16510"
          sodipodi:role="line">0:12</tspan></text>
     <flowRoot
-       transform="translate(35.0073,3702)"
+       transform="translate(35.0073,3608)"
        style="font-style:normal;font-weight:bold;font-size:14px;line-height:139.99999762%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot16629"
        xml:space="preserve"><flowRegion
@@ -4871,7 +4871,7 @@
        xml:space="preserve"
        id="flowRoot25444"
        style="font-style:normal;font-weight:bold;font-size:14px;line-height:139.99999762%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(35.0073,4888)"><flowRegion
+       transform="translate(35.0073,4928)"><flowRegion
          id="flowRegion25446"><rect
            style="fill:#2e3436"
            id="rect25448"
@@ -4880,7 +4880,7 @@
            x="974"
            y="-2410" /></flowRegion><flowPara
          id="flowPara25450"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';text-align:start;text-anchor:start;fill:#2e3436">When Redub is selected, the second slider is used to select sections of audio (or audio and camera, if a camera feed is being used. The record button then plays the screen recording while re-recording the section of audio.</flowPara></flowRoot>    <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';text-align:start;text-anchor:start;fill:#2e3436">When Redub is active, the second slider is used to select sections of audio to be re-recorded. The screen recording is played while redubbing takes place.</flowPara></flowRoot>    <path
        style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#3e4444;fill-opacity:1;fill-rule:nonzero;stroke:#1d2020;stroke-width:0.99329859;stroke-opacity:1;marker:none;filter:url(#filter12000-4-9-2);enable-background:accumulate"
        d="m 109.4962,2792.5001 841.0152,0 c 4.9857,0 8.9993,4.595 8.9993,10 l 0,37.0033 -8.9993,0 -841.0152,0 -8.9996,0 0,-37.0033 c 0,-5.54 4.0137,-10 8.9996,-10 z"
        id="path25452"
@@ -5018,7 +5018,7 @@
          y="3328.7852"
          x="265.62402"
          id="tspan25512"
-         sodipodi:role="line">0:00</tspan></text>
+         sodipodi:role="line">0:30</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#e5e5e5;fill-opacity:1;stroke:none"
@@ -5280,20 +5280,7 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccc" />
     </g>
-    <flowRoot
-       transform="translate(35.0073,5650)"
-       style="font-style:normal;font-weight:bold;font-size:14px;line-height:139.99999762%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="flowRoot25721"
-       xml:space="preserve"><flowRegion
-         id="flowRegion25723"><rect
-           y="-2410"
-           x="974"
-           height="305"
-           width="273"
-           id="rect25725"
-           style="fill:#2e3436" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';text-align:start;text-anchor:start;fill:#2e3436"
-         id="flowPara25727">Most of the window's controls are insensitive while redub is in progress.</flowPara></flowRoot>    <path
+    <path
        sodipodi:nodetypes="cssscc"
        inkscape:connector-curvature="0"
        id="path25729"
@@ -5301,13 +5288,13 @@
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#3e4444;fill-opacity:1;fill-rule:nonzero;stroke:#2a2e2e;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:new" />
     <path
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#4a90d9;fill-opacity:1;fill-rule:nonzero;stroke:#1c5288;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:new"
-       d="m 338.5,3325.5 8.5652,0 c 0.7909,0 1.4274,-0.669 1.4274,-1.5 0,-0.831 -0.6365,-1.5 -1.4274,-1.5 l -8.5652,0 z"
+       d="m 338.5,3325.5 26.5652,0 c 0.7909,0 1.4274,-0.669 1.4274,-1.5 0,-0.831 -0.6365,-1.5 -1.4274,-1.5 l -26.5652,0 z"
        id="path25731"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssscc" />
     <g
        id="g25528"
-       transform="matrix(1.0722337,0,0,1.0722337,-516.80412,1688.251)"
+       transform="matrix(1.0722337,0,0,1.0722337,-502.80412,1688.251)"
        style="display:inline;fill:#3e4444;fill-opacity:1;stroke:#333333;stroke-opacity:1">
       <circle
          cy="290.25"
@@ -5321,7 +5308,7 @@
        xml:space="preserve"
        id="flowRoot25733"
        style="font-style:normal;font-weight:bold;font-size:14px;line-height:139.99999762%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(35.0073,5710)"><flowRegion
+       transform="translate(35.0073,5716)"><flowRegion
          id="flowRegion25735"><rect
            style="fill:#2e3436"
            id="rect25737"
@@ -5920,49 +5907,32 @@
          id="path26118"
          inkscape:connector-curvature="0" />
     </g>
-    <g
-       style="display:inline"
-       id="g26148"
-       transform="translate(0,-760)">
-      <rect
-         transform="scale(1,-1)"
-         ry="1.6451885"
-         rx="1.427389"
-         y="-3445.5"
-         x="290.5"
-         height="2.9999974"
-         width="393"
-         id="rect26144"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:#24282a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:new"
-         inkscape:export-filename="/home/hbons/layer4.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="/home/hbons/layer4.png"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:#24282a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:new"
-         id="rect26146"
-         width="393"
-         height="2.9999974"
-         x="290.5"
-         y="-3473.5"
-         rx="1.427389"
-         ry="1.6451885"
-         transform="scale(1,-1)" />
-    </g>
-    <g
-       style="display:inline"
-       transform="matrix(1.0722337,0,0,1.0722337,-550.80412,1048.251)"
-       id="g25314">
-      <circle
-         r="6.875"
-         transform="matrix(1.1530729,0,0,1.1530729,451.0254,1190.873)"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#353a3a;fill-opacity:1;fill-rule:nonzero;stroke:#1f2020;stroke-width:0.80882359;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-         id="circle25316"
-         cx="312.375"
-         cy="290.25" />
-    </g>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/hbons/layer4.png"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:#24282a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:new"
+       id="rect26144"
+       width="393"
+       height="2.9999974"
+       x="290.5"
+       y="-2685.5"
+       rx="1.427389"
+       ry="1.6451885"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       ry="1.6451885"
+       rx="1.427389"
+       y="-2713.5"
+       x="290.5"
+       height="2.9999974"
+       width="393"
+       id="rect26146"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:#24282a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:new"
+       inkscape:export-filename="/home/hbons/layer4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <g
        id="g25322"
        transform="matrix(0.94608857,0,0,0.94608857,-429.48268,1268.6923)"
@@ -6208,7 +6178,7 @@
            x="974"
            y="-2410" /></flowRegion><flowPara
          id="flowPara26322"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';text-align:start;text-anchor:start;fill:#2e3436">In edit mode, the lower slider selects sections, which can be deleted using the trash icon.</flowPara></flowRoot>    <g
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';text-align:start;text-anchor:start;fill:#2e3436">In edit mode, the second slider selects sections that can be deleted using the trash button.</flowPara></flowRoot>    <g
        style="display:inline"
        transform="translate(58.0073,6475)"
        id="g25276">
@@ -6613,7 +6583,7 @@
            id="rect31453"
            style="fill:#2e3436" /></flowRegion><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';text-align:start;text-anchor:start;fill:#2e3436"
-         id="flowPara31455">Level meter gives shows the microphone volume.</flowPara></flowRoot>    <flowRoot
+         id="flowPara31455">The level meter gives shows the microphone volume.</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot31457"
        style="font-style:normal;font-weight:bold;font-size:14px;line-height:139.99999762%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -6626,13 +6596,60 @@
            x="974"
            y="-2410" /></flowRegion><flowPara
          id="flowPara31463"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';text-align:start;text-anchor:start;fill:#2e3436">FIXME: does there need to be a way to configure the input feed here?</flowPara></flowRoot>  </g>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';text-align:start;text-anchor:start;fill:#2e3436">FIXME: does there need to be a way to configure the input feed here?</flowPara></flowRoot>    <path
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#3e4444;fill-opacity:1;fill-rule:nonzero;stroke:#2a2e2e;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:new"
+       d="m 338.4926,2682.5 -46.5652,0 c -0.7909,0 -1.4274,0.669 -1.4274,1.5 0,0.831 0.6365,1.5 1.4274,1.5 l 46.5652,0 z"
+       id="path33335"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssscc" />
+    <path
+       sodipodi:nodetypes="cssscc"
+       inkscape:connector-curvature="0"
+       id="path33337"
+       d="m 415.5074,2685.5 266.5652,0 c 0.7909,0 1.4274,-0.669 1.4274,-1.5 0,-0.831 -0.6365,-1.5 -1.4274,-1.5 l -266.5652,0 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#3e4444;fill-opacity:1;fill-rule:nonzero;stroke:#2a2e2e;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:new" />
+    <g
+       style="display:inline"
+       transform="matrix(1.0722337,0,0,1.0722337,-530.8041,1048.251)"
+       id="g25314">
+      <circle
+         r="6.875"
+         transform="matrix(1.1530729,0,0,1.1530729,451.0254,1190.873)"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#353a3a;fill-opacity:1;fill-rule:nonzero;stroke:#1f2020;stroke-width:0.80882359;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+         id="circle25316"
+         cx="312.375"
+         cy="290.25" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot33341"
+       style="font-style:normal;font-weight:bold;font-size:14px;line-height:139.99999762%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(35.0073,3702)"><flowRegion
+         id="flowRegion33343"><rect
+           style="fill:#2e3436"
+           id="rect33345"
+           width="273"
+           height="305"
+           x="974"
+           y="-2410" /></flowRegion><flowPara
+         id="flowPara33347"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';text-align:start;text-anchor:start;fill:#2e3436">Trim is instant apply. Deselecting the trim mode updates the seek slider to exclude any trimmed sections.</flowPara></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="sidebar"
-     style="display:none"
+     style="display:inline"
      transform="translate(0,-660)">
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#333333;stroke-width:0;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect33349"
+       width="1240"
+       height="2200"
+       x="3.9405622e-06"
+       y="660.00012"
+       inkscape:export-filename="/home/aday/checkout/gnome-mockups/screen-recorder/sidebar-wires.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        y="1426.5"
        x="100.5"
@@ -7695,11 +7712,6 @@
        d="m 1121.9606,1704.501 -282,0"
        id="path19678"
        inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path19724"
-       d="m 1121.9606,1836.501 -282,0"
-       style="fill:none;fill-rule:evenodd;stroke:#1d2020;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <rect
        style="fill:#454c4c;fill-opacity:1;stroke:#252a2c;stroke-width:0.99999976;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect19726"
