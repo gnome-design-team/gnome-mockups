@@ -10,10 +10,10 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="800"
-   height="540"
+   height="1080"
    id="svg13317"
    version="1.1"
-   inkscape:version="0.92 r13675"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="bluetooth-panel.svg"
    inkscape:export-filename="/home/aday/checkout/gnome-mockups/system-settings/bluetooth/bluetooth-panel.png"
    inkscape:export-xdpi="90"
@@ -43,8 +43,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="568.04209"
-     inkscape:cy="245.19068"
+     inkscape:cx="354.9373"
+     inkscape:cy="535.32935"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -52,7 +52,7 @@
      inkscape:snap-nodes="false"
      inkscape:snap-bbox="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1134"
+     inkscape:window-height="1136"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -83,11 +83,11 @@
      inkscape:label="panel"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-512.36218)"
+     transform="translate(0,27.63782)"
      style="display:inline">
     <path
        style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#e0e2e0;fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.99329859;stroke-opacity:1;marker:none;filter:url(#filter12000-4-9-2);enable-background:accumulate"
-       d="m 39.49615,540.85883 721.0153,0 c 4.9857,0 8.9993,4.46 8.9993,10 l 0,37.0033 -8.9993,0 -721.0153,0 -8.9995,0 0,-37.0033 c 0,-5.54 4.0137,-10 8.9995,-10 z"
+       d="m 39.49615,0.85883 721.0153,0 c 4.9857,0 8.9993,4.46 8.9993,10 l 0,37.0033 -8.9993,0 -721.0153,0 -8.9995,0 0,-37.0033 c 0,-5.54 4.0137,-10 8.9995,-10 z"
        id="path8220"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sssccccss" />
@@ -97,15 +97,15 @@
        width="739"
        height="436.99997"
        x="30.500038"
-       y="587.85876" />
+       y="47.858757" />
     <path
        style="display:inline;fill:none;stroke:#a7a7a7;stroke-width:0.99999982px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 722.50005,552.85273 0,23.0121"
+       d="m 722.50005,12.85273 0,23.0121"
        id="path8224"
        inkscape:connector-curvature="0" />
     <g
        style="display:inline;fill:#888a85"
-       transform="translate(678.00165,38.35883)"
+       transform="translate(678.00165,-501.64117)"
        id="g8226">
       <g
          transform="translate(19,-242)"
@@ -124,7 +124,7 @@
        inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
        ry="3"
        rx="2.9999986"
-       y="547.85876"
+       y="7.858757"
        x="37.500038"
        height="33"
        width="33"
@@ -132,7 +132,7 @@
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:0.9999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
     <g
        id="g8328"
-       transform="matrix(0,-1,1,0,44.98355,572.37503)"
+       transform="matrix(0,-1,1,0,44.98355,32.37503)"
        style="display:inline;fill:#2e3436">
       <g
          transform="translate(-201.0002,-747)"
@@ -209,16 +209,16 @@
     <text
        sodipodi:linespacing="125%"
        id="text8342"
-       y="569.14856"
+       y="29.14856"
        x="399.74786"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#2e3436;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
-         y="569.14856"
+         y="29.14856"
          x="399.74786"
          id="tspan8344"
          sodipodi:role="line">Bluetooth</tspan></text>
     <g
-       transform="translate(85,-388.6395)"
+       transform="translate(85,-928.6395)"
        style="display:inline"
        id="g6696">
       <rect
@@ -254,7 +254,7 @@
     </g>
     <g
        id="g8021"
-       transform="translate(-10.000084,1018)">
+       transform="translate(-10.000084,478)">
       <rect
          y="-382.14148"
          x="210.50014"
@@ -476,5 +476,255 @@
            transform="translate(-201,-317)" />
       </g>
     </g>
+    <path
+       sodipodi:nodetypes="sssccccss"
+       inkscape:connector-curvature="0"
+       id="path8930"
+       d="m 39.49615,540.8588 721.0153,0 c 4.9857,0 8.9993,4.46 8.9993,10 l 0,37.0033 -8.9993,0 -721.0153,0 -8.9995,0 0,-37.0033 c 0,-5.54 4.0137,-10 8.9995,-10 z"
+       style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#e0e2e0;fill-opacity:1;fill-rule:nonzero;stroke:#a7aba7;stroke-width:0.99329859;stroke-opacity:1;marker:none;filter:url(#filter12000-4-9-2);enable-background:accumulate" />
+    <rect
+       y="587.85889"
+       x="30.500038"
+       height="436.99997"
+       width="739"
+       id="rect8932"
+       style="display:inline;fill:#eeeeec;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999976;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path8934"
+       d="m 722.50005,552.8527 0,23.0121"
+       style="display:inline;fill:none;stroke:#a7a7a7;stroke-width:0.99999982px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+    <g
+       id="g8936"
+       transform="translate(678.00165,38.35883)"
+       style="display:inline;fill:#888a85">
+      <g
+         style="display:inline;fill:#888a85"
+         id="g8938"
+         transform="translate(19,-242)">
+        <path
+           style="color:#bebebe;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:'Andale Mono';-inkscape-font-specification:'Andale Mono';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#888a85;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;enable-background:new"
+           id="path8940"
+           d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <rect
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:0.9999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       id="rect8942"
+       width="33"
+       height="33"
+       x="37.500038"
+       y="547.85889"
+       rx="2.9999986"
+       ry="3"
+       inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       style="display:inline;fill:#2e3436"
+       transform="matrix(0,-1,1,0,44.98355,572.375)"
+       id="g8944">
+      <g
+         id="g8946"
+         inkscape:label="status"
+         style="display:inline;fill:#2e3436"
+         transform="translate(-201.0002,-747)" />
+      <g
+         style="fill:#2e3436"
+         id="g8948"
+         inkscape:label="devices"
+         transform="translate(-201.0002,-747)" />
+      <g
+         style="fill:#2e3436"
+         id="g8950"
+         inkscape:label="apps"
+         transform="translate(-201.0002,-747)" />
+      <g
+         style="fill:#2e3436"
+         id="g8952"
+         inkscape:label="places"
+         transform="translate(-201.0002,-747)" />
+      <g
+         style="fill:#2e3436"
+         id="g8954"
+         inkscape:label="mimetypes"
+         transform="translate(-201.0002,-747)" />
+      <g
+         id="g8956"
+         inkscape:label="emblems"
+         style="display:inline;fill:#2e3436"
+         transform="translate(-201.0002,-747)" />
+      <g
+         id="g8958"
+         inkscape:label="emotes"
+         style="display:inline;fill:#2e3436"
+         transform="translate(-201.0002,-747)" />
+      <g
+         id="g8960"
+         inkscape:label="categories"
+         style="display:inline;fill:#2e3436"
+         transform="translate(-201.0002,-747)" />
+      <g
+         id="g8962"
+         inkscape:label="actions"
+         style="display:inline;fill:#2e3436"
+         transform="translate(-201.0002,-747)">
+        <path
+           inkscape:connector-curvature="0"
+           d="m 209,751.59375 -0.71875,0.6875 -5,5 a 1.016466,1.016466 0 1 0 1.4375,1.4375 L 209,754.4375 l 4.28125,4.28125 a 1.016466,1.016466 0 1 0 1.4375,-1.4375 l -5,-5 L 209,751.59375 Z"
+           id="path8964"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+        <rect
+           height="1"
+           id="rect8966"
+           rx="1"
+           ry="1"
+           style="fill:#2e3436;fill-opacity:1;stroke:none"
+           transform="matrix(0,1,-1,0,0,0)"
+           width="1"
+           x="758"
+           y="-215.0002" />
+        <rect
+           height="1"
+           id="rect8968"
+           rx="1"
+           ry="1"
+           style="fill:#2e3436;fill-opacity:1;stroke:none"
+           transform="matrix(0,1,-1,0,0,0)"
+           width="1"
+           x="758"
+           y="-204.0002" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#2e3436;fill-opacity:1;stroke:none"
+       x="399.74786"
+       y="569.14868"
+       id="text8970"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8972"
+         x="399.74786"
+         y="569.14868">Bluetooth</tspan></text>
+    <g
+       transform="translate(-20.99998,-348.6395)"
+       style="display:inline"
+       id="g13493">
+      <rect
+         style="fill:#f4f4f2;fill-opacity:1;stroke:#bdbfbd;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect13485"
+         width="98"
+         height="25"
+         x="636.5"
+         y="900.5"
+         rx="2"
+         ry="2" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.14816952px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';letter-spacing:0px;word-spacing:0px;opacity:0.3;fill:#2e3436;fill-opacity:1;stroke:none"
+         x="687.7569"
+         y="928.37097"
+         id="text13487"
+         sodipodi:linespacing="125%"
+         transform="scale(1.0113976,0.98873084)"><tspan
+           sodipodi:role="line"
+           id="tspan13489"
+           x="687.7569"
+           y="928.37097">OFF</tspan></text>
+      <rect
+         ry="1.9341794"
+         rx="1.9269317"
+         y="900.56689"
+         x="636.56696"
+         height="24.866089"
+         width="48.866058"
+         id="rect13491"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#f4f4f2;fill-opacity:1;fill-rule:nonzero;stroke:#bdbfbd;stroke-width:1.13394368;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    </g>
+    <g
+       id="g13526"
+       inkscape:label="bluetooth-active"
+       style="display:inline;fill:#bebebe;fill-opacity:1"
+       transform="matrix(8,0,0,8,176.00004,-1523.6411)">
+      <rect
+         inkscape:label="a"
+         y="276"
+         x="20"
+         height="16"
+         width="16"
+         id="rect13528"
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path13530"
+         style="display:inline;fill:none;stroke:#bebebe;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 24,288 7,-7 -4,-3.99971 0,13.99941 4,-3.9997 -7,-7"
+         sodipodi:nodetypes="cccccc" />
+      <rect
+         y="279"
+         x="23"
+         height="1"
+         width="1"
+         id="rect13532"
+         style="opacity:1;fill:#bebebe;fill-opacity:1;stroke:none" />
+      <rect
+         style="opacity:1;fill:#bebebe;fill-opacity:1;stroke:none"
+         id="rect13534"
+         width="1"
+         height="1"
+         x="23"
+         y="288" />
+      <rect
+         y="291"
+         x="26"
+         height="1"
+         width="1"
+         id="rect13536"
+         style="opacity:1;fill:#bebebe;fill-opacity:1;stroke:none" />
+      <rect
+         style="opacity:1;fill:#bebebe;fill-opacity:1;stroke:none"
+         id="rect13538"
+         width="1"
+         height="1"
+         x="26"
+         y="276" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot13573"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.5px;line-height:139.99999762%;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(70.741835,-85.63782)"><flowRegion
+         id="flowRegion13575"><rect
+           id="rect13577"
+           width="259.50818"
+           height="69.29644"
+           x="199.40411"
+           y="919.71637"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.5px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';text-align:center;text-anchor:middle;fill:#2e3436" /></flowRegion><flowPara
+         id="flowPara13579">Turn Off Airplane Mode to Enable Bluetooth</flowPara></flowRoot>    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+       ry="3"
+       rx="2.9999988"
+       y="905.85889"
+       x="315.50003"
+       height="33"
+       width="169"
+       id="rect13581"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:0.99999964;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text13583"
+       y="927.17493"
+       x="400.27106"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#2e3436;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="927.17493"
+         x="400.27106"
+         id="tspan13585"
+         sodipodi:role="line">Turn Off Airplane Mode</tspan></text>
   </g>
 </svg>
