@@ -5,7 +5,9 @@
     <script src="jquery.js"></script>
 <script type="text/javascript">
 $( document ).ready(function() {
-    $("#trigger").toggle(function () {console.log('on')}, function () {console.log('off')});
+    $("#trigger").click(function () {
+      console.log('click');
+    });
 });
 </script>
 </head>
