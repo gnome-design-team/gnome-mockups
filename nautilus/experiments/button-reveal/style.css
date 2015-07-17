@@ -24,6 +24,11 @@ h1 {
   border-color: #a1a1a1;
 }
 
+  #headerbar button {
+    display: inline-block;
+    width: 20px; height: 20px;
+  }
+
 #trigger {
   /* box-sizing: content-box; */
   display: block;
