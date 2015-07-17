@@ -10,11 +10,11 @@ $( document ).ready(function() {
       if(parseInt($c.css('opacity'))<1) {
         $c.animate({ opacity: 1 }, 500, 
           function () { });
-        $c.html('Hide Button');
+        $(this).html('Hide Button');
       } else {
         $c.removeClass('flashbutton');
         $c.animate({ opacity: 0 });
-        $c.html('Reveal Button');
+        $(this).html('Reveal Button');
       }
     });
 });
