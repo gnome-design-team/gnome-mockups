@@ -7,7 +7,9 @@
 $( document ).ready(function() {
     $("#trigger").click(function () {
       var $c = $("#copying");
-      $c.fadein(200);
+      $c.show.animate({
+        opacity: 1;
+      });
     });
 });
 </script>
