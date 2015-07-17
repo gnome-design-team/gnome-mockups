@@ -39,17 +39,13 @@ h1 {
   border-style: solid;
   border-color: #a1a1a1;
   position: relative;
+  transition: background-image: 2s;
   }
   
-  #headerbar button.normalbutton {
-      background-image: linear-gradient(to bottom, #fff 2%,
-                                               #f8f8f8 2%,
-                                               #ddd 98%,
-                                               #aaa 100%);
-  }
   #headerbar button.flashbutton {
       background-image: linear-gradient(to bottom, #fff 2%,
                                                #fff 100%);
+
   }
   
   #headerbar button:last-child { margin-right: 6px; }
