@@ -40,6 +40,8 @@ h1 {
   position: relative;
   }
   
+  #headerbar button:last-child { margin-right: 6px; }
+  
   #headerbar button img {
     display: block;
     position: absolute;
