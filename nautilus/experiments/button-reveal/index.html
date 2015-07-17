@@ -10,7 +10,7 @@ $( document ).ready(function() {
       var $c = $("#copying");
       if(parseInt($c.css('opacity'))<1) {
         $c.animate({ opacity: 1 });
-        $c.switchClass('normal','flash', 1000);
+        $c.switchClass('normalbutton','flashbutton', 1000);
       } else {
         $c.removeClass('flash');
         $c.animate({ opacity: 0 });
