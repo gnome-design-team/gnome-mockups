@@ -11,9 +11,8 @@ $( document ).ready(function() {
       if(parseInt($c.css('opacity'))<1) {
         $c.animate({ opacity: 1 });
         $c.switchClass('normalbutton','flashbutton', 1000);
+        $c.switchClass('flashbutton', 'normalbutton', 1000);
       } else {
-        $c.removeClass('flashbutton');
-        $c.addClass('normalbutton');
         $c.animate({ opacity: 0 });
       }
     });
