@@ -7,8 +7,11 @@
 $( document ).ready(function() {
     $("#trigger").click(function () {
       var $c = $("#copying");
-      console.log($c.css('opacity'));
-      $c.animate({ opacity: 1 });
+      if(parseInt($c.css('opacity'))<1) {
+        $c.animate({ opacity: 1 });
+      } else {
+        $c.animate({ opacity: 0 });
+      }
     });
 });
 </script>
