@@ -9,8 +9,8 @@ $( document ).ready(function() {
       var $c = $("#copying");
       var $f = $("#flash");
       if(parseInt($c.css('opacity'))<1) {
-        $c.animate({ opacity: 1 }, 500, 
-          function () { $f.animate({'opacity': 1}, 500, function () {
+        $c.animate({ opacity: 1 }, 200, 
+          function () { $f.animate({'opacity': 1}, 800, function () {
             $f.animate({'opacity': 0});
           }); });
         $(this).html('Hide Button');
