@@ -13,8 +13,8 @@ $( document ).ready(function() {
           function () { $f.animate({'opacity': 0}); });
         $(this).html('Hide Button');
       } else {
-        $f.css({'opacity': 1});
-        $c.animate({ opacity: 0 });
+        $c.animate({ opacity: 0 }, 500, 
+          function () { $f.animate({'opacity': 1}); });
         $(this).html('Reveal Button');
       }
     });
