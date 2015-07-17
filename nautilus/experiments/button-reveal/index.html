@@ -10,10 +10,10 @@ $( document ).ready(function() {
       var $f = $("#flash");
       if(parseInt($c.css('opacity'))<1) {
         $c.animate({ opacity: 1 }, 500, 
-          function () {  });
+          function () { $f.animate({'opacity': 0}); });
         $(this).html('Hide Button');
       } else {
-        $c.removeClass('flashbutton');
+        $f.css('opacity': 1);
         $c.animate({ opacity: 0 });
         $(this).html('Reveal Button');
       }
