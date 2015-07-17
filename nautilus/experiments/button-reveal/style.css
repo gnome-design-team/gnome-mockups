@@ -53,7 +53,7 @@ h1 {
     margin-top: -8px;
   }
   
-  #headerbar #copying { display: none; }
+  #headerbar #copying { opacity: 0; }
 
 #trigger {
   /* box-sizing: content-box; */
