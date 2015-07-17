@@ -27,5 +27,6 @@ h1 {
 	width: 60%;
 }
   #trigger:active {
+    outline: none;
     background-image: linear-gradient(to top, #2e68a4, #134286);
   }
