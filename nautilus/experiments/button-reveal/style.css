@@ -29,6 +29,13 @@ h1 {
     display: inline-block;
     width: 40px; height: 40px;
     margin: 6px 3px;
+    background-image: linear-gradient(to bottom, #fff 2%,
+                                               #f7f7f7 2%,
+                                               #ededed 98%,
+                                               #d9d9d9 100%);
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #a1a1a1;
   }
 
 #trigger {
