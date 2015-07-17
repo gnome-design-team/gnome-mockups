@@ -42,7 +42,7 @@ h1 {
   transition: background-image: 2s;
   }
   
-  #headerbar button.flashbutton {
+  #headerbar button #flash {
       background-image: linear-gradient(to bottom, #fff 2%,
                                                #fff 100%);
 
