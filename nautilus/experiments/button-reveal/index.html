@@ -10,7 +10,7 @@ $( document ).ready(function() {
       if(parseInt($c.css('opacity'))<1) {
         $c.addClass('flashbutton');
         $c.animate({ opacity: 1 }, 500, 
-          function () { $c.animate('background-image', 'linear-gradient(to bottom, #fff 2%, #f8f8f8 2%, #ddd 98%,#aaa 100%)'); });
+          function () { $c.animate({'background-image': 'linear-gradient(to bottom, #fff 2%, #f8f8f8 2%, #ddd 98%, #aaa 100%)'}); });
       } else {
         $c.removeClass('flashbutton');
         $c.animate({ opacity: 0 });
