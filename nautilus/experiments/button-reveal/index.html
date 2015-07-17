@@ -7,9 +7,10 @@
 $( document ).ready(function() {
     $("#trigger").click(function () {
       var $c = $("#copying");
+      var $f = $("#flash");
       if(parseInt($c.css('opacity'))<1) {
         $c.animate({ opacity: 1 }, 500, 
-          function () { });
+          function () {  });
         $(this).html('Hide Button');
       } else {
         $c.removeClass('flashbutton');
