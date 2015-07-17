@@ -12,7 +12,8 @@ $( document ).ready(function() {
         $c.animate({ opacity: 1 });
         $c.switchClass('normalbutton','flashbutton', 1000);
       } else {
-        $c.removeClass('flash');
+        $c.removeClass('flashbutton');
+        $c.addClass('normalbutton');
         $c.animate({ opacity: 0 });
       }
     });
