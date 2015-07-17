@@ -3,7 +3,6 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 <script src="jquery.js"></script>
-<script src="jquery-ui.js"></script>
 <script type="text/javascript">
 $( document ).ready(function() {
     $("#trigger").click(function () {
@@ -11,8 +10,8 @@ $( document ).ready(function() {
       if(parseInt($c.css('opacity'))<1) {
         $c.addClass('flashbutton');
         $c.animate({ opacity: 1 });
-        $c.switchClass('flashbutton', 'normalbutton', 3000); 
       } else {
+        $c.removeClass('flashbutton');
         $c.animate({ opacity: 0 });
       }
     });
