@@ -41,6 +41,17 @@ h1 {
   position: relative;
   }
   
+  .normalbutton {
+      background-image: linear-gradient(to bottom, #fff 2%,
+                                               #f8f8f8 2%,
+                                               #ddd 98%,
+                                               #aaa 100%);
+  }
+  .flashbutton {
+      background-image: linear-gradient(to bottom, #fff 2%,
+                                               #fff 100%);
+  }
+  
   #headerbar button:last-child { margin-right: 6px; }
   
   #headerbar button img {
