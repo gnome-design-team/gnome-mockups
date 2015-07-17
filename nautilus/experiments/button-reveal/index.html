@@ -9,9 +9,9 @@ $( document ).ready(function() {
     $("#trigger").click(function () {
       var $c = $("#copying");
       if(parseInt($c.css('opacity'))<1) {
+        $c.addClass('flashbutton');
         $c.animate({ opacity: 1 });
-        $c.switchClass('normalbutton','flashbutton', 1000);
-        /* $c.switchClass('flashbutton', 'normalbutton', 1000); */
+        $c.switchClass('flashbutton', 'normalbutton', 1000); 
       } else {
         $c.animate({ opacity: 0 });
       }
