@@ -8,7 +8,7 @@ $( document ).ready(function() {
     $("#trigger").click(function () {
       var $c = $("#copying");
       if(parseInt($c.css('opacity'))<1) {
-        $c.css({'background-image': 'linear-gradient(to bottom, #fff)'});
+        $c.css({'background-image': 'linear-gradient(to bottom, #fff, #fff)'});
         $c.animate({ opacity: 1 }, 500, 
           function () { $c.animate({'background-image': 'linear-gradient(to bottom, #fff 2%, #f8f8f8 2%, #ddd 98%, #aaa 100%)'}); });
       } else {
