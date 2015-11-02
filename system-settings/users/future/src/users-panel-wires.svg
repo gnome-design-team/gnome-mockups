@@ -239,9 +239,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="518.7855"
-     inkscape:cy="2975.2813"
+     inkscape:zoom="1"
+     inkscape:cx="564.70391"
+     inkscape:cy="1190.2735"
      inkscape:document-units="px"
      inkscape:current-layer="g3444"
      showgrid="false"
@@ -278,7 +278,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2550,24 +2550,6 @@
          sodipodi:nodetypes="ccsccccccccccc"
          style="color:#bebebe;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:'Andale Mono';-inkscape-font-specification:'Andale Mono';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;enable-background:new" />
     </g>
-    <text
-       id="text14245"
-       y="1847.5999"
-       x="663.35016"
-       style="font-style:normal;font-weight:normal;font-size:14px;line-height:150%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:center;text-anchor:middle;display:inline;fill:#2e3436;fill-opacity:1;stroke:none;enable-background:new"
-       xml:space="preserve"
-       transform="scale(0.9995531,1.0004471)"
-       sodipodi:linespacing="150%"><tspan
-         y="1847.5999"
-         x="663.35016"
-         id="tspan14247"
-         sodipodi:role="line"
-         style="font-weight:normal;font-size:14px;line-height:150%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:center;text-anchor:middle;fill:#2e3436">This account also provides single-sign in access to www.redhat.com resources.</tspan><tspan
-         y="1868.5999"
-         x="663.35016"
-         sodipodi:role="line"
-         style="font-weight:normal;font-size:14px;line-height:150%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:center;text-anchor:middle;fill:#4a90d9"
-         id="tspan4329">See the online account for more details.</tspan></text>
     <rect
        ry="2.3"
        rx="2.3"
@@ -2924,7 +2906,14 @@
          sodipodi:role="line"
          id="tspan4327"
          x="663.35016"
-         y="1817.613">Account details (including password) are provided by www.company.com</tspan></text>
+         y="1817.613">Account details (including password) are provided by www.company.com.</tspan><tspan
+         style="font-weight:normal;font-size:14px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:center;text-anchor:middle;fill:#2e3436"
+         sodipodi:role="line"
+         x="663.35016"
+         y="1835.113"
+         id="tspan3917">Single sign-in access to www.company.com resources is provided through <tspan
+   style="fill:#4a90d9"
+   id="tspan3923">online accounts</tspan>.</tspan></text>
     <text
        id="text4333"
        y="1580.7194"
@@ -2968,11 +2957,6 @@
            r="2.5" />
       </g>
     </g>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#4a90d9;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 539.01254,1873.6875 247,0"
-       id="path4347"
-       inkscape:connector-curvature="0" />
     <flowRoot
        transform="translate(283.7187,-2152.126)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none"
@@ -3010,27 +2994,6 @@
            y="800.34698"
            style="font-weight:normal;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;fill:#2e3436" /></flowRegion><flowPara
          id="flowPara11999">When it is for another user, the change password dialog allows prompting for a new password on login.</flowPara></flowRoot>    <rect
-       style="display:inline;fill:#eaeaea;fill-opacity:1;stroke:#919191;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect12001"
-       width="129.00012"
-       height="33"
-       x="317.21875"
-       y="1882.1875"
-       rx="2.3"
-       ry="2.3" />
-    <text
-       transform="scale(0.9995531,1.0004471)"
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:14px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;display:inline;fill:#2e3436;fill-opacity:1;stroke:none;enable-background:new"
-       x="332.28726"
-       y="1902.6127"
-       id="text12003"><tspan
-         style="font-weight:normal;font-size:14px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;fill:#2e3436"
-         sodipodi:role="line"
-         id="tspan12005"
-         x="332.28726"
-         y="1902.6127">ttucker@company.com Online Account</tspan></text>
-    <rect
        ry="2.3"
        rx="2.3"
        y="-13.812489"
@@ -3064,5 +3027,20 @@
            y="800.34698"
            style="font-weight:normal;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;fill:#2e3436" /></flowRegion><flowPara
          id="flowPara13597"
-         style="font-weight:bold;fill:#ee2222">Back button is highly experimental and dubious!</flowPara></flowRoot>  </g>
+         style="font-weight:bold;fill:#ee2222">Back button is highly experimental and dubious!</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3909"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3911"><rect
+           id="rect3913"
+           width="200.81833"
+           height="112.42998"
+           x="5.6568542"
+           y="3404.0344" /></flowRegion><flowPara
+         id="flowPara3915"></flowPara></flowRoot>    <path
+       style="fill:none;fill-rule:evenodd;stroke:#4a90d9;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 939.71873,1839.1875 -97,0"
+       id="path3925"
+       inkscape:connector-curvature="0" />
+  </g>
 </svg>
