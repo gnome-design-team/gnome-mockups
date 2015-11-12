@@ -1,0 +1,85 @@
+
+body { 
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  max-width: 50em; 
+  margin: 3em auto;
+  padding: 0 2em;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 130%;
+}
+
+#headerbar {
+  display: block;
+  height: 52px;
+  background-image: linear-gradient(to bottom, #fff 2%,
+                                               #f7f7f7 2%,
+                                               #ededed 98%,
+                                               #d9d9d9 100%);
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #a1a1a1;
+  text-align: right;
+}
+
+  #headerbar button {
+    outline: none;
+    display: inline-block;
+    width: 40px; height: 40px;
+    margin: 6px 3px;
+    background-image: linear-gradient(to bottom, #fff 2%,
+                                               #f8f8f8 2%,
+                                               #ddd 98%,
+                                               #aaa 100%);
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #a1a1a1;
+  position: relative;
+  transition: background-image: 2s;
+  }
+  
+  #headerbar button #flash {
+    position: absolute;
+    background-color: #fff;
+    top: 0; bottom: 0; left: 0; right: 0;
+    border-radius: 3px;
+    opacity: 0;
+  }
+  
+  #headerbar button:last-child { margin-right: 6px; }
+  
+  #headerbar button img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px; heigh: 16px;
+    margin-left: -8px;
+    margin-top: -8px;
+  }
+  
+  #headerbar #copying { opacity: 0; }
+
+#trigger {
+  /* box-sizing: content-box; */
+  display: block;
+  margin: 0 auto;
+  outline: none;
+  margin-top: 1em;
+  border-width: 1px;
+  border-radius: 5px;
+  border-image: linear-gradient(to bottom, #1e5894, #033266);
+	padding: 10px;
+	font-weight: bold;
+	background-image: linear-gradient(to bottom, #3e78b4, #235296);
+	color: white;
+	width: 100%;
+}
+  #trigger:active {
+    outline: none;
+    background-image: linear-gradient(to top, #2e68a4, #134286);
+  }
