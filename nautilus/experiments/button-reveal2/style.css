@@ -18,7 +18,12 @@ h1 {
   background-image: linear-gradient(to bottom, #fff 2%,
                                                #f7f7f7 2%,
                                                #ededed 98%,
-                                               #d9d9d9 100%);
+                                               #d9d9d9 100%),
+                                   linear-gradient(45deg,
+                                                rgba(255,255,255,0),
+                                                rgba(255,255,255,1) 45%, 
+                                                rgba(255,255,255,1) 55%,
+                                                rgba(255,255,255,0));
   border-width: 1px 0;
   border-style: solid;
   border-color: #a1a1a1;
