@@ -8,6 +8,7 @@ $( document ).ready(function() {
     $("#trigger").click(function () {
       var $c = $("#copying");
       var $f = $("#flash");
+      $("#headerbar").toggleClass("konamiout");
       if(parseInt($c.css('opacity'))<1) {
         $c.animate({ opacity: 1 }, 200, 
           function () { $f.animate({'opacity': 1}, 800, function () {
