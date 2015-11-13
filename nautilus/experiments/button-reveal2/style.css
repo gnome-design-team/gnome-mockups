@@ -26,12 +26,16 @@ h1 {
                                                #d9d9d9 100%);
   background-size: 50px 100%, auto;
   background-repeat: no-repeat, repeat-x;
-  background-position: 0px;
+  background-position: -50px;
   border-width: 1px 0;
   border-style: solid;
   border-color: #a1a1a1;
   text-align: right;
+  transition: background-position 1s linear;
 }
+  #headerbar:konamiout {
+    background-position: 500px;
+  }
 
   #headerbar button {
     outline: none;
