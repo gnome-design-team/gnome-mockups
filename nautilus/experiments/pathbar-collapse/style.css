@@ -75,6 +75,10 @@ h1 {
   }
   
   #headerbar #copying { opacity: 0; }
+  #back {
+    opacity: 0.3;
+    border-radius: 3px 0 0 3px;
+  }
 
 #trigger {
   /* box-sizing: content-box; */
