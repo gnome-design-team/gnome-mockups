@@ -30,7 +30,7 @@ h1 {
   border-width: 1px 0;
   border-style: solid;
   border-color: #a1a1a1;
-  text-align: left;
+  text-align: right;
   transition: background-position 0.5s linear;
 }
   #headerbar.konamiout {
@@ -78,11 +78,13 @@ h1 {
   #headerbar #back {
     opacity: 0.3;
     border-radius: 3px 0 0 3px;
-    margin-right: 0
+    margin-right: 0;
+    float: left;
   }
   #headerbar #forward {
     border-radius: 0 3px 3px 0;
     margin-left: 0;
+    float: left;
   }
 
 #trigger {
