@@ -1,25 +1,11 @@
 <html>
-<head><title>Noticable Button Reveal for Files</title>
+<head><title>Collapsing Breadcrumb Concept</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 <script src="jquery.js"></script>
 <script type="text/javascript">
 $( document ).ready(function() {
-    $("#trigger").click(function () {
-      var $c = $("#copying");
-      var $f = $("#flash");
-      $("#headerbar").toggleClass("konamiout");
-      if(parseInt($c.css('opacity'))<1) {
-        $c.animate({ opacity: 1 }, 200, 
-          function () { $f.animate({'opacity': 1}, 800, function () {
-            $f.animate({'opacity': 0});
-          }); });
-        $(this).html('Hide Button');
-      } else {
-        $c.animate({ opacity: 0 }, 500);
-        $(this).html('Reveal Button');
-      }
-    });
+  console.log("debug");
 });
 </script>
 </head>
@@ -27,10 +13,9 @@ $( document ).ready(function() {
 
 
 
-<h1>Nautilus Button Reveal</h1>
+<h1>Breadcrumb Revealer</h1>
 <p>
-The goal of this mockup is to mock up a button reveal transition that catches attention. Simple fade in
-is subtle. Including a background color flash for a fraction of a second focuses the attention on the newly created button.
+When the path is too long, with items having long names, rather than providing an overflow menu, this concept scrolls the items in place, collapsing the path further away from the current location of focus.
 </p>
 <nav id="headerbar">
 
