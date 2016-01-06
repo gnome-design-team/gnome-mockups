@@ -103,11 +103,17 @@ button.giant {
 	color: white;
 	width: 50%;
 	box-sizing: border-box;
-}
-  #trigger:active {
+} 
+  button.giant:active {
     outline: none;
     background-image: linear-gradient(to top, #2e68a4, #134286);
   }
+  button.giant:disabled {
+    outline: none;
+    background-image: none;
+    background-color: #2e68a4;
+  }
+
   
 #pathbar { 
   display: inline-block; 
