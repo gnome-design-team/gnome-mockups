@@ -104,6 +104,7 @@ button.giant {
 	background-image: linear-gradient(to bottom, #3e78b4, #235296);
 	color: white;
 	width: 50%;
+	box-sizing: border-box;
 }
   #trigger:active {
     outline: none;
