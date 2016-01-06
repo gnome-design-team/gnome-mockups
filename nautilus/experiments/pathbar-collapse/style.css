@@ -92,7 +92,7 @@ button.left { float: left; }
 
 button.giant {
   /* box-sizing: content-box; */
-  display: block;
+  display: inline-block;
   margin: 0 auto;
   outline: none;
   margin-top: 1em;
