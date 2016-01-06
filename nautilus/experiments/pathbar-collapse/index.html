@@ -9,9 +9,11 @@
 PTEMPLATE = ['Documents', 'Events', '2015', 'GUADEC TEam Reports'];
 PATH = [];
 $( document ).ready(function() {
-  console.log("debug");
+  var $hb = $("#headerbar"),
+  $pb = $("#pathbar");
+  $pb.css(width: $hb.width() - 100);
   $("#add").click(function () {
-    console.log($("#pathbar").width());
+    console.log();
   });
 });
 </script>
