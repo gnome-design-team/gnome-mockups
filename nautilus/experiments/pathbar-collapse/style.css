@@ -109,7 +109,10 @@ h1 {
     outline: none;
     background-image: linear-gradient(to top, #2e68a4, #134286);
   }
-    
+  
+#pathbar { 
+  display: inline-block; 
+}
 .rcrumbs {
   font-size: 14px;
   line-height: 18px;
