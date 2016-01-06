@@ -88,7 +88,7 @@ h1 {
   }
 
 button.left { float: left; }
-.right { display: inline-block; }
+.right { display: inline-block; float: right;}
 
 button.giant {
   /* box-sizing: content-box; */
@@ -117,4 +117,4 @@ button.giant {
 }
 
   #pathbar ul { display: block; margin: 0; padding: 0;}
-  #pathbar li { display: inline-block; max-width: 25%; height: 40px; float: right; text-overflow: ellipsis; }
+  #pathbar li { display: inline-block; max-width: 25%; height: 40px; text-overflow: ellipsis; }
