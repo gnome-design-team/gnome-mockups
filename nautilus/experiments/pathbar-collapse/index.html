@@ -10,10 +10,14 @@ PTEMPLATE = ['Documents', 'Events', '2015', 'GUADEC TEam Reports'];
 PATH = [];
 $( document ).ready(function() {
   var $hb = $("#headerbar"),
-  $pb = $("#pathbar");
-  $pb.css("width", $hb.width() - 235);
+  $pb = $("#pathbar"),
+  buttonwhitespace = 235;
+  $pb.css("width", $hb.width() - buttonwhitespace);
   $("#add").click(function () {
     console.log();
+  });
+  $(window).resize(function () {
+    $pb.css("width", $hb.width() - buttonwhitespace);
   });
 });
 </script>
