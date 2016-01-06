@@ -80,14 +80,15 @@ h1 {
     opacity: 0.3;
     border-radius: 3px 0 0 3px;
     margin-right: 0;
-    float: left;
     border-right-width: 0;
   }
   #headerbar #forward {
     border-radius: 0 3px 3px 0;
     margin-left: 0;
-    float: left;
   }
+
+button.left { float: left; }
+button.right { float: right; }
 
 button.giant {
   /* box-sizing: content-box; */
