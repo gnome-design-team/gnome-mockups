@@ -10,7 +10,11 @@
 <script type="text/javascript">
 $( document ).ready(function() {
   //console.log("debug");
-  $("#pathbar").rcrumbs({nbUncollapsableCrumbs: 3});
+  $("#pathbar").rcrumbs({
+          animation: {
+            activated: true, speed: 200
+        },{nbUncollapsableCrumbs: 3}
+  });
 });
 </script>
 </head>
@@ -38,15 +42,15 @@ When the path is too long, with items having long names, rather than providing a
 </nav>
 
 <div id="pathbar">
-<div class="rcrumbs">
-  <ul>
-    <li><a href="#" id="home">Home</a><span class="divider">/</span></li>
-    <li><a href="#" >Documents</a><span class="divider">/</span></li>
-    <li><a href="#" >Events</a><span class="divider">/</span></li>
-    <li><a href="#" >2015</a><span class="divider">/</span></li>
-    <li><a href="#" >GUADEC Team Reports</a><span class="divider">/</span></li>
-  </ul>
-</div>
+  <div class="rcrumbs">
+    <ul>
+      <li><a href="#" id="home">Home</a><span class="divider">/</span></li>
+      <li><a href="#" >Documents</a><span class="divider">/</span></li>
+      <li><a href="#" >Events</a><span class="divider">/</span></li>
+      <li><a href="#" >2015</a><span class="divider">/</span></li>
+      <li><a href="#" >GUADEC Team Reports</a><span class="divider">/</span></li>
+    </ul>
+  </div>
 </div>
 
 <button id="add" class="giant">Descend Path</button>
