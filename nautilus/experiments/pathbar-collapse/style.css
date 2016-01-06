@@ -2,7 +2,8 @@
 body { 
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  max-width: 50em; 
+  max-width: 50em;
+  min-width: 200px;
   margin: 3em auto;
   padding: 0 2em;
 }
