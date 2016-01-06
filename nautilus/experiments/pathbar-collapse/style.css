@@ -88,7 +88,7 @@ h1 {
   }
 
 button.left { float: left; }
-.right { display: inline-block; float: right; }
+.right { display: inline-block; float: right; text-overflow: ellipsis;}
 
 button.giant {
   /* box-sizing: content-box; */
