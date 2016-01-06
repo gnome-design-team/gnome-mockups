@@ -91,7 +91,6 @@ button.left { float: left; }
 .right { display: inline-block; float: right;}
 
 button.giant {
-  /* box-sizing: content-box; */
   display: inline-block;
   outline: none;
   margin: 1em 0 0;
@@ -102,7 +101,7 @@ button.giant {
 	font-weight: bold;
 	background-image: linear-gradient(to bottom, #3e78b4, #235296);
 	color: white;
-	width: 49%;
+	width: 50%;
 	box-sizing: border-box;
 }
   #trigger:active {
