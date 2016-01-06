@@ -116,6 +116,6 @@ button.giant {
   margin: 6px;
 }
 
-  #pathbar ul { display: block; margin: 0; padding: 8px; white-space: nowrap;}
-  #pathbar li { display: inline-block; max-width: 35%; text-overflow: ellipsis; overflow: hidden; }
+  #pathbar ul { display: inline-block; margin: 0; padding: 8px; white-space: nowrap;}
+  #pathbar li { display: inline-block; text-overflow: ellipsis; overflow: hidden; } /* computed max-width */
     #pathbar li a { display: inline;  height: 40px; }
