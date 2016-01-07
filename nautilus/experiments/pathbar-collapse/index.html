@@ -27,7 +27,7 @@ $( document ).ready(function() {
   buttonwhitespace = 235;
   $pb.css("width", $hb.width() - buttonwhitespace);
   $("#add").click(function () {
-    console.log('*');
+    PATH.addDir();
   });
   $(window).resize(function () {
     $pb.css("width", $hb.width() - buttonwhitespace);
