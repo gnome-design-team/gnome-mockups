@@ -7,7 +7,15 @@
 <script src="jquery.js"></script>
 <script type="text/javascript">
 PTEMPLATE = ['Documents', 'Events', '2015', 'GUADEC Team Reports'];
-PATH = [];
+PATH = {
+  dirs: [],
+  addDir: function () {
+  },
+  setActive: function () {
+  },
+  forkFromActive: function () {
+  }
+};
 $( document ).ready(function() {
   var $hb = $("#headerbar"),
   $pb = $("#pathbar"),
