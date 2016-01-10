@@ -125,3 +125,5 @@ button.giant {
   #pathbar ul { display: inline-block; margin: 0; padding: 8px; white-space: nowrap;}
   #pathbar li { display: inline-block; text-overflow: ellipsis; overflow: hidden; } /* computed max-width */
     #pathbar li a { font-size: 90%; display: inline;  height: 40px; text-decoration: none; color: #444; }
+
+#popoverContent { display: none; }

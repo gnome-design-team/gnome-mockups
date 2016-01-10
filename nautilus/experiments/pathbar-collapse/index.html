@@ -2,38 +2,12 @@
 <html>
 <head><title>Collapsing Breadcrumb Concept</title>
 <meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="jquery.webui-popover.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 <script src="jquery.js"></script>
-<script type="text/javascript">
-PTEMPLATE = ['Documents', 'Events', '2015', 'GUADEC Team Reports'];
-PATH = {
-  dirs: [],
-  addDir: function () {
-    //console.log()
-    console.log(this.dirs.length);
-    if (PTEMPLATE[this.dirs.length]) {
-      console.log(PTEMPLATE[this.dirs.length]);
-    }
-  },
-  setActive: function () {
-  },
-  forkFromActive: function () {
-  }
-};
-$( document ).ready(function() {
-  var $hb = $("#headerbar"),
-  $pb = $("#pathbar"),
-  buttonwhitespace = 235;
-  $pb.css("width", $hb.width() - buttonwhitespace);
-  $("#add").click(function () {
-    PATH.addDir();
-  });
-  $(window).resize(function () {
-    $pb.css("width", $hb.width() - buttonwhitespace);
-  });
-});
-</script>
+<script src="jquery.webui-popover.js"></script>
+<script src="pseudocode.js"></script>
 </head>
 <body>
 
@@ -51,18 +25,10 @@ id="forward" class="left"><img src="go-next-symbolic.svg"></button>
 
 <nav id="pathbar">
    <ul>
-    <li><a href="#" id="home">Home</a></li>
+    <li><a href="#" id="home" class="hasPopover">Home</a></li>
     <li><span class="divider">/</span></li>
    </ul>
     <ul class="pathbar">
-      
-      <li><a href="#" >Documents</a></li>
-      <li><span class="divider">/</span></li>
-      <li><a href="#" >Events</a></li>
-      <li><span class="divider">/</span></li>
-      <li><a href="#" >2015</a></li>
-      <li><span class="divider">/</span></li>
-      <li><a href="#" >GUADEC Team Reports</a></li>
     </ul>
 </nav>
 
@@ -76,6 +42,11 @@ id="hamburger"><img src="open-menu-symbolic.svg"></button>
 
 <button id="add" class="giant">Descend Path</button><button 
 id="fork" class="giant" disabled>Fork Path</button>
+
+
+<div id="popoverContent">
+    <p>popover content</p>
+</div>
 
 </body>
 </html>
