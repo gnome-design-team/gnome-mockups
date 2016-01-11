@@ -35,7 +35,7 @@ $( document ).ready(function() {
   buttonwhitespace = 235;
   $(document).click(function () {
     $('.hasPopover').webuiPopover('hide');
-  };
+  });
   $('.hasPopover').webuiPopover({
     trigger: 'manual',
     animation: 'gnomeslide',
