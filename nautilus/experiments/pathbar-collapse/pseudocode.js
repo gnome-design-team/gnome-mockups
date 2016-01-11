@@ -1,5 +1,6 @@
 PTEMPLATE = ['Documents', 'Events', '2015', 'GUADEC Team Reports'];
-MENU = ['Open in new Window', 'Open in New Tab', 'Move to…', 'Copy to…', 'Add to Bookmarks', 'Rename…', 'Properties'];
+MENU = ['Open in new Window', 'Open in New Tab', 'Move to…', 'Copy to…', 
+        'Add to Bookmarks', 'Rename…', 'Properties'];
 PATH = {
   dirs: [],
   addDir: function () {
