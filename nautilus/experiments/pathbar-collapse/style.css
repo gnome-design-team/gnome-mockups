@@ -123,8 +123,10 @@ button.giant {
 }
 
   #pathbar ul { display: inline-block; margin: 0; padding: 8px; white-space: nowrap;}
-  #pathbar li { display: inline-block; text-overflow: ellipsis; overflow: hidden; } /* computed max-width */
+  #pathbar li { display: inline-block; text-overflow: ellipsis; overflow: hidden; margin: 0 0 3px 0;} /* computed max-width */
+  #pathbar li.active { border-bottom: 3px solid #3e78b4; margin: 0;}
     #pathbar li a { font-size: 90%; display: inline;  height: 40px; text-decoration: none; color: #444; }
+
 
 #popoverContent { display: none; }
 .webui-popover-content ul { display: block; margin: 0; padding: 0; }
@@ -134,3 +136,4 @@ button.giant {
   margin: 6px;
   padding: 2px;
 }
+.webui-popover-content li a { text-decoration: none; color: black; }

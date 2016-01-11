@@ -1,6 +1,6 @@
-PTEMPLATE = ['Documents', 'Events', '2015', 'GUADEC Team Reports'];
+PTEMPLATE = ['Home', 'Documents', 'Events', '2015', 'GUADEC Team Reports'];
 MENU = ['Open in new Window', 'Open in New Tab', '', 'Move to…', 'Copy to…', 
-        'Add to Bookmarks', 'Rename…', 'Properties'];
+        'Add to Bookmarks', 'Rename…', '', 'Properties'];
 PATH = {
   dirs: [],
   addDir: function () {
@@ -11,6 +11,7 @@ PATH = {
       $("#add").attr("disabled","true");
     }
   },
+  active: 2,
   setActive: function () {
   },
   forkFromActive: function () {
@@ -21,7 +22,9 @@ PATH = {
     b = '';
     
     $.each(PATH.dirs, function (i,dir) {
-      h.push('<li><a href="#">'+PATH.dirs[i]+'</a></li>');
+      h.push('<li');
+      if (i==PATH.active) { h.push(' class="active"'); }
+      h.push('><a href="#" class="hasPopover">'+PATH.dirs[i]+'</a></li>');
       if (PTEMPLATE[i+1]) {
         h.push(' <li><span class="divider">/</span></li> ');
       }
@@ -33,32 +36,34 @@ $( document ).ready(function() {
   var $hb = $("#headerbar"),
   $pb = $("#pathbar"),
   buttonwhitespace = 235;
-  $('.hasPopover').webuiPopover({
-    trigger: 'manual',
-    animation: 'gnomeslide',
-    placement: 'bottom',
-    content: function () {
-      var html='<ul>';
-      $.each(MENU, function (i,item) {
-        html += "<li><a href='#'>"+item+"</a></li>";
-      });
-      html+="</ul>";
-      return html;
-    }
-  });
-  $('.hasPopover').contextmenu(function () {
+  $('#pathbar').on("contextmenu", ".hasPopover", function () { /* bind an event to elements to be created */
+    $('.hasPopover').webuiPopover({
+      trigger: 'manual',
+      animation: 'gnomeslide',
+      placement: 'bottom',
+      content: function () {
+        var html='<ul>';
+        $.each(MENU, function (i,item) {
+          html += "<li><a href='#'>"+item+"</a></li>";
+        });
+        html+="</ul>";
+        return html;
+      }
+    });
     $(this).webuiPopover('show');
+    /* FIXME make it close on clicking anywhere but the popover as well */
+    $('.webui-popover-content a').click(function () {
+      $('.hasPopover').webuiPopover('hide');
+    });
     return false;
-  });
-  $('.webui-popover-content a').on("click", function () {
-    $('.hasPopover').webuiPopover('hide');
-    console.log('eek');
   });
   $pb.css("width", $hb.width() - buttonwhitespace);
   $("#add").click(function () {
     PATH.addDir();
     PATH.renderOut($("ul.pathbar"));
+    
   });
+  $("#add").click();
   $(window).resize(function () {
     $pb.css("width", $hb.width() - buttonwhitespace);
   });
