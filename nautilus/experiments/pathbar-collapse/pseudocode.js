@@ -1,5 +1,5 @@
 PTEMPLATE = ['Documents', 'Events', '2015', 'GUADEC Team Reports'];
-MENU = ['Open in new Window', 'Open in New Tab', 'Move to…', 'Copy to…', 
+MENU = ['Open in new Window', 'Open in New Tab', '', 'Move to…', 'Copy to…', 
         'Add to Bookmarks', 'Rename…', 'Properties'];
 PATH = {
   dirs: [],
@@ -45,7 +45,7 @@ $( document ).ready(function() {
     content: function () {
       var html='<ul>';
       $.each(MENU, function (i,item) {
-        html += "<li>"+item+"</li>";
+        html += "<li><a href='#'>"+item+"</a></li>";
       });
       html+="</ul>";
       return html;
