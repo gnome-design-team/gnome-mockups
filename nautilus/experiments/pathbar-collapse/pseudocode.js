@@ -34,7 +34,7 @@ $( document ).ready(function() {
   $pb = $("#pathbar"),
   buttonwhitespace = 235;
   $(document).click(function () {
-    webuiPopover('hide');
+    $('.hasPopover').webuiPopover('hide');
   }
   $('.hasPopover').webuiPopover({
     trigger: 'manual',
