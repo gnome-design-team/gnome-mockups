@@ -46,7 +46,8 @@ $( document ).ready(function() {
       $pb = $("#pathbar"),
       buttonwhitespace = 235;
 
-  $('#pathbar').on("contextmenu", ".hasPopover", function () { /* bind an event to elements to be created */
+  $('#pathbar').on("contextmenu", ".hasPopover", function (ev) {
+    /* bind an event to elements to be created */
     $('.hasPopover').webuiPopover({
       trigger: 'manual',
       animation: 'gnomeslide',
@@ -68,7 +69,8 @@ $( document ).ready(function() {
     $('.webui-popover-content a').click(function () {
       $('.hasPopover').webuiPopover('hide');
     });
-    return false;
+
+    ev.preventDefault();
   });
 
   $pb.css("width", $hb.width() - buttonwhitespace);
