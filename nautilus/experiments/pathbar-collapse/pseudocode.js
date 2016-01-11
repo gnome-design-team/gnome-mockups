@@ -43,13 +43,15 @@ PATH = {
 
 $( document ).ready(function() {
   var $hb = $("#headerbar"),
-  $pb = $("#pathbar"),
-  buttonwhitespace = 235;
+      $pb = $("#pathbar"),
+      buttonwhitespace = 235;
+
   $('#pathbar').on("contextmenu", ".hasPopover", function () { /* bind an event to elements to be created */
     $('.hasPopover').webuiPopover({
       trigger: 'manual',
       animation: 'gnomeslide',
       placement: 'bottom',
+      dismissible: false, // Handled in $(body), below
       content: function () {
         var html='<ul>';
         $.each(MENU, function (i,item) {
@@ -59,7 +61,9 @@ $( document ).ready(function() {
         return html;
       }
     });
+
     $(this).webuiPopover('show');
+
     /* FIXME make it close on clicking anywhere but the popover as well */
     $('.webui-popover-content a').click(function () {
       $('.hasPopover').webuiPopover('hide');
@@ -77,6 +81,17 @@ $( document ).ready(function() {
   $("#add").click();
 
   $(window).resize(function () {
-    $pb.css("width", $hb.width() - buttonwhitespace);
+    $pb.css('width', $hb.width() - buttonwhitespace);
+  });
+
+  $(document).on('mousedown', function (ev) {
+    // Check if the origin is part of an actual popover
+    var match = $(ev.target).closest('.hasPopover,.webui-popover').length > 0
+
+    if (!match) {
+      $('.hasPopover').webuiPopover('hide');
+    }
+  }).contextmenu(function (ev) {
+    ev.preventDefault();
   });
 });
