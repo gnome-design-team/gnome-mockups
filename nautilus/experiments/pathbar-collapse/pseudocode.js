@@ -33,10 +33,6 @@ $( document ).ready(function() {
   var $hb = $("#headerbar"),
   $pb = $("#pathbar"),
   buttonwhitespace = 235;
-  $('.webui-popover-content a').on("click", function () {
-    $('.hasPopover').webuiPopover('hide');
-    console.log('eek');
-  });
   $('.hasPopover').webuiPopover({
     trigger: 'manual',
     animation: 'gnomeslide',
@@ -53,6 +49,10 @@ $( document ).ready(function() {
   $('.hasPopover').contextmenu(function () {
     $(this).webuiPopover('show');
     return false;
+  });
+  $('.webui-popover-content a').on("click", function () {
+    $('.hasPopover').webuiPopover('hide');
+    console.log('eek');
   });
   $pb.css("width", $hb.width() - buttonwhitespace);
   $("#add").click(function () {
