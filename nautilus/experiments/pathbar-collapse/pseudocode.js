@@ -33,6 +33,9 @@ $( document ).ready(function() {
   var $hb = $("#headerbar"),
   $pb = $("#pathbar"),
   buttonwhitespace = 235;
+  $(document).click(function () {
+    webuiPopover('hide');
+  }
   $('.hasPopover').webuiPopover({
     trigger: 'manual',
     animation: 'gnomeslide',
