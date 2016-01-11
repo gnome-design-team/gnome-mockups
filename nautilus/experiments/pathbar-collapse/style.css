@@ -127,7 +127,7 @@ button.giant {
     #pathbar li a { font-size: 90%; display: inline;  height: 40px; text-decoration: none; color: #444; }
 
 #popoverContent { display: none; }
-.webui-popover-content ul { display: block; margin: 0; }
+.webui-popover-content ul { display: block; margin: 0; padding: 0; }
 .webui-popover-content li { 
   display: block; 
   list-style-type: none; 
