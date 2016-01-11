@@ -35,6 +35,7 @@ $( document ).ready(function() {
   buttonwhitespace = 235;
   $('.webui-popover-content a').on("click", function () {
     $('.hasPopover').webuiPopover('hide');
+    console.log('eek');
   });
   $('.hasPopover').webuiPopover({
     trigger: 'manual',
