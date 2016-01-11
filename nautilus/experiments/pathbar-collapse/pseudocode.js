@@ -62,7 +62,7 @@ $( document ).ready(function() {
       }
     });
 
-    $(this).webuiPopover('show');
+    $(this).webuiPopover('toggle');
 
     /* FIXME make it close on clicking anywhere but the popover as well */
     $('.webui-popover-content a').click(function () {
