@@ -92,6 +92,7 @@ $( document ).ready(function() {
       $('.hasPopover').webuiPopover('hide');
     }
   }).contextmenu(function (ev) {
+    // Hiding the context menu outside of the page
     ev.preventDefault();
   });
 });
