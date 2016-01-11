@@ -1,8 +1,11 @@
 PTEMPLATE = ['Home', 'Documents', 'Events', '2015', 'GUADEC Team Reports'];
+
 MENU = ['Open in new Window', 'Open in New Tab', '', 'Move to…', 'Copy to…', 
         'Add to Bookmarks', 'Rename…', '', 'Properties'];
+
 PATH = {
   dirs: [],
+
   addDir: function () {
     if (PTEMPLATE[this.dirs.length]) {
       this.dirs.push(PTEMPLATE[this.dirs.length]);
@@ -11,11 +14,15 @@ PATH = {
       $("#add").attr("disabled","true");
     }
   },
+
   active: 2,
+
   setActive: function () {
   },
+
   forkFromActive: function () {
   },
+
   renderOut: function ($pb) {
     //console.log($pb,this.dirs);
     var h = [],
@@ -29,9 +36,11 @@ PATH = {
         h.push(' <li><span class="divider">/</span></li> ');
       }
     });
+
     $pb.html(h.join(''));
   }
 };
+
 $( document ).ready(function() {
   var $hb = $("#headerbar"),
   $pb = $("#pathbar"),
@@ -57,13 +66,16 @@ $( document ).ready(function() {
     });
     return false;
   });
+
   $pb.css("width", $hb.width() - buttonwhitespace);
+
   $("#add").click(function () {
     PATH.addDir();
     PATH.renderOut($("ul.pathbar"));
-    
   });
+
   $("#add").click();
+
   $(window).resize(function () {
     $pb.css("width", $hb.width() - buttonwhitespace);
   });
