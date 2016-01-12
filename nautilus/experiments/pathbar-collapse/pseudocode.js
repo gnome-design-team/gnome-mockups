@@ -15,9 +15,14 @@ PATH = {
     }
   },
 
-  active: 2,
+  active: 0,
 
-  setActive: function () {
+  setActive: function ($x) {
+    if ($x.children('a').length) {
+      this.active = $x.index;
+      $x.addClass('active')
+        .siblings().removeClass('active');
+    }
   },
 
   forkFromActive: function () {
@@ -62,28 +67,28 @@ $( document ).ready(function() {
         return html;
       }
     });
-
+  
     $(this).webuiPopover('toggle');
 
-    /* FIXME make it close on clicking anywhere but the popover as well */
     $('.webui-popover-content a').click(function () {
+      /* clicking on any menutiem dismisses the popover */
       $('.hasPopover').webuiPopover('hide');
     });
 
     ev.preventDefault();
   });
 
-  $pb.css("width", $hb.width() - buttonwhitespace);
+  $pb.css("width", $hb.width() - buttonwhitespace); //set pathbar width
 
   $("#add").click(function () {
     PATH.addDir();
     PATH.renderOut($("ul.pathbar"));
   });
 
-  $("#add").click();
+  $("#add").click(); //first item (Home) should be visible
 
   $(window).resize(function () {
-    $pb.css('width', $hb.width() - buttonwhitespace);
+    $pb.css('width', $hb.width() - buttonwhitespace); //set pathbar width
   });
 
   $(document).on('mousedown', function (ev) {
@@ -93,8 +98,15 @@ $( document ).ready(function() {
     if (!match) {
       $('.hasPopover').webuiPopover('hide');
     }
+    
   }).contextmenu(function (ev) {
     // Hiding the context menu outside of the page
     ev.preventDefault();
+  });
+  
+  $('#pathbar').on('mousedown', function (ev) {
+  // set menu as active
+    //console.log($(ev.target).closest('li').siblings())
+    PATH.setActive($(ev.target).closest('li'));
   });
 });
