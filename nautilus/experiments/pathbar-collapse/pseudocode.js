@@ -9,6 +9,7 @@ PATH = {
   addDir: function () {
     if (PTEMPLATE[this.dirs.length]) {
       this.dirs.push(PTEMPLATE[this.dirs.length]);
+      this.active = this.dirs.length-1;
     } 
     if (!PTEMPLATE[this.dirs.length]) {
       $("#add").attr("disabled","true");
