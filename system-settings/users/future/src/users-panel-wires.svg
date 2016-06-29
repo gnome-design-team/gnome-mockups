@@ -239,9 +239,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.25"
-     inkscape:cx="1240.1071"
-     inkscape:cy="1865.8217"
+     inkscape:zoom="1"
+     inkscape:cx="717.96739"
+     inkscape:cy="2185.8876"
      inkscape:document-units="px"
      inkscape:current-layer="g3444"
      showgrid="false"
@@ -279,7 +279,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -3370,31 +3370,27 @@
        id="rect11320"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccc" />
-    <g
-       transform="translate(42.0024,-201.5)"
-       id="g11359">
-      <rect
-         ry="2.3"
-         rx="2.3"
-         y="1042.6875"
-         x="1045.2188"
-         height="33"
-         width="129.00012"
-         id="rect11361"
-         style="display:inline;fill:#eaeaea;fill-opacity:1;stroke:#a7a7a7;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <text
-         id="text11363"
-         y="1063.488"
-         x="1060.6147"
-         style="font-style:normal;font-weight:normal;font-size:14px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;display:inline;fill:#2e3436;fill-opacity:1;stroke:none;enable-background:new"
-         xml:space="preserve"
-         transform="scale(0.9995531,1.0004471)"><tspan
-           y="1063.488"
-           x="1060.6147"
-           id="tspan11365"
-           sodipodi:role="line"
-           style="font-weight:normal;font-size:14px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;fill:#2e3436">Account Activity</tspan></text>
-    </g>
+    <rect
+       style="display:inline;fill:#eaeaea;fill-opacity:1;stroke:#a7a7a7;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect11361"
+       width="135"
+       height="33"
+       x="1079.2212"
+       y="841.1875"
+       rx="2.3"
+       ry="2.3" />
+    <text
+       transform="scale(0.9995531,1.0004471)"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;display:inline;fill:#2e3436;fill-opacity:1;stroke:none;enable-background:new"
+       x="1097.9735"
+       y="862.07806"
+       id="text11363"><tspan
+         style="font-weight:normal;font-size:14px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;fill:#2e3436"
+         sodipodi:role="line"
+         id="tspan11365"
+         x="1097.9735"
+         y="862.07806">Account Activity</tspan></text>
     <rect
        ry="2.3"
        rx="2.3"
@@ -4809,31 +4805,6 @@
        id="path8684"
        d="m 533.22113,1487.188 532.75007,0 16.7501,-16 16.7501,16 140.7501,0 0,427.9995 -707.00037,0 z"
        style="display:inline;fill:#ededed;fill-opacity:1;stroke:#a7a7a7;stroke-width:1;stroke-opacity:1" />
-    <g
-       id="g8686"
-       transform="translate(42.0024,814.5)">
-      <rect
-         style="display:inline;fill:#eaeaea;fill-opacity:1;stroke:#a7a7a7;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect8688"
-         width="129.00012"
-         height="33"
-         x="1045.2188"
-         y="1042.6875"
-         rx="2.3"
-         ry="2.3" />
-      <text
-         transform="scale(0.9995531,1.0004471)"
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:14px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;display:inline;fill:#2e3436;fill-opacity:1;stroke:none;enable-background:new"
-         x="1060.6147"
-         y="1063.488"
-         id="text8690"><tspan
-           style="font-weight:normal;font-size:14px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;fill:#2e3436"
-           sodipodi:role="line"
-           id="tspan8692"
-           x="1060.6147"
-           y="1063.488">Account Activity</tspan></text>
-    </g>
     <circle
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.54000005;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#eaeaea;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        id="circle8774"
@@ -5203,5 +5174,84 @@
            height="100.40916"
            width="219.20309"
            id="rect8844" /></flowRegion><flowPara
-         id="flowPara8846">Pan buttons are only shown when there are more accounts than can be displayed.</flowPara></flowRoot>  </g>
+         id="flowPara8846">Pan buttons are only shown when there are more accounts than can be displayed.</flowPara></flowRoot>    <g
+       id="g5063"
+       transform="translate(-487.9976,-201.5)">
+      <rect
+         style="display:inline;fill:#eaeaea;fill-opacity:1;stroke:#a7a7a7;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect5065"
+         width="135"
+         height="33"
+         x="1045.2188"
+         y="1042.6875"
+         rx="2.3"
+         ry="2.3" />
+      <text
+         transform="scale(0.9995531,1.0004471)"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:14px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;display:inline;fill:#2e3436;fill-opacity:1;stroke:none;enable-background:new"
+         x="1061.5554"
+         y="1063.488"
+         id="text5067"><tspan
+           style="font-weight:normal;font-size:14px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;fill:#2e3436"
+           sodipodi:role="line"
+           id="tspan5069"
+           x="1061.5554"
+           y="1063.488">Remove Account</tspan></text>
+    </g>
+    <g
+       id="g5082"
+       transform="translate(0,1016)">
+      <g
+         id="g5074"
+         transform="translate(-487.9976,-201.5)">
+        <rect
+           style="display:inline;fill:#eaeaea;fill-opacity:1;stroke:#a7a7a7;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect5076"
+           width="135"
+           height="33"
+           x="1045.2188"
+           y="1042.6875"
+           rx="2.3"
+           ry="2.3" />
+        <text
+           transform="scale(0.9995531,1.0004471)"
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:14px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;display:inline;fill:#2e3436;fill-opacity:1;stroke:none;enable-background:new"
+           x="1061.5554"
+           y="1063.488"
+           id="text5078"><tspan
+             style="font-weight:normal;font-size:14px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;fill:#2e3436"
+             sodipodi:role="line"
+             id="tspan5080"
+             x="1061.5554"
+             y="1063.488">Remove Account</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5094"
+       transform="translate(0,1016)">
+      <rect
+         style="display:inline;fill:#eaeaea;fill-opacity:1;stroke:#a7a7a7;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect5088"
+         width="135"
+         height="33"
+         x="1079.2212"
+         y="841.1875"
+         rx="2.3"
+         ry="2.3" />
+      <text
+         transform="scale(0.9995531,1.0004471)"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:14px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;display:inline;fill:#2e3436;fill-opacity:1;stroke:none;enable-background:new"
+         x="1097.9735"
+         y="862.07806"
+         id="text5090"><tspan
+           style="font-weight:normal;font-size:14px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;fill:#2e3436"
+           sodipodi:role="line"
+           id="tspan5092"
+           x="1097.9735"
+           y="862.07806">Account Activity</tspan></text>
+    </g>
+  </g>
 </svg>
