@@ -24,6 +24,18 @@
      id="defs2">
     <linearGradient
        inkscape:collect="always"
+       id="linearGradient6262">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.43360434"
+         offset="0"
+         id="stop6258" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop6260" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
        id="linearGradient5729">
       <stop
          style="stop-color:#91918c;stop-opacity:1;"
@@ -86,6 +98,15 @@
        y2="42.933517"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.11073823,0,0,1,269.50079,52.387498)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6262"
+       id="linearGradient6264"
+       x1="17.321939"
+       y1="105.46231"
+       x2="17.321939"
+       y2="104.11047"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -94,9 +115,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="608.5423"
-     inkscape:cy="690.4815"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="398.4128"
+     inkscape:cy="455.16278"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -171,8 +192,8 @@
        style="image-rendering:optimizeSpeed"
        xlink:href="file:///home/andreasn/Pictures/Screenshot%20from%202016-11-25%2017-16-22.png"
        id="image4752"
-       x="412.35678"
-       y="234.37462" />
+       x="382.4473"
+       y="76.686409" />
     <rect
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#bdbdbd;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        id="rect5312"
@@ -1116,5 +1137,17 @@
        id="rect6170"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csssscc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#fdfdfd;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 18.256249,93.138477 H 302.15416"
+       id="path6254"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.24899998;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient6264);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect6256"
+       width="287.60208"
+       height="1.0583346"
+       x="16.404165"
+       y="104.11874" />
   </g>
 </svg>
