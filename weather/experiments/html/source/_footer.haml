@@ -1,0 +1,24 @@
+%section#footer.bg-black
+  .container
+    .row
+      .col-md-1.col-md-offset-3.col-xs-2.col-xs-offset-2
+        %a.navbar-brand.page-scroll{:href => "#page-top"} 
+          =image_tag '/img/logo.svg', :title => 'Flatpak', :class => 'full'
+      %ul.col-md-8.col-xs-8
+        %li.toplevel.col-md-6
+          = link_to "Home", "index.html"
+        - data.menu.each do |i|
+          %li.toplevel.col-md-6.col-md-offset-0
+            /id links on index page
+            - if (current_page.path == 'index.html')
+              = link_to i.title, i.link, :class => "page-scroll"
+            - else
+              - if (i.link.match('^#'))
+                = "<a class='page-scroll' href='/index.html#{i.link}'>#{i.title}</a>"
+              - else
+                = link_to i.title, i.link, :class => "page-scroll"
+            - if !i.submenu.nil?
+              %ul
+                - i.submenu.each do |j|
+                  %li
+                    = link_to j.title, j.link, :class => "page-scroll"

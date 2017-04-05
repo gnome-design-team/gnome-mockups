@@ -1,0 +1,125 @@
+/* Oblique */
+
+/*
+@font-face {
+  font-family: "Overpass";
+  src: local("Overpass ExtraLight Italic"),
+        local(Overpass-ExtraLight-Italic),    
+        url(../fonts/Overpass-ExtraLight-Italic.ttf);
+  font-style: italic;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: local("Overpass Light Italic"),
+        local(Overpass-Light-Italic),
+        url(../fonts/Overpass-Light-Italic.ttf);
+  font-style: italic;
+  font-weight: 300;
+}
+
+*/
+
+@font-face {
+  font-family: "Overpass";
+  src: local("Overpass Italic"),
+        local(Overpass-Italic),
+        local(Overpass-Regular-Italic),    
+        url(../fonts/Overpass-Regular-Italic.ttf);
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: local("Overpass Bold Italic"),
+        local(Overpass-Bold-Italic),
+        local(Overpass-Bold-Italic),
+        url(../fonts/Overpass-Bold-Italic.ttf);
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* Normal */
+
+/*
+@font-face {
+  font-family: "Overpass";
+  src: local("Overpass ExtraLight"),
+        local(Overpass-ExtraLight),    
+        url(../fonts/Overpass-ExtraLight.ttf); 
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: local("Overpass Light"),
+        local(Overpass-Light),    
+        url(../fonts/Overpass-Light.ttf); 
+  font-style: normal;
+  font-weight: 300;
+}
+
+*/
+@font-face {
+  font-family: "Overpass";
+  src: local("Overpass Regular"),
+        local(Overpass),
+        local(Overpass-Regular),    
+        url(../fonts/Overpass-Regular.ttf); 
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Overpass";
+  src: local("Overpass Bold"),
+        local(Overpass-Bold),
+        local(Overpass-Bold),    
+        url(../fonts/Overpass-Bold.ttf); 
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro ExtraLight"),
+        local(SourceSansProExtraLight),
+        local(SourceSansPro-ExtraLight),    
+        url(../fonts/SourceSansPro-ExtraLight.otf); 
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro Light"),
+        local(SourceSansProLight),
+        local(SourceSansPro-Light),    
+        url(../fonts/SourceSansPro-Light.otf); 
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro Regular"),
+        local(SourceSansPro),
+        local(SourceSansPro-Regular),    
+        url(../fonts/SourceSansPro-Regular.otf); 
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro SemiBold"),
+        local(SourceSansProSemiBold),
+        local(SourceSansPro-SemiBold),    
+        url(../fonts/SourceSansPro-Semibold.otf); 
+  font-style: bold;
+  font-weight: 600;
+}
+

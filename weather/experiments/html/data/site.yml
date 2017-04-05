@@ -1,0 +1,19 @@
+name: GNOME Site Template
+domain: http://site.gnome.org
+punchline: GNOME is People
+
+## If unspecified, timezone defaults to UTC
+## For more TZs, see the top of:
+## https://github.com/rails/rails/blob/master/activesupport/lib/active_support/values/time_zone.rb
+#timezone: Berlin
+#timezone: America/New_York
+#timezone: Eastern Time (US & Canada)
+
+
+# Global meta tags on each page <>
+# To have page-specific tags added, please add a YAML list to "tags:"
+# in that page's frontmatter block (the part at the top between ---)
+keywords:
+  - gnome
+  - devel
+

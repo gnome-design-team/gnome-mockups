@@ -1,0 +1,22 @@
+#bs-example-navbar-collapse-1.collapse.navbar-collapse
+  %ul.nav.navbar-nav.navbar-default
+    -if (current_page.path == 'index.html')
+      - data.menu.each do |i|
+        -if (!i.onlyfooter)
+          %li
+            = link_to i.title, i.link, :class => "page-scroll"
+    -else
+      - data.menu.each do |i|
+        -if (!i.onlyfooter)
+          - if i.link.match('^#').nil?
+            %li
+              = link_to i.title, i.link, :class => "page-scroll"
+          - else
+            %li
+              = "<a href='/index.html#{i.link}'>#{i.title}</a>"
+  / /.navbar-collapse
+  %ul.nav.navbar-nav.navbar-right
+    %li
+      = link_to "#", :class => "search" do
+        = image_tag "/img/search.svg"
+        Search

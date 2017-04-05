@@ -1,0 +1,43 @@
+!!!5
+%html
+  %head
+    %title 
+      =current_page.data.title
+    %meta{content: "text/html; charset=UTF8", "http-equiv" => "content-type"}/
+    %meta{content: "#{current_page.data.description}", name: "description"}/
+    %meta{content: "fleet,commander,fleetcommander", name: "keywords"}/
+    %meta{content: "width=device-width,initial-scale=1", name: "viewport" }/ 
+    %link{rel:"icon", "type" => "image/png", href:"img/favicon.png"}/
+    %link{rel:"shortcut icon", "type" => "image/x-icon", href:"/favicon.ico"}/
+    %link{rel:"apple-touch-icon", "sizes" => "57x57", href:"img/favicon57.png"}/
+    %link{rel:"apple-touch-icon", "sizes" => "152x152", href:"img/favicon152.png"}/
+    = stylesheet_link_tag :fonts
+    = stylesheet_link_tag :site
+    = stylesheet_link_tag :animate
+    = javascript_include_tag :jquery
+
+  %body#page-top
+    %nav#mainNav.navbar.navbar-default.navbar-fixed-top
+      .container-fluid
+        / Brand and toggle get grouped for better mobile display
+        .navbar-header
+          %button.navbar-toggle.collapsed{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          -if (current_page.path == 'index.html')
+            = link_to data.site.name, "#page-top", :class => "navbar-brand page-scroll"
+          -else
+            = link_to data.site.name, "index.html", :class => "navbar-brand page-scroll"
+
+        = partial "navigation"
+      / /.container-fluid
+  %main
+    = yield
+  = partial "footer"
+  = javascript_include_tag "jquery.easing.min"
+  = javascript_include_tag "jquery.toc.min"
+  = javascript_include_tag :bootstrap
+  = javascript_include_tag :all
+  = google_analytics_universal_tag
