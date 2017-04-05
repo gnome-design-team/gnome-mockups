@@ -19,13 +19,6 @@
   %body#page-top
     %nav#mainNav.navbar.navbar-default.navbar-fixed-top
       .container-fluid
-        / Brand and toggle get grouped for better mobile display
-        .navbar-header
-          %button.navbar-toggle.collapsed{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
-            %span.sr-only Toggle navigation
-            %span.icon-bar
-            %span.icon-bar
-            %span.icon-bar
           -if (current_page.path == 'index.html')
             = link_to data.site.name, "#page-top", :class => "navbar-brand page-scroll"
           -else
