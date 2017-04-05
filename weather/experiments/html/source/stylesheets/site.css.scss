@@ -35,7 +35,7 @@ body {
   width: 100%;
   direction: ltr;
   border: 1px solid blue;
-  scroll-x: auto;
+  overflow-x: scroll;
 }
 .hour {
   display: flex-item;
