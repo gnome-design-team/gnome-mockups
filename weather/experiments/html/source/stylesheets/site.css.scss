@@ -38,6 +38,6 @@ body {
 }
 .hour {
   display: flex-item;
-  width: 10em;
   height: 30em;
+  min-width: 10em;
 }
