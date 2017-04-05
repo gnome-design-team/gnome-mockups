@@ -38,8 +38,7 @@ body {
   justify-content: space-between;
   align-items: stretch;
   height: 200px;
-  flex-wrap: wrap;
-  /* visibility: collapse; */
+  visibility: collapse;
   &.now {
     flex: 2;
   }
