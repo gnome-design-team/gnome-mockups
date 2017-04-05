@@ -8,18 +8,14 @@ description: Prototype some responsive layouts
       #wicon.col-sm-2
       .col-sm-4
         %h1.place London
-        .temperature 18°C
+        .temp 18°C
         .feelslike 16°C
     
-%section
-  .container
-    .row
-      .col-sm-3.col-sm-offset-1
-        %h2 Social Media
-        %p
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse lectus.  
-      .col-sm-7
-        %h2 News
-        %p
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse lectus. Mauris sed nulla quis nisi interdum tempor. 
-          Proin diam augue, semper vitae, varius et, viverra id, felis. 
+%section.hourlyforecast
+  .hours
+    .hour
+      .time 1:00
+      .hourlyicon.moon
+      .temp 4°
+      .wind 15mps
+      .precipitation 40%
