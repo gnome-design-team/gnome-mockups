@@ -39,6 +39,9 @@ body {
   align-items: stretch;
   height: 200px;
   flex-wrap: wrap;
+  &.now {
+    flex: 2;
+  }
 }
 .hour {
   display: flex-item;
