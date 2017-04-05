@@ -17,13 +17,6 @@
     = javascript_include_tag :jquery
 
   %body#page-top
-    %nav#mainNav.navbar.navbar-default.navbar-fixed-top
-      .container-fluid
-        -if (current_page.path == 'index.html')
-          = link_to data.site.name, "#page-top", :class => "navbar-brand page-scroll"
-        -else
-          = link_to data.site.name, "index.html", :class => "navbar-brand page-scroll"
-
         = partial "navigation"
       / /.container-fluid
   %main
