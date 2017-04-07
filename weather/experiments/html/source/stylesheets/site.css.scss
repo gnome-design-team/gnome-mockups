@@ -12,14 +12,18 @@ $primary_color: #4a86cf;
 $secondary_orange_color: #f57900;
 $secondary_green_color: #4e9a06;
 $secondary_purple_color: #692c52;
-$neutral_color: #808080;
-$dark_neutral_color: #333333;
+$base_bg_color: #808080;
+$bg_color: #2e3436;
+$fg_color: #fff;
+$dark_neutral_color: #555753;
 $defaultfont: 'Source Sans Pro', 'Source Sans', sans-serif;
 
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: $bg_color;
+  color: $fg_color;
 }
 
 body {
@@ -29,23 +33,78 @@ body {
   font-style: normal;
 }
 
+header {
+  margin-top: 64px;
+  margin-bottom: 64px;
+  .temp {
+    font-size: 200%;
+    display: inline-block;
+    margin-right: 16px;
+  }
+  .feelslike {
+    font-size: 80%;
+    display: inline-block;
+    &:before { content: 'Feels like '; }
+  }
+}
+
+#wicon svg {
+  width: 100%;
+  height: auto;
+  path { fill: #fff !important; }  
+}
+
+.hourlyicon svg {
+  width: 32px;
+  height: 32px;
+  path { fill: #fff !important; }
+}
+
 .hours {
   display: flex;
   flex-direction: row;
-  width: 100%;
   direction: ltr;
   overflow-x: auto;
   justify-content: space-between;
   align-items: stretch;
   height: 200px;
   /* visibility: collapse; */
-  &.now {
-    flex: 2;
-  }
 }
 .hour {
-  display: flex-item;
-  min-width: 10em;
-  background-color: #eee;
-  margin: 2px;
+  background-color: $dark_neutral_color;
+  display: flex;
+  min-width: 90px;
+  flex-direction: column;
+  div {
+    display: flex-item;
+    text-align: center;
+  }
+}
+
+.today {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  align-items: flex-end;
+
+  h1.place {
+    width: 100%;
+  }
+  div {
+    flex: 1;
+    border: 1px solid blue;
+    min-width: 40%;
+  }
+  svg,span { display: inline-block; }
+}
+
+@media only screen and (max-width : 768px) {
+  .hours {
+    flex-direction: column;
+    height: inherit;
+  }
+  .hour {
+    flex-direction: row;
+    min-width: inherit;
+  }
 }

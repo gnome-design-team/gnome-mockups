@@ -3,163 +3,192 @@ title: Weather Responsive Demo
 description: Prototype some responsive layouts
 ---
 %header
-  .header-content
-    .header-content-inner.row
-      #wicon.col-sm-2
-      .col-sm-4
+  .container
+    .row
+      #wicon.col-sm-2.col-xs-6
+        = partial "img/icons/weather-showers-scattered-symbolic.svg"
+      .today.col-sm-4.col-xs-6
         %h1.place London
         .temp 18°C
         .feelslike 16°C
+        .wind
+          = partial "img/icons/weather-windy-symbolic.svg"
+          %span 11kps
+        .sunrise
+          = partial "img/icons/daytime-sunrise-symbolic.svg"
+          %span 6:01
+        .sunset
+          = partial "img/icons/daytime-sunset-symbolic.svg"
+          %span 8:14
+        
     
-%section.hourlyforecast
-  .hours
-    .hour.weather-clear-night
-      .time 1:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 2:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 3:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 4:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 5:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 6:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 7:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 8:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 9:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 10:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 11:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 12:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 13:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 14:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night.now
-      .time 15:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 16:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 17:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 18:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 10:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 10:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 10:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 10:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 10:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 10:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
-    .hour.weather-clear-night
-      .time 10:00
-      .hourlyicon
-      .temp 4°
-      .wind 15mps
-      .precipitation 40%
+%section.container
+  .hourlyforecast.row
+    .hours.col-sm-12
+      .hour
+        .time 1:00
+        .hourlyicon
+          = partial "img/icons/weather-clear-night-symbolic.svg"
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour
+        .time 2:00
+        .hourlyicon
+          = partial "img/icons/weather-clear-night-symbolic.svg"
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour
+        .time 3:00
+        .hourlyicon
+          = partial "img/icons/weather-clear-night-symbolic.svg"
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour
+        .time 4:00
+        .hourlyicon
+          = partial "img/icons/weather-few-clouds-night-symbolic.svg"
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour
+        .time 5:00
+        .hourlyicon
+          = partial "img/icons/weather-few-clouds-night-symbolic.svg"
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour
+        .time 6:00
+        .hourlyicon
+          = partial "img/icons/weather-showers-scattered-symbolic.svg"
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour
+        .time 7:00
+        .hourlyicon
+          = partial "img/icons/weather-showers-scattered-symbolic.svg"
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour
+        .time 8:00
+        .hourlyicon
+          = partial "img/icons/weather-showers-scattered-symbolic.svg"
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour.weather-clear-night
+        .time 9:00
+        .hourlyicon
+          = partial "img/icons/weather-showers-symbolic.svg"
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour.weather-clear-night
+        .time 10:00
+        .hourlyicon
+          = partial "img/icons/weather-overcast-symbolic.svg"
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour.weather-clear-night
+        .time 11:00
+        .hourlyicon
+          = partial "img/icons/weather-overcast-symbolic.svg"
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour.weather-clear-night
+        .time 12:00
+        .hourlyicon
+          = partial "img/icons/weather-few-clouds-symbolic.svg"
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour.weather-clear-night
+        .time 13:00
+        .hourlyicon
+          = partial "img/icons/weather-few-clouds-symbolic.svg"
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour.weather-clear-night
+        .time 14:00
+        .hourlyicon
+          = partial "img/icons/weather-few-clouds-symbolic.svg"
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour.weather-clear-night.now
+        .time 15:00
+        .hourlyicon
+          = partial "img/icons/weather-clear-symbolic.svg"
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour.weather-clear-night
+        .time 16:00
+        .hourlyicon
+          = partial "img/icons/weather-clear-symbolic.svg"
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour.weather-clear-night
+        .time 17:00
+        .hourlyicon
+          = partial "img/icons/weather-clear-symbolic.svg"
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour.weather-clear-night
+        .time 18:00
+        .hourlyicon
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour.weather-clear-night
+        .time 10:00
+        .hourlyicon
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour.weather-clear-night
+        .time 10:00
+        .hourlyicon
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour.weather-clear-night
+        .time 10:00
+        .hourlyicon
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour.weather-clear-night
+        .time 10:00
+        .hourlyicon
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour.weather-clear-night
+        .time 10:00
+        .hourlyicon
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour.weather-clear-night
+        .time 10:00
+        .hourlyicon
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
+      .hour.weather-clear-night
+        .time 10:00
+        .hourlyicon
+        .temp 4°
+        .wind 15mps
+        .precipitation 40%
