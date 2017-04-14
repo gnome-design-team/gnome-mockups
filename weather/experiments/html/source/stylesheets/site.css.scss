@@ -68,7 +68,7 @@ header {
   flex-direction: row;
   direction: ltr;
   overflow-x: auto;
-  overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
   justify-content: space-between;
   align-items: stretch;
   height: 200px;
