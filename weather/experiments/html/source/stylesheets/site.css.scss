@@ -45,6 +45,10 @@ header {
     display: inline-block;
     &:before { content: 'Feels like '; }
   }
+  svg {
+    width: 16px;
+    heaight 16px;
+  }
 }
 
 #wicon svg {
