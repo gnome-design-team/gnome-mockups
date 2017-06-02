@@ -29,9 +29,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="595.34055"
-     inkscape:cy="884.64816"
+     inkscape:zoom="1"
+     inkscape:cx="339.41386"
+     inkscape:cy="1568.3482"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -69,7 +69,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2975,7 +2975,7 @@
          id="tspan7567"
          x="-740.7951"
          y="-1166.2338"
-         style="font-weight:normal;text-align:start;text-anchor:start">For use with Mac or Windows (NTFS)</tspan></text>
+         style="font-weight:normal;text-align:start;text-anchor:start">For use with Windows (NTFS)</tspan></text>
     <g
        style="display:inline"
        id="g7581"
@@ -3041,7 +3041,7 @@
          y="-1138.2338"
          x="-740.7951"
          id="tspan7589"
-         sodipodi:role="line">For use with older operating systems (FAT)</tspan></text>
+         sodipodi:role="line">For use with all devices and systems (FAT)</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -759.25738,-1407.1078 v 20"
@@ -3576,61 +3576,6 @@
          id="tspan10336"
          x="-783.59106"
          y="-688.15173">Confirm</tspan></text>
-    <g
-       style="display:inline"
-       id="g10386"
-       transform="matrix(0.93617253,0,0,0.93566004,-942.53621,-1454.2288)"
-       inkscape:label="#g15805">
-      <rect
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
-         id="rect10376"
-         width="17.090866"
-         height="17.100227"
-         x="206.99057"
-         y="261.97873" />
-      <g
-         id="g10384">
-        <g
-           style="display:inline"
-           id="g10382"
-           transform="matrix(0.5089163,0,0,0.51739823,181.7932,197.56426)">
-          <g
-             id="g10380">
-            <rect
-               ry="15.453857"
-               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#e1e1e1;fill-opacity:1;fill-rule:nonzero;stroke:#a1a1a1;stroke-width:2.08222389;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-               id="rect10378"
-               width="29.385006"
-               height="28.919117"
-               x="50.570232"
-               y="125.5297"
-               rx="15.428222" />
-          </g>
-        </g>
-      </g>
-    </g>
-    <g
-       style="display:inline"
-       id="g10392"
-       transform="matrix(0.93340838,0,0,0.93289741,-1175.3161,-1453.505)"
-       inkscape:label="#g2928">
-      <rect
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
-         id="rect10388"
-         width="17.141478"
-         height="17.150867"
-         x="456.99054"
-         y="261.97867" />
-      <use
-         transform="matrix(1.0029614,0,0,1.0029613,249.38699,-0.77583998)"
-         style="display:inline"
-         x="0"
-         y="0"
-         xlink:href="#g7025"
-         id="use10390"
-         width="1"
-         height="1" />
-    </g>
     <text
        id="text10396"
        y="-1196.1517"
@@ -3655,18 +3600,77 @@
       </g>
     </g>
     <g
-       id="g10418"
-       transform="translate(-765.76134,-1239.4679)">
-      <rect
-         ry="6"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#e1e1e1;fill-opacity:1;stroke:#a1a1a1;stroke-width:2.09697676;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-         id="rect10416"
-         width="29.559635"
-         height="29.154205"
-         x="50.440369"
-         y="125.3458"
-         rx="6"
-         transform="matrix(0.47304779,0,0,0.4807373,-6.3607039,-29.396216)" />
+       id="g704"
+       transform="translate(0,-0.0019277)">
+      <g
+         inkscape:label="#g15805"
+         transform="matrix(0.93617253,0,0,0.93566004,-942.53621,-1454.2288)"
+         id="g10386"
+         style="display:inline">
+        <rect
+           y="261.97873"
+           x="206.99057"
+           height="17.100227"
+           width="17.090866"
+           id="rect10376"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+        <g
+           id="g10384">
+          <g
+             transform="matrix(0.5089163,0,0,0.51739823,181.7932,197.56426)"
+             id="g10382"
+             style="display:inline">
+            <g
+               id="g10380">
+              <rect
+                 rx="15.428222"
+                 y="125.5297"
+                 x="50.570232"
+                 height="28.919117"
+                 width="29.385006"
+                 id="rect10378"
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#e1e1e1;fill-opacity:1;fill-rule:nonzero;stroke:#a1a1a1;stroke-width:2.08222389;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+                 ry="15.453857" />
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         inkscape:label="#g2928"
+         transform="matrix(0.93340838,0,0,0.93289741,-1175.3161,-1453.505)"
+         id="g10392"
+         style="display:inline">
+        <rect
+           y="261.97867"
+           x="456.99054"
+           height="17.150867"
+           width="17.141478"
+           id="rect10388"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+        <use
+           height="1"
+           width="1"
+           id="use10390"
+           xlink:href="#g7025"
+           y="0"
+           x="0"
+           style="display:inline"
+           transform="matrix(1.0029614,0,0,1.0029613,249.38699,-0.77583998)" />
+      </g>
+      <g
+         transform="translate(-765.76134,-1239.4679)"
+         id="g10418">
+        <rect
+           transform="matrix(0.47304779,0,0,0.4807373,-6.3607039,-29.396216)"
+           rx="6"
+           y="125.3458"
+           x="50.440369"
+           height="29.154205"
+           width="29.559635"
+           id="rect10416"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#e1e1e1;fill-opacity:1;stroke:#a1a1a1;stroke-width:2.09697676;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+           ry="6" />
+      </g>
     </g>
     <text
        id="text509"
@@ -3882,7 +3886,7 @@
            y="4168"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:end;text-anchor:end;fill:#919191" /></flowRegion><flowPara
          id="flowPara10909"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:end;text-anchor:end;fill:#919191">Space used</flowPara></flowRoot>    <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:end;text-anchor:end;fill:#919191">Used</flowPara></flowRoot>    <flowRoot
        transform="translate(-1919.6819,-4251.6111)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:6.00000048px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot10919"
