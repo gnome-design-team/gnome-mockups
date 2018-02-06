@@ -30,7 +30,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1"
      inkscape:cx="82.05519"
-     inkscape:cy="909.282"
+     inkscape:cy="789.282"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -844,7 +844,7 @@
          sodipodi:role="line"
          x="265"
          y="-386.48035"
-         id="tspan982">Fixme: would be nice to filter the list, but that might clash with the golbal search top left</tspan></text>
+         id="tspan982">Fixme: would be nice to filter the list, but that might clash with the global search top left</tspan></text>
     <rect
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#eaeaea;fill-opacity:1;fill-rule:nonzero;stroke:#919191;stroke-width:0.99999964;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        id="rect2995-2-4"
@@ -872,17 +872,21 @@
          y="-973.6145">Unlock</tspan></text>
     <text
        id="text9459"
-       y="-872.48035"
+       y="-869.48035"
        x="376"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          id="tspan9457"
-         y="-872.48035"
+         y="-869.48035"
          x="376"
-         sodipodi:role="line">Allows direct access to devices such as docks and FIXME.</tspan></text>
+         sodipodi:role="line">Allows direct access to devices such as docks and </tspan><tspan
+         y="-851.14703"
+         x="376"
+         sodipodi:role="line"
+         id="tspan16850">external GPUs.</tspan></text>
     <g
        id="g9491"
-       transform="translate(325,-429)">
+       transform="translate(325,-440)">
       <rect
          ry="2"
          rx="2"
@@ -2633,16 +2637,6 @@
          x="376.02441"
          y="-114.89636"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">Direct Access</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       x="376"
-       y="-93.480347"
-       id="text14740"><tspan
-         sodipodi:role="line"
-         x="376"
-         y="-93.480347"
-         id="tspan14738">Allows direct access devices such as docks and FIXME.</tspan></text>
     <g
        transform="translate(325,350)"
        id="g14750">
@@ -2736,6 +2730,20 @@
          x="853"
          y="134.51965"
          id="tspan14782">Disconnected</tspan></text>
+    <text
+       id="text9459-1"
+       y="-89.480347"
+       x="376"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         id="tspan9457-6"
+         y="-89.480347"
+         x="376"
+         sodipodi:role="line">Allows direct access to devices such as docks and </tspan><tspan
+         y="-71.147011"
+         x="376"
+         sodipodi:role="line"
+         id="tspan16850-7">external GPUs.</tspan></text>
     <path
        style="display:inline;opacity:0.18399999;fill:#010101;fill-opacity:1;stroke:#000000;stroke-width:1.02702487;stroke-opacity:1"
        d="m 958.51758,-223.9511 -900.00388,0.002 c -4.9858,0 -9,4.46 -9,10 v 36.99609 532.99996 l 917.9863,-0.014 0.0176,-569.9844 c 0,-4.3736 -4.0143,-10 -9,-10 z"
@@ -2744,10 +2752,10 @@
        sodipodi:nodetypes="ccsccccc" />
     <g
        id="g14927"
-       transform="translate(-207,107)">
+       transform="translate(-227,73)">
       <path
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;filter:url(#filter12000-4-9-2);enable-background:accumulate"
-         d="m 459.46784,-151.98015 551.00376,-5e-4 c 4.9857,0 8.9994,5.6264 8.9994,10 v 241 h -8.9994 l -551.00376,5e-4 h -8.9995 v -241 c 0,-5.54 4.0137,-10 8.9995,-10 z"
+         d="m 459.46784,-151.98015 551.00376,-5e-4 c 4.9857,0 8.9994,5.6264 8.9994,10 v 308 h -8.9994 l -551.00376,5e-4 h -8.9995 v -308 c 0,-5.54 4.0137,-10 8.9995,-10 z"
          id="path14470-3"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="sssccccss"
@@ -2762,7 +2770,7 @@
            id="tspan13061-3"
            y="-121.6524"
            x="739.97693"
-           sodipodi:role="line">Lenovo Thinkpad Thunderbolt 3 dock</tspan></text>
+           sodipodi:role="line">Lenovo Dock (Home)</tspan></text>
       <g
          style="display:inline;fill:#888a85"
          transform="translate(988.00157,-134.48028)"
@@ -2819,7 +2827,7 @@
          inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
          ry="3"
          rx="3"
-         y="32.019592"
+         y="108.01959"
          x="494.5"
          height="33"
          width="475"
@@ -2830,21 +2838,21 @@
          inkscape:export-xdpi="90"
          inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
          id="text3767-1-5"
-         y="52.410095"
+         y="128.4101"
          x="735.92749"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.30000019px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           y="52.410095"
+           y="128.4101"
            x="735.92749"
            id="tspan3769-7-36"
            sodipodi:role="line">Forget Device</tspan></text>
       <text
          id="text14935"
-         y="-28.480366"
+         y="25.519634"
          x="627"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           y="-28.480366"
+           y="25.519634"
            x="627"
            id="tspan14933"
            sodipodi:role="line">UUID:</tspan></text>
@@ -2852,29 +2860,29 @@
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
          x="658"
-         y="-28.480366"
+         y="25.519634"
          id="text14943"><tspan
            sodipodi:role="line"
            id="tspan14941"
            x="658"
-           y="-28.480366">d8030000-0060-5708-23a1-0e3109d16afc</tspan></text>
+           y="25.519634">d8030000-0060-5708-23a1-0e3109d16afc</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
          x="627"
-         y="-2.4803665"
+         y="57.51963"
          id="text14947"><tspan
            sodipodi:role="line"
            id="tspan14945"
            x="627"
-           y="-2.4803665">Authorization Time:</tspan></text>
+           y="57.51963">Authorization Time:</tspan></text>
       <text
          id="text14951"
-         y="-2.4803665"
+         y="57.51963"
          x="658"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           y="-2.4803665"
+           y="57.51963"
            x="658"
            id="tspan14949"
            sodipodi:role="line">2018-01-28 18:48</tspan></text>
@@ -2882,22 +2890,51 @@
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
          x="627"
-         y="-54.480434"
+         y="-6.4804344"
          id="text14931"><tspan
            sodipodi:role="line"
            id="tspan14929"
            x="627"
-           y="-54.480434">Status:</tspan></text>
+           y="-6.4804344">Status:</tspan></text>
       <text
          id="text14939"
-         y="-54.480434"
+         y="-6.4804344"
          x="658"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           y="-54.480434"
+           y="-6.4804344"
            x="658"
            id="tspan14937"
            sodipodi:role="line">Connected &amp; Authorized</tspan></text>
+      <text
+         id="text16829"
+         y="-38.480434"
+         x="627"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="-38.480434"
+           x="627"
+           id="tspan16827"
+           sodipodi:role="line">Name:</tspan></text>
+      <rect
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#919191;stroke-width:0.99999994;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect10436"
+         width="310"
+         height="29"
+         x="657.5"
+         y="-58.9804"
+         rx="2.2999997"
+         ry="2.3" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         x="663"
+         y="-39.480434"
+         id="text16833"><tspan
+           sodipodi:role="line"
+           id="tspan16831"
+           x="663"
+           y="-39.480434">Lenovo Dock (Home)</tspan></text>
     </g>
     <text
        id="text15017"
@@ -2948,5 +2985,15 @@
          x="53"
          id="tspan16819"
          sodipodi:role="line">Default TB3 Full Access: Device Details</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="265"
+       y="-298.48035"
+       id="text16825"><tspan
+         sodipodi:role="line"
+         x="265"
+         y="-298.48035"
+         id="tspan16823">Fixme: deal with BIOS restricted mode. If set to DP in bios, can we override?</tspan></text>
   </g>
 </svg>
