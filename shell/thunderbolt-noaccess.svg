@@ -15,7 +15,7 @@
    viewBox="0 0 600 300"
    version="1.1"
    id="svg1072"
-   inkscape:version="0.92.1 r"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
    sodipodi:docname="thunderbolt-noaccess.svg"
    inkscape:export-filename="/home/jimmac/SparkleShare/gnome-mockups/shell/thunderbolt-noaccess.png"
    inkscape:export-xdpi="96"
@@ -87,7 +87,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="64.967232"
+     inkscape:cx="-139.03277"
      inkscape:cy="268.91965"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -114,7 +114,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -160,7 +160,7 @@
          x="1007.5"
          y="862.31616"
          style="font-size:14px;line-height:2.4000001"
-         id="tspan24915"></tspan><tspan
+         id="tspan24915" /><tspan
          sodipodi:role="line"
          x="1007.5"
          y="879.57611"
@@ -784,13 +784,13 @@
          y="-252.40607"
          id="text10715"><tspan
            sodipodi:role="line"
-           id="tspan10717"
            x="134.50223"
-           y="-252.40607">Unknown devices need to be inspected before use. </tspan><tspan
+           y="-252.40607"
+           id="tspan26835">Unknown and possibly malicious device needs to be </tspan><tspan
            sodipodi:role="line"
            x="134.50223"
            y="-239.07274"
-           id="tspan26835">Please contact the administrator to allow access.</tspan></text>
+           id="tspan8566">authorized as system administrator.</tspan></text>
       <text
          id="text10719"
          y="-203.26355"
@@ -800,7 +800,7 @@
            y="-203.26355"
            x="263.54468"
            id="tspan10721"
-           sodipodi:role="line">Contact Administrator</tspan></text>
+           sodipodi:role="line">Settings</tspan></text>
       <g
          style="display:inline;fill:#babdb6"
          transform="translate(410.99995,-286.64906)"
@@ -1166,5 +1166,7 @@
            x="81"
            y="227"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start" /></flowRegion><flowPara
-         id="flowPara30358">Takes you to a URL explaining the security policy and allows to contact the admin team.</flowPara></flowRoot>  </g>
+         id="flowPara30358">In corporate environment, this is an unlikely scenario where a sysadmin would authorize the device locally. </flowPara><flowPara
+         id="flowPara8568"></flowPara><flowPara
+         id="flowPara8570">A remote way to whitelist the device on the system is likely to happen for corporate env.</flowPara></flowRoot>  </g>
 </svg>
