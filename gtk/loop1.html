@@ -1,0 +1,28 @@
+<html>
+<head>
+<style type="text/css">
+body {
+  display: flex;
+  height: 100vh;
+  background-color: #729fcf;
+  animation: bgfade 5s infinite;
+  animation-direction: alternate;
+}
+
+video {
+  display: block;
+  margin: auto;
+}
+
+@keyframes bgfade {
+  0%   { background-color: #729fcf; }
+  50%   { background-color: #73d216; }
+  100% { background-color: #cc0000; }
+}
+
+</style>
+</head>
+<body>
+<video src="loop1.webm" loop autoplay />
+</body>
+</html>
